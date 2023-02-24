@@ -6,7 +6,25 @@ function zore(t) {
 function wf(name, data) {
   fs.writeFileSync(path.join(__dirname, "node", name), data);
 }
-//2023/02/20230224.yaml
+function readme() {
+  return fs.readFileSync(path.join(__dirname, "README.md")).toString();
+}
+function wreadme(data) {
+  return fs.writeFileSync(path.join(__dirname, "README.md"), data);
+}
+
+function update_read_me() {
+  let read = readme();
+  let update_readme = read.replace(
+    /<time>(.*)<\/time>/,
+    `<time>${[y, m, day].join("/")} ${[
+      zore(d.getHours()),
+      zore(d.getMinutes()),
+      zore(d.getSeconds()),
+    ].join(": ")}</time>`
+  );
+  wreadme(update_readme);
+}
 
 let nodes = [
   {
@@ -31,7 +49,7 @@ let timeStr = [y, m, `${y}${m}${day}.yaml`].join("/");
       console.log(`[ ${node.hostUrl + timeStr} ] is ok`);
       wf(`${node.name}.yaml`, res);
     }
-    wf(`update.txt`, [y, m, day, zore(d.getHours())].join("/"));
+    update_read_me();
   } catch (error) {
     console.log("error :" + error);
   }

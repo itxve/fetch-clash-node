@@ -2,10 +2,10 @@
 name: Daily Update
 
 on:
-  #  8-13 beijin
-  # Runs at 0-5  UTC every day
+  #  8-14 beijin
+  # Runs at 0-6  UTC every day
   schedule:
-    - cron: "0 0,1,2,3,4,5 * * *"
+    - cron: "0 0,1,2,3,4,5,6 * * *"
 
   # Manual updates
   workflow_dispatch:
