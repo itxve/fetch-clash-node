@@ -9,8 +9,15 @@
 
 ## Subscription Links
 
-- NodeFree: https://raw.githubusercontent.com/itxve/fetch-clash-node/main/node/ClashNode.yaml ★
-- ClashNode: https://raw.githubusercontent.com/itxve/fetch-clash-node/main/node/NodeFree.yaml ★
+- ClashNode: https://raw.githubusercontent.com/itxve/fetch-clash-node/main/node/ClashNode.yaml ★
+
+- NodeFree: https://raw.githubusercontent.com/itxve/fetch-clash-node/main/node/NodeFree.yaml ★
+
+## Subscription Links (CDN)可能有延迟
+
+- ClashNode: https://cdn.jsdelivr.net/gh/itxve/fetch-clash-node/node/ClashNode.yaml ★
+
+- NodeFree: https://cdn.jsdelivr.net/gh/itxve/fetch-clash-node/node/NodeFree.yaml ★
 
 ## Similar Project
 
