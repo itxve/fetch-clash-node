@@ -13,7 +13,7 @@
 
 - NodeFree: https://raw.githubusercontent.com/itxve/fetch-clash-node/main/node/NodeFree.yaml ★
 
-## Subscription Links (CDN)可能有延迟
+## Subscription Links (CDN) There is a certain delay
 
 - ClashNode: https://cdn.jsdelivr.net/gh/itxve/fetch-clash-node/node/ClashNode.yaml ★
 
