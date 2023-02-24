@@ -24,7 +24,7 @@ let y = zore(d.getFullYear());
 let m = zore(d.getMonth() + 1);
 let day = zore(d.getDate());
 let timeStr = [y, m, `${y}${m}${day}.yaml`].join("/");
-
+console.log("hour:" + d.getHours());
 (async () => {
   try {
     for (let node of nodes) {
