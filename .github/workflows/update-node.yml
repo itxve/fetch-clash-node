@@ -28,6 +28,6 @@ jobs:
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
-          git add ./node
+          git add ./node README.md
           git commit -m "update node"
           git push
