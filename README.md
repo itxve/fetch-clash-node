@@ -12,6 +12,10 @@
 - NodeFree: https://raw.githubusercontent.com/itxve/fetch-clash-node/main/node/ClashNode.yaml ★
 - ClashNode: https://raw.githubusercontent.com/itxve/fetch-clash-node/main/node/NodeFree.yaml ★
 
+## Similar Project
+
+[ClashX-V2Ray-TopFreeProxy](https://github.com/WilliamStar007/ClashX-V2Ray-TopFreeProxy)
+
 ## Disclaimer
 
 This project is meant for personal and educational uses only.
