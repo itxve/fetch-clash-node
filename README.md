@@ -5,11 +5,8 @@
 
 ## Last Update Time
 
-<<<<<<< HEAD
 <b><time>2023/02/27 11: 16: 14</time></b>
-=======
-<b><time>2023/02/27 05: 17: 53</time></b>
->>>>>>> 0d0b672c13fdc96adec209f30a8b1b748dd75d66
+
 
 ## Subscription Links
 
