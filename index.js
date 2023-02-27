@@ -45,9 +45,18 @@ let timeStr = [y, m, `${y}${m}${day}.yaml`].join("/");
 (async () => {
   try {
     for (let node of nodes) {
-      let res = await fetch(node.hostUrl + timeStr).then((res) => res.text());
-      console.log(`[ ${node.hostUrl + timeStr} ] is ok`);
-      wf(`${node.name}.yaml`, res);
+      let res = await fetch(node.hostUrl + timeStr).then((res) => {
+        console.log("res", res);
+        if (res.status == 200) {
+          return res.text();
+        } else {
+          return "";
+        }
+      });
+      if (res) {
+        console.log(`[ ${node.hostUrl + timeStr} ] is ok`);
+        wf(`${node.name}.yaml`, res);
+      }
     }
     update_read_me();
   } catch (error) {
