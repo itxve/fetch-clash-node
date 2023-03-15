@@ -5,56 +5,56 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _JP_日本, server: 43.207.66.114, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _JP_日本 2, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡, server: api-a-asia-3.mcqqn.com, port: 61019, type: ss, cipher: chacha20-ietf-poly1305, password: 3e836edc-e738-4e63-964d-ad61d9e3f27b, udp: true}
-  - {name: _SG_新加坡, server: sg-am3.eqsunshine.com, port: 32001, type: ssr, cipher: aes-256-cfb, password: 3g0dHlKME, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _KR_韩国, server: arm.jijiang.eu.org, port: 5001, type: vmess, uuid: f3d82839-3334-4478-aaa8-2c5e051b480f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国, server: 47.104.237.32, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _JP_日本 3, server: 43.207.117.53, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _KR_韩国 2, server: 3.34.40.140, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _US_美国->🇨🇦_CA_加拿大, server: dallas.starsea.vip, port: 443, type: vmess, uuid: 49f4a096-4f25-4517-92e6-ff1fd9f8c4a1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dallas.starsea.vip}}, udp: true}
-  - {name: _BZ_伯利兹, server: 203.30.191.20, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
-  - {name: _US_美国, server: us1.sanfen001.pics, port: 443, type: vmess, uuid: e7d09c21-31af-4c4b-b9db-ad60d7497a65, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us1.sanfen001.pics}}, udp: true}
-  - {name: _US_美国 2, server: 173.245.59.168, port: 8080, type: vmess, uuid: 27848739-7e62-4138-9fd3-938a63964b6b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /KTR, headers: {Host: 4.arvanktbr.store}}, udp: true}
+  - {name: _JP_日本, server: zzjp01.gutingting.com, port: 20220, type: trojan, password: 0d188470-2e30-45af-927b-d4c9b15f364f, sni: zzjp01.gutingting.com, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国, server: oss-cn-shanghai.westdatacloud.top, port: 20048, type: trojan, password: 626351FA-3CA6-8118-FADF-CCDBCD620871, sni: oss-cn-shanghai.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: _JP_日本 2, server: zzjp01.gutingting.com, port: 20221, type: trojan, password: f4c61b6e-c58a-4890-afb8-363ecb904d2f, sni: zzjp01.gutingting.com, skip-cert-verify: true, udp: true}
+  - {name: _HK_香港, server: hk4.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 6b6a5d73-f1e0-4420-b261-49713b42b60e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk4.af49c4e4c2ef.sanfen001.pics}}, udp: true}
+  - {name: _US_美国, server: us1.535eb521-9fe0-4478-b090-2a5cee4bb04a.191981000.nbvpn.org, port: 443, type: trojan, password: 6fab5b8e-2b5a-4ecd-82cb-fa3d1afb9ca7, skip-cert-verify: true, udp: true}
+  - {name: _BZ_伯利兹->🇺🇸_US_美国, server: 203.30.191.20, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
+  - {name: _BZ_伯利兹->🇺🇸_US_美国 2, server: 203.30.191.19, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
+  - {name: _HK_香港 2, server: 43.159.196.4, port: 46994, type: vmess, uuid: 00e35854-8706-470e-af31-e30e557e7e5e, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: _JP_日本 3, server: 43.207.66.114, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _US_美国 2, server: vus2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vus2.0bad.com}}, udp: true}
   - {name: _US_美国 3, server: ny1.sharecentrepro.org, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ny1.sharecentrepro.org}}, udp: true}
-  - {name: _JP_日本 4, server: 43.206.194.133, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _KR_韩国 3, server: 3.35.219.165, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _KR_韩国, server: 43.201.146.250, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _US_美国 4, server: zzus01.gutingting.com, port: 20220, type: trojan, password: dd6e0af0-03ed-4bc3-848e-dd66d48b6673, sni: zzus01.gutingting.com, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 5, server: dp1.scproxy.top, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dp1.scproxy.top}}, udp: true}
+  - {name: _JP_日本->🇺🇸_US_美国, server: hk1.cf4589a1-71ec-429f-b46a-892af2259b8e.yiyuan.cyou, port: 443, type: trojan, password: 13167d4e-1af8-4369-927f-248ac9d3d5d7, skip-cert-verify: true, udp: true}
+  - {name: _SG_新加坡, server: 54.169.160.39, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: tvX1v#NSFP_LG_bJ, udp: true}
   - {name: _AM_亚美尼亚->🇺🇸_US_美国, server: 185.162.228.1, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: 154.v2ray3.xyz}}, udp: true}
-  - {name: _CN_中国 2, server: hk80.af49c4e4c2ef.sanfen001.pics, port: 80, type: vmess, uuid: e7d09c21-31af-4c4b-b9db-ad60d7497a65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn/, headers: {Host: hk80.af49c4e4c2ef.sanfen001.pics}}, udp: true}
-  - {name: _CN_中国 3, server: 112.132.215.189, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _JP_日本 5, server: 54.65.203.107, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _US_美国 4, server: 34.217.90.62, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _ES_西班牙, server: 185.231.204.143, port: 80, type: vmess, uuid: 39895690-ba4b-4f26-b1d3-fb18a954dfee, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: _KR_韩国 4, server: 43.201.70.114, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _GB_英国, server: vuk1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vuk1.0bad.com}}, udp: true}
+  - {name: _US_美国 6, server: vus5.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vus5.0bad.com}}, udp: true}
+  - {name: _HK_香港 3, server: 8.218.183.217, port: 64098, type: vmess, uuid: 7243a003-b59a-4686-b460-950fdf61819b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: _US_美国 7, server: 154.v2ray3.xyz, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 154.v2ray3.xyz}}, udp: true}
+  - {name: _US_美国 8, server: 54.203.94.5, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: _US_美国->🇩🇪_DE_德国, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 27509613-bbd5-403a-868c-8022d36aa565, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/pq/nl1?ed=2048", headers: {Host: nl1.pqjc.buzz}}, udp: true}
-  - {name: _SG_新加坡 2, server: 13.212.109.165, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _IR_伊朗, server: wew.rest8746.ml, port: 22301, type: vmess, uuid: 176ed834-75dc-4e4c-a536-f05479b39b3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [wew.rest8746.ml]}}, udp: true}
-  - {name: _IR_伊朗 2, server: 91.107.244.178, port: 22301, type: vmess, uuid: 176ed834-75dc-4e4c-a536-f05479b39b3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-  - {name: _KR_韩国 5, server: 43.201.48.212, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _TW_台湾, server: tw1.microsoftjs.top, port: 443, type: trojan, password: 904d802f-9bde-4a90-8cd1-8278e1ade56e, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 5, server: fr1.pqjc.buzz, port: 443, type: vmess, uuid: 27509613-bbd5-403a-868c-8022d36aa565, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/pq/fr1?ed=2048", headers: {Host: fr1.pqjc.buzz}}, udp: true}
-  - {name: _US_美国 6, server: 54.203.94.5, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _HK_香港, server: 8.218.180.44, port: 30840, type: vmess, uuid: 99ac8983-3728-4302-a5e7-171099928c00, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-  - {name: _KR_韩国 6, server: 43.201.37.176, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _US_美国->🇫🇷_FR_法国, server: 77.v2ray1.xyz, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 77.v2ray1.xyz}}, udp: true}
-  - {name: _US_美国 7, server: movie3.fun1yearsfun.top, port: 443, type: vmess, uuid: 4eee4324-b746-11ed-afa1-0242ac120002, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: movie3.fun1yearsfun.top}}, udp: true}
-  - {name: _US_美国 8, server: germany1.yj2022.ga, port: 443, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /XQ2WCa29jfDMGBcbnQ, headers: {Host: germany1.yj2022.ga}}, udp: true}
-  - {name: _AM_亚美尼亚->🇫🇷_FR_法国, server: 185.162.228.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}, udp: true}
-  - {name: _HK_香港 2, server: 8.218.168.163, port: 42675, type: vmess, uuid: 6f532e4c-1ea2-4e1d-a18a-af34c766ea02, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-  - {name: _DE_德国, server: 3.72.104.187, port: 8443, type: ss, cipher: chacha20-ietf-poly1305, password: mJqDMWwH1ZkuETSijkyIgd, udp: true}
-  - {name: _CA_加拿大, server: 23.227.38.25, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
-  - {name: _KR_韩国 7, server: 43.201.86.41, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _US_美国 9, server: germany2.yj2022.ga, port: 443, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: germany2.yj2022.ga}}, udp: true}
-  - {name: _US_美国 10, server: 172.67.135.55, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
-  - {name: _BZ_伯利兹->🇺🇸_US_美国, server: 203.30.191.4, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
-  - {name: _US_美国 11, server: england1.yj2022.ga, port: 443, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: england1.yj2022.ga}}, udp: true}
-  - {name: _US_美国 12, server: 172.67.169.131, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
-  - {name: _SG_新加坡 3, server: 54.169.144.122, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _KR_韩国 8, server: 43.201.146.250, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _US_美国 13, server: 172.67.185.133, port: 443, type: vmess, uuid: 44ceb389-4cea-4ea1-eef9-11ce6f3effe6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us1.wanwusheng.me}}, udp: true}
-  - {name: _SG_新加坡 4, server: 13.212.247.7, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国, server: hn.xiaohouzi.club, port: 18463, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 9, server: 143.42.30.152, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: _VN_越南, server: hcm2.safepn.net, port: 443, type: vmess, uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hcm2.safepn.net}}, udp: true}
+  - {name: _US_美国 10, server: vde1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vde1.0bad.com}}, udp: true}
+  - {name: _US_美国 11, server: vau1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vau1.0bad.com}}, udp: true}
+  - {name: _KR_韩国 2, server: 43.201.86.41, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _SG_新加坡 2, server: tw2.microsoftjs.top, port: 443, type: trojan, password: cba70996-88fd-4495-b1bc-ad12f1017546, skip-cert-verify: true, udp: true}
+  - {name: _HK_香港 4, server: 8.218.178.58, port: 53207, type: vmess, uuid: 9930e472-959f-4649-aa19-09354073fabc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: _AM_亚美尼亚, server: 185.162.228.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}, udp: true}
+  - {name: _BZ_伯利兹, server: 203.30.191.4, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
+  - {name: _US_美国->🇫🇷_FR_法国, server: 141.193.213.21, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /9JZFDTKE, headers: {Host: fr1.trump2023.org}}, udp: true}
+  - {name: _BZ_伯利兹->🇫🇷_FR_法国, server: 203.30.189.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}, udp: true}
+  - {name: _CN_中国, server: hk80.af49c4e4c2ef.sanfen001.pics, port: 80, type: vmess, uuid: e7d09c21-31af-4c4b-b9db-ad60d7497a65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk80.af49c4e4c2ef.sanfen001.pics}}, udp: true}
+  - {name: _DE_德国, server: 130.61.111.167, port: 21872, type: vmess, uuid: 9a7a75d4-ab7e-4ba0-bbfa-a4acddc18084, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 12, server: 172.67.201.14, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
+  - {name: _US_美国->🇩🇪_DE_德国 2, server: finland2.yj2022.ga, port: 443, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /yWJGGBHoVpr3DbNuVycP, headers: {Host: finland2.yj2022.ga}}, udp: true}
+  - {name: _HK_香港->🇨🇳_CN_中国, server: b1.ss1011.top, port: 1509, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国 2, server: 36.139.166.231, port: 11023, type: ss, cipher: aes-256-gcm, password: ll668668@, udp: true}
+  - {name: _CN_中国 3, server: 36.138.140.208, port: 11023, type: ss, cipher: aes-256-gcm, password: ll668668@, udp: true}
+  - {name: _HK_香港 5, server: 8.218.184.220, port: 52214, type: vmess, uuid: 3b776f57-8b04-498e-89d7-cb5c640eede8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: _SG_新加坡 3, server: 13.215.191.190, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _CN_中国 4, server: 36.139.166.244, port: 11023, type: ss, cipher: aes-256-gcm, password: ll668668@, udp: true}
+  - {name: _CN_中国 5, server: 36.137.106.115, port: 11023, type: ss, cipher: aes-256-gcm, password: ll668668@, udp: true}
+  - {name: _CN_中国 6, server: 36.134.16.171, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国 7, server: 36.134.16.96, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国 8, server: 36.139.166.252, port: 11023, type: ss, cipher: aes-256-gcm, password: ll668668@, udp: true}
+  - {name: _US_美国 13, server: wash.inbarayeman.xyz, port: 443, type: trojan, password: 6aaab9d9-a4aa-454e-a672-c0c99aeebeb0, skip-cert-verify: true, udp: true}
+  - {name: _JP_日本 4, server: 43.206.194.133, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🚀 全局设置
     type: select
@@ -73,110 +73,110 @@ proxy-groups:
     type: select
     proxies:
       - _JP_日本
+      - _CN_中国->🇺🇸_US_美国
       - _JP_日本 2
-      - _CN_中国->🇸🇬_SG_新加坡
-      - _SG_新加坡
-      - _KR_韩国
-      - _CN_中国
-      - _JP_日本 3
-      - _KR_韩国 2
-      - _US_美国->🇨🇦_CA_加拿大
-      - _BZ_伯利兹
+      - _HK_香港
       - _US_美国
+      - _BZ_伯利兹->🇺🇸_US_美国
+      - _BZ_伯利兹->🇺🇸_US_美国 2
+      - _HK_香港 2
+      - _JP_日本 3
       - _US_美国 2
       - _US_美国 3
-      - _JP_日本 4
-      - _KR_韩国 3
-      - _AM_亚美尼亚->🇺🇸_US_美国
-      - _CN_中国 2
-      - _CN_中国 3
-      - _JP_日本 5
+      - _KR_韩国
       - _US_美国 4
-      - _ES_西班牙
-      - _KR_韩国 4
-      - _US_美国->🇩🇪_DE_德国
-      - _SG_新加坡 2
-      - _IR_伊朗
-      - _IR_伊朗 2
-      - _KR_韩国 5
-      - _TW_台湾
       - _US_美国 5
+      - _JP_日本->🇺🇸_US_美国
+      - _SG_新加坡
+      - _AM_亚美尼亚->🇺🇸_US_美国
+      - _GB_英国
       - _US_美国 6
-      - _HK_香港
-      - _KR_韩国 6
-      - _US_美国->🇫🇷_FR_法国
+      - _HK_香港 3
       - _US_美国 7
       - _US_美国 8
-      - _AM_亚美尼亚->🇫🇷_FR_法国
-      - _HK_香港 2
-      - _DE_德国
-      - _CA_加拿大
-      - _KR_韩国 7
+      - _US_美国->🇩🇪_DE_德国
       - _US_美国 9
+      - _VN_越南
       - _US_美国 10
-      - _BZ_伯利兹->🇺🇸_US_美国
       - _US_美国 11
+      - _KR_韩国 2
+      - _SG_新加坡 2
+      - _HK_香港 4
+      - _AM_亚美尼亚
+      - _BZ_伯利兹
+      - _US_美国->🇫🇷_FR_法国
+      - _BZ_伯利兹->🇫🇷_FR_法国
+      - _CN_中国
+      - _DE_德国
       - _US_美国 12
+      - _US_美国->🇩🇪_DE_德国 2
+      - _HK_香港->🇨🇳_CN_中国
+      - _CN_中国 2
+      - _CN_中国 3
+      - _HK_香港 5
       - _SG_新加坡 3
-      - _KR_韩国 8
+      - _CN_中国 4
+      - _CN_中国 5
+      - _CN_中国 6
+      - _CN_中国 7
+      - _CN_中国 8
       - _US_美国 13
-      - _SG_新加坡 4
-      - _CN_中国->🇺🇸_US_美国
+      - _JP_日本 4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - _JP_日本
+      - _CN_中国->🇺🇸_US_美国
       - _JP_日本 2
-      - _CN_中国->🇸🇬_SG_新加坡
-      - _SG_新加坡
-      - _KR_韩国
-      - _CN_中国
-      - _JP_日本 3
-      - _KR_韩国 2
-      - _US_美国->🇨🇦_CA_加拿大
-      - _BZ_伯利兹
+      - _HK_香港
       - _US_美国
+      - _BZ_伯利兹->🇺🇸_US_美国
+      - _BZ_伯利兹->🇺🇸_US_美国 2
+      - _HK_香港 2
+      - _JP_日本 3
       - _US_美国 2
       - _US_美国 3
-      - _JP_日本 4
-      - _KR_韩国 3
-      - _AM_亚美尼亚->🇺🇸_US_美国
-      - _CN_中国 2
-      - _CN_中国 3
-      - _JP_日本 5
+      - _KR_韩国
       - _US_美国 4
-      - _ES_西班牙
-      - _KR_韩国 4
-      - _US_美国->🇩🇪_DE_德国
-      - _SG_新加坡 2
-      - _IR_伊朗
-      - _IR_伊朗 2
-      - _KR_韩国 5
-      - _TW_台湾
       - _US_美国 5
+      - _JP_日本->🇺🇸_US_美国
+      - _SG_新加坡
+      - _AM_亚美尼亚->🇺🇸_US_美国
+      - _GB_英国
       - _US_美国 6
-      - _HK_香港
-      - _KR_韩国 6
-      - _US_美国->🇫🇷_FR_法国
+      - _HK_香港 3
       - _US_美国 7
       - _US_美国 8
-      - _AM_亚美尼亚->🇫🇷_FR_法国
-      - _HK_香港 2
-      - _DE_德国
-      - _CA_加拿大
-      - _KR_韩国 7
+      - _US_美国->🇩🇪_DE_德国
       - _US_美国 9
+      - _VN_越南
       - _US_美国 10
-      - _BZ_伯利兹->🇺🇸_US_美国
       - _US_美国 11
+      - _KR_韩国 2
+      - _SG_新加坡 2
+      - _HK_香港 4
+      - _AM_亚美尼亚
+      - _BZ_伯利兹
+      - _US_美国->🇫🇷_FR_法国
+      - _BZ_伯利兹->🇫🇷_FR_法国
+      - _CN_中国
+      - _DE_德国
       - _US_美国 12
+      - _US_美国->🇩🇪_DE_德国 2
+      - _HK_香港->🇨🇳_CN_中国
+      - _CN_中国 2
+      - _CN_中国 3
+      - _HK_香港 5
       - _SG_新加坡 3
-      - _KR_韩国 8
+      - _CN_中国 4
+      - _CN_中国 5
+      - _CN_中国 6
+      - _CN_中国 7
+      - _CN_中国 8
       - _US_美国 13
-      - _SG_新加坡 4
-      - _CN_中国->🇺🇸_US_美国
+      - _JP_日本 4
   - name: 🎯 国内网络
     type: select
     proxies:
@@ -370,60 +370,58 @@ proxy-groups:
     proxies:
       - _HK_香港
       - _HK_香港 2
+      - _HK_香港 3
+      - _HK_香港 4
+      - _HK_香港->🇨🇳_CN_中国
+      - _HK_香港 5
   - name: 🇯🇵 日本节点
     type: select
     proxies:
       - _JP_日本
       - _JP_日本 2
       - _JP_日本 3
+      - _JP_日本->🇺🇸_US_美国
       - _JP_日本 4
-      - _JP_日本 5
   - name: 🇺🇲 美国节点
     type: select
     proxies:
-      - _US_美国->🇨🇦_CA_加拿大
+      - _CN_中国->🇺🇸_US_美国
       - _US_美国
+      - _BZ_伯利兹->🇺🇸_US_美国
+      - _BZ_伯利兹->🇺🇸_US_美国 2
       - _US_美国 2
       - _US_美国 3
-      - _AM_亚美尼亚->🇺🇸_US_美国
       - _US_美国 4
-      - _US_美国->🇩🇪_DE_德国
       - _US_美国 5
+      - _JP_日本->🇺🇸_US_美国
+      - _AM_亚美尼亚->🇺🇸_US_美国
       - _US_美国 6
-      - _US_美国->🇫🇷_FR_法国
       - _US_美国 7
       - _US_美国 8
-      - _AM_亚美尼亚->🇫🇷_FR_法国
+      - _US_美国->🇩🇪_DE_德国
       - _US_美国 9
       - _US_美国 10
-      - _BZ_伯利兹->🇺🇸_US_美国
       - _US_美国 11
+      - _AM_亚美尼亚
+      - _US_美国->🇫🇷_FR_法国
       - _US_美国 12
+      - _US_美国->🇩🇪_DE_德国 2
       - _US_美国 13
-      - _CN_中国->🇺🇸_US_美国
   - name: 🇸🇬 新加坡节点
     type: select
     proxies:
-      - _CN_中国->🇸🇬_SG_新加坡
       - _SG_新加坡
       - _SG_新加坡 2
       - _SG_新加坡 3
-      - _SG_新加坡 4
   - name: 🇨🇳 台湾节点
     type: select
     proxies:
-      - _TW_台湾
+      - DIRECT
   - name: 🇰🇷 韩国节点
     type: select
     proxies:
       - _KR_韩国
       - _KR_韩国 2
-      - _KR_韩国 3
-      - _KR_韩国 4
-      - _KR_韩国 5
-      - _KR_韩国 6
-      - _KR_韩国 7
-      - _KR_韩国 8
   - name: 🎥 奈飞节点
     type: select
     proxies:
