@@ -3,6 +3,9 @@ const path = require("path");
 function zore(t) {
   return t > 10 ? `${t}` : `0${t}`;
 }
+function rf(name) {
+  return fs.readFileSync(path.join(__dirname, "node", name)).toString();
+}
 function wf(name, data) {
   fs.writeFileSync(path.join(__dirname, "node", name), data);
 }
@@ -52,12 +55,12 @@ let timeStr = [y, m, `${y}${m}${day}.yaml`].join("/");
           return "";
         }
       });
-      if (res) {
+      if (res && !(res == rf(`${node.name}.yaml`))) {
         console.log(`[ ${node.hostUrl + timeStr} ] is ok`);
         wf(`${node.name}.yaml`, res);
+        update_read_me();
       }
     }
-    update_read_me();
   } catch (error) {
     console.log("error :" + error);
   }
