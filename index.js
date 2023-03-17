@@ -59,7 +59,7 @@ let timeStr = [y, m, `${y}${m}${day}.yaml`].join("/");
       wf(`${node.name}.yaml`, res);
       update_read_me();
     } else {
-      throw Error(error);
+      throw Error(`${node.name}.yaml not change`);
     }
   }
 })();
