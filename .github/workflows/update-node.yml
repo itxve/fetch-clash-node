@@ -24,10 +24,9 @@ jobs:
       - name: Commit Newest Node
         # Condition to prevent unintended automatic workflow
         # Change or comment out this line for automatic workflow on forks
-        if: ${{ success() && github.repository == 'itxve/fetch-clash-node' }}
+        if: ${{ github.repository == 'itxve/fetch-clash-node' }}
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
           git add ./node README.md
-          git commit -m "update node"
-          git push -f
+          git commit -m "update node" && git push || echo "no change"

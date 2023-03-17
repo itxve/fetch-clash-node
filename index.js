@@ -46,20 +46,22 @@ let m = zore(d.getMonth() + 1);
 let day = zore(d.getDate());
 let timeStr = [y, m, `${y}${m}${day}.yaml`].join("/");
 (async () => {
-  for (let node of nodes) {
-    let res = await fetch(node.hostUrl + timeStr).then((res) => {
-      if (res.status == 200) {
-        return res.text();
-      } else {
-        return "";
+  try {
+    for (let node of nodes) {
+      let res = await fetch(node.hostUrl + timeStr).then((res) => {
+        if (res.status == 200) {
+          return res.text();
+        } else {
+          return "";
+        }
+      });
+      if (res && !(res == rf(`${node.name}.yaml`))) {
+        console.log(`[ ${node.hostUrl + timeStr} ] is ok`);
+        wf(`${node.name}.yaml`, res);
+        update_read_me();
       }
-    });
-    if (res && !(res == rf(`${node.name}.yaml`))) {
-      console.log(`[ ${node.hostUrl + timeStr} ] is ok`);
-      wf(`${node.name}.yaml`, res);
-      update_read_me();
-    } else {
-      throw Error(`${node.name}.yaml not change`);
     }
+  } catch (error) {
+    console.log("error :" + error);
   }
 })();
