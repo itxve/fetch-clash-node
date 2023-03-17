@@ -3,6 +3,8 @@
  
 </h1>
 
+[![Daily Update](https://github.com/itxve/fetch-clash-node/actions/workflows/update-node.yml/badge.svg?branch=main)](https://github.com/itxve/fetch-clash-node/actions/workflows/update-node.yml)
+
 ## Last Update Time
 
 <b><time>2023/03/17 07: 16: 19</time></b>
