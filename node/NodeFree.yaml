@@ -5,110 +5,110 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _TW_台湾->🇭🇰_HK_香港, server: tw1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: _IL_以色列->🇯🇵_JP_日本, server: jp3.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: _IL_以色列->🇯🇵_JP_日本 2, server: jp2.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: _SG_新加坡, server: sg-am3.eqsunshine.com, port: 32001, type: ssr, cipher: aes-256-cfb, password: 3g0dHlKME, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _KR_韩国, server: 125.141.31.98, port: 17754, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-  - {name: _US_美国, server: 192.74.228.179, port: 42857, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 2, server: 69.25.115.162, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: _IL_以色列->🇺🇸_US_美国, server: us3.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 3, server: 74.217.179.187, port: 40042, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _HK_香港, server: 43.154.233.89, port: 45516, type: vmess, uuid: 2264f24e-d814-4aa6-98c0-ed5a8322a0eb, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /hk12/getData, headers: {Host: hk12.verichains.co}}, udp: true}
-  - {name: _US_美国 4, server: 198.2.203.148, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 5, server: 23.225.33.173, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: _US_美国 6, server: 38.26.191.98, port: 49920, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 7, server: 198.41.197.135, port: 80, type: vmess, uuid: 1eeeff8d-0028-46ec-ec2a-d39401047fbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer00, headers: {Host: tou.vtcss.top}}, udp: true}
-  - {name: _US_美国 8, server: 108.186.116.175, port: 55005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国->🇨🇦_CA_加拿大, server: 104.25.243.70, port: 80, type: vmess, uuid: 6884d728-7fb0-4172-c319-e8caeadcd01f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /tg@herhero6, headers: {Host: us.herofree66.tk}}, udp: true}
-  - {name: _US_美国 9, server: 108.186.116.177, port: 55005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 10, server: 192.74.234.82, port: 51302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 11, server: 163.123.192.59, port: 443, type: trojan, password: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 12, server: 163.123.192.58, port: 443, type: trojan, password: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: _IL_以色列->🇺🇸_US_美国 2, server: us1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港, server: gzdx.jcnode.top, port: 40002, type: trojan, password: f119f2f3-a33f-4200-96fc-74ca49721bc4, sni: hk03.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港 2, server: gzdx.jcnode.top, port: 20000, type: vmess, uuid: 7362ca76-171d-4ebe-8b9e-e83df22417a8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gzdx.jcnode.top}}, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港 3, server: gzdx.jcnode.top, port: 20003, type: trojan, password: 7362ca76-171d-4ebe-8b9e-e83df22417a8, sni: hk02.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇻🇳_VN_越南, server: gzyd.jcnode.top, port: 29200, type: trojan, password: 7362ca76-171d-4ebe-8b9e-e83df22417a8, sni: vn01.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇯🇵_JP_日本, server: free.themars.top, port: 32102, type: ss, cipher: chacha20-ietf-poly1305, password: b89b39c2-dc8d-4595-a4c5-54b4fbab3fc2, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港 4, server: gzdx.jcnode.top, port: 40000, type: trojan, password: f119f2f3-a33f-4200-96fc-74ca49721bc4, sni: hk05.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: _US_美国, server: 38.26.191.98, port: 49920, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 2, server: 23.224.190.237, port: 58022, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _JP_日本->🇺🇸_US_美国, server: douzius.ovogreat.com, port: 443, type: trojan, password: de5b186e-fc2c-4967-9471-bb6cba1c17de, sni: douzius.ovogreat.com, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 3, server: 198.2.218.203, port: 51203, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _SG_新加坡->🇦🇺_AU_澳大利亚, server: ap.stablize.top, port: 443, type: trojan, password: 28565434-2bd0-4418-a8b6-de1c7e4fbdee, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 4, server: 148.59.74.248, port: 443, type: trojan, password: e01d0803-5ee1-48c4-a962-2308daf9ad79, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: _JP_日本, server: aws-jp.aikun.online, port: 443, type: trojan, password: bd6885ae-e886-4735-badf-e8ba34f40953, sni: cdn-65135431546231.78321.xyz, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇩🇪_DE_德国, server: gzyd.jcnode.top, port: 27000, type: trojan, password: 7362ca76-171d-4ebe-8b9e-e83df22417a8, sni: de01.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 5, server: 148.59.74.246, port: 443, type: trojan, password: e01d0803-5ee1-48c4-a962-2308daf9ad79, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 6, server: 148.59.74.247, port: 443, type: trojan, password: e01d0803-5ee1-48c4-a962-2308daf9ad79, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 7, server: 192.74.228.179, port: 42857, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _GB_英国, server: 185.170.166.189, port: 443, type: vmess, uuid: A59E320C-BAC6-45E3-8A27-1518610708D0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.v2ray.online}}, udp: true}
+  - {name: _IL_以色列->🇺🇸_US_美国, server: us1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国, server: gzdx.jcnode.top, port: 48003, type: trojan, password: f119f2f3-a33f-4200-96fc-74ca49721bc4, sni: us04.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 8, server: 163.123.192.59, port: 443, type: trojan, password: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 9, server: 163.123.192.58, port: 443, type: trojan, password: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
   - {name: _CN_中国, server: 112.132.215.189, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _IL_以色列->🇺🇸_US_美国 3, server: us2.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 13, server: cf-yd-dns.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
-  - {name: _US_美国->🇸🇬_SG_新加坡, server: www.noice.id, port: 443, type: vmess, uuid: 37776019-07ea-4a1d-94e7-88e5e133ad5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: v2ray1.udpgw.com}}, udp: true}
-  - {name: _KR_韩国 2, server: kr.cc2.zhoushuren.top, port: 58853, type: trojan, password: 431218b0-8b07-4d71-89a4-c20aa92fce30, sni: kr.cc2.zhoushuren.top, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 14, server: 104.21.53.35, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp3.yxjnode.com}}, udp: true}
-  - {name: _US_美国 15, server: bb.hk1997.pro, port: 1001, type: vmess, uuid: fdf6caf1-88e0-4eca-b7b6-a60b70aa1e93, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /jash-weh-peft-pseb-lous-jass, headers: {Host: bb.hk1997.pro}}, udp: true}
-  - {name: _US_美国 16, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/pq/usfh3?ed=2048", headers: {Host: usfh3.pqjc.buzz}}, udp: true}
+  - {name: _IL_以色列->🇺🇸_US_美国 2, server: us2.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: _SG_新加坡, server: 13.215.46.225, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _US_美国 10, server: cf-yd-dns.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
+  - {name: _CA_加拿大->🇩🇪_DE_德国, server: shopify.com, port: 8080, type: vmess, uuid: 0ca55e83-f155-4eed-98ff-43b9c575b08c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vceu.1688888888.eu.org}}, udp: true}
+  - {name: _US_美国->🇩🇪_DE_德国, server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: 8abe9496-5e24-4e49-b566-dcf86116017d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /i99LgvSaslbsPLLQQ7j6Z, headers: {Host: de5.irteh.fun}}, udp: true}
   - {name: _IL_以色列->🇦🇺_AU_澳大利亚, server: au1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: _HK_香港->🇳🇱_NL_荷兰, server: 156.245.8.225, port: 46955, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _KR_韩国, server: 43.201.254.164, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _VN_越南, server: 103.163.218.2, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: _IL_以色列->🇦🇺_AU_澳大利亚 2, server: au3.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: _KR_韩国 3, server: 43.201.254.164, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _US_美国 17, server: bb.hk1997.pro, port: 1002, type: vmess, uuid: 0fa2f4ff-d1c3-47b2-8b05-8b7e4916c290, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /jash-weh-peft-pseb-lous-jass, headers: {Host: bb.hk1997.pro}}, udp: true}
-  - {name: _PL_波兰, server: 217.30.10.70, port: 9044, type: ss, cipher: aes-256-cfb, password: KBGjZYcy4SyRShmA, udp: true}
-  - {name: _IL_以色列->🇪🇪_EE_爱沙尼亚, server: ee1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 18, server: tou.vtcss.top, port: 8880, type: vmess, uuid: cb8cbbc3-137a-4064-8d02-b0ee3ca2c18c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qazxcv00, headers: {Host: tou.vtcss.top}}, udp: true}
-  - {name: _US_美国->🇮🇷_IR_伊朗, server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: 57c6b55e-d0dc-47de-ab85-0c17b79a3a86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /d3QyW1VhYbXYnWiYkDe, headers: {Host: de10.irteh.fun}}, udp: true}
+  - {name: _HK_香港->🇳🇱_NL_荷兰, server: 156.245.8.225, port: 46955, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: _NL_荷兰, server: 154.85.1.242, port: 45516, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国->🇧🇷_BR_巴西, server: 104.18.23.26, port: 8080, type: vmess, uuid: dcafb669-fefc-4994-e3a9-5f40ed6aa7cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshtproject, headers: {Host: v2free.sshtproect.shop}}, udp: true}
+  - {name: _CN_中国->🇮🇳_IN_印度, server: gzdx.jcnode.top, port: 49000, type: trojan, password: f119f2f3-a33f-4200-96fc-74ca49721bc4, sni: id01.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: _IL_以色列->🇪🇪_EE_爱沙尼亚, server: ee1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: _TR_土耳其, server: 45.89.52.66, port: 9065, type: ss, cipher: aes-256-cfb, password: PeHSHm5SqEjBuEXE, udp: true}
+  - {name: _SG_新加坡 2, server: 8fhq6a.aiossh.my.id, port: 80, type: vmess, uuid: 89ba7768-a83a-4c01-8012-8fdf0847d2ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 8fhq6a.aiossh.my.id}}, udp: true}
+  - {name: _IL_以色列->🇭🇰_HK_香港, server: hk1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
   - {name: _IN_印度, server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 19, server: 216.52.183.243, port: 80, type: ss, cipher: aes-128-gcm, password: 83XvX4Vo%*3a, udp: true}
+  - {name: _US_美国 11, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp2.yxjnode.com}}, udp: true}
+  - {name: _TW_台湾, server: tw7.microsoft-orgwly.vip, port: 10024, type: trojan, password: fcf74125-99de-4df3-af94-552a0b1ee021, sni: tls.microsoft-orgwly.vip, skip-cert-verify: true, udp: true}
   - {name: _DE_德国, server: z0110.security-cloudfront-cdn.com, port: 42833, type: ssr, cipher: aes-256-cfb, password: YpX2opBbrfqJzzMs, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: "www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive", udp: true}
-  - {name: _US_美国->🇳🇱_NL_荷兰, server: tech.noaries.de, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国, server: 183.237.20.147, port: 41242, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _IL_以色列->🇳🇱_NL_荷兰, server: nl1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 20, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国 2, server: 183.237.20.147, port: 41242, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇬🇧_GB_英国, server: en2.vfun.icu, port: 443, type: ssr, cipher: aes-256-cfb, password: vyunme, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 17422:TTp0SX, obfs-param: ab93117422.jd.hk, udp: true}
   - {name: _US_美国->🇮🇩_ID_印度尼西亚, server: banterbener.my.id, port: 80, type: vmess, uuid: 5d956feb-4605-4523-a866-2a8b45f1216f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /xrayvws, headers: {Host: banterbener.my.id}}, udp: true}
-  - {name: _CN_中国 2, server: 36.139.166.252, port: 11023, type: ss, cipher: aes-256-gcm, password: ll668668@, udp: true}
-  - {name: _JP_日本, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _CN_中国->🇹🇼_TW_台湾, server: 14.29.124.168, port: 24002, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _KR_韩国 2, server: 43.202.49.224, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _US_美国 12, server: baic.vtcss.top, port: 8880, type: vmess, uuid: 4a11efd5-b731-4002-aa01-647f3a2f4a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: baic.vtcss.top}}, udp: true}
+  - {name: _US_美国 13, server: bb.hk1997.pro, port: 1002, type: vmess, uuid: 0fa2f4ff-d1c3-47b2-8b05-8b7e4916c290, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /jash-weh-peft-pseb-lous-jass, headers: {Host: bb.hk1997.pro}}, udp: true}
 proxy-groups:
   - name: Proxies
     type: select
     proxies:
-      - _TW_台湾->🇭🇰_HK_香港
-      - _IL_以色列->🇯🇵_JP_日本
-      - _IL_以色列->🇯🇵_JP_日本 2
-      - _SG_新加坡
-      - _KR_韩国
+      - _CN_中国->🇭🇰_HK_香港
+      - _CN_中国->🇭🇰_HK_香港 2
+      - _CN_中国->🇭🇰_HK_香港 3
+      - _CN_中国->🇻🇳_VN_越南
+      - _CN_中国->🇯🇵_JP_日本
+      - _CN_中国->🇭🇰_HK_香港 4
       - _US_美国
       - _US_美国 2
-      - _IL_以色列->🇺🇸_US_美国
+      - _JP_日本->🇺🇸_US_美国
       - _US_美国 3
-      - _HK_香港
+      - _SG_新加坡->🇦🇺_AU_澳大利亚
       - _US_美国 4
+      - _JP_日本
+      - _CN_中国->🇩🇪_DE_德国
       - _US_美国 5
       - _US_美国 6
       - _US_美国 7
-      - _US_美国 8
-      - _US_美国->🇨🇦_CA_加拿大
-      - _US_美国 9
-      - _US_美国 10
-      - _US_美国 11
-      - _US_美国 12
-      - _IL_以色列->🇺🇸_US_美国 2
-      - _CN_中国
-      - _IL_以色列->🇺🇸_US_美国 3
-      - _US_美国 13
-      - _US_美国->🇸🇬_SG_新加坡
-      - _KR_韩国 2
-      - _US_美国 14
-      - _US_美国 15
-      - _US_美国 16
-      - _IL_以色列->🇦🇺_AU_澳大利亚
-      - _HK_香港->🇳🇱_NL_荷兰
-      - _IL_以色列->🇦🇺_AU_澳大利亚 2
-      - _KR_韩国 3
-      - _US_美国 17
-      - _PL_波兰
-      - _IL_以色列->🇪🇪_EE_爱沙尼亚
-      - _US_美国 18
-      - _US_美国->🇮🇷_IR_伊朗
-      - _NL_荷兰
-      - _IN_印度
-      - _US_美国 19
-      - _DE_德国
-      - _US_美国->🇳🇱_NL_荷兰
+      - _GB_英国
+      - _IL_以色列->🇺🇸_US_美国
       - _CN_中国->🇺🇸_US_美国
-      - _IL_以色列->🇳🇱_NL_荷兰
-      - _US_美国 20
+      - _US_美国 8
+      - _US_美国 9
+      - _CN_中国
+      - _IL_以色列->🇺🇸_US_美国 2
+      - _SG_新加坡
+      - _US_美国 10
+      - _CA_加拿大->🇩🇪_DE_德国
+      - _US_美国->🇩🇪_DE_德国
+      - _IL_以色列->🇦🇺_AU_澳大利亚
+      - _KR_韩国
+      - _VN_越南
+      - _IL_以色列->🇦🇺_AU_澳大利亚 2
+      - _HK_香港->🇳🇱_NL_荷兰
+      - _NL_荷兰
+      - _US_美国->🇧🇷_BR_巴西
+      - _CN_中国->🇮🇳_IN_印度
+      - _IL_以色列->🇪🇪_EE_爱沙尼亚
+      - _TR_土耳其
+      - _SG_新加坡 2
+      - _IL_以色列->🇭🇰_HK_香港
+      - _IN_印度
+      - _US_美国 11
+      - _TW_台湾
+      - _DE_德国
+      - _CN_中国->🇺🇸_US_美国 2
+      - _CN_中国->🇬🇧_GB_英国
       - _US_美国->🇮🇩_ID_印度尼西亚
-      - _CN_中国 2
-      - _JP_日本
-      - _CN_中国->🇹🇼_TW_台湾
+      - _KR_韩国 2
+      - _US_美国 12
+      - _US_美国 13
 rules:
  - DOMAIN-SUFFIX,1password.com,DIRECT
  - DOMAIN-SUFFIX,vultr.com,DIRECT
