@@ -49,6 +49,7 @@ let timeStr = [y, m, `${y}${m}${day}.yaml`].join("/");
   try {
     for (let node of nodes) {
       let res = await fetch(node.hostUrl + timeStr).then((res) => {
+        console.log(`${node.hostUrl + timeStr}` ,"status is",res.status)
         if (res.status == 200) {
           return res.text();
         } else {
