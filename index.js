@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 function zore(t) {
-  return t > 10 ? `${t}` : `0${t}`;
+  return t >= 10 ? `${t}` : `0${t}`;
 }
 function rf(name) {
   return fs.readFileSync(path.join(__dirname, "node", name)).toString();
