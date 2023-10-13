@@ -15,49 +15,51 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: ???? _GB_Ӣ��, server: 13.40.231.124, port: 22222, client-fingerprint: chrome, type: trojan, password: telegram-id-directvpn, tfo: false, sni: trj.rollingnext.co.uk, skip-cert-verify: false}
-  - {name: ???? _FI_����, server: fi1.connecton.surf, port: 443, client-fingerprint: chrome, type: trojan, password: 44c5578a7c, tfo: false, skip-cert-verify: false}
-  - {name: ???? _US_����->????_NL_����, server: 45.199.138.191, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1696251522438, headers: {Host: www.42077230.xyz}}}
-  - {name: ???? _US_����, server: 104.24.208.25, port: 2053, client-fingerprint: chrome, type: vmess, uuid: 72f76c36-3e3c-45b3-a61f-d8f017345958, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: b5.iraniancp.click}}}
-  - {name: ???? _US_���� 2, server: singapore.com, port: 8080, client-fingerprint: chrome, type: vmess, uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v03.ssrsub.com}}}
-  - {name: ???? _US_���� 3, server: se1.xv2ray.net, port: 2082, client-fingerprint: chrome, type: vmess, uuid: fd31d195-06f6-4b48-92db-7cb1dc749f66, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: se1.xv2ray.net}}}
-  - {name: ???? _US_���� 4, server: 18.117.203.25, port: 22222, client-fingerprint: chrome, type: trojan, password: telegram-id-directvpn, tfo: false, sni: trj.rollingnext.co.uk, skip-cert-verify: false}
-  - {name: _CN_�й�, server: 111.67.201.33, port: 10052, client-fingerprint: chrome, type: vmess, uuid: 3097c8db-70a5-4b3f-a54d-54685a00d086, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /neimenggu001, headers: {Host: tms.dingtalk.com}}}
-  - {name: ???? _KR_����->????_GB_Ӣ��, server: 130.162.154.209, port: 443, client-fingerprint: chrome, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ophelia.mom:443/linkvws, headers: {Host: cf.tonyluk.link}}}
-  - {name: ???? _IE_������, server: 54.246.180.242, port: 22222, client-fingerprint: chrome, type: trojan, password: telegram-id-directvpn, tfo: false, sni: trj.rollingnext.co.uk, skip-cert-verify: false}
-  - {name: ???? _US_���� 5, server: cf-lt.sharecentre.online, port: 8080, client-fingerprint: chrome, type: vmess, uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v002.ssrsub.com}}}
-  - {name: _CN_�й� 2, server: 124.220.57.75, port: 80, client-fingerprint: chrome, type: vmess, uuid: 1b3dd95b-f6dc-4f20-97aa-3b365358419c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
+  - {name: ???? _GB_Ӣ��, server: 172.99.190.109, port: 443, client-fingerprint: chrome, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: linkvws}}
+  - {name: ???? _US_����->????_FR_����, server: 104.31.16.14, port: 443, client-fingerprint: chrome, type: vmess, uuid: 2379cba4-c394-4123-9aa1-3020f5d716ee, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/@hopev2ray,@hopev2ray", headers: {Host: fr1vm.cdn-03.live}}}
+  - {name: ???? _US_����, server: 52.35.171.81, port: 22222, client-fingerprint: chrome, type: trojan, password: telegram-id-directvpn, tfo: false, sni: trj.rollingnext.co.uk, skip-cert-verify: false}
+  - {name: ???? _US_����->????_FR_���� 2, server: 104.18.203.232, port: 443, client-fingerprint: chrome, type: vmess, uuid: 8d48dab3-cb73-4a92-b575-e9fb0003dfc8, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/@hopev2ray,@hopev2ray", headers: {Host: fr2vm.cdn-03.live}}}
+  - {name: ???? _US_����->????_FR_���� 3, server: 104.18.202.232, port: 80, client-fingerprint: chrome, type: vmess, uuid: 0349ae50-68fc-11ee-b037-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /@hopev2ray, headers: {Host: eu-2.0rd.net}}}
+  - {name: ???? _FR_����, server: 13.39.200.15, port: 22222, client-fingerprint: chrome, type: trojan, password: telegram-id-directvpn, tfo: false, sni: trj.rollingnext.co.uk, skip-cert-verify: false}
+  - {name: ???? _US_���� 2, server: 104.31.16.181, port: 443, client-fingerprint: chrome, type: vmess, uuid: 270c301a-7db6-4164-a0fd-d124ab6a94da, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess, headers: {Host: gb2vm.cdn-03.live}}}
+  - {name: ???? _CR_��˹�����->????_FR_����, server: 190.93.246.241, port: 80, client-fingerprint: chrome, type: vmess, uuid: dd8068db-5cfb-43a9-ba23-b156a70fbb06, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/@hopev2ray,@hopev2ray", headers: {Host: gb3vm.cdn-03.live}}}
+  - {name: ???? _US_���� 3, server: 141.148.149.116, port: 20353, client-fingerprint: chrome, type: vmess, uuid: 0672c1be-77a9-43a9-8d32-6be8c3cba84a, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048"}}
+  - {name: ???? _US_���� 4, server: rn.992688.xyz, port: 2052, client-fingerprint: chrome, type: vmess, uuid: 5498157b-0dd4-4991-9708-4d58fe7ce79a, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: rn.992688.xyz}}}
+  - {name: ???? _US_����->????_FR_���� 4, server: 104.31.16.14, port: 80, client-fingerprint: chrome, type: vmess, uuid: 8d48dab3-cb73-4a92-b575-e9fb0003dfc8, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess, headers: {Host: fr2vm.cdn-03.live}}}
+  - {name: ???? _US_����->????_FR_���� 5, server: 104.31.16.61, port: 443, client-fingerprint: chrome, type: vmess, uuid: 0349ae50-68fc-11ee-b037-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /@hopev2ray, headers: {Host: eu-2.0rd.net}}}
+  - {name: ???? _KR_����->????_NL_����, server: 130.162.154.209, port: 443, client-fingerprint: chrome, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ophelia.mom:443/linkvws, headers: {Host: cf.tonyluk.link}}}
+  - {name: ???? _FR_���� 2, server: 13.37.45.239, port: 22222, client-fingerprint: chrome, type: trojan, password: telegram-id-privatevpns, tfo: false, sni: trj.rollingnext.co.uk, skip-cert-verify: false}
+  - {name: ???? _US_���� 5, server: 156.225.67.104, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1696944806961, headers: {Host: www.41758112.xyz}}}
+  - {name: ???? _US_���� 6, server: 104.24.208.25, port: 2053, client-fingerprint: chrome, type: vmess, uuid: 72f76c36-3e3c-45b3-a61f-d8f017345958, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: b5.iraniancp.click}}}
+  - {name: ???? _US_���� 7, server: 192.203.230.245, port: 2052, client-fingerprint: chrome, type: vmess, uuid: 069e3e8b-36ec-4bef-a4da-c423665b56cc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /public, headers: {Host: de5.biqibao.site}}}
+  - {name: ???? _IE_������, server: 34.248.139.169, port: 22222, client-fingerprint: chrome, type: trojan, password: telegram-id-privatevpns, tfo: false, sni: trj.rollingnext.co.uk, skip-cert-verify: false}
+  - {name: ???? _DE_�¹�, server: 5.104.107.143, port: 443, client-fingerprint: chrome, type: trojan, password: 35f59fa7-10ed-40da-a91c-ed5ab9ea13b9, tfo: false, sni: de1.xn--mes358a9urctx.com, skip-cert-verify: false}
   - {name: ???? _US_����->????_IR_����, server: cf.yx.alue.link, port: 2052, client-fingerprint: chrome, type: vmess, uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: us.wx.alue.link}}}
-  - {name: ???? _US_���� 6, server: 141.148.149.116, port: 20353, client-fingerprint: chrome, type: vmess, uuid: 0672c1be-77a9-43a9-8d32-6be8c3cba84a, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: microsoft.com}}}
-  - {name: ???? _US_����->????_LU_¬ɭ��, server: 104.16.68.38, port: 2052, client-fingerprint: chrome, type: vmess, uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: lu.wx.alue.link}}}
-  - {name: ???? _FR_����, server: 15.188.9.170, port: 22222, client-fingerprint: chrome, type: trojan, password: telegram-id-directvpn, tfo: false, sni: trj.rollingnext.co.uk, skip-cert-verify: false}
-  - {name: ???? _US_���� 7, server: 206.168.240.113, port: 35425, client-fingerprint: chrome, type: vmess, uuid: 78e34495-c417-48d9-e592-8625f26611c7, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /jdbp606}}
-  - {name: ???? _US_���� 8, server: 45.199.138.222, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1696251693048, headers: {Host: www.19229362.xyz}}}
-  - {name: ???? _US_����->????_LU_¬ɭ�� 2, server: 162.159.152.6, port: 2052, client-fingerprint: chrome, type: vmess, uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: lu.wx.alue.link}}}
 proxy-groups:
   - name: ?? �ڵ�ѡ��
     type: select
     proxies:
       - DIRECT
       - ???? _GB_Ӣ��
-      - ???? _FI_����
-      - ???? _US_����->????_NL_����
+      - ???? _US_����->????_FR_����
       - ???? _US_����
+      - ???? _US_����->????_FR_���� 2
+      - ???? _US_����->????_FR_���� 3
+      - ???? _FR_����
       - ???? _US_���� 2
+      - ???? _CR_��˹�����->????_FR_����
       - ???? _US_���� 3
       - ???? _US_���� 4
-      - _CN_�й�
-      - ???? _KR_����->????_GB_Ӣ��
-      - ???? _IE_������
+      - ???? _US_����->????_FR_���� 4
+      - ???? _US_����->????_FR_���� 5
+      - ???? _KR_����->????_NL_����
+      - ???? _FR_���� 2
       - ???? _US_���� 5
-      - _CN_�й� 2
-      - ???? _US_����->????_IR_����
       - ???? _US_���� 6
-      - ???? _US_����->????_LU_¬ɭ��
-      - ???? _FR_����
       - ???? _US_���� 7
-      - ???? _US_���� 8
-      - ???? _US_����->????_LU_¬ɭ�� 2
+      - ???? _IE_������
+      - ???? _DE_�¹�
+      - ???? _US_����->????_IR_����
   - name: ?? ȫ��ֱ��
     type: select
     proxies:
@@ -74,24 +76,25 @@ proxy-groups:
       - ?? �ڵ�ѡ��
       - ?? ȫ��ֱ��
       - ???? _GB_Ӣ��
-      - ???? _FI_����
-      - ???? _US_����->????_NL_����
+      - ???? _US_����->????_FR_����
       - ???? _US_����
+      - ???? _US_����->????_FR_���� 2
+      - ???? _US_����->????_FR_���� 3
+      - ???? _FR_����
       - ???? _US_���� 2
+      - ???? _CR_��˹�����->????_FR_����
       - ???? _US_���� 3
       - ???? _US_���� 4
-      - _CN_�й�
-      - ???? _KR_����->????_GB_Ӣ��
-      - ???? _IE_������
+      - ???? _US_����->????_FR_���� 4
+      - ???? _US_����->????_FR_���� 5
+      - ???? _KR_����->????_NL_����
+      - ???? _FR_���� 2
       - ???? _US_���� 5
-      - _CN_�й� 2
-      - ???? _US_����->????_IR_����
       - ???? _US_���� 6
-      - ???? _US_����->????_LU_¬ɭ��
-      - ???? _FR_����
       - ???? _US_���� 7
-      - ???? _US_���� 8
-      - ???? _US_����->????_LU_¬ɭ�� 2
+      - ???? _IE_������
+      - ???? _DE_�¹�
+      - ???? _US_����->????_IR_����
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,?? ȫ��ֱ��
   - DOMAIN-SUFFIX,ip6-localhost,?? ȫ��ֱ��
