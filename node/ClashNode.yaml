@@ -15,65 +15,63 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: ???? _IE_������, server: 34.246.243.167, port: 22222, client-fingerprint: chrome, type: trojan, password: telegram-id-directvpn, tfo: false, sni: trj.rollingnext.co.uk, skip-cert-verify: false}
-  - {name: ???? _FR_����, server: 13.38.247.36, port: 22222, client-fingerprint: chrome, type: trojan, password: telegram-id-directvpn, tfo: false, sni: trj.rollingnext.co.uk, skip-cert-verify: false}
-  - {name: ???? _US_����, server: cf-lt.sharecentre.online, port: 8080, client-fingerprint: chrome, type: vmess, uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v03.ssrsub.com}}}
-  - {name: ???? _CN_�й�->????_US_����, server: 17.kccic2pa.xyz, port: 50017, client-fingerprint: chrome, type: vmess, uuid: b4ff3b77-82b0-4f85-b7d1-df17967cf045, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: ???? _US_���� 2, server: 5.161.159.21, port: 443, client-fingerprint: chrome, type: vmess, uuid: 3d1fab6e-3bd6-472b-8d9c-9934c04eaf40, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/]}}
-  - {name: ???? _CN_�й�->????_AT_�µ���, server: 07.kccic2pa.xyz, port: 50007, client-fingerprint: chrome, type: vmess, uuid: b4ff3b77-82b0-4f85-b7d1-df17967cf045, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: ???? _US_����->????_GB_Ӣ��, server: xn2.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: xn2.shabijichang.com}}}
-  - {name: ???? _GB_Ӣ��, server: 172.99.190.109, port: 443, client-fingerprint: chrome, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: linkvws}}
-  - {name: ???? _US_����->????_IN_ӡ��, server: mm3.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: mm3.shabijichang.com}}}
-  - {name: ???? _US_����->????_SA_ɳ�ذ�����, server: jd3.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: jd3.shabijichang.com}}}
-  - {name: ???? _CN_�й�->????_FR_����, server: 41.kccic2pa.xyz, port: 50041, client-fingerprint: chrome, type: vmess, uuid: b4ff3b77-82b0-4f85-b7d1-df17967cf045, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: ???? _CN_�й�->????_US_���� 2, server: 01.kccic2pa.xyz, port: 50001, client-fingerprint: chrome, type: vmess, uuid: b4ff3b77-82b0-4f85-b7d1-df17967cf045, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: ???? _US_����->????_DE_�¹�, server: flkf2.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: flkf2.shabijichang.com}}}
-  - {name: ???? _US_���� 3, server: fhc2.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: fhc2.shabijichang.com}}}
-  - {name: ???? _US_���� 4, server: wnd3.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: wnd3.shabijichang.com}}}
-  - {name: ???? _US_����->????_BR_����, server: sbl4.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sbl4.shabijichang.com}}}
-  - {name: ???? _CN_�й�->????_US_���� 3, server: 16.kccic2pa.xyz, port: 50016, client-fingerprint: chrome, type: vmess, uuid: b4ff3b77-82b0-4f85-b7d1-df17967cf045, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: ???? _US_����->????_DE_�¹� 2, server: yd1.992688.xyz, port: 2052, client-fingerprint: chrome, type: vmess, uuid: 6963920a-8bb3-4f87-b231-56ccb9f9b3a7, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: vceu3.vpn66.eu.org}}}
-  - {name: ???? _KR_����->????_GB_Ӣ��, server: 130.162.154.209, port: 443, client-fingerprint: chrome, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ophelia.mom:443/linkvws, headers: {Host: cf.tonyluk.link}}}
-  - {name: _CN_�й�, server: 111.67.201.33, port: 10052, client-fingerprint: chrome, type: vmess, uuid: 3097c8db-70a5-4b3f-a54d-54685a00d086, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /neimenggu001}}
+  - {name: ???? _US_����->????_DE_�¹�, server: x10.mehdimoghaddam.fun, port: 2087, client-fingerprint: chrome, type: vmess, uuid: b4d5538c-3119-478a-b4c5-c59c330eb88b, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: x10.mehdimoghaddam.fun}}}
+  - {name: ???? _US_����, server: wnd3.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: 10ea3b2a-b615-45f1-b1b7-c62bafe8c80c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: wnd3.shabijichang.com}}}
   - {name: ???? _US_����->????_FR_����, server: 104.18.202.232, port: 80, client-fingerprint: chrome, type: vmess, uuid: 0349ae50-68fc-11ee-b037-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: eu-2.0rd.net}}}
-  - {name: ???? _US_���� 5, server: 104.17.27.2, port: 80, client-fingerprint: chrome, type: vmess, uuid: 72d46152-ee0b-4610-efb1-ffb0f786b848, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: my2.gamedaylion.buzz}}}
-  - {name: ???? _US_����->????_NL_����, server: 45.199.138.191, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1696598013851, headers: {Host: www.42077230.xyz}}}
-  - {name: ???? _US_���� 6, server: 67.21.90.5, port: 443, client-fingerprint: chrome, type: vmess, uuid: 28dd6c26-05a5-4bba-8a5d-052b70ac13b2, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1694429908748, headers: {Host: www.75409854.xyz}}}
-  - {name: ???? _NL_����, server: 154.85.1.244, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 1d474f0b-e78d-4af9-bc4a-a467467bc7a7, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1696944806961, headers: {Host: www.28115361.xyz}}}
-  - {name: ???? _CN_�й�->????_US_���� 4, server: 20.kccic2pa.xyz, port: 50020, client-fingerprint: chrome, type: vmess, uuid: b4ff3b77-82b0-4f85-b7d1-df17967cf045, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: ???? _US_���� 7, server: sbl3.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sbl3.shabijichang.com}}}
+  - {name: ???? _US_����->????_SA_ɳ�ذ�����, server: jd3.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: jd3.shabijichang.com}}}
+  - {name: ???? _US_����->????_IN_ӡ��, server: hdlb2.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hdlb2.shabijichang.com}}}
+  - {name: ???? _US_����->????_IN_ӡ�� 2, server: mm3.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: mm3.shabijichang.com}}}
+  - {name: ???? _CN_�й�->????_US_����, server: nl01.lovehjq.xyz, port: 41929, client-fingerprint: chrome, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, tfo: false, skip-cert-verify: false}
+  - {name: ???? _GB_Ӣ��, server: 13.43.244.134, port: 22222, client-fingerprint: chrome, type: trojan, password: telegram-id-directvpn, tfo: false, sni: trj.rollingnext.co.uk, skip-cert-verify: false}
+  - {name: ???? _US_���� 2, server: fhc2.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: fhc2.shabijichang.com}}}
+  - {name: ???? _CN_�й�->????_CA_���ô�, server: cdn.node.user-sub.pddns-usersdk.com, port: 11301, client-fingerprint: chrome, type: vmess, uuid: 26ec8c6b-47ca-3b2c-bef3-5b88c65d30ec, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ef483582-6269-468c-93af-c512ec2b8a61, headers: {Host: cdn.node.user-sub.pddns-usersdk.com}}}
+  - {name: ???? _US_���� 3, server: 104.17.27.2, port: 80, client-fingerprint: chrome, type: vmess, uuid: 72d46152-ee0b-4610-efb1-ffb0f786b848, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: my2.gamedaylion.buzz}}}
+  - {name: ???? _US_���� 4, server: sbl3.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sbl3.shabijichang.com}}}
+  - {name: ???? _US_���� 5, server: 172.67.184.13, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sbl2.shabijichang.com}}}
+  - {name: ???? _US_���� 6, server: 107.167.16.85, port: 443, client-fingerprint: chrome, type: vmess, uuid: 7640a1e7-9701-428e-a4b2-19b3e7dd6f9f, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/080822272914, headers: {Host: www.51109057.xyz}}}
+  - {name: ???? _US_����->????_AU_�Ĵ�����, server: xn3.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: xn3.shabijichang.com}}}
+  - {name: ???? _CA_���ô�, server: 108.181.10.17, port: 80, client-fingerprint: chrome, type: vmess, uuid: f5500880-6ae4-11ee-b736-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: ???? _NL_����, server: 154.85.1.244, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 1d474f0b-e78d-4af9-bc4a-a467467bc7a7, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1696682720138, headers: {Host: www.28115361.xyz}}}
+  - {name: ???? _US_���� 7, server: 156.225.67.104, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1696944806961, headers: {Host: www.41758112.xyz}}}
+  - {name: ???? _US_���� 8, server: 104.31.16.196, port: 2053, client-fingerprint: chrome, type: vmess, uuid: 72f76c36-3e3c-45b3-a61f-d8f017345958, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: b5.iraniancp.click}}}
+  - {name: ???? _CN_�й�->????_CA_���ô� 2, server: cdn.node.user-sub.pddns-usersdk.com, port: 11302, client-fingerprint: chrome, type: vmess, uuid: 26ec8c6b-47ca-3b2c-bef3-5b88c65d30ec, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ef483582-6269-468c-93af-c512ec2b8a61, headers: {Host: cdn.node.user-sub.pddns-usersdk.com}}}
+  - {name: ???? _DE_�¹�, server: 18.153.47.169, port: 22222, client-fingerprint: chrome, type: trojan, password: telegram-id-privatevpns, tfo: false, sni: trj.rollingnext.co.uk, skip-cert-verify: false}
+  - {name: ???? _US_���� 9, server: wnd2.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: wnd2.shabijichang.com}}}
+  - {name: ???? _US_���� 10, server: 104.20.231.210, port: 80, client-fingerprint: chrome, type: vmess, uuid: 72d46152-ee0b-4610-efb1-ffb0f786b848, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: my.designlion.buzz}}}
+  - {name: ???? _GB_Ӣ�� 2, server: 13.43.242.238, port: 22222, client-fingerprint: chrome, type: trojan, password: telegram-id-privatevpns, tfo: false, sni: trj.rollingnext.co.uk, skip-cert-verify: false}
+  - {name: ???? _US_���� 11, server: jd2.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: jd2.shabijichang.com}}}
+  - {name: ???? _US_���� 12, server: asb2.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: asb2.shabijichang.com}}}
 proxy-groups:
   - name: ?? �ڵ�ѡ��
     type: select
     proxies:
       - DIRECT
-      - ???? _IE_������
-      - ???? _FR_����
-      - ???? _US_����
-      - ???? _CN_�й�->????_US_����
-      - ???? _US_���� 2
-      - ???? _CN_�й�->????_AT_�µ���
-      - ???? _US_����->????_GB_Ӣ��
-      - ???? _GB_Ӣ��
-      - ???? _US_����->????_IN_ӡ��
-      - ???? _US_����->????_SA_ɳ�ذ�����
-      - ???? _CN_�й�->????_FR_����
-      - ???? _CN_�й�->????_US_���� 2
       - ???? _US_����->????_DE_�¹�
+      - ???? _US_����
+      - ???? _US_����->????_FR_����
+      - ???? _US_����->????_SA_ɳ�ذ�����
+      - ???? _US_����->????_IN_ӡ��
+      - ???? _US_����->????_IN_ӡ�� 2
+      - ???? _CN_�й�->????_US_����
+      - ???? _GB_Ӣ��
+      - ???? _US_���� 2
+      - ???? _CN_�й�->????_CA_���ô�
       - ???? _US_���� 3
       - ???? _US_���� 4
-      - ???? _US_����->????_BR_����
-      - ???? _CN_�й�->????_US_���� 3
-      - ???? _US_����->????_DE_�¹� 2
-      - ???? _KR_����->????_GB_Ӣ��
-      - _CN_�й�
-      - ???? _US_����->????_FR_����
       - ???? _US_���� 5
-      - ???? _US_����->????_NL_����
       - ???? _US_���� 6
+      - ???? _US_����->????_AU_�Ĵ�����
+      - ???? _CA_���ô�
       - ???? _NL_����
-      - ???? _CN_�й�->????_US_���� 4
       - ???? _US_���� 7
+      - ???? _US_���� 8
+      - ???? _CN_�й�->????_CA_���ô� 2
+      - ???? _DE_�¹�
+      - ???? _US_���� 9
+      - ???? _US_���� 10
+      - ???? _GB_Ӣ�� 2
+      - ???? _US_���� 11
+      - ???? _US_���� 12
   - name: ?? ȫ��ֱ��
     type: select
     proxies:
@@ -89,33 +87,32 @@ proxy-groups:
     proxies:
       - ?? �ڵ�ѡ��
       - ?? ȫ��ֱ��
-      - ???? _IE_������
-      - ???? _FR_����
-      - ???? _US_����
-      - ???? _CN_�й�->????_US_����
-      - ???? _US_���� 2
-      - ???? _CN_�й�->????_AT_�µ���
-      - ???? _US_����->????_GB_Ӣ��
-      - ???? _GB_Ӣ��
-      - ???? _US_����->????_IN_ӡ��
-      - ???? _US_����->????_SA_ɳ�ذ�����
-      - ???? _CN_�й�->????_FR_����
-      - ???? _CN_�й�->????_US_���� 2
       - ???? _US_����->????_DE_�¹�
+      - ???? _US_����
+      - ???? _US_����->????_FR_����
+      - ???? _US_����->????_SA_ɳ�ذ�����
+      - ???? _US_����->????_IN_ӡ��
+      - ???? _US_����->????_IN_ӡ�� 2
+      - ???? _CN_�й�->????_US_����
+      - ???? _GB_Ӣ��
+      - ???? _US_���� 2
+      - ???? _CN_�й�->????_CA_���ô�
       - ???? _US_���� 3
       - ???? _US_���� 4
-      - ???? _US_����->????_BR_����
-      - ???? _CN_�й�->????_US_���� 3
-      - ???? _US_����->????_DE_�¹� 2
-      - ???? _KR_����->????_GB_Ӣ��
-      - _CN_�й�
-      - ???? _US_����->????_FR_����
       - ???? _US_���� 5
-      - ???? _US_����->????_NL_����
       - ???? _US_���� 6
+      - ???? _US_����->????_AU_�Ĵ�����
+      - ???? _CA_���ô�
       - ???? _NL_����
-      - ???? _CN_�й�->????_US_���� 4
       - ???? _US_���� 7
+      - ???? _US_���� 8
+      - ???? _CN_�й�->????_CA_���ô� 2
+      - ???? _DE_�¹�
+      - ???? _US_���� 9
+      - ???? _US_���� 10
+      - ???? _GB_Ӣ�� 2
+      - ???? _US_���� 11
+      - ???? _US_���� 12
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,?? ȫ��ֱ��
   - DOMAIN-SUFFIX,ip6-localhost,?? ȫ��ֱ��
