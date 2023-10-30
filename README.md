@@ -14,17 +14,24 @@
 
 [NodeFree](https://nodefree.org)
 
+[NodeBird](https://nodebird.net)
+
 ## Subscription Links
 
 - ClashNode: https://raw.githubusercontent.com/itxve/fetch-clash-node/main/node/ClashNode.yaml ★
 
 - NodeFree: https://raw.githubusercontent.com/itxve/fetch-clash-node/main/node/NodeFree.yaml ★
 
+- NodeBird: https://raw.githubusercontent.com/itxve/fetch-clash-node/main/node/NodeBird.yaml ★
+
+
 ## Subscription Links (CDN) There is a certain delay
 
 - ClashNode: https://cdn.jsdelivr.net/gh/itxve/fetch-clash-node/node/ClashNode.yaml ★
 
 - NodeFree: https://cdn.jsdelivr.net/gh/itxve/fetch-clash-node/node/NodeFree.yaml ★
+  
+- NodeBird: https://cdn.jsdelivr.net/gh/itxve/fetch-clash-node/node/NodeBird.yaml ★
 
 ### Clash Premium 各版本下载地址
 
