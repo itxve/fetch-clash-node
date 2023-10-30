@@ -38,6 +38,10 @@ let nodes = [
     name: "ClashNode",
     hostUrl: "https://clashnode.com/wp-content/uploads/",
   },
+   {
+    name: "NodeBird",
+    hostUrl: "https://nodebird.net/wp-content/uploads/",
+  },
 ];
 
 let d = new Date();
