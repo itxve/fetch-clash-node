@@ -15,69 +15,41 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: ???? _DE_�¹�, server: 5.104.107.143, port: 443, client-fingerprint: chrome, type: trojan, password: bb897a73-5dda-4d21-aec1-57b80fe49ea6, sni: de1.xn--mes358a9urctx.com, skip-cert-verify: false}
-  - {name: ???? _CN_�й�->????_US_����, server: 3u1s05.abzoones.xyz, port: 36506, client-fingerprint: chrome, type: vmess, uuid: 75a3d0b1-64c0-4929-b6a0-b1ef3379cf2e, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false}
-  - {name: ???? _US_����->????_BR_����, server: sbl4.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sbl4.shabijichang.com}}}
-  - {name: ???? _CN_�й�->????_US_���� 2, server: yes.cnmjcn.net, port: 16648, client-fingerprint: chrome, type: vmess, uuid: 61d2b2f6-d6ce-4724-9a5d-cc1123a1c949, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: yes.cnmjcn.net}}}
-  - {name: ???? _CN_�й�->????_US_���� 3, server: t.cnmjcn.cyou, port: 16648, client-fingerprint: chrome, type: vmess, uuid: 61d2b2f6-d6ce-4724-9a5d-cc1123a1c949, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: t.cnmjcn.cyou}}}
-  - {name: ???? _CN_�й�->????_US_���� 4, server: 3u1s06.abzoones.xyz, port: 36511, client-fingerprint: chrome, type: vmess, uuid: 75a3d0b1-64c0-4929-b6a0-b1ef3379cf2e, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false}
-  - {name: ???? _CN_�й�->????_AR_����͢, server: 9a8r04.abzoones.xyz, port: 36861, client-fingerprint: chrome, type: vmess, uuid: 75a3d0b1-64c0-4929-b6a0-b1ef3379cf2e, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false}
+  - {name: ???? _US_����, server: sbl2.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sbl2.shabijichang.com}}}
+  - {name: ???? _US_���� 2, server: cf-lt.sharecentre.online, port: 80, client-fingerprint: chrome, type: vmess, uuid: 3d761afc-6dfd-49d9-9d0f-b79341391f26, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v006.ssrsub.com}}}
+  - {name: ???? _US_���� 3, server: 104.21.75.246, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sbl2.shabijichang.com}}}
   - {name: ???? _US_����->????_GB_Ӣ��, server: mrb2.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: mrb2.shabijichang.com}}}
-  - {name: ???? _JP_�ձ�->????_CA_���ô�, server: usla.mjt000.com, port: 443, client-fingerprint: chrome, type: trojan, password: 61d2b2f6-d6ce-4724-9a5d-cc1123a1c949, sni: usla.mjt000.com, skip-cert-verify: false}
-  - {name: ???? _JP_�ձ�->????_UA_�ڿ���, server: ua.mjt000.com, port: 443, client-fingerprint: chrome, type: trojan, password: 61d2b2f6-d6ce-4724-9a5d-cc1123a1c949, sni: ua.mjt000.com, skip-cert-verify: false}
-  - {name: ???? _CN_�й�->????_BR_����, server: 6i2r04.abzoones.xyz, port: 36877, client-fingerprint: chrome, type: vmess, uuid: 75a3d0b1-64c0-4929-b6a0-b1ef3379cf2e, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false}
-  - {name: _CN_�й�, server: 124.220.57.75, port: 80, client-fingerprint: chrome, type: vmess, uuid: 1b3dd95b-f6dc-4f20-97aa-3b365358419c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: ???? _US_����->????_DE_�¹�, server: 104.31.16.164, port: 2082, client-fingerprint: chrome, type: vmess, uuid: 1af4ba3d-e60f-4f83-b38b-23fc181f676d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /franc.digires.shop/11201, headers: {Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev}}}
+  - {name: ???? _US_����->????_NL_����, server: 156.225.67.106, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1698671600986, headers: {Host: www.41758112.xyz}}}
+  - {name: ???? _US_���� 4, server: 172.67.229.25, port: 2086, client-fingerprint: chrome, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2, headers: {Host: ca6.tehme100.fun}}}
+  - {name: ???? _US_����->????_FR_����, server: fr-new01.gujuji.top, port: 8080, client-fingerprint: chrome, type: vmess, uuid: 55e28ab0-012e-4a70-9154-820f562fd4e2, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: fr-new01.gujuji.top}}}
+  - {name: ???? _GB_Ӣ��, server: 172.99.190.109, port: 443, client-fingerprint: chrome, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: ???? _US_����->????_DE_�¹� 2, server: de-new01.gujuji.top, port: 8080, client-fingerprint: chrome, type: vmess, uuid: 55e28ab0-012e-4a70-9154-820f562fd4e2, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: de-new01.gujuji.top}}}
   - {name: ???? _US_����->????_IN_ӡ��, server: mm2.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: mm2.shabijichang.com}}}
-  - {name: ???? _CN_�й�->????_US_���� 5, server: other.kunlun-ppg.com, port: 10837, client-fingerprint: chrome, type: trojan, password: 3e3cd44f-a06f-4571-8721-ce06a5fc12b7, sni: alibaba-node.cn, skip-cert-verify: false}
-  - {name: ???? _CN_�й�->????_PT_������, server: 4p2t01.abzoones.xyz, port: 36881, client-fingerprint: chrome, type: vmess, uuid: 75a3d0b1-64c0-4929-b6a0-b1ef3379cf2e, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false}
-  - {name: ???? _CN_�й�->????_US_���� 6, server: yes.cnmjcn.net, port: 16626, client-fingerprint: chrome, type: vmess, uuid: 61d2b2f6-d6ce-4724-9a5d-cc1123a1c949, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: yes.cnmjcn.net}}}
-  - {name: ???? _CN_�й�->????_HU_������, server: 2h4u04.abzoones.xyz, port: 36864, client-fingerprint: chrome, type: vmess, uuid: 75a3d0b1-64c0-4929-b6a0-b1ef3379cf2e, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false}
-  - {name: ???? _JP_�ձ�->????_PT_������, server: pt.mjt000.com, port: 443, client-fingerprint: chrome, type: trojan, password: 61d2b2f6-d6ce-4724-9a5d-cc1123a1c949, sni: pt.mjt000.com, skip-cert-verify: false}
-  - {name: ???? _US_����->????_IN_ӡ�� 2, server: hdlb2.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hdlb2.shabijichang.com}}}
-  - {name: ???? _CN_�й�->????_AU_�Ĵ�����, server: 5a4u04.abzoones.xyz, port: 36821, client-fingerprint: chrome, type: vmess, uuid: 75a3d0b1-64c0-4929-b6a0-b1ef3379cf2e, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false}
-  - {name: ???? _CN_�й�->????_IN_ӡ��, server: 7i4n04.abzoones.xyz, port: 36831, client-fingerprint: chrome, type: vmess, uuid: 75a3d0b1-64c0-4929-b6a0-b1ef3379cf2e, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false}
-  - {name: ???? _PK_�ͻ�˹̹, server: us1-reality.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, client-fingerprint: chrome, type: trojan, password: 7e23957d-535a-4dc6-9482-e6f44518da87, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: false}
-  - {name: ???? _CN_�й�->????_TR_������, server: 2t1u04.abzoones.xyz, port: 36868, client-fingerprint: chrome, type: vmess, uuid: 75a3d0b1-64c0-4929-b6a0-b1ef3379cf2e, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false}
-  - {name: ???? _CN_�й�->????_GB_Ӣ��, server: 2u3k04.abzoones.xyz, port: 36811, client-fingerprint: chrome, type: vmess, uuid: 75a3d0b1-64c0-4929-b6a0-b1ef3379cf2e, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false}
-  - {name: ???? _CN_�й�->????_CA_���ô�, server: 5c1a04.abzoones.xyz, port: 36701, client-fingerprint: chrome, type: vmess, uuid: 75a3d0b1-64c0-4929-b6a0-b1ef3379cf2e, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false}
-  - {name: ???? _CN_�й�->????_US_���� 7, server: 3u1s04.abzoones.xyz, port: 36501, client-fingerprint: chrome, type: vmess, uuid: 75a3d0b1-64c0-4929-b6a0-b1ef3379cf2e, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false}
-  - {name: ???? _JP_�ձ�->????_AR_����͢, server: ar.mjt000.com, port: 443, client-fingerprint: chrome, type: trojan, password: 61d2b2f6-d6ce-4724-9a5d-cc1123a1c949, sni: ar.mjt000.com, skip-cert-verify: false}
-  - {name: ???? _CN_�й�->????_US_���� 8, server: m.cnmjcn.com, port: 16648, client-fingerprint: chrome, type: vmess, uuid: 61d2b2f6-d6ce-4724-9a5d-cc1123a1c949, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: m.cnmjcn.com}}}
-  - {name: ???? _CN_�й�->????_US_���� 9, server: other.kunlun-ppg.com, port: 10850, client-fingerprint: chrome, type: trojan, password: bd5ad33d-d267-4393-928a-50f425d1b68c, sni: alibaba-node.cn, skip-cert-verify: false}
+  - {name: ???? _US_����->????_GB_Ӣ�� 2, server: ld2.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ld2.shabijichang.com}}}
+  - {name: ???? _US_���� 5, server: us-new04.gujuji.top, port: 8080, client-fingerprint: chrome, type: vmess, uuid: 55e28ab0-012e-4a70-9154-820f562fd4e2, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: us-new04.gujuji.top}}}
+  - {name: ???? _US_���� 6, server: hytron.io, port: 8080, client-fingerprint: chrome, type: vmess, uuid: 9c4a3ad3-4f1d-4138-e7ee-8bb5325b411d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: airusa.daozhang.link}}}
+  - {name: ???? _US_���� 7, server: 209.216.77.26, port: 443, client-fingerprint: chrome, type: trojan, password: 1b491c39f3, sni: usa3.connecton.surf, skip-cert-verify: false}
 proxy-groups:
   - name: ?? �ڵ�ѡ��
     type: select
     proxies:
       - DIRECT
-      - ???? _DE_�¹�
-      - ???? _CN_�й�->????_US_����
-      - ???? _US_����->????_BR_����
-      - ???? _CN_�й�->????_US_���� 2
-      - ???? _CN_�й�->????_US_���� 3
-      - ???? _CN_�й�->????_US_���� 4
-      - ???? _CN_�й�->????_AR_����͢
+      - ???? _US_����
+      - ???? _US_���� 2
+      - ???? _US_���� 3
       - ???? _US_����->????_GB_Ӣ��
-      - ???? _JP_�ձ�->????_CA_���ô�
-      - ???? _JP_�ձ�->????_UA_�ڿ���
-      - ???? _CN_�й�->????_BR_����
-      - _CN_�й�
+      - ???? _US_����->????_DE_�¹�
+      - ???? _US_����->????_NL_����
+      - ???? _US_���� 4
+      - ???? _US_����->????_FR_����
+      - ???? _GB_Ӣ��
+      - ???? _US_����->????_DE_�¹� 2
       - ???? _US_����->????_IN_ӡ��
-      - ???? _CN_�й�->????_US_���� 5
-      - ???? _CN_�й�->????_PT_������
-      - ???? _CN_�й�->????_US_���� 6
-      - ???? _CN_�й�->????_HU_������
-      - ???? _JP_�ձ�->????_PT_������
-      - ???? _US_����->????_IN_ӡ�� 2
-      - ???? _CN_�й�->????_AU_�Ĵ�����
-      - ???? _CN_�й�->????_IN_ӡ��
-      - ???? _PK_�ͻ�˹̹
-      - ???? _CN_�й�->????_TR_������
-      - ???? _CN_�й�->????_GB_Ӣ��
-      - ???? _CN_�й�->????_CA_���ô�
-      - ???? _CN_�й�->????_US_���� 7
-      - ???? _JP_�ձ�->????_AR_����͢
-      - ???? _CN_�й�->????_US_���� 8
-      - ???? _CN_�й�->????_US_���� 9
+      - ???? _US_����->????_GB_Ӣ�� 2
+      - ???? _US_���� 5
+      - ???? _US_���� 6
+      - ???? _US_���� 7
   - name: ?? ȫ��ֱ��
     type: select
     proxies:
@@ -93,35 +65,21 @@ proxy-groups:
     proxies:
       - ?? �ڵ�ѡ��
       - ?? ȫ��ֱ��
-      - ???? _DE_�¹�
-      - ???? _CN_�й�->????_US_����
-      - ???? _US_����->????_BR_����
-      - ???? _CN_�й�->????_US_���� 2
-      - ???? _CN_�й�->????_US_���� 3
-      - ???? _CN_�й�->????_US_���� 4
-      - ???? _CN_�й�->????_AR_����͢
+      - ???? _US_����
+      - ???? _US_���� 2
+      - ???? _US_���� 3
       - ???? _US_����->????_GB_Ӣ��
-      - ???? _JP_�ձ�->????_CA_���ô�
-      - ???? _JP_�ձ�->????_UA_�ڿ���
-      - ???? _CN_�й�->????_BR_����
-      - _CN_�й�
+      - ???? _US_����->????_DE_�¹�
+      - ???? _US_����->????_NL_����
+      - ???? _US_���� 4
+      - ???? _US_����->????_FR_����
+      - ???? _GB_Ӣ��
+      - ???? _US_����->????_DE_�¹� 2
       - ???? _US_����->????_IN_ӡ��
-      - ???? _CN_�й�->????_US_���� 5
-      - ???? _CN_�й�->????_PT_������
-      - ???? _CN_�й�->????_US_���� 6
-      - ???? _CN_�й�->????_HU_������
-      - ???? _JP_�ձ�->????_PT_������
-      - ???? _US_����->????_IN_ӡ�� 2
-      - ???? _CN_�й�->????_AU_�Ĵ�����
-      - ???? _CN_�й�->????_IN_ӡ��
-      - ???? _PK_�ͻ�˹̹
-      - ???? _CN_�й�->????_TR_������
-      - ???? _CN_�й�->????_GB_Ӣ��
-      - ???? _CN_�й�->????_CA_���ô�
-      - ???? _CN_�й�->????_US_���� 7
-      - ???? _JP_�ձ�->????_AR_����͢
-      - ???? _CN_�й�->????_US_���� 8
-      - ???? _CN_�й�->????_US_���� 9
+      - ???? _US_����->????_GB_Ӣ�� 2
+      - ???? _US_���� 5
+      - ???? _US_���� 6
+      - ???? _US_���� 7
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,?? ȫ��ֱ��
   - DOMAIN-SUFFIX,ip6-localhost,?? ȫ��ֱ��
