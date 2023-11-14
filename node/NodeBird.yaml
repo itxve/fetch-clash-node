@@ -5,45 +5,71 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇬🇧 _CN_中国->🇬🇧_GB_英国, server: 09.kccic2pa.xyz, port: 50009, type: vmess, uuid: a24d165e-408c-41cb-9997-0fcb012cb138, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 _US_美国, server: 104.16.68.38, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: linkvws, headers: {Host: alvvin.click}}}
-  - {name: 🇺🇸 _US_美国->🇬🇧_GB_英国, server: ld2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ld2.shabijichang.com}}}
-  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国, server: 20.kccic2pa.xyz, port: 50020, type: vmess, uuid: a24d165e-408c-41cb-9997-0fcb012cb138, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇦🇺 _CN_中国->🇦🇺_AU_澳大利亚, server: 5a4u04.abzoones.xyz, port: 36821, type: vmess, uuid: 19881474-b3da-45e7-a99b-9afdafecb10a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇮🇳 _CN_中国->🇮🇳_IN_印度, server: 7i4n04.abzoones.xyz, port: 36831, type: vmess, uuid: 19881474-b3da-45e7-a99b-9afdafecb10a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇪🇸 _CN_中国->🇪🇸_ES_西班牙, server: 6e2s04.abzoones.xyz, port: 36884, type: vmess, uuid: 19881474-b3da-45e7-a99b-9afdafecb10a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇹🇷 _CN_中国->🇹🇷_TR_土耳其, server: 2t1u04.abzoones.xyz, port: 36868, type: vmess, uuid: 19881474-b3da-45e7-a99b-9afdafecb10a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇵🇹 _CN_中国->🇵🇹_PT_葡萄牙, server: 4p2t01.abzoones.xyz, port: 36881, type: vmess, uuid: 19881474-b3da-45e7-a99b-9afdafecb10a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇭🇺 _CN_中国->🇭🇺_HU_匈牙利, server: 2h4u04.abzoones.xyz, port: 36864, type: vmess, uuid: 19881474-b3da-45e7-a99b-9afdafecb10a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇨🇦 _CN_中国->🇨🇦_CA_加拿大, server: 5c1a04.abzoones.xyz, port: 36701, type: vmess, uuid: 19881474-b3da-45e7-a99b-9afdafecb10a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国, server: 3u1s05.abzoones.xyz, port: 36506, type: vmess, uuid: 19881474-b3da-45e7-a99b-9afdafecb10a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇬🇧 _CN_中国->🇬🇧_GB_英国, server: 2u3k04.abzoones.xyz, port: 36811, type: vmess, uuid: 19881474-b3da-45e7-a99b-9afdafecb10a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国 2, server: 3u1s04.abzoones.xyz, port: 36501, type: vmess, uuid: 19881474-b3da-45e7-a99b-9afdafecb10a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇩🇪 _CN_中国->🇩🇪_DE_德国, server: 3d6e04.abzoones.xyz, port: 36841, type: vmess, uuid: 19881474-b3da-45e7-a99b-9afdafecb10a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇦🇹 _CN_中国->🇦🇹_AT_奥地利, server: other.kunlun-ppg.com, port: 10848, type: trojan, password: b7de227d-9f33-4edf-822d-9006a3b74787, sni: alibaba-node.cn, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国->🇮🇳_IN_印度, server: mm3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: mm3.shabijichang.com}}}
+  - {name: 🇧🇷 _CN_中国->🇧🇷_BR_巴西, server: 6i2r04.abzoones.xyz, port: 36877, type: vmess, uuid: 19881474-b3da-45e7-a99b-9afdafecb10a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国, server: 64.176.162.24, port: 443, type: trojan, password: wkmY1R4EcP, sni: z-v1-zzzh.ashx.net, skip-cert-verify: false}
+  - {name: _CN_中国, server: other.kunlun-ppg.com, port: 10837, type: trojan, password: b7de227d-9f33-4edf-822d-9006a3b74787, sni: alibaba-node.cn, skip-cert-verify: false}
+  - {name: _CN_中国 2, server: other.kunlun-ppg.com, port: 10838, type: trojan, password: b7de227d-9f33-4edf-822d-9006a3b74787, sni: alibaba-node.cn, skip-cert-verify: false}
+  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国 3, server: 3u1s06.abzoones.xyz, port: 36511, type: vmess, uuid: 19881474-b3da-45e7-a99b-9afdafecb10a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国 4, server: other.kunlun-ppg.com, port: 10850, type: trojan, password: b7de227d-9f33-4edf-822d-9006a3b74787, sni: alibaba-node.cn, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国 2, server: z-v1-zzzh.ashx.net, port: 443, type: trojan, password: wkmY1R4EcP, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国->🇮🇳_IN_印度 2, server: mm2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: mm2.shabijichang.com}}}
   - {name: 🇺🇸 _US_美国->🇳🇱_NL_荷兰, server: 45.199.138.191, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1699280099138, headers: {Host: www.42077230.xyz}}}
-  - {name: 🇺🇸 _US_美国->🇮🇳_IN_印度, server: mm2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: mm2.shabijichang.com}}}
-  - {name: 🇸🇬 _SG_新加坡->🇺🇸_US_美国, server: 8.222.198.105, port: 80, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: warp.chigua.tk}}}
-  - {name: 🇺🇸 _US_美国->🇬🇧_GB_英国 2, server: mrb2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: mrb2.shabijichang.com}}}
-  - {name: 🇺🇸 _US_美国->🇮🇳_IN_印度 2, server: mm3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: mm3.shabijichang.com}}}
-  - {name: 🇸🇬 _SG_新加坡->🇺🇸_US_美国 2, server: 8.222.235.92, port: 80, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: warp.chigua.tk}}}
-  - {name: 🇺🇸 _US_美国 2, server: sbl2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sbl2.shabijichang.com}}}
-  - {name: 🇺🇸 _US_美国 3, server: 104.18.62.248, port: 2052, type: vmess, uuid: 664af8e6-2755-40ed-bb4e-2eeecf9b0a60, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/public?ed=2048", headers: {Host: de1.biqibao.site}}}
-  - {name: 🇺🇸 _US_美国 4, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 3d761afc-6dfd-49d9-9d0f-b79341391f26, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v005.ssrsub.com}}}
+  - {name: 🇺🇸 _US_美国->🇬🇧_GB_英国, server: mrb2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: mrb2.shabijichang.com}}}
+  - {name: 🇦🇷 _CN_中国->🇦🇷_AR_阿根廷, server: 9a8r04.abzoones.xyz, port: 36861, type: vmess, uuid: 19881474-b3da-45e7-a99b-9afdafecb10a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇺🇦 _CN_中国->🇺🇦_UA_乌克兰, server: other.kunlun-ppg.com, port: 10845, type: trojan, password: b7de227d-9f33-4edf-822d-9006a3b74787, sni: alibaba-node.cn, skip-cert-verify: false}
   - {name: 🇺🇸 _US_美国->🇧🇷_BR_巴西, server: sbl4.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sbl4.shabijichang.com}}}
-  - {name: 🇺🇸 _US_美国 5, server: 198.41.223.14, port: 80, type: vmess, uuid: 3d761afc-6dfd-49d9-9d0f-b79341391f26, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v006.ssrsub.com}}}
-  - {name: 🇺🇸 _US_美国 6, server: cold-dawn-9246.fly.dev, port: 443, type: vmess, uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm, headers: {Host: cold-dawn-9246.fly.dev}}}
-  - {name: 🇱🇹 _LT_立陶宛, server: 212.24.103.3, port: 2053, type: trojan, password: 2228e29d-942a-4ee8-b3c0-f4a846e3f355, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国 3, server: 80.92.205.112, port: 443, type: vmess, uuid: 4c90ba75-230b-4f8b-bbff-8efa0eb0415f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇨🇦 _CA_加拿大, server: 23.227.38.86, port: 8080, type: vmess, uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /1IKYjV0r/, headers: {Host: dongtaiwang13.dtku47.xyz}}}
+  - {name: 🇺🇸 _US_美国 4, server: 172.67.229.36, port: 2086, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2, headers: {Host: ca6.tehme100.fun}}}
+  - {name: 🇺🇸 _US_美国 5, server: 95.164.61.27, port: 80, type: vmess, uuid: 73f51947-ce77-4d19-a652-467863492634, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess, headers: {Host: il1.xv2ray.net}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - DIRECT
-      - 🇬🇧 _CN_中国->🇬🇧_GB_英国
-      - 🇺🇸 _US_美国
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国
+      - 🇦🇺 _CN_中国->🇦🇺_AU_澳大利亚
+      - 🇮🇳 _CN_中国->🇮🇳_IN_印度
+      - 🇪🇸 _CN_中国->🇪🇸_ES_西班牙
+      - 🇹🇷 _CN_中国->🇹🇷_TR_土耳其
+      - 🇵🇹 _CN_中国->🇵🇹_PT_葡萄牙
+      - 🇭🇺 _CN_中国->🇭🇺_HU_匈牙利
+      - 🇨🇦 _CN_中国->🇨🇦_CA_加拿大
       - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰
+      - 🇬🇧 _CN_中国->🇬🇧_GB_英国
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
+      - 🇩🇪 _CN_中国->🇩🇪_DE_德国
+      - 🇦🇹 _CN_中国->🇦🇹_AT_奥地利
       - 🇺🇸 _US_美国->🇮🇳_IN_印度
-      - 🇸🇬 _SG_新加坡->🇺🇸_US_美国
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国 2
-      - 🇺🇸 _US_美国->🇮🇳_IN_印度 2
-      - 🇸🇬 _SG_新加坡->🇺🇸_US_美国 2
+      - 🇧🇷 _CN_中国->🇧🇷_BR_巴西
+      - 🇺🇸 _US_美国
+      - _CN_中国
+      - _CN_中国 2
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 4
       - 🇺🇸 _US_美国 2
-      - 🇺🇸 _US_美国 3
-      - 🇺🇸 _US_美国 4
+      - 🇺🇸 _US_美国->🇮🇳_IN_印度 2
+      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国
+      - 🇦🇷 _CN_中国->🇦🇷_AR_阿根廷
+      - 🇺🇦 _CN_中国->🇺🇦_UA_乌克兰
       - 🇺🇸 _US_美国->🇧🇷_BR_巴西
+      - 🇺🇸 _US_美国 3
+      - 🇨🇦 _CA_加拿大
+      - 🇺🇸 _US_美国 4
       - 🇺🇸 _US_美国 5
-      - 🇺🇸 _US_美国 6
-      - 🇱🇹 _LT_立陶宛
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -59,23 +85,36 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇬🇧 _CN_中国->🇬🇧_GB_英国
-      - 🇺🇸 _US_美国
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国
+      - 🇦🇺 _CN_中国->🇦🇺_AU_澳大利亚
+      - 🇮🇳 _CN_中国->🇮🇳_IN_印度
+      - 🇪🇸 _CN_中国->🇪🇸_ES_西班牙
+      - 🇹🇷 _CN_中国->🇹🇷_TR_土耳其
+      - 🇵🇹 _CN_中国->🇵🇹_PT_葡萄牙
+      - 🇭🇺 _CN_中国->🇭🇺_HU_匈牙利
+      - 🇨🇦 _CN_中国->🇨🇦_CA_加拿大
       - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰
+      - 🇬🇧 _CN_中国->🇬🇧_GB_英国
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
+      - 🇩🇪 _CN_中国->🇩🇪_DE_德国
+      - 🇦🇹 _CN_中国->🇦🇹_AT_奥地利
       - 🇺🇸 _US_美国->🇮🇳_IN_印度
-      - 🇸🇬 _SG_新加坡->🇺🇸_US_美国
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国 2
-      - 🇺🇸 _US_美国->🇮🇳_IN_印度 2
-      - 🇸🇬 _SG_新加坡->🇺🇸_US_美国 2
+      - 🇧🇷 _CN_中国->🇧🇷_BR_巴西
+      - 🇺🇸 _US_美国
+      - _CN_中国
+      - _CN_中国 2
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 4
       - 🇺🇸 _US_美国 2
-      - 🇺🇸 _US_美国 3
-      - 🇺🇸 _US_美国 4
+      - 🇺🇸 _US_美国->🇮🇳_IN_印度 2
+      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国
+      - 🇦🇷 _CN_中国->🇦🇷_AR_阿根廷
+      - 🇺🇦 _CN_中国->🇺🇦_UA_乌克兰
       - 🇺🇸 _US_美国->🇧🇷_BR_巴西
+      - 🇺🇸 _US_美国 3
+      - 🇨🇦 _CA_加拿大
+      - 🇺🇸 _US_美国 4
       - 🇺🇸 _US_美国 5
-      - 🇺🇸 _US_美国 6
-      - 🇱🇹 _LT_立陶宛
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
