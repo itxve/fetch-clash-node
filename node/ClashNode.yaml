@@ -15,43 +15,39 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
+  - {name: ???? _FR_����, server: 35.181.109.150, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: false}
+  - {name: ???? _HK_���->????_CA_���ô�, server: ca.liangyuandiancloud.com, port: 443, type: trojan, password: 4f2f34cc-d2e9-4ca8-a687-68efe5ad5959, skip-cert-verify: false}
+  - {name: ???? _GB_Ӣ��, server: 172.99.190.109, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: linkvws}}
   - {name: ???? _US_����, server: 104.21.75.246, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sbl2.shabijichang.com}}}
-  - {name: ???? _US_���� 2, server: 28.namesilo123.top, port: 80, type: vmess, uuid: 309f84b9-49dd-408d-a0b6-8860393be802, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/grdhhgrdhhhhhhj?ed=2048", headers: {Host: uszhang.sanfen002.top}}}
-  - {name: ???? _US_���� 3, server: 29.namesilo123.top, port: 8880, type: vmess, uuid: 309f84b9-49dd-408d-a0b6-8860393be802, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/grdhhgrdhhhhhhj?ed=2048", headers: {Host: uszhang.sanfen002.top}}}
-  - {name: ???? _CN_�й�->????_GB_Ӣ��, server: 112.29.94.23, port: 49223, type: vmess, uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: ???? _US_����->????_IN_ӡ��, server: mm2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: mm2.shabijichang.com}}}
   - {name: ???? _US_����->????_GB_Ӣ��, server: mrb2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: mrb2.shabijichang.com}}}
-  - {name: ???? _TR_������, server: 193.46.56.210, port: 8443, type: vmess, uuid: b72694db-ed21-46c1-8923-325305fa787f, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false}
-  - {name: ???? _JP_�ձ�, server: 103.35.190.65, port: 443, type: vmess, uuid: ed531ebe-4971-47f9-a881-636d0b101a45, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: ???? _US_���� 4, server: 26.namesilo123.top, port: 2082, type: vmess, uuid: 309f84b9-49dd-408d-a0b6-8860393be802, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/grdhhgrdhhhhhhj?ed=2048", headers: {Host: uszhang.sanfen002.top}}}
-  - {name: ???? _US_���� 5, server: a7.wxlljc520.com, port: 443, type: vmess, uuid: b0e43362-72b7-49ac-8eb6-fff69e07cfae, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /apple, headers: {Host: 777.golinkwuxian.top}}}
-  - {name: ???? _US_���� 6, server: a8.wxlljc520.com, port: 443, type: vmess, uuid: b0e43362-72b7-49ac-8eb6-fff69e07cfae, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /apple, headers: {Host: 777.golinkwuxian.top}}}
-  - {name: ???? _US_����->????_IR_����, server: 104.26.13.8, port: 2053, type: vmess, uuid: a4089f68-2bb1-4734-d77a-8b049a80ae8c, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: BAmIlo.ONlINeviSioNsTore.sITE}}}
-  - {name: ???? _US_���� 7, server: sbl2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sbl2.shabijichang.com}}}
-  - {name: ???? _US_����->????_GB_Ӣ�� 2, server: ld2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ld2.shabijichang.com}}}
-  - {name: ???? _US_����->????_FR_����, server: web.parspack.com, port: 2096, type: vmess, uuid: a98626c1-88ee-47db-ad1d-a8bd15910a83, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: tElEWebIOn.onlIneVIsioNStorE.sITE}}}
-  - {name: ???? _US_���� 8, server: 27.namesilo123.top, port: 8080, type: vmess, uuid: 309f84b9-49dd-408d-a0b6-8860393be802, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/grdhhgrdhhhhhhj?ed=2048", headers: {Host: uszhang.sanfen002.top}}}
+  - {name: ???? _HK_���->????_FR_����, server: uk.liangyuandiancloud.com, port: 443, type: trojan, password: 4f2f34cc-d2e9-4ca8-a687-68efe5ad5959, skip-cert-verify: false}
+  - {name: ???? _US_���� 2, server: sbl2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sbl2.shabijichang.com}}}
+  - {name: ???? _HK_���->????_US_����, server: usa.liangyuandiancloud.com, port: 443, type: trojan, password: 4f2f34cc-d2e9-4ca8-a687-68efe5ad5959, skip-cert-verify: false}
+  - {name: ???? _GB_Ӣ�� 2, server: 18.130.141.82, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: false}
+  - {name: ???? _US_����->????_IN_ӡ��, server: mm3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: mm3.shabijichang.com}}}
+  - {name: ???? _US_����->????_GB_Ӣ�� 2, server: family.mgtajhiz.ir, port: 2052, type: vmess, uuid: 544f2e93-51b0-4d47-fd72-e7d858021bbd, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: family.mgtajhiz.ir}}}
+  - {name: ???? _US_���� 3, server: ld2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ld2.shabijichang.com}}}
+  - {name: ???? _US_����->????_IN_ӡ�� 2, server: mm2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: mm2.shabijichang.com}}}
+  - {name: ???? _US_���� 4, server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: 4c0699aa-790e-4ccc-b9aa-5cff4b1165e3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /video/MNBrTghv, headers: {Host: tw135037538.pkmkwvxqnn.xyz}}}
 proxy-groups:
   - name: ?? �ڵ�ѡ��
     type: select
     proxies:
       - DIRECT
+      - ???? _FR_����
+      - ???? _HK_���->????_CA_���ô�
+      - ???? _GB_Ӣ��
       - ???? _US_����
-      - ???? _US_���� 2
-      - ???? _US_���� 3
-      - ???? _CN_�й�->????_GB_Ӣ��
-      - ???? _US_����->????_IN_ӡ��
       - ???? _US_����->????_GB_Ӣ��
-      - ???? _TR_������
-      - ???? _JP_�ձ�
-      - ???? _US_���� 4
-      - ???? _US_���� 5
-      - ???? _US_���� 6
-      - ???? _US_����->????_IR_����
-      - ???? _US_���� 7
+      - ???? _HK_���->????_FR_����
+      - ???? _US_���� 2
+      - ???? _HK_���->????_US_����
+      - ???? _GB_Ӣ�� 2
+      - ???? _US_����->????_IN_ӡ��
       - ???? _US_����->????_GB_Ӣ�� 2
-      - ???? _US_����->????_FR_����
-      - ???? _US_���� 8
+      - ???? _US_���� 3
+      - ???? _US_����->????_IN_ӡ�� 2
+      - ???? _US_���� 4
   - name: ?? ȫ��ֱ��
     type: select
     proxies:
@@ -67,22 +63,20 @@ proxy-groups:
     proxies:
       - ?? �ڵ�ѡ��
       - ?? ȫ��ֱ��
+      - ???? _FR_����
+      - ???? _HK_���->????_CA_���ô�
+      - ???? _GB_Ӣ��
       - ???? _US_����
-      - ???? _US_���� 2
-      - ???? _US_���� 3
-      - ???? _CN_�й�->????_GB_Ӣ��
-      - ???? _US_����->????_IN_ӡ��
       - ???? _US_����->????_GB_Ӣ��
-      - ???? _TR_������
-      - ???? _JP_�ձ�
-      - ???? _US_���� 4
-      - ???? _US_���� 5
-      - ???? _US_���� 6
-      - ???? _US_����->????_IR_����
-      - ???? _US_���� 7
+      - ???? _HK_���->????_FR_����
+      - ???? _US_���� 2
+      - ???? _HK_���->????_US_����
+      - ???? _GB_Ӣ�� 2
+      - ???? _US_����->????_IN_ӡ��
       - ???? _US_����->????_GB_Ӣ�� 2
-      - ???? _US_����->????_FR_����
-      - ???? _US_���� 8
+      - ???? _US_���� 3
+      - ???? _US_����->????_IN_ӡ�� 2
+      - ???? _US_���� 4
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,?? ȫ��ֱ��
   - DOMAIN-SUFFIX,ip6-localhost,?? ȫ��ֱ��
