@@ -15,33 +15,41 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: ???? _US_����, server: 104.21.75.246, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sbl2.shabijichang.com}}}
+  - {name: ???? _CN_�й�->????_US_����, server: other.kunlun-ppg.com, port: 10838, type: trojan, password: 6f3e21c9-2be0-41c3-809a-1fe0546f6fe9, sni: alibaba-node.cn, skip-cert-verify: false}
+  - {name: ???? _US_����, server: 158.101.7.8, port: 80, type: vmess, uuid: 95b45c49-f5c0-4959-bb64-2b8fbc4a869c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: ???? _US_���� 2, server: 104.21.75.246, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sbl2.shabijichang.com}}}
   - {name: ???? _NL_����, server: 154.85.1.130, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1698843555400}}
-  - {name: ???? _CA_���ô�, server: 23.227.39.84, port: 8080, type: vmess, uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /1IKYjV0r/, headers: {Host: dongtaiwang13.dtku47.xyz}}}
-  - {name: ???? _US_����->????_GB_Ӣ��, server: mrb2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: mrb2.shabijichang.com}}}
-  - {name: ???? _US_���� 2, server: sbl2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sbl2.shabijichang.com}}}
-  - {name: ???? _US_���� 3, server: a8.wxlljc520.com, port: 443, type: vmess, uuid: b0e43362-72b7-49ac-8eb6-fff69e07cfae, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /apple, headers: {Host: 777.golinkwuxian.top}}}
-  - {name: ???? _GB_Ӣ��, server: 172.99.190.109, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: linkvws}}
-  - {name: ???? _GB_Ӣ�� 2, server: 18.132.109.205, port: 22222, type: trojan, password: telegram-id-directvpn, skip-cert-verify: false}
-  - {name: ???? _US_����->????_GB_Ӣ�� 2, server: ld2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ld2.shabijichang.com}}}
-  - {name: ???? _IE_������, server: 54.217.246.11, port: 22222, type: trojan, password: telegram-id-directvpn, skip-cert-verify: false}
-  - {name: ???? _GB_Ӣ�� 3, server: 18.168.178.12, port: 22222, type: trojan, password: telegram-id-directvpn, skip-cert-verify: false}
+  - {name: ???? _CN_�й�->????_GB_Ӣ��, server: 112.29.94.23, port: 43526, type: vmess, uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: ???? _CN_�й�->????_UA_�ڿ���, server: other.kunlun-ppg.com, port: 10845, type: trojan, password: 6f3e21c9-2be0-41c3-809a-1fe0546f6fe9, sni: alibaba-node.cn, skip-cert-verify: false}
+  - {name: ???? _CN_�й�->????_US_���� 2, server: other.kunlun-ppg.com, port: 10837, type: trojan, password: 6f3e21c9-2be0-41c3-809a-1fe0546f6fe9, sni: alibaba-node.cn, skip-cert-verify: false}
+  - {name: ???? _FI_����->????_DE_�¹�, server: bia-kanal-telegram.freev2alpha.cfd, port: 2053, type: vmess, uuid: 4a923b7d-7f20-4e8a-81e3-1e7eaf9cc504, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [bia-kanal-telegram.freev2alpha.cfd]}}}
+  - {name: ???? _US_���� 3, server: 5.161.86.42, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: ???? _GB_Ӣ��, server: 18.168.189.51, port: 22222, type: trojan, password: telegram-id-directvpn, skip-cert-verify: false}
+  - {name: ???? _US_����->????_GB_Ӣ��, server: ld2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ld2.shabijichang.com}}}
+  - {name: ???? _US_���� 4, server: sbl2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sbl2.shabijichang.com}}}
+  - {name: ???? _GB_Ӣ�� 2, server: ukmws.mainssh.xyz, port: 443, type: vmess, uuid: 59341904-14e4-47e0-b89b-077795482ee2, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess, headers: {Host: pmsc.pubgmobile.com}}}
+  - {name: ???? _CN_�й�->????_US_���� 3, server: other.kunlun-ppg.com, port: 10850, type: trojan, password: 6f3e21c9-2be0-41c3-809a-1fe0546f6fe9, sni: alibaba-node.cn, skip-cert-verify: false}
+  - {name: ???? _RU_����˹����, server: 176.120.74.142, port: 443, type: vmess, uuid: 75695f5a-b6af-44f4-9983-ae250b53ff9c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 176.120.74.142}}}
 proxy-groups:
   - name: ?? �ڵ�ѡ��
     type: select
     proxies:
       - DIRECT
+      - ???? _CN_�й�->????_US_����
       - ???? _US_����
-      - ???? _NL_����
-      - ???? _CA_���ô�
-      - ???? _US_����->????_GB_Ӣ��
       - ???? _US_���� 2
+      - ???? _NL_����
+      - ???? _CN_�й�->????_GB_Ӣ��
+      - ???? _CN_�й�->????_UA_�ڿ���
+      - ???? _CN_�й�->????_US_���� 2
+      - ???? _FI_����->????_DE_�¹�
       - ???? _US_���� 3
       - ???? _GB_Ӣ��
+      - ???? _US_����->????_GB_Ӣ��
+      - ???? _US_���� 4
       - ???? _GB_Ӣ�� 2
-      - ???? _US_����->????_GB_Ӣ�� 2
-      - ???? _IE_������
-      - ???? _GB_Ӣ�� 3
+      - ???? _CN_�й�->????_US_���� 3
+      - ???? _RU_����˹����
   - name: ?? ȫ��ֱ��
     type: select
     proxies:
@@ -57,17 +65,21 @@ proxy-groups:
     proxies:
       - ?? �ڵ�ѡ��
       - ?? ȫ��ֱ��
+      - ???? _CN_�й�->????_US_����
       - ???? _US_����
-      - ???? _NL_����
-      - ???? _CA_���ô�
-      - ???? _US_����->????_GB_Ӣ��
       - ???? _US_���� 2
+      - ???? _NL_����
+      - ???? _CN_�й�->????_GB_Ӣ��
+      - ???? _CN_�й�->????_UA_�ڿ���
+      - ???? _CN_�й�->????_US_���� 2
+      - ???? _FI_����->????_DE_�¹�
       - ???? _US_���� 3
       - ???? _GB_Ӣ��
+      - ???? _US_����->????_GB_Ӣ��
+      - ???? _US_���� 4
       - ???? _GB_Ӣ�� 2
-      - ???? _US_����->????_GB_Ӣ�� 2
-      - ???? _IE_������
-      - ???? _GB_Ӣ�� 3
+      - ???? _CN_�й�->????_US_���� 3
+      - ???? _RU_����˹����
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,?? ȫ��ֱ��
   - DOMAIN-SUFFIX,ip6-localhost,?? ȫ��ֱ��
