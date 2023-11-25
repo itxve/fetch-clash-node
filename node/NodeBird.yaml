@@ -5,75 +5,65 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 _US_美国, server: us.doushimeng.com, port: 22853, type: ss, cipher: chacha20-ietf-poly1305, password: dba1572e-858f-4f07-a003-e1c80d189de3}
-  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国, server: cm01.newcome.xyz, port: 7709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1}
-  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国 2, server: cm01.newcome.xyz, port: 7703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1}
-  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国 3, server: 120.240.88.111, port: 7706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1}
-  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国 4, server: cm01.newcome.xyz, port: 7708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1}
-  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国 5, server: 120.240.88.111, port: 7707, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1}
-  - {name: 🇮🇳 _CN_中国->🇮🇳_IN_印度, server: host-053.crazyspeed.xyz, port: 10911, type: ss, cipher: chacha20-ietf-poly1305, password: ff21950f-e77d-4132-bbc1-d864b515251c}
-  - {name: 🇫🇷 _FR_法国, server: 51.158.204.15, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇺🇸 _US_美国, server: ld2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ld2.shabijichang.com}}}
+  - {name: 🇫🇷 _FR_法国, server: 51.158.200.63, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇺🇸 _US_美国 2, server: a.asghar-hamrah.store, port: 2087, type: vmess, uuid: 2a3263e2-891c-4446-b474-a8c63acb6e25, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: grpc, servername: yujtu, grpc-opts: {grpc-service-name: /}}
+  - {name: 🇯🇵 _JP_日本, server: 103.35.190.65, port: 443, type: vmess, uuid: ed531ebe-4971-47f9-a881-636d0b101a45, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 _US_美国 3, server: 5.161.86.42, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/]}}
   - {name: 🇬🇧 _CN_中国->🇬🇧_GB_英国, server: 112.29.94.23, port: 43526, type: vmess, uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇩🇪 _FI_芬兰->🇩🇪_DE_德国, server: bia-kanal-telegram.freev2alpha.cfd, port: 2053, type: vmess, uuid: 4a923b7d-7f20-4e8a-81e3-1e7eaf9cc504, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [bia-kanal-telegram.freev2alpha.cfd]}}}
-  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国 6, server: other.kunlun-ppg.com, port: 10838, type: trojan, password: 6f3e21c9-2be0-41c3-809a-1fe0546f6fe9, sni: alibaba-node.cn, skip-cert-verify: false}
-  - {name: 🇺🇸 _US_美国->🇬🇧_GB_英国, server: ld2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ld2.shabijichang.com}}}
-  - {name: 🇷🇺 _RU_俄罗斯联邦, server: 176.120.74.142, port: 443, type: vmess, uuid: 75695f5a-b6af-44f4-9983-ae250b53ff9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 176.120.74.142}}}
-  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国 7, server: 120.240.88.111, port: 7701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1}
-  - {name: 🇦🇺 _AU_澳大利亚, server: au.doushimeng.com, port: 24652, type: ss, cipher: chacha20-ietf-poly1305, password: dba1572e-858f-4f07-a003-e1c80d189de3}
-  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国 8, server: cm01.newcome.xyz, port: 7700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1}
-  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国 9, server: other.kunlun-ppg.com, port: 10837, type: trojan, password: 6f3e21c9-2be0-41c3-809a-1fe0546f6fe9, sni: alibaba-node.cn, skip-cert-verify: false}
-  - {name: 🇬🇧 _GB_英国, server: ukmws.mainssh.xyz, port: 443, type: vmess, uuid: 59341904-14e4-47e0-b89b-077795482ee2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess, headers: {Host: pmsc.pubgmobile.com}}}
-  - {name: 🇺🇸 _US_美国 2, server: 5.161.86.42, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/]}}
-  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国 10, server: cm01.newcome.xyz, port: 7701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1}
-  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国 11, server: cm01.newcome.xyz, port: 7704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1}
-  - {name: 🇫🇷 _FR_法国 2, server: 51.158.195.96, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇬🇧 _GB_英国 2, server: 18.168.189.51, port: 22222, type: trojan, password: telegram-id-directvpn, skip-cert-verify: false}
-  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国 12, server: 120.240.88.111, port: 7709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1}
-  - {name: 🇫🇷 _FR_法国 3, server: 51.158.195.96, port: 110, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国 13, server: other.kunlun-ppg.com, port: 10850, type: trojan, password: 6f3e21c9-2be0-41c3-809a-1fe0546f6fe9, sni: alibaba-node.cn, skip-cert-verify: false}
-  - {name: 🇫🇷 _FR_法国 4, server: 51.158.195.96, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇳🇱 _NL_荷兰, server: 154.85.1.130, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1698843555400}}
-  - {name: 🇺🇸 _US_美国 3, server: 158.101.7.8, port: 80, type: vmess, uuid: 95b45c49-f5c0-4959-bb64-2b8fbc4a869c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇦 _CN_中国->🇺🇦_UA_乌克兰, server: other.kunlun-ppg.com, port: 10845, type: trojan, password: 6f3e21c9-2be0-41c3-809a-1fe0546f6fe9, sni: alibaba-node.cn, skip-cert-verify: false}
+  - {name: 🇫🇷 _FR_法国 2, server: 162.19.59.164, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇬🇧 _GB_英国, server: 172.99.190.109, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: linkvws}}
+  - {name: 🇬🇧 _GB_英国 2, server: ukmws.mainssh.xyz, port: 443, type: vmess, uuid: 59341904-14e4-47e0-b89b-077795482ee2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess, headers: {Host: pmsc.pubgmobile.com}}}
+  - {name: 🇫🇷 _FR_法国 3, server: 51.158.195.96, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇬🇧 _GB_英国 3, server: 198.244.228.191, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇫🇷 _FR_法国 4, server: 51.158.195.96, port: 110, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇫🇷 _FR_法国 5, server: 51.158.204.15, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇫🇷 _FR_法国 6, server: 51.158.195.96, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇫🇷 _FR_法国 7, server: 57.129.1.20, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇫🇷 _FR_法国 8, server: 51.158.54.209, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇫🇷 _FR_法国 9, server: 54.36.174.181, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇫🇷 _FR_法国 10, server: 54.36.174.181, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇫🇷 _FR_法国 11, server: 54.36.174.181, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇫🇷 _FR_法国 12, server: 51.158.200.149, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇫🇷 _FR_法国 13, server: 162.19.84.198, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇫🇷 _FR_法国 14, server: 54.36.174.181, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇷🇺 _RU_俄罗斯联邦, server: 217.196.101.125, port: 8080, type: vmess, uuid: 752a3159-bf37-487e-b6c0-b6b206e8ee9e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇫🇷 _FR_法国 15, server: 57.129.1.22, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
   - {name: 🇺🇸 _US_美国 4, server: 104.21.75.246, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sbl2.shabijichang.com}}}
   - {name: 🇺🇸 _US_美国 5, server: sbl2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sbl2.shabijichang.com}}}
+  - {name: 🇫🇷 _FR_法国 16, server: 162.19.171.67, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - DIRECT
       - 🇺🇸 _US_美国
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 4
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 5
-      - 🇮🇳 _CN_中国->🇮🇳_IN_印度
       - 🇫🇷 _FR_法国
-      - 🇬🇧 _CN_中国->🇬🇧_GB_英国
-      - 🇩🇪 _FI_芬兰->🇩🇪_DE_德国
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 6
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国
-      - 🇷🇺 _RU_俄罗斯联邦
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 7
-      - 🇦🇺 _AU_澳大利亚
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 8
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 9
-      - 🇬🇧 _GB_英国
       - 🇺🇸 _US_美国 2
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 10
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 11
-      - 🇫🇷 _FR_法国 2
-      - 🇬🇧 _GB_英国 2
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 12
-      - 🇫🇷 _FR_法国 3
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 13
-      - 🇫🇷 _FR_法国 4
-      - 🇳🇱 _NL_荷兰
+      - 🇯🇵 _JP_日本
       - 🇺🇸 _US_美国 3
-      - 🇺🇦 _CN_中国->🇺🇦_UA_乌克兰
+      - 🇬🇧 _CN_中国->🇬🇧_GB_英国
+      - 🇫🇷 _FR_法国 2
+      - 🇬🇧 _GB_英国
+      - 🇬🇧 _GB_英国 2
+      - 🇫🇷 _FR_法国 3
+      - 🇬🇧 _GB_英国 3
+      - 🇫🇷 _FR_法国 4
+      - 🇫🇷 _FR_法国 5
+      - 🇫🇷 _FR_法国 6
+      - 🇫🇷 _FR_法国 7
+      - 🇫🇷 _FR_法国 8
+      - 🇫🇷 _FR_法国 9
+      - 🇫🇷 _FR_法国 10
+      - 🇫🇷 _FR_法国 11
+      - 🇫🇷 _FR_法国 12
+      - 🇫🇷 _FR_法国 13
+      - 🇫🇷 _FR_法国 14
+      - 🇷🇺 _RU_俄罗斯联邦
+      - 🇫🇷 _FR_法国 15
       - 🇺🇸 _US_美国 4
       - 🇺🇸 _US_美国 5
+      - 🇫🇷 _FR_法国 16
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -90,37 +80,32 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇺🇸 _US_美国
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 4
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 5
-      - 🇮🇳 _CN_中国->🇮🇳_IN_印度
       - 🇫🇷 _FR_法国
-      - 🇬🇧 _CN_中国->🇬🇧_GB_英国
-      - 🇩🇪 _FI_芬兰->🇩🇪_DE_德国
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 6
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国
-      - 🇷🇺 _RU_俄罗斯联邦
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 7
-      - 🇦🇺 _AU_澳大利亚
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 8
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 9
-      - 🇬🇧 _GB_英国
       - 🇺🇸 _US_美国 2
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 10
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 11
-      - 🇫🇷 _FR_法国 2
-      - 🇬🇧 _GB_英国 2
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 12
-      - 🇫🇷 _FR_法国 3
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 13
-      - 🇫🇷 _FR_法国 4
-      - 🇳🇱 _NL_荷兰
+      - 🇯🇵 _JP_日本
       - 🇺🇸 _US_美国 3
-      - 🇺🇦 _CN_中国->🇺🇦_UA_乌克兰
+      - 🇬🇧 _CN_中国->🇬🇧_GB_英国
+      - 🇫🇷 _FR_法国 2
+      - 🇬🇧 _GB_英国
+      - 🇬🇧 _GB_英国 2
+      - 🇫🇷 _FR_法国 3
+      - 🇬🇧 _GB_英国 3
+      - 🇫🇷 _FR_法国 4
+      - 🇫🇷 _FR_法国 5
+      - 🇫🇷 _FR_法国 6
+      - 🇫🇷 _FR_法国 7
+      - 🇫🇷 _FR_法国 8
+      - 🇫🇷 _FR_法国 9
+      - 🇫🇷 _FR_法国 10
+      - 🇫🇷 _FR_法国 11
+      - 🇫🇷 _FR_法国 12
+      - 🇫🇷 _FR_法国 13
+      - 🇫🇷 _FR_法国 14
+      - 🇷🇺 _RU_俄罗斯联邦
+      - 🇫🇷 _FR_法国 15
       - 🇺🇸 _US_美国 4
       - 🇺🇸 _US_美国 5
+      - 🇫🇷 _FR_法国 16
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
