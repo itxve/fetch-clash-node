@@ -15,35 +15,23 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: ???? _US_����->????_LT_������, server: cloud.dragonrzm.sbs, port: 8080, type: vmess, uuid: ce0d5151-7734-4189-b6ae-eb58e9af5603, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cloud.dragonrzm.sbs}}}
   - {name: ???? _US_����, server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v03.ssrsub.com}}}
-  - {name: ???? _CN_�й�->????_US_����, server: other.kunlun-ppg.com, port: 10850, type: trojan, password: 4de2e68e-3ffa-46a6-82f1-002ef5baab68, sni: alibaba-node.cn, skip-cert-verify: false}
-  - {name: ???? _US_���� 2, server: 167.68.5.183, port: 443, type: trojan, password: d2698cf9-c47e-455c-8384-12e642cbba15, sni: 6us3.pqjc.buzz, skip-cert-verify: false, network: ws, ws-opts: {path: /pq/us3, headers: {Host: 6us3.pqjc.buzz}}}
-  - {name: ???? _DE_�¹�, server: 80.71.157.199, port: 443, type: vmess, uuid: a88ba483-d935-4cb8-a425-a8a9a468409b, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/]}}
-  - {name: ???? _CN_�й�->????_AT_�µ���, server: other.kunlun-ppg.com, port: 10848, type: trojan, password: 4de2e68e-3ffa-46a6-82f1-002ef5baab68, sni: alibaba-node.cn, skip-cert-verify: false}
+  - {name: ???? _US_����->????_DE_�¹�, server: amini2.ddns.net, port: 2096, type: trojan, password: biwe49r2Tv, sni: Qoakq.mookomeilz.homes, skip-cert-verify: false, network: ws, ws-opts: {path: /mskqq, headers: {Host: Qoakq.mookomeilz.homes}}}
+  - {name: ???? _US_���� 2, server: cf-point2.handboy.top, port: 2086, type: vmess, uuid: 22425357-dc2f-4001-afe2-7f56a7210fca, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /asda, headers: {Host: cf-us1.handboy.top}}}
   - {name: ???? _US_���� 3, server: cf.network383.online, port: 8443, type: trojan, password: 8Ka1hu4r3g, sni: ams-trojan-grpc.carfin.tech, skip-cert-verify: false, network: grpc, grpc-opts: {grpc-service-name: "@apt_mahdi"}}
-  - {name: ???? _CA_���ô�->????_US_����, server: frontend.kuangbiaoyun.com, port: 40007, type: trojan, password: 57edfecf-5694-4a34-8072-54a4f0636a62, skip-cert-verify: false}
-  - {name: ???? _CN_�й�->????_US_���� 2, server: other.kunlun-ppg.com, port: 10838, type: trojan, password: 4de2e68e-3ffa-46a6-82f1-002ef5baab68, sni: alibaba-node.cn, skip-cert-verify: false}
-  - {name: ???? _ES_������, server: 65.20.102.54, port: 443, type: trojan, password: 4fc77152e665415b9986d5b9b8f43601, sni: www.gpt123.one, skip-cert-verify: false}
-  - {name: ???? _CN_�й�->????_UA_�ڿ���, server: other.kunlun-ppg.com, port: 10845, type: trojan, password: 4de2e68e-3ffa-46a6-82f1-002ef5baab68, sni: alibaba-node.cn, skip-cert-verify: false}
-  - {name: ???? _US_���� 4, server: 89.116.180.179, port: 443, type: trojan, password: d2698cf9-c47e-455c-8384-12e642cbba15, sni: p6us4.pqjc.buzz, skip-cert-verify: false, network: ws, ws-opts: {path: /pq/us4, headers: {Host: p6us4.pqjc.buzz}}}
+  - {name: ???? _CN_�й�->????_CA_���ô�, server: t.cnmjcn.cyou, port: 16648, type: vmess, uuid: c2c76420-257f-492a-b20f-6560f3bfa78d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com}}}
+  - {name: ???? _CN_�й�->????_CA_���ô� 2, server: m.cnmjcn.com, port: 16648, type: vmess, uuid: c2c76420-257f-492a-b20f-6560f3bfa78d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com}}}
 proxy-groups:
   - name: ?? �ڵ�ѡ��
     type: select
     proxies:
       - DIRECT
-      - ???? _US_����->????_LT_������
       - ???? _US_����
-      - ???? _CN_�й�->????_US_����
+      - ???? _US_����->????_DE_�¹�
       - ???? _US_���� 2
-      - ???? _DE_�¹�
-      - ???? _CN_�й�->????_AT_�µ���
       - ???? _US_���� 3
-      - ???? _CA_���ô�->????_US_����
-      - ???? _CN_�й�->????_US_���� 2
-      - ???? _ES_������
-      - ???? _CN_�й�->????_UA_�ڿ���
-      - ???? _US_���� 4
+      - ???? _CN_�й�->????_CA_���ô�
+      - ???? _CN_�й�->????_CA_���ô� 2
   - name: ?? ȫ��ֱ��
     type: select
     proxies:
@@ -59,18 +47,12 @@ proxy-groups:
     proxies:
       - ?? �ڵ�ѡ��
       - ?? ȫ��ֱ��
-      - ???? _US_����->????_LT_������
       - ???? _US_����
-      - ???? _CN_�й�->????_US_����
+      - ???? _US_����->????_DE_�¹�
       - ???? _US_���� 2
-      - ???? _DE_�¹�
-      - ???? _CN_�й�->????_AT_�µ���
       - ???? _US_���� 3
-      - ???? _CA_���ô�->????_US_����
-      - ???? _CN_�й�->????_US_���� 2
-      - ???? _ES_������
-      - ???? _CN_�й�->????_UA_�ڿ���
-      - ???? _US_���� 4
+      - ???? _CN_�й�->????_CA_���ô�
+      - ???? _CN_�й�->????_CA_���ô� 2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,?? ȫ��ֱ��
   - DOMAIN-SUFFIX,ip6-localhost,?? ȫ��ֱ��
@@ -543,6 +525,7 @@ rules:
   - DOMAIN-SUFFIX,zhjfad.com,?? ȫ������
   - DOMAIN-SUFFIX,zqzxz.com,?? ȫ������
   - DOMAIN-SUFFIX,zzsx8.com,?? ȫ������
+  - DOMAIN-SUFFIX,wwads.cn,?? ȫ������
   - DOMAIN-SUFFIX,acuityplatform.com,?? ȫ������
   - DOMAIN-SUFFIX,ad-stir.com,?? ȫ������
   - DOMAIN-SUFFIX,ad-survey.com,?? ȫ������
@@ -2046,6 +2029,8 @@ rules:
   - DOMAIN-SUFFIX,identrust.com,?? �ڵ�ѡ��
   - DOMAIN-SUFFIX,intercom.io,?? �ڵ�ѡ��
   - DOMAIN-SUFFIX,intercomcdn.com,?? �ڵ�ѡ��
+  - DOMAIN-SUFFIX,oaistatic.com,?? �ڵ�ѡ��
+  - DOMAIN-SUFFIX,oaiusercontent.com,?? �ڵ�ѡ��
   - DOMAIN-SUFFIX,openai.com,?? �ڵ�ѡ��
   - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,?? �ڵ�ѡ��
   - DOMAIN-SUFFIX,sentry.io,?? �ڵ�ѡ��
@@ -2140,6 +2125,7 @@ rules:
   - DOMAIN-SUFFIX,tumbex.com,?? �ڵ�ѡ��
   - DOMAIN-SUFFIX,twdvd.com,?? �ڵ�ѡ��
   - DOMAIN-SUFFIX,unsplash.com,?? �ڵ�ѡ��
+  - DOMAIN-SUFFIX,buzzsprout.com,?? �ڵ�ѡ��
   - DOMAIN-SUFFIX,eu,?? �ڵ�ѡ��
   - DOMAIN-SUFFIX,hk,?? �ڵ�ѡ��
   - DOMAIN-SUFFIX,jp,?? �ڵ�ѡ��
@@ -2297,6 +2283,8 @@ rules:
   - DOMAIN-KEYWORD,uk-live,?? �ڵ�ѡ��
   - DOMAIN-SUFFIX,bbc.co,?? �ڵ�ѡ��
   - DOMAIN-SUFFIX,bbc.com,?? �ڵ�ѡ��
+  - DOMAIN-SUFFIX,claude.ai,?? �ڵ�ѡ��
+  - DOMAIN-SUFFIX,anthropic.com,?? �ڵ�ѡ��
   - DOMAIN-SUFFIX,apache.org,?? �ڵ�ѡ��
   - DOMAIN-SUFFIX,docker.com,?? �ڵ�ѡ��
   - DOMAIN-SUFFIX,elastic.co,?? �ڵ�ѡ��
@@ -2452,6 +2440,7 @@ rules:
   - DOMAIN-SUFFIX,ypncdn.com,?? �ڵ�ѡ��
   - DOMAIN-SUFFIX,pixiv.net,?? �ڵ�ѡ��
   - DOMAIN-SUFFIX,pximg.net,?? �ڵ�ѡ��
+  - DOMAIN-SUFFIX,fanbox.cc,?? �ڵ�ѡ��
   - DOMAIN-SUFFIX,amplitude.com,?? �ڵ�ѡ��
   - DOMAIN-SUFFIX,firebaseio.com,?? �ڵ�ѡ��
   - DOMAIN-SUFFIX,hockeyapp.net,?? �ڵ�ѡ��
@@ -2526,6 +2515,8 @@ rules:
   - DOMAIN-SUFFIX,wikiversity.org,?? �ڵ�ѡ��
   - DOMAIN-SUFFIX,wikivoyage.org,?? �ڵ�ѡ��
   - DOMAIN-SUFFIX,wiktionary.org,?? �ڵ�ѡ��
+  - DOMAIN-SUFFIX,zoom.us,?? �ڵ�ѡ��
+  - DOMAIN-SUFFIX,zoomgov.com,?? �ڵ�ѡ��
   - DOMAIN-SUFFIX,neulion.com,?? �ڵ�ѡ��
   - DOMAIN-SUFFIX,icntv.xyz,?? �ڵ�ѡ��
   - DOMAIN-SUFFIX,flzbcdn.xyz,?? �ڵ�ѡ��
@@ -2548,6 +2539,7 @@ rules:
   - DOMAIN-SUFFIX,zhenguanyu.biz,?? ȫ��ֱ��
   - DOMAIN-SUFFIX,zhenguanyu.com,?? ȫ��ֱ��
   - DOMAIN-SUFFIX,snapdrop.net,?? ȫ��ֱ��
+  - DOMAIN-SUFFIX,tebex.io,?? ȫ��ֱ��
   - DOMAIN-SUFFIX,cn,?? ȫ��ֱ��
   - DOMAIN-SUFFIX,xn--fiqs8s,?? ȫ��ֱ��
   - DOMAIN-SUFFIX,xn--55qx5d,?? ȫ��ֱ��
@@ -2598,6 +2590,7 @@ rules:
   - DOMAIN-SUFFIX,aliyuncdn.com,?? ȫ��ֱ��
   - DOMAIN-SUFFIX,aliyuncs.com,?? ȫ��ֱ��
   - DOMAIN-SUFFIX,aliyundrive.com,?? ȫ��ֱ��
+  - DOMAIN-SUFFIX,aliyundrive.net,?? ȫ��ֱ��
   - DOMAIN-SUFFIX,amap.com,?? ȫ��ֱ��
   - DOMAIN-SUFFIX,autonavi.com,?? ȫ��ֱ��
   - DOMAIN-SUFFIX,dingtalk.com,?? ȫ��ֱ��
@@ -2924,6 +2917,7 @@ rules:
   - DOMAIN-SUFFIX,biqudu.com,?? ȫ��ֱ��
   - DOMAIN-SUFFIX,biquge.com,?? ȫ��ֱ��
   - DOMAIN-SUFFIX,bitauto.com,?? ȫ��ֱ��
+  - DOMAIN-SUFFIX,bosszhipin.com,?? ȫ��ֱ��
   - DOMAIN-SUFFIX,c-ctrip.com,?? ȫ��ֱ��
   - DOMAIN-SUFFIX,camera360.com,?? ȫ��ֱ��
   - DOMAIN-SUFFIX,cdnmama.com,?? ȫ��ֱ��
@@ -3132,6 +3126,7 @@ rules:
   - DOMAIN-SUFFIX,zhaopin.com,?? ȫ��ֱ��
   - DOMAIN-SUFFIX,zhihu.com,?? ȫ��ֱ��
   - DOMAIN-SUFFIX,zhimg.com,?? ȫ��ֱ��
+  - DOMAIN-SUFFIX,zhipin.com,?? ȫ��ֱ��
   - DOMAIN-SUFFIX,zhongsou.com,?? ȫ��ֱ��
   - DOMAIN-SUFFIX,zhuihd.com,?? ȫ��ֱ��
   - IP-CIDR,8.128.0.0/10,?? ȫ��ֱ��,no-resolve
