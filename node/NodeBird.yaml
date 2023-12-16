@@ -5,67 +5,63 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 _US_美国, server: cf-point2.handboy.top, port: 2086, type: vmess, uuid: 22425357-dc2f-4001-afe2-7f56a7210fca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /asda, headers: {Host: cf-us1.handboy.top}}}
-  - {name: 🇨🇦 _CN_中国->🇨🇦_CA_加拿大, server: t.cnmjcn.cyou, port: 16648, type: vmess, uuid: c2c76420-257f-492a-b20f-6560f3bfa78d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com}}}
-  - {name: 🇨🇦 _CN_中国->🇨🇦_CA_加拿大 2, server: m.cnmjcn.com, port: 16648, type: vmess, uuid: c2c76420-257f-492a-b20f-6560f3bfa78d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com}}}
-  - {name: 🇺🇸 _US_美国 2, server: 35.87.39.181, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇫🇷 _FR_法国, server: 62.210.88.168, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇺🇸 _US_美国 3, server: 89.187.181.179, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇺🇸 _US_美国->🇩🇪_DE_德国, server: amini2.ddns.net, port: 2096, type: trojan, password: biwe49r2Tv, sni: Qoakq.mookomeilz.homes, skip-cert-verify: false, network: ws, ws-opts: {path: /mskqq, headers: {Host: Qoakq.mookomeilz.homes}}}
-  - {name: 🇫🇷 _FR_法国 2, server: 57.129.1.20, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇫🇷 _FR_法国 3, server: 51.158.200.139, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇫🇷 _FR_法国 4, server: 146.59.110.169, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇬🇧 _GB_英国, server: 198.244.231.24, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇺🇸 _US_美国 4, server: 52.33.95.19, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇬🇧 _GB_英国 2, server: 198.244.231.74, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇫🇷 _FR_法国 5, server: 141.95.99.192, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇫🇷 _FR_法国 6, server: 162.19.19.210, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇫🇷 _FR_法国 7, server: 37.59.21.131, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇫🇷 _FR_法国 8, server: 37.59.21.130, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇫🇷 _FR_法国 9, server: 51.158.203.2, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇫🇷 _FR_法国 10, server: 135.125.172.153, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇬🇧 _GB_英国 3, server: 198.244.231.26, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇫🇷 _FR_法国 11, server: 162.19.204.80, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇫🇷 _FR_法国 12, server: 37.59.21.132, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇫🇷 _FR_法国 13, server: 51.158.195.96, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇫🇷 _FR_法国 14, server: 51.158.195.96, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇫🇷 _FR_法国 15, server: 51.158.204.70, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇫🇷 _FR_法国 16, server: 51.158.195.96, port: 110, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇺🇸 _US_美国, server: 89.116.180.179, port: 443, type: trojan, password: 097f6b5f-bcf9-4a24-9f0d-d1feaa638d86, sni: p6us4.pqjc.buzz, skip-cert-verify: false, network: ws, ws-opts: {path: /pq/us4, headers: {Host: p6us4.pqjc.buzz}}}
+  - {name: 🇺🇸 _US_美国 2, server: 52.33.95.19, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 _US_美国 3, server: 167.68.5.183, port: 443, type: trojan, password: 097f6b5f-bcf9-4a24-9f0d-d1feaa638d86, sni: 6us3.pqjc.buzz, skip-cert-verify: false, network: ws, ws-opts: {path: /pq/us3, headers: {Host: 6us3.pqjc.buzz}}}
+  - {name: 🇺🇸 _US_美国 4, server: 89.116.161.133, port: 443, type: trojan, password: 097f6b5f-bcf9-4a24-9f0d-d1feaa638d86, sni: p1us1.pqjc.buzz, skip-cert-verify: false, network: ws, ws-opts: {path: /pq/us1, headers: {Host: p1us1.pqjc.buzz}}}
   - {name: 🇺🇸 _US_美国 5, server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v03.ssrsub.com}}}
-  - {name: 🇺🇸 _US_美国 6, server: cf.network383.online, port: 8443, type: trojan, password: 8Ka1hu4r3g, sni: ams-trojan-grpc.carfin.tech, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国 6, server: 89.116.180.158, port: 443, type: trojan, password: 097f6b5f-bcf9-4a24-9f0d-d1feaa638d86, sni: 3us2.pqjc.buzz, skip-cert-verify: false, network: ws, ws-opts: {path: /pq/us2, headers: {Host: 3us2.pqjc.buzz}}}
+  - {name: 🇩🇪 _DE_德国, server: 5.104.108.109, port: 443, type: trojan, password: 097f6b5f-bcf9-4a24-9f0d-d1feaa638d86, sni: 20-24-33-134.nhost.00cdn.com, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国 7, server: 89.187.181.179, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇬🇧 _GB_英国, server: 198.244.231.34, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇩🇪 _DE_德国 2, server: 5.104.108.120, port: 443, type: trojan, password: 097f6b5f-bcf9-4a24-9f0d-d1feaa638d86, sni: 20-24-33-134.nhost.00cdn.com, skip-cert-verify: false}
+  - {name: 🇫🇷 _FR_法国, server: 135.125.172.139, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇬🇧 _GB_英国 2, server: 198.244.231.74, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇫🇷 _FR_法国 2, server: 37.59.21.132, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇫🇷 _FR_法国 3, server: 51.158.204.70, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇺🇸 _US_美国 8, server: 3.129.250.63, port: 56333, type: vmess, uuid: 610fcb1f-ffa6-4819-d313-cd530be44a3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: 🇫🇷 _FR_法国 4, server: 51.158.195.96, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇫🇷 _FR_法国 5, server: 51.158.195.96, port: 110, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇫🇷 _FR_法国->🇨🇳_CN_中国, server: 57.129.1.20, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇺🇸 _US_美国 9, server: 35.87.39.181, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇫🇷 _FR_法国 6, server: 51.158.195.96, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇫🇷 _FR_法国 7, server: 135.125.172.153, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇫🇷 _FR_法国 8, server: 162.19.59.164, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇺🇸 _US_美国 10, server: cf.network383.online, port: 8443, type: trojan, password: 8Ka1hu4r3g, sni: ams-trojan-grpc.carfin.tech, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国 11, server: 142.202.48.43, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 _US_美国 12, server: 104.21.75.246, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sbl2.shabijichang.com}}}
+  - {name: 🇺🇸 _CA_加拿大->🇺🇸_US_美国, server: frontend.kuangbiaoyun.com, port: 40007, type: trojan, password: 57edfecf-5694-4a34-8072-54a4f0636a62, sni: frontend.kuangbiaoyun.com, skip-cert-verify: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - DIRECT
       - 🇺🇸 _US_美国
-      - 🇨🇦 _CN_中国->🇨🇦_CA_加拿大
-      - 🇨🇦 _CN_中国->🇨🇦_CA_加拿大 2
       - 🇺🇸 _US_美国 2
-      - 🇫🇷 _FR_法国
       - 🇺🇸 _US_美国 3
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇺🇸 _US_美国 4
+      - 🇺🇸 _US_美国 5
+      - 🇺🇸 _US_美国 6
+      - 🇩🇪 _DE_德国
+      - 🇺🇸 _US_美国 7
+      - 🇬🇧 _GB_英国
+      - 🇩🇪 _DE_德国 2
+      - 🇫🇷 _FR_法国
+      - 🇬🇧 _GB_英国 2
       - 🇫🇷 _FR_法国 2
       - 🇫🇷 _FR_法国 3
+      - 🇺🇸 _US_美国 8
       - 🇫🇷 _FR_法国 4
-      - 🇬🇧 _GB_英国
-      - 🇺🇸 _US_美国 4
-      - 🇬🇧 _GB_英国 2
       - 🇫🇷 _FR_法国 5
+      - 🇫🇷 _FR_法国->🇨🇳_CN_中国
+      - 🇺🇸 _US_美国 9
       - 🇫🇷 _FR_法国 6
       - 🇫🇷 _FR_法国 7
       - 🇫🇷 _FR_法国 8
-      - 🇫🇷 _FR_法国 9
-      - 🇫🇷 _FR_法国 10
-      - 🇬🇧 _GB_英国 3
-      - 🇫🇷 _FR_法国 11
-      - 🇫🇷 _FR_法国 12
-      - 🇫🇷 _FR_法国 13
-      - 🇫🇷 _FR_法国 14
-      - 🇫🇷 _FR_法国 15
-      - 🇫🇷 _FR_法国 16
-      - 🇺🇸 _US_美国 5
-      - 🇺🇸 _US_美国 6
+      - 🇺🇸 _US_美国 10
+      - 🇺🇸 _US_美国 11
+      - 🇺🇸 _US_美国 12
+      - 🇺🇸 _CA_加拿大->🇺🇸_US_美国
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -82,33 +78,31 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇺🇸 _US_美国
-      - 🇨🇦 _CN_中国->🇨🇦_CA_加拿大
-      - 🇨🇦 _CN_中国->🇨🇦_CA_加拿大 2
       - 🇺🇸 _US_美国 2
-      - 🇫🇷 _FR_法国
       - 🇺🇸 _US_美国 3
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇺🇸 _US_美国 4
+      - 🇺🇸 _US_美国 5
+      - 🇺🇸 _US_美国 6
+      - 🇩🇪 _DE_德国
+      - 🇺🇸 _US_美国 7
+      - 🇬🇧 _GB_英国
+      - 🇩🇪 _DE_德国 2
+      - 🇫🇷 _FR_法国
+      - 🇬🇧 _GB_英国 2
       - 🇫🇷 _FR_法国 2
       - 🇫🇷 _FR_法国 3
+      - 🇺🇸 _US_美国 8
       - 🇫🇷 _FR_法国 4
-      - 🇬🇧 _GB_英国
-      - 🇺🇸 _US_美国 4
-      - 🇬🇧 _GB_英国 2
       - 🇫🇷 _FR_法国 5
+      - 🇫🇷 _FR_法国->🇨🇳_CN_中国
+      - 🇺🇸 _US_美国 9
       - 🇫🇷 _FR_法国 6
       - 🇫🇷 _FR_法国 7
       - 🇫🇷 _FR_法国 8
-      - 🇫🇷 _FR_法国 9
-      - 🇫🇷 _FR_法国 10
-      - 🇬🇧 _GB_英国 3
-      - 🇫🇷 _FR_法国 11
-      - 🇫🇷 _FR_法国 12
-      - 🇫🇷 _FR_法国 13
-      - 🇫🇷 _FR_法国 14
-      - 🇫🇷 _FR_法国 15
-      - 🇫🇷 _FR_法国 16
-      - 🇺🇸 _US_美国 5
-      - 🇺🇸 _US_美国 6
+      - 🇺🇸 _US_美国 10
+      - 🇺🇸 _US_美国 11
+      - 🇺🇸 _US_美国 12
+      - 🇺🇸 _CA_加拿大->🇺🇸_US_美国
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

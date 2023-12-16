@@ -15,23 +15,33 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: ???? _US_����, server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v03.ssrsub.com}}}
-  - {name: ???? _US_����->????_DE_�¹�, server: amini2.ddns.net, port: 2096, type: trojan, password: biwe49r2Tv, sni: Qoakq.mookomeilz.homes, skip-cert-verify: false, network: ws, ws-opts: {path: /mskqq, headers: {Host: Qoakq.mookomeilz.homes}}}
-  - {name: ???? _US_���� 2, server: cf-point2.handboy.top, port: 2086, type: vmess, uuid: 22425357-dc2f-4001-afe2-7f56a7210fca, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /asda, headers: {Host: cf-us1.handboy.top}}}
+  - {name: ???? _CA_���ô�->????_US_����, server: frontend.kuangbiaoyun.com, port: 40007, type: trojan, password: 57edfecf-5694-4a34-8072-54a4f0636a62, sni: frontend.kuangbiaoyun.com, skip-cert-verify: false}
+  - {name: ???? _US_����, server: 89.116.180.158, port: 443, type: trojan, password: 097f6b5f-bcf9-4a24-9f0d-d1feaa638d86, sni: 3us2.pqjc.buzz, skip-cert-verify: false, network: ws, ws-opts: {path: /pq/us2, headers: {Host: 3us2.pqjc.buzz}}}
+  - {name: ???? _US_���� 2, server: 89.116.180.179, port: 443, type: trojan, password: 097f6b5f-bcf9-4a24-9f0d-d1feaa638d86, sni: p6us4.pqjc.buzz, skip-cert-verify: false, network: ws, ws-opts: {path: /pq/us4, headers: {Host: p6us4.pqjc.buzz}}}
   - {name: ???? _US_���� 3, server: cf.network383.online, port: 8443, type: trojan, password: 8Ka1hu4r3g, sni: ams-trojan-grpc.carfin.tech, skip-cert-verify: false, network: grpc, grpc-opts: {grpc-service-name: "@apt_mahdi"}}
-  - {name: ???? _CN_�й�->????_CA_���ô�, server: t.cnmjcn.cyou, port: 16648, type: vmess, uuid: c2c76420-257f-492a-b20f-6560f3bfa78d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com}}}
-  - {name: ???? _CN_�й�->????_CA_���ô� 2, server: m.cnmjcn.com, port: 16648, type: vmess, uuid: c2c76420-257f-492a-b20f-6560f3bfa78d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com}}}
+  - {name: ???? _US_���� 4, server: 167.68.5.183, port: 443, type: trojan, password: 097f6b5f-bcf9-4a24-9f0d-d1feaa638d86, sni: 6us3.pqjc.buzz, skip-cert-verify: false, network: ws, ws-opts: {path: /pq/us3, headers: {Host: 6us3.pqjc.buzz}}}
+  - {name: ???? _DE_�¹�, server: 5.104.108.109, port: 443, type: trojan, password: 097f6b5f-bcf9-4a24-9f0d-d1feaa638d86, sni: 20-24-33-134.nhost.00cdn.com, skip-cert-verify: false}
+  - {name: ???? _DE_�¹� 2, server: 5.104.108.120, port: 443, type: trojan, password: 097f6b5f-bcf9-4a24-9f0d-d1feaa638d86, sni: 20-24-33-134.nhost.00cdn.com, skip-cert-verify: false}
+  - {name: ???? _US_���� 5, server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v03.ssrsub.com}}}
+  - {name: ???? _US_���� 6, server: 104.21.75.246, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sbl2.shabijichang.com}}}
+  - {name: ???? _US_���� 7, server: 89.116.161.133, port: 443, type: trojan, password: 097f6b5f-bcf9-4a24-9f0d-d1feaa638d86, sni: p1us1.pqjc.buzz, skip-cert-verify: false, network: ws, ws-opts: {path: /pq/us1, headers: {Host: p1us1.pqjc.buzz}}}
+  - {name: ???? _US_���� 8, server: 3.129.250.63, port: 56333, type: vmess, uuid: 610fcb1f-ffa6-4819-d313-cd530be44a3c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/]}}
 proxy-groups:
   - name: ?? �ڵ�ѡ��
     type: select
     proxies:
       - DIRECT
+      - ???? _CA_���ô�->????_US_����
       - ???? _US_����
-      - ???? _US_����->????_DE_�¹�
       - ???? _US_���� 2
       - ???? _US_���� 3
-      - ???? _CN_�й�->????_CA_���ô�
-      - ???? _CN_�й�->????_CA_���ô� 2
+      - ???? _US_���� 4
+      - ???? _DE_�¹�
+      - ???? _DE_�¹� 2
+      - ???? _US_���� 5
+      - ???? _US_���� 6
+      - ???? _US_���� 7
+      - ???? _US_���� 8
   - name: ?? ȫ��ֱ��
     type: select
     proxies:
@@ -47,12 +57,17 @@ proxy-groups:
     proxies:
       - ?? �ڵ�ѡ��
       - ?? ȫ��ֱ��
+      - ???? _CA_���ô�->????_US_����
       - ???? _US_����
-      - ???? _US_����->????_DE_�¹�
       - ???? _US_���� 2
       - ???? _US_���� 3
-      - ???? _CN_�й�->????_CA_���ô�
-      - ???? _CN_�й�->????_CA_���ô� 2
+      - ???? _US_���� 4
+      - ???? _DE_�¹�
+      - ???? _DE_�¹� 2
+      - ???? _US_���� 5
+      - ???? _US_���� 6
+      - ???? _US_���� 7
+      - ???? _US_���� 8
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,?? ȫ��ֱ��
   - DOMAIN-SUFFIX,ip6-localhost,?? ȫ��ֱ��
