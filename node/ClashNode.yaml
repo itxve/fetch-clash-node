@@ -15,25 +15,85 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: ???? _US_����, server: 104.21.75.246, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sbl2.shabijichang.com}}}
-  - {name: ???? _NL_����, server: 46.182.107.15, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1702215223320}}
-  - {name: ???? _UA_�ڿ���, server: 193.238.153.14, port: 8443, type: vmess, uuid: 159693e0-5146-482d-9e46-8c4f2fc865b1, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false}
-  - {name: ???? _US_���� 2, server: sbl2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sbl2.shabijichang.com}}}
-  - {name: ???? _GB_Ӣ��, server: 172.99.190.109, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: linkvws}}
-  - {name: ???? _US_���� 3, server: oliv.beauty, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: oliv.beauty}}}
-  - {name: ???? _US_���� 4, server: singapore.com, port: 80, type: vmess, uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v005.ssrsub.com}}}
+  - {name: ???? _US_����->????_GB_Ӣ��, server: 104.21.33.130, port: 2052, client-fingerprint: chrome, type: vmess, uuid: 544f2e93-51b0-4d47-fd72-e7d858021bbd, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: family.mgtajhiz.ir}}}
+  - {name: ???? _US_����, server: cdn1.shaniugpt.top, port: 8080, client-fingerprint: chrome, type: vmess, uuid: 539c31e8-75a0-4307-b000-ca1b1951bf88, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /20231217, headers: {Host: yyjc-uk1.shaniugpt.top}}}
+  - {name: _CN_�й�, server: 45.87.153.246, port: 6199, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: f7EI0dGWQM42T8gwN9CZIj, tfo: false}
+  - {name: ???? _CN_�й�->????_US_����, server: cm01.newcome.xyz, port: 7706, client-fingerprint: chrome, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 45641:1119_jE165t, obfs-param: 511df45641.microsoft.com}
+  - {name: ???? _GB_Ӣ��, server: 172.99.190.109, port: 443, client-fingerprint: chrome, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: linkvws}}
+  - {name: ???? _US_���� 2, server: 35.87.39.181, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
+  - {name: ???? _US_����->????_NL_����, server: 104.21.16.162, port: 443, client-fingerprint: chrome, type: vless, uuid: 376b9861-2fc6-4647-959c-18185cd9c95a, tls: true, tfo: false, servername: lmn37.sbs, skip-cert-verify: false, network: ws, ws-opts: {path: /fflsws, headers: {Host: lmn37.sbs}}}
+  - {name: ???? _RU_����˹����, server: 91.194.161.7, port: 8388, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: OWJlYjYy, tfo: false}
+  - {name: ???? _US_���� 3, server: 142.202.48.43, port: 8090, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, tfo: false}
+  - {name: ???? _NL_����, server: 45.131.4.88, port: 443, client-fingerprint: chrome, type: vless, uuid: 376b9861-2fc6-4647-959c-18185cd9c95a, tls: true, tfo: false, servername: lmn37.sbs, skip-cert-verify: false, network: ws, ws-opts: {path: /fflsws, headers: {Host: lmn37.sbs}}}
+  - {name: ???? _UA_�ڿ���, server: 193.238.153.14, port: 8443, client-fingerprint: chrome, type: vmess, uuid: 159693e0-5146-482d-9e46-8c4f2fc865b1, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false}
+  - {name: ???? _CN_�й�->????_US_���� 2, server: cm01.newcome.xyz, port: 7703, client-fingerprint: chrome, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 45641:1119_jE165t, obfs-param: 511df45641.microsoft.com}
+  - {name: ???? _US_����->????_NL_���� 2, server: 172.67.216.162, port: 443, client-fingerprint: chrome, type: vless, uuid: 376b9861-2fc6-4647-959c-18185cd9c95a, tls: true, tfo: false, servername: lmn59.sbs, skip-cert-verify: false, network: ws, ws-opts: {path: /fflsws, headers: {Host: lmn59.sbs}}}
+  - {name: ???? _US_���� 4, server: ns1.v2-vip.fun, port: 80, client-fingerprint: chrome, type: vmess, uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v03.ssrsub.com}}}
+  - {name: ???? _US_���� 5, server: 85.239.52.174, port: 51348, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: datdGFe4LkMN710aHedy, tfo: false}
+  - {name: ???? _US_���� 6, server: cf-lt.sharecentre.online, port: 80, client-fingerprint: chrome, type: vmess, uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v005.ssrsub.com}}}
+  - {name: ???? _CA_���ô�->????_US_����, server: frontend.kuangbiaoyun.com, port: 40007, client-fingerprint: chrome, type: trojan, password: 57edfecf-5694-4a34-8072-54a4f0636a62, sni: frontend.kuangbiaoyun.com, skip-cert-verify: true}
+  - {name: ???? _US_���� 7, server: 146.235.227.242, port: 56052, client-fingerprint: chrome, type: vmess, uuid: 5da8114c-0bc6-4416-aa3e-106bcc452161, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: microsoft.com}}}
+  - {name: ???? _FR_����, server: 185.231.205.80, port: 1443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: MGQwNTgw, tfo: false}
+  - {name: ???? _SG_�¼���, server: 185.230.245.213, port: 3306, client-fingerprint: chrome, type: trojan, password: d07a02a06191c99f, sni: n2.gladns.com, skip-cert-verify: true}
+  - {name: ???? _DE_�¹�, server: 18.194.165.146, port: 22222, client-fingerprint: chrome, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true}
+  - {name: ???? _US_����->????_NL_���� 3, server: 104.17.42.10, port: 443, client-fingerprint: chrome, type: vless, uuid: 376b9861-2fc6-4647-959c-18185cd9c95a, tls: true, tfo: false, servername: lmn37.sbs, skip-cert-verify: false, network: ws, ws-opts: {path: /fflsws, headers: {Host: lmn37.sbs}}}
+  - {name: ???? _US_����->????_NL_���� 4, server: 104.16.219.230, port: 443, client-fingerprint: chrome, type: vless, uuid: 376b9861-2fc6-4647-959c-18185cd9c95a, tls: true, tfo: false, servername: lmn37.sbs, skip-cert-verify: false, network: ws, ws-opts: {path: /fflsws, headers: {Host: lmn37.sbs}}}
+  - {name: ???? _US_���� 8, server: 142.202.48.43, port: 2375, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, tfo: false}
+  - {name: ???? _CN_�й�->????_GB_Ӣ��, server: gbs.pptv-tv.store, port: 17728, client-fingerprint: chrome, type: trojan, password: 299a6171-b4ce-403a-8157-c3dad55ef3a2, skip-cert-verify: true}
+  - {name: ???? _US_���� 9, server: 54.70.3.6, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
+  - {name: ???? _SE_���, server: 13.53.252.96, port: 22222, client-fingerprint: chrome, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: true}
+  - {name: ???? _US_����->????_NL_���� 5, server: 104.17.88.212, port: 443, client-fingerprint: chrome, type: vless, uuid: 376b9861-2fc6-4647-959c-18185cd9c95a, tls: true, tfo: false, servername: lmn37.sbs, skip-cert-verify: false, network: ws, ws-opts: {path: /fflsws, headers: {Host: lmn37.sbs}}}
+  - {name: ???? _US_���� 10, server: hk1.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, client-fingerprint: chrome, type: trojan, password: ba4db48d-46d7-4b53-ba03-0878ed637aa1, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true}
+  - {name: ???? _RU_����˹����->????_NL_����, server: 185.109.21.24, port: 443, client-fingerprint: chrome, type: vless, uuid: 376b9861-2fc6-4647-959c-18185cd9c95a, tls: true, tfo: false, servername: lmn37.sbs, skip-cert-verify: false, network: ws, ws-opts: {path: /fflsws, headers: {Host: lmn37.sbs}}}
+  - {name: ???? _US_����->????_GB_Ӣ�� 2, server: 104.21.85.118, port: 443, client-fingerprint: chrome, type: vless, uuid: 376b9861-2fc6-4647-959c-18185cd9c95a, tls: true, tfo: false, servername: lmn90.sbs, skip-cert-verify: false, network: ws, ws-opts: {path: /fflsws, headers: {Host: lmn90.sbs}}}
+  - {name: ???? _US_���� 11, server: 52.33.95.19, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
+  - {name: ???? _US_���� 12, server: 35.90.10.174, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
+  - {name: ???? _US_���� 13, server: 94.131.115.129, port: 38108, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: bNUe0jR9rzsvLEzfPmI4Of, tfo: false}
+  - {name: ???? _US_����->????_NL_���� 6, server: 104.31.16.36, port: 443, client-fingerprint: chrome, type: vless, uuid: 376b9861-2fc6-4647-959c-18185cd9c95a, tls: true, tfo: false, servername: lmn37.sbs, skip-cert-verify: false, network: ws, ws-opts: {path: /fflsws, headers: {Host: lmn37.sbs}}}
+  - {name: ???? _US_���� 14, server: 104.21.75.246, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sbl2.shabijichang.com}}}
+  - {name: ???? _US_���� 15, server: cf.network383.online, port: 2096, client-fingerprint: chrome, type: trojan, password: ZjzcW3LXeJ, sni: amsb.network383.online, skip-cert-verify: true}
 proxy-groups:
   - name: ?? �ڵ�ѡ��
     type: select
     proxies:
       - DIRECT
+      - ???? _US_����->????_GB_Ӣ��
       - ???? _US_����
+      - _CN_�й�
+      - ???? _CN_�й�->????_US_����
+      - ???? _GB_Ӣ��
+      - ???? _US_���� 2
+      - ???? _US_����->????_NL_����
+      - ???? _RU_����˹����
+      - ???? _US_���� 3
       - ???? _NL_����
       - ???? _UA_�ڿ���
-      - ???? _US_���� 2
-      - ???? _GB_Ӣ��
-      - ???? _US_���� 3
+      - ???? _CN_�й�->????_US_���� 2
+      - ???? _US_����->????_NL_���� 2
       - ???? _US_���� 4
+      - ???? _US_���� 5
+      - ???? _US_���� 6
+      - ???? _CA_���ô�->????_US_����
+      - ???? _US_���� 7
+      - ???? _FR_����
+      - ???? _SG_�¼���
+      - ???? _DE_�¹�
+      - ???? _US_����->????_NL_���� 3
+      - ???? _US_����->????_NL_���� 4
+      - ???? _US_���� 8
+      - ???? _CN_�й�->????_GB_Ӣ��
+      - ???? _US_���� 9
+      - ???? _SE_���
+      - ???? _US_����->????_NL_���� 5
+      - ???? _US_���� 10
+      - ???? _RU_����˹����->????_NL_����
+      - ???? _US_����->????_GB_Ӣ�� 2
+      - ???? _US_���� 11
+      - ???? _US_���� 12
+      - ???? _US_���� 13
+      - ???? _US_����->????_NL_���� 6
+      - ???? _US_���� 14
+      - ???? _US_���� 15
   - name: ?? ȫ��ֱ��
     type: select
     proxies:
@@ -49,13 +109,43 @@ proxy-groups:
     proxies:
       - ?? �ڵ�ѡ��
       - ?? ȫ��ֱ��
+      - ???? _US_����->????_GB_Ӣ��
       - ???? _US_����
+      - _CN_�й�
+      - ???? _CN_�й�->????_US_����
+      - ???? _GB_Ӣ��
+      - ???? _US_���� 2
+      - ???? _US_����->????_NL_����
+      - ???? _RU_����˹����
+      - ???? _US_���� 3
       - ???? _NL_����
       - ???? _UA_�ڿ���
-      - ???? _US_���� 2
-      - ???? _GB_Ӣ��
-      - ???? _US_���� 3
+      - ???? _CN_�й�->????_US_���� 2
+      - ???? _US_����->????_NL_���� 2
       - ???? _US_���� 4
+      - ???? _US_���� 5
+      - ???? _US_���� 6
+      - ???? _CA_���ô�->????_US_����
+      - ???? _US_���� 7
+      - ???? _FR_����
+      - ???? _SG_�¼���
+      - ???? _DE_�¹�
+      - ???? _US_����->????_NL_���� 3
+      - ???? _US_����->????_NL_���� 4
+      - ???? _US_���� 8
+      - ???? _CN_�й�->????_GB_Ӣ��
+      - ???? _US_���� 9
+      - ???? _SE_���
+      - ???? _US_����->????_NL_���� 5
+      - ???? _US_���� 10
+      - ???? _RU_����˹����->????_NL_����
+      - ???? _US_����->????_GB_Ӣ�� 2
+      - ???? _US_���� 11
+      - ???? _US_���� 12
+      - ???? _US_���� 13
+      - ???? _US_����->????_NL_���� 6
+      - ???? _US_���� 14
+      - ???? _US_���� 15
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,?? ȫ��ֱ��
   - DOMAIN-SUFFIX,ip6-localhost,?? ȫ��ֱ��
