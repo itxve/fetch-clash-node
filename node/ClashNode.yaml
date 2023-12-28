@@ -15,77 +15,65 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: ???? _US_����, server: 94.131.14.177, port: 2082, client-fingerprint: chrome, type: vmess, uuid: 2c5fee13-f08b-4ba8-86db-27dd51cb9781, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 94.131.14.177}}}
-  - {name: ???? _US_���� 2, server: 45.58.153.25, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 4242f9e0-6b7e-4257-9e93-7ad38015c46a, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1702961716738}}
-  - {name: ???? _US_���� 3, server: 45.58.153.24, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 4242f9e0-6b7e-4257-9e93-7ad38015c46a, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1702392255355, headers: {Host: www.77935707.xyz}}}
-  - {name: ???? _DE_�¹�, server: 213.202.216.14, port: 443, client-fingerprint: chrome, type: trojan, password: cfef26c9-b22b-4ee1-8d95-c00f2c3b5d2e, skip-cert-verify: false}
-  - {name: ???? _DE_�¹� 2, server: 78.47.217.216, port: 993, client-fingerprint: chrome, type: trojan, password: 74811f39-8f69-4334-9e0f-a8a25d7413c1, sni: www.casperco.online, skip-cert-verify: false}
-  - {name: ???? _US_���� 4, server: 168.235.72.221, port: 15551, client-fingerprint: chrome, type: vmess, uuid: 69510633-6acb-4291-a98e-0cdcc9bd5c51, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: ???? _RU_����˹����, server: 89.221.224.94, port: 80, client-fingerprint: chrome, type: trojan, password: 28c79056-ccfd-4cc1-93d4-c337cc782e65, sni: is2-t.sshmax.xyz, skip-cert-verify: false}
-  - {name: ???? _US_���� 5, server: 45.58.145.200, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 55545f9e-a561-454a-8dc0-8bc110e6b1c9, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1702301098557, headers: {Host: www.51652109.xyz}}}
-  - {name: ???? _US_���� 6, server: hk2.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, client-fingerprint: chrome, type: trojan, password: 92d3e5b6-6e8c-483b-a72b-000568d2e814, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: false}
-  - {name: ???? _DE_�¹� 3, server: 217.160.45.31, port: 8880, client-fingerprint: chrome, type: vmess, uuid: 4e186678-fcca-4325-e4bc-b2916bdf6708, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: ???? _US_����->????_ZA_�Ϸ�, server: yhnsb3.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: yhnsb3.shabijichang.com}}}
-  - {name: ???? _US_���� 7, server: singapore.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v03.ssrsub.com}}}
-  - {name: ???? _RU_����˹���� 2, server: 46.29.166.237, port: 47555, client-fingerprint: chrome, type: vmess, uuid: 0c49cd19-2758-4d38-e6a8-11f2d6635860, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: ???? _DE_�¹�, server: 116.203.60.6, port: 18180, client-fingerprint: chrome, type: vmess, uuid: b1cfd141-4f0d-40b4-b169-ed332a4a92b9, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: ???? _US_����, server: hk3.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, client-fingerprint: chrome, type: trojan, password: 92d3e5b6-6e8c-483b-a72b-000568d2e814, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: false}
+  - {name: ???? _RU_����˹����, server: 46.29.166.237, port: 47555, client-fingerprint: chrome, type: vmess, uuid: 0c49cd19-2758-4d38-e6a8-11f2d6635860, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: ???? _RU_����˹���� 2, server: 89.221.224.94, port: 80, client-fingerprint: chrome, type: trojan, password: 28c79056-ccfd-4cc1-93d4-c337cc782e65, sni: is2-t.sshmax.xyz, skip-cert-verify: false}
+  - {name: ???? _US_���� 2, server: 45.58.153.24, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 4242f9e0-6b7e-4257-9e93-7ad38015c46a, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1702392255355, headers: {Host: www.77935707.xyz}}}
+  - {name: ???? _US_���� 3, server: 144.202.84.47, port: 57848, client-fingerprint: chrome, type: vmess, uuid: e48643e7-0462-4055-f796-6ca6aa9f946d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: ???? _CA_���ô�, server: 142.171.122.68, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1703231262875, headers: {Host: www.21463847.xyz}}}
+  - {name: ???? _LT_������, server: 84.32.231.244, port: 3001, client-fingerprint: chrome, type: vmess, uuid: 8efe48f5-22e2-4f0c-93da-665a4bc64ab1, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false}
+  - {name: ???? _US_���� 4, server: 104.219.54.187, port: 27112, client-fingerprint: chrome, type: trojan, password: hJG3wNfsVa, sni: android.googleapis.com, skip-cert-verify: false}
   - {name: ???? _NL_����, server: 46.182.107.15, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1702215223320}}
-  - {name: ???? _US_���� 8, server: 104.237.128.72, port: 14432, client-fingerprint: chrome, type: vmess, uuid: 4c09b776-6f83-4bf2-f7f7-4e286dbbb6da, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: ???? _CA_���ô�, server: 142.171.202.130, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1702650992491, headers: {Host: www.87981532.xyz}}}
-  - {name: ???? _US_���� 9, server: 104.238.182.29, port: 50706, client-fingerprint: chrome, type: vmess, uuid: 74cc82ff-e398-4a0e-df94-e5e9d66abbb3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: ???? _CA_���ô� 2, server: 142.171.122.68, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1703231262875, headers: {Host: www.21463847.xyz}}}
-  - {name: ???? _DE_�¹� 4, server: www.casperco.online, port: 993, client-fingerprint: chrome, type: trojan, password: 74811f39-8f69-4334-9e0f-a8a25d7413c1, skip-cert-verify: false}
-  - {name: ???? _US_���� 10, server: 144.202.84.47, port: 57848, client-fingerprint: chrome, type: vmess, uuid: e48643e7-0462-4055-f796-6ca6aa9f946d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: ???? _US_���� 11, server: usasb2.ip8.shop, port: 26460, client-fingerprint: chrome, type: vmess, uuid: c15bccff-fa39-4252-f789-4f997542e0b4, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: ???? _US_���� 5, server: 45.58.145.200, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 55545f9e-a561-454a-8dc0-8bc110e6b1c9, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1702301098557, headers: {Host: www.51652109.xyz}}}
+  - {name: ???? _CA_���ô� 2, server: 142.171.202.130, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1702650992491, headers: {Host: www.87981532.xyz}}}
+  - {name: ???? _US_���� 6, server: cf-lt.sharecentre.online, port: 80, client-fingerprint: chrome, type: vmess, uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v005.ssrsub.com}}}
+  - {name: ???? _US_���� 7, server: 18.216.249.151, port: 46403, client-fingerprint: chrome, type: vmess, uuid: 28dc6b61-09d8-4c19-b655-233cfb535567, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: ???? _US_���� 8, server: 38.180.33.136, port: 50104, client-fingerprint: chrome, type: vmess, uuid: 790f6802-7535-4109-de6d-15f676d5e3f7, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: ???? _IR_����, server: 91.107.172.128, port: 3350, client-fingerprint: chrome, type: vmess, uuid: 2bf900ac-909a-4610-dc18-86a3a136b286, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: ???? _US_���� 9, server: 108.165.113.99, port: 443, client-fingerprint: chrome, type: vmess, uuid: ef22fad3-652a-48fc-e80a-46faa3a6a787, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: ???? _IN_ӡ��, server: ru1-vmess.sshmax.xyz, port: 80, client-fingerprint: chrome, type: vmess, uuid: 61cf7313-1503-4bab-beeb-ba69fd5843ae, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess, headers: {Host: ru1-vmess.sshmax.xyz}}}
+  - {name: ???? _US_���� 10, server: 168.235.72.221, port: 15551, client-fingerprint: chrome, type: vmess, uuid: 69510633-6acb-4291-a98e-0cdcc9bd5c51, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: ???? _RU_����˹���� 3, server: 89.221.224.93, port: 80, client-fingerprint: chrome, type: trojan, password: 9e77b491-73d4-4ea3-985b-cfe3ae583580, sni: is1-t.sshmax.xyz, skip-cert-verify: false}
-  - {name: ???? _GB_Ӣ��, server: UK99.5GTOCDOCAO.COM, port: 80, client-fingerprint: chrome, type: vmess, uuid: 7a2c5296-683d-48db-9856-373cafac48b5, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /5gtocdocao.com, headers: {Host: dl.kgvn.garenanow.com}}}
-  - {name: ???? _IR_����, server: duss.celebjared.pk, port: 80, client-fingerprint: chrome, type: vmess, uuid: 781dfd50-3d2f-4d5b-99ef-47fa111bddb8, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /Y07GAOt43udo1xvoAgfajHtB, headers: {Host: duss.celebjared.pk}}}
-  - {name: ???? _US_���� 12, server: 18.216.249.151, port: 46403, client-fingerprint: chrome, type: vmess, uuid: 28dc6b61-09d8-4c19-b655-233cfb535567, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: ???? _US_���� 13, server: 144.202.81.122, port: 25514, client-fingerprint: chrome, type: vmess, uuid: 13bf827e-55cd-4b46-e9f1-b7f9ffbe7955, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: ???? _US_���� 14, server: 38.180.33.136, port: 50104, client-fingerprint: chrome, type: vmess, uuid: 790f6802-7535-4109-de6d-15f676d5e3f7, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: ???? _US_���� 15, server: 94.131.14.177, port: 8880, client-fingerprint: chrome, type: vmess, uuid: 2c5fee13-f08b-4ba8-86db-27dd51cb9781, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess}}
-  - {name: ???? _DE_�¹� 5, server: www.casperco.online, port: 1935, client-fingerprint: chrome, type: trojan, password: 74811f39-8f69-4334-9e0f-a8a25d7413c1, skip-cert-verify: false}
-  - {name: ???? _US_���� 16, server: 94.131.14.177, port: 80, client-fingerprint: chrome, type: vmess, uuid: 2c5fee13-f08b-4ba8-86db-27dd51cb9781, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess}}
-  - {name: ???? _US_���� 17, server: 94.131.14.177, port: 8080, client-fingerprint: chrome, type: vmess, uuid: 2c5fee13-f08b-4ba8-86db-27dd51cb9781, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 94.131.14.177}}}
-  - {name: ???? _US_���� 18, server: 94.131.14.177, port: 2086, client-fingerprint: chrome, type: vmess, uuid: 2c5fee13-f08b-4ba8-86db-27dd51cb9781, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess}}
-  - {name: ???? _US_���� 19, server: 172.234.17.31, port: 48771, client-fingerprint: chrome, type: vmess, uuid: f1c2be64-961b-407a-c4e0-b8919ca1253b, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: ???? _IR_���� 2, server: duss.celebjared.pk, port: 80, client-fingerprint: chrome, type: vmess, uuid: 781dfd50-3d2f-4d5b-99ef-47fa111bddb8, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /Y07GAOt43udo1xvoAgfajHtB, headers: {Host: duss.celebjared.pk}}}
+  - {name: ???? _US_����->????_FR_����, server: fr-01.jikuai.xyz, port: 2082, client-fingerprint: chrome, type: vmess, uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: fr-01.jikuai.xyz}}}
+  - {name: ???? _US_���� 11, server: us-01.jikuai.xyz, port: 2082, client-fingerprint: chrome, type: vmess, uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: us-01.jikuai.xyz}}}
+  - {name: ???? _US_���� 12, server: 45.58.153.25, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 4242f9e0-6b7e-4257-9e93-7ad38015c46a, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1702961716738}}
+  - {name: ???? _IN_ӡ�� 2, server: 103.113.68.233, port: 80, client-fingerprint: chrome, type: vmess, uuid: 61cf7313-1503-4bab-beeb-ba69fd5843ae, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 103.113.68.233}}}
+  - {name: ???? _DE_�¹� 2, server: 217.160.45.31, port: 8880, client-fingerprint: chrome, type: vmess, uuid: 4e186678-fcca-4325-e4bc-b2916bdf6708, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: ???? _US_���� 13, server: 104.237.128.72, port: 14432, client-fingerprint: chrome, type: vmess, uuid: 4c09b776-6f83-4bf2-f7f7-4e286dbbb6da, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
 proxy-groups:
   - name: ?? �ڵ�ѡ��
     type: select
     proxies:
       - DIRECT
+      - ???? _DE_�¹�
       - ???? _US_����
+      - ???? _RU_����˹����
+      - ???? _RU_����˹���� 2
       - ???? _US_���� 2
       - ???? _US_���� 3
-      - ???? _DE_�¹�
-      - ???? _DE_�¹� 2
-      - ???? _US_���� 4
-      - ???? _RU_����˹����
-      - ???? _US_���� 5
-      - ???? _US_���� 6
-      - ???? _DE_�¹� 3
-      - ???? _US_����->????_ZA_�Ϸ�
-      - ???? _US_���� 7
-      - ???? _RU_����˹���� 2
-      - ???? _NL_����
-      - ???? _US_���� 8
       - ???? _CA_���ô�
-      - ???? _US_���� 9
+      - ???? _LT_������
+      - ???? _US_���� 4
+      - ???? _NL_����
+      - ???? _US_���� 5
       - ???? _CA_���ô� 2
-      - ???? _DE_�¹� 4
-      - ???? _US_���� 10
-      - ???? _US_���� 11
-      - ???? _RU_����˹���� 3
-      - ???? _GB_Ӣ��
+      - ???? _US_���� 6
+      - ???? _US_���� 7
+      - ???? _US_���� 8
       - ???? _IR_����
+      - ???? _US_���� 9
+      - ???? _IN_ӡ��
+      - ???? _US_���� 10
+      - ???? _RU_����˹���� 3
+      - ???? _IR_���� 2
+      - ???? _US_����->????_FR_����
+      - ???? _US_���� 11
       - ???? _US_���� 12
+      - ???? _IN_ӡ�� 2
+      - ???? _DE_�¹� 2
       - ???? _US_���� 13
-      - ???? _US_���� 14
-      - ???? _US_���� 15
-      - ???? _DE_�¹� 5
-      - ???? _US_���� 16
-      - ???? _US_���� 17
-      - ???? _US_���� 18
-      - ???? _US_���� 19
   - name: ?? ȫ��ֱ��
     type: select
     proxies:
@@ -101,39 +89,33 @@ proxy-groups:
     proxies:
       - ?? �ڵ�ѡ��
       - ?? ȫ��ֱ��
+      - ???? _DE_�¹�
       - ???? _US_����
+      - ???? _RU_����˹����
+      - ???? _RU_����˹���� 2
       - ???? _US_���� 2
       - ???? _US_���� 3
-      - ???? _DE_�¹�
-      - ???? _DE_�¹� 2
-      - ???? _US_���� 4
-      - ???? _RU_����˹����
-      - ???? _US_���� 5
-      - ???? _US_���� 6
-      - ???? _DE_�¹� 3
-      - ???? _US_����->????_ZA_�Ϸ�
-      - ???? _US_���� 7
-      - ???? _RU_����˹���� 2
-      - ???? _NL_����
-      - ???? _US_���� 8
       - ???? _CA_���ô�
-      - ???? _US_���� 9
+      - ???? _LT_������
+      - ???? _US_���� 4
+      - ???? _NL_����
+      - ???? _US_���� 5
       - ???? _CA_���ô� 2
-      - ???? _DE_�¹� 4
-      - ???? _US_���� 10
-      - ???? _US_���� 11
-      - ???? _RU_����˹���� 3
-      - ???? _GB_Ӣ��
+      - ???? _US_���� 6
+      - ???? _US_���� 7
+      - ???? _US_���� 8
       - ???? _IR_����
+      - ???? _US_���� 9
+      - ???? _IN_ӡ��
+      - ???? _US_���� 10
+      - ???? _RU_����˹���� 3
+      - ???? _IR_���� 2
+      - ???? _US_����->????_FR_����
+      - ???? _US_���� 11
       - ???? _US_���� 12
+      - ???? _IN_ӡ�� 2
+      - ???? _DE_�¹� 2
       - ???? _US_���� 13
-      - ???? _US_���� 14
-      - ???? _US_���� 15
-      - ???? _DE_�¹� 5
-      - ???? _US_���� 16
-      - ???? _US_���� 17
-      - ???? _US_���� 18
-      - ???? _US_���� 19
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,?? ȫ��ֱ��
   - DOMAIN-SUFFIX,ip6-localhost,?? ȫ��ֱ��
