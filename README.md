@@ -7,7 +7,7 @@
 
 ## Last Update Time
 
-<b><time>2024/01/13 03: 17: 30</time></b>
+<b><time>2024/01/14 01: 21: 26</time></b>
 
 ## 节点来源 （请多访问支持下源站哦）
 [ClashNode](https://clashnode.com)
