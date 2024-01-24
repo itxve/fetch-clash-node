@@ -15,77 +15,43 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: ???? _CH_��ʿ, server: 94.131.99.8, port: 47182, type: vmess, uuid: 81b2b630-8b6a-404f-b996-b12f13db5786, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: ???? _US_����->????_IR_����, server: 104.17.88.212, port: 443, type: vless, uuid: 376b9861-2fc6-4647-959c-18185cd9c95a, tls: true, tfo: false, skip-cert-verify: false, servername: lmn37.sbs, network: ws, ws-opts: {path: /fflsws, headers: {Host: lmn37.sbs}}}
-  - {name: ???? _US_����, server: 89.116.161.133, port: 443, type: trojan, password: f34ec9d8-3ae0-46ba-94e7-a03eaf2af651, sni: p1us1.pqjc.buzz, skip-cert-verify: false, network: ws, ws-opts: {path: /pq/us1, headers: {Host: p1us1.pqjc.buzz}}}
-  - {name: ???? _CA_���ô�, server: 23.227.38.23, port: 443, type: vless, uuid: 0773256c-d020-436d-afea-6eee7cb6c872, tls: true, tfo: false, skip-cert-verify: false, servername: xray1.freegradely.xyz, network: ws, ws-opts: {path: /bodhws, headers: {Host: xray1.freegradely.xyz}}}
-  - {name: ???? _US_���� 2, server: 35.87.209.22, port: 13489, type: vmess, uuid: 61761e55-dff5-4f94-f75f-b0a4718bba98, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/]}}
-  - {name: ???? _US_����->????_CA_���ô�, server: 104.19.212.163, port: 443, type: vless, uuid: 0773256c-d020-436d-afea-6eee7cb6c872, tls: true, tfo: false, skip-cert-verify: false, servername: xray1.freegradely.xyz, network: ws, ws-opts: {path: /bodhws, headers: {Host: xray1.freegradely.xyz}}}
-  - {name: ???? _CN_�й�->????_AT_�µ���, server: xibaozi.19890604.day, port: 10848, type: trojan, password: c71b7574-aeaa-40f0-989b-47f3fe7ac85a, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false}
-  - {name: ???? _CA_���ô� 2, server: 23.227.39.23, port: 443, type: vless, uuid: 0773256c-d020-436d-afea-6eee7cb6c872, tls: true, tfo: false, skip-cert-verify: false, servername: xray1.freegradely.xyz, network: ws, ws-opts: {path: /bodhws, headers: {Host: xray1.freegradely.xyz}}}
-  - {name: ???? _TR_������, server: 195.16.74.40, port: 443, type: vless, uuid: a9673307-d520-4150-85f5-2f858372c120, tls: false, tfo: false, skip-cert-verify: false, network: tcp}
-  - {name: ???? _CN_�й�->????_US_����, server: xibaozi.19890604.day, port: 10847, type: trojan, password: c71b7574-aeaa-40f0-989b-47f3fe7ac85a, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false}
-  - {name: ???? _CA_���ô� 3, server: 23.227.38.24, port: 443, type: vless, uuid: 0773256c-d020-436d-afea-6eee7cb6c872, tls: true, tfo: false, skip-cert-verify: false, servername: xray1.freegradely.xyz, network: ws, ws-opts: {path: /bodhws, headers: {Host: xray1.freegradely.xyz}}}
-  - {name: ???? _NL_����, server: 91.242.229.77, port: 80, type: vmess, uuid: 56890326-df58-432d-be1e-67064e2b4355, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess}}
-  - {name: ???? _US_����->????_FR_����, server: s1c.v2.v001sss.xyz, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}}
-  - {name: ???? _US_����->????_CA_���ô� 2, server: 162.159.3.4, port: 443, type: vless, uuid: 0773256c-d020-436d-afea-6eee7cb6c872, tls: true, tfo: false, skip-cert-verify: false, servername: xray1.freegradely.xyz, network: ws, ws-opts: {path: /bodhws, headers: {Host: xray1.freegradely.xyz}}}
-  - {name: ???? _US_����->????_CA_���ô� 3, server: 198.41.216.16, port: 443, type: vless, uuid: 0773256c-d020-436d-afea-6eee7cb6c872, tls: true, tfo: false, skip-cert-verify: false, servername: xray1.freegradely.xyz, network: ws, ws-opts: {path: /bodhws, headers: {Host: xray1.freegradely.xyz}}}
-  - {name: ???? _DE_�¹�, server: 5.104.108.109, port: 443, type: trojan, password: f34ec9d8-3ae0-46ba-94e7-a03eaf2af651, sni: 20-24-33-134.nhost.00cdn.com, skip-cert-verify: false}
-  - {name: ???? _DE_�¹� 2, server: 5.104.108.120, port: 443, type: trojan, password: f34ec9d8-3ae0-46ba-94e7-a03eaf2af651, sni: 20-24-33-134.nhost.00cdn.com, skip-cert-verify: false}
-  - {name: ???? _US_���� 3, server: 89.116.180.179, port: 443, type: trojan, password: f34ec9d8-3ae0-46ba-94e7-a03eaf2af651, sni: p6us4.pqjc.buzz, skip-cert-verify: false, network: ws, ws-opts: {path: /pq/us4, headers: {Host: p6us4.pqjc.buzz}}}
-  - {name: ???? _US_����->????_CA_���ô� 4, server: 104.20.18.93, port: 443, type: vless, uuid: 0773256c-d020-436d-afea-6eee7cb6c872, tls: true, tfo: false, skip-cert-verify: false, servername: xray1.freegradely.xyz, network: ws, ws-opts: {path: /bodhws, headers: {Host: xray1.freegradely.xyz}}}
-  - {name: ???? _US_���� 4, server: 95.164.46.154, port: 80, type: vmess, uuid: 431fda16-e0f8-4884-b4fd-965f03f86471, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess}}
-  - {name: ???? _US_���� 5, server: 95.164.46.154, port: 8080, type: vmess, uuid: 431fda16-e0f8-4884-b4fd-965f03f86471, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess}}
-  - {name: ???? _CA_���ô� 4, server: 23.227.39.24, port: 443, type: vless, uuid: 0773256c-d020-436d-afea-6eee7cb6c872, tls: true, tfo: false, skip-cert-verify: false, servername: xray1.freegradely.xyz, network: ws, ws-opts: {path: /bodhws, headers: {Host: xray1.freegradely.xyz}}}
-  - {name: ???? _US_���� 6, server: 104.21.4.4, port: 8443, type: vless, uuid: 6feba7de-09e1-4031-9d40-074a764839c7, tls: true, tfo: false, skip-cert-verify: false, servername: ssl.v2vpnchannel.website, network: ws, ws-opts: {path: /vless, headers: {Host: ssl.v2vpnchannel.website}}}
-  - {name: ???? _CN_�й�->????_IN_ӡ��, server: service.ouluyun9803.com, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: cfa17a0d-5e7d-4871-976e-f116e0818123}
-  - {name: ???? _US_���� 7, server: 167.68.5.183, port: 443, type: trojan, password: f34ec9d8-3ae0-46ba-94e7-a03eaf2af651, sni: 6us3.pqjc.buzz, skip-cert-verify: false, network: ws, ws-opts: {path: /pq/us3, headers: {Host: 6us3.pqjc.buzz}}}
-  - {name: ???? _US_����->????_CA_���ô� 5, server: 198.41.216.129, port: 443, type: vless, uuid: 0773256c-d020-436d-afea-6eee7cb6c872, tls: true, tfo: false, skip-cert-verify: false, servername: xray1.freegradely.xyz, network: ws, ws-opts: {path: /bodhws, headers: {Host: xray1.freegradely.xyz}}}
-  - {name: ???? _US_����->????_CA_���ô� 6, server: 198.41.216.9, port: 443, type: vless, uuid: 0773256c-d020-436d-afea-6eee7cb6c872, tls: true, tfo: false, skip-cert-verify: false, servername: xray1.freegradely.xyz, network: ws, ws-opts: {path: /bodhws, headers: {Host: xray1.freegradely.xyz}}}
-  - {name: ???? _CA_���ô� 5, server: 23.227.39.86, port: 443, type: vless, uuid: 0773256c-d020-436d-afea-6eee7cb6c872, tls: true, tfo: false, skip-cert-verify: false, servername: xray1.freegradely.xyz, network: ws, ws-opts: {path: /bodhws, headers: {Host: xray1.freegradely.xyz}}}
-  - {name: ???? _CA_���ô� 6, server: 23.227.38.22, port: 443, type: vless, uuid: ffb15cd2-0521-49de-b8aa-fb15d58c8075, tls: true, tfo: false, skip-cert-verify: false, servername: v2ray3.freegradely.xyz, network: ws, ws-opts: {path: /bqbows, headers: {Host: v2ray3.freegradely.xyz}}}
-  - {name: ???? _NL_����->????_IR_����, server: 45.131.4.88, port: 443, type: vless, uuid: 376b9861-2fc6-4647-959c-18185cd9c95a, tls: true, tfo: false, skip-cert-verify: false, servername: lmn37.sbs, network: ws, ws-opts: {path: /fflsws, headers: {Host: lmn37.sbs}}}
-  - {name: ???? _US_����->????_CA_���ô� 7, server: 172.67.79.156, port: 443, type: vless, uuid: 0773256c-d020-436d-afea-6eee7cb6c872, tls: true, tfo: false, skip-cert-verify: false, servername: xray1.freegradely.xyz, network: ws, ws-opts: {path: /bodhws, headers: {Host: xray1.freegradely.xyz}}}
-  - {name: ???? _US_���� 8, server: 89.116.180.158, port: 443, type: trojan, password: f34ec9d8-3ae0-46ba-94e7-a03eaf2af651, sni: 3us2.pqjc.buzz, skip-cert-verify: false, network: ws, ws-opts: {path: /pq/us2, headers: {Host: 3us2.pqjc.buzz}}}
-  - {name: ???? _US_���� 9, server: 95.164.86.121, port: 80, type: vless, uuid: 3e51e5cd-93d5-40d1-a2bb-30c4df14c718, tls: false, tfo: false, skip-cert-verify: false, servername: 95.164.86.121, network: tcp}
+  - {name: ???? _US_����->????_RU_����˹����, server: 162.159.200.7, port: 80, type: vmess, uuid: 9b170ad4-3211-4f0f-8bc9-80d356b67662, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: er3.visaapp.top}}}
+  - {name: ???? _CN_�й�->????_US_����, server: xibaozi.19890604.day, port: 10838, type: trojan, password: 1fe65af9-6677-4a4d-8427-a5f9b0bae94e, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false}
+  - {name: ???? _US_����, server: 35.87.209.22, port: 13489, type: vmess, uuid: 61761e55-dff5-4f94-f75f-b0a4718bba98, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: ???? _CN_�й�->????_US_���� 2, server: xibaozi.19890604.day, port: 10850, type: trojan, password: 1fe65af9-6677-4a4d-8427-a5f9b0bae94e, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false}
+  - {name: ???? _RU_����˹����, server: 45.144.2.113, port: 80, type: vmess, uuid: 9b170ad4-3211-4f0f-8bc9-80d356b67662, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: www.apple.com}}}
+  - {name: ???? _NL_����, server: 91.242.229.69, port: 2086, type: vmess, uuid: 88c216b8-56c6-4f34-bcfd-e198ce11f7d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess, headers: {Host: nl1.xv2ray.net}}}
+  - {name: ???? _US_����->????_RU_����˹���� 2, server: 104.18.15.150, port: 80, type: vmess, uuid: 9b170ad4-3211-4f0f-8bc9-80d356b67662, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: er3.889611.com}}}
+  - {name: ???? _US_���� 2, server: 173.245.58.51, port: 443, type: vmess, uuid: 12d7e57b-9fc8-41e0-9b32-f503dce10c1c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /fdczvws, headers: {Host: godofwar2020.colocrossing.sbs}}}
+  - {name: ???? _US_����->????_CA_���ô�, server: 162.159.200.3, port: 80, type: vmess, uuid: 9b170ad4-3211-4f0f-8bc9-80d356b67662, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ca3.889611.com}}}
+  - {name: ???? _US_����->????_TR_������, server: 104.18.15.149, port: 80, type: vmess, uuid: 9b170ad4-3211-4f0f-8bc9-80d356b67662, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tr3.889611.com}}}
+  - {name: ???? _CN_�й�->????_CZ_�ݿ�, server: xibaozi.19890604.day, port: 10846, type: trojan, password: 1fe65af9-6677-4a4d-8427-a5f9b0bae94e, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false}
+  - {name: ???? _US_���� 3, server: 162.159.200.6, port: 80, type: vmess, uuid: 9b170ad4-3211-4f0f-8bc9-80d356b67662, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: er3.889611.com}}}
+  - {name: ???? _NL_���� 2, server: 91.242.229.77, port: 80, type: vmess, uuid: 56890326-df58-432d-be1e-67064e2b4355, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess}}
+  - {name: ???? _CN_�й�->????_UA_�ڿ���, server: xibaozi.19890604.day, port: 10845, type: trojan, password: 1fe65af9-6677-4a4d-8427-a5f9b0bae94e, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false}
+  - {name: ???? _CN_�й�->????_US_���� 3, server: xibaozi.19890604.day, port: 10837, type: trojan, password: 1fe65af9-6677-4a4d-8427-a5f9b0bae94e, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false}
+  - {name: ???? _US_����->????_CA_���ô� 2, server: 162.159.200.5, port: 80, type: vmess, uuid: 9b170ad4-3211-4f0f-8bc9-80d356b67662, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ca3.889611.com}}}
 proxy-groups:
   - name: ?? �ڵ�ѡ��
     type: select
     proxies:
       - DIRECT
-      - ???? _CH_��ʿ
-      - ???? _US_����->????_IR_����
+      - ???? _US_����->????_RU_����˹����
+      - ???? _CN_�й�->????_US_����
       - ???? _US_����
-      - ???? _CA_���ô�
+      - ???? _CN_�й�->????_US_���� 2
+      - ???? _RU_����˹����
+      - ???? _NL_����
+      - ???? _US_����->????_RU_����˹���� 2
       - ???? _US_���� 2
       - ???? _US_����->????_CA_���ô�
-      - ???? _CN_�й�->????_AT_�µ���
-      - ???? _CA_���ô� 2
-      - ???? _TR_������
-      - ???? _CN_�й�->????_US_����
-      - ???? _CA_���ô� 3
-      - ???? _NL_����
-      - ???? _US_����->????_FR_����
-      - ???? _US_����->????_CA_���ô� 2
-      - ???? _US_����->????_CA_���ô� 3
-      - ???? _DE_�¹�
-      - ???? _DE_�¹� 2
+      - ???? _US_����->????_TR_������
+      - ???? _CN_�й�->????_CZ_�ݿ�
       - ???? _US_���� 3
-      - ???? _US_����->????_CA_���ô� 4
-      - ???? _US_���� 4
-      - ???? _US_���� 5
-      - ???? _CA_���ô� 4
-      - ???? _US_���� 6
-      - ???? _CN_�й�->????_IN_ӡ��
-      - ???? _US_���� 7
-      - ???? _US_����->????_CA_���ô� 5
-      - ???? _US_����->????_CA_���ô� 6
-      - ???? _CA_���ô� 5
-      - ???? _CA_���ô� 6
-      - ???? _NL_����->????_IR_����
-      - ???? _US_����->????_CA_���ô� 7
-      - ???? _US_���� 8
-      - ???? _US_���� 9
+      - ???? _NL_���� 2
+      - ???? _CN_�й�->????_UA_�ڿ���
+      - ???? _CN_�й�->????_US_���� 3
+      - ???? _US_����->????_CA_���ô� 2
   - name: ?? ȫ��ֱ��
     type: select
     proxies:
@@ -101,39 +67,22 @@ proxy-groups:
     proxies:
       - ?? �ڵ�ѡ��
       - ?? ȫ��ֱ��
-      - ???? _CH_��ʿ
-      - ???? _US_����->????_IR_����
+      - ???? _US_����->????_RU_����˹����
+      - ???? _CN_�й�->????_US_����
       - ???? _US_����
-      - ???? _CA_���ô�
+      - ???? _CN_�й�->????_US_���� 2
+      - ???? _RU_����˹����
+      - ???? _NL_����
+      - ???? _US_����->????_RU_����˹���� 2
       - ???? _US_���� 2
       - ???? _US_����->????_CA_���ô�
-      - ???? _CN_�й�->????_AT_�µ���
-      - ???? _CA_���ô� 2
-      - ???? _TR_������
-      - ???? _CN_�й�->????_US_����
-      - ???? _CA_���ô� 3
-      - ???? _NL_����
-      - ???? _US_����->????_FR_����
-      - ???? _US_����->????_CA_���ô� 2
-      - ???? _US_����->????_CA_���ô� 3
-      - ???? _DE_�¹�
-      - ???? _DE_�¹� 2
+      - ???? _US_����->????_TR_������
+      - ???? _CN_�й�->????_CZ_�ݿ�
       - ???? _US_���� 3
-      - ???? _US_����->????_CA_���ô� 4
-      - ???? _US_���� 4
-      - ???? _US_���� 5
-      - ???? _CA_���ô� 4
-      - ???? _US_���� 6
-      - ???? _CN_�й�->????_IN_ӡ��
-      - ???? _US_���� 7
-      - ???? _US_����->????_CA_���ô� 5
-      - ???? _US_����->????_CA_���ô� 6
-      - ???? _CA_���ô� 5
-      - ???? _CA_���ô� 6
-      - ???? _NL_����->????_IR_����
-      - ???? _US_����->????_CA_���ô� 7
-      - ???? _US_���� 8
-      - ???? _US_���� 9
+      - ???? _NL_���� 2
+      - ???? _CN_�й�->????_UA_�ڿ���
+      - ???? _CN_�й�->????_US_���� 3
+      - ???? _US_����->????_CA_���ô� 2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,?? ȫ��ֱ��
   - DOMAIN-SUFFIX,ip6-localhost,?? ȫ��ֱ��
@@ -1917,6 +1866,9 @@ rules:
   - DOMAIN,gamer2-cds.cdn.hinet.net,?? �ڵ�ѡ��
   - DOMAIN-SUFFIX,bahamut.com.tw,?? �ڵ�ѡ��
   - DOMAIN-SUFFIX,gamer.com.tw,?? �ڵ�ѡ��
+  - DOMAIN-SUFFIX,bilibili.tv,?? �ڵ�ѡ��
+  - DOMAIN-SUFFIX,bstarstatic.com,?? �ڵ�ѡ��
+  - DOMAIN,pic-bstarstatic.akamaized.net,?? �ڵ�ѡ��
   - DOMAIN-KEYWORD,voddazn,?? �ڵ�ѡ��
   - DOMAIN,d151l6v8er5bdm.cloudfront.net,?? �ڵ�ѡ��
   - DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net,?? �ڵ�ѡ��
@@ -1966,7 +1918,6 @@ rules:
   - DOMAIN-SUFFIX,hbomax.com,?? �ڵ�ѡ��
   - DOMAIN-SUFFIX,hbomaxcdn.com,?? �ڵ�ѡ��
   - DOMAIN-SUFFIX,hbonow.com,?? �ڵ�ѡ��
-  - DOMAIN-KEYWORD,.hbogoasia.,?? �ڵ�ѡ��
   - DOMAIN-KEYWORD,hbogoasia,?? �ڵ�ѡ��
   - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,?? �ڵ�ѡ��
   - DOMAIN,bcbolthboa-a.akamaihd.net,?? �ڵ�ѡ��
@@ -2711,6 +2662,8 @@ rules:
   - DOMAIN-SUFFIX,biliapi.com,?? ȫ��ֱ��
   - DOMAIN-SUFFIX,biliapi.net,?? ȫ��ֱ��
   - DOMAIN-SUFFIX,bilibili.com,?? ȫ��ֱ��
+  - DOMAIN-SUFFIX,bilibili.co,?? ȫ��ֱ��
+  - DOMAIN-SUFFIX,biliintl.co,?? ȫ��ֱ��
   - DOMAIN-SUFFIX,biligame.com,?? ȫ��ֱ��
   - DOMAIN-SUFFIX,biligame.net,?? ȫ��ֱ��
   - DOMAIN-SUFFIX,bilivideo.com,?? ȫ��ֱ��
