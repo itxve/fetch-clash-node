@@ -78,109 +78,53 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"🇮🇪_IE_爱尔兰_1","type":"trojan","server":"63.32.156.81","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trojan.miwan.co.uk","skip-cert-verify":false,"network":"tcp"}
-  - {"name":"🇮🇪_IE_爱尔兰_2","type":"trojan","server":"34.247.125.249","port":22222,"udp":true,"password":"telegram-id-directvpn","sni":"trojan.miwan.co.uk","skip-cert-verify":false,"network":"tcp"}
-  - {"name":"🇨🇳_CN_中国->🇨🇿_CZ_捷克","type":"trojan","server":"xibaozi.19890604.day","port":10846,"udp":true,"password":"3547bfda-1009-42d4-8319-b027ad049347","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国_1","type":"trojan","server":"xibaozi.19890604.day","port":10847,"udp":true,"password":"a8c6bd90-e346-406b-beba-8f9d78f61df0","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国_2","type":"trojan","server":"xibaozi.19890604.day","port":10837,"udp":true,"password":"3547bfda-1009-42d4-8319-b027ad049347","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳_CN_中国->🇺🇦_UA_乌克兰","type":"trojan","server":"xibaozi.19890604.day","port":10845,"udp":true,"password":"3547bfda-1009-42d4-8319-b027ad049347","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳_CN_中国->🇦🇹_AT_奥地利","type":"trojan","server":"xibaozi.19890604.day","port":10848,"udp":true,"password":"aefccacc-d966-4cc7-b7af-91ce103dcd5c","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国_3","type":"trojan","server":"xibaozi.19890604.day","port":10850,"udp":true,"password":"a912c063-252d-4c4f-8944-1b3bd93bf9ba","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇩🇪_DE_德国","type":"trojan","server":"3.72.117.197","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trojan.miwan.co.uk","skip-cert-verify":false,"network":"tcp"}
-  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国_4","type":"trojan","server":"xibaozi.19890604.day","port":10838,"udp":true,"password":"3547bfda-1009-42d4-8319-b027ad049347","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇮🇪_IE_爱尔兰","type":"trojan","server":"52.49.249.102","port":22222,"udp":true,"password":"telegram-id-directvpn","sni":"trj.rollingnext.co.uk","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇫🇷_FR_法国","type":"trojan","server":"15.237.201.223","port":22222,"udp":true,"password":"telegram-id-directvpn","sni":"trj.rollingnext.co.uk","skip-cert-verify":false,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇮🇪_IE_爱尔兰_1
-      - 🇮🇪_IE_爱尔兰_2
-      - 🇨🇳_CN_中国->🇨🇿_CZ_捷克
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇺🇦_UA_乌克兰
-      - 🇨🇳_CN_中国->🇦🇹_AT_奥地利
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-      - 🇩🇪_DE_德国
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_4
+      - 🇮🇪_IE_爱尔兰
+      - 🇫🇷_FR_法国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇮🇪_IE_爱尔兰_1
-      - 🇮🇪_IE_爱尔兰_2
-      - 🇨🇳_CN_中国->🇨🇿_CZ_捷克
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇺🇦_UA_乌克兰
-      - 🇨🇳_CN_中国->🇦🇹_AT_奥地利
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-      - 🇩🇪_DE_德国
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_4
+      - 🇮🇪_IE_爱尔兰
+      - 🇫🇷_FR_法国
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇮🇪_IE_爱尔兰_1
-      - 🇮🇪_IE_爱尔兰_2
-      - 🇨🇳_CN_中国->🇨🇿_CZ_捷克
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇺🇦_UA_乌克兰
-      - 🇨🇳_CN_中国->🇦🇹_AT_奥地利
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-      - 🇩🇪_DE_德国
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_4
+      - 🇮🇪_IE_爱尔兰
+      - 🇫🇷_FR_法国
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇮🇪_IE_爱尔兰_1
-      - 🇮🇪_IE_爱尔兰_2
-      - 🇨🇳_CN_中国->🇨🇿_CZ_捷克
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇺🇦_UA_乌克兰
-      - 🇨🇳_CN_中国->🇦🇹_AT_奥地利
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-      - 🇩🇪_DE_德国
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_4
+      - 🇮🇪_IE_爱尔兰
+      - 🇫🇷_FR_法国
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇮🇪_IE_爱尔兰_1
-      - 🇮🇪_IE_爱尔兰_2
-      - 🇨🇳_CN_中国->🇨🇿_CZ_捷克
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇺🇦_UA_乌克兰
-      - 🇨🇳_CN_中国->🇦🇹_AT_奥地利
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-      - 🇩🇪_DE_德国
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_4
+      - 🇮🇪_IE_爱尔兰
+      - 🇫🇷_FR_法国
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇮🇪_IE_爱尔兰_1
-      - 🇮🇪_IE_爱尔兰_2
-      - 🇨🇳_CN_中国->🇨🇿_CZ_捷克
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇺🇦_UA_乌克兰
-      - 🇨🇳_CN_中国->🇦🇹_AT_奥地利
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-      - 🇩🇪_DE_德国
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_4
+      - 🇮🇪_IE_爱尔兰
+      - 🇫🇷_FR_法国
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -203,16 +147,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇮🇪_IE_爱尔兰_1
-      - 🇮🇪_IE_爱尔兰_2
-      - 🇨🇳_CN_中国->🇨🇿_CZ_捷克
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇺🇦_UA_乌克兰
-      - 🇨🇳_CN_中国->🇦🇹_AT_奥地利
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-      - 🇩🇪_DE_德国
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_4
+      - 🇮🇪_IE_爱尔兰
+      - 🇫🇷_FR_法国
 
 rules:
 # 本地/局域网地址
