@@ -1,20 +1,4 @@
-const fs = require("fs");
-const path = require("path");
-function zore(t) {
-  return t >= 10 ? `${t}` : `0${t}`;
-}
-function rf(name) {
-  return fs.readFileSync(path.join(__dirname, "node", name)).toString();
-}
-function wf(name, data) {
-  fs.writeFileSync(path.join(__dirname, "node", name), data);
-}
-function readme() {
-  return fs.readFileSync(path.join(__dirname, "README.md")).toString();
-}
-function wreadme(data) {
-  return fs.writeFileSync(path.join(__dirname, "README.md"), data);
-}
+const { rf, zore, wf, readme, wreadme } = require("./utils");
 
 function update_read_me() {
   let read = readme();
@@ -38,7 +22,7 @@ let nodes = [
     name: "ClashNode",
     hostUrl: "https://clashnode.com/wp-content/uploads/",
   },
-   {
+  {
     name: "NodeBird",
     hostUrl: "https://nodebird.net/wp-content/uploads/",
   },
@@ -53,7 +37,7 @@ let timeStr = [y, m, `${y}${m}${day}.yaml`].join("/");
   try {
     for (let node of nodes) {
       let res = await fetch(node.hostUrl + timeStr).then((res) => {
-        console.log(`${node.hostUrl + timeStr}` ,"status is",res.status)
+        console.log(`${node.hostUrl + timeStr}`, "status is", res.status);
         if (res.status == 200) {
           return res.text();
         } else {

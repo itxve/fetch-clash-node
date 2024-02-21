@@ -21,6 +21,8 @@ jobs:
           node-version: 18
       - name: Fetch Free Clash Node
         run: node index.js
+      - name: Fetch vpnoe
+        run: node vpnoe.js
       - name: Commit Newest Node
         # Condition to prevent unintended automatic workflow
         # Change or comment out this line for automatic workflow on forks
