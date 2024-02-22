@@ -26,6 +26,10 @@ let nodes = [
     name: "NodeBird",
     hostUrl: "https://nodebird.net/wp-content/uploads/",
   },
+  {
+   name: "NodeShare",
+   hostUrl:"https://tglaoshiji.github.io/nodeshare/"
+  }  
 ];
 
 let d = new Date();
@@ -36,6 +40,9 @@ let timeStr = [y, m, `${y}${m}${day}.yaml`].join("/");
 (async () => {
   try {
     for (let node of nodes) {
+      if (node.name==="NodeShare"){
+         timeStr = [y, d.getMonth() + 1, `${y}${m}${day}.yaml`].join("/");
+       }
       let res = await fetch(node.hostUrl + timeStr).then((res) => {
         console.log(`${node.hostUrl + timeStr}`, "status is", res.status);
         if (res.status == 200) {
