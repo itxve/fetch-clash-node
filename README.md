@@ -1,3 +1,6 @@
+### 有个问题问大家就是如何 合并多个订阅链接 请在issue中告诉我 
+
+
 <h1 align="center">
   <img src="https://github.com/Dreamacro/clash/raw/master/docs/logo.png" alt="Clash" width="200">
  
