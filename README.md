@@ -16,6 +16,9 @@
 
 [NodeBird](https://nodebird.net)
 
+[NodeShare](https://www.ziyuan1.fun/)
+
+
 ## Subscription Links
 
 - ClashNode: https://raw.githubusercontent.com/itxve/fetch-clash-node/main/node/ClashNode.yaml ★
@@ -23,6 +26,9 @@
 - NodeFree: https://raw.githubusercontent.com/itxve/fetch-clash-node/main/node/NodeFree.yaml ★
 
 - NodeBird: https://raw.githubusercontent.com/itxve/fetch-clash-node/main/node/NodeBird.yaml ★
+
+- NodeShare: https://raw.githubusercontent.com/itxve/fetch-clash-node/main/node/NodeShare.yaml ★
+
 
 
 ## Subscription Links (CDN) There is a certain delay
@@ -32,6 +38,10 @@
 - NodeFree: https://cdn.jsdelivr.net/gh/itxve/fetch-clash-node/node/NodeFree.yaml ★
   
 - NodeBird: https://cdn.jsdelivr.net/gh/itxve/fetch-clash-node/node/NodeBird.yaml ★
+
+- NodeShare: https://cdn.jsdelivr.net/gh/itxve/fetch-clash-node/node/NodeShare.yaml ★
+
+
 
 ### Clash Premium 各版本下载地址
 
