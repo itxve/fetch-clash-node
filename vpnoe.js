@@ -15,7 +15,9 @@ const { wf } = require("./utils");
       await fetch(link)
         .then((r) => r.text())
         .then((text) => {
-          wf("vpnoe.yaml", text);
+          if (text) {
+             wf("vpnoe.yaml", text);
+          }
         });
     }
   });
