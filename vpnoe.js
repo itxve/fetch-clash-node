@@ -10,8 +10,6 @@ const { wf } = require("./utils");
     if (res.status === 200) {
       let [_, link] = text.match("Clash订阅地址：(.*)\\<\\/code");
       console.log("link:", link);
-      // link += "clash=1";
-      console.log("link:::::", link);
       await fetch(link)
         .then((r) => r.text())
         .then((text) => {
