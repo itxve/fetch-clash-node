@@ -5,68 +5,70 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 距离下次重置剩余：21 天, server: free.6vczxw.xyz, port: 30016, type: ss, cipher: chacha20-ietf-poly1305, password: f0fd2125-d24b-464d-8956-98de3e12dc25, udp: true}
-  - {name: v2rayng无法使用的用户请下载clash for android, server: free.6vczxw.xyz, port: 30016, type: ss, cipher: chacha20-ietf-poly1305, password: f0fd2125-d24b-464d-8956-98de3e12dc25, udp: true}
-  - {name: ★新用户注册送2G高速流量, server: free.6vczxw.xyz, port: 30016, type: ss, cipher: chacha20-ietf-poly1305, password: f0fd2125-d24b-464d-8956-98de3e12dc25, udp: true}
-  - {name: ★使用前需要卸载反诈APP, server: free.6vczxw.xyz, port: 30016, type: ss, cipher: chacha20-ietf-poly1305, password: f0fd2125-d24b-464d-8956-98de3e12dc25, udp: true}
-  - {name: ★永久域名发布页 a.topubr.xyz, server: free.6vczxw.xyz, port: 30016, type: ss, cipher: chacha20-ietf-poly1305, password: f0fd2125-d24b-464d-8956-98de3e12dc25, udp: true}
-  - {name: 香港01 | 1x HK, server: free.6vczxw.xyz, port: 41141, type: ss, cipher: chacha20-ietf-poly1305, password: f0fd2125-d24b-464d-8956-98de3e12dc25, udp: true}
-  - {name: 香港02 | 1x HK, server: free.6vczxw.xyz, port: 41143, type: ss, cipher: chacha20-ietf-poly1305, password: f0fd2125-d24b-464d-8956-98de3e12dc25, udp: true}
-  - {name: 香港03 | 家宽 | 1x HK, server: free.6vczxw.xyz, port: 41145, type: ss, cipher: chacha20-ietf-poly1305, password: f0fd2125-d24b-464d-8956-98de3e12dc25, udp: true}
-  - {name: 香港04 | 1x HK, server: free.6vczxw.xyz, port: 41147, type: ss, cipher: chacha20-ietf-poly1305, password: f0fd2125-d24b-464d-8956-98de3e12dc25, udp: true}
-  - {name: 香港05 | 1x HK, server: free.6vczxw.xyz, port: 41149, type: ss, cipher: chacha20-ietf-poly1305, password: f0fd2125-d24b-464d-8956-98de3e12dc25, udp: true}
-  - {name: 香港06 | 1x HK, server: free.6vczxw.xyz, port: 41151, type: ss, cipher: chacha20-ietf-poly1305, password: f0fd2125-d24b-464d-8956-98de3e12dc25, udp: true}
-  - {name: 香港07 | 1x HK, server: free.6vczxw.xyz, port: 41153, type: ss, cipher: chacha20-ietf-poly1305, password: f0fd2125-d24b-464d-8956-98de3e12dc25, udp: true}
-  - {name: 台湾01 | 1x TW, server: free.6vczxw.xyz, port: 41241, type: ss, cipher: chacha20-ietf-poly1305, password: f0fd2125-d24b-464d-8956-98de3e12dc25, udp: true}
-  - {name: 台湾02 | 1x TW, server: free.6vczxw.xyz, port: 41243, type: ss, cipher: chacha20-ietf-poly1305, password: f0fd2125-d24b-464d-8956-98de3e12dc25, udp: true}
-  - {name: 台湾03 | 1x TW, server: free.6vczxw.xyz, port: 41245, type: ss, cipher: chacha20-ietf-poly1305, password: f0fd2125-d24b-464d-8956-98de3e12dc25, udp: true}
-  - {name: 台湾04 | 1x TW, server: free.6vczxw.xyz, port: 41247, type: ss, cipher: chacha20-ietf-poly1305, password: f0fd2125-d24b-464d-8956-98de3e12dc25, udp: true}
-  - {name: 台湾05 | 1x TW, server: free.6vczxw.xyz, port: 41249, type: ss, cipher: chacha20-ietf-poly1305, password: f0fd2125-d24b-464d-8956-98de3e12dc25, udp: true}
-  - {name: 台湾06 | 家宽 | 1x  TW, server: free.6vczxw.xyz, port: 41251, type: ss, cipher: chacha20-ietf-poly1305, password: f0fd2125-d24b-464d-8956-98de3e12dc25, udp: true}
-  - {name: 日本01 | 1x JP, server: free.6vczxw.xyz, port: 41111, type: ss, cipher: chacha20-ietf-poly1305, password: f0fd2125-d24b-464d-8956-98de3e12dc25, udp: true}
-  - {name: 日本02 | 1x JP, server: free.6vczxw.xyz, port: 41113, type: ss, cipher: chacha20-ietf-poly1305, password: f0fd2125-d24b-464d-8956-98de3e12dc25, udp: true}
-  - {name: 日本03 | 1x JP, server: free.6vczxw.xyz, port: 41115, type: ss, cipher: chacha20-ietf-poly1305, password: f0fd2125-d24b-464d-8956-98de3e12dc25, udp: true}
-  - {name: 日本04 | 1x JP, server: free.6vczxw.xyz, port: 41117, type: ss, cipher: chacha20-ietf-poly1305, password: f0fd2125-d24b-464d-8956-98de3e12dc25, udp: true}
-  - {name: 日本05 | 1x JP, server: free.6vczxw.xyz, port: 41119, type: ss, cipher: chacha20-ietf-poly1305, password: f0fd2125-d24b-464d-8956-98de3e12dc25, udp: true}
-  - {name: 日本06 | 家宽 | 1x JP, server: free.6vczxw.xyz, port: 41121, type: ss, cipher: chacha20-ietf-poly1305, password: f0fd2125-d24b-464d-8956-98de3e12dc25, udp: true}
-  - {name: 新加坡01 | 1x SG, server: free.6vczxw.xyz, port: 41171, type: ss, cipher: chacha20-ietf-poly1305, password: f0fd2125-d24b-464d-8956-98de3e12dc25, udp: true}
-  - {name: 新加坡02 | 1x SG, server: free.6vczxw.xyz, port: 41173, type: ss, cipher: chacha20-ietf-poly1305, password: f0fd2125-d24b-464d-8956-98de3e12dc25, udp: true}
-  - {name: 新加坡03 | 1x SG, server: free.6vczxw.xyz, port: 41175, type: ss, cipher: chacha20-ietf-poly1305, password: f0fd2125-d24b-464d-8956-98de3e12dc25, udp: true}
-  - {name: 新加坡04 | 1x SG, server: free.6vczxw.xyz, port: 41177, type: ss, cipher: chacha20-ietf-poly1305, password: f0fd2125-d24b-464d-8956-98de3e12dc25, udp: true}
-  - {name: 新加坡05 | 1x SG, server: free.6vczxw.xyz, port: 41179, type: ss, cipher: chacha20-ietf-poly1305, password: f0fd2125-d24b-464d-8956-98de3e12dc25, udp: true}
-  - {name: 新加坡06 | 家宽 | 1x  SG, server: free.6vczxw.xyz, port: 41181, type: ss, cipher: chacha20-ietf-poly1305, password: f0fd2125-d24b-464d-8956-98de3e12dc25, udp: true}
-  - {name: 韩国01 | 1x KR, server: free.6vczxw.xyz, port: 41311, type: ss, cipher: chacha20-ietf-poly1305, password: f0fd2125-d24b-464d-8956-98de3e12dc25, udp: true}
-  - {name: 菲律宾01 | 1x PH, server: free.6vczxw.xyz, port: 41341, type: ss, cipher: chacha20-ietf-poly1305, password: f0fd2125-d24b-464d-8956-98de3e12dc25, udp: true}
-  - {name: 美国01 | 1x US Los Angeles, server: free.6vczxw.xyz, port: 41211, type: ss, cipher: chacha20-ietf-poly1305, password: f0fd2125-d24b-464d-8956-98de3e12dc25, udp: true}
-  - {name: 美国02 | 家宽 | 1x US Los Angeles, server: free.6vczxw.xyz, port: 41213, type: ss, cipher: chacha20-ietf-poly1305, password: f0fd2125-d24b-464d-8956-98de3e12dc25, udp: true}
-  - {name: 美国03 | 1x US Washington, server: free.6vczxw.xyz, port: 41215, type: ss, cipher: chacha20-ietf-poly1305, password: f0fd2125-d24b-464d-8956-98de3e12dc25, udp: true}
-  - {name: 美国04 | 1x US Honolulu, server: free.6vczxw.xyz, port: 41217, type: ss, cipher: chacha20-ietf-poly1305, password: f0fd2125-d24b-464d-8956-98de3e12dc25, udp: true}
-  - {name: 美国05 | 1x US New Jersey, server: free.6vczxw.xyz, port: 41219, type: ss, cipher: chacha20-ietf-poly1305, password: f0fd2125-d24b-464d-8956-98de3e12dc25, udp: true}
-  - {name: 美国06 | 1x US ChatGPT专用, server: free.6vczxw.xyz, port: 41221, type: ss, cipher: chacha20-ietf-poly1305, password: f0fd2125-d24b-464d-8956-98de3e12dc25, udp: true}
-  - {name: 美国13 | 1x US Seattle, server: free.6vczxw.xyz, port: 41235, type: ss, cipher: chacha20-ietf-poly1305, password: f0fd2125-d24b-464d-8956-98de3e12dc25, udp: true}
-  - {name: 英国01 | 家宽 | 1x UK, server: free.6vczxw.xyz, port: 41271, type: ss, cipher: chacha20-ietf-poly1305, password: f0fd2125-d24b-464d-8956-98de3e12dc25, udp: true}
-  - {name: 西班牙01 | 1x ES, server: free.6vczxw.xyz, port: 41741, type: ss, cipher: chacha20-ietf-poly1305, password: f0fd2125-d24b-464d-8956-98de3e12dc25, udp: true}
-  - {name: 马来西亚01 | 1x MY, server: free.6vczxw.xyz, port: 41721, type: ss, cipher: chacha20-ietf-poly1305, password: f0fd2125-d24b-464d-8956-98de3e12dc25, udp: true}
-  - {name: 泰国01 | 1x IN, server: free.6vczxw.xyz, port: 41731, type: ss, cipher: chacha20-ietf-poly1305, password: f0fd2125-d24b-464d-8956-98de3e12dc25, udp: true}
-  - {name: 印度01 | 1x IN, server: free.6vczxw.xyz, port: 41371, type: ss, cipher: chacha20-ietf-poly1305, password: f0fd2125-d24b-464d-8956-98de3e12dc25, udp: true}
-  - {name: 澳大利亚01 | 1x AU, server: free.6vczxw.xyz, port: 41411, type: ss, cipher: chacha20-ietf-poly1305, password: f0fd2125-d24b-464d-8956-98de3e12dc25, udp: true}
-  - {name: 加拿大01 | 1x CA, server: free.6vczxw.xyz, port: 41441, type: ss, cipher: chacha20-ietf-poly1305, password: f0fd2125-d24b-464d-8956-98de3e12dc25, udp: true}
-  - {name: 德国01 | 1x DE, server: free.6vczxw.xyz, port: 41471, type: ss, cipher: chacha20-ietf-poly1305, password: f0fd2125-d24b-464d-8956-98de3e12dc25, udp: true}
-  - {name: 俄罗斯01 | 1x RU, server: free.6vczxw.xyz, port: 41511, type: ss, cipher: chacha20-ietf-poly1305, password: f0fd2125-d24b-464d-8956-98de3e12dc25, udp: true}
-  - {name: 土耳其01 | 1x TR, server: free.6vczxw.xyz, port: 41571, type: ss, cipher: chacha20-ietf-poly1305, password: f0fd2125-d24b-464d-8956-98de3e12dc25, udp: true}
-  - {name: 乌克兰01 | 1x UA, server: free.6vczxw.xyz, port: 41611, type: ss, cipher: chacha20-ietf-poly1305, password: f0fd2125-d24b-464d-8956-98de3e12dc25, udp: true}
-  - {name: 越南01 | 1x VN, server: free.6vczxw.xyz, port: 41641, type: ss, cipher: chacha20-ietf-poly1305, password: f0fd2125-d24b-464d-8956-98de3e12dc25, udp: true}
-  - {name: 巴西01 | 1x BR, server: free.6vczxw.xyz, port: 41671, type: ss, cipher: chacha20-ietf-poly1305, password: f0fd2125-d24b-464d-8956-98de3e12dc25, udp: true}
-  - {name: 日本【特殊地区直连】, server: free.6vczxw.xyz, port: 30010, type: ss, cipher: chacha20-ietf-poly1305, password: f0fd2125-d24b-464d-8956-98de3e12dc25, udp: true}
-  - {name: 新加坡【特殊地区直连】, server: free.6vczxw.xyz, port: 30020, type: ss, cipher: chacha20-ietf-poly1305, password: f0fd2125-d24b-464d-8956-98de3e12dc25, udp: true}
-  - {name: 美国【特殊地区直连】, server: free.6vczxw.xyz, port: 30030, type: ss, cipher: chacha20-ietf-poly1305, password: f0fd2125-d24b-464d-8956-98de3e12dc25, udp: true}
+  - {name: 距离下次重置剩余：20 天, server: free.6vczxw.xyz, port: 30016, type: ss, cipher: chacha20-ietf-poly1305, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, udp: true}
+  - {name: v2rayng无法使用的用户请下载clash for android, server: free.6vczxw.xyz, port: 30016, type: ss, cipher: chacha20-ietf-poly1305, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, udp: true}
+  - {name: ★新用户注册送2G高速流量, server: free.6vczxw.xyz, port: 30016, type: ss, cipher: chacha20-ietf-poly1305, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, udp: true}
+  - {name: ★使用前需要卸载反诈APP, server: free.6vczxw.xyz, port: 30016, type: ss, cipher: chacha20-ietf-poly1305, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, udp: true}
+  - {name: ★永久域名发布页 a.topubr.xyz, server: free.6vczxw.xyz, port: 30016, type: ss, cipher: chacha20-ietf-poly1305, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, udp: true}
+  - {name: 香港01 | 1x HK, server: free.6vczxw.xyz, port: 41141, type: ss, cipher: chacha20-ietf-poly1305, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, udp: true}
+  - {name: 香港02 | 1x HK, server: free.6vczxw.xyz, port: 41143, type: ss, cipher: chacha20-ietf-poly1305, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, udp: true}
+  - {name: 香港03 | 家宽 | 1x HK, server: free.6vczxw.xyz, port: 41145, type: ss, cipher: chacha20-ietf-poly1305, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, udp: true}
+  - {name: 香港04 | 1x HK, server: free.6vczxw.xyz, port: 41147, type: ss, cipher: chacha20-ietf-poly1305, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, udp: true}
+  - {name: 香港05 | 1x HK, server: free.6vczxw.xyz, port: 41149, type: ss, cipher: chacha20-ietf-poly1305, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, udp: true}
+  - {name: 香港06 | 1x HK, server: free.6vczxw.xyz, port: 41151, type: ss, cipher: chacha20-ietf-poly1305, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, udp: true}
+  - {name: 香港07 | 1x HK, server: free.6vczxw.xyz, port: 41153, type: ss, cipher: chacha20-ietf-poly1305, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, udp: true}
+  - {name: 台湾01 | 1x TW, server: free.6vczxw.xyz, port: 41241, type: ss, cipher: chacha20-ietf-poly1305, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, udp: true}
+  - {name: 台湾02 | 1x TW, server: free.6vczxw.xyz, port: 41243, type: ss, cipher: chacha20-ietf-poly1305, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, udp: true}
+  - {name: 台湾03 | 1x TW, server: free.6vczxw.xyz, port: 41245, type: ss, cipher: chacha20-ietf-poly1305, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, udp: true}
+  - {name: 台湾04 | 1x TW, server: free.6vczxw.xyz, port: 41247, type: ss, cipher: chacha20-ietf-poly1305, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, udp: true}
+  - {name: 台湾05 | 1x TW, server: free.6vczxw.xyz, port: 41249, type: ss, cipher: chacha20-ietf-poly1305, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, udp: true}
+  - {name: 台湾06 | 家宽 | 1x  TW, server: free.6vczxw.xyz, port: 41251, type: ss, cipher: chacha20-ietf-poly1305, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, udp: true}
+  - {name: 日本01 | 1x JP, server: free.6vczxw.xyz, port: 41111, type: ss, cipher: chacha20-ietf-poly1305, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, udp: true}
+  - {name: 日本02 | 1x JP, server: free.6vczxw.xyz, port: 41113, type: ss, cipher: chacha20-ietf-poly1305, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, udp: true}
+  - {name: 日本03 | 1x JP, server: free.6vczxw.xyz, port: 41115, type: ss, cipher: chacha20-ietf-poly1305, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, udp: true}
+  - {name: 日本04 | 1x JP, server: free.6vczxw.xyz, port: 41117, type: ss, cipher: chacha20-ietf-poly1305, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, udp: true}
+  - {name: 日本05 | 1x JP, server: free.6vczxw.xyz, port: 41119, type: ss, cipher: chacha20-ietf-poly1305, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, udp: true}
+  - {name: 日本06 | 家宽 | 1x JP, server: free.6vczxw.xyz, port: 41121, type: ss, cipher: chacha20-ietf-poly1305, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, udp: true}
+  - {name: 日本 13 | 1x JP, server: free.6vczxw.xyz, port: 41135, type: trojan, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, sni: jp13.bluemixnet.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本 14 | 1x JP, server: free.6vczxw.xyz, port: 41137, type: trojan, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, sni: jp14.bluemixnet.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本 15 | 1x JP, server: free.6vczxw.xyz, port: 41139, type: trojan, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, sni: jp15.bluemixnet.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡01 | 1x SG, server: free.6vczxw.xyz, port: 41171, type: ss, cipher: chacha20-ietf-poly1305, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, udp: true}
+  - {name: 新加坡02 | 1x SG, server: free.6vczxw.xyz, port: 41173, type: ss, cipher: chacha20-ietf-poly1305, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, udp: true}
+  - {name: 新加坡03 | 1x SG, server: free.6vczxw.xyz, port: 41175, type: ss, cipher: chacha20-ietf-poly1305, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, udp: true}
+  - {name: 新加坡04 | 1x SG, server: free.6vczxw.xyz, port: 41177, type: ss, cipher: chacha20-ietf-poly1305, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, udp: true}
+  - {name: 新加坡05 | 1x SG, server: free.6vczxw.xyz, port: 41179, type: ss, cipher: chacha20-ietf-poly1305, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, udp: true}
+  - {name: 新加坡06 | 家宽 | 1x  SG, server: free.6vczxw.xyz, port: 41181, type: ss, cipher: chacha20-ietf-poly1305, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, udp: true}
+  - {name: 韩国01 | 1x KR, server: free.6vczxw.xyz, port: 41311, type: ss, cipher: chacha20-ietf-poly1305, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, udp: true}
+  - {name: 菲律宾01 | 1x PH, server: free.6vczxw.xyz, port: 41341, type: ss, cipher: chacha20-ietf-poly1305, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, udp: true}
+  - {name: 美国01 | 1x US Los Angeles, server: free.6vczxw.xyz, port: 41211, type: ss, cipher: chacha20-ietf-poly1305, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, udp: true}
+  - {name: 美国02 | 家宽 | 1x US Los Angeles, server: free.6vczxw.xyz, port: 41213, type: ss, cipher: chacha20-ietf-poly1305, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, udp: true}
+  - {name: 美国03 | 1x US Washington, server: free.6vczxw.xyz, port: 41215, type: ss, cipher: chacha20-ietf-poly1305, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, udp: true}
+  - {name: 美国04 | 1x US Honolulu, server: free.6vczxw.xyz, port: 41217, type: ss, cipher: chacha20-ietf-poly1305, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, udp: true}
+  - {name: 美国05 | 1x US New Jersey, server: free.6vczxw.xyz, port: 41219, type: ss, cipher: chacha20-ietf-poly1305, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, udp: true}
+  - {name: 美国06 | 1x US ChatGPT专用, server: free.6vczxw.xyz, port: 41221, type: ss, cipher: chacha20-ietf-poly1305, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, udp: true}
+  - {name: 英国01 | 家宽 | 1x UK, server: free.6vczxw.xyz, port: 41271, type: ss, cipher: chacha20-ietf-poly1305, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, udp: true}
+  - {name: 西班牙01 | 1x ES, server: free.6vczxw.xyz, port: 41741, type: ss, cipher: chacha20-ietf-poly1305, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, udp: true}
+  - {name: 马来西亚01 | 1x MY, server: free.6vczxw.xyz, port: 41721, type: ss, cipher: chacha20-ietf-poly1305, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, udp: true}
+  - {name: 泰国01 | 1x IN, server: free.6vczxw.xyz, port: 41731, type: ss, cipher: chacha20-ietf-poly1305, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, udp: true}
+  - {name: 印度01 | 1x IN, server: free.6vczxw.xyz, port: 41371, type: ss, cipher: chacha20-ietf-poly1305, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, udp: true}
+  - {name: 澳大利亚01 | 1x AU, server: free.6vczxw.xyz, port: 41411, type: ss, cipher: chacha20-ietf-poly1305, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, udp: true}
+  - {name: 加拿大01 | 1x CA, server: free.6vczxw.xyz, port: 41441, type: ss, cipher: chacha20-ietf-poly1305, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, udp: true}
+  - {name: 德国01 | 1x DE, server: free.6vczxw.xyz, port: 41471, type: ss, cipher: chacha20-ietf-poly1305, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, udp: true}
+  - {name: 俄罗斯01 | 1x RU, server: free.6vczxw.xyz, port: 41511, type: ss, cipher: chacha20-ietf-poly1305, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, udp: true}
+  - {name: 土耳其01 | 1x TR, server: free.6vczxw.xyz, port: 41571, type: ss, cipher: chacha20-ietf-poly1305, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, udp: true}
+  - {name: 乌克兰01 | 1x UA, server: free.6vczxw.xyz, port: 41611, type: ss, cipher: chacha20-ietf-poly1305, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, udp: true}
+  - {name: 越南01 | 1x VN, server: free.6vczxw.xyz, port: 41641, type: ss, cipher: chacha20-ietf-poly1305, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, udp: true}
+  - {name: 巴西01 | 1x BR, server: free.6vczxw.xyz, port: 41671, type: ss, cipher: chacha20-ietf-poly1305, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, udp: true}
+  - {name: 日本【特殊地区直连】, server: free.6vczxw.xyz, port: 30010, type: ss, cipher: chacha20-ietf-poly1305, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, udp: true}
+  - {name: 新加坡【特殊地区直连】, server: free.6vczxw.xyz, port: 30020, type: ss, cipher: chacha20-ietf-poly1305, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, udp: true}
+  - {name: 美国【特殊地区直连】, server: free.6vczxw.xyz, port: 30030, type: ss, cipher: chacha20-ietf-poly1305, password: 24d7ab0e-e021-42f7-92b6-e3ae2e4b32a3, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 距离下次重置剩余：21 天
+      - 距离下次重置剩余：20 天
       - v2rayng无法使用的用户请下载clash for android
       - ★新用户注册送2G高速流量
       - ★使用前需要卸载反诈APP
@@ -90,6 +92,9 @@ proxy-groups:
       - 日本04 | 1x JP
       - 日本05 | 1x JP
       - 日本06 | 家宽 | 1x JP
+      - 日本 13 | 1x JP
+      - 日本 14 | 1x JP
+      - 日本 15 | 1x JP
       - 新加坡01 | 1x SG
       - 新加坡02 | 1x SG
       - 新加坡03 | 1x SG
@@ -104,7 +109,6 @@ proxy-groups:
       - 美国04 | 1x US Honolulu
       - 美国05 | 1x US New Jersey
       - 美国06 | 1x US ChatGPT专用
-      - 美国13 | 1x US Seattle
       - 英国01 | 家宽 | 1x UK
       - 西班牙01 | 1x ES
       - 马来西亚01 | 1x MY
@@ -126,7 +130,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 距离下次重置剩余：21 天
+      - 距离下次重置剩余：20 天
       - v2rayng无法使用的用户请下载clash for android
       - ★新用户注册送2G高速流量
       - ★使用前需要卸载反诈APP
@@ -150,6 +154,9 @@ proxy-groups:
       - 日本04 | 1x JP
       - 日本05 | 1x JP
       - 日本06 | 家宽 | 1x JP
+      - 日本 13 | 1x JP
+      - 日本 14 | 1x JP
+      - 日本 15 | 1x JP
       - 新加坡01 | 1x SG
       - 新加坡02 | 1x SG
       - 新加坡03 | 1x SG
@@ -164,7 +171,6 @@ proxy-groups:
       - 美国04 | 1x US Honolulu
       - 美国05 | 1x US New Jersey
       - 美国06 | 1x US ChatGPT专用
-      - 美国13 | 1x US Seattle
       - 英国01 | 家宽 | 1x UK
       - 西班牙01 | 1x ES
       - 马来西亚01 | 1x MY
@@ -187,7 +193,7 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 距离下次重置剩余：21 天
+      - 距离下次重置剩余：20 天
       - v2rayng无法使用的用户请下载clash for android
       - ★新用户注册送2G高速流量
       - ★使用前需要卸载反诈APP
@@ -211,6 +217,9 @@ proxy-groups:
       - 日本04 | 1x JP
       - 日本05 | 1x JP
       - 日本06 | 家宽 | 1x JP
+      - 日本 13 | 1x JP
+      - 日本 14 | 1x JP
+      - 日本 15 | 1x JP
       - 新加坡01 | 1x SG
       - 新加坡02 | 1x SG
       - 新加坡03 | 1x SG
@@ -225,7 +234,6 @@ proxy-groups:
       - 美国04 | 1x US Honolulu
       - 美国05 | 1x US New Jersey
       - 美国06 | 1x US ChatGPT专用
-      - 美国13 | 1x US Seattle
       - 英国01 | 家宽 | 1x UK
       - 西班牙01 | 1x ES
       - 马来西亚01 | 1x MY
@@ -260,7 +268,7 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 距离下次重置剩余：21 天
+      - 距离下次重置剩余：20 天
       - v2rayng无法使用的用户请下载clash for android
       - ★新用户注册送2G高速流量
       - ★使用前需要卸载反诈APP
@@ -284,6 +292,9 @@ proxy-groups:
       - 日本04 | 1x JP
       - 日本05 | 1x JP
       - 日本06 | 家宽 | 1x JP
+      - 日本 13 | 1x JP
+      - 日本 14 | 1x JP
+      - 日本 15 | 1x JP
       - 新加坡01 | 1x SG
       - 新加坡02 | 1x SG
       - 新加坡03 | 1x SG
@@ -298,7 +309,6 @@ proxy-groups:
       - 美国04 | 1x US Honolulu
       - 美国05 | 1x US New Jersey
       - 美国06 | 1x US ChatGPT专用
-      - 美国13 | 1x US Seattle
       - 英国01 | 家宽 | 1x UK
       - 西班牙01 | 1x ES
       - 马来西亚01 | 1x MY
@@ -338,7 +348,7 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 距离下次重置剩余：21 天
+      - 距离下次重置剩余：20 天
       - v2rayng无法使用的用户请下载clash for android
       - ★新用户注册送2G高速流量
       - ★使用前需要卸载反诈APP
@@ -362,6 +372,9 @@ proxy-groups:
       - 日本04 | 1x JP
       - 日本05 | 1x JP
       - 日本06 | 家宽 | 1x JP
+      - 日本 13 | 1x JP
+      - 日本 14 | 1x JP
+      - 日本 15 | 1x JP
       - 新加坡01 | 1x SG
       - 新加坡02 | 1x SG
       - 新加坡03 | 1x SG
@@ -376,7 +389,6 @@ proxy-groups:
       - 美国04 | 1x US Honolulu
       - 美国05 | 1x US New Jersey
       - 美国06 | 1x US ChatGPT专用
-      - 美国13 | 1x US Seattle
       - 英国01 | 家宽 | 1x UK
       - 西班牙01 | 1x ES
       - 马来西亚01 | 1x MY
@@ -398,7 +410,7 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 距离下次重置剩余：21 天
+      - 距离下次重置剩余：20 天
       - v2rayng无法使用的用户请下载clash for android
       - ★新用户注册送2G高速流量
       - ★使用前需要卸载反诈APP
@@ -422,6 +434,9 @@ proxy-groups:
       - 日本04 | 1x JP
       - 日本05 | 1x JP
       - 日本06 | 家宽 | 1x JP
+      - 日本 13 | 1x JP
+      - 日本 14 | 1x JP
+      - 日本 15 | 1x JP
       - 新加坡01 | 1x SG
       - 新加坡02 | 1x SG
       - 新加坡03 | 1x SG
@@ -436,7 +451,6 @@ proxy-groups:
       - 美国04 | 1x US Honolulu
       - 美国05 | 1x US New Jersey
       - 美国06 | 1x US ChatGPT专用
-      - 美国13 | 1x US Seattle
       - 英国01 | 家宽 | 1x UK
       - 西班牙01 | 1x ES
       - 马来西亚01 | 1x MY
@@ -459,7 +473,7 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 距离下次重置剩余：21 天
+      - 距离下次重置剩余：20 天
       - v2rayng无法使用的用户请下载clash for android
       - ★新用户注册送2G高速流量
       - ★使用前需要卸载反诈APP
@@ -483,6 +497,9 @@ proxy-groups:
       - 日本04 | 1x JP
       - 日本05 | 1x JP
       - 日本06 | 家宽 | 1x JP
+      - 日本 13 | 1x JP
+      - 日本 14 | 1x JP
+      - 日本 15 | 1x JP
       - 新加坡01 | 1x SG
       - 新加坡02 | 1x SG
       - 新加坡03 | 1x SG
@@ -497,7 +514,6 @@ proxy-groups:
       - 美国04 | 1x US Honolulu
       - 美国05 | 1x US New Jersey
       - 美国06 | 1x US ChatGPT专用
-      - 美国13 | 1x US Seattle
       - 英国01 | 家宽 | 1x UK
       - 西班牙01 | 1x ES
       - 马来西亚01 | 1x MY
@@ -529,7 +545,7 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 距离下次重置剩余：21 天
+      - 距离下次重置剩余：20 天
       - v2rayng无法使用的用户请下载clash for android
       - ★新用户注册送2G高速流量
       - ★使用前需要卸载反诈APP
@@ -553,6 +569,9 @@ proxy-groups:
       - 日本04 | 1x JP
       - 日本05 | 1x JP
       - 日本06 | 家宽 | 1x JP
+      - 日本 13 | 1x JP
+      - 日本 14 | 1x JP
+      - 日本 15 | 1x JP
       - 新加坡01 | 1x SG
       - 新加坡02 | 1x SG
       - 新加坡03 | 1x SG
@@ -567,7 +586,6 @@ proxy-groups:
       - 美国04 | 1x US Honolulu
       - 美国05 | 1x US New Jersey
       - 美国06 | 1x US ChatGPT专用
-      - 美国13 | 1x US Seattle
       - 英国01 | 家宽 | 1x UK
       - 西班牙01 | 1x ES
       - 马来西亚01 | 1x MY
