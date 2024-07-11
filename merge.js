@@ -2,8 +2,7 @@ const { rf, wf } = require("./utils");
 
 const urls = [
   "https://raw.githubusercontent.com/itxve/fetch-clash-node/main/node/ClashNode.yaml",
-  // "https://raw.githubusercontent.com/itxve/fetch-clash-node/main/node/NodeFree.yaml",
-  "https://raw.githubusercontent.com/itxve/fetch-clash-node/main/node/NodeBird.yaml",
+  "https://raw.githubusercontent.com/itxve/fetch-clash-node/main/node/NodeFree.yaml",
   "https://raw.githubusercontent.com/itxve/fetch-clash-node/main/node/NodeShare.yaml",
 ].join("|");
 const subscriptUrl = `https://id9.cc/sub?target=clash&url=${encodeURIComponent(
