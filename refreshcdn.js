@@ -5,8 +5,8 @@
     [
       "ClashNode.yaml",
       "NodeFree.yaml",
-      "NodeBird.yaml",
       "NodeShare.yaml",
+      "merge.yaml",
       "vpnoe.yaml",
     ].map((node) => {
       fetch(host + node).then(async (res) => {

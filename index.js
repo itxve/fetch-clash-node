@@ -16,17 +16,12 @@ function update_read_me() {
 let nodes = [
   {
     name: "NodeFree",
-    hostUrl: "https://nodefree.org/dy/",
+    hostUrl: "https://nodefree.githubrowcontent.com/",
   },
   {
     name: "ClashNode",
     hostUrl: "https://clashnode.github.io/uploads/",
   },
-  {
-    name: "NodeBird",
-    hostUrl: "https://nodebird.net/wp-content/uploads/",
-  },
-
   {
     name: "NodeShare",
     hostUrl: "https://tglaoshiji.github.io/nodeshare/",

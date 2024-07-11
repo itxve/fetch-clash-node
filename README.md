@@ -9,7 +9,7 @@
 
 ## Last Update Time
 
-<b><time>2024/07/07 07: 06: 28</time></b>
+<b><time>2024/07/11 16: 48: 25</time></b>
 
 ## 节点来源 （请多访问支持下源站哦）
 
@@ -28,8 +28,6 @@
 
 - NodeFree: https://raw.githubusercontent.com/itxve/fetch-clash-node/main/node/NodeFree.yaml ★
 
-- NodeBird: https://raw.githubusercontent.com/itxve/fetch-clash-node/main/node/NodeBird.yaml ★
-
 - NodeShare: https://raw.githubusercontent.com/itxve/fetch-clash-node/main/node/NodeShare.yaml ★
  -->
 
@@ -37,10 +35,11 @@
 
 <!-- There is a certain delay -->
 
+- 这个链接合并了下面的文件: https://cdn.jsdelivr.net/gh/itxve/fetch-clash-node/node/merge.yaml ★★
+
 - ClashNode: https://cdn.jsdelivr.net/gh/itxve/fetch-clash-node/node/ClashNode.yaml ★
 
 - NodeFree: https://cdn.jsdelivr.net/gh/itxve/fetch-clash-node/node/NodeFree.yaml ★
-- NodeBird: https://cdn.jsdelivr.net/gh/itxve/fetch-clash-node/node/NodeBird.yaml ★
 
 - NodeShare: https://cdn.jsdelivr.net/gh/itxve/fetch-clash-node/node/NodeShare.yaml ★
 

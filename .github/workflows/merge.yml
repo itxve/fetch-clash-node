@@ -1,0 +1,34 @@
+# Update subscription links
+name: Daily Merge
+
+on:
+  #  8-20 beijin
+  # Runs at 0-12  UTC every day 慢于 Daily Update 任务
+  schedule:
+    - cron: "5 0-16 * * *"
+
+  # Manual updates
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      # Checks-out the repository under $GITHUB_WORKSPACE
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - name: Merge Clash Node
+        run: node merge.js
+      - name: Refresh CDN
+        run: node refreshcdn.js
+      - name: Commit Newest Node
+        # Condition to prevent unintended automatic workflow
+        # Change or comment out this line for automatic workflow on forks
+        if: ${{ github.repository == 'itxve/fetch-clash-node' }}
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add ./node README.md
+          git commit -m "update node" && git push || echo "no change"
