@@ -1,4 +1,3 @@
-
 port: 7890
 socks-port: 7891
 allow-lan: true
@@ -6,160 +5,178 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_1","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip006.dtku47.xyz"}},"server":"104.19.38.62","port":"2086","uuid":"29eebb60-b27b-4a9d-bba5-947763d9205e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_2","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip006.freegradely.xyz"}},"server":"23.227.38.5","port":"2086","uuid":"29eebb60-b27b-4a9d-bba5-947763d9205e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_3","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip1.1457230.xyz"}},"server":"104.19.45.42","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_4","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip13.freegradely.xyz"}},"server":"104.19.45.90","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_5","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip1.1457230.xyz"}},"server":"104.19.59.89","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"美国( https://www.fuye.fun/ 免费节点分享)_6","server":"hkbgp.zichuanlan.top","port":1022,"cipher":"chacha20-ietf-poly1305","password":"2dfd5cf1-ea96-454f-8803-877d08215cf7"}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_7","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip5-4.freegradely.xyz"}},"server":"104.26.0.50","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_8","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}},"server":"104.19.46.33","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_9","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}},"server":"104.19.45.15","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_10","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn2.freegradely.xyz"}},"server":"104.19.38.22","port":"2052","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_11","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn2.freegradely.xyz"}},"server":"23.227.38.13","port":"2052","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_12","server":"45.80.110.130","port":2087,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"a.ssll.gay","ws-opts":{"path":"twitterfreecodes","headers":{"host":"a.ssll.gay"}}}
-  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_13","server":"185.148.106.44","port":2083,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"juzibaipiao.5112233.xyz","ws-opts":{"path":"/","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"type":"ss","name":"美国( https://www.fuye.fun/ 免费节点分享)_1","server":"69.50.95.179","port":5600,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"trojan","name":"美国( https://www.fuye.fun/ 免费节点分享)_2","server":"183.240.179.191","port":50045,"password":"7a49ebc8-6235-36b1-b7b4-0864b95bd90a","udp":true,"skip-cert-verify":true,"sni":"hgc2.aaaa.gay","network":"tcp"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_3","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip13.freegradely.xyz"}},"server":"104.19.45.13","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_4","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}},"server":"104.19.45.11","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_5","server":"183.236.51.23","port":"45020","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_6","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip14.freegradely.xyz"}},"server":"104.19.47.79","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_7","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}},"server":"104.19.47.36","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_8","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn1.freegradely.xyz"}},"server":"104.26.7.132","port":"2052","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_9","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip13.freegradely.xyz"}},"server":"104.19.45.19","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_10","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}},"server":"104.26.7.132","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_11","ws-opts":{"path":"/obdii.cfd/linkws","headers":{"host":"4868-poetry-4868.napora7003.workers.dev"}},"server":"104.16.60.8","port":"80","uuid":"05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_12","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn1.freegradely.xyz"}},"server":"104.19.38.12","port":"2052","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_13","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip5-4.freegradely.xyz"}},"server":"104.26.0.50","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_14","server":"192.9.165.253","port":47580,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_15","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}},"server":"104.19.45.90","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_16","server":"147.78.140.163","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
   - {"type":"vless","name":"西班牙( https://www.fuye.fun/ 免费节点分享)","server":"185.238.228.184","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"type":"vless","name":"英国( https://www.fuye.fun/ 免费节点分享)_1","server":"31.22.116.134","port":2096,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"juzibaipiao.5112233.xyz","ws-opts":{"path":"/","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_14","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn1.freegradely.xyz"}},"server":"104.26.7.132","port":"2052","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vless","name":"俄罗斯( https://www.fuye.fun/ 免费节点分享)_1","server":"193.9.49.150","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_15","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn2.freegradely.xyz"}},"server":"172.67.74.122","port":"2052","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vless","name":"荷兰( https://www.fuye.fun/ 免费节点分享)_1","server":"45.159.216.108","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_17","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip1.1457230.xyz"}},"server":"23.227.38.3","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_18","server":"172.64.102.151","port":443,"uuid":"d9eb0df3-3190-4447-86b6-656fe5ff1119","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"mmdv2.pages.dev","ws-opts":{"path":"/","headers":{"host":"mmdv2.pages.dev"}}}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_19","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}},"server":"23.227.38.3","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vless","name":"俄罗斯( https://www.fuye.fun/ 免费节点分享)_1","server":"193.9.49.232","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"type":"vless","name":"俄罗斯( https://www.fuye.fun/ 免费节点分享)_2","server":"94.247.142.245","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"juzibaipiao.5112233.xyz","ws-opts":{"path":"/","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_20","server":"185.176.24.120","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"type":"vless","name":"卢森堡( https://www.fuye.fun/ 免费节点分享)_1","server":"188.42.145.159","port":443,"uuid":"54ef4ecf-ff37-436a-be13-95c8a8a1114d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"VIrgiNiavPn-nL.pagEs.dEv","ws-opts":{"path":"/","headers":{"host":"VIrgiNiavPn-nL.pagEs.dEv"}}}
   - {"type":"vless","name":"法国( https://www.fuye.fun/ 免费节点分享)_1","server":"45.80.110.209","port":2083,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"a.ssll.gay","ws-opts":{"path":"twitterfreecodes","headers":{"host":"a.ssll.gay"}}}
-  - {"type":"vless","name":"法国( https://www.fuye.fun/ 免费节点分享)_2","server":"94.140.0.157","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"juzibaipiao.5112233.xyz","ws-opts":{"path":"/","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_16","ws-opts":{"path":"/","headers":{"host":"s1c.v2.v001sss.xyz"}},"server":"104.21.8.157","port":"2082","uuid":"112ac36f-3f53-4e26-8371-d25c028e1b9a","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_17","server":"192.9.165.253","port":47580,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_18","server":"89.116.161.250","port":8443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"juzibaipiao.5112233.xyz","ws-opts":{"path":"/","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"type":"vless","name":"法国( https://www.fuye.fun/ 免费节点分享)_3","server":"94.140.0.23","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_19","server":"170.114.46.18","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"type":"vless","name":"法国( https://www.fuye.fun/ 免费节点分享)_4","server":"94.140.0.185","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"type":"vless","name":"法国( https://www.fuye.fun/ 免费节点分享)_5","server":"45.80.110.245","port":2053,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"a.ssll.gay","ws-opts":{"path":"twitterfreecodes","headers":{"host":"a.ssll.gay"}}}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_20","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}},"server":"104.19.47.80","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vless","name":"荷兰( https://www.fuye.fun/ 免费节点分享)_2","server":"193.227.99.90","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"type":"vless","name":"卢森堡( https://www.fuye.fun/ 免费节点分享)_1","server":"188.42.88.120","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_21","server":"154.85.99.37","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"type":"vless","name":"英国( https://www.fuye.fun/ 免费节点分享)_2","server":"31.22.116.148","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"type":"vless","name":"英国( https://www.fuye.fun/ 免费节点分享)_3","server":"194.36.55.15","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"type":"vless","name":"法国( https://www.fuye.fun/ 免费节点分享)_2","server":"94.140.0.23","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_21","server":"185.148.105.137","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"type":"vless","name":"加拿大( https://www.fuye.fun/ 免费节点分享)_1","server":"205.233.181.242","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"type":"vless","name":"法国( https://www.fuye.fun/ 免费节点分享)_3","server":"45.80.110.96","port":2087,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"a.ssll.gay","ws-opts":{"path":"twitterfreecodes","headers":{"host":"a.ssll.gay"}}}
+  - {"type":"vless","name":"法国( https://www.fuye.fun/ 免费节点分享)_4","server":"94.140.0.157","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"juzibaipiao.5112233.xyz","ws-opts":{"path":"/","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_22","server":"45.80.110.203","port":8443,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"a.ssll.gay","ws-opts":{"path":"twitterfreecodes","headers":{"host":"a.ssll.gay"}}}
+  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_23","server":"204.93.210.191","port":8443,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"a.ssll.gay","ws-opts":{"path":"twitterfreecodes","headers":{"host":"a.ssll.gay"}}}
+  - {"type":"vless","name":"俄罗斯( https://www.fuye.fun/ 免费节点分享)_3","server":"193.9.49.150","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_24","server":"89.116.161.250","port":8443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"juzibaipiao.5112233.xyz","ws-opts":{"path":"/","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_25","ws-opts":{"path":"/","headers":{"host":"s1c.v2.v001sss.xyz"}},"server":"104.21.8.157","port":"2082","uuid":"112ac36f-3f53-4e26-8371-d25c028e1b9a","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_26","server":"94.140.0.91","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
   - {"type":"vless","name":"卢森堡( https://www.fuye.fun/ 免费节点分享)_2","server":"188.42.145.159","port":8443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"type":"vless","name":"俄罗斯( https://www.fuye.fun/ 免费节点分享)_2","server":"193.9.49.232","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"type":"vless","name":"荷兰( https://www.fuye.fun/ 免费节点分享)_3","server":"188.42.145.160","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"type":"vless","name":"俄罗斯( https://www.fuye.fun/ 免费节点分享)_3","server":"193.9.49.114","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"type":"vmess","name":"日本( https://www.fuye.fun/ 免费节点分享)","server":"183.238.202.173","port":"51193","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_22","server":"185.176.24.113","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"type":"vless","name":"俄罗斯( https://www.fuye.fun/ 免费节点分享)_4","server":"185.174.138.243","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_23","server":"45.80.110.238","port":2053,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"a.ssll.gay","ws-opts":{"path":"/","headers":{"host":"a.ssll.gay"}}}
-  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_24","server":"185.148.107.144","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_25","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip14.freegradely.xyz"}},"server":"104.26.0.56","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_26","server":"185.176.24.120","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"type":"vless","name":"荷兰( https://www.fuye.fun/ 免费节点分享)_4","server":"45.135.235.111","port":443,"uuid":"775213ac-3976-439a-8977-3277c0e4735d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"fq521.6789.cloudns.be","ws-opts":{"path":"twitterfreecodes","headers":{"host":"fq521.6789.cloudns.be"}}}
-  - {"type":"vless","name":"加拿大( https://www.fuye.fun/ 免费节点分享)","server":"205.233.181.242","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_27","server":"31.22.116.56","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_28","server":"147.78.140.242","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"type":"vless","name":"卢森堡( https://www.fuye.fun/ 免费节点分享)_3","server":"188.42.145.159","port":443,"uuid":"54ef4ecf-ff37-436a-be13-95c8a8a1114d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"VIrgiNiavPn-nL.pagEs.dEv","ws-opts":{"path":"/","headers":{"host":"VIrgiNiavPn-nL.pagEs.dEv"}}}
-  - {"type":"vless","name":"俄罗斯( https://www.fuye.fun/ 免费节点分享)_5","server":"185.59.218.0","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_29","server":"185.148.105.137","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"type":"vless","name":"俄罗斯( https://www.fuye.fun/ 免费节点分享)_6","server":"185.109.21.146","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_30","server":"204.93.210.131","port":2096,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"a.ssll.gay","ws-opts":{"path":"twitterfreecodes","headers":{"host":"a.ssll.gay"}}}
-  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_31","server":"147.78.140.163","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"type":"vless","name":"法国( https://www.fuye.fun/ 免费节点分享)_5","server":"94.140.0.185","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
   - {"type":"vless","name":"法国( https://www.fuye.fun/ 免费节点分享)_6","server":"45.80.110.184","port":2087,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"a.ssll.gay","ws-opts":{"path":"twitterfreecodes","headers":{"host":"a.ssll.gay"}}}
-  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_32","server":"45.80.110.203","port":8443,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"a.ssll.gay","ws-opts":{"path":"twitterfreecodes","headers":{"host":"a.ssll.gay"}}}
-  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_33","server":"185.176.24.64","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"type":"vless","name":"英国( https://www.fuye.fun/ 免费节点分享)_4","server":"194.36.55.45","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_34","server":"185.176.26.102","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_35","server":"185.176.26.79","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"type":"vless","name":"俄罗斯( https://www.fuye.fun/ 免费节点分享)_7","server":"193.9.49.56","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"type":"vless","name":"法国( https://www.fuye.fun/ 免费节点分享)_7","server":"45.80.110.96","port":2087,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"a.ssll.gay","ws-opts":{"path":"twitterfreecodes","headers":{"host":"a.ssll.gay"}}}
+  - {"type":"vless","name":"荷兰( https://www.fuye.fun/ 免费节点分享)_1","server":"193.227.99.90","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"type":"vless","name":"荷兰( https://www.fuye.fun/ 免费节点分享)_2","server":"45.159.218.189","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_27","server":"147.78.140.158","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_28","server":"31.43.179.181","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_29","server":"185.176.26.102","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_30","server":"204.93.210.131","port":2096,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"a.ssll.gay","ws-opts":{"path":"twitterfreecodes","headers":{"host":"a.ssll.gay"}}}
+  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_31","server":"147.78.140.242","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"type":"vless","name":"俄罗斯( https://www.fuye.fun/ 免费节点分享)_4","server":"185.109.21.146","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"type":"vless","name":"英国( https://www.fuye.fun/ 免费节点分享)_1","server":"31.22.116.208","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_32","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip13.freegradely.xyz"}},"server":"104.19.45.35","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_33","server":"204.93.210.48","port":2096,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"a.ssll.gay","ws-opts":{"path":"twitterfreecodes","headers":{"host":"a.ssll.gay"}}}
+  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_34","server":"170.114.45.202","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_35","server":"185.148.107.144","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"type":"vless","name":"英国( https://www.fuye.fun/ 免费节点分享)_2","server":"31.22.116.134","port":2096,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"juzibaipiao.5112233.xyz","ws-opts":{"path":"/","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_36","server":"185.176.24.113","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"type":"vless","name":"荷兰( https://www.fuye.fun/ 免费节点分享)_3","server":"45.159.218.7","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"type":"vless","name":"英国( https://www.fuye.fun/ 免费节点分享)_3","server":"194.36.55.15","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"type":"vless","name":"英国( https://www.fuye.fun/ 免费节点分享)_4","server":"31.22.116.249","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"type":"vless","name":"英国( https://www.fuye.fun/ 免费节点分享)_5","server":"31.22.116.159","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"type":"vless","name":"荷兰( https://www.fuye.fun/ 免费节点分享)_4","server":"45.135.235.111","port":443,"uuid":"775213ac-3976-439a-8977-3277c0e4735d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"fq521.6789.cloudns.be","ws-opts":{"path":"twitterfreecodes","headers":{"host":"fq521.6789.cloudns.be"}}}
+  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_37","server":"216.116.134.145","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
   - {"type":"vless","name":"荷兰( https://www.fuye.fun/ 免费节点分享)_5","server":"188.42.145.84","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"type":"vless","name":"荷兰( https://www.fuye.fun/ 免费节点分享)_6","server":"45.159.218.7","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_36","server":"155.46.213.32","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_37","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip14.freegradely.xyz"}},"server":"104.19.57.4","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vless","name":"英国( https://www.fuye.fun/ 免费节点分享)_5","server":"31.22.116.208","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"type":"vless","name":"荷兰( https://www.fuye.fun/ 免费节点分享)_7","server":"45.159.218.244","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_38","server":"66.81.247.19","port":2083,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"a.ssll.gay","ws-opts":{"path":"twitter苏小柠","headers":{"host":"a.ssll.gay"}}}
-  - {"type":"trojan","name":"美国( https://www.fuye.fun/ 免费节点分享)_39","server":"183.240.179.191","port":50008,"password":"7a49ebc8-6235-36b1-b7b4-0864b95bd90a","udp":true,"skip-cert-verify":true,"sni":"uj.aaaa.gay","network":"tcp"}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_40","ws-opts":{"path":"/obdii.cfd/linkws","headers":{"host":"4868-poetry-4868.napora7003.workers.dev"}},"server":"104.16.60.8","port":"80","uuid":"05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_41","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}},"server":"172.64.99.22","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_42","server":"170.114.45.202","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_43","server":"31.43.179.52","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_44","server":"31.43.179.245","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"type":"trojan","name":"美国( https://www.fuye.fun/ 免费节点分享)_45","server":"183.240.179.191","port":50021,"password":"7a49ebc8-6235-36b1-b7b4-0864b95bd90a","udp":true,"skip-cert-verify":true,"sni":"los4.aaaa.gay","network":"tcp"}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_46","ws-opts":{"path":"/","headers":{"host":"oiictw.yydsii.com"}},"server":"104.16.58.52","port":"8080","uuid":"b551aa22-22af-11ee-b8d8-f23c932eb68d","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"美国( https://www.fuye.fun/ 免费节点分享)_47","server":"jp2.mhw7e2.online","port":20014,"cipher":"chacha20-ietf-poly1305","password":"70747514-fb14-4f31-8390-e1f0453eff6d"}
-  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_48","server":"147.78.140.158","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_49","server":"31.43.179.179","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_50","server":"204.93.210.48","port":2096,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"a.ssll.gay","ws-opts":{"path":"twitterfreecodes","headers":{"host":"a.ssll.gay"}}}
-  - {"type":"vless","name":"英国( https://www.fuye.fun/ 免费节点分享)_6","server":"31.22.116.159","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_51","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}},"server":"172.64.167.19","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vless","name":"荷兰( https://www.fuye.fun/ 免费节点分享)_8","server":"45.159.218.189","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_52","server":"94.140.0.91","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_53","server":"168.100.6.127","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"type":"vless","name":"俄罗斯( https://www.fuye.fun/ 免费节点分享)_8","server":"94.247.142.245","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"juzibaipiao.5112233.xyz","ws-opts":{"path":"/","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_54","server":"216.116.134.43","port":2053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"juzibaipiao.5112233.xyz","ws-opts":{"path":"/","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_55","server":"204.93.210.191","port":8443,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"a.ssll.gay","ws-opts":{"path":"twitterfreecodes","headers":{"host":"a.ssll.gay"}}}
-  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_56","server":"31.43.179.181","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_57","server":"172.64.102.151","port":443,"uuid":"d9eb0df3-3190-4447-86b6-656fe5ff1119","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"mmdv2.pages.dev","ws-opts":{"path":"/","headers":{"host":"mmdv2.pages.dev"}}}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_58","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip14.freegradely.xyz"}},"server":"104.19.46.103","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vless","name":"荷兰( https://www.fuye.fun/ 免费节点分享)_9","server":"45.159.217.220","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_59","server":"45.94.169.99","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_60","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}},"server":"172.64.233.15","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vless","name":"英国( https://www.fuye.fun/ 免费节点分享)_7","server":"31.22.116.249","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_61","server":"216.116.134.145","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"type":"trojan","name":"美国( https://www.fuye.fun/ 免费节点分享)_62","server":"183.240.179.191","port":50045,"password":"7a49ebc8-6235-36b1-b7b4-0864b95bd90a","udp":true,"skip-cert-verify":true,"sni":"hgc2.aaaa.gay","network":"tcp"}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_63","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}},"server":"172.64.233.24","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"印度( https://www.fuye.fun/ 免费节点分享)_1","server":"ger.aaaa.gay","port":45900,"password":"7a49ebc8-6235-36b1-b7b4-0864b95bd90a","udp":true,"skip-cert-verify":true,"sni":"ger.aaaa.gay","network":"tcp"}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_64","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}},"server":"104.19.47.80","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_65","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}},"server":"172.64.233.37","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_66","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}},"server":"104.19.45.11","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_67","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}},"server":"104.19.59.89","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_68","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip1.1457230.xyz"}},"server":"104.19.47.122","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_69","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip1.1457230.xyz"}},"server":"104.19.45.19","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_70","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip14.freegradely.xyz"}},"server":"104.19.46.39","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_71","server":"183.240.235.170","port":"54602","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_72","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}},"server":"104.26.7.132","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_73","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip13.freegradely.xyz"}},"server":"104.19.46.36","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_74","ws-opts":{"path":"/hms02.fxiaomi.sbs/link","headers":{"host":"8bsibsh8wbbwihfhjskbbng-shape-3.mewivot154.workers.dev"}},"server":"104.16.67.38","port":"8080","uuid":"6c168fcc-2231-4f3b-8c1e-f6391692df4a","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_75","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip1.1457230.xyz"}},"server":"104.19.46.27","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_76","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}},"server":"172.64.233.7","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_77","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip14.freegradely.xyz"}},"server":"104.19.58.175","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_78","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip005.dtku47.xyz"}},"server":"23.227.38.6","port":"2086","uuid":"29eebb60-b27b-4a9d-bba5-947763d9205e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_79","server":"120.232.153.40","port":"53942","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_80","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}},"server":"104.19.46.27","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_81","server":"183.240.235.166","port":"41490","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_82","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip1.1457230.xyz"}},"server":"104.19.47.32","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"美国( https://www.fuye.fun/ 免费节点分享)_83","server":"hkmiku.zichuanlan.top","port":1025,"cipher":"chacha20-ietf-poly1305","password":"2dfd5cf1-ea96-454f-8803-877d08215cf7"}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_84","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip006.dtku47.xyz"}},"server":"23.227.38.6","port":"2086","uuid":"29eebb60-b27b-4a9d-bba5-947763d9205e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_85","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}},"server":"104.19.47.65","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_86","server":"183.240.235.166","port":"31778","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_87","server":"120.232.153.71","port":"34965","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_88","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip006.freegradely.xyz"}},"server":"104.19.51.232","port":"2086","uuid":"29eebb60-b27b-4a9d-bba5-947763d9205e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_89","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip004.dtku47.xyz"}},"server":"23.227.38.6","port":"2086","uuid":"29eebb60-b27b-4a9d-bba5-947763d9205e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_90","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}},"server":"23.227.38.3","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_91","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}},"server":"104.26.0.56","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_92","ws-opts":{"path":"/?ed=2048&Telegram🇨🇳@WangCai2","headers":{"host":"oiictw.yydsii.com"}},"server":"104.19.47.226","port":"8080","uuid":"b551aa22-22af-11ee-b8d8-f23c932eb68d","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_93","server":"in06.dns2024.org","port":"63082","uuid":"6cf559be-8e10-3c59-ad8c-7345fa164ab8","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_94","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}},"server":"104.19.45.90","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_95","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip13.freegradely.xyz"}},"server":"104.19.45.15","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_96","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip004.dtku47.xyz"}},"server":"104.19.51.232","port":"2086","uuid":"29eebb60-b27b-4a9d-bba5-947763d9205e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_97","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip13.freegradely.xyz"}},"server":"104.19.45.19","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_98","server":"183.236.51.23","port":"54100","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_99","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip13.freegradely.xyz"}},"server":"104.19.45.35","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_100","server":"183.236.51.23","port":"45020","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_101","server":"120.232.153.40","port":"35601","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"trojan","name":"美国( https://www.fuye.fun/ 免费节点分享)_102","server":"211.72.156.17","port":23555,"password":"moist","udp":true,"skip-cert-verify":true,"sni":"trojan.freenods.sbs","network":"ws","ws-opts":{"path":"/","headers":{"host":"trojan.freenods.sbs"}}}
-  - {"type":"ss","name":"美国( https://www.fuye.fun/ 免费节点分享)_103","server":"69.50.95.174","port":443,"cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_38","server":"168.100.6.127","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"type":"vless","name":"俄罗斯( https://www.fuye.fun/ 免费节点分享)_5","server":"185.59.218.0","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"type":"vless","name":"荷兰( https://www.fuye.fun/ 免费节点分享)_6","server":"45.159.218.244","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_39","server":"31.43.179.245","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_40","server":"185.176.26.79","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"type":"vless","name":"英国( https://www.fuye.fun/ 免费节点分享)_6","server":"31.22.116.148","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"type":"vless","name":"卢森堡( https://www.fuye.fun/ 免费节点分享)_3","server":"188.42.88.120","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"type":"trojan","name":"美国( https://www.fuye.fun/ 免费节点分享)_41","server":"211.72.156.17","port":23555,"password":"moist","udp":true,"skip-cert-verify":true,"sni":"trojan.freenods.sbs","network":"ws","ws-opts":{"path":"/","headers":{"host":"trojan.freenods.sbs"}}}
+  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_42","server":"45.94.169.99","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"type":"vless","name":"荷兰( https://www.fuye.fun/ 免费节点分享)_7","server":"45.159.216.108","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"type":"ss","name":"美国( https://www.fuye.fun/ 免费节点分享)_43","server":"p1.yadang888.top","port":26330,"cipher":"chacha20-ietf-poly1305","password":"34a84ebb-d7fe-4356-8c9f-8f729e57efa2"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_44","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}},"server":"104.19.47.32","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"美国( https://www.fuye.fun/ 免费节点分享)_45","server":"183.240.179.191","port":50005,"password":"7a49ebc8-6235-36b1-b7b4-0864b95bd90a","udp":true,"skip-cert-verify":true,"sni":"sydney.aaaa.gay","network":"tcp"}
+  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_46","server":"154.85.99.37","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"type":"vless","name":"法国( https://www.fuye.fun/ 免费节点分享)_7","server":"45.80.110.245","port":2053,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"a.ssll.gay","ws-opts":{"path":"twitterfreecodes","headers":{"host":"a.ssll.gay"}}}
+  - {"type":"trojan","name":"美国( https://www.fuye.fun/ 免费节点分享)_47","server":"183.240.179.191","port":50064,"password":"7a49ebc8-6235-36b1-b7b4-0864b95bd90a","udp":true,"skip-cert-verify":true,"sni":"sydney2.aaaa.gay","network":"tcp"}
+  - {"type":"vless","name":"俄罗斯( https://www.fuye.fun/ 免费节点分享)_6","server":"193.9.49.56","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_48","server":"185.148.106.44","port":2083,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"juzibaipiao.5112233.xyz","ws-opts":{"path":"/","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"type":"ss","name":"美国( https://www.fuye.fun/ 免费节点分享)_49","server":"89.107.10.65","port":51348,"cipher":"chacha20-ietf-poly1305","password":"WM5adrXijpwApm1wLsEB3WFSCrG9aQ6QAJjVc2btj73FvBnw"}
+  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_50","server":"31.43.179.179","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_51","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip1.1457230.xyz"}},"server":"104.19.45.13","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_52","server":"155.46.213.32","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_53","server":"216.116.134.43","port":2053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"juzibaipiao.5112233.xyz","ws-opts":{"path":"/","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_54","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}},"server":"172.64.233.32","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_55","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}},"server":"172.64.233.37","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_56","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}},"server":"172.64.233.17","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_57","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}},"server":"172.64.233.24","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_58","ws-opts":{"path":"/hms02.fxiaomi.sbs/link","headers":{"host":"8bsibsh8wbbwihfhjskbbng-shape-3.mewivot154.workers.dev"}},"server":"104.16.67.38","port":"8080","uuid":"6c168fcc-2231-4f3b-8c1e-f6391692df4a","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_59","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip1.1457230.xyz"}},"server":"104.19.45.42","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_60","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}},"server":"172.64.233.35","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_61","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}},"server":"104.19.45.13","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_62","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip14.freegradely.xyz"}},"server":"104.19.47.45","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_63","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip002-3.dtku47.xyz"}},"server":"104.19.32.46","port":"2086","uuid":"29eebb60-b27b-4a9d-bba5-947763d9205e","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_64","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}},"server":"104.19.46.56","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_65","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}},"server":"104.19.47.122","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_66","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}},"server":"104.19.46.39","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_67","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}},"server":"172.64.167.19","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vless","name":"美国( https://www.fuye.fun/ 免费节点分享)_68","server":"31.43.179.52","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_69","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip1.1457230.xyz"}},"server":"104.19.46.56","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_70","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip13.freegradely.xyz"}},"server":"104.19.46.36","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_71","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}},"server":"104.26.0.56","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_72","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}},"server":"104.19.58.175","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"美国( https://www.fuye.fun/ 免费节点分享)_73","server":"183.240.179.191","port":50018,"password":"7a49ebc8-6235-36b1-b7b4-0864b95bd90a","udp":true,"skip-cert-verify":true,"sni":"v2london.aaaa.gay","network":"tcp"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_74","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}},"server":"172.64.233.15","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vless","name":"荷兰( https://www.fuye.fun/ 免费节点分享)_8","server":"45.159.217.220","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_75","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn2.freegradely.xyz"}},"server":"172.67.74.122","port":"2052","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_76","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip13.freegradely.xyz"}},"server":"104.19.46.39","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"美国( https://www.fuye.fun/ 免费节点分享)_77","server":"183.240.179.191","port":50035,"password":"7a49ebc8-6235-36b1-b7b4-0864b95bd90a","udp":true,"skip-cert-verify":true,"sni":"flb.aaaa.gay","network":"tcp"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_78","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}},"server":"172.64.233.7","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"日本( https://www.fuye.fun/ 免费节点分享)","server":"183.238.202.173","port":"51193","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_79","server":"120.232.153.71","port":"34965","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_80","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip004.dtku47.xyz"}},"server":"23.227.38.6","port":"2086","uuid":"29eebb60-b27b-4a9d-bba5-947763d9205e","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_81","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip1.1457230.xyz"}},"server":"104.19.47.22","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"美国( https://www.fuye.fun/ 免费节点分享)_82","server":"jp2.mhw7e2.online","port":20014,"cipher":"chacha20-ietf-poly1305","password":"70747514-fb14-4f31-8390-e1f0453eff6d"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_83","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip1.1457230.xyz"}},"server":"104.19.59.89","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_84","server":"120.232.153.40","port":"53942","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"ss","name":"美国( https://www.fuye.fun/ 免费节点分享)_85","server":"69.50.95.124","port":8881,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"type":"ss","name":"美国( https://www.fuye.fun/ 免费节点分享)_86","server":"69.50.95.165","port":5499,"cipher":"aes-256-gcm","password":"lGqs95QkFHo2NV"}
+  - {"type":"ss","name":"美国( https://www.fuye.fun/ 免费节点分享)_87","server":"69.50.95.86","port":7002,"cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"type":"ss","name":"美国( https://www.fuye.fun/ 免费节点分享)_88","server":"69.50.95.180","port":5498,"cipher":"aes-256-gcm","password":"lGqs95QkFHo2NV"}
+  - {"type":"ss","name":"美国( https://www.fuye.fun/ 免费节点分享)_89","server":"69.50.95.39","port":9101,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"type":"ss","name":"美国( https://www.fuye.fun/ 免费节点分享)_90","server":"69.50.95.105","port":5600,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"ss","name":"美国( https://www.fuye.fun/ 免费节点分享)_91","server":"69.50.95.218","port":7002,"cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"type":"ss","name":"美国( https://www.fuye.fun/ 免费节点分享)_92","server":"69.50.95.174","port":5004,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"type":"ss","name":"美国( https://www.fuye.fun/ 免费节点分享)_93","server":"69.50.95.165","port":8119,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"type":"ss","name":"美国( https://www.fuye.fun/ 免费节点分享)_94","server":"69.50.95.245","port":7002,"cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"type":"ss","name":"美国( https://www.fuye.fun/ 免费节点分享)_95","server":"69.50.95.105","port":8091,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"type":"ss","name":"美国( https://www.fuye.fun/ 免费节点分享)_96","server":"69.50.95.124","port":5499,"cipher":"aes-256-gcm","password":"lGqs95QkFHo2NV"}
+  - {"type":"ss","name":"美国( https://www.fuye.fun/ 免费节点分享)_97","server":"69.50.95.115","port":5498,"cipher":"aes-256-gcm","password":"lGqs95QkFHo2NV"}
+  - {"type":"ss","name":"美国( https://www.fuye.fun/ 免费节点分享)_98","server":"69.50.95.105","port":7002,"cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"type":"ss","name":"美国( https://www.fuye.fun/ 免费节点分享)_99","server":"69.50.95.179","port":8080,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"ss","name":"美国( https://www.fuye.fun/ 免费节点分享)_100","server":"69.50.95.179","port":8882,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"type":"ss","name":"美国( https://www.fuye.fun/ 免费节点分享)_101","server":"69.50.95.191","port":5600,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"ss","name":"美国( https://www.fuye.fun/ 免费节点分享)_102","server":"69.50.95.124","port":5001,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"ss","name":"美国( https://www.fuye.fun/ 免费节点分享)_103","server":"69.50.95.218","port":8882,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
   - {"type":"ss","name":"美国( https://www.fuye.fun/ 免费节点分享)_104","server":"69.50.95.180","port":5000,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"美国( https://www.fuye.fun/ 免费节点分享)_105","server":"69.50.95.103","port":8008,"cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"type":"ss","name":"美国( https://www.fuye.fun/ 免费节点分享)_106","server":"69.50.95.86","port":6679,"cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"type":"ss","name":"美国( https://www.fuye.fun/ 免费节点分享)_107","server":"69.50.95.101","port":5601,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"美国( https://www.fuye.fun/ 免费节点分享)_108","server":"69.50.95.138","port":7307,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"type":"ss","name":"美国( https://www.fuye.fun/ 免费节点分享)_109","server":"69.50.95.205","port":3306,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"美国( https://www.fuye.fun/ 免费节点分享)_110","server":"69.50.95.124","port":5001,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"美国( https://www.fuye.fun/ 免费节点分享)_111","server":"69.50.95.103","port":9101,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"type":"ss","name":"美国( https://www.fuye.fun/ 免费节点分享)_112","server":"69.50.95.103","port":8882,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"type":"ss","name":"美国( https://www.fuye.fun/ 免费节点分享)_113","server":"69.50.95.165","port":5499,"cipher":"aes-256-gcm","password":"lGqs95QkFHo2NV"}
-  - {"type":"ss","name":"美国( https://www.fuye.fun/ 免费节点分享)_114","server":"69.50.95.53","port":5498,"cipher":"aes-256-gcm","password":"lGqs95QkFHo2NV"}
-  - {"type":"ss","name":"荷兰( https://www.fuye.fun/ 免费节点分享)_10","server":"37.1.204.114","port":1080,"cipher":"chacha20-ietf-poly1305","password":"3pURuTUf-lFgg5qWg8euFA"}
-  - {"type":"ss","name":"印度( https://www.fuye.fun/ 免费节点分享)_2","server":"103.26.10.89","port":1080,"cipher":"chacha20-ietf-poly1305","password":"3pURuTUf-lFgg5qWg8euFA"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_105","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip14.freegradely.xyz"}},"server":"104.19.46.39","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_106","ws-opts":{"path":"/","headers":{"host":"oiictw.yydsii.com"}},"server":"104.16.58.52","port":"8080","uuid":"b551aa22-22af-11ee-b8d8-f23c932eb68d","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_107","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip14.freegradely.xyz"}},"server":"104.26.0.56","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_108","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}},"server":"104.19.45.42","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"加拿大( https://www.fuye.fun/ 免费节点分享)_2","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn3.freegradely.xyz"}},"server":"104.19.21.220","port":"2052","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_109","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn2.freegradely.xyz"}},"server":"104.19.38.22","port":"2052","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_110","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip1.1457230.xyz"}},"server":"104.19.45.31","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_111","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip005.dtku47.xyz"}},"server":"104.19.32.46","port":"2086","uuid":"29eebb60-b27b-4a9d-bba5-947763d9205e","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_112","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip14.freegradely.xyz"}},"server":"104.19.57.4","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_113","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip1.1457230.xyz"}},"server":"104.19.47.122","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_114","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip13.freegradely.xyz"}},"server":"104.19.45.31","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_115","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn1.freegradely.xyz"}},"server":"104.19.58.175","port":"2052","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_116","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}},"server":"104.19.46.22","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_117","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip13.freegradely.xyz"}},"server":"104.19.45.90","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_118","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip11.freegradely.xyz"}},"server":"104.19.57.4","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_119","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip14.freegradely.xyz"}},"server":"104.19.42.49","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_120","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}},"server":"104.19.47.79","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_121","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}},"server":"104.19.47.80","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_122","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}},"server":"172.64.99.22","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_123","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip14.freegradely.xyz"}},"server":"104.19.47.36","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_124","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip13.freegradely.xyz"}},"server":"104.19.45.11","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_125","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip14.freegradely.xyz"}},"server":"104.19.47.32","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_126","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip1.1457230.xyz"}},"server":"104.17.106.151","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_127","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip11.freegradely.xyz"}},"server":"104.19.42.49","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_128","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}},"server":"104.19.57.4","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_129","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip1.1457230.xyz"}},"server":"104.19.45.50","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_130","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip1.1457230.xyz"}},"server":"104.19.47.79","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_131","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn2.freegradely.xyz"}},"server":"104.19.21.220","port":"2052","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_132","server":"183.236.51.23","port":"54100","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"ss","name":"美国( https://www.fuye.fun/ 免费节点分享)_133","server":"69.50.95.179","port":5498,"cipher":"aes-256-gcm","password":"lGqs95QkFHo2NV"}
+  - {"type":"ss","name":"美国( https://www.fuye.fun/ 免费节点分享)_134","server":"69.50.95.124","port":6697,"cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"type":"vmess","name":"美国( https://www.fuye.fun/ 免费节点分享)_135","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}},"server":"104.19.123.11","port":"2086","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"加拿大( https://www.fuye.fun/ 免费节点分享)_3","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn3.freegradely.xyz"}},"server":"104.18.57.121","port":"2052","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"美国( https://www.fuye.fun/ 免费节点分享)_136","server":"69.50.95.124","port":7001,"cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"type":"ss","name":"美国( https://www.fuye.fun/ 免费节点分享)_137","server":"69.50.95.103","port":8008,"cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -179,94 +196,87 @@ proxy-groups:
       - 美国( https://www.fuye.fun/ 免费节点分享)_11
       - 美国( https://www.fuye.fun/ 免费节点分享)_12
       - 美国( https://www.fuye.fun/ 免费节点分享)_13
-      - 西班牙( https://www.fuye.fun/ 免费节点分享)
-      - 英国( https://www.fuye.fun/ 免费节点分享)_1
       - 美国( https://www.fuye.fun/ 免费节点分享)_14
-      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_1
       - 美国( https://www.fuye.fun/ 免费节点分享)_15
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_1
-      - 法国( https://www.fuye.fun/ 免费节点分享)_1
-      - 法国( https://www.fuye.fun/ 免费节点分享)_2
       - 美国( https://www.fuye.fun/ 免费节点分享)_16
+      - 西班牙( https://www.fuye.fun/ 免费节点分享)
       - 美国( https://www.fuye.fun/ 免费节点分享)_17
       - 美国( https://www.fuye.fun/ 免费节点分享)_18
-      - 法国( https://www.fuye.fun/ 免费节点分享)_3
       - 美国( https://www.fuye.fun/ 免费节点分享)_19
-      - 法国( https://www.fuye.fun/ 免费节点分享)_4
-      - 法国( https://www.fuye.fun/ 免费节点分享)_5
-      - 美国( https://www.fuye.fun/ 免费节点分享)_20
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_2
-      - 卢森堡( https://www.fuye.fun/ 免费节点分享)_1
-      - 美国( https://www.fuye.fun/ 免费节点分享)_21
-      - 英国( https://www.fuye.fun/ 免费节点分享)_2
-      - 英国( https://www.fuye.fun/ 免费节点分享)_3
-      - 卢森堡( https://www.fuye.fun/ 免费节点分享)_2
+      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_1
       - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_2
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_3
-      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_3
-      - 日本( https://www.fuye.fun/ 免费节点分享)
+      - 美国( https://www.fuye.fun/ 免费节点分享)_20
+      - 卢森堡( https://www.fuye.fun/ 免费节点分享)_1
+      - 法国( https://www.fuye.fun/ 免费节点分享)_1
+      - 法国( https://www.fuye.fun/ 免费节点分享)_2
+      - 美国( https://www.fuye.fun/ 免费节点分享)_21
+      - 加拿大( https://www.fuye.fun/ 免费节点分享)_1
+      - 法国( https://www.fuye.fun/ 免费节点分享)_3
+      - 法国( https://www.fuye.fun/ 免费节点分享)_4
       - 美国( https://www.fuye.fun/ 免费节点分享)_22
-      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_4
       - 美国( https://www.fuye.fun/ 免费节点分享)_23
+      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_3
       - 美国( https://www.fuye.fun/ 免费节点分享)_24
       - 美国( https://www.fuye.fun/ 免费节点分享)_25
       - 美国( https://www.fuye.fun/ 免费节点分享)_26
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_4
-      - 加拿大( https://www.fuye.fun/ 免费节点分享)
+      - 卢森堡( https://www.fuye.fun/ 免费节点分享)_2
+      - 法国( https://www.fuye.fun/ 免费节点分享)_5
+      - 法国( https://www.fuye.fun/ 免费节点分享)_6
+      - 荷兰( https://www.fuye.fun/ 免费节点分享)_1
+      - 荷兰( https://www.fuye.fun/ 免费节点分享)_2
       - 美国( https://www.fuye.fun/ 免费节点分享)_27
       - 美国( https://www.fuye.fun/ 免费节点分享)_28
-      - 卢森堡( https://www.fuye.fun/ 免费节点分享)_3
-      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_5
       - 美国( https://www.fuye.fun/ 免费节点分享)_29
-      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_6
       - 美国( https://www.fuye.fun/ 免费节点分享)_30
       - 美国( https://www.fuye.fun/ 免费节点分享)_31
-      - 法国( https://www.fuye.fun/ 免费节点分享)_6
+      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_4
+      - 英国( https://www.fuye.fun/ 免费节点分享)_1
       - 美国( https://www.fuye.fun/ 免费节点分享)_32
       - 美国( https://www.fuye.fun/ 免费节点分享)_33
-      - 英国( https://www.fuye.fun/ 免费节点分享)_4
       - 美国( https://www.fuye.fun/ 免费节点分享)_34
       - 美国( https://www.fuye.fun/ 免费节点分享)_35
-      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_7
-      - 法国( https://www.fuye.fun/ 免费节点分享)_7
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_5
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_6
+      - 英国( https://www.fuye.fun/ 免费节点分享)_2
       - 美国( https://www.fuye.fun/ 免费节点分享)_36
-      - 美国( https://www.fuye.fun/ 免费节点分享)_37
+      - 荷兰( https://www.fuye.fun/ 免费节点分享)_3
+      - 英国( https://www.fuye.fun/ 免费节点分享)_3
+      - 英国( https://www.fuye.fun/ 免费节点分享)_4
       - 英国( https://www.fuye.fun/ 免费节点分享)_5
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_7
+      - 荷兰( https://www.fuye.fun/ 免费节点分享)_4
+      - 美国( https://www.fuye.fun/ 免费节点分享)_37
+      - 荷兰( https://www.fuye.fun/ 免费节点分享)_5
       - 美国( https://www.fuye.fun/ 免费节点分享)_38
+      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_5
+      - 荷兰( https://www.fuye.fun/ 免费节点分享)_6
       - 美国( https://www.fuye.fun/ 免费节点分享)_39
       - 美国( https://www.fuye.fun/ 免费节点分享)_40
+      - 英国( https://www.fuye.fun/ 免费节点分享)_6
+      - 卢森堡( https://www.fuye.fun/ 免费节点分享)_3
       - 美国( https://www.fuye.fun/ 免费节点分享)_41
       - 美国( https://www.fuye.fun/ 免费节点分享)_42
+      - 荷兰( https://www.fuye.fun/ 免费节点分享)_7
       - 美国( https://www.fuye.fun/ 免费节点分享)_43
       - 美国( https://www.fuye.fun/ 免费节点分享)_44
       - 美国( https://www.fuye.fun/ 免费节点分享)_45
       - 美国( https://www.fuye.fun/ 免费节点分享)_46
+      - 法国( https://www.fuye.fun/ 免费节点分享)_7
       - 美国( https://www.fuye.fun/ 免费节点分享)_47
+      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_6
       - 美国( https://www.fuye.fun/ 免费节点分享)_48
       - 美国( https://www.fuye.fun/ 免费节点分享)_49
       - 美国( https://www.fuye.fun/ 免费节点分享)_50
-      - 英国( https://www.fuye.fun/ 免费节点分享)_6
       - 美国( https://www.fuye.fun/ 免费节点分享)_51
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_8
       - 美国( https://www.fuye.fun/ 免费节点分享)_52
       - 美国( https://www.fuye.fun/ 免费节点分享)_53
-      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_8
       - 美国( https://www.fuye.fun/ 免费节点分享)_54
       - 美国( https://www.fuye.fun/ 免费节点分享)_55
       - 美国( https://www.fuye.fun/ 免费节点分享)_56
       - 美国( https://www.fuye.fun/ 免费节点分享)_57
       - 美国( https://www.fuye.fun/ 免费节点分享)_58
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_9
       - 美国( https://www.fuye.fun/ 免费节点分享)_59
       - 美国( https://www.fuye.fun/ 免费节点分享)_60
-      - 英国( https://www.fuye.fun/ 免费节点分享)_7
       - 美国( https://www.fuye.fun/ 免费节点分享)_61
       - 美国( https://www.fuye.fun/ 免费节点分享)_62
       - 美国( https://www.fuye.fun/ 免费节点分享)_63
-      - 印度( https://www.fuye.fun/ 免费节点分享)_1
       - 美国( https://www.fuye.fun/ 免费节点分享)_64
       - 美国( https://www.fuye.fun/ 免费节点分享)_65
       - 美国( https://www.fuye.fun/ 免费节点分享)_66
@@ -278,10 +288,12 @@ proxy-groups:
       - 美国( https://www.fuye.fun/ 免费节点分享)_72
       - 美国( https://www.fuye.fun/ 免费节点分享)_73
       - 美国( https://www.fuye.fun/ 免费节点分享)_74
+      - 荷兰( https://www.fuye.fun/ 免费节点分享)_8
       - 美国( https://www.fuye.fun/ 免费节点分享)_75
       - 美国( https://www.fuye.fun/ 免费节点分享)_76
       - 美国( https://www.fuye.fun/ 免费节点分享)_77
       - 美国( https://www.fuye.fun/ 免费节点分享)_78
+      - 日本( https://www.fuye.fun/ 免费节点分享)
       - 美国( https://www.fuye.fun/ 免费节点分享)_79
       - 美国( https://www.fuye.fun/ 免费节点分享)_80
       - 美国( https://www.fuye.fun/ 免费节点分享)_81
@@ -312,14 +324,37 @@ proxy-groups:
       - 美国( https://www.fuye.fun/ 免费节点分享)_106
       - 美国( https://www.fuye.fun/ 免费节点分享)_107
       - 美国( https://www.fuye.fun/ 免费节点分享)_108
+      - 加拿大( https://www.fuye.fun/ 免费节点分享)_2
       - 美国( https://www.fuye.fun/ 免费节点分享)_109
       - 美国( https://www.fuye.fun/ 免费节点分享)_110
       - 美国( https://www.fuye.fun/ 免费节点分享)_111
       - 美国( https://www.fuye.fun/ 免费节点分享)_112
       - 美国( https://www.fuye.fun/ 免费节点分享)_113
       - 美国( https://www.fuye.fun/ 免费节点分享)_114
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_10
-      - 印度( https://www.fuye.fun/ 免费节点分享)_2
+      - 美国( https://www.fuye.fun/ 免费节点分享)_115
+      - 美国( https://www.fuye.fun/ 免费节点分享)_116
+      - 美国( https://www.fuye.fun/ 免费节点分享)_117
+      - 美国( https://www.fuye.fun/ 免费节点分享)_118
+      - 美国( https://www.fuye.fun/ 免费节点分享)_119
+      - 美国( https://www.fuye.fun/ 免费节点分享)_120
+      - 美国( https://www.fuye.fun/ 免费节点分享)_121
+      - 美国( https://www.fuye.fun/ 免费节点分享)_122
+      - 美国( https://www.fuye.fun/ 免费节点分享)_123
+      - 美国( https://www.fuye.fun/ 免费节点分享)_124
+      - 美国( https://www.fuye.fun/ 免费节点分享)_125
+      - 美国( https://www.fuye.fun/ 免费节点分享)_126
+      - 美国( https://www.fuye.fun/ 免费节点分享)_127
+      - 美国( https://www.fuye.fun/ 免费节点分享)_128
+      - 美国( https://www.fuye.fun/ 免费节点分享)_129
+      - 美国( https://www.fuye.fun/ 免费节点分享)_130
+      - 美国( https://www.fuye.fun/ 免费节点分享)_131
+      - 美国( https://www.fuye.fun/ 免费节点分享)_132
+      - 美国( https://www.fuye.fun/ 免费节点分享)_133
+      - 美国( https://www.fuye.fun/ 免费节点分享)_134
+      - 美国( https://www.fuye.fun/ 免费节点分享)_135
+      - 加拿大( https://www.fuye.fun/ 免费节点分享)_3
+      - 美国( https://www.fuye.fun/ 免费节点分享)_136
+      - 美国( https://www.fuye.fun/ 免费节点分享)_137
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -339,94 +374,87 @@ proxy-groups:
       - 美国( https://www.fuye.fun/ 免费节点分享)_11
       - 美国( https://www.fuye.fun/ 免费节点分享)_12
       - 美国( https://www.fuye.fun/ 免费节点分享)_13
-      - 西班牙( https://www.fuye.fun/ 免费节点分享)
-      - 英国( https://www.fuye.fun/ 免费节点分享)_1
       - 美国( https://www.fuye.fun/ 免费节点分享)_14
-      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_1
       - 美国( https://www.fuye.fun/ 免费节点分享)_15
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_1
-      - 法国( https://www.fuye.fun/ 免费节点分享)_1
-      - 法国( https://www.fuye.fun/ 免费节点分享)_2
       - 美国( https://www.fuye.fun/ 免费节点分享)_16
+      - 西班牙( https://www.fuye.fun/ 免费节点分享)
       - 美国( https://www.fuye.fun/ 免费节点分享)_17
       - 美国( https://www.fuye.fun/ 免费节点分享)_18
-      - 法国( https://www.fuye.fun/ 免费节点分享)_3
       - 美国( https://www.fuye.fun/ 免费节点分享)_19
-      - 法国( https://www.fuye.fun/ 免费节点分享)_4
-      - 法国( https://www.fuye.fun/ 免费节点分享)_5
-      - 美国( https://www.fuye.fun/ 免费节点分享)_20
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_2
-      - 卢森堡( https://www.fuye.fun/ 免费节点分享)_1
-      - 美国( https://www.fuye.fun/ 免费节点分享)_21
-      - 英国( https://www.fuye.fun/ 免费节点分享)_2
-      - 英国( https://www.fuye.fun/ 免费节点分享)_3
-      - 卢森堡( https://www.fuye.fun/ 免费节点分享)_2
+      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_1
       - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_2
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_3
-      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_3
-      - 日本( https://www.fuye.fun/ 免费节点分享)
+      - 美国( https://www.fuye.fun/ 免费节点分享)_20
+      - 卢森堡( https://www.fuye.fun/ 免费节点分享)_1
+      - 法国( https://www.fuye.fun/ 免费节点分享)_1
+      - 法国( https://www.fuye.fun/ 免费节点分享)_2
+      - 美国( https://www.fuye.fun/ 免费节点分享)_21
+      - 加拿大( https://www.fuye.fun/ 免费节点分享)_1
+      - 法国( https://www.fuye.fun/ 免费节点分享)_3
+      - 法国( https://www.fuye.fun/ 免费节点分享)_4
       - 美国( https://www.fuye.fun/ 免费节点分享)_22
-      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_4
       - 美国( https://www.fuye.fun/ 免费节点分享)_23
+      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_3
       - 美国( https://www.fuye.fun/ 免费节点分享)_24
       - 美国( https://www.fuye.fun/ 免费节点分享)_25
       - 美国( https://www.fuye.fun/ 免费节点分享)_26
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_4
-      - 加拿大( https://www.fuye.fun/ 免费节点分享)
+      - 卢森堡( https://www.fuye.fun/ 免费节点分享)_2
+      - 法国( https://www.fuye.fun/ 免费节点分享)_5
+      - 法国( https://www.fuye.fun/ 免费节点分享)_6
+      - 荷兰( https://www.fuye.fun/ 免费节点分享)_1
+      - 荷兰( https://www.fuye.fun/ 免费节点分享)_2
       - 美国( https://www.fuye.fun/ 免费节点分享)_27
       - 美国( https://www.fuye.fun/ 免费节点分享)_28
-      - 卢森堡( https://www.fuye.fun/ 免费节点分享)_3
-      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_5
       - 美国( https://www.fuye.fun/ 免费节点分享)_29
-      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_6
       - 美国( https://www.fuye.fun/ 免费节点分享)_30
       - 美国( https://www.fuye.fun/ 免费节点分享)_31
-      - 法国( https://www.fuye.fun/ 免费节点分享)_6
+      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_4
+      - 英国( https://www.fuye.fun/ 免费节点分享)_1
       - 美国( https://www.fuye.fun/ 免费节点分享)_32
       - 美国( https://www.fuye.fun/ 免费节点分享)_33
-      - 英国( https://www.fuye.fun/ 免费节点分享)_4
       - 美国( https://www.fuye.fun/ 免费节点分享)_34
       - 美国( https://www.fuye.fun/ 免费节点分享)_35
-      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_7
-      - 法国( https://www.fuye.fun/ 免费节点分享)_7
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_5
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_6
+      - 英国( https://www.fuye.fun/ 免费节点分享)_2
       - 美国( https://www.fuye.fun/ 免费节点分享)_36
-      - 美国( https://www.fuye.fun/ 免费节点分享)_37
+      - 荷兰( https://www.fuye.fun/ 免费节点分享)_3
+      - 英国( https://www.fuye.fun/ 免费节点分享)_3
+      - 英国( https://www.fuye.fun/ 免费节点分享)_4
       - 英国( https://www.fuye.fun/ 免费节点分享)_5
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_7
+      - 荷兰( https://www.fuye.fun/ 免费节点分享)_4
+      - 美国( https://www.fuye.fun/ 免费节点分享)_37
+      - 荷兰( https://www.fuye.fun/ 免费节点分享)_5
       - 美国( https://www.fuye.fun/ 免费节点分享)_38
+      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_5
+      - 荷兰( https://www.fuye.fun/ 免费节点分享)_6
       - 美国( https://www.fuye.fun/ 免费节点分享)_39
       - 美国( https://www.fuye.fun/ 免费节点分享)_40
+      - 英国( https://www.fuye.fun/ 免费节点分享)_6
+      - 卢森堡( https://www.fuye.fun/ 免费节点分享)_3
       - 美国( https://www.fuye.fun/ 免费节点分享)_41
       - 美国( https://www.fuye.fun/ 免费节点分享)_42
+      - 荷兰( https://www.fuye.fun/ 免费节点分享)_7
       - 美国( https://www.fuye.fun/ 免费节点分享)_43
       - 美国( https://www.fuye.fun/ 免费节点分享)_44
       - 美国( https://www.fuye.fun/ 免费节点分享)_45
       - 美国( https://www.fuye.fun/ 免费节点分享)_46
+      - 法国( https://www.fuye.fun/ 免费节点分享)_7
       - 美国( https://www.fuye.fun/ 免费节点分享)_47
+      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_6
       - 美国( https://www.fuye.fun/ 免费节点分享)_48
       - 美国( https://www.fuye.fun/ 免费节点分享)_49
       - 美国( https://www.fuye.fun/ 免费节点分享)_50
-      - 英国( https://www.fuye.fun/ 免费节点分享)_6
       - 美国( https://www.fuye.fun/ 免费节点分享)_51
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_8
       - 美国( https://www.fuye.fun/ 免费节点分享)_52
       - 美国( https://www.fuye.fun/ 免费节点分享)_53
-      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_8
       - 美国( https://www.fuye.fun/ 免费节点分享)_54
       - 美国( https://www.fuye.fun/ 免费节点分享)_55
       - 美国( https://www.fuye.fun/ 免费节点分享)_56
       - 美国( https://www.fuye.fun/ 免费节点分享)_57
       - 美国( https://www.fuye.fun/ 免费节点分享)_58
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_9
       - 美国( https://www.fuye.fun/ 免费节点分享)_59
       - 美国( https://www.fuye.fun/ 免费节点分享)_60
-      - 英国( https://www.fuye.fun/ 免费节点分享)_7
       - 美国( https://www.fuye.fun/ 免费节点分享)_61
       - 美国( https://www.fuye.fun/ 免费节点分享)_62
       - 美国( https://www.fuye.fun/ 免费节点分享)_63
-      - 印度( https://www.fuye.fun/ 免费节点分享)_1
       - 美国( https://www.fuye.fun/ 免费节点分享)_64
       - 美国( https://www.fuye.fun/ 免费节点分享)_65
       - 美国( https://www.fuye.fun/ 免费节点分享)_66
@@ -438,10 +466,12 @@ proxy-groups:
       - 美国( https://www.fuye.fun/ 免费节点分享)_72
       - 美国( https://www.fuye.fun/ 免费节点分享)_73
       - 美国( https://www.fuye.fun/ 免费节点分享)_74
+      - 荷兰( https://www.fuye.fun/ 免费节点分享)_8
       - 美国( https://www.fuye.fun/ 免费节点分享)_75
       - 美国( https://www.fuye.fun/ 免费节点分享)_76
       - 美国( https://www.fuye.fun/ 免费节点分享)_77
       - 美国( https://www.fuye.fun/ 免费节点分享)_78
+      - 日本( https://www.fuye.fun/ 免费节点分享)
       - 美国( https://www.fuye.fun/ 免费节点分享)_79
       - 美国( https://www.fuye.fun/ 免费节点分享)_80
       - 美国( https://www.fuye.fun/ 免费节点分享)_81
@@ -472,14 +502,37 @@ proxy-groups:
       - 美国( https://www.fuye.fun/ 免费节点分享)_106
       - 美国( https://www.fuye.fun/ 免费节点分享)_107
       - 美国( https://www.fuye.fun/ 免费节点分享)_108
+      - 加拿大( https://www.fuye.fun/ 免费节点分享)_2
       - 美国( https://www.fuye.fun/ 免费节点分享)_109
       - 美国( https://www.fuye.fun/ 免费节点分享)_110
       - 美国( https://www.fuye.fun/ 免费节点分享)_111
       - 美国( https://www.fuye.fun/ 免费节点分享)_112
       - 美国( https://www.fuye.fun/ 免费节点分享)_113
       - 美国( https://www.fuye.fun/ 免费节点分享)_114
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_10
-      - 印度( https://www.fuye.fun/ 免费节点分享)_2
+      - 美国( https://www.fuye.fun/ 免费节点分享)_115
+      - 美国( https://www.fuye.fun/ 免费节点分享)_116
+      - 美国( https://www.fuye.fun/ 免费节点分享)_117
+      - 美国( https://www.fuye.fun/ 免费节点分享)_118
+      - 美国( https://www.fuye.fun/ 免费节点分享)_119
+      - 美国( https://www.fuye.fun/ 免费节点分享)_120
+      - 美国( https://www.fuye.fun/ 免费节点分享)_121
+      - 美国( https://www.fuye.fun/ 免费节点分享)_122
+      - 美国( https://www.fuye.fun/ 免费节点分享)_123
+      - 美国( https://www.fuye.fun/ 免费节点分享)_124
+      - 美国( https://www.fuye.fun/ 免费节点分享)_125
+      - 美国( https://www.fuye.fun/ 免费节点分享)_126
+      - 美国( https://www.fuye.fun/ 免费节点分享)_127
+      - 美国( https://www.fuye.fun/ 免费节点分享)_128
+      - 美国( https://www.fuye.fun/ 免费节点分享)_129
+      - 美国( https://www.fuye.fun/ 免费节点分享)_130
+      - 美国( https://www.fuye.fun/ 免费节点分享)_131
+      - 美国( https://www.fuye.fun/ 免费节点分享)_132
+      - 美国( https://www.fuye.fun/ 免费节点分享)_133
+      - 美国( https://www.fuye.fun/ 免费节点分享)_134
+      - 美国( https://www.fuye.fun/ 免费节点分享)_135
+      - 加拿大( https://www.fuye.fun/ 免费节点分享)_3
+      - 美国( https://www.fuye.fun/ 免费节点分享)_136
+      - 美国( https://www.fuye.fun/ 免费节点分享)_137
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -499,94 +552,87 @@ proxy-groups:
       - 美国( https://www.fuye.fun/ 免费节点分享)_11
       - 美国( https://www.fuye.fun/ 免费节点分享)_12
       - 美国( https://www.fuye.fun/ 免费节点分享)_13
-      - 西班牙( https://www.fuye.fun/ 免费节点分享)
-      - 英国( https://www.fuye.fun/ 免费节点分享)_1
       - 美国( https://www.fuye.fun/ 免费节点分享)_14
-      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_1
       - 美国( https://www.fuye.fun/ 免费节点分享)_15
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_1
-      - 法国( https://www.fuye.fun/ 免费节点分享)_1
-      - 法国( https://www.fuye.fun/ 免费节点分享)_2
       - 美国( https://www.fuye.fun/ 免费节点分享)_16
+      - 西班牙( https://www.fuye.fun/ 免费节点分享)
       - 美国( https://www.fuye.fun/ 免费节点分享)_17
       - 美国( https://www.fuye.fun/ 免费节点分享)_18
-      - 法国( https://www.fuye.fun/ 免费节点分享)_3
       - 美国( https://www.fuye.fun/ 免费节点分享)_19
-      - 法国( https://www.fuye.fun/ 免费节点分享)_4
-      - 法国( https://www.fuye.fun/ 免费节点分享)_5
-      - 美国( https://www.fuye.fun/ 免费节点分享)_20
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_2
-      - 卢森堡( https://www.fuye.fun/ 免费节点分享)_1
-      - 美国( https://www.fuye.fun/ 免费节点分享)_21
-      - 英国( https://www.fuye.fun/ 免费节点分享)_2
-      - 英国( https://www.fuye.fun/ 免费节点分享)_3
-      - 卢森堡( https://www.fuye.fun/ 免费节点分享)_2
+      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_1
       - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_2
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_3
-      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_3
-      - 日本( https://www.fuye.fun/ 免费节点分享)
+      - 美国( https://www.fuye.fun/ 免费节点分享)_20
+      - 卢森堡( https://www.fuye.fun/ 免费节点分享)_1
+      - 法国( https://www.fuye.fun/ 免费节点分享)_1
+      - 法国( https://www.fuye.fun/ 免费节点分享)_2
+      - 美国( https://www.fuye.fun/ 免费节点分享)_21
+      - 加拿大( https://www.fuye.fun/ 免费节点分享)_1
+      - 法国( https://www.fuye.fun/ 免费节点分享)_3
+      - 法国( https://www.fuye.fun/ 免费节点分享)_4
       - 美国( https://www.fuye.fun/ 免费节点分享)_22
-      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_4
       - 美国( https://www.fuye.fun/ 免费节点分享)_23
+      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_3
       - 美国( https://www.fuye.fun/ 免费节点分享)_24
       - 美国( https://www.fuye.fun/ 免费节点分享)_25
       - 美国( https://www.fuye.fun/ 免费节点分享)_26
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_4
-      - 加拿大( https://www.fuye.fun/ 免费节点分享)
+      - 卢森堡( https://www.fuye.fun/ 免费节点分享)_2
+      - 法国( https://www.fuye.fun/ 免费节点分享)_5
+      - 法国( https://www.fuye.fun/ 免费节点分享)_6
+      - 荷兰( https://www.fuye.fun/ 免费节点分享)_1
+      - 荷兰( https://www.fuye.fun/ 免费节点分享)_2
       - 美国( https://www.fuye.fun/ 免费节点分享)_27
       - 美国( https://www.fuye.fun/ 免费节点分享)_28
-      - 卢森堡( https://www.fuye.fun/ 免费节点分享)_3
-      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_5
       - 美国( https://www.fuye.fun/ 免费节点分享)_29
-      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_6
       - 美国( https://www.fuye.fun/ 免费节点分享)_30
       - 美国( https://www.fuye.fun/ 免费节点分享)_31
-      - 法国( https://www.fuye.fun/ 免费节点分享)_6
+      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_4
+      - 英国( https://www.fuye.fun/ 免费节点分享)_1
       - 美国( https://www.fuye.fun/ 免费节点分享)_32
       - 美国( https://www.fuye.fun/ 免费节点分享)_33
-      - 英国( https://www.fuye.fun/ 免费节点分享)_4
       - 美国( https://www.fuye.fun/ 免费节点分享)_34
       - 美国( https://www.fuye.fun/ 免费节点分享)_35
-      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_7
-      - 法国( https://www.fuye.fun/ 免费节点分享)_7
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_5
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_6
+      - 英国( https://www.fuye.fun/ 免费节点分享)_2
       - 美国( https://www.fuye.fun/ 免费节点分享)_36
-      - 美国( https://www.fuye.fun/ 免费节点分享)_37
+      - 荷兰( https://www.fuye.fun/ 免费节点分享)_3
+      - 英国( https://www.fuye.fun/ 免费节点分享)_3
+      - 英国( https://www.fuye.fun/ 免费节点分享)_4
       - 英国( https://www.fuye.fun/ 免费节点分享)_5
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_7
+      - 荷兰( https://www.fuye.fun/ 免费节点分享)_4
+      - 美国( https://www.fuye.fun/ 免费节点分享)_37
+      - 荷兰( https://www.fuye.fun/ 免费节点分享)_5
       - 美国( https://www.fuye.fun/ 免费节点分享)_38
+      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_5
+      - 荷兰( https://www.fuye.fun/ 免费节点分享)_6
       - 美国( https://www.fuye.fun/ 免费节点分享)_39
       - 美国( https://www.fuye.fun/ 免费节点分享)_40
+      - 英国( https://www.fuye.fun/ 免费节点分享)_6
+      - 卢森堡( https://www.fuye.fun/ 免费节点分享)_3
       - 美国( https://www.fuye.fun/ 免费节点分享)_41
       - 美国( https://www.fuye.fun/ 免费节点分享)_42
+      - 荷兰( https://www.fuye.fun/ 免费节点分享)_7
       - 美国( https://www.fuye.fun/ 免费节点分享)_43
       - 美国( https://www.fuye.fun/ 免费节点分享)_44
       - 美国( https://www.fuye.fun/ 免费节点分享)_45
       - 美国( https://www.fuye.fun/ 免费节点分享)_46
+      - 法国( https://www.fuye.fun/ 免费节点分享)_7
       - 美国( https://www.fuye.fun/ 免费节点分享)_47
+      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_6
       - 美国( https://www.fuye.fun/ 免费节点分享)_48
       - 美国( https://www.fuye.fun/ 免费节点分享)_49
       - 美国( https://www.fuye.fun/ 免费节点分享)_50
-      - 英国( https://www.fuye.fun/ 免费节点分享)_6
       - 美国( https://www.fuye.fun/ 免费节点分享)_51
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_8
       - 美国( https://www.fuye.fun/ 免费节点分享)_52
       - 美国( https://www.fuye.fun/ 免费节点分享)_53
-      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_8
       - 美国( https://www.fuye.fun/ 免费节点分享)_54
       - 美国( https://www.fuye.fun/ 免费节点分享)_55
       - 美国( https://www.fuye.fun/ 免费节点分享)_56
       - 美国( https://www.fuye.fun/ 免费节点分享)_57
       - 美国( https://www.fuye.fun/ 免费节点分享)_58
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_9
       - 美国( https://www.fuye.fun/ 免费节点分享)_59
       - 美国( https://www.fuye.fun/ 免费节点分享)_60
-      - 英国( https://www.fuye.fun/ 免费节点分享)_7
       - 美国( https://www.fuye.fun/ 免费节点分享)_61
       - 美国( https://www.fuye.fun/ 免费节点分享)_62
       - 美国( https://www.fuye.fun/ 免费节点分享)_63
-      - 印度( https://www.fuye.fun/ 免费节点分享)_1
       - 美国( https://www.fuye.fun/ 免费节点分享)_64
       - 美国( https://www.fuye.fun/ 免费节点分享)_65
       - 美国( https://www.fuye.fun/ 免费节点分享)_66
@@ -598,10 +644,12 @@ proxy-groups:
       - 美国( https://www.fuye.fun/ 免费节点分享)_72
       - 美国( https://www.fuye.fun/ 免费节点分享)_73
       - 美国( https://www.fuye.fun/ 免费节点分享)_74
+      - 荷兰( https://www.fuye.fun/ 免费节点分享)_8
       - 美国( https://www.fuye.fun/ 免费节点分享)_75
       - 美国( https://www.fuye.fun/ 免费节点分享)_76
       - 美国( https://www.fuye.fun/ 免费节点分享)_77
       - 美国( https://www.fuye.fun/ 免费节点分享)_78
+      - 日本( https://www.fuye.fun/ 免费节点分享)
       - 美国( https://www.fuye.fun/ 免费节点分享)_79
       - 美国( https://www.fuye.fun/ 免费节点分享)_80
       - 美国( https://www.fuye.fun/ 免费节点分享)_81
@@ -632,14 +680,37 @@ proxy-groups:
       - 美国( https://www.fuye.fun/ 免费节点分享)_106
       - 美国( https://www.fuye.fun/ 免费节点分享)_107
       - 美国( https://www.fuye.fun/ 免费节点分享)_108
+      - 加拿大( https://www.fuye.fun/ 免费节点分享)_2
       - 美国( https://www.fuye.fun/ 免费节点分享)_109
       - 美国( https://www.fuye.fun/ 免费节点分享)_110
       - 美国( https://www.fuye.fun/ 免费节点分享)_111
       - 美国( https://www.fuye.fun/ 免费节点分享)_112
       - 美国( https://www.fuye.fun/ 免费节点分享)_113
       - 美国( https://www.fuye.fun/ 免费节点分享)_114
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_10
-      - 印度( https://www.fuye.fun/ 免费节点分享)_2
+      - 美国( https://www.fuye.fun/ 免费节点分享)_115
+      - 美国( https://www.fuye.fun/ 免费节点分享)_116
+      - 美国( https://www.fuye.fun/ 免费节点分享)_117
+      - 美国( https://www.fuye.fun/ 免费节点分享)_118
+      - 美国( https://www.fuye.fun/ 免费节点分享)_119
+      - 美国( https://www.fuye.fun/ 免费节点分享)_120
+      - 美国( https://www.fuye.fun/ 免费节点分享)_121
+      - 美国( https://www.fuye.fun/ 免费节点分享)_122
+      - 美国( https://www.fuye.fun/ 免费节点分享)_123
+      - 美国( https://www.fuye.fun/ 免费节点分享)_124
+      - 美国( https://www.fuye.fun/ 免费节点分享)_125
+      - 美国( https://www.fuye.fun/ 免费节点分享)_126
+      - 美国( https://www.fuye.fun/ 免费节点分享)_127
+      - 美国( https://www.fuye.fun/ 免费节点分享)_128
+      - 美国( https://www.fuye.fun/ 免费节点分享)_129
+      - 美国( https://www.fuye.fun/ 免费节点分享)_130
+      - 美国( https://www.fuye.fun/ 免费节点分享)_131
+      - 美国( https://www.fuye.fun/ 免费节点分享)_132
+      - 美国( https://www.fuye.fun/ 免费节点分享)_133
+      - 美国( https://www.fuye.fun/ 免费节点分享)_134
+      - 美国( https://www.fuye.fun/ 免费节点分享)_135
+      - 加拿大( https://www.fuye.fun/ 免费节点分享)_3
+      - 美国( https://www.fuye.fun/ 免费节点分享)_136
+      - 美国( https://www.fuye.fun/ 免费节点分享)_137
   - name: 📲 电报信息
     type: select
     proxies:
@@ -658,94 +729,87 @@ proxy-groups:
       - 美国( https://www.fuye.fun/ 免费节点分享)_11
       - 美国( https://www.fuye.fun/ 免费节点分享)_12
       - 美国( https://www.fuye.fun/ 免费节点分享)_13
-      - 西班牙( https://www.fuye.fun/ 免费节点分享)
-      - 英国( https://www.fuye.fun/ 免费节点分享)_1
       - 美国( https://www.fuye.fun/ 免费节点分享)_14
-      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_1
       - 美国( https://www.fuye.fun/ 免费节点分享)_15
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_1
-      - 法国( https://www.fuye.fun/ 免费节点分享)_1
-      - 法国( https://www.fuye.fun/ 免费节点分享)_2
       - 美国( https://www.fuye.fun/ 免费节点分享)_16
+      - 西班牙( https://www.fuye.fun/ 免费节点分享)
       - 美国( https://www.fuye.fun/ 免费节点分享)_17
       - 美国( https://www.fuye.fun/ 免费节点分享)_18
-      - 法国( https://www.fuye.fun/ 免费节点分享)_3
       - 美国( https://www.fuye.fun/ 免费节点分享)_19
-      - 法国( https://www.fuye.fun/ 免费节点分享)_4
-      - 法国( https://www.fuye.fun/ 免费节点分享)_5
-      - 美国( https://www.fuye.fun/ 免费节点分享)_20
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_2
-      - 卢森堡( https://www.fuye.fun/ 免费节点分享)_1
-      - 美国( https://www.fuye.fun/ 免费节点分享)_21
-      - 英国( https://www.fuye.fun/ 免费节点分享)_2
-      - 英国( https://www.fuye.fun/ 免费节点分享)_3
-      - 卢森堡( https://www.fuye.fun/ 免费节点分享)_2
+      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_1
       - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_2
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_3
-      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_3
-      - 日本( https://www.fuye.fun/ 免费节点分享)
+      - 美国( https://www.fuye.fun/ 免费节点分享)_20
+      - 卢森堡( https://www.fuye.fun/ 免费节点分享)_1
+      - 法国( https://www.fuye.fun/ 免费节点分享)_1
+      - 法国( https://www.fuye.fun/ 免费节点分享)_2
+      - 美国( https://www.fuye.fun/ 免费节点分享)_21
+      - 加拿大( https://www.fuye.fun/ 免费节点分享)_1
+      - 法国( https://www.fuye.fun/ 免费节点分享)_3
+      - 法国( https://www.fuye.fun/ 免费节点分享)_4
       - 美国( https://www.fuye.fun/ 免费节点分享)_22
-      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_4
       - 美国( https://www.fuye.fun/ 免费节点分享)_23
+      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_3
       - 美国( https://www.fuye.fun/ 免费节点分享)_24
       - 美国( https://www.fuye.fun/ 免费节点分享)_25
       - 美国( https://www.fuye.fun/ 免费节点分享)_26
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_4
-      - 加拿大( https://www.fuye.fun/ 免费节点分享)
+      - 卢森堡( https://www.fuye.fun/ 免费节点分享)_2
+      - 法国( https://www.fuye.fun/ 免费节点分享)_5
+      - 法国( https://www.fuye.fun/ 免费节点分享)_6
+      - 荷兰( https://www.fuye.fun/ 免费节点分享)_1
+      - 荷兰( https://www.fuye.fun/ 免费节点分享)_2
       - 美国( https://www.fuye.fun/ 免费节点分享)_27
       - 美国( https://www.fuye.fun/ 免费节点分享)_28
-      - 卢森堡( https://www.fuye.fun/ 免费节点分享)_3
-      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_5
       - 美国( https://www.fuye.fun/ 免费节点分享)_29
-      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_6
       - 美国( https://www.fuye.fun/ 免费节点分享)_30
       - 美国( https://www.fuye.fun/ 免费节点分享)_31
-      - 法国( https://www.fuye.fun/ 免费节点分享)_6
+      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_4
+      - 英国( https://www.fuye.fun/ 免费节点分享)_1
       - 美国( https://www.fuye.fun/ 免费节点分享)_32
       - 美国( https://www.fuye.fun/ 免费节点分享)_33
-      - 英国( https://www.fuye.fun/ 免费节点分享)_4
       - 美国( https://www.fuye.fun/ 免费节点分享)_34
       - 美国( https://www.fuye.fun/ 免费节点分享)_35
-      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_7
-      - 法国( https://www.fuye.fun/ 免费节点分享)_7
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_5
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_6
+      - 英国( https://www.fuye.fun/ 免费节点分享)_2
       - 美国( https://www.fuye.fun/ 免费节点分享)_36
-      - 美国( https://www.fuye.fun/ 免费节点分享)_37
+      - 荷兰( https://www.fuye.fun/ 免费节点分享)_3
+      - 英国( https://www.fuye.fun/ 免费节点分享)_3
+      - 英国( https://www.fuye.fun/ 免费节点分享)_4
       - 英国( https://www.fuye.fun/ 免费节点分享)_5
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_7
+      - 荷兰( https://www.fuye.fun/ 免费节点分享)_4
+      - 美国( https://www.fuye.fun/ 免费节点分享)_37
+      - 荷兰( https://www.fuye.fun/ 免费节点分享)_5
       - 美国( https://www.fuye.fun/ 免费节点分享)_38
+      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_5
+      - 荷兰( https://www.fuye.fun/ 免费节点分享)_6
       - 美国( https://www.fuye.fun/ 免费节点分享)_39
       - 美国( https://www.fuye.fun/ 免费节点分享)_40
+      - 英国( https://www.fuye.fun/ 免费节点分享)_6
+      - 卢森堡( https://www.fuye.fun/ 免费节点分享)_3
       - 美国( https://www.fuye.fun/ 免费节点分享)_41
       - 美国( https://www.fuye.fun/ 免费节点分享)_42
+      - 荷兰( https://www.fuye.fun/ 免费节点分享)_7
       - 美国( https://www.fuye.fun/ 免费节点分享)_43
       - 美国( https://www.fuye.fun/ 免费节点分享)_44
       - 美国( https://www.fuye.fun/ 免费节点分享)_45
       - 美国( https://www.fuye.fun/ 免费节点分享)_46
+      - 法国( https://www.fuye.fun/ 免费节点分享)_7
       - 美国( https://www.fuye.fun/ 免费节点分享)_47
+      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_6
       - 美国( https://www.fuye.fun/ 免费节点分享)_48
       - 美国( https://www.fuye.fun/ 免费节点分享)_49
       - 美国( https://www.fuye.fun/ 免费节点分享)_50
-      - 英国( https://www.fuye.fun/ 免费节点分享)_6
       - 美国( https://www.fuye.fun/ 免费节点分享)_51
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_8
       - 美国( https://www.fuye.fun/ 免费节点分享)_52
       - 美国( https://www.fuye.fun/ 免费节点分享)_53
-      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_8
       - 美国( https://www.fuye.fun/ 免费节点分享)_54
       - 美国( https://www.fuye.fun/ 免费节点分享)_55
       - 美国( https://www.fuye.fun/ 免费节点分享)_56
       - 美国( https://www.fuye.fun/ 免费节点分享)_57
       - 美国( https://www.fuye.fun/ 免费节点分享)_58
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_9
       - 美国( https://www.fuye.fun/ 免费节点分享)_59
       - 美国( https://www.fuye.fun/ 免费节点分享)_60
-      - 英国( https://www.fuye.fun/ 免费节点分享)_7
       - 美国( https://www.fuye.fun/ 免费节点分享)_61
       - 美国( https://www.fuye.fun/ 免费节点分享)_62
       - 美国( https://www.fuye.fun/ 免费节点分享)_63
-      - 印度( https://www.fuye.fun/ 免费节点分享)_1
       - 美国( https://www.fuye.fun/ 免费节点分享)_64
       - 美国( https://www.fuye.fun/ 免费节点分享)_65
       - 美国( https://www.fuye.fun/ 免费节点分享)_66
@@ -757,10 +821,12 @@ proxy-groups:
       - 美国( https://www.fuye.fun/ 免费节点分享)_72
       - 美国( https://www.fuye.fun/ 免费节点分享)_73
       - 美国( https://www.fuye.fun/ 免费节点分享)_74
+      - 荷兰( https://www.fuye.fun/ 免费节点分享)_8
       - 美国( https://www.fuye.fun/ 免费节点分享)_75
       - 美国( https://www.fuye.fun/ 免费节点分享)_76
       - 美国( https://www.fuye.fun/ 免费节点分享)_77
       - 美国( https://www.fuye.fun/ 免费节点分享)_78
+      - 日本( https://www.fuye.fun/ 免费节点分享)
       - 美国( https://www.fuye.fun/ 免费节点分享)_79
       - 美国( https://www.fuye.fun/ 免费节点分享)_80
       - 美国( https://www.fuye.fun/ 免费节点分享)_81
@@ -791,14 +857,37 @@ proxy-groups:
       - 美国( https://www.fuye.fun/ 免费节点分享)_106
       - 美国( https://www.fuye.fun/ 免费节点分享)_107
       - 美国( https://www.fuye.fun/ 免费节点分享)_108
+      - 加拿大( https://www.fuye.fun/ 免费节点分享)_2
       - 美国( https://www.fuye.fun/ 免费节点分享)_109
       - 美国( https://www.fuye.fun/ 免费节点分享)_110
       - 美国( https://www.fuye.fun/ 免费节点分享)_111
       - 美国( https://www.fuye.fun/ 免费节点分享)_112
       - 美国( https://www.fuye.fun/ 免费节点分享)_113
       - 美国( https://www.fuye.fun/ 免费节点分享)_114
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_10
-      - 印度( https://www.fuye.fun/ 免费节点分享)_2
+      - 美国( https://www.fuye.fun/ 免费节点分享)_115
+      - 美国( https://www.fuye.fun/ 免费节点分享)_116
+      - 美国( https://www.fuye.fun/ 免费节点分享)_117
+      - 美国( https://www.fuye.fun/ 免费节点分享)_118
+      - 美国( https://www.fuye.fun/ 免费节点分享)_119
+      - 美国( https://www.fuye.fun/ 免费节点分享)_120
+      - 美国( https://www.fuye.fun/ 免费节点分享)_121
+      - 美国( https://www.fuye.fun/ 免费节点分享)_122
+      - 美国( https://www.fuye.fun/ 免费节点分享)_123
+      - 美国( https://www.fuye.fun/ 免费节点分享)_124
+      - 美国( https://www.fuye.fun/ 免费节点分享)_125
+      - 美国( https://www.fuye.fun/ 免费节点分享)_126
+      - 美国( https://www.fuye.fun/ 免费节点分享)_127
+      - 美国( https://www.fuye.fun/ 免费节点分享)_128
+      - 美国( https://www.fuye.fun/ 免费节点分享)_129
+      - 美国( https://www.fuye.fun/ 免费节点分享)_130
+      - 美国( https://www.fuye.fun/ 免费节点分享)_131
+      - 美国( https://www.fuye.fun/ 免费节点分享)_132
+      - 美国( https://www.fuye.fun/ 免费节点分享)_133
+      - 美国( https://www.fuye.fun/ 免费节点分享)_134
+      - 美国( https://www.fuye.fun/ 免费节点分享)_135
+      - 加拿大( https://www.fuye.fun/ 免费节点分享)_3
+      - 美国( https://www.fuye.fun/ 免费节点分享)_136
+      - 美国( https://www.fuye.fun/ 免费节点分享)_137
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -817,94 +906,87 @@ proxy-groups:
       - 美国( https://www.fuye.fun/ 免费节点分享)_11
       - 美国( https://www.fuye.fun/ 免费节点分享)_12
       - 美国( https://www.fuye.fun/ 免费节点分享)_13
-      - 西班牙( https://www.fuye.fun/ 免费节点分享)
-      - 英国( https://www.fuye.fun/ 免费节点分享)_1
       - 美国( https://www.fuye.fun/ 免费节点分享)_14
-      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_1
       - 美国( https://www.fuye.fun/ 免费节点分享)_15
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_1
-      - 法国( https://www.fuye.fun/ 免费节点分享)_1
-      - 法国( https://www.fuye.fun/ 免费节点分享)_2
       - 美国( https://www.fuye.fun/ 免费节点分享)_16
+      - 西班牙( https://www.fuye.fun/ 免费节点分享)
       - 美国( https://www.fuye.fun/ 免费节点分享)_17
       - 美国( https://www.fuye.fun/ 免费节点分享)_18
-      - 法国( https://www.fuye.fun/ 免费节点分享)_3
       - 美国( https://www.fuye.fun/ 免费节点分享)_19
-      - 法国( https://www.fuye.fun/ 免费节点分享)_4
-      - 法国( https://www.fuye.fun/ 免费节点分享)_5
-      - 美国( https://www.fuye.fun/ 免费节点分享)_20
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_2
-      - 卢森堡( https://www.fuye.fun/ 免费节点分享)_1
-      - 美国( https://www.fuye.fun/ 免费节点分享)_21
-      - 英国( https://www.fuye.fun/ 免费节点分享)_2
-      - 英国( https://www.fuye.fun/ 免费节点分享)_3
-      - 卢森堡( https://www.fuye.fun/ 免费节点分享)_2
+      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_1
       - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_2
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_3
-      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_3
-      - 日本( https://www.fuye.fun/ 免费节点分享)
+      - 美国( https://www.fuye.fun/ 免费节点分享)_20
+      - 卢森堡( https://www.fuye.fun/ 免费节点分享)_1
+      - 法国( https://www.fuye.fun/ 免费节点分享)_1
+      - 法国( https://www.fuye.fun/ 免费节点分享)_2
+      - 美国( https://www.fuye.fun/ 免费节点分享)_21
+      - 加拿大( https://www.fuye.fun/ 免费节点分享)_1
+      - 法国( https://www.fuye.fun/ 免费节点分享)_3
+      - 法国( https://www.fuye.fun/ 免费节点分享)_4
       - 美国( https://www.fuye.fun/ 免费节点分享)_22
-      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_4
       - 美国( https://www.fuye.fun/ 免费节点分享)_23
+      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_3
       - 美国( https://www.fuye.fun/ 免费节点分享)_24
       - 美国( https://www.fuye.fun/ 免费节点分享)_25
       - 美国( https://www.fuye.fun/ 免费节点分享)_26
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_4
-      - 加拿大( https://www.fuye.fun/ 免费节点分享)
+      - 卢森堡( https://www.fuye.fun/ 免费节点分享)_2
+      - 法国( https://www.fuye.fun/ 免费节点分享)_5
+      - 法国( https://www.fuye.fun/ 免费节点分享)_6
+      - 荷兰( https://www.fuye.fun/ 免费节点分享)_1
+      - 荷兰( https://www.fuye.fun/ 免费节点分享)_2
       - 美国( https://www.fuye.fun/ 免费节点分享)_27
       - 美国( https://www.fuye.fun/ 免费节点分享)_28
-      - 卢森堡( https://www.fuye.fun/ 免费节点分享)_3
-      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_5
       - 美国( https://www.fuye.fun/ 免费节点分享)_29
-      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_6
       - 美国( https://www.fuye.fun/ 免费节点分享)_30
       - 美国( https://www.fuye.fun/ 免费节点分享)_31
-      - 法国( https://www.fuye.fun/ 免费节点分享)_6
+      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_4
+      - 英国( https://www.fuye.fun/ 免费节点分享)_1
       - 美国( https://www.fuye.fun/ 免费节点分享)_32
       - 美国( https://www.fuye.fun/ 免费节点分享)_33
-      - 英国( https://www.fuye.fun/ 免费节点分享)_4
       - 美国( https://www.fuye.fun/ 免费节点分享)_34
       - 美国( https://www.fuye.fun/ 免费节点分享)_35
-      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_7
-      - 法国( https://www.fuye.fun/ 免费节点分享)_7
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_5
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_6
+      - 英国( https://www.fuye.fun/ 免费节点分享)_2
       - 美国( https://www.fuye.fun/ 免费节点分享)_36
-      - 美国( https://www.fuye.fun/ 免费节点分享)_37
+      - 荷兰( https://www.fuye.fun/ 免费节点分享)_3
+      - 英国( https://www.fuye.fun/ 免费节点分享)_3
+      - 英国( https://www.fuye.fun/ 免费节点分享)_4
       - 英国( https://www.fuye.fun/ 免费节点分享)_5
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_7
+      - 荷兰( https://www.fuye.fun/ 免费节点分享)_4
+      - 美国( https://www.fuye.fun/ 免费节点分享)_37
+      - 荷兰( https://www.fuye.fun/ 免费节点分享)_5
       - 美国( https://www.fuye.fun/ 免费节点分享)_38
+      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_5
+      - 荷兰( https://www.fuye.fun/ 免费节点分享)_6
       - 美国( https://www.fuye.fun/ 免费节点分享)_39
       - 美国( https://www.fuye.fun/ 免费节点分享)_40
+      - 英国( https://www.fuye.fun/ 免费节点分享)_6
+      - 卢森堡( https://www.fuye.fun/ 免费节点分享)_3
       - 美国( https://www.fuye.fun/ 免费节点分享)_41
       - 美国( https://www.fuye.fun/ 免费节点分享)_42
+      - 荷兰( https://www.fuye.fun/ 免费节点分享)_7
       - 美国( https://www.fuye.fun/ 免费节点分享)_43
       - 美国( https://www.fuye.fun/ 免费节点分享)_44
       - 美国( https://www.fuye.fun/ 免费节点分享)_45
       - 美国( https://www.fuye.fun/ 免费节点分享)_46
+      - 法国( https://www.fuye.fun/ 免费节点分享)_7
       - 美国( https://www.fuye.fun/ 免费节点分享)_47
+      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_6
       - 美国( https://www.fuye.fun/ 免费节点分享)_48
       - 美国( https://www.fuye.fun/ 免费节点分享)_49
       - 美国( https://www.fuye.fun/ 免费节点分享)_50
-      - 英国( https://www.fuye.fun/ 免费节点分享)_6
       - 美国( https://www.fuye.fun/ 免费节点分享)_51
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_8
       - 美国( https://www.fuye.fun/ 免费节点分享)_52
       - 美国( https://www.fuye.fun/ 免费节点分享)_53
-      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_8
       - 美国( https://www.fuye.fun/ 免费节点分享)_54
       - 美国( https://www.fuye.fun/ 免费节点分享)_55
       - 美国( https://www.fuye.fun/ 免费节点分享)_56
       - 美国( https://www.fuye.fun/ 免费节点分享)_57
       - 美国( https://www.fuye.fun/ 免费节点分享)_58
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_9
       - 美国( https://www.fuye.fun/ 免费节点分享)_59
       - 美国( https://www.fuye.fun/ 免费节点分享)_60
-      - 英国( https://www.fuye.fun/ 免费节点分享)_7
       - 美国( https://www.fuye.fun/ 免费节点分享)_61
       - 美国( https://www.fuye.fun/ 免费节点分享)_62
       - 美国( https://www.fuye.fun/ 免费节点分享)_63
-      - 印度( https://www.fuye.fun/ 免费节点分享)_1
       - 美国( https://www.fuye.fun/ 免费节点分享)_64
       - 美国( https://www.fuye.fun/ 免费节点分享)_65
       - 美国( https://www.fuye.fun/ 免费节点分享)_66
@@ -916,10 +998,12 @@ proxy-groups:
       - 美国( https://www.fuye.fun/ 免费节点分享)_72
       - 美国( https://www.fuye.fun/ 免费节点分享)_73
       - 美国( https://www.fuye.fun/ 免费节点分享)_74
+      - 荷兰( https://www.fuye.fun/ 免费节点分享)_8
       - 美国( https://www.fuye.fun/ 免费节点分享)_75
       - 美国( https://www.fuye.fun/ 免费节点分享)_76
       - 美国( https://www.fuye.fun/ 免费节点分享)_77
       - 美国( https://www.fuye.fun/ 免费节点分享)_78
+      - 日本( https://www.fuye.fun/ 免费节点分享)
       - 美国( https://www.fuye.fun/ 免费节点分享)_79
       - 美国( https://www.fuye.fun/ 免费节点分享)_80
       - 美国( https://www.fuye.fun/ 免费节点分享)_81
@@ -950,14 +1034,37 @@ proxy-groups:
       - 美国( https://www.fuye.fun/ 免费节点分享)_106
       - 美国( https://www.fuye.fun/ 免费节点分享)_107
       - 美国( https://www.fuye.fun/ 免费节点分享)_108
+      - 加拿大( https://www.fuye.fun/ 免费节点分享)_2
       - 美国( https://www.fuye.fun/ 免费节点分享)_109
       - 美国( https://www.fuye.fun/ 免费节点分享)_110
       - 美国( https://www.fuye.fun/ 免费节点分享)_111
       - 美国( https://www.fuye.fun/ 免费节点分享)_112
       - 美国( https://www.fuye.fun/ 免费节点分享)_113
       - 美国( https://www.fuye.fun/ 免费节点分享)_114
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_10
-      - 印度( https://www.fuye.fun/ 免费节点分享)_2
+      - 美国( https://www.fuye.fun/ 免费节点分享)_115
+      - 美国( https://www.fuye.fun/ 免费节点分享)_116
+      - 美国( https://www.fuye.fun/ 免费节点分享)_117
+      - 美国( https://www.fuye.fun/ 免费节点分享)_118
+      - 美国( https://www.fuye.fun/ 免费节点分享)_119
+      - 美国( https://www.fuye.fun/ 免费节点分享)_120
+      - 美国( https://www.fuye.fun/ 免费节点分享)_121
+      - 美国( https://www.fuye.fun/ 免费节点分享)_122
+      - 美国( https://www.fuye.fun/ 免费节点分享)_123
+      - 美国( https://www.fuye.fun/ 免费节点分享)_124
+      - 美国( https://www.fuye.fun/ 免费节点分享)_125
+      - 美国( https://www.fuye.fun/ 免费节点分享)_126
+      - 美国( https://www.fuye.fun/ 免费节点分享)_127
+      - 美国( https://www.fuye.fun/ 免费节点分享)_128
+      - 美国( https://www.fuye.fun/ 免费节点分享)_129
+      - 美国( https://www.fuye.fun/ 免费节点分享)_130
+      - 美国( https://www.fuye.fun/ 免费节点分享)_131
+      - 美国( https://www.fuye.fun/ 免费节点分享)_132
+      - 美国( https://www.fuye.fun/ 免费节点分享)_133
+      - 美国( https://www.fuye.fun/ 免费节点分享)_134
+      - 美国( https://www.fuye.fun/ 免费节点分享)_135
+      - 加拿大( https://www.fuye.fun/ 免费节点分享)_3
+      - 美国( https://www.fuye.fun/ 免费节点分享)_136
+      - 美国( https://www.fuye.fun/ 免费节点分享)_137
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -976,94 +1083,87 @@ proxy-groups:
       - 美国( https://www.fuye.fun/ 免费节点分享)_11
       - 美国( https://www.fuye.fun/ 免费节点分享)_12
       - 美国( https://www.fuye.fun/ 免费节点分享)_13
-      - 西班牙( https://www.fuye.fun/ 免费节点分享)
-      - 英国( https://www.fuye.fun/ 免费节点分享)_1
       - 美国( https://www.fuye.fun/ 免费节点分享)_14
-      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_1
       - 美国( https://www.fuye.fun/ 免费节点分享)_15
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_1
-      - 法国( https://www.fuye.fun/ 免费节点分享)_1
-      - 法国( https://www.fuye.fun/ 免费节点分享)_2
       - 美国( https://www.fuye.fun/ 免费节点分享)_16
+      - 西班牙( https://www.fuye.fun/ 免费节点分享)
       - 美国( https://www.fuye.fun/ 免费节点分享)_17
       - 美国( https://www.fuye.fun/ 免费节点分享)_18
-      - 法国( https://www.fuye.fun/ 免费节点分享)_3
       - 美国( https://www.fuye.fun/ 免费节点分享)_19
-      - 法国( https://www.fuye.fun/ 免费节点分享)_4
-      - 法国( https://www.fuye.fun/ 免费节点分享)_5
-      - 美国( https://www.fuye.fun/ 免费节点分享)_20
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_2
-      - 卢森堡( https://www.fuye.fun/ 免费节点分享)_1
-      - 美国( https://www.fuye.fun/ 免费节点分享)_21
-      - 英国( https://www.fuye.fun/ 免费节点分享)_2
-      - 英国( https://www.fuye.fun/ 免费节点分享)_3
-      - 卢森堡( https://www.fuye.fun/ 免费节点分享)_2
+      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_1
       - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_2
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_3
-      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_3
-      - 日本( https://www.fuye.fun/ 免费节点分享)
+      - 美国( https://www.fuye.fun/ 免费节点分享)_20
+      - 卢森堡( https://www.fuye.fun/ 免费节点分享)_1
+      - 法国( https://www.fuye.fun/ 免费节点分享)_1
+      - 法国( https://www.fuye.fun/ 免费节点分享)_2
+      - 美国( https://www.fuye.fun/ 免费节点分享)_21
+      - 加拿大( https://www.fuye.fun/ 免费节点分享)_1
+      - 法国( https://www.fuye.fun/ 免费节点分享)_3
+      - 法国( https://www.fuye.fun/ 免费节点分享)_4
       - 美国( https://www.fuye.fun/ 免费节点分享)_22
-      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_4
       - 美国( https://www.fuye.fun/ 免费节点分享)_23
+      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_3
       - 美国( https://www.fuye.fun/ 免费节点分享)_24
       - 美国( https://www.fuye.fun/ 免费节点分享)_25
       - 美国( https://www.fuye.fun/ 免费节点分享)_26
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_4
-      - 加拿大( https://www.fuye.fun/ 免费节点分享)
+      - 卢森堡( https://www.fuye.fun/ 免费节点分享)_2
+      - 法国( https://www.fuye.fun/ 免费节点分享)_5
+      - 法国( https://www.fuye.fun/ 免费节点分享)_6
+      - 荷兰( https://www.fuye.fun/ 免费节点分享)_1
+      - 荷兰( https://www.fuye.fun/ 免费节点分享)_2
       - 美国( https://www.fuye.fun/ 免费节点分享)_27
       - 美国( https://www.fuye.fun/ 免费节点分享)_28
-      - 卢森堡( https://www.fuye.fun/ 免费节点分享)_3
-      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_5
       - 美国( https://www.fuye.fun/ 免费节点分享)_29
-      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_6
       - 美国( https://www.fuye.fun/ 免费节点分享)_30
       - 美国( https://www.fuye.fun/ 免费节点分享)_31
-      - 法国( https://www.fuye.fun/ 免费节点分享)_6
+      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_4
+      - 英国( https://www.fuye.fun/ 免费节点分享)_1
       - 美国( https://www.fuye.fun/ 免费节点分享)_32
       - 美国( https://www.fuye.fun/ 免费节点分享)_33
-      - 英国( https://www.fuye.fun/ 免费节点分享)_4
       - 美国( https://www.fuye.fun/ 免费节点分享)_34
       - 美国( https://www.fuye.fun/ 免费节点分享)_35
-      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_7
-      - 法国( https://www.fuye.fun/ 免费节点分享)_7
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_5
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_6
+      - 英国( https://www.fuye.fun/ 免费节点分享)_2
       - 美国( https://www.fuye.fun/ 免费节点分享)_36
-      - 美国( https://www.fuye.fun/ 免费节点分享)_37
+      - 荷兰( https://www.fuye.fun/ 免费节点分享)_3
+      - 英国( https://www.fuye.fun/ 免费节点分享)_3
+      - 英国( https://www.fuye.fun/ 免费节点分享)_4
       - 英国( https://www.fuye.fun/ 免费节点分享)_5
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_7
+      - 荷兰( https://www.fuye.fun/ 免费节点分享)_4
+      - 美国( https://www.fuye.fun/ 免费节点分享)_37
+      - 荷兰( https://www.fuye.fun/ 免费节点分享)_5
       - 美国( https://www.fuye.fun/ 免费节点分享)_38
+      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_5
+      - 荷兰( https://www.fuye.fun/ 免费节点分享)_6
       - 美国( https://www.fuye.fun/ 免费节点分享)_39
       - 美国( https://www.fuye.fun/ 免费节点分享)_40
+      - 英国( https://www.fuye.fun/ 免费节点分享)_6
+      - 卢森堡( https://www.fuye.fun/ 免费节点分享)_3
       - 美国( https://www.fuye.fun/ 免费节点分享)_41
       - 美国( https://www.fuye.fun/ 免费节点分享)_42
+      - 荷兰( https://www.fuye.fun/ 免费节点分享)_7
       - 美国( https://www.fuye.fun/ 免费节点分享)_43
       - 美国( https://www.fuye.fun/ 免费节点分享)_44
       - 美国( https://www.fuye.fun/ 免费节点分享)_45
       - 美国( https://www.fuye.fun/ 免费节点分享)_46
+      - 法国( https://www.fuye.fun/ 免费节点分享)_7
       - 美国( https://www.fuye.fun/ 免费节点分享)_47
+      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_6
       - 美国( https://www.fuye.fun/ 免费节点分享)_48
       - 美国( https://www.fuye.fun/ 免费节点分享)_49
       - 美国( https://www.fuye.fun/ 免费节点分享)_50
-      - 英国( https://www.fuye.fun/ 免费节点分享)_6
       - 美国( https://www.fuye.fun/ 免费节点分享)_51
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_8
       - 美国( https://www.fuye.fun/ 免费节点分享)_52
       - 美国( https://www.fuye.fun/ 免费节点分享)_53
-      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_8
       - 美国( https://www.fuye.fun/ 免费节点分享)_54
       - 美国( https://www.fuye.fun/ 免费节点分享)_55
       - 美国( https://www.fuye.fun/ 免费节点分享)_56
       - 美国( https://www.fuye.fun/ 免费节点分享)_57
       - 美国( https://www.fuye.fun/ 免费节点分享)_58
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_9
       - 美国( https://www.fuye.fun/ 免费节点分享)_59
       - 美国( https://www.fuye.fun/ 免费节点分享)_60
-      - 英国( https://www.fuye.fun/ 免费节点分享)_7
       - 美国( https://www.fuye.fun/ 免费节点分享)_61
       - 美国( https://www.fuye.fun/ 免费节点分享)_62
       - 美国( https://www.fuye.fun/ 免费节点分享)_63
-      - 印度( https://www.fuye.fun/ 免费节点分享)_1
       - 美国( https://www.fuye.fun/ 免费节点分享)_64
       - 美国( https://www.fuye.fun/ 免费节点分享)_65
       - 美国( https://www.fuye.fun/ 免费节点分享)_66
@@ -1075,10 +1175,12 @@ proxy-groups:
       - 美国( https://www.fuye.fun/ 免费节点分享)_72
       - 美国( https://www.fuye.fun/ 免费节点分享)_73
       - 美国( https://www.fuye.fun/ 免费节点分享)_74
+      - 荷兰( https://www.fuye.fun/ 免费节点分享)_8
       - 美国( https://www.fuye.fun/ 免费节点分享)_75
       - 美国( https://www.fuye.fun/ 免费节点分享)_76
       - 美国( https://www.fuye.fun/ 免费节点分享)_77
       - 美国( https://www.fuye.fun/ 免费节点分享)_78
+      - 日本( https://www.fuye.fun/ 免费节点分享)
       - 美国( https://www.fuye.fun/ 免费节点分享)_79
       - 美国( https://www.fuye.fun/ 免费节点分享)_80
       - 美国( https://www.fuye.fun/ 免费节点分享)_81
@@ -1109,14 +1211,37 @@ proxy-groups:
       - 美国( https://www.fuye.fun/ 免费节点分享)_106
       - 美国( https://www.fuye.fun/ 免费节点分享)_107
       - 美国( https://www.fuye.fun/ 免费节点分享)_108
+      - 加拿大( https://www.fuye.fun/ 免费节点分享)_2
       - 美国( https://www.fuye.fun/ 免费节点分享)_109
       - 美国( https://www.fuye.fun/ 免费节点分享)_110
       - 美国( https://www.fuye.fun/ 免费节点分享)_111
       - 美国( https://www.fuye.fun/ 免费节点分享)_112
       - 美国( https://www.fuye.fun/ 免费节点分享)_113
       - 美国( https://www.fuye.fun/ 免费节点分享)_114
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_10
-      - 印度( https://www.fuye.fun/ 免费节点分享)_2
+      - 美国( https://www.fuye.fun/ 免费节点分享)_115
+      - 美国( https://www.fuye.fun/ 免费节点分享)_116
+      - 美国( https://www.fuye.fun/ 免费节点分享)_117
+      - 美国( https://www.fuye.fun/ 免费节点分享)_118
+      - 美国( https://www.fuye.fun/ 免费节点分享)_119
+      - 美国( https://www.fuye.fun/ 免费节点分享)_120
+      - 美国( https://www.fuye.fun/ 免费节点分享)_121
+      - 美国( https://www.fuye.fun/ 免费节点分享)_122
+      - 美国( https://www.fuye.fun/ 免费节点分享)_123
+      - 美国( https://www.fuye.fun/ 免费节点分享)_124
+      - 美国( https://www.fuye.fun/ 免费节点分享)_125
+      - 美国( https://www.fuye.fun/ 免费节点分享)_126
+      - 美国( https://www.fuye.fun/ 免费节点分享)_127
+      - 美国( https://www.fuye.fun/ 免费节点分享)_128
+      - 美国( https://www.fuye.fun/ 免费节点分享)_129
+      - 美国( https://www.fuye.fun/ 免费节点分享)_130
+      - 美国( https://www.fuye.fun/ 免费节点分享)_131
+      - 美国( https://www.fuye.fun/ 免费节点分享)_132
+      - 美国( https://www.fuye.fun/ 免费节点分享)_133
+      - 美国( https://www.fuye.fun/ 免费节点分享)_134
+      - 美国( https://www.fuye.fun/ 免费节点分享)_135
+      - 加拿大( https://www.fuye.fun/ 免费节点分享)_3
+      - 美国( https://www.fuye.fun/ 免费节点分享)_136
+      - 美国( https://www.fuye.fun/ 免费节点分享)_137
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1152,94 +1277,87 @@ proxy-groups:
       - 美国( https://www.fuye.fun/ 免费节点分享)_11
       - 美国( https://www.fuye.fun/ 免费节点分享)_12
       - 美国( https://www.fuye.fun/ 免费节点分享)_13
-      - 西班牙( https://www.fuye.fun/ 免费节点分享)
-      - 英国( https://www.fuye.fun/ 免费节点分享)_1
       - 美国( https://www.fuye.fun/ 免费节点分享)_14
-      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_1
       - 美国( https://www.fuye.fun/ 免费节点分享)_15
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_1
-      - 法国( https://www.fuye.fun/ 免费节点分享)_1
-      - 法国( https://www.fuye.fun/ 免费节点分享)_2
       - 美国( https://www.fuye.fun/ 免费节点分享)_16
+      - 西班牙( https://www.fuye.fun/ 免费节点分享)
       - 美国( https://www.fuye.fun/ 免费节点分享)_17
       - 美国( https://www.fuye.fun/ 免费节点分享)_18
-      - 法国( https://www.fuye.fun/ 免费节点分享)_3
       - 美国( https://www.fuye.fun/ 免费节点分享)_19
-      - 法国( https://www.fuye.fun/ 免费节点分享)_4
-      - 法国( https://www.fuye.fun/ 免费节点分享)_5
-      - 美国( https://www.fuye.fun/ 免费节点分享)_20
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_2
-      - 卢森堡( https://www.fuye.fun/ 免费节点分享)_1
-      - 美国( https://www.fuye.fun/ 免费节点分享)_21
-      - 英国( https://www.fuye.fun/ 免费节点分享)_2
-      - 英国( https://www.fuye.fun/ 免费节点分享)_3
-      - 卢森堡( https://www.fuye.fun/ 免费节点分享)_2
+      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_1
       - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_2
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_3
-      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_3
-      - 日本( https://www.fuye.fun/ 免费节点分享)
+      - 美国( https://www.fuye.fun/ 免费节点分享)_20
+      - 卢森堡( https://www.fuye.fun/ 免费节点分享)_1
+      - 法国( https://www.fuye.fun/ 免费节点分享)_1
+      - 法国( https://www.fuye.fun/ 免费节点分享)_2
+      - 美国( https://www.fuye.fun/ 免费节点分享)_21
+      - 加拿大( https://www.fuye.fun/ 免费节点分享)_1
+      - 法国( https://www.fuye.fun/ 免费节点分享)_3
+      - 法国( https://www.fuye.fun/ 免费节点分享)_4
       - 美国( https://www.fuye.fun/ 免费节点分享)_22
-      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_4
       - 美国( https://www.fuye.fun/ 免费节点分享)_23
+      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_3
       - 美国( https://www.fuye.fun/ 免费节点分享)_24
       - 美国( https://www.fuye.fun/ 免费节点分享)_25
       - 美国( https://www.fuye.fun/ 免费节点分享)_26
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_4
-      - 加拿大( https://www.fuye.fun/ 免费节点分享)
+      - 卢森堡( https://www.fuye.fun/ 免费节点分享)_2
+      - 法国( https://www.fuye.fun/ 免费节点分享)_5
+      - 法国( https://www.fuye.fun/ 免费节点分享)_6
+      - 荷兰( https://www.fuye.fun/ 免费节点分享)_1
+      - 荷兰( https://www.fuye.fun/ 免费节点分享)_2
       - 美国( https://www.fuye.fun/ 免费节点分享)_27
       - 美国( https://www.fuye.fun/ 免费节点分享)_28
-      - 卢森堡( https://www.fuye.fun/ 免费节点分享)_3
-      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_5
       - 美国( https://www.fuye.fun/ 免费节点分享)_29
-      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_6
       - 美国( https://www.fuye.fun/ 免费节点分享)_30
       - 美国( https://www.fuye.fun/ 免费节点分享)_31
-      - 法国( https://www.fuye.fun/ 免费节点分享)_6
+      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_4
+      - 英国( https://www.fuye.fun/ 免费节点分享)_1
       - 美国( https://www.fuye.fun/ 免费节点分享)_32
       - 美国( https://www.fuye.fun/ 免费节点分享)_33
-      - 英国( https://www.fuye.fun/ 免费节点分享)_4
       - 美国( https://www.fuye.fun/ 免费节点分享)_34
       - 美国( https://www.fuye.fun/ 免费节点分享)_35
-      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_7
-      - 法国( https://www.fuye.fun/ 免费节点分享)_7
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_5
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_6
+      - 英国( https://www.fuye.fun/ 免费节点分享)_2
       - 美国( https://www.fuye.fun/ 免费节点分享)_36
-      - 美国( https://www.fuye.fun/ 免费节点分享)_37
+      - 荷兰( https://www.fuye.fun/ 免费节点分享)_3
+      - 英国( https://www.fuye.fun/ 免费节点分享)_3
+      - 英国( https://www.fuye.fun/ 免费节点分享)_4
       - 英国( https://www.fuye.fun/ 免费节点分享)_5
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_7
+      - 荷兰( https://www.fuye.fun/ 免费节点分享)_4
+      - 美国( https://www.fuye.fun/ 免费节点分享)_37
+      - 荷兰( https://www.fuye.fun/ 免费节点分享)_5
       - 美国( https://www.fuye.fun/ 免费节点分享)_38
+      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_5
+      - 荷兰( https://www.fuye.fun/ 免费节点分享)_6
       - 美国( https://www.fuye.fun/ 免费节点分享)_39
       - 美国( https://www.fuye.fun/ 免费节点分享)_40
+      - 英国( https://www.fuye.fun/ 免费节点分享)_6
+      - 卢森堡( https://www.fuye.fun/ 免费节点分享)_3
       - 美国( https://www.fuye.fun/ 免费节点分享)_41
       - 美国( https://www.fuye.fun/ 免费节点分享)_42
+      - 荷兰( https://www.fuye.fun/ 免费节点分享)_7
       - 美国( https://www.fuye.fun/ 免费节点分享)_43
       - 美国( https://www.fuye.fun/ 免费节点分享)_44
       - 美国( https://www.fuye.fun/ 免费节点分享)_45
       - 美国( https://www.fuye.fun/ 免费节点分享)_46
+      - 法国( https://www.fuye.fun/ 免费节点分享)_7
       - 美国( https://www.fuye.fun/ 免费节点分享)_47
+      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_6
       - 美国( https://www.fuye.fun/ 免费节点分享)_48
       - 美国( https://www.fuye.fun/ 免费节点分享)_49
       - 美国( https://www.fuye.fun/ 免费节点分享)_50
-      - 英国( https://www.fuye.fun/ 免费节点分享)_6
       - 美国( https://www.fuye.fun/ 免费节点分享)_51
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_8
       - 美国( https://www.fuye.fun/ 免费节点分享)_52
       - 美国( https://www.fuye.fun/ 免费节点分享)_53
-      - 俄罗斯( https://www.fuye.fun/ 免费节点分享)_8
       - 美国( https://www.fuye.fun/ 免费节点分享)_54
       - 美国( https://www.fuye.fun/ 免费节点分享)_55
       - 美国( https://www.fuye.fun/ 免费节点分享)_56
       - 美国( https://www.fuye.fun/ 免费节点分享)_57
       - 美国( https://www.fuye.fun/ 免费节点分享)_58
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_9
       - 美国( https://www.fuye.fun/ 免费节点分享)_59
       - 美国( https://www.fuye.fun/ 免费节点分享)_60
-      - 英国( https://www.fuye.fun/ 免费节点分享)_7
       - 美国( https://www.fuye.fun/ 免费节点分享)_61
       - 美国( https://www.fuye.fun/ 免费节点分享)_62
       - 美国( https://www.fuye.fun/ 免费节点分享)_63
-      - 印度( https://www.fuye.fun/ 免费节点分享)_1
       - 美国( https://www.fuye.fun/ 免费节点分享)_64
       - 美国( https://www.fuye.fun/ 免费节点分享)_65
       - 美国( https://www.fuye.fun/ 免费节点分享)_66
@@ -1251,10 +1369,12 @@ proxy-groups:
       - 美国( https://www.fuye.fun/ 免费节点分享)_72
       - 美国( https://www.fuye.fun/ 免费节点分享)_73
       - 美国( https://www.fuye.fun/ 免费节点分享)_74
+      - 荷兰( https://www.fuye.fun/ 免费节点分享)_8
       - 美国( https://www.fuye.fun/ 免费节点分享)_75
       - 美国( https://www.fuye.fun/ 免费节点分享)_76
       - 美国( https://www.fuye.fun/ 免费节点分享)_77
       - 美国( https://www.fuye.fun/ 免费节点分享)_78
+      - 日本( https://www.fuye.fun/ 免费节点分享)
       - 美国( https://www.fuye.fun/ 免费节点分享)_79
       - 美国( https://www.fuye.fun/ 免费节点分享)_80
       - 美国( https://www.fuye.fun/ 免费节点分享)_81
@@ -1285,14 +1405,37 @@ proxy-groups:
       - 美国( https://www.fuye.fun/ 免费节点分享)_106
       - 美国( https://www.fuye.fun/ 免费节点分享)_107
       - 美国( https://www.fuye.fun/ 免费节点分享)_108
+      - 加拿大( https://www.fuye.fun/ 免费节点分享)_2
       - 美国( https://www.fuye.fun/ 免费节点分享)_109
       - 美国( https://www.fuye.fun/ 免费节点分享)_110
       - 美国( https://www.fuye.fun/ 免费节点分享)_111
       - 美国( https://www.fuye.fun/ 免费节点分享)_112
       - 美国( https://www.fuye.fun/ 免费节点分享)_113
       - 美国( https://www.fuye.fun/ 免费节点分享)_114
-      - 荷兰( https://www.fuye.fun/ 免费节点分享)_10
-      - 印度( https://www.fuye.fun/ 免费节点分享)_2
+      - 美国( https://www.fuye.fun/ 免费节点分享)_115
+      - 美国( https://www.fuye.fun/ 免费节点分享)_116
+      - 美国( https://www.fuye.fun/ 免费节点分享)_117
+      - 美国( https://www.fuye.fun/ 免费节点分享)_118
+      - 美国( https://www.fuye.fun/ 免费节点分享)_119
+      - 美国( https://www.fuye.fun/ 免费节点分享)_120
+      - 美国( https://www.fuye.fun/ 免费节点分享)_121
+      - 美国( https://www.fuye.fun/ 免费节点分享)_122
+      - 美国( https://www.fuye.fun/ 免费节点分享)_123
+      - 美国( https://www.fuye.fun/ 免费节点分享)_124
+      - 美国( https://www.fuye.fun/ 免费节点分享)_125
+      - 美国( https://www.fuye.fun/ 免费节点分享)_126
+      - 美国( https://www.fuye.fun/ 免费节点分享)_127
+      - 美国( https://www.fuye.fun/ 免费节点分享)_128
+      - 美国( https://www.fuye.fun/ 免费节点分享)_129
+      - 美国( https://www.fuye.fun/ 免费节点分享)_130
+      - 美国( https://www.fuye.fun/ 免费节点分享)_131
+      - 美国( https://www.fuye.fun/ 免费节点分享)_132
+      - 美国( https://www.fuye.fun/ 免费节点分享)_133
+      - 美国( https://www.fuye.fun/ 免费节点分享)_134
+      - 美国( https://www.fuye.fun/ 免费节点分享)_135
+      - 加拿大( https://www.fuye.fun/ 免费节点分享)_3
+      - 美国( https://www.fuye.fun/ 免费节点分享)_136
+      - 美国( https://www.fuye.fun/ 免费节点分享)_137
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
