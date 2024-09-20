@@ -5,32 +5,41 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _US_美国->🇨🇦_CA_加拿大, server: 23.227.38.3, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
-  - {name: _US_美国_1, server: 104.19.32.46, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
-  - {name: _US_美国->🇨🇦_CA_加拿大_1, server: 104.19.51.232, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
-  - {name: _US_美国->🇨🇦_CA_加拿大_2, server: 104.23.99.191, port: 80, type: vmess, uuid: 1cd676ac-744d-11ef-8810-f324c6043e28, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess#t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro}, udp: true}
-  - {name: _US_美国->🇨🇦_CA_加拿大_3, server: 172.64.166.12, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
-  - {name: _TR_土耳其, server: 185.123.101.241, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: _US_美国_2, server: 104.26.5.103, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
-  - {name: _US_美国->🇨🇦_CA_加拿大_4, server: 104.19.46.33, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
-  - {name: _US_美国->🇨🇦_CA_加拿大_5, server: 172.64.167.8, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
-  - {name: _US_美国->🇨🇦_CA_加拿大_6, server: 104.19.46.27, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
-  - {name: _US_美国->🇨🇦_CA_加拿大_7, server: 104.19.46.36, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
-  - {name: _US_美国->🇫🇷_FR_法国, server: 104.21.8.157, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: _US_美国->🇨🇦_CA_加拿大_8, server: 104.19.57.4, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
-  - {name: _US_美国->🇨🇦_CA_加拿大_9, server: 104.19.46.39, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
-  - {name: _US_美国->🇨🇦_CA_加拿大_10, server: 104.19.45.19, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
-  - {name: _NL_荷兰->🇺🇸_US_美国, server: 109.201.152.181, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
-  - {name: _US_美国_5, server: 162.159.140.77, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
+  - {name: _US_美国, server: 104.26.12.140, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
+  - {name: _US_美国->🇨🇦_CA_加拿大, server: 104.19.46.56, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
+  - {name: _US_美国->🇨🇦_CA_加拿大_1, server: 104.19.58.175, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
+  - {name: _US_美国->🇨🇦_CA_加拿大_2, server: 104.26.5.57, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
+  - {name: _US_美国_1, server: 172.67.74.112, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
+  - {name: _US_美国_2, server: 162.159.140.45, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
+  - {name: _US_美国->🇨🇦_CA_加拿大_3, server: 172.64.166.22, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
+  - {name: _US_美国->🇨🇦_CA_加拿大_4, server: 104.19.55.49, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
+  - {name: _US_美国->🇨🇦_CA_加拿大_5, server: 104.19.45.90, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
+  - {name: _US_美国->🇨🇦_CA_加拿大_6, server: 104.19.38.62, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
+  - {name: _US_美国->🇨🇦_CA_加拿大_7, server: 172.64.166.16, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
+  - {name: _US_美国_5, server: icook.tw, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: icook.tw}}, udp: true}
+  - {name: _US_美国_6, server: 104.26.8.156, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
+  - {name: _US_美国->🇨🇦_CA_加拿大_8, server: 104.19.46.39, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
+  - {name: _US_美国->🇨🇦_CA_加拿大_9, server: 104.19.59.89, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
+  - {name: _US_美国_7, server: malaysia.com, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: malaysia.com}}, udp: true}
+  - {name: _US_美国->🇨🇦_CA_加拿大_10, server: 104.19.47.122, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
+  - {name: _US_美国_8, server: 162.159.140.56, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
+  - {name: _US_美国->🇨🇦_CA_加拿大_11, server: 104.19.21.71, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
+  - {name: _US_美国->🇨🇦_CA_加拿大_12, server: 172.64.167.8, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
+  - {name: _US_美国->🇨🇦_CA_加拿大_13, server: 104.19.21.230, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
+  - {name: _US_美国->🇨🇦_CA_加拿大_14, server: 104.19.46.33, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
+  - {name: _US_美国_9, server: 104.26.5.88, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
+  - {name: _US_美国->🇨🇦_CA_加拿大_15, server: 104.19.45.47, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
+  - {name: _US_美国->🇨🇦_CA_加拿大_16, server: 172.64.167.19, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
+  - {name: _US_美国->🇨🇦_CA_加拿大_17, server: 104.19.38.8, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
   - {name: _US_美国->🇨🇦_CA_加拿大_1 2, server: 104.17.106.151, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: _US_美国->🇫🇷_FR_法国_1, server: 172.67.130.140, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: _US_美国_3, server: 172.67.74.112, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: _US_美国_4, server: 104.26.5.56, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: _US_美国->🇨🇦_CA_加拿大_2 2, server: 172.64.166.8, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: _US_美国_6, server: 104.19.21.71, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: _US_美国_7, server: 104.26.5.57, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: _US_美国_6 2, server: 104.19.21.71, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: _US_美国_7 2, server: 104.26.5.57, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: _US_美国->🇫🇷_FR_法国_2, server: s1c.v2.v001sss.xyz, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}, udp: true}
-  - {name: _US_美国_8, server: 172.64.99.22, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: _US_美国_8 2, server: 172.64.99.22, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: _US_美国->🇨🇦_CA_加拿大_3 2, server: 104.19.46.42, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: _US_美国_10, server: 104.26.12.31, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: _US_美国->🇨🇦_CA_加拿大_4 2, server: 104.19.38.88, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -45,17 +54,17 @@ proxies:
   - {name: _US_美国_17, server: 162.159.140.89, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: _US_美国->🇨🇦_CA_加拿大_9 2, server: 104.19.59.89, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: _US_美国->🇨🇦_CA_加拿大_10 2, server: 172.67.75.194, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: _US_美国->🇨🇦_CA_加拿大_11, server: 104.19.46.33, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: _US_美国->🇨🇦_CA_加拿大_12, server: 104.19.38.12, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: _US_美国->🇨🇦_CA_加拿大_13, server: 172.64.167.5, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: _US_美国->🇨🇦_CA_加拿大_14, server: 104.26.12.140, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: _US_美国->🇨🇦_CA_加拿大_11 2, server: 104.19.46.33, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: _US_美国->🇨🇦_CA_加拿大_12 2, server: 104.19.38.12, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: _US_美国->🇨🇦_CA_加拿大_13 2, server: 172.64.167.5, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: _US_美国->🇨🇦_CA_加拿大_14 2, server: 104.26.12.140, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: _US_美国_19, server: 104.26.5.113, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: _US_美国->🇨🇦_CA_加拿大_15, server: 172.64.194.76, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: _US_美国->🇨🇦_CA_加拿大_15 2, server: 172.64.194.76, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: _US_美国_22, server: russia.com, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: russia.com}}, udp: true}
   - {name: _US_美国_23, server: 104.19.21.63, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: _US_美国_24, server: 162.159.140.93, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: _US_美国->🇨🇦_CA_加拿大_16, server: 104.19.45.15, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: _US_美国->🇨🇦_CA_加拿大_17, server: 104.19.46.22, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: _US_美国->🇨🇦_CA_加拿大_16 2, server: 104.19.45.15, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: _US_美国->🇨🇦_CA_加拿大_17 2, server: 104.19.46.22, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 美国(https://www.fuye.fun免费节点分享)_4, server: hk1.mhw7e2.online, port: 20028, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
   - {name: 美国(https://www.fuye.fun免费节点分享)_5, server: 14.215.169.69, port: 20027, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
   - {name: 美国(https://www.fuye.fun免费节点分享)_7, server: sg1.mhw7e2.online, port: 20017, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
@@ -213,32 +222,41 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - _US_美国
       - _US_美国->🇨🇦_CA_加拿大
-      - _US_美国_1
       - _US_美国->🇨🇦_CA_加拿大_1
       - _US_美国->🇨🇦_CA_加拿大_2
-      - _US_美国->🇨🇦_CA_加拿大_3
-      - _TR_土耳其
+      - _US_美国_1
       - _US_美国_2
+      - _US_美国->🇨🇦_CA_加拿大_3
       - _US_美国->🇨🇦_CA_加拿大_4
       - _US_美国->🇨🇦_CA_加拿大_5
       - _US_美国->🇨🇦_CA_加拿大_6
       - _US_美国->🇨🇦_CA_加拿大_7
-      - _US_美国->🇫🇷_FR_法国
+      - _US_美国_5
+      - _US_美国_6
       - _US_美国->🇨🇦_CA_加拿大_8
       - _US_美国->🇨🇦_CA_加拿大_9
+      - _US_美国_7
       - _US_美国->🇨🇦_CA_加拿大_10
-      - _NL_荷兰->🇺🇸_US_美国
-      - _US_美国_5
+      - _US_美国_8
+      - _US_美国->🇨🇦_CA_加拿大_11
+      - _US_美国->🇨🇦_CA_加拿大_12
+      - _US_美国->🇨🇦_CA_加拿大_13
+      - _US_美国->🇨🇦_CA_加拿大_14
+      - _US_美国_9
+      - _US_美国->🇨🇦_CA_加拿大_15
+      - _US_美国->🇨🇦_CA_加拿大_16
+      - _US_美国->🇨🇦_CA_加拿大_17
       - _US_美国->🇨🇦_CA_加拿大_1 2
       - _US_美国->🇫🇷_FR_法国_1
       - _US_美国_3
       - _US_美国_4
       - _US_美国->🇨🇦_CA_加拿大_2 2
-      - _US_美国_6
-      - _US_美国_7
+      - _US_美国_6 2
+      - _US_美国_7 2
       - _US_美国->🇫🇷_FR_法国_2
-      - _US_美国_8
+      - _US_美国_8 2
       - _US_美国->🇨🇦_CA_加拿大_3 2
       - _US_美国_10
       - _US_美国->🇨🇦_CA_加拿大_4 2
@@ -253,17 +271,17 @@ proxy-groups:
       - _US_美国_17
       - _US_美国->🇨🇦_CA_加拿大_9 2
       - _US_美国->🇨🇦_CA_加拿大_10 2
-      - _US_美国->🇨🇦_CA_加拿大_11
-      - _US_美国->🇨🇦_CA_加拿大_12
-      - _US_美国->🇨🇦_CA_加拿大_13
-      - _US_美国->🇨🇦_CA_加拿大_14
+      - _US_美国->🇨🇦_CA_加拿大_11 2
+      - _US_美国->🇨🇦_CA_加拿大_12 2
+      - _US_美国->🇨🇦_CA_加拿大_13 2
+      - _US_美国->🇨🇦_CA_加拿大_14 2
       - _US_美国_19
-      - _US_美国->🇨🇦_CA_加拿大_15
+      - _US_美国->🇨🇦_CA_加拿大_15 2
       - _US_美国_22
       - _US_美国_23
       - _US_美国_24
-      - _US_美国->🇨🇦_CA_加拿大_16
-      - _US_美国->🇨🇦_CA_加拿大_17
+      - _US_美国->🇨🇦_CA_加拿大_16 2
+      - _US_美国->🇨🇦_CA_加拿大_17 2
       - 美国(https://www.fuye.fun免费节点分享)_4
       - 美国(https://www.fuye.fun免费节点分享)_5
       - 美国(https://www.fuye.fun免费节点分享)_7
@@ -420,32 +438,41 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - _US_美国
       - _US_美国->🇨🇦_CA_加拿大
-      - _US_美国_1
       - _US_美国->🇨🇦_CA_加拿大_1
       - _US_美国->🇨🇦_CA_加拿大_2
-      - _US_美国->🇨🇦_CA_加拿大_3
-      - _TR_土耳其
+      - _US_美国_1
       - _US_美国_2
+      - _US_美国->🇨🇦_CA_加拿大_3
       - _US_美国->🇨🇦_CA_加拿大_4
       - _US_美国->🇨🇦_CA_加拿大_5
       - _US_美国->🇨🇦_CA_加拿大_6
       - _US_美国->🇨🇦_CA_加拿大_7
-      - _US_美国->🇫🇷_FR_法国
+      - _US_美国_5
+      - _US_美国_6
       - _US_美国->🇨🇦_CA_加拿大_8
       - _US_美国->🇨🇦_CA_加拿大_9
+      - _US_美国_7
       - _US_美国->🇨🇦_CA_加拿大_10
-      - _NL_荷兰->🇺🇸_US_美国
-      - _US_美国_5
+      - _US_美国_8
+      - _US_美国->🇨🇦_CA_加拿大_11
+      - _US_美国->🇨🇦_CA_加拿大_12
+      - _US_美国->🇨🇦_CA_加拿大_13
+      - _US_美国->🇨🇦_CA_加拿大_14
+      - _US_美国_9
+      - _US_美国->🇨🇦_CA_加拿大_15
+      - _US_美国->🇨🇦_CA_加拿大_16
+      - _US_美国->🇨🇦_CA_加拿大_17
       - _US_美国->🇨🇦_CA_加拿大_1 2
       - _US_美国->🇫🇷_FR_法国_1
       - _US_美国_3
       - _US_美国_4
       - _US_美国->🇨🇦_CA_加拿大_2 2
-      - _US_美国_6
-      - _US_美国_7
+      - _US_美国_6 2
+      - _US_美国_7 2
       - _US_美国->🇫🇷_FR_法国_2
-      - _US_美国_8
+      - _US_美国_8 2
       - _US_美国->🇨🇦_CA_加拿大_3 2
       - _US_美国_10
       - _US_美国->🇨🇦_CA_加拿大_4 2
@@ -460,17 +487,17 @@ proxy-groups:
       - _US_美国_17
       - _US_美国->🇨🇦_CA_加拿大_9 2
       - _US_美国->🇨🇦_CA_加拿大_10 2
-      - _US_美国->🇨🇦_CA_加拿大_11
-      - _US_美国->🇨🇦_CA_加拿大_12
-      - _US_美国->🇨🇦_CA_加拿大_13
-      - _US_美国->🇨🇦_CA_加拿大_14
+      - _US_美国->🇨🇦_CA_加拿大_11 2
+      - _US_美国->🇨🇦_CA_加拿大_12 2
+      - _US_美国->🇨🇦_CA_加拿大_13 2
+      - _US_美国->🇨🇦_CA_加拿大_14 2
       - _US_美国_19
-      - _US_美国->🇨🇦_CA_加拿大_15
+      - _US_美国->🇨🇦_CA_加拿大_15 2
       - _US_美国_22
       - _US_美国_23
       - _US_美国_24
-      - _US_美国->🇨🇦_CA_加拿大_16
-      - _US_美国->🇨🇦_CA_加拿大_17
+      - _US_美国->🇨🇦_CA_加拿大_16 2
+      - _US_美国->🇨🇦_CA_加拿大_17 2
       - 美国(https://www.fuye.fun免费节点分享)_4
       - 美国(https://www.fuye.fun免费节点分享)_5
       - 美国(https://www.fuye.fun免费节点分享)_7
@@ -628,32 +655,41 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - _US_美国
       - _US_美国->🇨🇦_CA_加拿大
-      - _US_美国_1
       - _US_美国->🇨🇦_CA_加拿大_1
       - _US_美国->🇨🇦_CA_加拿大_2
-      - _US_美国->🇨🇦_CA_加拿大_3
-      - _TR_土耳其
+      - _US_美国_1
       - _US_美国_2
+      - _US_美国->🇨🇦_CA_加拿大_3
       - _US_美国->🇨🇦_CA_加拿大_4
       - _US_美国->🇨🇦_CA_加拿大_5
       - _US_美国->🇨🇦_CA_加拿大_6
       - _US_美国->🇨🇦_CA_加拿大_7
-      - _US_美国->🇫🇷_FR_法国
+      - _US_美国_5
+      - _US_美国_6
       - _US_美国->🇨🇦_CA_加拿大_8
       - _US_美国->🇨🇦_CA_加拿大_9
+      - _US_美国_7
       - _US_美国->🇨🇦_CA_加拿大_10
-      - _NL_荷兰->🇺🇸_US_美国
-      - _US_美国_5
+      - _US_美国_8
+      - _US_美国->🇨🇦_CA_加拿大_11
+      - _US_美国->🇨🇦_CA_加拿大_12
+      - _US_美国->🇨🇦_CA_加拿大_13
+      - _US_美国->🇨🇦_CA_加拿大_14
+      - _US_美国_9
+      - _US_美国->🇨🇦_CA_加拿大_15
+      - _US_美国->🇨🇦_CA_加拿大_16
+      - _US_美国->🇨🇦_CA_加拿大_17
       - _US_美国->🇨🇦_CA_加拿大_1 2
       - _US_美国->🇫🇷_FR_法国_1
       - _US_美国_3
       - _US_美国_4
       - _US_美国->🇨🇦_CA_加拿大_2 2
-      - _US_美国_6
-      - _US_美国_7
+      - _US_美国_6 2
+      - _US_美国_7 2
       - _US_美国->🇫🇷_FR_法国_2
-      - _US_美国_8
+      - _US_美国_8 2
       - _US_美国->🇨🇦_CA_加拿大_3 2
       - _US_美国_10
       - _US_美国->🇨🇦_CA_加拿大_4 2
@@ -668,17 +704,17 @@ proxy-groups:
       - _US_美国_17
       - _US_美国->🇨🇦_CA_加拿大_9 2
       - _US_美国->🇨🇦_CA_加拿大_10 2
-      - _US_美国->🇨🇦_CA_加拿大_11
-      - _US_美国->🇨🇦_CA_加拿大_12
-      - _US_美国->🇨🇦_CA_加拿大_13
-      - _US_美国->🇨🇦_CA_加拿大_14
+      - _US_美国->🇨🇦_CA_加拿大_11 2
+      - _US_美国->🇨🇦_CA_加拿大_12 2
+      - _US_美国->🇨🇦_CA_加拿大_13 2
+      - _US_美国->🇨🇦_CA_加拿大_14 2
       - _US_美国_19
-      - _US_美国->🇨🇦_CA_加拿大_15
+      - _US_美国->🇨🇦_CA_加拿大_15 2
       - _US_美国_22
       - _US_美国_23
       - _US_美国_24
-      - _US_美国->🇨🇦_CA_加拿大_16
-      - _US_美国->🇨🇦_CA_加拿大_17
+      - _US_美国->🇨🇦_CA_加拿大_16 2
+      - _US_美国->🇨🇦_CA_加拿大_17 2
       - 美国(https://www.fuye.fun免费节点分享)_4
       - 美国(https://www.fuye.fun免费节点分享)_5
       - 美国(https://www.fuye.fun免费节点分享)_7
@@ -848,32 +884,41 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - _US_美国
       - _US_美国->🇨🇦_CA_加拿大
-      - _US_美国_1
       - _US_美国->🇨🇦_CA_加拿大_1
       - _US_美国->🇨🇦_CA_加拿大_2
-      - _US_美国->🇨🇦_CA_加拿大_3
-      - _TR_土耳其
+      - _US_美国_1
       - _US_美国_2
+      - _US_美国->🇨🇦_CA_加拿大_3
       - _US_美国->🇨🇦_CA_加拿大_4
       - _US_美国->🇨🇦_CA_加拿大_5
       - _US_美国->🇨🇦_CA_加拿大_6
       - _US_美国->🇨🇦_CA_加拿大_7
-      - _US_美国->🇫🇷_FR_法国
+      - _US_美国_5
+      - _US_美国_6
       - _US_美国->🇨🇦_CA_加拿大_8
       - _US_美国->🇨🇦_CA_加拿大_9
+      - _US_美国_7
       - _US_美国->🇨🇦_CA_加拿大_10
-      - _NL_荷兰->🇺🇸_US_美国
-      - _US_美国_5
+      - _US_美国_8
+      - _US_美国->🇨🇦_CA_加拿大_11
+      - _US_美国->🇨🇦_CA_加拿大_12
+      - _US_美国->🇨🇦_CA_加拿大_13
+      - _US_美国->🇨🇦_CA_加拿大_14
+      - _US_美国_9
+      - _US_美国->🇨🇦_CA_加拿大_15
+      - _US_美国->🇨🇦_CA_加拿大_16
+      - _US_美国->🇨🇦_CA_加拿大_17
       - _US_美国->🇨🇦_CA_加拿大_1 2
       - _US_美国->🇫🇷_FR_法国_1
       - _US_美国_3
       - _US_美国_4
       - _US_美国->🇨🇦_CA_加拿大_2 2
-      - _US_美国_6
-      - _US_美国_7
+      - _US_美国_6 2
+      - _US_美国_7 2
       - _US_美国->🇫🇷_FR_法国_2
-      - _US_美国_8
+      - _US_美国_8 2
       - _US_美国->🇨🇦_CA_加拿大_3 2
       - _US_美国_10
       - _US_美国->🇨🇦_CA_加拿大_4 2
@@ -888,17 +933,17 @@ proxy-groups:
       - _US_美国_17
       - _US_美国->🇨🇦_CA_加拿大_9 2
       - _US_美国->🇨🇦_CA_加拿大_10 2
-      - _US_美国->🇨🇦_CA_加拿大_11
-      - _US_美国->🇨🇦_CA_加拿大_12
-      - _US_美国->🇨🇦_CA_加拿大_13
-      - _US_美国->🇨🇦_CA_加拿大_14
+      - _US_美国->🇨🇦_CA_加拿大_11 2
+      - _US_美国->🇨🇦_CA_加拿大_12 2
+      - _US_美国->🇨🇦_CA_加拿大_13 2
+      - _US_美国->🇨🇦_CA_加拿大_14 2
       - _US_美国_19
-      - _US_美国->🇨🇦_CA_加拿大_15
+      - _US_美国->🇨🇦_CA_加拿大_15 2
       - _US_美国_22
       - _US_美国_23
       - _US_美国_24
-      - _US_美国->🇨🇦_CA_加拿大_16
-      - _US_美国->🇨🇦_CA_加拿大_17
+      - _US_美国->🇨🇦_CA_加拿大_16 2
+      - _US_美国->🇨🇦_CA_加拿大_17 2
       - 美国(https://www.fuye.fun免费节点分享)_4
       - 美国(https://www.fuye.fun免费节点分享)_5
       - 美国(https://www.fuye.fun免费节点分享)_7
@@ -1060,32 +1105,41 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - _US_美国
       - _US_美国->🇨🇦_CA_加拿大
-      - _US_美国_1
       - _US_美国->🇨🇦_CA_加拿大_1
       - _US_美国->🇨🇦_CA_加拿大_2
-      - _US_美国->🇨🇦_CA_加拿大_3
-      - _TR_土耳其
+      - _US_美国_1
       - _US_美国_2
+      - _US_美国->🇨🇦_CA_加拿大_3
       - _US_美国->🇨🇦_CA_加拿大_4
       - _US_美国->🇨🇦_CA_加拿大_5
       - _US_美国->🇨🇦_CA_加拿大_6
       - _US_美国->🇨🇦_CA_加拿大_7
-      - _US_美国->🇫🇷_FR_法国
+      - _US_美国_5
+      - _US_美国_6
       - _US_美国->🇨🇦_CA_加拿大_8
       - _US_美国->🇨🇦_CA_加拿大_9
+      - _US_美国_7
       - _US_美国->🇨🇦_CA_加拿大_10
-      - _NL_荷兰->🇺🇸_US_美国
-      - _US_美国_5
+      - _US_美国_8
+      - _US_美国->🇨🇦_CA_加拿大_11
+      - _US_美国->🇨🇦_CA_加拿大_12
+      - _US_美国->🇨🇦_CA_加拿大_13
+      - _US_美国->🇨🇦_CA_加拿大_14
+      - _US_美国_9
+      - _US_美国->🇨🇦_CA_加拿大_15
+      - _US_美国->🇨🇦_CA_加拿大_16
+      - _US_美国->🇨🇦_CA_加拿大_17
       - _US_美国->🇨🇦_CA_加拿大_1 2
       - _US_美国->🇫🇷_FR_法国_1
       - _US_美国_3
       - _US_美国_4
       - _US_美国->🇨🇦_CA_加拿大_2 2
-      - _US_美国_6
-      - _US_美国_7
+      - _US_美国_6 2
+      - _US_美国_7 2
       - _US_美国->🇫🇷_FR_法国_2
-      - _US_美国_8
+      - _US_美国_8 2
       - _US_美国->🇨🇦_CA_加拿大_3 2
       - _US_美国_10
       - _US_美国->🇨🇦_CA_加拿大_4 2
@@ -1100,17 +1154,17 @@ proxy-groups:
       - _US_美国_17
       - _US_美国->🇨🇦_CA_加拿大_9 2
       - _US_美国->🇨🇦_CA_加拿大_10 2
-      - _US_美国->🇨🇦_CA_加拿大_11
-      - _US_美国->🇨🇦_CA_加拿大_12
-      - _US_美国->🇨🇦_CA_加拿大_13
-      - _US_美国->🇨🇦_CA_加拿大_14
+      - _US_美国->🇨🇦_CA_加拿大_11 2
+      - _US_美国->🇨🇦_CA_加拿大_12 2
+      - _US_美国->🇨🇦_CA_加拿大_13 2
+      - _US_美国->🇨🇦_CA_加拿大_14 2
       - _US_美国_19
-      - _US_美国->🇨🇦_CA_加拿大_15
+      - _US_美国->🇨🇦_CA_加拿大_15 2
       - _US_美国_22
       - _US_美国_23
       - _US_美国_24
-      - _US_美国->🇨🇦_CA_加拿大_16
-      - _US_美国->🇨🇦_CA_加拿大_17
+      - _US_美国->🇨🇦_CA_加拿大_16 2
+      - _US_美国->🇨🇦_CA_加拿大_17 2
       - 美国(https://www.fuye.fun免费节点分享)_4
       - 美国(https://www.fuye.fun免费节点分享)_5
       - 美国(https://www.fuye.fun免费节点分享)_7
@@ -1267,32 +1321,41 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - _US_美国
       - _US_美国->🇨🇦_CA_加拿大
-      - _US_美国_1
       - _US_美国->🇨🇦_CA_加拿大_1
       - _US_美国->🇨🇦_CA_加拿大_2
-      - _US_美国->🇨🇦_CA_加拿大_3
-      - _TR_土耳其
+      - _US_美国_1
       - _US_美国_2
+      - _US_美国->🇨🇦_CA_加拿大_3
       - _US_美国->🇨🇦_CA_加拿大_4
       - _US_美国->🇨🇦_CA_加拿大_5
       - _US_美国->🇨🇦_CA_加拿大_6
       - _US_美国->🇨🇦_CA_加拿大_7
-      - _US_美国->🇫🇷_FR_法国
+      - _US_美国_5
+      - _US_美国_6
       - _US_美国->🇨🇦_CA_加拿大_8
       - _US_美国->🇨🇦_CA_加拿大_9
+      - _US_美国_7
       - _US_美国->🇨🇦_CA_加拿大_10
-      - _NL_荷兰->🇺🇸_US_美国
-      - _US_美国_5
+      - _US_美国_8
+      - _US_美国->🇨🇦_CA_加拿大_11
+      - _US_美国->🇨🇦_CA_加拿大_12
+      - _US_美国->🇨🇦_CA_加拿大_13
+      - _US_美国->🇨🇦_CA_加拿大_14
+      - _US_美国_9
+      - _US_美国->🇨🇦_CA_加拿大_15
+      - _US_美国->🇨🇦_CA_加拿大_16
+      - _US_美国->🇨🇦_CA_加拿大_17
       - _US_美国->🇨🇦_CA_加拿大_1 2
       - _US_美国->🇫🇷_FR_法国_1
       - _US_美国_3
       - _US_美国_4
       - _US_美国->🇨🇦_CA_加拿大_2 2
-      - _US_美国_6
-      - _US_美国_7
+      - _US_美国_6 2
+      - _US_美国_7 2
       - _US_美国->🇫🇷_FR_法国_2
-      - _US_美国_8
+      - _US_美国_8 2
       - _US_美国->🇨🇦_CA_加拿大_3 2
       - _US_美国_10
       - _US_美国->🇨🇦_CA_加拿大_4 2
@@ -1307,17 +1370,17 @@ proxy-groups:
       - _US_美国_17
       - _US_美国->🇨🇦_CA_加拿大_9 2
       - _US_美国->🇨🇦_CA_加拿大_10 2
-      - _US_美国->🇨🇦_CA_加拿大_11
-      - _US_美国->🇨🇦_CA_加拿大_12
-      - _US_美国->🇨🇦_CA_加拿大_13
-      - _US_美国->🇨🇦_CA_加拿大_14
+      - _US_美国->🇨🇦_CA_加拿大_11 2
+      - _US_美国->🇨🇦_CA_加拿大_12 2
+      - _US_美国->🇨🇦_CA_加拿大_13 2
+      - _US_美国->🇨🇦_CA_加拿大_14 2
       - _US_美国_19
-      - _US_美国->🇨🇦_CA_加拿大_15
+      - _US_美国->🇨🇦_CA_加拿大_15 2
       - _US_美国_22
       - _US_美国_23
       - _US_美国_24
-      - _US_美国->🇨🇦_CA_加拿大_16
-      - _US_美国->🇨🇦_CA_加拿大_17
+      - _US_美国->🇨🇦_CA_加拿大_16 2
+      - _US_美国->🇨🇦_CA_加拿大_17 2
       - 美国(https://www.fuye.fun免费节点分享)_4
       - 美国(https://www.fuye.fun免费节点分享)_5
       - 美国(https://www.fuye.fun免费节点分享)_7
@@ -1475,32 +1538,41 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - _US_美国
       - _US_美国->🇨🇦_CA_加拿大
-      - _US_美国_1
       - _US_美国->🇨🇦_CA_加拿大_1
       - _US_美国->🇨🇦_CA_加拿大_2
-      - _US_美国->🇨🇦_CA_加拿大_3
-      - _TR_土耳其
+      - _US_美国_1
       - _US_美国_2
+      - _US_美国->🇨🇦_CA_加拿大_3
       - _US_美国->🇨🇦_CA_加拿大_4
       - _US_美国->🇨🇦_CA_加拿大_5
       - _US_美国->🇨🇦_CA_加拿大_6
       - _US_美国->🇨🇦_CA_加拿大_7
-      - _US_美国->🇫🇷_FR_法国
+      - _US_美国_5
+      - _US_美国_6
       - _US_美国->🇨🇦_CA_加拿大_8
       - _US_美国->🇨🇦_CA_加拿大_9
+      - _US_美国_7
       - _US_美国->🇨🇦_CA_加拿大_10
-      - _NL_荷兰->🇺🇸_US_美国
-      - _US_美国_5
+      - _US_美国_8
+      - _US_美国->🇨🇦_CA_加拿大_11
+      - _US_美国->🇨🇦_CA_加拿大_12
+      - _US_美国->🇨🇦_CA_加拿大_13
+      - _US_美国->🇨🇦_CA_加拿大_14
+      - _US_美国_9
+      - _US_美国->🇨🇦_CA_加拿大_15
+      - _US_美国->🇨🇦_CA_加拿大_16
+      - _US_美国->🇨🇦_CA_加拿大_17
       - _US_美国->🇨🇦_CA_加拿大_1 2
       - _US_美国->🇫🇷_FR_法国_1
       - _US_美国_3
       - _US_美国_4
       - _US_美国->🇨🇦_CA_加拿大_2 2
-      - _US_美国_6
-      - _US_美国_7
+      - _US_美国_6 2
+      - _US_美国_7 2
       - _US_美国->🇫🇷_FR_法国_2
-      - _US_美国_8
+      - _US_美国_8 2
       - _US_美国->🇨🇦_CA_加拿大_3 2
       - _US_美国_10
       - _US_美国->🇨🇦_CA_加拿大_4 2
@@ -1515,17 +1587,17 @@ proxy-groups:
       - _US_美国_17
       - _US_美国->🇨🇦_CA_加拿大_9 2
       - _US_美国->🇨🇦_CA_加拿大_10 2
-      - _US_美国->🇨🇦_CA_加拿大_11
-      - _US_美国->🇨🇦_CA_加拿大_12
-      - _US_美国->🇨🇦_CA_加拿大_13
-      - _US_美国->🇨🇦_CA_加拿大_14
+      - _US_美国->🇨🇦_CA_加拿大_11 2
+      - _US_美国->🇨🇦_CA_加拿大_12 2
+      - _US_美国->🇨🇦_CA_加拿大_13 2
+      - _US_美国->🇨🇦_CA_加拿大_14 2
       - _US_美国_19
-      - _US_美国->🇨🇦_CA_加拿大_15
+      - _US_美国->🇨🇦_CA_加拿大_15 2
       - _US_美国_22
       - _US_美国_23
       - _US_美国_24
-      - _US_美国->🇨🇦_CA_加拿大_16
-      - _US_美国->🇨🇦_CA_加拿大_17
+      - _US_美国->🇨🇦_CA_加拿大_16 2
+      - _US_美国->🇨🇦_CA_加拿大_17 2
       - 美国(https://www.fuye.fun免费节点分享)_4
       - 美国(https://www.fuye.fun免费节点分享)_5
       - 美国(https://www.fuye.fun免费节点分享)_7
@@ -1692,32 +1764,41 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - _US_美国
       - _US_美国->🇨🇦_CA_加拿大
-      - _US_美国_1
       - _US_美国->🇨🇦_CA_加拿大_1
       - _US_美国->🇨🇦_CA_加拿大_2
-      - _US_美国->🇨🇦_CA_加拿大_3
-      - _TR_土耳其
+      - _US_美国_1
       - _US_美国_2
+      - _US_美国->🇨🇦_CA_加拿大_3
       - _US_美国->🇨🇦_CA_加拿大_4
       - _US_美国->🇨🇦_CA_加拿大_5
       - _US_美国->🇨🇦_CA_加拿大_6
       - _US_美国->🇨🇦_CA_加拿大_7
-      - _US_美国->🇫🇷_FR_法国
+      - _US_美国_5
+      - _US_美国_6
       - _US_美国->🇨🇦_CA_加拿大_8
       - _US_美国->🇨🇦_CA_加拿大_9
+      - _US_美国_7
       - _US_美国->🇨🇦_CA_加拿大_10
-      - _NL_荷兰->🇺🇸_US_美国
-      - _US_美国_5
+      - _US_美国_8
+      - _US_美国->🇨🇦_CA_加拿大_11
+      - _US_美国->🇨🇦_CA_加拿大_12
+      - _US_美国->🇨🇦_CA_加拿大_13
+      - _US_美国->🇨🇦_CA_加拿大_14
+      - _US_美国_9
+      - _US_美国->🇨🇦_CA_加拿大_15
+      - _US_美国->🇨🇦_CA_加拿大_16
+      - _US_美国->🇨🇦_CA_加拿大_17
       - _US_美国->🇨🇦_CA_加拿大_1 2
       - _US_美国->🇫🇷_FR_法国_1
       - _US_美国_3
       - _US_美国_4
       - _US_美国->🇨🇦_CA_加拿大_2 2
-      - _US_美国_6
-      - _US_美国_7
+      - _US_美国_6 2
+      - _US_美国_7 2
       - _US_美国->🇫🇷_FR_法国_2
-      - _US_美国_8
+      - _US_美国_8 2
       - _US_美国->🇨🇦_CA_加拿大_3 2
       - _US_美国_10
       - _US_美国->🇨🇦_CA_加拿大_4 2
@@ -1732,17 +1813,17 @@ proxy-groups:
       - _US_美国_17
       - _US_美国->🇨🇦_CA_加拿大_9 2
       - _US_美国->🇨🇦_CA_加拿大_10 2
-      - _US_美国->🇨🇦_CA_加拿大_11
-      - _US_美国->🇨🇦_CA_加拿大_12
-      - _US_美国->🇨🇦_CA_加拿大_13
-      - _US_美国->🇨🇦_CA_加拿大_14
+      - _US_美国->🇨🇦_CA_加拿大_11 2
+      - _US_美国->🇨🇦_CA_加拿大_12 2
+      - _US_美国->🇨🇦_CA_加拿大_13 2
+      - _US_美国->🇨🇦_CA_加拿大_14 2
       - _US_美国_19
-      - _US_美国->🇨🇦_CA_加拿大_15
+      - _US_美国->🇨🇦_CA_加拿大_15 2
       - _US_美国_22
       - _US_美国_23
       - _US_美国_24
-      - _US_美国->🇨🇦_CA_加拿大_16
-      - _US_美国->🇨🇦_CA_加拿大_17
+      - _US_美国->🇨🇦_CA_加拿大_16 2
+      - _US_美国->🇨🇦_CA_加拿大_17 2
       - 美国(https://www.fuye.fun免费节点分享)_4
       - 美国(https://www.fuye.fun免费节点分享)_5
       - 美国(https://www.fuye.fun免费节点分享)_7
