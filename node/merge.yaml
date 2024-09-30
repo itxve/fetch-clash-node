@@ -5,36 +5,40 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _US_美国, server: 172.67.75.194, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
-  - {name: _US_美国_1, server: 23.157.40.120, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _US_美国_2, server: 104.19.55.49, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
-  - {name: _US_美国_3, server: 104.19.21.230, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
-  - {name: _US_美国_4, server: 23.157.40.120, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: _US_美国->🇨🇦_CA_加拿大, server: 172.64.166.32, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
-  - {name: _US_美国->🇨🇦_CA_加拿大_1, server: 104.26.0.50, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
-  - {name: _US_美国->🇨🇦_CA_加拿大_2, server: 104.16.148.244, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
-  - {name: _US_美国_8, server: 23.157.40.120, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _US_美国->🇨🇦_CA_加拿大_3, server: 104.19.47.79, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
-  - {name: _US_美国_9, server: 104.18.14.19, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
-  - {name: _US_美国->🇨🇦_CA_加拿大_4, server: 104.19.45.11, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
-  - {name: _US_美国_10, server: 69.50.95.103, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _US_美国->🇨🇦_CA_加拿大_5, server: 104.19.46.59, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国, server: 122.195.189.15, port: 10706, type: ss, cipher: chacha20-ietf-poly1305, password: dd29d7ad-5fda-4f64-a57e-716ca6010e65, udp: true}
-  - {name: _US_美国_13, server: 162.159.140.45, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
-  - {name: _IR_伊朗->🇨🇦_CA_加拿大, server: 87.107.162.243, port: 25105, type: vmess, uuid: 8769d5d8-d611-47bb-9d20-2980a47c2b02, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: _US_美国_14, server: 23.157.40.120, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _US_美国_15, server: 104.19.123.11, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
+  - {name: _CN_中国, server: 122.195.189.15, port: 10715, type: ss, cipher: chacha20-ietf-poly1305, password: dd29d7ad-5fda-4f64-a57e-716ca6010e65, udp: true}
+  - {name: _US_美国, server: 69.50.95.53, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _US_美国->🇨🇦_CA_加拿大, server: 104.19.46.59, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
+  - {name: _US_美国->🇨🇦_CA_加拿大_1, server: 104.19.45.50, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
+  - {name: _US_美国->🇨🇦_CA_加拿大_2, server: 104.19.47.22, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
+  - {name: _US_美国_1, server: 69.50.95.53, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国_2, server: 172.67.71.187, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
+  - {name: _US_美国_3, server: 104.26.5.57, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
+  - {name: _US_美国->🇨🇦_CA_加拿大_3, server: 172.64.166.28, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
+  - {name: _CN_中国->🇸🇪_SE_瑞典, server: 122.195.189.15, port: 10714, type: ss, cipher: chacha20-ietf-poly1305, password: dd29d7ad-5fda-4f64-a57e-716ca6010e65, udp: true}
+  - {name: _US_美国_4, server: 69.50.95.53, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_美国_5, server: 142.202.49.122, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_美国->🇩🇪_DE_德国, server: 104.16.60.8, port: 2082, type: vmess, uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ivideos.sbs/linkws}, udp: true}
+  - {name: _US_美国_6, server: 38.86.135.117, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_美国_7, server: 142.202.49.122, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _DE_德国, server: 18.184.143.2, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_8, server: 104.26.5.66, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
+  - {name: _US_美国_9, server: 38.110.1.46, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国_10, server: 104.26.9.156, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
+  - {name: _US_美国->🇨🇦_CA_加拿大_4, server: 104.19.32.46, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
+  - {name: _US_美国_11, server: 38.110.1.12, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国->🇨🇦_CA_加拿大_5, server: 172.64.198.249, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
+  - {name: _US_美国_12, server: 104.16.67.38, port: 2086, type: vmess, uuid: 950db6aa-4926-4616-816e-ec0312dcb87b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /jahfkjha.cfd/linkws}, udp: true}
   - {name: _MD_摩尔多瓦, server: 185.93.173.218, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: _US_美国_1 2, server: 169.197.142.216, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: _US_美国_2 2, server: 38.86.135.117, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: _US_美国_3 2, server: 69.50.95.53, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: _US_美国_4 2, server: skk.moe, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: skk.moe}}, udp: true}
-  - {name: _US_美国_5, server: 104.19.123.11, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
+  - {name: _US_美国_5 2, server: 104.19.123.11, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
   - {name: _US_美国->🇨🇦_CA_加拿大_1 2, server: 104.19.47.65, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
-  - {name: _US_美国_6, server: 104.16.60.8, port: 80, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /obdii.cfd/linkws}, udp: true}
+  - {name: _US_美国_6 2, server: 104.16.60.8, port: 80, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /obdii.cfd/linkws}, udp: true}
   - {name: _US_美国->🇨🇦_CA_加拿大_2 2, server: 104.19.57.4, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
   - {name: _US_美国->🇨🇦_CA_加拿大_3 2, server: 172.64.166.8, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
-  - {name: _US_美国_7, server: 172.67.75.194, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
+  - {name: _US_美国_7 2, server: 172.67.75.194, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
   - {name: _US_美国->🇨🇦_CA_加拿大_4 2, server: 104.19.45.17, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
   - {name: _US_美国->🇨🇦_CA_加拿大_5 2, server: 104.26.0.56, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
   - {name: _US_美国_8 2, server: icook.tw, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: icook.tw}}, udp: true}
@@ -43,19 +47,19 @@ proxies:
   - {name: _US_美国->🇨🇦_CA_加拿大_8, server: 172.64.166.16, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
   - {name: _US_美国_9 2, server: 142.202.49.84, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: _US_美国_10 2, server: 38.86.135.117, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _US_美国->🇩🇪_DE_德国, server: 104.17.215.18, port: 443, type: trojan, password: 4732adfa16c6450bbef87264e41332db, sni: jobscareerforstudent.com, skip-cert-verify: true, network: ws, ws-opts: {path: /6b777a91, headers: {Host: jobscareerforstudent.com}}, udp: true}
+  - {name: _US_美国->🇩🇪_DE_德国 2, server: 104.17.215.18, port: 443, type: trojan, password: 4732adfa16c6450bbef87264e41332db, sni: jobscareerforstudent.com, skip-cert-verify: true, network: ws, ws-opts: {path: /6b777a91, headers: {Host: jobscareerforstudent.com}}, udp: true}
   - {name: _US_美国->🇨🇦_CA_加拿大_9, server: 172.64.175.88, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
-  - {name: _US_美国_11, server: 69.50.95.53, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _US_美国_12, server: 104.22.37.243, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
-  - {name: _US_美国_13 2, server: 38.86.135.117, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _US_美国_14 2, server: www.visa.com, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: www.visa.com}}, udp: true}
-  - {name: _US_美国_15 2, server: 169.197.142.216, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国_11 2, server: 69.50.95.53, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _US_美国_12 2, server: 104.22.37.243, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
+  - {name: _US_美国_13, server: 38.86.135.117, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _US_美国_14, server: www.visa.com, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: www.visa.com}}, udp: true}
+  - {name: _US_美国_15, server: 169.197.142.216, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: _US_美国->🇨🇦_CA_加拿大_10, server: 172.64.167.5, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
   - {name: _SE_瑞典->🇺🇸_US_美国, server: 185.146.173.59, port: 80, type: vmess, uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /glweidf.cfd/linkws}, udp: true}
   - {name: _US_美国->🇨🇦_CA_加拿大_11, server: 104.26.0.50, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
   - {name: _US_美国_16, server: 69.50.95.53, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
   - {name: _US_美国->🇨🇦_CA_加拿大_12, server: 104.19.45.31, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
-  - {name: _DE_德国, server: 18.184.143.2, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+  - {name: _DE_德国 2, server: 18.184.143.2, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
   - {name: _US_美国_17, server: 142.202.49.122, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
   - {name: _US_美国_18, server: singapore.com, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: singapore.com}}, udp: true}
   - {name: _US_美国_19, server: 69.50.95.53, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
@@ -69,7 +73,7 @@ proxies:
   - {name: _US_美国_22, server: 69.50.95.53, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
   - {name: _US_美国_23, server: 38.86.135.117, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: _US_美国->🇨🇦_CA_加拿大_16, server: 172.64.167.10, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国 2, server: yidong1.liulangdiqiu.life, port: 10709, type: ss, cipher: chacha20-ietf-poly1305, password: dd29d7ad-5fda-4f64-a57e-716ca6010e65, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国, server: yidong1.liulangdiqiu.life, port: 10709, type: ss, cipher: chacha20-ietf-poly1305, password: dd29d7ad-5fda-4f64-a57e-716ca6010e65, udp: true}
   - {name: _US_美国->🇨🇦_CA_加拿大_17, server: 172.64.167.35, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
   - {name: 美国(yudou66.com 玉豆免费节点)_4, server: sg4.mhw7e2.online, port: 20027, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
   - {name: 美国(yudou66.com 玉豆免费节点)_5, server: hk2.mhw7e2.online, port: 20017, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
@@ -232,36 +236,40 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - _CN_中国
       - _US_美国
-      - _US_美国_1
-      - _US_美国_2
-      - _US_美国_3
-      - _US_美国_4
       - _US_美国->🇨🇦_CA_加拿大
       - _US_美国->🇨🇦_CA_加拿大_1
       - _US_美国->🇨🇦_CA_加拿大_2
-      - _US_美国_8
+      - _US_美国_1
+      - _US_美国_2
+      - _US_美国_3
       - _US_美国->🇨🇦_CA_加拿大_3
+      - _CN_中国->🇸🇪_SE_瑞典
+      - _US_美国_4
+      - _US_美国_5
+      - _US_美国->🇩🇪_DE_德国
+      - _US_美国_6
+      - _US_美国_7
+      - _DE_德国
+      - _US_美国_8
       - _US_美国_9
-      - _US_美国->🇨🇦_CA_加拿大_4
       - _US_美国_10
+      - _US_美国->🇨🇦_CA_加拿大_4
+      - _US_美国_11
       - _US_美国->🇨🇦_CA_加拿大_5
-      - _CN_中国->🇺🇸_US_美国
-      - _US_美国_13
-      - _IR_伊朗->🇨🇦_CA_加拿大
-      - _US_美国_14
-      - _US_美国_15
+      - _US_美国_12
       - _MD_摩尔多瓦
       - _US_美国_1 2
       - _US_美国_2 2
       - _US_美国_3 2
       - _US_美国_4 2
-      - _US_美国_5
+      - _US_美国_5 2
       - _US_美国->🇨🇦_CA_加拿大_1 2
-      - _US_美国_6
+      - _US_美国_6 2
       - _US_美国->🇨🇦_CA_加拿大_2 2
       - _US_美国->🇨🇦_CA_加拿大_3 2
-      - _US_美国_7
+      - _US_美国_7 2
       - _US_美国->🇨🇦_CA_加拿大_4 2
       - _US_美国->🇨🇦_CA_加拿大_5 2
       - _US_美国_8 2
@@ -270,19 +278,19 @@ proxy-groups:
       - _US_美国->🇨🇦_CA_加拿大_8
       - _US_美国_9 2
       - _US_美国_10 2
-      - _US_美国->🇩🇪_DE_德国
+      - _US_美国->🇩🇪_DE_德国 2
       - _US_美国->🇨🇦_CA_加拿大_9
-      - _US_美国_11
-      - _US_美国_12
-      - _US_美国_13 2
-      - _US_美国_14 2
-      - _US_美国_15 2
+      - _US_美国_11 2
+      - _US_美国_12 2
+      - _US_美国_13
+      - _US_美国_14
+      - _US_美国_15
       - _US_美国->🇨🇦_CA_加拿大_10
       - _SE_瑞典->🇺🇸_US_美国
       - _US_美国->🇨🇦_CA_加拿大_11
       - _US_美国_16
       - _US_美国->🇨🇦_CA_加拿大_12
-      - _DE_德国
+      - _DE_德国 2
       - _US_美国_17
       - _US_美国_18
       - _US_美国_19
@@ -296,7 +304,7 @@ proxy-groups:
       - _US_美国_22
       - _US_美国_23
       - _US_美国->🇨🇦_CA_加拿大_16
-      - _CN_中国->🇺🇸_US_美国 2
+      - _CN_中国->🇺🇸_US_美国
       - _US_美国->🇨🇦_CA_加拿大_17
       - 美国(yudou66.com 玉豆免费节点)_4
       - 美国(yudou66.com 玉豆免费节点)_5
@@ -458,36 +466,40 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - _CN_中国
       - _US_美国
-      - _US_美国_1
-      - _US_美国_2
-      - _US_美国_3
-      - _US_美国_4
       - _US_美国->🇨🇦_CA_加拿大
       - _US_美国->🇨🇦_CA_加拿大_1
       - _US_美国->🇨🇦_CA_加拿大_2
-      - _US_美国_8
+      - _US_美国_1
+      - _US_美国_2
+      - _US_美国_3
       - _US_美国->🇨🇦_CA_加拿大_3
+      - _CN_中国->🇸🇪_SE_瑞典
+      - _US_美国_4
+      - _US_美国_5
+      - _US_美国->🇩🇪_DE_德国
+      - _US_美国_6
+      - _US_美国_7
+      - _DE_德国
+      - _US_美国_8
       - _US_美国_9
-      - _US_美国->🇨🇦_CA_加拿大_4
       - _US_美国_10
+      - _US_美国->🇨🇦_CA_加拿大_4
+      - _US_美国_11
       - _US_美国->🇨🇦_CA_加拿大_5
-      - _CN_中国->🇺🇸_US_美国
-      - _US_美国_13
-      - _IR_伊朗->🇨🇦_CA_加拿大
-      - _US_美国_14
-      - _US_美国_15
+      - _US_美国_12
       - _MD_摩尔多瓦
       - _US_美国_1 2
       - _US_美国_2 2
       - _US_美国_3 2
       - _US_美国_4 2
-      - _US_美国_5
+      - _US_美国_5 2
       - _US_美国->🇨🇦_CA_加拿大_1 2
-      - _US_美国_6
+      - _US_美国_6 2
       - _US_美国->🇨🇦_CA_加拿大_2 2
       - _US_美国->🇨🇦_CA_加拿大_3 2
-      - _US_美国_7
+      - _US_美国_7 2
       - _US_美国->🇨🇦_CA_加拿大_4 2
       - _US_美国->🇨🇦_CA_加拿大_5 2
       - _US_美国_8 2
@@ -496,19 +508,19 @@ proxy-groups:
       - _US_美国->🇨🇦_CA_加拿大_8
       - _US_美国_9 2
       - _US_美国_10 2
-      - _US_美国->🇩🇪_DE_德国
+      - _US_美国->🇩🇪_DE_德国 2
       - _US_美国->🇨🇦_CA_加拿大_9
-      - _US_美国_11
-      - _US_美国_12
-      - _US_美国_13 2
-      - _US_美国_14 2
-      - _US_美国_15 2
+      - _US_美国_11 2
+      - _US_美国_12 2
+      - _US_美国_13
+      - _US_美国_14
+      - _US_美国_15
       - _US_美国->🇨🇦_CA_加拿大_10
       - _SE_瑞典->🇺🇸_US_美国
       - _US_美国->🇨🇦_CA_加拿大_11
       - _US_美国_16
       - _US_美国->🇨🇦_CA_加拿大_12
-      - _DE_德国
+      - _DE_德国 2
       - _US_美国_17
       - _US_美国_18
       - _US_美国_19
@@ -522,7 +534,7 @@ proxy-groups:
       - _US_美国_22
       - _US_美国_23
       - _US_美国->🇨🇦_CA_加拿大_16
-      - _CN_中国->🇺🇸_US_美国 2
+      - _CN_中国->🇺🇸_US_美国
       - _US_美国->🇨🇦_CA_加拿大_17
       - 美国(yudou66.com 玉豆免费节点)_4
       - 美国(yudou66.com 玉豆免费节点)_5
@@ -685,36 +697,40 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - _CN_中国
       - _US_美国
-      - _US_美国_1
-      - _US_美国_2
-      - _US_美国_3
-      - _US_美国_4
       - _US_美国->🇨🇦_CA_加拿大
       - _US_美国->🇨🇦_CA_加拿大_1
       - _US_美国->🇨🇦_CA_加拿大_2
-      - _US_美国_8
+      - _US_美国_1
+      - _US_美国_2
+      - _US_美国_3
       - _US_美国->🇨🇦_CA_加拿大_3
+      - _CN_中国->🇸🇪_SE_瑞典
+      - _US_美国_4
+      - _US_美国_5
+      - _US_美国->🇩🇪_DE_德国
+      - _US_美国_6
+      - _US_美国_7
+      - _DE_德国
+      - _US_美国_8
       - _US_美国_9
-      - _US_美国->🇨🇦_CA_加拿大_4
       - _US_美国_10
+      - _US_美国->🇨🇦_CA_加拿大_4
+      - _US_美国_11
       - _US_美国->🇨🇦_CA_加拿大_5
-      - _CN_中国->🇺🇸_US_美国
-      - _US_美国_13
-      - _IR_伊朗->🇨🇦_CA_加拿大
-      - _US_美国_14
-      - _US_美国_15
+      - _US_美国_12
       - _MD_摩尔多瓦
       - _US_美国_1 2
       - _US_美国_2 2
       - _US_美国_3 2
       - _US_美国_4 2
-      - _US_美国_5
+      - _US_美国_5 2
       - _US_美国->🇨🇦_CA_加拿大_1 2
-      - _US_美国_6
+      - _US_美国_6 2
       - _US_美国->🇨🇦_CA_加拿大_2 2
       - _US_美国->🇨🇦_CA_加拿大_3 2
-      - _US_美国_7
+      - _US_美国_7 2
       - _US_美国->🇨🇦_CA_加拿大_4 2
       - _US_美国->🇨🇦_CA_加拿大_5 2
       - _US_美国_8 2
@@ -723,19 +739,19 @@ proxy-groups:
       - _US_美国->🇨🇦_CA_加拿大_8
       - _US_美国_9 2
       - _US_美国_10 2
-      - _US_美国->🇩🇪_DE_德国
+      - _US_美国->🇩🇪_DE_德国 2
       - _US_美国->🇨🇦_CA_加拿大_9
-      - _US_美国_11
-      - _US_美国_12
-      - _US_美国_13 2
-      - _US_美国_14 2
-      - _US_美国_15 2
+      - _US_美国_11 2
+      - _US_美国_12 2
+      - _US_美国_13
+      - _US_美国_14
+      - _US_美国_15
       - _US_美国->🇨🇦_CA_加拿大_10
       - _SE_瑞典->🇺🇸_US_美国
       - _US_美国->🇨🇦_CA_加拿大_11
       - _US_美国_16
       - _US_美国->🇨🇦_CA_加拿大_12
-      - _DE_德国
+      - _DE_德国 2
       - _US_美国_17
       - _US_美国_18
       - _US_美国_19
@@ -749,7 +765,7 @@ proxy-groups:
       - _US_美国_22
       - _US_美国_23
       - _US_美国->🇨🇦_CA_加拿大_16
-      - _CN_中国->🇺🇸_US_美国 2
+      - _CN_中国->🇺🇸_US_美国
       - _US_美国->🇨🇦_CA_加拿大_17
       - 美国(yudou66.com 玉豆免费节点)_4
       - 美国(yudou66.com 玉豆免费节点)_5
@@ -924,36 +940,40 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - _CN_中国
       - _US_美国
-      - _US_美国_1
-      - _US_美国_2
-      - _US_美国_3
-      - _US_美国_4
       - _US_美国->🇨🇦_CA_加拿大
       - _US_美国->🇨🇦_CA_加拿大_1
       - _US_美国->🇨🇦_CA_加拿大_2
-      - _US_美国_8
+      - _US_美国_1
+      - _US_美国_2
+      - _US_美国_3
       - _US_美国->🇨🇦_CA_加拿大_3
+      - _CN_中国->🇸🇪_SE_瑞典
+      - _US_美国_4
+      - _US_美国_5
+      - _US_美国->🇩🇪_DE_德国
+      - _US_美国_6
+      - _US_美国_7
+      - _DE_德国
+      - _US_美国_8
       - _US_美国_9
-      - _US_美国->🇨🇦_CA_加拿大_4
       - _US_美国_10
+      - _US_美国->🇨🇦_CA_加拿大_4
+      - _US_美国_11
       - _US_美国->🇨🇦_CA_加拿大_5
-      - _CN_中国->🇺🇸_US_美国
-      - _US_美国_13
-      - _IR_伊朗->🇨🇦_CA_加拿大
-      - _US_美国_14
-      - _US_美国_15
+      - _US_美国_12
       - _MD_摩尔多瓦
       - _US_美国_1 2
       - _US_美国_2 2
       - _US_美国_3 2
       - _US_美国_4 2
-      - _US_美国_5
+      - _US_美国_5 2
       - _US_美国->🇨🇦_CA_加拿大_1 2
-      - _US_美国_6
+      - _US_美国_6 2
       - _US_美国->🇨🇦_CA_加拿大_2 2
       - _US_美国->🇨🇦_CA_加拿大_3 2
-      - _US_美国_7
+      - _US_美国_7 2
       - _US_美国->🇨🇦_CA_加拿大_4 2
       - _US_美国->🇨🇦_CA_加拿大_5 2
       - _US_美国_8 2
@@ -962,19 +982,19 @@ proxy-groups:
       - _US_美国->🇨🇦_CA_加拿大_8
       - _US_美国_9 2
       - _US_美国_10 2
-      - _US_美国->🇩🇪_DE_德国
+      - _US_美国->🇩🇪_DE_德国 2
       - _US_美国->🇨🇦_CA_加拿大_9
-      - _US_美国_11
-      - _US_美国_12
-      - _US_美国_13 2
-      - _US_美国_14 2
-      - _US_美国_15 2
+      - _US_美国_11 2
+      - _US_美国_12 2
+      - _US_美国_13
+      - _US_美国_14
+      - _US_美国_15
       - _US_美国->🇨🇦_CA_加拿大_10
       - _SE_瑞典->🇺🇸_US_美国
       - _US_美国->🇨🇦_CA_加拿大_11
       - _US_美国_16
       - _US_美国->🇨🇦_CA_加拿大_12
-      - _DE_德国
+      - _DE_德国 2
       - _US_美国_17
       - _US_美国_18
       - _US_美国_19
@@ -988,7 +1008,7 @@ proxy-groups:
       - _US_美国_22
       - _US_美国_23
       - _US_美国->🇨🇦_CA_加拿大_16
-      - _CN_中国->🇺🇸_US_美国 2
+      - _CN_中国->🇺🇸_US_美国
       - _US_美国->🇨🇦_CA_加拿大_17
       - 美国(yudou66.com 玉豆免费节点)_4
       - 美国(yudou66.com 玉豆免费节点)_5
@@ -1155,36 +1175,40 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - _CN_中国
       - _US_美国
-      - _US_美国_1
-      - _US_美国_2
-      - _US_美国_3
-      - _US_美国_4
       - _US_美国->🇨🇦_CA_加拿大
       - _US_美国->🇨🇦_CA_加拿大_1
       - _US_美国->🇨🇦_CA_加拿大_2
-      - _US_美国_8
+      - _US_美国_1
+      - _US_美国_2
+      - _US_美国_3
       - _US_美国->🇨🇦_CA_加拿大_3
+      - _CN_中国->🇸🇪_SE_瑞典
+      - _US_美国_4
+      - _US_美国_5
+      - _US_美国->🇩🇪_DE_德国
+      - _US_美国_6
+      - _US_美国_7
+      - _DE_德国
+      - _US_美国_8
       - _US_美国_9
-      - _US_美国->🇨🇦_CA_加拿大_4
       - _US_美国_10
+      - _US_美国->🇨🇦_CA_加拿大_4
+      - _US_美国_11
       - _US_美国->🇨🇦_CA_加拿大_5
-      - _CN_中国->🇺🇸_US_美国
-      - _US_美国_13
-      - _IR_伊朗->🇨🇦_CA_加拿大
-      - _US_美国_14
-      - _US_美国_15
+      - _US_美国_12
       - _MD_摩尔多瓦
       - _US_美国_1 2
       - _US_美国_2 2
       - _US_美国_3 2
       - _US_美国_4 2
-      - _US_美国_5
+      - _US_美国_5 2
       - _US_美国->🇨🇦_CA_加拿大_1 2
-      - _US_美国_6
+      - _US_美国_6 2
       - _US_美国->🇨🇦_CA_加拿大_2 2
       - _US_美国->🇨🇦_CA_加拿大_3 2
-      - _US_美国_7
+      - _US_美国_7 2
       - _US_美国->🇨🇦_CA_加拿大_4 2
       - _US_美国->🇨🇦_CA_加拿大_5 2
       - _US_美国_8 2
@@ -1193,19 +1217,19 @@ proxy-groups:
       - _US_美国->🇨🇦_CA_加拿大_8
       - _US_美国_9 2
       - _US_美国_10 2
-      - _US_美国->🇩🇪_DE_德国
+      - _US_美国->🇩🇪_DE_德国 2
       - _US_美国->🇨🇦_CA_加拿大_9
-      - _US_美国_11
-      - _US_美国_12
-      - _US_美国_13 2
-      - _US_美国_14 2
-      - _US_美国_15 2
+      - _US_美国_11 2
+      - _US_美国_12 2
+      - _US_美国_13
+      - _US_美国_14
+      - _US_美国_15
       - _US_美国->🇨🇦_CA_加拿大_10
       - _SE_瑞典->🇺🇸_US_美国
       - _US_美国->🇨🇦_CA_加拿大_11
       - _US_美国_16
       - _US_美国->🇨🇦_CA_加拿大_12
-      - _DE_德国
+      - _DE_德国 2
       - _US_美国_17
       - _US_美国_18
       - _US_美国_19
@@ -1219,7 +1243,7 @@ proxy-groups:
       - _US_美国_22
       - _US_美国_23
       - _US_美国->🇨🇦_CA_加拿大_16
-      - _CN_中国->🇺🇸_US_美国 2
+      - _CN_中国->🇺🇸_US_美国
       - _US_美国->🇨🇦_CA_加拿大_17
       - 美国(yudou66.com 玉豆免费节点)_4
       - 美国(yudou66.com 玉豆免费节点)_5
@@ -1381,36 +1405,40 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - _CN_中国
       - _US_美国
-      - _US_美国_1
-      - _US_美国_2
-      - _US_美国_3
-      - _US_美国_4
       - _US_美国->🇨🇦_CA_加拿大
       - _US_美国->🇨🇦_CA_加拿大_1
       - _US_美国->🇨🇦_CA_加拿大_2
-      - _US_美国_8
+      - _US_美国_1
+      - _US_美国_2
+      - _US_美国_3
       - _US_美国->🇨🇦_CA_加拿大_3
+      - _CN_中国->🇸🇪_SE_瑞典
+      - _US_美国_4
+      - _US_美国_5
+      - _US_美国->🇩🇪_DE_德国
+      - _US_美国_6
+      - _US_美国_7
+      - _DE_德国
+      - _US_美国_8
       - _US_美国_9
-      - _US_美国->🇨🇦_CA_加拿大_4
       - _US_美国_10
+      - _US_美国->🇨🇦_CA_加拿大_4
+      - _US_美国_11
       - _US_美国->🇨🇦_CA_加拿大_5
-      - _CN_中国->🇺🇸_US_美国
-      - _US_美国_13
-      - _IR_伊朗->🇨🇦_CA_加拿大
-      - _US_美国_14
-      - _US_美国_15
+      - _US_美国_12
       - _MD_摩尔多瓦
       - _US_美国_1 2
       - _US_美国_2 2
       - _US_美国_3 2
       - _US_美国_4 2
-      - _US_美国_5
+      - _US_美国_5 2
       - _US_美国->🇨🇦_CA_加拿大_1 2
-      - _US_美国_6
+      - _US_美国_6 2
       - _US_美国->🇨🇦_CA_加拿大_2 2
       - _US_美国->🇨🇦_CA_加拿大_3 2
-      - _US_美国_7
+      - _US_美国_7 2
       - _US_美国->🇨🇦_CA_加拿大_4 2
       - _US_美国->🇨🇦_CA_加拿大_5 2
       - _US_美国_8 2
@@ -1419,19 +1447,19 @@ proxy-groups:
       - _US_美国->🇨🇦_CA_加拿大_8
       - _US_美国_9 2
       - _US_美国_10 2
-      - _US_美国->🇩🇪_DE_德国
+      - _US_美国->🇩🇪_DE_德国 2
       - _US_美国->🇨🇦_CA_加拿大_9
-      - _US_美国_11
-      - _US_美国_12
-      - _US_美国_13 2
-      - _US_美国_14 2
-      - _US_美国_15 2
+      - _US_美国_11 2
+      - _US_美国_12 2
+      - _US_美国_13
+      - _US_美国_14
+      - _US_美国_15
       - _US_美国->🇨🇦_CA_加拿大_10
       - _SE_瑞典->🇺🇸_US_美国
       - _US_美国->🇨🇦_CA_加拿大_11
       - _US_美国_16
       - _US_美国->🇨🇦_CA_加拿大_12
-      - _DE_德国
+      - _DE_德国 2
       - _US_美国_17
       - _US_美国_18
       - _US_美国_19
@@ -1445,7 +1473,7 @@ proxy-groups:
       - _US_美国_22
       - _US_美国_23
       - _US_美国->🇨🇦_CA_加拿大_16
-      - _CN_中国->🇺🇸_US_美国 2
+      - _CN_中国->🇺🇸_US_美国
       - _US_美国->🇨🇦_CA_加拿大_17
       - 美国(yudou66.com 玉豆免费节点)_4
       - 美国(yudou66.com 玉豆免费节点)_5
@@ -1608,36 +1636,40 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - _CN_中国
       - _US_美国
-      - _US_美国_1
-      - _US_美国_2
-      - _US_美国_3
-      - _US_美国_4
       - _US_美国->🇨🇦_CA_加拿大
       - _US_美国->🇨🇦_CA_加拿大_1
       - _US_美国->🇨🇦_CA_加拿大_2
-      - _US_美国_8
+      - _US_美国_1
+      - _US_美国_2
+      - _US_美国_3
       - _US_美国->🇨🇦_CA_加拿大_3
+      - _CN_中国->🇸🇪_SE_瑞典
+      - _US_美国_4
+      - _US_美国_5
+      - _US_美国->🇩🇪_DE_德国
+      - _US_美国_6
+      - _US_美国_7
+      - _DE_德国
+      - _US_美国_8
       - _US_美国_9
-      - _US_美国->🇨🇦_CA_加拿大_4
       - _US_美国_10
+      - _US_美国->🇨🇦_CA_加拿大_4
+      - _US_美国_11
       - _US_美国->🇨🇦_CA_加拿大_5
-      - _CN_中国->🇺🇸_US_美国
-      - _US_美国_13
-      - _IR_伊朗->🇨🇦_CA_加拿大
-      - _US_美国_14
-      - _US_美国_15
+      - _US_美国_12
       - _MD_摩尔多瓦
       - _US_美国_1 2
       - _US_美国_2 2
       - _US_美国_3 2
       - _US_美国_4 2
-      - _US_美国_5
+      - _US_美国_5 2
       - _US_美国->🇨🇦_CA_加拿大_1 2
-      - _US_美国_6
+      - _US_美国_6 2
       - _US_美国->🇨🇦_CA_加拿大_2 2
       - _US_美国->🇨🇦_CA_加拿大_3 2
-      - _US_美国_7
+      - _US_美国_7 2
       - _US_美国->🇨🇦_CA_加拿大_4 2
       - _US_美国->🇨🇦_CA_加拿大_5 2
       - _US_美国_8 2
@@ -1646,19 +1678,19 @@ proxy-groups:
       - _US_美国->🇨🇦_CA_加拿大_8
       - _US_美国_9 2
       - _US_美国_10 2
-      - _US_美国->🇩🇪_DE_德国
+      - _US_美国->🇩🇪_DE_德国 2
       - _US_美国->🇨🇦_CA_加拿大_9
-      - _US_美国_11
-      - _US_美国_12
-      - _US_美国_13 2
-      - _US_美国_14 2
-      - _US_美国_15 2
+      - _US_美国_11 2
+      - _US_美国_12 2
+      - _US_美国_13
+      - _US_美国_14
+      - _US_美国_15
       - _US_美国->🇨🇦_CA_加拿大_10
       - _SE_瑞典->🇺🇸_US_美国
       - _US_美国->🇨🇦_CA_加拿大_11
       - _US_美国_16
       - _US_美国->🇨🇦_CA_加拿大_12
-      - _DE_德国
+      - _DE_德国 2
       - _US_美国_17
       - _US_美国_18
       - _US_美国_19
@@ -1672,7 +1704,7 @@ proxy-groups:
       - _US_美国_22
       - _US_美国_23
       - _US_美国->🇨🇦_CA_加拿大_16
-      - _CN_中国->🇺🇸_US_美国 2
+      - _CN_中国->🇺🇸_US_美国
       - _US_美国->🇨🇦_CA_加拿大_17
       - 美国(yudou66.com 玉豆免费节点)_4
       - 美国(yudou66.com 玉豆免费节点)_5
@@ -1844,36 +1876,40 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - _CN_中国
       - _US_美国
-      - _US_美国_1
-      - _US_美国_2
-      - _US_美国_3
-      - _US_美国_4
       - _US_美国->🇨🇦_CA_加拿大
       - _US_美国->🇨🇦_CA_加拿大_1
       - _US_美国->🇨🇦_CA_加拿大_2
-      - _US_美国_8
+      - _US_美国_1
+      - _US_美国_2
+      - _US_美国_3
       - _US_美国->🇨🇦_CA_加拿大_3
+      - _CN_中国->🇸🇪_SE_瑞典
+      - _US_美国_4
+      - _US_美国_5
+      - _US_美国->🇩🇪_DE_德国
+      - _US_美国_6
+      - _US_美国_7
+      - _DE_德国
+      - _US_美国_8
       - _US_美国_9
-      - _US_美国->🇨🇦_CA_加拿大_4
       - _US_美国_10
+      - _US_美国->🇨🇦_CA_加拿大_4
+      - _US_美国_11
       - _US_美国->🇨🇦_CA_加拿大_5
-      - _CN_中国->🇺🇸_US_美国
-      - _US_美国_13
-      - _IR_伊朗->🇨🇦_CA_加拿大
-      - _US_美国_14
-      - _US_美国_15
+      - _US_美国_12
       - _MD_摩尔多瓦
       - _US_美国_1 2
       - _US_美国_2 2
       - _US_美国_3 2
       - _US_美国_4 2
-      - _US_美国_5
+      - _US_美国_5 2
       - _US_美国->🇨🇦_CA_加拿大_1 2
-      - _US_美国_6
+      - _US_美国_6 2
       - _US_美国->🇨🇦_CA_加拿大_2 2
       - _US_美国->🇨🇦_CA_加拿大_3 2
-      - _US_美国_7
+      - _US_美国_7 2
       - _US_美国->🇨🇦_CA_加拿大_4 2
       - _US_美国->🇨🇦_CA_加拿大_5 2
       - _US_美国_8 2
@@ -1882,19 +1918,19 @@ proxy-groups:
       - _US_美国->🇨🇦_CA_加拿大_8
       - _US_美国_9 2
       - _US_美国_10 2
-      - _US_美国->🇩🇪_DE_德国
+      - _US_美国->🇩🇪_DE_德国 2
       - _US_美国->🇨🇦_CA_加拿大_9
-      - _US_美国_11
-      - _US_美国_12
-      - _US_美国_13 2
-      - _US_美国_14 2
-      - _US_美国_15 2
+      - _US_美国_11 2
+      - _US_美国_12 2
+      - _US_美国_13
+      - _US_美国_14
+      - _US_美国_15
       - _US_美国->🇨🇦_CA_加拿大_10
       - _SE_瑞典->🇺🇸_US_美国
       - _US_美国->🇨🇦_CA_加拿大_11
       - _US_美国_16
       - _US_美国->🇨🇦_CA_加拿大_12
-      - _DE_德国
+      - _DE_德国 2
       - _US_美国_17
       - _US_美国_18
       - _US_美国_19
@@ -1908,7 +1944,7 @@ proxy-groups:
       - _US_美国_22
       - _US_美国_23
       - _US_美国->🇨🇦_CA_加拿大_16
-      - _CN_中国->🇺🇸_US_美国 2
+      - _CN_中国->🇺🇸_US_美国
       - _US_美国->🇨🇦_CA_加拿大_17
       - 美国(yudou66.com 玉豆免费节点)_4
       - 美国(yudou66.com 玉豆免费节点)_5
