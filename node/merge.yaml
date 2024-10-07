@@ -5,56 +5,45 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _US_美国, server: 69.50.92.55, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _US_美国_1, server: 15.204.87.225, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _US_美国_2, server: 69.50.95.179, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _CA_加拿大, server: 23.154.136.176, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _CA_加拿大_1, server: 23.154.136.176, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _GB_英国, server: 52.56.37.244, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
-  - {name: _CA_加拿大_2, server: 23.154.136.176, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _CN_中国->🇵🇱_PL_波兰, server: 120.232.153.71, port: 43526, type: vmess, uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_3, server: 23.157.40.101, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _US_美国_4, server: 13.48.217.44, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
-  - {name: _CA_加拿大_3, server: 23.154.136.247, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _CA_加拿大_4, server: 23.154.136.176, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _US_美国_5, server: 69.50.95.180, port: 5498, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV, udp: true}
-  - {name: _US_美国->🇨🇳_CN_中国, server: 54.155.78.106, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_7, server: 69.50.92.99, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _US_美国_9, server: 69.50.95.179, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _CA_加拿大_5, server: 23.154.136.176, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _US_美国_10, server: 139.64.165.155, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _US_美国_11, server: 139.64.165.101, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US_美国_12, server: 69.50.92.111, port: 5499, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV, udp: true}
-  - {name: _US_美国_13, server: 38.114.114.158, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _IE_爱尔兰, server: 13.79.174.197, port: 63314, type: ss, cipher: chacha20-ietf-poly1305, password: nAOsWTXwwlBFd2Ez2dGK2s, udp: true}
-  - {name: _GB_英国_1, server: 52.56.230.18, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
-  - {name: _GB_英国_2, server: 212.102.53.80, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: _US_美国_14, server: 15.204.87.225, port: 5499, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV, udp: true}
-  - {name: _US_美国_15, server: 139.64.165.101, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _US_美国, server: 13.50.155.153, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+  - {name: _RU_俄罗斯, server: 89.185.84.185, port: 12575, type: ss, cipher: chacha20-ietf-poly1305, password: gdt6FA0fOR3pBQdFcyHyfv, udp: true}
+  - {name: _GB_英国, server: 212.102.53.80, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: _RU_俄罗斯_1, server: 46.29.238.83, port: 28768, type: ss, cipher: chacha20-ietf-poly1305, password: B4Nokj3Yqfta6tWqum6r8k, udp: true}
+  - {name: _US_美国_1, server: 139.64.165.153, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _GB_英国_1, server: 212.102.53.78, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: _CA_加拿大, server: 142.4.216.225, port: 80, type: ss, cipher: chacha20-ietf-poly1305, password: JIhN6rBKkaEboLNXVSv5rq, udp: true}
+  - {name: _US_美国_4, server: 139.64.165.153, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _US_美国_5, server: 23.157.40.85, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _US_美国_6, server: 18.236.95.86, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _US_美国_7, server: 69.50.92.55, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国_8, server: 69.50.95.165, port: 5499, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV, udp: true}
+  - {name: _US_美国_9, server: 139.64.165.153, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国_10, server: 3.66.252.201, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_11, server: 69.50.92.55, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
   - {name: _US_美国_1 2, server: 23.157.40.101, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _US_美国_2 2, server: 139.64.165.154, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国_2, server: 139.64.165.154, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: _NL_荷兰->🇷🇴_RO_罗马尼亚, server: 5.56.133.46, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: KXr_oWxXlCg3xxs2CWV0oQ, udp: true}
   - {name: _GB_英国 2, server: 212.102.53.80, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: _US_美国_3 2, server: 139.64.165.154, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国_3, server: 139.64.165.154, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: _US_美国_4 2, server: 139.64.165.155, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: _US_美国_5 2, server: 69.50.92.111, port: 5499, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV, udp: true}
-  - {name: _US_美国_6, server: 69.50.92.111, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大_1 2, server: 23.154.136.176, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_美国_6 2, server: 69.50.92.111, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大_1, server: 23.154.136.176, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
   - {name: _US_美国_7 2, server: 139.64.165.153, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _RU_俄罗斯_1, server: 46.29.238.83, port: 28768, type: ss, cipher: chacha20-ietf-poly1305, password: B4Nokj3Yqfta6tWqum6r8k, udp: true}
-  - {name: _US_美国_8, server: 69.50.92.55, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _RU_俄罗斯_1 2, server: 46.29.238.83, port: 28768, type: ss, cipher: chacha20-ietf-poly1305, password: B4Nokj3Yqfta6tWqum6r8k, udp: true}
+  - {name: _US_美国_8 2, server: 69.50.92.55, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: _US_美国_9 2, server: 38.114.114.158, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _CA_加拿大_2 2, server: 23.154.136.176, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _CA_加拿大_2, server: 23.154.136.176, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
   - {name: _US_美国_10 2, server: 23.157.40.101, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
   - {name: _US_美国_11 2, server: 139.64.165.153, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _CA_加拿大_3 2, server: 23.154.136.176, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _CA_加拿大_3, server: 23.154.136.176, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
   - {name: _RU_俄罗斯_2, server: 217.30.10.18, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
-  - {name: _US_美国_12 2, server: 139.64.165.154, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _US_美国_13 2, server: 23.157.40.85, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _US_美国_12, server: 139.64.165.154, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _US_美国_13, server: 23.157.40.85, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: _RO_罗马尼亚, server: 185.126.239.249, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: _IR_伊朗->🇷🇴_RO_罗马尼亚, server: 185.233.13.10, port: 56759, type: ss, cipher: chacha20-ietf-poly1305, password: GC8vdulsc_Zs4eepDHvZzg, udp: true}
-  - {name: _US_美国_14 2, server: 69.50.95.180, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国_15 2, server: 23.157.40.101, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国_14, server: 69.50.95.180, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国_15, server: 23.157.40.101, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: _US_美国_16, server: 139.64.165.101, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: _CN_中国->🇸🇪_SE_瑞典, server: deepf.hjkdsak2.com, port: 20003, type: ss, cipher: chacha20-ietf-poly1305, password: 99301d55-a41f-4919-986b-1435996533aa, udp: true}
   - {name: _RU_俄罗斯_3, server: 89.185.84.185, port: 12575, type: ss, cipher: chacha20-ietf-poly1305, password: gdt6FA0fOR3pBQdFcyHyfv, udp: true}
@@ -220,55 +209,44 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - _US_美国
-      - _US_美国_1
-      - _US_美国_2
-      - _CA_加拿大
-      - _CA_加拿大_1
+      - _RU_俄罗斯
       - _GB_英国
-      - _CA_加拿大_2
-      - _CN_中国->🇵🇱_PL_波兰
-      - _US_美国_3
+      - _RU_俄罗斯_1
+      - _US_美国_1
+      - _GB_英国_1
+      - _CA_加拿大
       - _US_美国_4
-      - _CA_加拿大_3
-      - _CA_加拿大_4
       - _US_美国_5
-      - _US_美国->🇨🇳_CN_中国
+      - _US_美国_6
       - _US_美国_7
+      - _US_美国_8
       - _US_美国_9
-      - _CA_加拿大_5
       - _US_美国_10
       - _US_美国_11
-      - _US_美国_12
-      - _US_美国_13
-      - _IE_爱尔兰
-      - _GB_英国_1
-      - _GB_英国_2
-      - _US_美国_14
-      - _US_美国_15
       - _US_美国_1 2
-      - _US_美国_2 2
+      - _US_美国_2
       - _NL_荷兰->🇷🇴_RO_罗马尼亚
       - _GB_英国 2
-      - _US_美国_3 2
+      - _US_美国_3
       - _US_美国_4 2
       - _US_美国_5 2
-      - _US_美国_6
-      - _CA_加拿大_1 2
+      - _US_美国_6 2
+      - _CA_加拿大_1
       - _US_美国_7 2
-      - _RU_俄罗斯_1
-      - _US_美国_8
+      - _RU_俄罗斯_1 2
+      - _US_美国_8 2
       - _US_美国_9 2
-      - _CA_加拿大_2 2
+      - _CA_加拿大_2
       - _US_美国_10 2
       - _US_美国_11 2
-      - _CA_加拿大_3 2
+      - _CA_加拿大_3
       - _RU_俄罗斯_2
-      - _US_美国_12 2
-      - _US_美国_13 2
+      - _US_美国_12
+      - _US_美国_13
       - _RO_罗马尼亚
       - _IR_伊朗->🇷🇴_RO_罗马尼亚
-      - _US_美国_14 2
-      - _US_美国_15 2
+      - _US_美国_14
+      - _US_美国_15
       - _US_美国_16
       - _CN_中国->🇸🇪_SE_瑞典
       - _RU_俄罗斯_3
@@ -433,55 +411,44 @@ proxy-groups:
     interval: 300
     proxies:
       - _US_美国
-      - _US_美国_1
-      - _US_美国_2
-      - _CA_加拿大
-      - _CA_加拿大_1
+      - _RU_俄罗斯
       - _GB_英国
-      - _CA_加拿大_2
-      - _CN_中国->🇵🇱_PL_波兰
-      - _US_美国_3
+      - _RU_俄罗斯_1
+      - _US_美国_1
+      - _GB_英国_1
+      - _CA_加拿大
       - _US_美国_4
-      - _CA_加拿大_3
-      - _CA_加拿大_4
       - _US_美国_5
-      - _US_美国->🇨🇳_CN_中国
+      - _US_美国_6
       - _US_美国_7
+      - _US_美国_8
       - _US_美国_9
-      - _CA_加拿大_5
       - _US_美国_10
       - _US_美国_11
-      - _US_美国_12
-      - _US_美国_13
-      - _IE_爱尔兰
-      - _GB_英国_1
-      - _GB_英国_2
-      - _US_美国_14
-      - _US_美国_15
       - _US_美国_1 2
-      - _US_美国_2 2
+      - _US_美国_2
       - _NL_荷兰->🇷🇴_RO_罗马尼亚
       - _GB_英国 2
-      - _US_美国_3 2
+      - _US_美国_3
       - _US_美国_4 2
       - _US_美国_5 2
-      - _US_美国_6
-      - _CA_加拿大_1 2
+      - _US_美国_6 2
+      - _CA_加拿大_1
       - _US_美国_7 2
-      - _RU_俄罗斯_1
-      - _US_美国_8
+      - _RU_俄罗斯_1 2
+      - _US_美国_8 2
       - _US_美国_9 2
-      - _CA_加拿大_2 2
+      - _CA_加拿大_2
       - _US_美国_10 2
       - _US_美国_11 2
-      - _CA_加拿大_3 2
+      - _CA_加拿大_3
       - _RU_俄罗斯_2
-      - _US_美国_12 2
-      - _US_美国_13 2
+      - _US_美国_12
+      - _US_美国_13
       - _RO_罗马尼亚
       - _IR_伊朗->🇷🇴_RO_罗马尼亚
-      - _US_美国_14 2
-      - _US_美国_15 2
+      - _US_美国_14
+      - _US_美国_15
       - _US_美国_16
       - _CN_中国->🇸🇪_SE_瑞典
       - _RU_俄罗斯_3
@@ -647,55 +614,44 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - _US_美国
-      - _US_美国_1
-      - _US_美国_2
-      - _CA_加拿大
-      - _CA_加拿大_1
+      - _RU_俄罗斯
       - _GB_英国
-      - _CA_加拿大_2
-      - _CN_中国->🇵🇱_PL_波兰
-      - _US_美国_3
+      - _RU_俄罗斯_1
+      - _US_美国_1
+      - _GB_英国_1
+      - _CA_加拿大
       - _US_美国_4
-      - _CA_加拿大_3
-      - _CA_加拿大_4
       - _US_美国_5
-      - _US_美国->🇨🇳_CN_中国
+      - _US_美国_6
       - _US_美国_7
+      - _US_美国_8
       - _US_美国_9
-      - _CA_加拿大_5
       - _US_美国_10
       - _US_美国_11
-      - _US_美国_12
-      - _US_美国_13
-      - _IE_爱尔兰
-      - _GB_英国_1
-      - _GB_英国_2
-      - _US_美国_14
-      - _US_美国_15
       - _US_美国_1 2
-      - _US_美国_2 2
+      - _US_美国_2
       - _NL_荷兰->🇷🇴_RO_罗马尼亚
       - _GB_英国 2
-      - _US_美国_3 2
+      - _US_美国_3
       - _US_美国_4 2
       - _US_美国_5 2
-      - _US_美国_6
-      - _CA_加拿大_1 2
+      - _US_美国_6 2
+      - _CA_加拿大_1
       - _US_美国_7 2
-      - _RU_俄罗斯_1
-      - _US_美国_8
+      - _RU_俄罗斯_1 2
+      - _US_美国_8 2
       - _US_美国_9 2
-      - _CA_加拿大_2 2
+      - _CA_加拿大_2
       - _US_美国_10 2
       - _US_美国_11 2
-      - _CA_加拿大_3 2
+      - _CA_加拿大_3
       - _RU_俄罗斯_2
-      - _US_美国_12 2
-      - _US_美国_13 2
+      - _US_美国_12
+      - _US_美国_13
       - _RO_罗马尼亚
       - _IR_伊朗->🇷🇴_RO_罗马尼亚
-      - _US_美国_14 2
-      - _US_美国_15 2
+      - _US_美国_14
+      - _US_美国_15
       - _US_美国_16
       - _CN_中国->🇸🇪_SE_瑞典
       - _RU_俄罗斯_3
@@ -873,55 +829,44 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - _US_美国
-      - _US_美国_1
-      - _US_美国_2
-      - _CA_加拿大
-      - _CA_加拿大_1
+      - _RU_俄罗斯
       - _GB_英国
-      - _CA_加拿大_2
-      - _CN_中国->🇵🇱_PL_波兰
-      - _US_美国_3
+      - _RU_俄罗斯_1
+      - _US_美国_1
+      - _GB_英国_1
+      - _CA_加拿大
       - _US_美国_4
-      - _CA_加拿大_3
-      - _CA_加拿大_4
       - _US_美国_5
-      - _US_美国->🇨🇳_CN_中国
+      - _US_美国_6
       - _US_美国_7
+      - _US_美国_8
       - _US_美国_9
-      - _CA_加拿大_5
       - _US_美国_10
       - _US_美国_11
-      - _US_美国_12
-      - _US_美国_13
-      - _IE_爱尔兰
-      - _GB_英国_1
-      - _GB_英国_2
-      - _US_美国_14
-      - _US_美国_15
       - _US_美国_1 2
-      - _US_美国_2 2
+      - _US_美国_2
       - _NL_荷兰->🇷🇴_RO_罗马尼亚
       - _GB_英国 2
-      - _US_美国_3 2
+      - _US_美国_3
       - _US_美国_4 2
       - _US_美国_5 2
-      - _US_美国_6
-      - _CA_加拿大_1 2
+      - _US_美国_6 2
+      - _CA_加拿大_1
       - _US_美国_7 2
-      - _RU_俄罗斯_1
-      - _US_美国_8
+      - _RU_俄罗斯_1 2
+      - _US_美国_8 2
       - _US_美国_9 2
-      - _CA_加拿大_2 2
+      - _CA_加拿大_2
       - _US_美国_10 2
       - _US_美国_11 2
-      - _CA_加拿大_3 2
+      - _CA_加拿大_3
       - _RU_俄罗斯_2
-      - _US_美国_12 2
-      - _US_美国_13 2
+      - _US_美国_12
+      - _US_美国_13
       - _RO_罗马尼亚
       - _IR_伊朗->🇷🇴_RO_罗马尼亚
-      - _US_美国_14 2
-      - _US_美国_15 2
+      - _US_美国_14
+      - _US_美国_15
       - _US_美国_16
       - _CN_中国->🇸🇪_SE_瑞典
       - _RU_俄罗斯_3
@@ -1091,55 +1036,44 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - _US_美国
-      - _US_美国_1
-      - _US_美国_2
-      - _CA_加拿大
-      - _CA_加拿大_1
+      - _RU_俄罗斯
       - _GB_英国
-      - _CA_加拿大_2
-      - _CN_中国->🇵🇱_PL_波兰
-      - _US_美国_3
+      - _RU_俄罗斯_1
+      - _US_美国_1
+      - _GB_英国_1
+      - _CA_加拿大
       - _US_美国_4
-      - _CA_加拿大_3
-      - _CA_加拿大_4
       - _US_美国_5
-      - _US_美国->🇨🇳_CN_中国
+      - _US_美国_6
       - _US_美国_7
+      - _US_美国_8
       - _US_美国_9
-      - _CA_加拿大_5
       - _US_美国_10
       - _US_美国_11
-      - _US_美国_12
-      - _US_美国_13
-      - _IE_爱尔兰
-      - _GB_英国_1
-      - _GB_英国_2
-      - _US_美国_14
-      - _US_美国_15
       - _US_美国_1 2
-      - _US_美国_2 2
+      - _US_美国_2
       - _NL_荷兰->🇷🇴_RO_罗马尼亚
       - _GB_英国 2
-      - _US_美国_3 2
+      - _US_美国_3
       - _US_美国_4 2
       - _US_美国_5 2
-      - _US_美国_6
-      - _CA_加拿大_1 2
+      - _US_美国_6 2
+      - _CA_加拿大_1
       - _US_美国_7 2
-      - _RU_俄罗斯_1
-      - _US_美国_8
+      - _RU_俄罗斯_1 2
+      - _US_美国_8 2
       - _US_美国_9 2
-      - _CA_加拿大_2 2
+      - _CA_加拿大_2
       - _US_美国_10 2
       - _US_美国_11 2
-      - _CA_加拿大_3 2
+      - _CA_加拿大_3
       - _RU_俄罗斯_2
-      - _US_美国_12 2
-      - _US_美国_13 2
+      - _US_美国_12
+      - _US_美国_13
       - _RO_罗马尼亚
       - _IR_伊朗->🇷🇴_RO_罗马尼亚
-      - _US_美国_14 2
-      - _US_美国_15 2
+      - _US_美国_14
+      - _US_美国_15
       - _US_美国_16
       - _CN_中国->🇸🇪_SE_瑞典
       - _RU_俄罗斯_3
@@ -1304,55 +1238,44 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - _US_美国
-      - _US_美国_1
-      - _US_美国_2
-      - _CA_加拿大
-      - _CA_加拿大_1
+      - _RU_俄罗斯
       - _GB_英国
-      - _CA_加拿大_2
-      - _CN_中国->🇵🇱_PL_波兰
-      - _US_美国_3
+      - _RU_俄罗斯_1
+      - _US_美国_1
+      - _GB_英国_1
+      - _CA_加拿大
       - _US_美国_4
-      - _CA_加拿大_3
-      - _CA_加拿大_4
       - _US_美国_5
-      - _US_美国->🇨🇳_CN_中国
+      - _US_美国_6
       - _US_美国_7
+      - _US_美国_8
       - _US_美国_9
-      - _CA_加拿大_5
       - _US_美国_10
       - _US_美国_11
-      - _US_美国_12
-      - _US_美国_13
-      - _IE_爱尔兰
-      - _GB_英国_1
-      - _GB_英国_2
-      - _US_美国_14
-      - _US_美国_15
       - _US_美国_1 2
-      - _US_美国_2 2
+      - _US_美国_2
       - _NL_荷兰->🇷🇴_RO_罗马尼亚
       - _GB_英国 2
-      - _US_美国_3 2
+      - _US_美国_3
       - _US_美国_4 2
       - _US_美国_5 2
-      - _US_美国_6
-      - _CA_加拿大_1 2
+      - _US_美国_6 2
+      - _CA_加拿大_1
       - _US_美国_7 2
-      - _RU_俄罗斯_1
-      - _US_美国_8
+      - _RU_俄罗斯_1 2
+      - _US_美国_8 2
       - _US_美国_9 2
-      - _CA_加拿大_2 2
+      - _CA_加拿大_2
       - _US_美国_10 2
       - _US_美国_11 2
-      - _CA_加拿大_3 2
+      - _CA_加拿大_3
       - _RU_俄罗斯_2
-      - _US_美国_12 2
-      - _US_美国_13 2
+      - _US_美国_12
+      - _US_美国_13
       - _RO_罗马尼亚
       - _IR_伊朗->🇷🇴_RO_罗马尼亚
-      - _US_美国_14 2
-      - _US_美国_15 2
+      - _US_美国_14
+      - _US_美国_15
       - _US_美国_16
       - _CN_中国->🇸🇪_SE_瑞典
       - _RU_俄罗斯_3
@@ -1518,55 +1441,44 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - _US_美国
-      - _US_美国_1
-      - _US_美国_2
-      - _CA_加拿大
-      - _CA_加拿大_1
+      - _RU_俄罗斯
       - _GB_英国
-      - _CA_加拿大_2
-      - _CN_中国->🇵🇱_PL_波兰
-      - _US_美国_3
+      - _RU_俄罗斯_1
+      - _US_美国_1
+      - _GB_英国_1
+      - _CA_加拿大
       - _US_美国_4
-      - _CA_加拿大_3
-      - _CA_加拿大_4
       - _US_美国_5
-      - _US_美国->🇨🇳_CN_中国
+      - _US_美国_6
       - _US_美国_7
+      - _US_美国_8
       - _US_美国_9
-      - _CA_加拿大_5
       - _US_美国_10
       - _US_美国_11
-      - _US_美国_12
-      - _US_美国_13
-      - _IE_爱尔兰
-      - _GB_英国_1
-      - _GB_英国_2
-      - _US_美国_14
-      - _US_美国_15
       - _US_美国_1 2
-      - _US_美国_2 2
+      - _US_美国_2
       - _NL_荷兰->🇷🇴_RO_罗马尼亚
       - _GB_英国 2
-      - _US_美国_3 2
+      - _US_美国_3
       - _US_美国_4 2
       - _US_美国_5 2
-      - _US_美国_6
-      - _CA_加拿大_1 2
+      - _US_美国_6 2
+      - _CA_加拿大_1
       - _US_美国_7 2
-      - _RU_俄罗斯_1
-      - _US_美国_8
+      - _RU_俄罗斯_1 2
+      - _US_美国_8 2
       - _US_美国_9 2
-      - _CA_加拿大_2 2
+      - _CA_加拿大_2
       - _US_美国_10 2
       - _US_美国_11 2
-      - _CA_加拿大_3 2
+      - _CA_加拿大_3
       - _RU_俄罗斯_2
-      - _US_美国_12 2
-      - _US_美国_13 2
+      - _US_美国_12
+      - _US_美国_13
       - _RO_罗马尼亚
       - _IR_伊朗->🇷🇴_RO_罗马尼亚
-      - _US_美国_14 2
-      - _US_美国_15 2
+      - _US_美国_14
+      - _US_美国_15
       - _US_美国_16
       - _CN_中国->🇸🇪_SE_瑞典
       - _RU_俄罗斯_3
@@ -1741,55 +1653,44 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - _US_美国
-      - _US_美国_1
-      - _US_美国_2
-      - _CA_加拿大
-      - _CA_加拿大_1
+      - _RU_俄罗斯
       - _GB_英国
-      - _CA_加拿大_2
-      - _CN_中国->🇵🇱_PL_波兰
-      - _US_美国_3
+      - _RU_俄罗斯_1
+      - _US_美国_1
+      - _GB_英国_1
+      - _CA_加拿大
       - _US_美国_4
-      - _CA_加拿大_3
-      - _CA_加拿大_4
       - _US_美国_5
-      - _US_美国->🇨🇳_CN_中国
+      - _US_美国_6
       - _US_美国_7
+      - _US_美国_8
       - _US_美国_9
-      - _CA_加拿大_5
       - _US_美国_10
       - _US_美国_11
-      - _US_美国_12
-      - _US_美国_13
-      - _IE_爱尔兰
-      - _GB_英国_1
-      - _GB_英国_2
-      - _US_美国_14
-      - _US_美国_15
       - _US_美国_1 2
-      - _US_美国_2 2
+      - _US_美国_2
       - _NL_荷兰->🇷🇴_RO_罗马尼亚
       - _GB_英国 2
-      - _US_美国_3 2
+      - _US_美国_3
       - _US_美国_4 2
       - _US_美国_5 2
-      - _US_美国_6
-      - _CA_加拿大_1 2
+      - _US_美国_6 2
+      - _CA_加拿大_1
       - _US_美国_7 2
-      - _RU_俄罗斯_1
-      - _US_美国_8
+      - _RU_俄罗斯_1 2
+      - _US_美国_8 2
       - _US_美国_9 2
-      - _CA_加拿大_2 2
+      - _CA_加拿大_2
       - _US_美国_10 2
       - _US_美国_11 2
-      - _CA_加拿大_3 2
+      - _CA_加拿大_3
       - _RU_俄罗斯_2
-      - _US_美国_12 2
-      - _US_美国_13 2
+      - _US_美国_12
+      - _US_美国_13
       - _RO_罗马尼亚
       - _IR_伊朗->🇷🇴_RO_罗马尼亚
-      - _US_美国_14 2
-      - _US_美国_15 2
+      - _US_美国_14
+      - _US_美国_15
       - _US_美国_16
       - _CN_中国->🇸🇪_SE_瑞典
       - _RU_俄罗斯_3
