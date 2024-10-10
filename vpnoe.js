@@ -63,9 +63,16 @@ async function genCookie() {
   }).then(async (res) => {
     const text = await res.text();
     if (res.status === 200) {
-      let [_, link] = text.match("Clash订阅地址：(.*)\\<\\/code");
-      console.log("link:", link);
-      await fetch(link)
+      let [_, link] = text.match(
+        '\\<code class="lang-java">https://(.*)\\<\\/code'
+      );
+      console.log("link:", "https://" + link);
+
+      await fetch(
+        `https://api.subcsub.com/sub?target=clash&url=${encodeURIComponent(
+          "https://" + link
+        )}&insert=false`
+      )
         .then((r) => r.text())
         .then((text) => {
           if (text) {
