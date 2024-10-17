@@ -5,26 +5,23 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _GB_英国->🇷🇺_RU_俄罗斯, server: 212.102.53.198, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: _TR_土耳其, server: 5.188.36.54, port: 51348, type: ss, cipher: chacha20-ietf-poly1305, password: xeQxB7sMGptfFct2qk2ESLeCNLLhRRwXrkNZXCdLFYvYwPQD, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国, server: 221.181.185.71, port: 22064, type: ss, cipher: aes-256-cfb, password: JN8psKoncqaqS4ul, udp: true}
-  - {name: _US_美国_2, server: 69.50.93.113, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国_3, server: 104.17.215.18, port: 443, type: trojan, password: 4732adfa16c6450bbef87264e41332db, sni: jobscareerforstudent.com, skip-cert-verify: true, network: ws, ws-opts: {path: /6b777a91, headers: {Host: jobscareerforstudent.com}}, udp: true}
   - {name: _CN_中国->🇩🇪_DE_德国, server: 221.181.185.71, port: 20934, type: ss, cipher: aes-256-cfb, password: bbO8KazkNBUGb7HP, udp: true}
-  - {name: _US_美国_6, server: 23.166.88.221, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _US_美国->🇨🇳_CN_中国, server: 3.113.6.44, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _US_美国_9, server: 23.150.248.122, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _US_美国_10, server: 139.64.165.230, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国_11, server: 35.87.156.159, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _US_美国_12, server: 205.134.180.150, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 5cp9Z3iWnJZ2, udp: true}
+  - {name: _US_美国_2, server: 69.50.92.110, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_美国_3, server: 69.50.95.218, port: 9090, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国_5, server: 23.150.248.122, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _US_美国_6, server: 205.134.180.150, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 5cp9Z3iWnJZ2, udp: true}
+  - {name: _US_美国_7, server: 139.64.165.230, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国_8, server: 52.43.33.6, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _US_美国_10, server: 3.71.242.90, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+  - {name: _GB_英国, server: 212.102.53.198, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: _US_美国_1, server: 139.64.165.230, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: _US_美国_3 2, server: 142.202.49.122, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
   - {name: _US_美国_4, server: 142.202.49.122, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _US_美国_5, server: 142.202.49.84, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _US_美国_7, server: 69.50.92.72, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _US_美国_8, server: 38.110.1.12, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国_5 2, server: 142.202.49.84, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国_7 2, server: 69.50.92.72, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _US_美国_8 2, server: 38.110.1.12, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: _US_美国_10 2, server: 142.202.49.119, port: 5499, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV, udp: true}
-  - {name: _US_美国_11 2, server: 167.88.61.235, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _US_美国_11, server: 167.88.61.235, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
   - {name: _US_美国_13, server: 69.50.92.99, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
   - {name: _US_美国_14, server: 142.202.49.119, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: _US_美国_15, server: 69.50.95.53, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
@@ -216,26 +213,23 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _GB_英国->🇷🇺_RU_俄罗斯
-      - _TR_土耳其
-      - _CN_中国->🇺🇸_US_美国
+      - _CN_中国->🇩🇪_DE_德国
       - _US_美国_2
       - _US_美国_3
-      - _CN_中国->🇩🇪_DE_德国
+      - _US_美国_5
       - _US_美国_6
-      - _US_美国->🇨🇳_CN_中国
-      - _US_美国_9
+      - _US_美国_7
+      - _US_美国_8
       - _US_美国_10
-      - _US_美国_11
-      - _US_美国_12
+      - _GB_英国
       - _US_美国_1
       - _US_美国_3 2
       - _US_美国_4
-      - _US_美国_5
-      - _US_美国_7
-      - _US_美国_8
+      - _US_美国_5 2
+      - _US_美国_7 2
+      - _US_美国_8 2
       - _US_美国_10 2
-      - _US_美国_11 2
+      - _US_美国_11
       - _US_美国_13
       - _US_美国_14
       - _US_美国_15
@@ -426,26 +420,23 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _GB_英国->🇷🇺_RU_俄罗斯
-      - _TR_土耳其
-      - _CN_中国->🇺🇸_US_美国
+      - _CN_中国->🇩🇪_DE_德国
       - _US_美国_2
       - _US_美国_3
-      - _CN_中国->🇩🇪_DE_德国
+      - _US_美国_5
       - _US_美国_6
-      - _US_美国->🇨🇳_CN_中国
-      - _US_美国_9
+      - _US_美国_7
+      - _US_美国_8
       - _US_美国_10
-      - _US_美国_11
-      - _US_美国_12
+      - _GB_英国
       - _US_美国_1
       - _US_美国_3 2
       - _US_美国_4
-      - _US_美国_5
-      - _US_美国_7
-      - _US_美国_8
+      - _US_美国_5 2
+      - _US_美国_7 2
+      - _US_美国_8 2
       - _US_美国_10 2
-      - _US_美国_11 2
+      - _US_美国_11
       - _US_美国_13
       - _US_美国_14
       - _US_美国_15
@@ -637,26 +628,23 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _GB_英国->🇷🇺_RU_俄罗斯
-      - _TR_土耳其
-      - _CN_中国->🇺🇸_US_美国
+      - _CN_中国->🇩🇪_DE_德国
       - _US_美国_2
       - _US_美国_3
-      - _CN_中国->🇩🇪_DE_德国
+      - _US_美国_5
       - _US_美国_6
-      - _US_美国->🇨🇳_CN_中国
-      - _US_美国_9
+      - _US_美国_7
+      - _US_美国_8
       - _US_美国_10
-      - _US_美国_11
-      - _US_美国_12
+      - _GB_英国
       - _US_美国_1
       - _US_美国_3 2
       - _US_美国_4
-      - _US_美国_5
-      - _US_美国_7
-      - _US_美国_8
+      - _US_美国_5 2
+      - _US_美国_7 2
+      - _US_美国_8 2
       - _US_美国_10 2
-      - _US_美国_11 2
+      - _US_美国_11
       - _US_美国_13
       - _US_美国_14
       - _US_美国_15
@@ -860,26 +848,23 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _GB_英国->🇷🇺_RU_俄罗斯
-      - _TR_土耳其
-      - _CN_中国->🇺🇸_US_美国
+      - _CN_中国->🇩🇪_DE_德国
       - _US_美国_2
       - _US_美国_3
-      - _CN_中国->🇩🇪_DE_德国
+      - _US_美国_5
       - _US_美国_6
-      - _US_美国->🇨🇳_CN_中国
-      - _US_美国_9
+      - _US_美国_7
+      - _US_美国_8
       - _US_美国_10
-      - _US_美国_11
-      - _US_美国_12
+      - _GB_英国
       - _US_美国_1
       - _US_美国_3 2
       - _US_美国_4
-      - _US_美国_5
-      - _US_美国_7
-      - _US_美国_8
+      - _US_美国_5 2
+      - _US_美国_7 2
+      - _US_美国_8 2
       - _US_美国_10 2
-      - _US_美国_11 2
+      - _US_美国_11
       - _US_美国_13
       - _US_美国_14
       - _US_美国_15
@@ -1075,26 +1060,23 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - _GB_英国->🇷🇺_RU_俄罗斯
-      - _TR_土耳其
-      - _CN_中国->🇺🇸_US_美国
+      - _CN_中国->🇩🇪_DE_德国
       - _US_美国_2
       - _US_美国_3
-      - _CN_中国->🇩🇪_DE_德国
+      - _US_美国_5
       - _US_美国_6
-      - _US_美国->🇨🇳_CN_中国
-      - _US_美国_9
+      - _US_美国_7
+      - _US_美国_8
       - _US_美国_10
-      - _US_美国_11
-      - _US_美国_12
+      - _GB_英国
       - _US_美国_1
       - _US_美国_3 2
       - _US_美国_4
-      - _US_美国_5
-      - _US_美国_7
-      - _US_美国_8
+      - _US_美国_5 2
+      - _US_美国_7 2
+      - _US_美国_8 2
       - _US_美国_10 2
-      - _US_美国_11 2
+      - _US_美国_11
       - _US_美国_13
       - _US_美国_14
       - _US_美国_15
@@ -1285,26 +1267,23 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - _GB_英国->🇷🇺_RU_俄罗斯
-      - _TR_土耳其
-      - _CN_中国->🇺🇸_US_美国
+      - _CN_中国->🇩🇪_DE_德国
       - _US_美国_2
       - _US_美国_3
-      - _CN_中国->🇩🇪_DE_德国
+      - _US_美国_5
       - _US_美国_6
-      - _US_美国->🇨🇳_CN_中国
-      - _US_美国_9
+      - _US_美国_7
+      - _US_美国_8
       - _US_美国_10
-      - _US_美国_11
-      - _US_美国_12
+      - _GB_英国
       - _US_美国_1
       - _US_美国_3 2
       - _US_美国_4
-      - _US_美国_5
-      - _US_美国_7
-      - _US_美国_8
+      - _US_美国_5 2
+      - _US_美国_7 2
+      - _US_美国_8 2
       - _US_美国_10 2
-      - _US_美国_11 2
+      - _US_美国_11
       - _US_美国_13
       - _US_美国_14
       - _US_美国_15
@@ -1496,26 +1475,23 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _GB_英国->🇷🇺_RU_俄罗斯
-      - _TR_土耳其
-      - _CN_中国->🇺🇸_US_美国
+      - _CN_中国->🇩🇪_DE_德国
       - _US_美国_2
       - _US_美国_3
-      - _CN_中国->🇩🇪_DE_德国
+      - _US_美国_5
       - _US_美国_6
-      - _US_美国->🇨🇳_CN_中国
-      - _US_美国_9
+      - _US_美国_7
+      - _US_美国_8
       - _US_美国_10
-      - _US_美国_11
-      - _US_美国_12
+      - _GB_英国
       - _US_美国_1
       - _US_美国_3 2
       - _US_美国_4
-      - _US_美国_5
-      - _US_美国_7
-      - _US_美国_8
+      - _US_美国_5 2
+      - _US_美国_7 2
+      - _US_美国_8 2
       - _US_美国_10 2
-      - _US_美国_11 2
+      - _US_美国_11
       - _US_美国_13
       - _US_美国_14
       - _US_美国_15
@@ -1716,26 +1692,23 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _GB_英国->🇷🇺_RU_俄罗斯
-      - _TR_土耳其
-      - _CN_中国->🇺🇸_US_美国
+      - _CN_中国->🇩🇪_DE_德国
       - _US_美国_2
       - _US_美国_3
-      - _CN_中国->🇩🇪_DE_德国
+      - _US_美国_5
       - _US_美国_6
-      - _US_美国->🇨🇳_CN_中国
-      - _US_美国_9
+      - _US_美国_7
+      - _US_美国_8
       - _US_美国_10
-      - _US_美国_11
-      - _US_美国_12
+      - _GB_英国
       - _US_美国_1
       - _US_美国_3 2
       - _US_美国_4
-      - _US_美国_5
-      - _US_美国_7
-      - _US_美国_8
+      - _US_美国_5 2
+      - _US_美国_7 2
+      - _US_美国_8 2
       - _US_美国_10 2
-      - _US_美国_11 2
+      - _US_美国_11
       - _US_美国_13
       - _US_美国_14
       - _US_美国_15
