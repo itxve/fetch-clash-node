@@ -5,43 +5,43 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "**使用前需要卸载反诈APP", server: free.6vczxw.xyz, port: 41141, type: ss, cipher: chacha20-ietf-poly1305, password: 28484fbc-3933-4711-bb43-476b72518fbb, udp: true}
-  - {name: "**永久域名发布页 c1.topubr.com", server: free.6vczxw.xyz, port: 41141, type: ss, cipher: chacha20-ietf-poly1305, password: 28484fbc-3933-4711-bb43-476b72518fbb, udp: true}
-  - {name: 香港01 | 1x HK, server: free.6vczxw.xyz, port: 41141, type: ss, cipher: chacha20-ietf-poly1305, password: 28484fbc-3933-4711-bb43-476b72518fbb, udp: true}
-  - {name: 香港02 | 1x HK, server: free.6vczxw.xyz, port: 41143, type: ss, cipher: chacha20-ietf-poly1305, password: 28484fbc-3933-4711-bb43-476b72518fbb, udp: true}
-  - {name: 香港03 | 家宽 | 1x HK, server: free.6vczxw.xyz, port: 41145, type: ss, cipher: chacha20-ietf-poly1305, password: 28484fbc-3933-4711-bb43-476b72518fbb, udp: true}
-  - {name: 台湾01 | 1x TW, server: free.6vczxw.xyz, port: 41241, type: ss, cipher: chacha20-ietf-poly1305, password: 28484fbc-3933-4711-bb43-476b72518fbb, udp: true}
-  - {name: 台湾02 | 1x TW, server: free.6vczxw.xyz, port: 41243, type: ss, cipher: chacha20-ietf-poly1305, password: 28484fbc-3933-4711-bb43-476b72518fbb, udp: true}
-  - {name: 台湾03 | 1x TW, server: free.6vczxw.xyz, port: 41245, type: ss, cipher: chacha20-ietf-poly1305, password: 28484fbc-3933-4711-bb43-476b72518fbb, udp: true}
-  - {name: 日本01 | 1x JP, server: free.6vczxw.xyz, port: 41111, type: ss, cipher: chacha20-ietf-poly1305, password: 28484fbc-3933-4711-bb43-476b72518fbb, udp: true}
-  - {name: 日本02 | 1x JP, server: free.6vczxw.xyz, port: 41113, type: ss, cipher: chacha20-ietf-poly1305, password: 28484fbc-3933-4711-bb43-476b72518fbb, udp: true}
-  - {name: 日本03 | 1x JP, server: free.6vczxw.xyz, port: 41115, type: ss, cipher: chacha20-ietf-poly1305, password: 28484fbc-3933-4711-bb43-476b72518fbb, udp: true}
-  - {name: 新加坡01 | 1x SG, server: free.6vczxw.xyz, port: 41171, type: ss, cipher: chacha20-ietf-poly1305, password: 28484fbc-3933-4711-bb43-476b72518fbb, udp: true}
-  - {name: 新加坡02 | 1x SG, server: free.6vczxw.xyz, port: 41173, type: ss, cipher: chacha20-ietf-poly1305, password: 28484fbc-3933-4711-bb43-476b72518fbb, udp: true}
-  - {name: 新加坡03 | 1x SG, server: free.6vczxw.xyz, port: 41175, type: ss, cipher: chacha20-ietf-poly1305, password: 28484fbc-3933-4711-bb43-476b72518fbb, udp: true}
-  - {name: 韩国01 | 1x KR, server: free.6vczxw.xyz, port: 41311, type: ss, cipher: chacha20-ietf-poly1305, password: 28484fbc-3933-4711-bb43-476b72518fbb, udp: true}
-  - {name: 韩国02 | 1x KR, server: free.6vczxw.xyz, port: 41313, type: ss, cipher: chacha20-ietf-poly1305, password: 28484fbc-3933-4711-bb43-476b72518fbb, udp: true}
-  - {name: 韩国03 | 1x KR, server: free.6vczxw.xyz, port: 41315, type: ss, cipher: chacha20-ietf-poly1305, password: 28484fbc-3933-4711-bb43-476b72518fbb, udp: true}
-  - {name: 菲律宾01 | 1x PH, server: free.6vczxw.xyz, port: 41341, type: ss, cipher: chacha20-ietf-poly1305, password: 28484fbc-3933-4711-bb43-476b72518fbb, udp: true}
-  - {name: 美国01 | 1x US Los Angeles, server: free.6vczxw.xyz, port: 41211, type: ss, cipher: chacha20-ietf-poly1305, password: 28484fbc-3933-4711-bb43-476b72518fbb, udp: true}
-  - {name: 美国02 | 家宽 | 1x US Los Angeles, server: free.6vczxw.xyz, port: 41213, type: ss, cipher: chacha20-ietf-poly1305, password: 28484fbc-3933-4711-bb43-476b72518fbb, udp: true}
-  - {name: 美国03 | 1x US Washington, server: free.6vczxw.xyz, port: 41215, type: ss, cipher: chacha20-ietf-poly1305, password: 28484fbc-3933-4711-bb43-476b72518fbb, udp: true}
-  - {name: 美国04 | 1x US Honolulu, server: free.6vczxw.xyz, port: 41217, type: ss, cipher: chacha20-ietf-poly1305, password: 28484fbc-3933-4711-bb43-476b72518fbb, udp: true}
-  - {name: 美国05 | 1x US New Jersey, server: free.6vczxw.xyz, port: 41219, type: ss, cipher: chacha20-ietf-poly1305, password: 28484fbc-3933-4711-bb43-476b72518fbb, udp: true}
-  - {name: 美国06 | 1x US ChatGPT专用, server: free.6vczxw.xyz, port: 41221, type: ss, cipher: chacha20-ietf-poly1305, password: 28484fbc-3933-4711-bb43-476b72518fbb, udp: true}
-  - {name: 英国01 | 家宽 | 1x UK, server: free.6vczxw.xyz, port: 41271, type: ss, cipher: chacha20-ietf-poly1305, password: 28484fbc-3933-4711-bb43-476b72518fbb, udp: true}
-  - {name: 西班牙01 | 1x ES, server: free.6vczxw.xyz, port: 41741, type: ss, cipher: chacha20-ietf-poly1305, password: 28484fbc-3933-4711-bb43-476b72518fbb, udp: true}
-  - {name: 马来西亚01 | 1x MY, server: free.6vczxw.xyz, port: 41721, type: ss, cipher: chacha20-ietf-poly1305, password: 28484fbc-3933-4711-bb43-476b72518fbb, udp: true}
-  - {name: 泰国01 | 1x IN, server: free.6vczxw.xyz, port: 41731, type: ss, cipher: chacha20-ietf-poly1305, password: 28484fbc-3933-4711-bb43-476b72518fbb, udp: true}
-  - {name: 印度01 | 1x IN, server: free.6vczxw.xyz, port: 41371, type: ss, cipher: chacha20-ietf-poly1305, password: 28484fbc-3933-4711-bb43-476b72518fbb, udp: true}
-  - {name: 澳大利亚01 | 1x AU, server: free.6vczxw.xyz, port: 41411, type: ss, cipher: chacha20-ietf-poly1305, password: 28484fbc-3933-4711-bb43-476b72518fbb, udp: true}
-  - {name: 加拿大01 | 1x CA, server: free.6vczxw.xyz, port: 41441, type: ss, cipher: chacha20-ietf-poly1305, password: 28484fbc-3933-4711-bb43-476b72518fbb, udp: true}
-  - {name: 德国01 | 1x DE, server: free.6vczxw.xyz, port: 41471, type: ss, cipher: chacha20-ietf-poly1305, password: 28484fbc-3933-4711-bb43-476b72518fbb, udp: true}
-  - {name: 俄罗斯01 | 1x RU, server: free.6vczxw.xyz, port: 41511, type: ss, cipher: chacha20-ietf-poly1305, password: 28484fbc-3933-4711-bb43-476b72518fbb, udp: true}
-  - {name: 土耳其01 | 1x TR, server: free.6vczxw.xyz, port: 41571, type: ss, cipher: chacha20-ietf-poly1305, password: 28484fbc-3933-4711-bb43-476b72518fbb, udp: true}
-  - {name: 乌克兰01 | 1x UA, server: free.6vczxw.xyz, port: 41611, type: ss, cipher: chacha20-ietf-poly1305, password: 28484fbc-3933-4711-bb43-476b72518fbb, udp: true}
-  - {name: 越南01 | 1x VN, server: free.6vczxw.xyz, port: 41641, type: ss, cipher: chacha20-ietf-poly1305, password: 28484fbc-3933-4711-bb43-476b72518fbb, udp: true}
-  - {name: 巴西01 | 1x BR, server: free.6vczxw.xyz, port: 41671, type: ss, cipher: chacha20-ietf-poly1305, password: 28484fbc-3933-4711-bb43-476b72518fbb, udp: true}
+  - {name: "**使用前需要卸载反诈APP", server: free.6vczxw.xyz, port: 41141, type: ss, cipher: chacha20-ietf-poly1305, password: 72d034b8-0466-4540-be1f-9985308296df, udp: true}
+  - {name: "**永久域名发布页 c1.topubr.com", server: free.6vczxw.xyz, port: 41141, type: ss, cipher: chacha20-ietf-poly1305, password: 72d034b8-0466-4540-be1f-9985308296df, udp: true}
+  - {name: 香港01 | 1x HK, server: free.6vczxw.xyz, port: 41141, type: ss, cipher: chacha20-ietf-poly1305, password: 72d034b8-0466-4540-be1f-9985308296df, udp: true}
+  - {name: 香港02 | 1x HK, server: free.6vczxw.xyz, port: 41143, type: ss, cipher: chacha20-ietf-poly1305, password: 72d034b8-0466-4540-be1f-9985308296df, udp: true}
+  - {name: 香港03 | 家宽 | 1x HK, server: free.6vczxw.xyz, port: 41145, type: ss, cipher: chacha20-ietf-poly1305, password: 72d034b8-0466-4540-be1f-9985308296df, udp: true}
+  - {name: 台湾01 | 1x TW, server: free.6vczxw.xyz, port: 41241, type: ss, cipher: chacha20-ietf-poly1305, password: 72d034b8-0466-4540-be1f-9985308296df, udp: true}
+  - {name: 台湾02 | 1x TW, server: free.6vczxw.xyz, port: 41243, type: ss, cipher: chacha20-ietf-poly1305, password: 72d034b8-0466-4540-be1f-9985308296df, udp: true}
+  - {name: 台湾03 | 1x TW, server: free.6vczxw.xyz, port: 41245, type: ss, cipher: chacha20-ietf-poly1305, password: 72d034b8-0466-4540-be1f-9985308296df, udp: true}
+  - {name: 日本01 | 1x JP, server: free.6vczxw.xyz, port: 41111, type: ss, cipher: chacha20-ietf-poly1305, password: 72d034b8-0466-4540-be1f-9985308296df, udp: true}
+  - {name: 日本02 | 1x JP, server: free.6vczxw.xyz, port: 41113, type: ss, cipher: chacha20-ietf-poly1305, password: 72d034b8-0466-4540-be1f-9985308296df, udp: true}
+  - {name: 日本03 | 1x JP, server: free.6vczxw.xyz, port: 41115, type: ss, cipher: chacha20-ietf-poly1305, password: 72d034b8-0466-4540-be1f-9985308296df, udp: true}
+  - {name: 新加坡01 | 1x SG, server: free.6vczxw.xyz, port: 41171, type: ss, cipher: chacha20-ietf-poly1305, password: 72d034b8-0466-4540-be1f-9985308296df, udp: true}
+  - {name: 新加坡02 | 1x SG, server: free.6vczxw.xyz, port: 41173, type: ss, cipher: chacha20-ietf-poly1305, password: 72d034b8-0466-4540-be1f-9985308296df, udp: true}
+  - {name: 新加坡03 | 1x SG, server: free.6vczxw.xyz, port: 41175, type: ss, cipher: chacha20-ietf-poly1305, password: 72d034b8-0466-4540-be1f-9985308296df, udp: true}
+  - {name: 韩国01 | 1x KR, server: free.6vczxw.xyz, port: 41311, type: ss, cipher: chacha20-ietf-poly1305, password: 72d034b8-0466-4540-be1f-9985308296df, udp: true}
+  - {name: 韩国02 | 1x KR, server: free.6vczxw.xyz, port: 41313, type: ss, cipher: chacha20-ietf-poly1305, password: 72d034b8-0466-4540-be1f-9985308296df, udp: true}
+  - {name: 韩国03 | 1x KR, server: free.6vczxw.xyz, port: 41315, type: ss, cipher: chacha20-ietf-poly1305, password: 72d034b8-0466-4540-be1f-9985308296df, udp: true}
+  - {name: 菲律宾01 | 1x PH, server: free.6vczxw.xyz, port: 41341, type: ss, cipher: chacha20-ietf-poly1305, password: 72d034b8-0466-4540-be1f-9985308296df, udp: true}
+  - {name: 美国01 | 1x US Los Angeles, server: free.6vczxw.xyz, port: 41211, type: ss, cipher: chacha20-ietf-poly1305, password: 72d034b8-0466-4540-be1f-9985308296df, udp: true}
+  - {name: 美国02 | 家宽 | 1x US Los Angeles, server: free.6vczxw.xyz, port: 41213, type: ss, cipher: chacha20-ietf-poly1305, password: 72d034b8-0466-4540-be1f-9985308296df, udp: true}
+  - {name: 美国03 | 1x US Washington, server: free.6vczxw.xyz, port: 41215, type: ss, cipher: chacha20-ietf-poly1305, password: 72d034b8-0466-4540-be1f-9985308296df, udp: true}
+  - {name: 美国04 | 1x US Honolulu, server: free.6vczxw.xyz, port: 41217, type: ss, cipher: chacha20-ietf-poly1305, password: 72d034b8-0466-4540-be1f-9985308296df, udp: true}
+  - {name: 美国05 | 1x US New Jersey, server: free.6vczxw.xyz, port: 41219, type: ss, cipher: chacha20-ietf-poly1305, password: 72d034b8-0466-4540-be1f-9985308296df, udp: true}
+  - {name: 美国06 | 1x US ChatGPT专用, server: free.6vczxw.xyz, port: 41221, type: ss, cipher: chacha20-ietf-poly1305, password: 72d034b8-0466-4540-be1f-9985308296df, udp: true}
+  - {name: 英国01 | 家宽 | 1x UK, server: free.6vczxw.xyz, port: 41271, type: ss, cipher: chacha20-ietf-poly1305, password: 72d034b8-0466-4540-be1f-9985308296df, udp: true}
+  - {name: 西班牙01 | 1x ES, server: free.6vczxw.xyz, port: 41741, type: ss, cipher: chacha20-ietf-poly1305, password: 72d034b8-0466-4540-be1f-9985308296df, udp: true}
+  - {name: 马来西亚01 | 1x MY, server: free.6vczxw.xyz, port: 41721, type: ss, cipher: chacha20-ietf-poly1305, password: 72d034b8-0466-4540-be1f-9985308296df, udp: true}
+  - {name: 泰国01 | 1x IN, server: free.6vczxw.xyz, port: 41731, type: ss, cipher: chacha20-ietf-poly1305, password: 72d034b8-0466-4540-be1f-9985308296df, udp: true}
+  - {name: 印度01 | 1x IN, server: free.6vczxw.xyz, port: 41371, type: ss, cipher: chacha20-ietf-poly1305, password: 72d034b8-0466-4540-be1f-9985308296df, udp: true}
+  - {name: 澳大利亚01 | 1x AU, server: free.6vczxw.xyz, port: 41411, type: ss, cipher: chacha20-ietf-poly1305, password: 72d034b8-0466-4540-be1f-9985308296df, udp: true}
+  - {name: 加拿大01 | 1x CA, server: free.6vczxw.xyz, port: 41441, type: ss, cipher: chacha20-ietf-poly1305, password: 72d034b8-0466-4540-be1f-9985308296df, udp: true}
+  - {name: 德国01 | 1x DE, server: free.6vczxw.xyz, port: 41471, type: ss, cipher: chacha20-ietf-poly1305, password: 72d034b8-0466-4540-be1f-9985308296df, udp: true}
+  - {name: 俄罗斯01 | 1x RU, server: free.6vczxw.xyz, port: 41511, type: ss, cipher: chacha20-ietf-poly1305, password: 72d034b8-0466-4540-be1f-9985308296df, udp: true}
+  - {name: 土耳其01 | 1x TR, server: free.6vczxw.xyz, port: 41571, type: ss, cipher: chacha20-ietf-poly1305, password: 72d034b8-0466-4540-be1f-9985308296df, udp: true}
+  - {name: 乌克兰01 | 1x UA, server: free.6vczxw.xyz, port: 41611, type: ss, cipher: chacha20-ietf-poly1305, password: 72d034b8-0466-4540-be1f-9985308296df, udp: true}
+  - {name: 越南01 | 1x VN, server: free.6vczxw.xyz, port: 41641, type: ss, cipher: chacha20-ietf-poly1305, password: 72d034b8-0466-4540-be1f-9985308296df, udp: true}
+  - {name: 巴西01 | 1x BR, server: free.6vczxw.xyz, port: 41671, type: ss, cipher: chacha20-ietf-poly1305, password: 72d034b8-0466-4540-be1f-9985308296df, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
