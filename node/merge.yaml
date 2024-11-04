@@ -5,27 +5,24 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _US_美国_1, server: 18.246.235.247, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _DE_德国->🇺🇸_US_美国, server: 45.87.175.188, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
-  - {name: _DE_德国, server: 45.87.175.171, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
-  - {name: _DE_德国->🇺🇸_US_美国_1, server: beesyar.org, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
-  - {name: _NL_荷兰->🇨🇳_CN_中国, server: 45.144.48.63, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: d3837224ed465f00, udp: true}
-  - {name: _NL_荷兰, server: war.ssvpnapp.win, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: d3837224ed465f00, udp: true}
-  - {name: _US_美国_2, server: 52.10.33.211, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _US_美国_3, server: 54.71.237.242, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _US_美国_4, server: 44.243.115.246, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _US_美国_6, server: 54.185.199.99, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国, server: 107.155.57.51, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-  - {name: _US_美国_7, server: 54.68.160.24, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _US_美国_8, server: 34.209.103.254, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _US_美国_9, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: _US_美国->🇨🇳_CN_中国, server: 34.222.148.255, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _DE_德国_1, server: 45.87.175.166, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
-  - {name: _US_美国_10, server: 54.213.247.125, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _CA_加拿大->🇺🇸_US_美国, server: 64.74.163.130, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: _US_美国_11, server: 34.216.240.225, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _EE_爱沙尼亚, server: 77.247.108.24, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: _US_美国_1 2, server: 35.87.185.248, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _DE_德国, server: 45.87.175.164, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
+  - {name: _US_美国, server: 35.160.185.203, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _DE_德国->🇨🇳_CN_中国, server: 45.87.175.171, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
+  - {name: _US_美国_2, server: 38.110.1.105, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国_3, server: 38.110.1.105, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _DE_德国_1, server: 45.87.175.188, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
+  - {name: _US_美国_4, server: 35.94.16.186, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _US_美国_6, server: 35.88.136.187, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _US_美国_8, server: 38.110.1.105, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_美国->🇷🇴_RO_罗马尼亚, server: 54.213.247.125, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _US_美国_10, server: 44.243.115.246, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _CN_中国->🇫🇷_FR_法国, server: 120.237.79.157, port: 46665, type: vmess, uuid: 3ac820af-becb-45d7-9e7a-e33d02961bb3, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _RU_俄罗斯, server: 89.185.84.185, port: 12575, type: ss, cipher: chacha20-ietf-poly1305, password: gdt6FA0fOR3pBQdFcyHyfv, udp: true}
+  - {name: _US_美国_12, server: 38.110.1.105, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国_13, server: 38.110.1.105, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _US_美国_14, server: 38.110.1.105, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _US_美国_15, server: 38.110.1.105, port: 5498, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV, udp: true}
+  - {name: _US_美国_1, server: 35.87.185.248, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: _US_美国->🇬🇧_GB_英国, server: 44.243.115.246, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: _US_美国_2 2, server: 34.216.240.225, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: _FR_法国->🇦🇹_AT_奥地利, server: 163.172.64.22, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -34,13 +31,13 @@ proxies:
   - {name: _US_美国_4 2, server: 18.246.235.247, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: _US_美国_5, server: 47.130.3.54, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: _US_美国_6 2, server: 54.185.199.99, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _US_美国_7 2, server: 38.110.1.105, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_美国_7, server: 38.110.1.105, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
   - {name: _US_美国_8 2, server: 208.67.105.196, port: 42029, type: ss, cipher: chacha20-ietf-poly1305, password: SjdGCHwafjktt1rzpGxTKYTvVBWb8Xa6E5DTr6MzbdHQSwvpLiDczj3n6MBjy2uyFSzgqgvCWsDQmpM4VQzfPzyGYF58wdyD, udp: true}
-  - {name: _RU_俄罗斯, server: 217.30.10.18, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
-  - {name: _US_美国_9 2, server: 38.110.1.105, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _RU_俄罗斯 2, server: 217.30.10.18, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: _US_美国_9, server: 38.110.1.105, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
   - {name: _US_美国_10 2, server: 38.110.1.105, port: 5498, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV, udp: true}
   - {name: _GB_英国, server: 141.98.101.181, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: _US_美国_11 2, server: 38.110.1.105, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国_11, server: 38.110.1.105, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: 美国(https://www.fuye.fun/免费节点), server: singapore.com, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.6016725.xyz}}, udp: true}
   - {name: 英国(https://www.fuye.fun/免费节点), server: ist1.fromblancwithlove.com, port: 21657, type: ss, cipher: chacha20-ietf-poly1305, password: 7PC4KztQwRixCS809ZFEllQpmAMn4oE0O9qdrCYo4MdEXJU577cjYeaG0tZDyRl0, udp: true}
   - {name: 美国(https://www.fuye.fun/免费节点) 2, server: 38.110.1.107, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
@@ -94,27 +91,24 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _US_美国_1
-      - _DE_德国->🇺🇸_US_美国
       - _DE_德国
-      - _DE_德国->🇺🇸_US_美国_1
-      - _NL_荷兰->🇨🇳_CN_中国
-      - _NL_荷兰
+      - _US_美国
+      - _DE_德国->🇨🇳_CN_中国
       - _US_美国_2
       - _US_美国_3
+      - _DE_德国_1
       - _US_美国_4
       - _US_美国_6
-      - _CN_中国->🇺🇸_US_美国
-      - _US_美国_7
       - _US_美国_8
-      - _US_美国_9
-      - _US_美国->🇨🇳_CN_中国
-      - _DE_德国_1
+      - _US_美国->🇷🇴_RO_罗马尼亚
       - _US_美国_10
-      - _CA_加拿大->🇺🇸_US_美国
-      - _US_美国_11
-      - _EE_爱沙尼亚
-      - _US_美国_1 2
+      - _CN_中国->🇫🇷_FR_法国
+      - _RU_俄罗斯
+      - _US_美国_12
+      - _US_美国_13
+      - _US_美国_14
+      - _US_美国_15
+      - _US_美国_1
       - _US_美国->🇬🇧_GB_英国
       - _US_美国_2 2
       - _FR_法国->🇦🇹_AT_奥地利
@@ -123,13 +117,13 @@ proxy-groups:
       - _US_美国_4 2
       - _US_美国_5
       - _US_美国_6 2
-      - _US_美国_7 2
+      - _US_美国_7
       - _US_美国_8 2
-      - _RU_俄罗斯
-      - _US_美国_9 2
+      - _RU_俄罗斯 2
+      - _US_美国_9
       - _US_美国_10 2
       - _GB_英国
-      - _US_美国_11 2
+      - _US_美国_11
       - 美国(https://www.fuye.fun/免费节点)
       - 英国(https://www.fuye.fun/免费节点)
       - 美国(https://www.fuye.fun/免费节点) 2
@@ -182,27 +176,24 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _US_美国_1
-      - _DE_德国->🇺🇸_US_美国
       - _DE_德国
-      - _DE_德国->🇺🇸_US_美国_1
-      - _NL_荷兰->🇨🇳_CN_中国
-      - _NL_荷兰
+      - _US_美国
+      - _DE_德国->🇨🇳_CN_中国
       - _US_美国_2
       - _US_美国_3
+      - _DE_德国_1
       - _US_美国_4
       - _US_美国_6
-      - _CN_中国->🇺🇸_US_美国
-      - _US_美国_7
       - _US_美国_8
-      - _US_美国_9
-      - _US_美国->🇨🇳_CN_中国
-      - _DE_德国_1
+      - _US_美国->🇷🇴_RO_罗马尼亚
       - _US_美国_10
-      - _CA_加拿大->🇺🇸_US_美国
-      - _US_美国_11
-      - _EE_爱沙尼亚
-      - _US_美国_1 2
+      - _CN_中国->🇫🇷_FR_法国
+      - _RU_俄罗斯
+      - _US_美国_12
+      - _US_美国_13
+      - _US_美国_14
+      - _US_美国_15
+      - _US_美国_1
       - _US_美国->🇬🇧_GB_英国
       - _US_美国_2 2
       - _FR_法国->🇦🇹_AT_奥地利
@@ -211,13 +202,13 @@ proxy-groups:
       - _US_美国_4 2
       - _US_美国_5
       - _US_美国_6 2
-      - _US_美国_7 2
+      - _US_美国_7
       - _US_美国_8 2
-      - _RU_俄罗斯
-      - _US_美国_9 2
+      - _RU_俄罗斯 2
+      - _US_美国_9
       - _US_美国_10 2
       - _GB_英国
-      - _US_美国_11 2
+      - _US_美国_11
       - 美国(https://www.fuye.fun/免费节点)
       - 英国(https://www.fuye.fun/免费节点)
       - 美国(https://www.fuye.fun/免费节点) 2
@@ -271,27 +262,24 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _US_美国_1
-      - _DE_德国->🇺🇸_US_美国
       - _DE_德国
-      - _DE_德国->🇺🇸_US_美国_1
-      - _NL_荷兰->🇨🇳_CN_中国
-      - _NL_荷兰
+      - _US_美国
+      - _DE_德国->🇨🇳_CN_中国
       - _US_美国_2
       - _US_美国_3
+      - _DE_德国_1
       - _US_美国_4
       - _US_美国_6
-      - _CN_中国->🇺🇸_US_美国
-      - _US_美国_7
       - _US_美国_8
-      - _US_美国_9
-      - _US_美国->🇨🇳_CN_中国
-      - _DE_德国_1
+      - _US_美国->🇷🇴_RO_罗马尼亚
       - _US_美国_10
-      - _CA_加拿大->🇺🇸_US_美国
-      - _US_美国_11
-      - _EE_爱沙尼亚
-      - _US_美国_1 2
+      - _CN_中国->🇫🇷_FR_法国
+      - _RU_俄罗斯
+      - _US_美国_12
+      - _US_美国_13
+      - _US_美国_14
+      - _US_美国_15
+      - _US_美国_1
       - _US_美国->🇬🇧_GB_英国
       - _US_美国_2 2
       - _FR_法国->🇦🇹_AT_奥地利
@@ -300,13 +288,13 @@ proxy-groups:
       - _US_美国_4 2
       - _US_美国_5
       - _US_美国_6 2
-      - _US_美国_7 2
+      - _US_美国_7
       - _US_美国_8 2
-      - _RU_俄罗斯
-      - _US_美国_9 2
+      - _RU_俄罗斯 2
+      - _US_美国_9
       - _US_美国_10 2
       - _GB_英国
-      - _US_美国_11 2
+      - _US_美国_11
       - 美国(https://www.fuye.fun/免费节点)
       - 英国(https://www.fuye.fun/免费节点)
       - 美国(https://www.fuye.fun/免费节点) 2
@@ -372,27 +360,24 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _US_美国_1
-      - _DE_德国->🇺🇸_US_美国
       - _DE_德国
-      - _DE_德国->🇺🇸_US_美国_1
-      - _NL_荷兰->🇨🇳_CN_中国
-      - _NL_荷兰
+      - _US_美国
+      - _DE_德国->🇨🇳_CN_中国
       - _US_美国_2
       - _US_美国_3
+      - _DE_德国_1
       - _US_美国_4
       - _US_美国_6
-      - _CN_中国->🇺🇸_US_美国
-      - _US_美国_7
       - _US_美国_8
-      - _US_美国_9
-      - _US_美国->🇨🇳_CN_中国
-      - _DE_德国_1
+      - _US_美国->🇷🇴_RO_罗马尼亚
       - _US_美国_10
-      - _CA_加拿大->🇺🇸_US_美国
-      - _US_美国_11
-      - _EE_爱沙尼亚
-      - _US_美国_1 2
+      - _CN_中国->🇫🇷_FR_法国
+      - _RU_俄罗斯
+      - _US_美国_12
+      - _US_美国_13
+      - _US_美国_14
+      - _US_美国_15
+      - _US_美国_1
       - _US_美国->🇬🇧_GB_英国
       - _US_美国_2 2
       - _FR_法国->🇦🇹_AT_奥地利
@@ -401,13 +386,13 @@ proxy-groups:
       - _US_美国_4 2
       - _US_美国_5
       - _US_美国_6 2
-      - _US_美国_7 2
+      - _US_美国_7
       - _US_美国_8 2
-      - _RU_俄罗斯
-      - _US_美国_9 2
+      - _RU_俄罗斯 2
+      - _US_美国_9
       - _US_美国_10 2
       - _GB_英国
-      - _US_美国_11 2
+      - _US_美国_11
       - 美国(https://www.fuye.fun/免费节点)
       - 英国(https://www.fuye.fun/免费节点)
       - 美国(https://www.fuye.fun/免费节点) 2
@@ -465,27 +450,24 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - _US_美国_1
-      - _DE_德国->🇺🇸_US_美国
       - _DE_德国
-      - _DE_德国->🇺🇸_US_美国_1
-      - _NL_荷兰->🇨🇳_CN_中国
-      - _NL_荷兰
+      - _US_美国
+      - _DE_德国->🇨🇳_CN_中国
       - _US_美国_2
       - _US_美国_3
+      - _DE_德国_1
       - _US_美国_4
       - _US_美国_6
-      - _CN_中国->🇺🇸_US_美国
-      - _US_美国_7
       - _US_美国_8
-      - _US_美国_9
-      - _US_美国->🇨🇳_CN_中国
-      - _DE_德国_1
+      - _US_美国->🇷🇴_RO_罗马尼亚
       - _US_美国_10
-      - _CA_加拿大->🇺🇸_US_美国
-      - _US_美国_11
-      - _EE_爱沙尼亚
-      - _US_美国_1 2
+      - _CN_中国->🇫🇷_FR_法国
+      - _RU_俄罗斯
+      - _US_美国_12
+      - _US_美国_13
+      - _US_美国_14
+      - _US_美国_15
+      - _US_美国_1
       - _US_美国->🇬🇧_GB_英国
       - _US_美国_2 2
       - _FR_法国->🇦🇹_AT_奥地利
@@ -494,13 +476,13 @@ proxy-groups:
       - _US_美国_4 2
       - _US_美国_5
       - _US_美国_6 2
-      - _US_美国_7 2
+      - _US_美国_7
       - _US_美国_8 2
-      - _RU_俄罗斯
-      - _US_美国_9 2
+      - _RU_俄罗斯 2
+      - _US_美国_9
       - _US_美国_10 2
       - _GB_英国
-      - _US_美国_11 2
+      - _US_美国_11
       - 美国(https://www.fuye.fun/免费节点)
       - 英国(https://www.fuye.fun/免费节点)
       - 美国(https://www.fuye.fun/免费节点) 2
@@ -553,27 +535,24 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - _US_美国_1
-      - _DE_德国->🇺🇸_US_美国
       - _DE_德国
-      - _DE_德国->🇺🇸_US_美国_1
-      - _NL_荷兰->🇨🇳_CN_中国
-      - _NL_荷兰
+      - _US_美国
+      - _DE_德国->🇨🇳_CN_中国
       - _US_美国_2
       - _US_美国_3
+      - _DE_德国_1
       - _US_美国_4
       - _US_美国_6
-      - _CN_中国->🇺🇸_US_美国
-      - _US_美国_7
       - _US_美国_8
-      - _US_美国_9
-      - _US_美国->🇨🇳_CN_中国
-      - _DE_德国_1
+      - _US_美国->🇷🇴_RO_罗马尼亚
       - _US_美国_10
-      - _CA_加拿大->🇺🇸_US_美国
-      - _US_美国_11
-      - _EE_爱沙尼亚
-      - _US_美国_1 2
+      - _CN_中国->🇫🇷_FR_法国
+      - _RU_俄罗斯
+      - _US_美国_12
+      - _US_美国_13
+      - _US_美国_14
+      - _US_美国_15
+      - _US_美国_1
       - _US_美国->🇬🇧_GB_英国
       - _US_美国_2 2
       - _FR_法国->🇦🇹_AT_奥地利
@@ -582,13 +561,13 @@ proxy-groups:
       - _US_美国_4 2
       - _US_美国_5
       - _US_美国_6 2
-      - _US_美国_7 2
+      - _US_美国_7
       - _US_美国_8 2
-      - _RU_俄罗斯
-      - _US_美国_9 2
+      - _RU_俄罗斯 2
+      - _US_美国_9
       - _US_美国_10 2
       - _GB_英国
-      - _US_美国_11 2
+      - _US_美国_11
       - 美国(https://www.fuye.fun/免费节点)
       - 英国(https://www.fuye.fun/免费节点)
       - 美国(https://www.fuye.fun/免费节点) 2
@@ -642,27 +621,24 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _US_美国_1
-      - _DE_德国->🇺🇸_US_美国
       - _DE_德国
-      - _DE_德国->🇺🇸_US_美国_1
-      - _NL_荷兰->🇨🇳_CN_中国
-      - _NL_荷兰
+      - _US_美国
+      - _DE_德国->🇨🇳_CN_中国
       - _US_美国_2
       - _US_美国_3
+      - _DE_德国_1
       - _US_美国_4
       - _US_美国_6
-      - _CN_中国->🇺🇸_US_美国
-      - _US_美国_7
       - _US_美国_8
-      - _US_美国_9
-      - _US_美国->🇨🇳_CN_中国
-      - _DE_德国_1
+      - _US_美国->🇷🇴_RO_罗马尼亚
       - _US_美国_10
-      - _CA_加拿大->🇺🇸_US_美国
-      - _US_美国_11
-      - _EE_爱沙尼亚
-      - _US_美国_1 2
+      - _CN_中国->🇫🇷_FR_法国
+      - _RU_俄罗斯
+      - _US_美国_12
+      - _US_美国_13
+      - _US_美国_14
+      - _US_美国_15
+      - _US_美国_1
       - _US_美国->🇬🇧_GB_英国
       - _US_美国_2 2
       - _FR_法国->🇦🇹_AT_奥地利
@@ -671,13 +647,13 @@ proxy-groups:
       - _US_美国_4 2
       - _US_美国_5
       - _US_美国_6 2
-      - _US_美国_7 2
+      - _US_美国_7
       - _US_美国_8 2
-      - _RU_俄罗斯
-      - _US_美国_9 2
+      - _RU_俄罗斯 2
+      - _US_美国_9
       - _US_美国_10 2
       - _GB_英国
-      - _US_美国_11 2
+      - _US_美国_11
       - 美国(https://www.fuye.fun/免费节点)
       - 英国(https://www.fuye.fun/免费节点)
       - 美国(https://www.fuye.fun/免费节点) 2
@@ -740,27 +716,24 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _US_美国_1
-      - _DE_德国->🇺🇸_US_美国
       - _DE_德国
-      - _DE_德国->🇺🇸_US_美国_1
-      - _NL_荷兰->🇨🇳_CN_中国
-      - _NL_荷兰
+      - _US_美国
+      - _DE_德国->🇨🇳_CN_中国
       - _US_美国_2
       - _US_美国_3
+      - _DE_德国_1
       - _US_美国_4
       - _US_美国_6
-      - _CN_中国->🇺🇸_US_美国
-      - _US_美国_7
       - _US_美国_8
-      - _US_美国_9
-      - _US_美国->🇨🇳_CN_中国
-      - _DE_德国_1
+      - _US_美国->🇷🇴_RO_罗马尼亚
       - _US_美国_10
-      - _CA_加拿大->🇺🇸_US_美国
-      - _US_美国_11
-      - _EE_爱沙尼亚
-      - _US_美国_1 2
+      - _CN_中国->🇫🇷_FR_法国
+      - _RU_俄罗斯
+      - _US_美国_12
+      - _US_美国_13
+      - _US_美国_14
+      - _US_美国_15
+      - _US_美国_1
       - _US_美国->🇬🇧_GB_英国
       - _US_美国_2 2
       - _FR_法国->🇦🇹_AT_奥地利
@@ -769,13 +742,13 @@ proxy-groups:
       - _US_美国_4 2
       - _US_美国_5
       - _US_美国_6 2
-      - _US_美国_7 2
+      - _US_美国_7
       - _US_美国_8 2
-      - _RU_俄罗斯
-      - _US_美国_9 2
+      - _RU_俄罗斯 2
+      - _US_美国_9
       - _US_美国_10 2
       - _GB_英国
-      - _US_美国_11 2
+      - _US_美国_11
       - 美国(https://www.fuye.fun/免费节点)
       - 英国(https://www.fuye.fun/免费节点)
       - 美国(https://www.fuye.fun/免费节点) 2
