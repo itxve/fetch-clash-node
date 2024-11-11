@@ -5,38 +5,45 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _US_美国_2, server: 205.134.180.150, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 5cp9Z3iWnJZ2, udp: true}
-  - {name: _US_美国_3, server: 54.202.75.206, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _US_美国_4, server: 38.114.114.143, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _IE_爱尔兰->🇪🇸_ES_西班牙, server: 54.228.87.128, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
-  - {name: _DE_德国, server: 45.87.175.166, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
-  - {name: _US_美国->🇩🇪_DE_德国, server: 209.38.188.162, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: h8Og8v6zkX9ldVFYYajb0g, udp: true}
-  - {name: _US_美国_5, server: 35.85.38.218, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _DE_德国_1, server: 45.87.175.181, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
-  - {name: _US_美国->🇸🇬_SG_新加坡, server: 35.86.117.124, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _US_美国->🇨🇳_CN_中国, server: 104.21.37.37, port: 443, type: trojan, password: WOeXShhJpL, sni: 01jzus.zdzdzd.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: /juzigongyi, headers: {Host: 01jzus.zdzdzd.xyz}}, udp: true}
-  - {name: _US_美国->🇨🇳_CN_中国_1, server: 104.16.79.128, port: 443, type: trojan, password: WOeXShhJpL, sni: 01jzus.zdzdzd.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: /juzigongyi, headers: {Host: 01jzus.zdzdzd.xyz}}, udp: true}
-  - {name: _US_美国_7, server: 54.68.160.24, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _DE_德国_2, server: 45.87.175.171, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
-  - {name: _US_美国_8, server: 38.114.114.143, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _US_美国_9, server: 54.213.228.61, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _US_美国_10, server: 149.22.95.183, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: _DE_德国->🏳️_unKnow_未知, server: 45.87.175.188, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
-  - {name: _US_美国_11, server: 38.114.114.143, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国_12, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: _DE_德国_3, server: 45.87.175.192, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
-  - {name: _US_美国->🇨🇳_CN_中国_1 2, server: 54.149.182.67, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _US_美国, server: 38.114.114.143, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _DE_德国, server: 45.87.175.178, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
+  - {name: _SG_新加坡->🇯🇵_JP_日本, server: 13.229.98.87, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _US_美国_1, server: 69.50.95.53, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _FR_法国->🇺🇸_US_美国, server: 163.172.64.22, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: _ES_西班牙, server: 150.241.102.95, port: 21771, type: ss, cipher: chacha20-ietf-poly1305, password: 5mgZJzPv7hrLX4KMdPIeAW, udp: true}
+  - {name: _DE_德国->🇺🇸_US_美国, server: 45.87.175.171, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
+  - {name: _IN_印度, server: 159.65.149.72, port: 51348, type: ss, cipher: chacha20-ietf-poly1305, password: p7EhC8MR7o7GuRn27YF8SQNAKJ2lUbBNIjcyqSmBHsy8wLbJ, udp: true}
+  - {name: _US_美国_2, server: 69.50.95.53, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国_3, server: 69.50.95.53, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_美国_4, server: 34.217.179.211, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _RU_俄罗斯, server: 89.185.84.185, port: 12575, type: ss, cipher: chacha20-ietf-poly1305, password: 7ZaTlsc9otw2qoPswW7rtd, udp: true}
+  - {name: _CA_加拿大, server: 23.154.136.247, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _TR_土耳其, server: 5.188.36.93, port: 51348, type: ss, cipher: chacha20-ietf-poly1305, password: wZZkAbTeHLw8AKN9mrpEz0FKWMCV6YW9b6888k2cqTl10PhT, udp: true}
+  - {name: _US_美国_5, server: 69.50.95.53, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国_7, server: 52.169.126.67, port: 64401, type: ss, cipher: chacha20-ietf-poly1305, password: qM7y4D7jun6cC5NMdQ3FE5, udp: true}
+  - {name: _US_美国_8, server: 69.50.95.53, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _US_美国->🇨🇳_CN_中国, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: _US_美国_9, server: 208.67.105.196, port: 42029, type: ss, cipher: chacha20-ietf-poly1305, password: SjdGCHwafjktt1rzpGxTKYTvVBWb8Xa6E5DTr6MzbdHQSwvpLiDczj3n6MBjy2uyFSzgqgvCWsDQmpM4VQzfPzyGYF58wdyD, udp: true}
+  - {name: _US_美国->🇦🇺_AU_澳大利亚, server: 52.12.87.156, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _DE_德国->🏳️_unKnow_未知, server: 45.87.175.157, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
+  - {name: _US_美国_11, server: 38.110.1.197, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国_12, server: 69.50.95.53, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_美国_13, server: 69.50.95.53, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _US_美国_14, server: 54.68.160.24, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _US_美国_15, server: 212.102.47.131, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: _US_美国_16, server: 69.50.95.53, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国->🇨🇳_CN_中国_1, server: 54.149.182.67, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: _US_美国->🇸🇬_SG_新加坡_1, server: 54.202.75.206, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: _CN_中国, server: 107.155.57.51, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-  - {name: _US_美国_1, server: 38.114.114.143, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国_1 2, server: 38.114.114.143, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: _US_美国_2 2, server: 54.187.244.22, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _DE_德国_1 2, server: 45.87.175.157, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
-  - {name: _DE_德国_2 2, server: 45.87.175.199, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
+  - {name: _DE_德国_1, server: 45.87.175.157, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
+  - {name: _DE_德国_2, server: 45.87.175.199, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
   - {name: _US_美国_3 2, server: 54.68.160.24, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: _US_美国_4 2, server: 38.114.114.143, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: _US_美国->🇮🇪_IE_爱尔兰, server: 44.243.115.246, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: _US_美国_5 2, server: 38.110.1.107, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _TR_土耳其, server: 185.123.101.241, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: _TR_土耳其 2, server: 185.123.101.241, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: _DE_德国->🇹🇷_TR_土耳其, server: 45.87.175.181, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
   - {name: _US_美国_6, server: 34.209.103.254, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: _US_美国->🇸🇬_SG_新加坡_2, server: 54.69.144.178, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
@@ -78,38 +85,45 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - _US_美国
+      - _DE_德国
+      - _SG_新加坡->🇯🇵_JP_日本
+      - _US_美国_1
+      - _FR_法国->🇺🇸_US_美国
+      - _ES_西班牙
+      - _DE_德国->🇺🇸_US_美国
+      - _IN_印度
       - _US_美国_2
       - _US_美国_3
       - _US_美国_4
-      - _IE_爱尔兰->🇪🇸_ES_西班牙
-      - _DE_德国
-      - _US_美国->🇩🇪_DE_德国
+      - _RU_俄罗斯
+      - _CA_加拿大
+      - _TR_土耳其
       - _US_美国_5
-      - _DE_德国_1
-      - _US_美国->🇸🇬_SG_新加坡
-      - _US_美国->🇨🇳_CN_中国
-      - _US_美国->🇨🇳_CN_中国_1
       - _US_美国_7
-      - _DE_德国_2
       - _US_美国_8
+      - _US_美国->🇨🇳_CN_中国
       - _US_美国_9
-      - _US_美国_10
+      - _US_美国->🇦🇺_AU_澳大利亚
       - _DE_德国->🏳️_unKnow_未知
       - _US_美国_11
       - _US_美国_12
-      - _DE_德国_3
-      - _US_美国->🇨🇳_CN_中国_1 2
+      - _US_美国_13
+      - _US_美国_14
+      - _US_美国_15
+      - _US_美国_16
+      - _US_美国->🇨🇳_CN_中国_1
       - _US_美国->🇸🇬_SG_新加坡_1
       - _CN_中国
-      - _US_美国_1
+      - _US_美国_1 2
       - _US_美国_2 2
-      - _DE_德国_1 2
-      - _DE_德国_2 2
+      - _DE_德国_1
+      - _DE_德国_2
       - _US_美国_3 2
       - _US_美国_4 2
       - _US_美国->🇮🇪_IE_爱尔兰
       - _US_美国_5 2
-      - _TR_土耳其
+      - _TR_土耳其 2
       - _DE_德国->🇹🇷_TR_土耳其
       - _US_美国_6
       - _US_美国->🇸🇬_SG_新加坡_2
@@ -150,38 +164,45 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - _US_美国
+      - _DE_德国
+      - _SG_新加坡->🇯🇵_JP_日本
+      - _US_美国_1
+      - _FR_法国->🇺🇸_US_美国
+      - _ES_西班牙
+      - _DE_德国->🇺🇸_US_美国
+      - _IN_印度
       - _US_美国_2
       - _US_美国_3
       - _US_美国_4
-      - _IE_爱尔兰->🇪🇸_ES_西班牙
-      - _DE_德国
-      - _US_美国->🇩🇪_DE_德国
+      - _RU_俄罗斯
+      - _CA_加拿大
+      - _TR_土耳其
       - _US_美国_5
-      - _DE_德国_1
-      - _US_美国->🇸🇬_SG_新加坡
-      - _US_美国->🇨🇳_CN_中国
-      - _US_美国->🇨🇳_CN_中国_1
       - _US_美国_7
-      - _DE_德国_2
       - _US_美国_8
+      - _US_美国->🇨🇳_CN_中国
       - _US_美国_9
-      - _US_美国_10
+      - _US_美国->🇦🇺_AU_澳大利亚
       - _DE_德国->🏳️_unKnow_未知
       - _US_美国_11
       - _US_美国_12
-      - _DE_德国_3
-      - _US_美国->🇨🇳_CN_中国_1 2
+      - _US_美国_13
+      - _US_美国_14
+      - _US_美国_15
+      - _US_美国_16
+      - _US_美国->🇨🇳_CN_中国_1
       - _US_美国->🇸🇬_SG_新加坡_1
       - _CN_中国
-      - _US_美国_1
+      - _US_美国_1 2
       - _US_美国_2 2
-      - _DE_德国_1 2
-      - _DE_德国_2 2
+      - _DE_德国_1
+      - _DE_德国_2
       - _US_美国_3 2
       - _US_美国_4 2
       - _US_美国->🇮🇪_IE_爱尔兰
       - _US_美国_5 2
-      - _TR_土耳其
+      - _TR_土耳其 2
       - _DE_德国->🇹🇷_TR_土耳其
       - _US_美国_6
       - _US_美国->🇸🇬_SG_新加坡_2
@@ -223,38 +244,45 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - _US_美国
+      - _DE_德国
+      - _SG_新加坡->🇯🇵_JP_日本
+      - _US_美国_1
+      - _FR_法国->🇺🇸_US_美国
+      - _ES_西班牙
+      - _DE_德国->🇺🇸_US_美国
+      - _IN_印度
       - _US_美国_2
       - _US_美国_3
       - _US_美国_4
-      - _IE_爱尔兰->🇪🇸_ES_西班牙
-      - _DE_德国
-      - _US_美国->🇩🇪_DE_德国
+      - _RU_俄罗斯
+      - _CA_加拿大
+      - _TR_土耳其
       - _US_美国_5
-      - _DE_德国_1
-      - _US_美国->🇸🇬_SG_新加坡
-      - _US_美国->🇨🇳_CN_中国
-      - _US_美国->🇨🇳_CN_中国_1
       - _US_美国_7
-      - _DE_德国_2
       - _US_美国_8
+      - _US_美国->🇨🇳_CN_中国
       - _US_美国_9
-      - _US_美国_10
+      - _US_美国->🇦🇺_AU_澳大利亚
       - _DE_德国->🏳️_unKnow_未知
       - _US_美国_11
       - _US_美国_12
-      - _DE_德国_3
-      - _US_美国->🇨🇳_CN_中国_1 2
+      - _US_美国_13
+      - _US_美国_14
+      - _US_美国_15
+      - _US_美国_16
+      - _US_美国->🇨🇳_CN_中国_1
       - _US_美国->🇸🇬_SG_新加坡_1
       - _CN_中国
-      - _US_美国_1
+      - _US_美国_1 2
       - _US_美国_2 2
-      - _DE_德国_1 2
-      - _DE_德国_2 2
+      - _DE_德国_1
+      - _DE_德国_2
       - _US_美国_3 2
       - _US_美国_4 2
       - _US_美国->🇮🇪_IE_爱尔兰
       - _US_美国_5 2
-      - _TR_土耳其
+      - _TR_土耳其 2
       - _DE_德国->🇹🇷_TR_土耳其
       - _US_美国_6
       - _US_美国->🇸🇬_SG_新加坡_2
@@ -308,38 +336,45 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - _US_美国
+      - _DE_德国
+      - _SG_新加坡->🇯🇵_JP_日本
+      - _US_美国_1
+      - _FR_法国->🇺🇸_US_美国
+      - _ES_西班牙
+      - _DE_德国->🇺🇸_US_美国
+      - _IN_印度
       - _US_美国_2
       - _US_美国_3
       - _US_美国_4
-      - _IE_爱尔兰->🇪🇸_ES_西班牙
-      - _DE_德国
-      - _US_美国->🇩🇪_DE_德国
+      - _RU_俄罗斯
+      - _CA_加拿大
+      - _TR_土耳其
       - _US_美国_5
-      - _DE_德国_1
-      - _US_美国->🇸🇬_SG_新加坡
-      - _US_美国->🇨🇳_CN_中国
-      - _US_美国->🇨🇳_CN_中国_1
       - _US_美国_7
-      - _DE_德国_2
       - _US_美国_8
+      - _US_美国->🇨🇳_CN_中国
       - _US_美国_9
-      - _US_美国_10
+      - _US_美国->🇦🇺_AU_澳大利亚
       - _DE_德国->🏳️_unKnow_未知
       - _US_美国_11
       - _US_美国_12
-      - _DE_德国_3
-      - _US_美国->🇨🇳_CN_中国_1 2
+      - _US_美国_13
+      - _US_美国_14
+      - _US_美国_15
+      - _US_美国_16
+      - _US_美国->🇨🇳_CN_中国_1
       - _US_美国->🇸🇬_SG_新加坡_1
       - _CN_中国
-      - _US_美国_1
+      - _US_美国_1 2
       - _US_美国_2 2
-      - _DE_德国_1 2
-      - _DE_德国_2 2
+      - _DE_德国_1
+      - _DE_德国_2
       - _US_美国_3 2
       - _US_美国_4 2
       - _US_美国->🇮🇪_IE_爱尔兰
       - _US_美国_5 2
-      - _TR_土耳其
+      - _TR_土耳其 2
       - _DE_德国->🇹🇷_TR_土耳其
       - _US_美国_6
       - _US_美国->🇸🇬_SG_新加坡_2
@@ -385,38 +420,45 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - _US_美国
+      - _DE_德国
+      - _SG_新加坡->🇯🇵_JP_日本
+      - _US_美国_1
+      - _FR_法国->🇺🇸_US_美国
+      - _ES_西班牙
+      - _DE_德国->🇺🇸_US_美国
+      - _IN_印度
       - _US_美国_2
       - _US_美国_3
       - _US_美国_4
-      - _IE_爱尔兰->🇪🇸_ES_西班牙
-      - _DE_德国
-      - _US_美国->🇩🇪_DE_德国
+      - _RU_俄罗斯
+      - _CA_加拿大
+      - _TR_土耳其
       - _US_美国_5
-      - _DE_德国_1
-      - _US_美国->🇸🇬_SG_新加坡
-      - _US_美国->🇨🇳_CN_中国
-      - _US_美国->🇨🇳_CN_中国_1
       - _US_美国_7
-      - _DE_德国_2
       - _US_美国_8
+      - _US_美国->🇨🇳_CN_中国
       - _US_美国_9
-      - _US_美国_10
+      - _US_美国->🇦🇺_AU_澳大利亚
       - _DE_德国->🏳️_unKnow_未知
       - _US_美国_11
       - _US_美国_12
-      - _DE_德国_3
-      - _US_美国->🇨🇳_CN_中国_1 2
+      - _US_美国_13
+      - _US_美国_14
+      - _US_美国_15
+      - _US_美国_16
+      - _US_美国->🇨🇳_CN_中国_1
       - _US_美国->🇸🇬_SG_新加坡_1
       - _CN_中国
-      - _US_美国_1
+      - _US_美国_1 2
       - _US_美国_2 2
-      - _DE_德国_1 2
-      - _DE_德国_2 2
+      - _DE_德国_1
+      - _DE_德国_2
       - _US_美国_3 2
       - _US_美国_4 2
       - _US_美国->🇮🇪_IE_爱尔兰
       - _US_美国_5 2
-      - _TR_土耳其
+      - _TR_土耳其 2
       - _DE_德国->🇹🇷_TR_土耳其
       - _US_美国_6
       - _US_美国->🇸🇬_SG_新加坡_2
@@ -457,38 +499,45 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - _US_美国
+      - _DE_德国
+      - _SG_新加坡->🇯🇵_JP_日本
+      - _US_美国_1
+      - _FR_法国->🇺🇸_US_美国
+      - _ES_西班牙
+      - _DE_德国->🇺🇸_US_美国
+      - _IN_印度
       - _US_美国_2
       - _US_美国_3
       - _US_美国_4
-      - _IE_爱尔兰->🇪🇸_ES_西班牙
-      - _DE_德国
-      - _US_美国->🇩🇪_DE_德国
+      - _RU_俄罗斯
+      - _CA_加拿大
+      - _TR_土耳其
       - _US_美国_5
-      - _DE_德国_1
-      - _US_美国->🇸🇬_SG_新加坡
-      - _US_美国->🇨🇳_CN_中国
-      - _US_美国->🇨🇳_CN_中国_1
       - _US_美国_7
-      - _DE_德国_2
       - _US_美国_8
+      - _US_美国->🇨🇳_CN_中国
       - _US_美国_9
-      - _US_美国_10
+      - _US_美国->🇦🇺_AU_澳大利亚
       - _DE_德国->🏳️_unKnow_未知
       - _US_美国_11
       - _US_美国_12
-      - _DE_德国_3
-      - _US_美国->🇨🇳_CN_中国_1 2
+      - _US_美国_13
+      - _US_美国_14
+      - _US_美国_15
+      - _US_美国_16
+      - _US_美国->🇨🇳_CN_中国_1
       - _US_美国->🇸🇬_SG_新加坡_1
       - _CN_中国
-      - _US_美国_1
+      - _US_美国_1 2
       - _US_美国_2 2
-      - _DE_德国_1 2
-      - _DE_德国_2 2
+      - _DE_德国_1
+      - _DE_德国_2
       - _US_美国_3 2
       - _US_美国_4 2
       - _US_美国->🇮🇪_IE_爱尔兰
       - _US_美国_5 2
-      - _TR_土耳其
+      - _TR_土耳其 2
       - _DE_德国->🇹🇷_TR_土耳其
       - _US_美国_6
       - _US_美国->🇸🇬_SG_新加坡_2
@@ -530,38 +579,45 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - _US_美国
+      - _DE_德国
+      - _SG_新加坡->🇯🇵_JP_日本
+      - _US_美国_1
+      - _FR_法国->🇺🇸_US_美国
+      - _ES_西班牙
+      - _DE_德国->🇺🇸_US_美国
+      - _IN_印度
       - _US_美国_2
       - _US_美国_3
       - _US_美国_4
-      - _IE_爱尔兰->🇪🇸_ES_西班牙
-      - _DE_德国
-      - _US_美国->🇩🇪_DE_德国
+      - _RU_俄罗斯
+      - _CA_加拿大
+      - _TR_土耳其
       - _US_美国_5
-      - _DE_德国_1
-      - _US_美国->🇸🇬_SG_新加坡
-      - _US_美国->🇨🇳_CN_中国
-      - _US_美国->🇨🇳_CN_中国_1
       - _US_美国_7
-      - _DE_德国_2
       - _US_美国_8
+      - _US_美国->🇨🇳_CN_中国
       - _US_美国_9
-      - _US_美国_10
+      - _US_美国->🇦🇺_AU_澳大利亚
       - _DE_德国->🏳️_unKnow_未知
       - _US_美国_11
       - _US_美国_12
-      - _DE_德国_3
-      - _US_美国->🇨🇳_CN_中国_1 2
+      - _US_美国_13
+      - _US_美国_14
+      - _US_美国_15
+      - _US_美国_16
+      - _US_美国->🇨🇳_CN_中国_1
       - _US_美国->🇸🇬_SG_新加坡_1
       - _CN_中国
-      - _US_美国_1
+      - _US_美国_1 2
       - _US_美国_2 2
-      - _DE_德国_1 2
-      - _DE_德国_2 2
+      - _DE_德国_1
+      - _DE_德国_2
       - _US_美国_3 2
       - _US_美国_4 2
       - _US_美国->🇮🇪_IE_爱尔兰
       - _US_美国_5 2
-      - _TR_土耳其
+      - _TR_土耳其 2
       - _DE_德国->🇹🇷_TR_土耳其
       - _US_美国_6
       - _US_美国->🇸🇬_SG_新加坡_2
@@ -612,38 +668,45 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - _US_美国
+      - _DE_德国
+      - _SG_新加坡->🇯🇵_JP_日本
+      - _US_美国_1
+      - _FR_法国->🇺🇸_US_美国
+      - _ES_西班牙
+      - _DE_德国->🇺🇸_US_美国
+      - _IN_印度
       - _US_美国_2
       - _US_美国_3
       - _US_美国_4
-      - _IE_爱尔兰->🇪🇸_ES_西班牙
-      - _DE_德国
-      - _US_美国->🇩🇪_DE_德国
+      - _RU_俄罗斯
+      - _CA_加拿大
+      - _TR_土耳其
       - _US_美国_5
-      - _DE_德国_1
-      - _US_美国->🇸🇬_SG_新加坡
-      - _US_美国->🇨🇳_CN_中国
-      - _US_美国->🇨🇳_CN_中国_1
       - _US_美国_7
-      - _DE_德国_2
       - _US_美国_8
+      - _US_美国->🇨🇳_CN_中国
       - _US_美国_9
-      - _US_美国_10
+      - _US_美国->🇦🇺_AU_澳大利亚
       - _DE_德国->🏳️_unKnow_未知
       - _US_美国_11
       - _US_美国_12
-      - _DE_德国_3
-      - _US_美国->🇨🇳_CN_中国_1 2
+      - _US_美国_13
+      - _US_美国_14
+      - _US_美国_15
+      - _US_美国_16
+      - _US_美国->🇨🇳_CN_中国_1
       - _US_美国->🇸🇬_SG_新加坡_1
       - _CN_中国
-      - _US_美国_1
+      - _US_美国_1 2
       - _US_美国_2 2
-      - _DE_德国_1 2
-      - _DE_德国_2 2
+      - _DE_德国_1
+      - _DE_德国_2
       - _US_美国_3 2
       - _US_美国_4 2
       - _US_美国->🇮🇪_IE_爱尔兰
       - _US_美国_5 2
-      - _TR_土耳其
+      - _TR_土耳其 2
       - _DE_德国->🇹🇷_TR_土耳其
       - _US_美国_6
       - _US_美国->🇸🇬_SG_新加坡_2
