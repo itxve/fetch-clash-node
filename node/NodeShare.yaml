@@ -5,139 +5,355 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 德国(https://www.fuye.fun/免费节点), server: 45.87.175.164, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
-  - {name: 德国(https://www.fuye.fun/免费节点) 2, server: 45.87.175.164, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
-  - {name: 俄罗斯(https://www.fuye.fun/免费节点), server: 89.185.84.185, port: 12575, type: ss, cipher: chacha20-ietf-poly1305, password: gdt6FA0fOR3pBQdFcyHyfv, udp: true}
-  - {name: 俄罗斯(https://www.fuye.fun/免费节点) 2, server: 89.169.55.152, port: 33026, type: vmess, uuid: 06053cbe-a299-4934-bca6-0707e1416dc7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dangerzone, ws-headers: {Host: socks5tobefree.ydns.eu}, udp: true}
-  - {name: 俄罗斯(https://www.fuye.fun/免费节点) 3, server: 176.124.199.255, port: 19999, type: ss, cipher: chacha20-ietf-poly1305, password: "%-MVa11&zp", udp: true}
-  - {name: 俄罗斯(https://www.fuye.fun/免费节点) 4, server: 176.124.199.255, port: 30252, type: ss, cipher: chacha20-ietf-poly1305, password: Zgg@X0m515, udp: true}
-  - {name: 加拿大(https://www.fuye.fun/免费节点), server: russia.com, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /github.com/Alvin9999, ws-headers: {Host: ip18.6929198.xyz}, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点), server: 104.20.25.69, port: 443, type: trojan, password: NISHIKUITAN222, skip-cert-verify: true, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 2, server: 69.50.95.53, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 3, server: 69.50.95.53, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 4, server: 69.50.95.53, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 俄罗斯(https://www.fuye.fun/免费节点), server: 89.185.84.185, port: 12575, type: ss, cipher: chacha20-ietf-poly1305, password: MdeeQzzQP9HTGvy3NKC9FR, udp: true}
+  - {name: 荷兰(https://www.fuye.fun/免费节点), server: 107.181.155.244, port: 55330, type: ss, cipher: chacha20-ietf-poly1305, password: rtR4YX74vwqRJu9MGH3e1N3CQdGMWCUFkyLisijiFuvhkU9McV5TpygfkernJ4UQe63JtcDQkrQ9HfchzqQz1kLCnTRor8jg, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 5, server: 38.121.43.204, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 6, server: 208.67.105.196, port: 42029, type: ss, cipher: chacha20-ietf-poly1305, password: SjdGCHwafjktt1rzpGxTKYTvVBWb8Xa6E5DTr6MzbdHQSwvpLiDczj3n6MBjy2uyFSzgqgvCWsDQmpM4VQzfPzyGYF58wdyD, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 7, server: 69.50.95.53, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 8, server: 162.159.134.253, port: 443, type: trojan, password: NISHIKUITAN222, skip-cert-verify: true, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 9, server: 162.159.136.182, port: 443, type: trojan, password: NISHIKUITAN222, skip-cert-verify: true, udp: true}
+  - {name: 日本(https://www.fuye.fun/免费节点), server: 150.66.24.104, port: 16798, type: vmess, uuid: bc6c7c93-9245-47be-bfd7-c34a39d0f155, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 10, server: 212.102.47.131, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 11, server: 69.50.95.53, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 德国(https://www.fuye.fun/免费节点), server: beesyar.org, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
+  - {name: 加拿大(https://www.fuye.fun/免费节点), server: ip.sb, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /github.com/Alvin9999, ws-headers: {Host: ip20.6016725.xyz}, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 12, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 13, server: naiu-jp.05vr9nyqg5.download, port: 13018, type: trojan, password: b264982e-e333-4085-ac04-406afef23455, sni: naiu-jp.05vr9nyqg5.download, skip-cert-verify: true, udp: true}
+  - {name: 德国(https://www.fuye.fun/免费节点) 2, server: 45.87.175.178, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
+  - {name: 德国(https://www.fuye.fun/免费节点) 3, server: 45.87.175.181, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 14, server: 183.236.51.23, port: 51704, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 15, server: 38.121.43.204, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 16, server: 38.114.114.143, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 17, server: 183.236.51.23, port: 46602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 18, server: 120.241.45.50, port: 18001, type: ss, cipher: aes-256-gcm, password: 7DJY7GZN9AQ2AURN, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 19, server: s1c.v2.v001sss.xyz, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: s1c.v2.v001sss.xyz}, udp: true}
+  - {name: 印度(https://www.fuye.fun/免费节点), server: 159.65.149.72, port: 51348, type: ss, cipher: chacha20-ietf-poly1305, password: p7EhC8MR7o7GuRn27YF8SQNAKJ2lUbBNIjcyqSmBHsy8wLbJ, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 20, server: speed.cloudflare.com, port: 80, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /glweidf.sbs/linkws, ws-headers: {Host: 7ehhjdelicate-unit-e634.bowik41429.workers.dev}, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 21, server: 120.232.153.27, port: 58002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 22, server: 183.236.48.163, port: 40002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 德国(https://www.fuye.fun/免费节点) 4, server: beesyar.org, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 23, server: 69.50.95.53, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 24, server: naiu-other.05vr9nyqg5.download, port: 13035, type: trojan, password: b264982e-e333-4085-ac04-406afef23455, sni: naiu-other.05vr9nyqg5.download, skip-cert-verify: true, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 25, server: 38.114.114.143, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 26, server: 15086.kuaiyin02.top, port: 15086, type: vmess, uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 英国(https://www.fuye.fun/免费节点), server: 141.98.101.179, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 27, server: 149.22.95.183, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 28, server: 69.50.95.53, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 俄罗斯(https://www.fuye.fun/免费节点) 2, server: 89.185.84.185, port: 12575, type: ss, cipher: chacha20-ietf-poly1305, password: CaNG1aNlH0QJRkdsWVzW63, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 29, server: 38.110.1.197, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 30, server: 52.169.126.67, port: 64401, type: ss, cipher: chacha20-ietf-poly1305, password: qM7y4D7jun6cC5NMdQ3FE5, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 31, server: s1c.v2.v001sss.xyz, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: s1c.v2.v001sss.xyz}, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 32, server: 38.121.43.204, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 33, server: 205.134.180.150, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 5cp9Z3iWnJZ2, udp: true}
+  - {name: 俄罗斯(https://www.fuye.fun/免费节点) 3, server: 89.185.84.185, port: 12575, type: ss, cipher: chacha20-ietf-poly1305, password: pUJMrUkY8fpVI2b18T5sRi, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 34, server: 183.236.51.23, port: 52112, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 35, server: 69.50.95.53, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 36, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 37, server: 69.50.95.53, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 38, server: 69.50.95.53, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 39, server: 183.236.51.23, port: 56601, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 40, server: naiu-jp.05vr9nyqg5.download, port: 13012, type: trojan, password: b264982e-e333-4085-ac04-406afef23455, sni: naiu-jp.05vr9nyqg5.download, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯(https://www.fuye.fun/免费节点) 4, server: 89.185.84.185, port: 12575, type: ss, cipher: chacha20-ietf-poly1305, password: gdt6FA0fOR3pBQdFcyHyfv, udp: true}
+  - {name: 德国(https://www.fuye.fun/免费节点) 5, server: 45.87.175.178, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 41, server: 120.241.45.50, port: 15002, type: ss, cipher: aes-256-gcm, password: U4W5JSFDBCGUTTWN, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 42, server: 69.50.95.53, port: 5498, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV, udp: true}
+  - {name: 德国(https://www.fuye.fun/免费节点) 6, server: 45.87.175.157, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
+  - {name: 俄罗斯(https://www.fuye.fun/免费节点) 5, server: 89.185.84.185, port: 12575, type: ss, cipher: chacha20-ietf-poly1305, password: 7ZaTlsc9otw2qoPswW7rtd, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 43, server: fbi.gov, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip2.6016725.xyz}, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 44, server: icook.tw, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip2.6016725.xyz}, udp: true}
+  - {name: 德国(https://www.fuye.fun/免费节点) 7, server: 45.87.175.199, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
+  - {name: 德国(https://www.fuye.fun/免费节点) 8, server: 45.87.175.181, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
   - {name: 加拿大(https://www.fuye.fun/免费节点) 2, server: malaysia.com, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip3.6929198.xyz}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点), server: speed.cloudflare.com, port: 80, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /glweidf.sbs/linkws, ws-headers: {Host: 7ehhjdelicate-unit-e634.bowik41429.workers.dev}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 2, server: singapore.com, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip2.6016725.xyz}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 3, server: singapore.com, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip2.6016725.xyz}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 4, server: russia.com, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /github.com/Alvin9999, ws-headers: {Host: ip11.6016725.xyz}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 5, server: russia.com, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip3.6929198.xyz}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 6, server: malaysia.com, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip2.6016725.xyz}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 7, server: icook.tw, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip2.6016725.xyz}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 8, server: fbi.gov, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip2.6016725.xyz}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 9, server: api.turkiye6.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: lQHuqev0bDeSuxSCL, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 10, server: 69.50.92.99, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 11, server: 35.93.4.218, port: 5052, type: ss, cipher: chacha20-ietf-poly1305, password: FqoIyKig0g54YdCoMWTybb, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 12, server: 3.138.200.105, port: 1093, type: ss, cipher: chacha20-ietf-poly1305, password: cE7iaxN0dgyugxTb8EqRqQ, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 13, server: 212.102.47.131, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 14, server: 208.67.105.196, port: 42029, type: ss, cipher: chacha20-ietf-poly1305, password: SjdGCHwafjktt1rzpGxTKYTvVBWb8Xa6E5DTr6MzbdHQSwvpLiDczj3n6MBjy2uyFSzgqgvCWsDQmpM4VQzfPzyGYF58wdyD, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 15, server: 183.236.51.23, port: 51002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 16, server: 172.67.145.226, port: 443, type: trojan, password: NISHIKUITAN222, skip-cert-verify: true, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 17, server: 172.64.150.145, port: 443, type: trojan, password: bpb-trojan, skip-cert-verify: true, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 18, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 19, server: 15086.kuaiyin02.top, port: 15086, type: vmess, uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 英国(https://www.fuye.fun/免费节点), server: 141.98.101.181, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 英国(https://www.fuye.fun/免费节点) 2, server: 141.98.101.178, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 45, server: fbi.gov, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /github.com/Alvin9999, ws-headers: {Host: ip18.6929198.xyz}, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 46, server: ip.sb, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /github.com/Alvin9999, ws-headers: {Host: ip16.6929198.xyz}, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 47, server: russia.com, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /github.com/Alvin9999, ws-headers: {Host: ip11.6016725.xyz}, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 48, server: ip.sb, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip2.6016725.xyz}, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 49, server: icook.tw, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip3.6929198.xyz}, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 50, server: 104.19.33.11, port: 443, type: trojan, password: NISHIKUITAN222, skip-cert-verify: true, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 51, server: singapore.com, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip12.6929198.xyz}, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 52, server: japan.com, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip3.6929198.xyz}, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 53, server: russia.com, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip2.6016725.xyz}, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 54, server: japan.com, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip3.6929198.xyz}, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 55, server: singapore.com, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip2.6016725.xyz}, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 56, server: russia.com, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip3.6929198.xyz}, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 57, server: ip.sb, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip8.6016725.xyz}, udp: true}
+  - {name: 德国(https://www.fuye.fun/免费节点) 9, server: 45.87.175.181, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 58, server: malaysia.com, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip2.6016725.xyz}, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 59, server: icook.tw, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /github.com/Alvin9999, ws-headers: {Host: ip15.6016725.xyz}, udp: true}
+  - {name: 加拿大(https://www.fuye.fun/免费节点) 3, server: russia.com, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /github.com/Alvin9999, ws-headers: {Host: ip18.6929198.xyz}, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 60, server: singapore.com, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip2.6016725.xyz}, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 61, server: 172.67.71.225, port: 443, type: trojan, password: NISHIKUITAN222, skip-cert-verify: true, udp: true}
+  - {name: 美国(https://www.fuye.fun/免费节点) 62, server: 5.188.36.93, port: 51348, type: ss, cipher: chacha20-ietf-poly1305, password: wZZkAbTeHLw8AKN9mrpEz0FKWMCV6YW9b6888k2cqTl10PhT, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 德国(https://www.fuye.fun/免费节点)
-      - 德国(https://www.fuye.fun/免费节点) 2
-      - 俄罗斯(https://www.fuye.fun/免费节点)
-      - 俄罗斯(https://www.fuye.fun/免费节点) 2
-      - 俄罗斯(https://www.fuye.fun/免费节点) 3
-      - 俄罗斯(https://www.fuye.fun/免费节点) 4
-      - 加拿大(https://www.fuye.fun/免费节点)
-      - 加拿大(https://www.fuye.fun/免费节点) 2
       - 美国(https://www.fuye.fun/免费节点)
       - 美国(https://www.fuye.fun/免费节点) 2
       - 美国(https://www.fuye.fun/免费节点) 3
       - 美国(https://www.fuye.fun/免费节点) 4
+      - 俄罗斯(https://www.fuye.fun/免费节点)
+      - 荷兰(https://www.fuye.fun/免费节点)
       - 美国(https://www.fuye.fun/免费节点) 5
       - 美国(https://www.fuye.fun/免费节点) 6
       - 美国(https://www.fuye.fun/免费节点) 7
       - 美国(https://www.fuye.fun/免费节点) 8
       - 美国(https://www.fuye.fun/免费节点) 9
+      - 日本(https://www.fuye.fun/免费节点)
       - 美国(https://www.fuye.fun/免费节点) 10
       - 美国(https://www.fuye.fun/免费节点) 11
+      - 德国(https://www.fuye.fun/免费节点)
+      - 加拿大(https://www.fuye.fun/免费节点)
       - 美国(https://www.fuye.fun/免费节点) 12
       - 美国(https://www.fuye.fun/免费节点) 13
+      - 德国(https://www.fuye.fun/免费节点) 2
+      - 德国(https://www.fuye.fun/免费节点) 3
       - 美国(https://www.fuye.fun/免费节点) 14
       - 美国(https://www.fuye.fun/免费节点) 15
       - 美国(https://www.fuye.fun/免费节点) 16
       - 美国(https://www.fuye.fun/免费节点) 17
       - 美国(https://www.fuye.fun/免费节点) 18
       - 美国(https://www.fuye.fun/免费节点) 19
+      - 印度(https://www.fuye.fun/免费节点)
+      - 美国(https://www.fuye.fun/免费节点) 20
+      - 美国(https://www.fuye.fun/免费节点) 21
+      - 美国(https://www.fuye.fun/免费节点) 22
+      - 德国(https://www.fuye.fun/免费节点) 4
+      - 美国(https://www.fuye.fun/免费节点) 23
+      - 美国(https://www.fuye.fun/免费节点) 24
+      - 美国(https://www.fuye.fun/免费节点) 25
+      - 美国(https://www.fuye.fun/免费节点) 26
       - 英国(https://www.fuye.fun/免费节点)
-      - 英国(https://www.fuye.fun/免费节点) 2
+      - 美国(https://www.fuye.fun/免费节点) 27
+      - 美国(https://www.fuye.fun/免费节点) 28
+      - 俄罗斯(https://www.fuye.fun/免费节点) 2
+      - 美国(https://www.fuye.fun/免费节点) 29
+      - 美国(https://www.fuye.fun/免费节点) 30
+      - 美国(https://www.fuye.fun/免费节点) 31
+      - 美国(https://www.fuye.fun/免费节点) 32
+      - 美国(https://www.fuye.fun/免费节点) 33
+      - 俄罗斯(https://www.fuye.fun/免费节点) 3
+      - 美国(https://www.fuye.fun/免费节点) 34
+      - 美国(https://www.fuye.fun/免费节点) 35
+      - 美国(https://www.fuye.fun/免费节点) 36
+      - 美国(https://www.fuye.fun/免费节点) 37
+      - 美国(https://www.fuye.fun/免费节点) 38
+      - 美国(https://www.fuye.fun/免费节点) 39
+      - 美国(https://www.fuye.fun/免费节点) 40
+      - 俄罗斯(https://www.fuye.fun/免费节点) 4
+      - 德国(https://www.fuye.fun/免费节点) 5
+      - 美国(https://www.fuye.fun/免费节点) 41
+      - 美国(https://www.fuye.fun/免费节点) 42
+      - 德国(https://www.fuye.fun/免费节点) 6
+      - 俄罗斯(https://www.fuye.fun/免费节点) 5
+      - 美国(https://www.fuye.fun/免费节点) 43
+      - 美国(https://www.fuye.fun/免费节点) 44
+      - 德国(https://www.fuye.fun/免费节点) 7
+      - 德国(https://www.fuye.fun/免费节点) 8
+      - 加拿大(https://www.fuye.fun/免费节点) 2
+      - 美国(https://www.fuye.fun/免费节点) 45
+      - 美国(https://www.fuye.fun/免费节点) 46
+      - 美国(https://www.fuye.fun/免费节点) 47
+      - 美国(https://www.fuye.fun/免费节点) 48
+      - 美国(https://www.fuye.fun/免费节点) 49
+      - 美国(https://www.fuye.fun/免费节点) 50
+      - 美国(https://www.fuye.fun/免费节点) 51
+      - 美国(https://www.fuye.fun/免费节点) 52
+      - 美国(https://www.fuye.fun/免费节点) 53
+      - 美国(https://www.fuye.fun/免费节点) 54
+      - 美国(https://www.fuye.fun/免费节点) 55
+      - 美国(https://www.fuye.fun/免费节点) 56
+      - 美国(https://www.fuye.fun/免费节点) 57
+      - 德国(https://www.fuye.fun/免费节点) 9
+      - 美国(https://www.fuye.fun/免费节点) 58
+      - 美国(https://www.fuye.fun/免费节点) 59
+      - 加拿大(https://www.fuye.fun/免费节点) 3
+      - 美国(https://www.fuye.fun/免费节点) 60
+      - 美国(https://www.fuye.fun/免费节点) 61
+      - 美国(https://www.fuye.fun/免费节点) 62
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 德国(https://www.fuye.fun/免费节点)
-      - 德国(https://www.fuye.fun/免费节点) 2
-      - 俄罗斯(https://www.fuye.fun/免费节点)
-      - 俄罗斯(https://www.fuye.fun/免费节点) 2
-      - 俄罗斯(https://www.fuye.fun/免费节点) 3
-      - 俄罗斯(https://www.fuye.fun/免费节点) 4
-      - 加拿大(https://www.fuye.fun/免费节点)
-      - 加拿大(https://www.fuye.fun/免费节点) 2
       - 美国(https://www.fuye.fun/免费节点)
       - 美国(https://www.fuye.fun/免费节点) 2
       - 美国(https://www.fuye.fun/免费节点) 3
       - 美国(https://www.fuye.fun/免费节点) 4
+      - 俄罗斯(https://www.fuye.fun/免费节点)
+      - 荷兰(https://www.fuye.fun/免费节点)
       - 美国(https://www.fuye.fun/免费节点) 5
       - 美国(https://www.fuye.fun/免费节点) 6
       - 美国(https://www.fuye.fun/免费节点) 7
       - 美国(https://www.fuye.fun/免费节点) 8
       - 美国(https://www.fuye.fun/免费节点) 9
+      - 日本(https://www.fuye.fun/免费节点)
       - 美国(https://www.fuye.fun/免费节点) 10
       - 美国(https://www.fuye.fun/免费节点) 11
+      - 德国(https://www.fuye.fun/免费节点)
+      - 加拿大(https://www.fuye.fun/免费节点)
       - 美国(https://www.fuye.fun/免费节点) 12
       - 美国(https://www.fuye.fun/免费节点) 13
+      - 德国(https://www.fuye.fun/免费节点) 2
+      - 德国(https://www.fuye.fun/免费节点) 3
       - 美国(https://www.fuye.fun/免费节点) 14
       - 美国(https://www.fuye.fun/免费节点) 15
       - 美国(https://www.fuye.fun/免费节点) 16
       - 美国(https://www.fuye.fun/免费节点) 17
       - 美国(https://www.fuye.fun/免费节点) 18
       - 美国(https://www.fuye.fun/免费节点) 19
+      - 印度(https://www.fuye.fun/免费节点)
+      - 美国(https://www.fuye.fun/免费节点) 20
+      - 美国(https://www.fuye.fun/免费节点) 21
+      - 美国(https://www.fuye.fun/免费节点) 22
+      - 德国(https://www.fuye.fun/免费节点) 4
+      - 美国(https://www.fuye.fun/免费节点) 23
+      - 美国(https://www.fuye.fun/免费节点) 24
+      - 美国(https://www.fuye.fun/免费节点) 25
+      - 美国(https://www.fuye.fun/免费节点) 26
       - 英国(https://www.fuye.fun/免费节点)
-      - 英国(https://www.fuye.fun/免费节点) 2
+      - 美国(https://www.fuye.fun/免费节点) 27
+      - 美国(https://www.fuye.fun/免费节点) 28
+      - 俄罗斯(https://www.fuye.fun/免费节点) 2
+      - 美国(https://www.fuye.fun/免费节点) 29
+      - 美国(https://www.fuye.fun/免费节点) 30
+      - 美国(https://www.fuye.fun/免费节点) 31
+      - 美国(https://www.fuye.fun/免费节点) 32
+      - 美国(https://www.fuye.fun/免费节点) 33
+      - 俄罗斯(https://www.fuye.fun/免费节点) 3
+      - 美国(https://www.fuye.fun/免费节点) 34
+      - 美国(https://www.fuye.fun/免费节点) 35
+      - 美国(https://www.fuye.fun/免费节点) 36
+      - 美国(https://www.fuye.fun/免费节点) 37
+      - 美国(https://www.fuye.fun/免费节点) 38
+      - 美国(https://www.fuye.fun/免费节点) 39
+      - 美国(https://www.fuye.fun/免费节点) 40
+      - 俄罗斯(https://www.fuye.fun/免费节点) 4
+      - 德国(https://www.fuye.fun/免费节点) 5
+      - 美国(https://www.fuye.fun/免费节点) 41
+      - 美国(https://www.fuye.fun/免费节点) 42
+      - 德国(https://www.fuye.fun/免费节点) 6
+      - 俄罗斯(https://www.fuye.fun/免费节点) 5
+      - 美国(https://www.fuye.fun/免费节点) 43
+      - 美国(https://www.fuye.fun/免费节点) 44
+      - 德国(https://www.fuye.fun/免费节点) 7
+      - 德国(https://www.fuye.fun/免费节点) 8
+      - 加拿大(https://www.fuye.fun/免费节点) 2
+      - 美国(https://www.fuye.fun/免费节点) 45
+      - 美国(https://www.fuye.fun/免费节点) 46
+      - 美国(https://www.fuye.fun/免费节点) 47
+      - 美国(https://www.fuye.fun/免费节点) 48
+      - 美国(https://www.fuye.fun/免费节点) 49
+      - 美国(https://www.fuye.fun/免费节点) 50
+      - 美国(https://www.fuye.fun/免费节点) 51
+      - 美国(https://www.fuye.fun/免费节点) 52
+      - 美国(https://www.fuye.fun/免费节点) 53
+      - 美国(https://www.fuye.fun/免费节点) 54
+      - 美国(https://www.fuye.fun/免费节点) 55
+      - 美国(https://www.fuye.fun/免费节点) 56
+      - 美国(https://www.fuye.fun/免费节点) 57
+      - 德国(https://www.fuye.fun/免费节点) 9
+      - 美国(https://www.fuye.fun/免费节点) 58
+      - 美国(https://www.fuye.fun/免费节点) 59
+      - 加拿大(https://www.fuye.fun/免费节点) 3
+      - 美国(https://www.fuye.fun/免费节点) 60
+      - 美国(https://www.fuye.fun/免费节点) 61
+      - 美国(https://www.fuye.fun/免费节点) 62
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 德国(https://www.fuye.fun/免费节点)
-      - 德国(https://www.fuye.fun/免费节点) 2
-      - 俄罗斯(https://www.fuye.fun/免费节点)
-      - 俄罗斯(https://www.fuye.fun/免费节点) 2
-      - 俄罗斯(https://www.fuye.fun/免费节点) 3
-      - 俄罗斯(https://www.fuye.fun/免费节点) 4
-      - 加拿大(https://www.fuye.fun/免费节点)
-      - 加拿大(https://www.fuye.fun/免费节点) 2
       - 美国(https://www.fuye.fun/免费节点)
       - 美国(https://www.fuye.fun/免费节点) 2
       - 美国(https://www.fuye.fun/免费节点) 3
       - 美国(https://www.fuye.fun/免费节点) 4
+      - 俄罗斯(https://www.fuye.fun/免费节点)
+      - 荷兰(https://www.fuye.fun/免费节点)
       - 美国(https://www.fuye.fun/免费节点) 5
       - 美国(https://www.fuye.fun/免费节点) 6
       - 美国(https://www.fuye.fun/免费节点) 7
       - 美国(https://www.fuye.fun/免费节点) 8
       - 美国(https://www.fuye.fun/免费节点) 9
+      - 日本(https://www.fuye.fun/免费节点)
       - 美国(https://www.fuye.fun/免费节点) 10
       - 美国(https://www.fuye.fun/免费节点) 11
+      - 德国(https://www.fuye.fun/免费节点)
+      - 加拿大(https://www.fuye.fun/免费节点)
       - 美国(https://www.fuye.fun/免费节点) 12
       - 美国(https://www.fuye.fun/免费节点) 13
+      - 德国(https://www.fuye.fun/免费节点) 2
+      - 德国(https://www.fuye.fun/免费节点) 3
       - 美国(https://www.fuye.fun/免费节点) 14
       - 美国(https://www.fuye.fun/免费节点) 15
       - 美国(https://www.fuye.fun/免费节点) 16
       - 美国(https://www.fuye.fun/免费节点) 17
       - 美国(https://www.fuye.fun/免费节点) 18
       - 美国(https://www.fuye.fun/免费节点) 19
+      - 印度(https://www.fuye.fun/免费节点)
+      - 美国(https://www.fuye.fun/免费节点) 20
+      - 美国(https://www.fuye.fun/免费节点) 21
+      - 美国(https://www.fuye.fun/免费节点) 22
+      - 德国(https://www.fuye.fun/免费节点) 4
+      - 美国(https://www.fuye.fun/免费节点) 23
+      - 美国(https://www.fuye.fun/免费节点) 24
+      - 美国(https://www.fuye.fun/免费节点) 25
+      - 美国(https://www.fuye.fun/免费节点) 26
       - 英国(https://www.fuye.fun/免费节点)
-      - 英国(https://www.fuye.fun/免费节点) 2
+      - 美国(https://www.fuye.fun/免费节点) 27
+      - 美国(https://www.fuye.fun/免费节点) 28
+      - 俄罗斯(https://www.fuye.fun/免费节点) 2
+      - 美国(https://www.fuye.fun/免费节点) 29
+      - 美国(https://www.fuye.fun/免费节点) 30
+      - 美国(https://www.fuye.fun/免费节点) 31
+      - 美国(https://www.fuye.fun/免费节点) 32
+      - 美国(https://www.fuye.fun/免费节点) 33
+      - 俄罗斯(https://www.fuye.fun/免费节点) 3
+      - 美国(https://www.fuye.fun/免费节点) 34
+      - 美国(https://www.fuye.fun/免费节点) 35
+      - 美国(https://www.fuye.fun/免费节点) 36
+      - 美国(https://www.fuye.fun/免费节点) 37
+      - 美国(https://www.fuye.fun/免费节点) 38
+      - 美国(https://www.fuye.fun/免费节点) 39
+      - 美国(https://www.fuye.fun/免费节点) 40
+      - 俄罗斯(https://www.fuye.fun/免费节点) 4
+      - 德国(https://www.fuye.fun/免费节点) 5
+      - 美国(https://www.fuye.fun/免费节点) 41
+      - 美国(https://www.fuye.fun/免费节点) 42
+      - 德国(https://www.fuye.fun/免费节点) 6
+      - 俄罗斯(https://www.fuye.fun/免费节点) 5
+      - 美国(https://www.fuye.fun/免费节点) 43
+      - 美国(https://www.fuye.fun/免费节点) 44
+      - 德国(https://www.fuye.fun/免费节点) 7
+      - 德国(https://www.fuye.fun/免费节点) 8
+      - 加拿大(https://www.fuye.fun/免费节点) 2
+      - 美国(https://www.fuye.fun/免费节点) 45
+      - 美国(https://www.fuye.fun/免费节点) 46
+      - 美国(https://www.fuye.fun/免费节点) 47
+      - 美国(https://www.fuye.fun/免费节点) 48
+      - 美国(https://www.fuye.fun/免费节点) 49
+      - 美国(https://www.fuye.fun/免费节点) 50
+      - 美国(https://www.fuye.fun/免费节点) 51
+      - 美国(https://www.fuye.fun/免费节点) 52
+      - 美国(https://www.fuye.fun/免费节点) 53
+      - 美国(https://www.fuye.fun/免费节点) 54
+      - 美国(https://www.fuye.fun/免费节点) 55
+      - 美国(https://www.fuye.fun/免费节点) 56
+      - 美国(https://www.fuye.fun/免费节点) 57
+      - 德国(https://www.fuye.fun/免费节点) 9
+      - 美国(https://www.fuye.fun/免费节点) 58
+      - 美国(https://www.fuye.fun/免费节点) 59
+      - 加拿大(https://www.fuye.fun/免费节点) 3
+      - 美国(https://www.fuye.fun/免费节点) 60
+      - 美国(https://www.fuye.fun/免费节点) 61
+      - 美国(https://www.fuye.fun/免费节点) 62
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -156,35 +372,89 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 德国(https://www.fuye.fun/免费节点)
-      - 德国(https://www.fuye.fun/免费节点) 2
-      - 俄罗斯(https://www.fuye.fun/免费节点)
-      - 俄罗斯(https://www.fuye.fun/免费节点) 2
-      - 俄罗斯(https://www.fuye.fun/免费节点) 3
-      - 俄罗斯(https://www.fuye.fun/免费节点) 4
-      - 加拿大(https://www.fuye.fun/免费节点)
-      - 加拿大(https://www.fuye.fun/免费节点) 2
       - 美国(https://www.fuye.fun/免费节点)
       - 美国(https://www.fuye.fun/免费节点) 2
       - 美国(https://www.fuye.fun/免费节点) 3
       - 美国(https://www.fuye.fun/免费节点) 4
+      - 俄罗斯(https://www.fuye.fun/免费节点)
+      - 荷兰(https://www.fuye.fun/免费节点)
       - 美国(https://www.fuye.fun/免费节点) 5
       - 美国(https://www.fuye.fun/免费节点) 6
       - 美国(https://www.fuye.fun/免费节点) 7
       - 美国(https://www.fuye.fun/免费节点) 8
       - 美国(https://www.fuye.fun/免费节点) 9
+      - 日本(https://www.fuye.fun/免费节点)
       - 美国(https://www.fuye.fun/免费节点) 10
       - 美国(https://www.fuye.fun/免费节点) 11
+      - 德国(https://www.fuye.fun/免费节点)
+      - 加拿大(https://www.fuye.fun/免费节点)
       - 美国(https://www.fuye.fun/免费节点) 12
       - 美国(https://www.fuye.fun/免费节点) 13
+      - 德国(https://www.fuye.fun/免费节点) 2
+      - 德国(https://www.fuye.fun/免费节点) 3
       - 美国(https://www.fuye.fun/免费节点) 14
       - 美国(https://www.fuye.fun/免费节点) 15
       - 美国(https://www.fuye.fun/免费节点) 16
       - 美国(https://www.fuye.fun/免费节点) 17
       - 美国(https://www.fuye.fun/免费节点) 18
       - 美国(https://www.fuye.fun/免费节点) 19
+      - 印度(https://www.fuye.fun/免费节点)
+      - 美国(https://www.fuye.fun/免费节点) 20
+      - 美国(https://www.fuye.fun/免费节点) 21
+      - 美国(https://www.fuye.fun/免费节点) 22
+      - 德国(https://www.fuye.fun/免费节点) 4
+      - 美国(https://www.fuye.fun/免费节点) 23
+      - 美国(https://www.fuye.fun/免费节点) 24
+      - 美国(https://www.fuye.fun/免费节点) 25
+      - 美国(https://www.fuye.fun/免费节点) 26
       - 英国(https://www.fuye.fun/免费节点)
-      - 英国(https://www.fuye.fun/免费节点) 2
+      - 美国(https://www.fuye.fun/免费节点) 27
+      - 美国(https://www.fuye.fun/免费节点) 28
+      - 俄罗斯(https://www.fuye.fun/免费节点) 2
+      - 美国(https://www.fuye.fun/免费节点) 29
+      - 美国(https://www.fuye.fun/免费节点) 30
+      - 美国(https://www.fuye.fun/免费节点) 31
+      - 美国(https://www.fuye.fun/免费节点) 32
+      - 美国(https://www.fuye.fun/免费节点) 33
+      - 俄罗斯(https://www.fuye.fun/免费节点) 3
+      - 美国(https://www.fuye.fun/免费节点) 34
+      - 美国(https://www.fuye.fun/免费节点) 35
+      - 美国(https://www.fuye.fun/免费节点) 36
+      - 美国(https://www.fuye.fun/免费节点) 37
+      - 美国(https://www.fuye.fun/免费节点) 38
+      - 美国(https://www.fuye.fun/免费节点) 39
+      - 美国(https://www.fuye.fun/免费节点) 40
+      - 俄罗斯(https://www.fuye.fun/免费节点) 4
+      - 德国(https://www.fuye.fun/免费节点) 5
+      - 美国(https://www.fuye.fun/免费节点) 41
+      - 美国(https://www.fuye.fun/免费节点) 42
+      - 德国(https://www.fuye.fun/免费节点) 6
+      - 俄罗斯(https://www.fuye.fun/免费节点) 5
+      - 美国(https://www.fuye.fun/免费节点) 43
+      - 美国(https://www.fuye.fun/免费节点) 44
+      - 德国(https://www.fuye.fun/免费节点) 7
+      - 德国(https://www.fuye.fun/免费节点) 8
+      - 加拿大(https://www.fuye.fun/免费节点) 2
+      - 美国(https://www.fuye.fun/免费节点) 45
+      - 美国(https://www.fuye.fun/免费节点) 46
+      - 美国(https://www.fuye.fun/免费节点) 47
+      - 美国(https://www.fuye.fun/免费节点) 48
+      - 美国(https://www.fuye.fun/免费节点) 49
+      - 美国(https://www.fuye.fun/免费节点) 50
+      - 美国(https://www.fuye.fun/免费节点) 51
+      - 美国(https://www.fuye.fun/免费节点) 52
+      - 美国(https://www.fuye.fun/免费节点) 53
+      - 美国(https://www.fuye.fun/免费节点) 54
+      - 美国(https://www.fuye.fun/免费节点) 55
+      - 美国(https://www.fuye.fun/免费节点) 56
+      - 美国(https://www.fuye.fun/免费节点) 57
+      - 德国(https://www.fuye.fun/免费节点) 9
+      - 美国(https://www.fuye.fun/免费节点) 58
+      - 美国(https://www.fuye.fun/免费节点) 59
+      - 加拿大(https://www.fuye.fun/免费节点) 3
+      - 美国(https://www.fuye.fun/免费节点) 60
+      - 美国(https://www.fuye.fun/免费节点) 61
+      - 美国(https://www.fuye.fun/免费节点) 62
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -195,104 +465,266 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 德国(https://www.fuye.fun/免费节点)
-      - 德国(https://www.fuye.fun/免费节点) 2
-      - 俄罗斯(https://www.fuye.fun/免费节点)
-      - 俄罗斯(https://www.fuye.fun/免费节点) 2
-      - 俄罗斯(https://www.fuye.fun/免费节点) 3
-      - 俄罗斯(https://www.fuye.fun/免费节点) 4
-      - 加拿大(https://www.fuye.fun/免费节点)
-      - 加拿大(https://www.fuye.fun/免费节点) 2
       - 美国(https://www.fuye.fun/免费节点)
       - 美国(https://www.fuye.fun/免费节点) 2
       - 美国(https://www.fuye.fun/免费节点) 3
       - 美国(https://www.fuye.fun/免费节点) 4
+      - 俄罗斯(https://www.fuye.fun/免费节点)
+      - 荷兰(https://www.fuye.fun/免费节点)
       - 美国(https://www.fuye.fun/免费节点) 5
       - 美国(https://www.fuye.fun/免费节点) 6
       - 美国(https://www.fuye.fun/免费节点) 7
       - 美国(https://www.fuye.fun/免费节点) 8
       - 美国(https://www.fuye.fun/免费节点) 9
+      - 日本(https://www.fuye.fun/免费节点)
       - 美国(https://www.fuye.fun/免费节点) 10
       - 美国(https://www.fuye.fun/免费节点) 11
+      - 德国(https://www.fuye.fun/免费节点)
+      - 加拿大(https://www.fuye.fun/免费节点)
       - 美国(https://www.fuye.fun/免费节点) 12
       - 美国(https://www.fuye.fun/免费节点) 13
+      - 德国(https://www.fuye.fun/免费节点) 2
+      - 德国(https://www.fuye.fun/免费节点) 3
       - 美国(https://www.fuye.fun/免费节点) 14
       - 美国(https://www.fuye.fun/免费节点) 15
       - 美国(https://www.fuye.fun/免费节点) 16
       - 美国(https://www.fuye.fun/免费节点) 17
       - 美国(https://www.fuye.fun/免费节点) 18
       - 美国(https://www.fuye.fun/免费节点) 19
+      - 印度(https://www.fuye.fun/免费节点)
+      - 美国(https://www.fuye.fun/免费节点) 20
+      - 美国(https://www.fuye.fun/免费节点) 21
+      - 美国(https://www.fuye.fun/免费节点) 22
+      - 德国(https://www.fuye.fun/免费节点) 4
+      - 美国(https://www.fuye.fun/免费节点) 23
+      - 美国(https://www.fuye.fun/免费节点) 24
+      - 美国(https://www.fuye.fun/免费节点) 25
+      - 美国(https://www.fuye.fun/免费节点) 26
       - 英国(https://www.fuye.fun/免费节点)
-      - 英国(https://www.fuye.fun/免费节点) 2
+      - 美国(https://www.fuye.fun/免费节点) 27
+      - 美国(https://www.fuye.fun/免费节点) 28
+      - 俄罗斯(https://www.fuye.fun/免费节点) 2
+      - 美国(https://www.fuye.fun/免费节点) 29
+      - 美国(https://www.fuye.fun/免费节点) 30
+      - 美国(https://www.fuye.fun/免费节点) 31
+      - 美国(https://www.fuye.fun/免费节点) 32
+      - 美国(https://www.fuye.fun/免费节点) 33
+      - 俄罗斯(https://www.fuye.fun/免费节点) 3
+      - 美国(https://www.fuye.fun/免费节点) 34
+      - 美国(https://www.fuye.fun/免费节点) 35
+      - 美国(https://www.fuye.fun/免费节点) 36
+      - 美国(https://www.fuye.fun/免费节点) 37
+      - 美国(https://www.fuye.fun/免费节点) 38
+      - 美国(https://www.fuye.fun/免费节点) 39
+      - 美国(https://www.fuye.fun/免费节点) 40
+      - 俄罗斯(https://www.fuye.fun/免费节点) 4
+      - 德国(https://www.fuye.fun/免费节点) 5
+      - 美国(https://www.fuye.fun/免费节点) 41
+      - 美国(https://www.fuye.fun/免费节点) 42
+      - 德国(https://www.fuye.fun/免费节点) 6
+      - 俄罗斯(https://www.fuye.fun/免费节点) 5
+      - 美国(https://www.fuye.fun/免费节点) 43
+      - 美国(https://www.fuye.fun/免费节点) 44
+      - 德国(https://www.fuye.fun/免费节点) 7
+      - 德国(https://www.fuye.fun/免费节点) 8
+      - 加拿大(https://www.fuye.fun/免费节点) 2
+      - 美国(https://www.fuye.fun/免费节点) 45
+      - 美国(https://www.fuye.fun/免费节点) 46
+      - 美国(https://www.fuye.fun/免费节点) 47
+      - 美国(https://www.fuye.fun/免费节点) 48
+      - 美国(https://www.fuye.fun/免费节点) 49
+      - 美国(https://www.fuye.fun/免费节点) 50
+      - 美国(https://www.fuye.fun/免费节点) 51
+      - 美国(https://www.fuye.fun/免费节点) 52
+      - 美国(https://www.fuye.fun/免费节点) 53
+      - 美国(https://www.fuye.fun/免费节点) 54
+      - 美国(https://www.fuye.fun/免费节点) 55
+      - 美国(https://www.fuye.fun/免费节点) 56
+      - 美国(https://www.fuye.fun/免费节点) 57
+      - 德国(https://www.fuye.fun/免费节点) 9
+      - 美国(https://www.fuye.fun/免费节点) 58
+      - 美国(https://www.fuye.fun/免费节点) 59
+      - 加拿大(https://www.fuye.fun/免费节点) 3
+      - 美国(https://www.fuye.fun/免费节点) 60
+      - 美国(https://www.fuye.fun/免费节点) 61
+      - 美国(https://www.fuye.fun/免费节点) 62
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 德国(https://www.fuye.fun/免费节点)
-      - 德国(https://www.fuye.fun/免费节点) 2
-      - 俄罗斯(https://www.fuye.fun/免费节点)
-      - 俄罗斯(https://www.fuye.fun/免费节点) 2
-      - 俄罗斯(https://www.fuye.fun/免费节点) 3
-      - 俄罗斯(https://www.fuye.fun/免费节点) 4
-      - 加拿大(https://www.fuye.fun/免费节点)
-      - 加拿大(https://www.fuye.fun/免费节点) 2
       - 美国(https://www.fuye.fun/免费节点)
       - 美国(https://www.fuye.fun/免费节点) 2
       - 美国(https://www.fuye.fun/免费节点) 3
       - 美国(https://www.fuye.fun/免费节点) 4
+      - 俄罗斯(https://www.fuye.fun/免费节点)
+      - 荷兰(https://www.fuye.fun/免费节点)
       - 美国(https://www.fuye.fun/免费节点) 5
       - 美国(https://www.fuye.fun/免费节点) 6
       - 美国(https://www.fuye.fun/免费节点) 7
       - 美国(https://www.fuye.fun/免费节点) 8
       - 美国(https://www.fuye.fun/免费节点) 9
+      - 日本(https://www.fuye.fun/免费节点)
       - 美国(https://www.fuye.fun/免费节点) 10
       - 美国(https://www.fuye.fun/免费节点) 11
+      - 德国(https://www.fuye.fun/免费节点)
+      - 加拿大(https://www.fuye.fun/免费节点)
       - 美国(https://www.fuye.fun/免费节点) 12
       - 美国(https://www.fuye.fun/免费节点) 13
+      - 德国(https://www.fuye.fun/免费节点) 2
+      - 德国(https://www.fuye.fun/免费节点) 3
       - 美国(https://www.fuye.fun/免费节点) 14
       - 美国(https://www.fuye.fun/免费节点) 15
       - 美国(https://www.fuye.fun/免费节点) 16
       - 美国(https://www.fuye.fun/免费节点) 17
       - 美国(https://www.fuye.fun/免费节点) 18
       - 美国(https://www.fuye.fun/免费节点) 19
+      - 印度(https://www.fuye.fun/免费节点)
+      - 美国(https://www.fuye.fun/免费节点) 20
+      - 美国(https://www.fuye.fun/免费节点) 21
+      - 美国(https://www.fuye.fun/免费节点) 22
+      - 德国(https://www.fuye.fun/免费节点) 4
+      - 美国(https://www.fuye.fun/免费节点) 23
+      - 美国(https://www.fuye.fun/免费节点) 24
+      - 美国(https://www.fuye.fun/免费节点) 25
+      - 美国(https://www.fuye.fun/免费节点) 26
       - 英国(https://www.fuye.fun/免费节点)
-      - 英国(https://www.fuye.fun/免费节点) 2
+      - 美国(https://www.fuye.fun/免费节点) 27
+      - 美国(https://www.fuye.fun/免费节点) 28
+      - 俄罗斯(https://www.fuye.fun/免费节点) 2
+      - 美国(https://www.fuye.fun/免费节点) 29
+      - 美国(https://www.fuye.fun/免费节点) 30
+      - 美国(https://www.fuye.fun/免费节点) 31
+      - 美国(https://www.fuye.fun/免费节点) 32
+      - 美国(https://www.fuye.fun/免费节点) 33
+      - 俄罗斯(https://www.fuye.fun/免费节点) 3
+      - 美国(https://www.fuye.fun/免费节点) 34
+      - 美国(https://www.fuye.fun/免费节点) 35
+      - 美国(https://www.fuye.fun/免费节点) 36
+      - 美国(https://www.fuye.fun/免费节点) 37
+      - 美国(https://www.fuye.fun/免费节点) 38
+      - 美国(https://www.fuye.fun/免费节点) 39
+      - 美国(https://www.fuye.fun/免费节点) 40
+      - 俄罗斯(https://www.fuye.fun/免费节点) 4
+      - 德国(https://www.fuye.fun/免费节点) 5
+      - 美国(https://www.fuye.fun/免费节点) 41
+      - 美国(https://www.fuye.fun/免费节点) 42
+      - 德国(https://www.fuye.fun/免费节点) 6
+      - 俄罗斯(https://www.fuye.fun/免费节点) 5
+      - 美国(https://www.fuye.fun/免费节点) 43
+      - 美国(https://www.fuye.fun/免费节点) 44
+      - 德国(https://www.fuye.fun/免费节点) 7
+      - 德国(https://www.fuye.fun/免费节点) 8
+      - 加拿大(https://www.fuye.fun/免费节点) 2
+      - 美国(https://www.fuye.fun/免费节点) 45
+      - 美国(https://www.fuye.fun/免费节点) 46
+      - 美国(https://www.fuye.fun/免费节点) 47
+      - 美国(https://www.fuye.fun/免费节点) 48
+      - 美国(https://www.fuye.fun/免费节点) 49
+      - 美国(https://www.fuye.fun/免费节点) 50
+      - 美国(https://www.fuye.fun/免费节点) 51
+      - 美国(https://www.fuye.fun/免费节点) 52
+      - 美国(https://www.fuye.fun/免费节点) 53
+      - 美国(https://www.fuye.fun/免费节点) 54
+      - 美国(https://www.fuye.fun/免费节点) 55
+      - 美国(https://www.fuye.fun/免费节点) 56
+      - 美国(https://www.fuye.fun/免费节点) 57
+      - 德国(https://www.fuye.fun/免费节点) 9
+      - 美国(https://www.fuye.fun/免费节点) 58
+      - 美国(https://www.fuye.fun/免费节点) 59
+      - 加拿大(https://www.fuye.fun/免费节点) 3
+      - 美国(https://www.fuye.fun/免费节点) 60
+      - 美国(https://www.fuye.fun/免费节点) 61
+      - 美国(https://www.fuye.fun/免费节点) 62
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 德国(https://www.fuye.fun/免费节点)
-      - 德国(https://www.fuye.fun/免费节点) 2
-      - 俄罗斯(https://www.fuye.fun/免费节点)
-      - 俄罗斯(https://www.fuye.fun/免费节点) 2
-      - 俄罗斯(https://www.fuye.fun/免费节点) 3
-      - 俄罗斯(https://www.fuye.fun/免费节点) 4
-      - 加拿大(https://www.fuye.fun/免费节点)
-      - 加拿大(https://www.fuye.fun/免费节点) 2
       - 美国(https://www.fuye.fun/免费节点)
       - 美国(https://www.fuye.fun/免费节点) 2
       - 美国(https://www.fuye.fun/免费节点) 3
       - 美国(https://www.fuye.fun/免费节点) 4
+      - 俄罗斯(https://www.fuye.fun/免费节点)
+      - 荷兰(https://www.fuye.fun/免费节点)
       - 美国(https://www.fuye.fun/免费节点) 5
       - 美国(https://www.fuye.fun/免费节点) 6
       - 美国(https://www.fuye.fun/免费节点) 7
       - 美国(https://www.fuye.fun/免费节点) 8
       - 美国(https://www.fuye.fun/免费节点) 9
+      - 日本(https://www.fuye.fun/免费节点)
       - 美国(https://www.fuye.fun/免费节点) 10
       - 美国(https://www.fuye.fun/免费节点) 11
+      - 德国(https://www.fuye.fun/免费节点)
+      - 加拿大(https://www.fuye.fun/免费节点)
       - 美国(https://www.fuye.fun/免费节点) 12
       - 美国(https://www.fuye.fun/免费节点) 13
+      - 德国(https://www.fuye.fun/免费节点) 2
+      - 德国(https://www.fuye.fun/免费节点) 3
       - 美国(https://www.fuye.fun/免费节点) 14
       - 美国(https://www.fuye.fun/免费节点) 15
       - 美国(https://www.fuye.fun/免费节点) 16
       - 美国(https://www.fuye.fun/免费节点) 17
       - 美国(https://www.fuye.fun/免费节点) 18
       - 美国(https://www.fuye.fun/免费节点) 19
+      - 印度(https://www.fuye.fun/免费节点)
+      - 美国(https://www.fuye.fun/免费节点) 20
+      - 美国(https://www.fuye.fun/免费节点) 21
+      - 美国(https://www.fuye.fun/免费节点) 22
+      - 德国(https://www.fuye.fun/免费节点) 4
+      - 美国(https://www.fuye.fun/免费节点) 23
+      - 美国(https://www.fuye.fun/免费节点) 24
+      - 美国(https://www.fuye.fun/免费节点) 25
+      - 美国(https://www.fuye.fun/免费节点) 26
       - 英国(https://www.fuye.fun/免费节点)
-      - 英国(https://www.fuye.fun/免费节点) 2
+      - 美国(https://www.fuye.fun/免费节点) 27
+      - 美国(https://www.fuye.fun/免费节点) 28
+      - 俄罗斯(https://www.fuye.fun/免费节点) 2
+      - 美国(https://www.fuye.fun/免费节点) 29
+      - 美国(https://www.fuye.fun/免费节点) 30
+      - 美国(https://www.fuye.fun/免费节点) 31
+      - 美国(https://www.fuye.fun/免费节点) 32
+      - 美国(https://www.fuye.fun/免费节点) 33
+      - 俄罗斯(https://www.fuye.fun/免费节点) 3
+      - 美国(https://www.fuye.fun/免费节点) 34
+      - 美国(https://www.fuye.fun/免费节点) 35
+      - 美国(https://www.fuye.fun/免费节点) 36
+      - 美国(https://www.fuye.fun/免费节点) 37
+      - 美国(https://www.fuye.fun/免费节点) 38
+      - 美国(https://www.fuye.fun/免费节点) 39
+      - 美国(https://www.fuye.fun/免费节点) 40
+      - 俄罗斯(https://www.fuye.fun/免费节点) 4
+      - 德国(https://www.fuye.fun/免费节点) 5
+      - 美国(https://www.fuye.fun/免费节点) 41
+      - 美国(https://www.fuye.fun/免费节点) 42
+      - 德国(https://www.fuye.fun/免费节点) 6
+      - 俄罗斯(https://www.fuye.fun/免费节点) 5
+      - 美国(https://www.fuye.fun/免费节点) 43
+      - 美国(https://www.fuye.fun/免费节点) 44
+      - 德国(https://www.fuye.fun/免费节点) 7
+      - 德国(https://www.fuye.fun/免费节点) 8
+      - 加拿大(https://www.fuye.fun/免费节点) 2
+      - 美国(https://www.fuye.fun/免费节点) 45
+      - 美国(https://www.fuye.fun/免费节点) 46
+      - 美国(https://www.fuye.fun/免费节点) 47
+      - 美国(https://www.fuye.fun/免费节点) 48
+      - 美国(https://www.fuye.fun/免费节点) 49
+      - 美国(https://www.fuye.fun/免费节点) 50
+      - 美国(https://www.fuye.fun/免费节点) 51
+      - 美国(https://www.fuye.fun/免费节点) 52
+      - 美国(https://www.fuye.fun/免费节点) 53
+      - 美国(https://www.fuye.fun/免费节点) 54
+      - 美国(https://www.fuye.fun/免费节点) 55
+      - 美国(https://www.fuye.fun/免费节点) 56
+      - 美国(https://www.fuye.fun/免费节点) 57
+      - 德国(https://www.fuye.fun/免费节点) 9
+      - 美国(https://www.fuye.fun/免费节点) 58
+      - 美国(https://www.fuye.fun/免费节点) 59
+      - 加拿大(https://www.fuye.fun/免费节点) 3
+      - 美国(https://www.fuye.fun/免费节点) 60
+      - 美国(https://www.fuye.fun/免费节点) 61
+      - 美国(https://www.fuye.fun/免费节点) 62
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -308,35 +740,89 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 德国(https://www.fuye.fun/免费节点)
-      - 德国(https://www.fuye.fun/免费节点) 2
-      - 俄罗斯(https://www.fuye.fun/免费节点)
-      - 俄罗斯(https://www.fuye.fun/免费节点) 2
-      - 俄罗斯(https://www.fuye.fun/免费节点) 3
-      - 俄罗斯(https://www.fuye.fun/免费节点) 4
-      - 加拿大(https://www.fuye.fun/免费节点)
-      - 加拿大(https://www.fuye.fun/免费节点) 2
       - 美国(https://www.fuye.fun/免费节点)
       - 美国(https://www.fuye.fun/免费节点) 2
       - 美国(https://www.fuye.fun/免费节点) 3
       - 美国(https://www.fuye.fun/免费节点) 4
+      - 俄罗斯(https://www.fuye.fun/免费节点)
+      - 荷兰(https://www.fuye.fun/免费节点)
       - 美国(https://www.fuye.fun/免费节点) 5
       - 美国(https://www.fuye.fun/免费节点) 6
       - 美国(https://www.fuye.fun/免费节点) 7
       - 美国(https://www.fuye.fun/免费节点) 8
       - 美国(https://www.fuye.fun/免费节点) 9
+      - 日本(https://www.fuye.fun/免费节点)
       - 美国(https://www.fuye.fun/免费节点) 10
       - 美国(https://www.fuye.fun/免费节点) 11
+      - 德国(https://www.fuye.fun/免费节点)
+      - 加拿大(https://www.fuye.fun/免费节点)
       - 美国(https://www.fuye.fun/免费节点) 12
       - 美国(https://www.fuye.fun/免费节点) 13
+      - 德国(https://www.fuye.fun/免费节点) 2
+      - 德国(https://www.fuye.fun/免费节点) 3
       - 美国(https://www.fuye.fun/免费节点) 14
       - 美国(https://www.fuye.fun/免费节点) 15
       - 美国(https://www.fuye.fun/免费节点) 16
       - 美国(https://www.fuye.fun/免费节点) 17
       - 美国(https://www.fuye.fun/免费节点) 18
       - 美国(https://www.fuye.fun/免费节点) 19
+      - 印度(https://www.fuye.fun/免费节点)
+      - 美国(https://www.fuye.fun/免费节点) 20
+      - 美国(https://www.fuye.fun/免费节点) 21
+      - 美国(https://www.fuye.fun/免费节点) 22
+      - 德国(https://www.fuye.fun/免费节点) 4
+      - 美国(https://www.fuye.fun/免费节点) 23
+      - 美国(https://www.fuye.fun/免费节点) 24
+      - 美国(https://www.fuye.fun/免费节点) 25
+      - 美国(https://www.fuye.fun/免费节点) 26
       - 英国(https://www.fuye.fun/免费节点)
-      - 英国(https://www.fuye.fun/免费节点) 2
+      - 美国(https://www.fuye.fun/免费节点) 27
+      - 美国(https://www.fuye.fun/免费节点) 28
+      - 俄罗斯(https://www.fuye.fun/免费节点) 2
+      - 美国(https://www.fuye.fun/免费节点) 29
+      - 美国(https://www.fuye.fun/免费节点) 30
+      - 美国(https://www.fuye.fun/免费节点) 31
+      - 美国(https://www.fuye.fun/免费节点) 32
+      - 美国(https://www.fuye.fun/免费节点) 33
+      - 俄罗斯(https://www.fuye.fun/免费节点) 3
+      - 美国(https://www.fuye.fun/免费节点) 34
+      - 美国(https://www.fuye.fun/免费节点) 35
+      - 美国(https://www.fuye.fun/免费节点) 36
+      - 美国(https://www.fuye.fun/免费节点) 37
+      - 美国(https://www.fuye.fun/免费节点) 38
+      - 美国(https://www.fuye.fun/免费节点) 39
+      - 美国(https://www.fuye.fun/免费节点) 40
+      - 俄罗斯(https://www.fuye.fun/免费节点) 4
+      - 德国(https://www.fuye.fun/免费节点) 5
+      - 美国(https://www.fuye.fun/免费节点) 41
+      - 美国(https://www.fuye.fun/免费节点) 42
+      - 德国(https://www.fuye.fun/免费节点) 6
+      - 俄罗斯(https://www.fuye.fun/免费节点) 5
+      - 美国(https://www.fuye.fun/免费节点) 43
+      - 美国(https://www.fuye.fun/免费节点) 44
+      - 德国(https://www.fuye.fun/免费节点) 7
+      - 德国(https://www.fuye.fun/免费节点) 8
+      - 加拿大(https://www.fuye.fun/免费节点) 2
+      - 美国(https://www.fuye.fun/免费节点) 45
+      - 美国(https://www.fuye.fun/免费节点) 46
+      - 美国(https://www.fuye.fun/免费节点) 47
+      - 美国(https://www.fuye.fun/免费节点) 48
+      - 美国(https://www.fuye.fun/免费节点) 49
+      - 美国(https://www.fuye.fun/免费节点) 50
+      - 美国(https://www.fuye.fun/免费节点) 51
+      - 美国(https://www.fuye.fun/免费节点) 52
+      - 美国(https://www.fuye.fun/免费节点) 53
+      - 美国(https://www.fuye.fun/免费节点) 54
+      - 美国(https://www.fuye.fun/免费节点) 55
+      - 美国(https://www.fuye.fun/免费节点) 56
+      - 美国(https://www.fuye.fun/免费节点) 57
+      - 德国(https://www.fuye.fun/免费节点) 9
+      - 美国(https://www.fuye.fun/免费节点) 58
+      - 美国(https://www.fuye.fun/免费节点) 59
+      - 加拿大(https://www.fuye.fun/免费节点) 3
+      - 美国(https://www.fuye.fun/免费节点) 60
+      - 美国(https://www.fuye.fun/免费节点) 61
+      - 美国(https://www.fuye.fun/免费节点) 62
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
