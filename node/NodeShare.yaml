@@ -5,475 +5,631 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 美国(https://www.fuye.fun/免费节点), server: cold-dawn-9246.fly.dev, port: 443, type: vmess, uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm, ws-headers: {Host: cold-dawn-9246.fly.dev}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 2, server: 38.110.1.203, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 3, server: 142.202.49.119, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 4, server: fbi.gov, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip2.6016725.xyz}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 5, server: icook.tw, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip3.6929198.xyz}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 6, server: 142.202.49.119, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 7, server: shs.xiaoqi666.xyz, port: 2086, type: vmess, uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: shs.xiaoqi666.xyz}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 8, server: speed.cloudflare.com, port: 80, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /obdii.cfd/linkws, ws-headers: {Host: 52aa-super-river-52aa.pobin49599.workers.dev}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 9, server: russia.com, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip26.6929198.xyz}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 10, server: fbi.gov, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip3.6929198.xyz}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 11, server: 38.147.165.185, port: 38692, type: vmess, uuid: decde5b9-cc9c-4622-9ee6-723378429f4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 12, server: 183.236.48.158, port: 59952, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 13, server: singapore.com, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /github.com/Alvin9999, ws-headers: {Host: ip11.6016725.xyz}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 14, server: 34.92.66.193, port: 30251, type: vmess, uuid: 9e88a10b-655c-5120-89d0-408634169561, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 15, server: speed.cloudflare.com, port: 80, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /glweidf.sbs/linkws, ws-headers: {Host: 7ehhjdelicate-unit-e634.bowik41429.workers.dev}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 16, server: cf.090227.xyz, port: 443, type: trojan, password: bpb-trojan, sni: cf.090227.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 17, server: russia.com, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip2.6016725.xyz}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 18, server: 16.724064.xyz, port: 443, type: vmess, uuid: b7cf4466-956a-4639-b861-0cf78cbb6f8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zlppvws, ws-headers: {Host: 16.724064.xyz}, udp: true}
-  - {name: 俄罗斯(https://www.fuye.fun/免费节点), server: 194.87.82.28, port: 12224, type: ss, cipher: chacha20-ietf-poly1305, password: 2fwufOmJ9ELfN4umzcHBfV, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 19, server: 142.202.49.119, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 20, server: 38.110.1.203, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 21, server: usnew.lbxjc.site, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: chunchuan.kejixiaoqi666.store}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 22, server: 51.158.252.130, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: sn9wq4rWWo4rtvdZpedsZh, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 23, server: 38.110.1.203, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 24, server: malaysia.com, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip3.6929198.xyz}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 25, server: speed.cloudflare.com, port: 80, type: vmess, uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hms02.fxiaomi.sbs/link, ws-headers: {Host: range-shape-b3fuegu.bananok182.workers.dev}, udp: true}
-  - {name: 德国(https://www.fuye.fun/免费节点), server: beesyar.org, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 26, server: singapore.com, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /github.com/Alvin9999, ws-headers: {Host: ip20.6016725.xyz}, udp: true}
-  - {name: 俄罗斯(https://www.fuye.fun/免费节点) 2, server: 45.87.175.178, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 27, server: 183.236.48.163, port: 58831, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 俄罗斯(https://www.fuye.fun/免费节点) 3, server: 194.87.31.160, port: 8081, type: vmess, uuid: a7e00c2f-411a-438f-9119-0f022a85a5e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 28, server: 120.232.153.27, port: 58002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 29, server: 142.202.49.119, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 30, server: 142.202.49.119, port: 5499, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV, udp: true}
-  - {name: 德国(https://www.fuye.fun/免费节点) 2, server: beesyar.org, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 31, server: 183.236.51.23, port: 46602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 德国(https://www.fuye.fun/免费节点) 3, server: 45.87.175.157, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 32, server: hsj.lbxjc.online, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: chunchuan.kejixiaoqi666.store}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 33, server: api.turkiye6.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: lQHuqev0bDeSuxSCL, udp: true}
-  - {name: 英国(https://www.fuye.fun/免费节点), server: 51.44.95.168, port: 22222, type: trojan, password: telegram-id-directvpn, skip-cert-verify: true, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 34, server: cold-dawn-9246.fly.dev, port: 443, type: vmess, uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm, ws-headers: {Host: cold-dawn-9246.fly.dev}, udp: true}
-  - {name: 英国(https://www.fuye.fun/免费节点) 2, server: 51.44.46.48, port: 22222, type: trojan, password: telegram-id-directvpn, skip-cert-verify: true, udp: true}
-  - {name: 俄罗斯(https://www.fuye.fun/免费节点) 4, server: 194.87.31.160, port: 8081, type: vmess, uuid: a7e00c2f-411a-438f-9119-0f022a85a5e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 俄罗斯(https://www.fuye.fun/免费节点) 5, server: 89.169.55.152, port: 33026, type: vmess, uuid: e00f5c12-09e3-490c-b702-29155b6dcc50, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dangerzone, ws-headers: {Host: socks5tobefree.ydns.eu}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 35, server: yd2.ainivp.com, port: 33202, type: vmess, uuid: 9204afcd-023e-781f-1abc-c12efccd1344, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: yd2.ainivp.com}, udp: true}
-  - {name: 俄罗斯(https://www.fuye.fun/免费节点) 6, server: 193.124.22.253, port: 33068, type: ss, cipher: chacha20-ietf-poly1305, password: 3MgIhqwp4pjM8SKwixNkYZ, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 36, server: 142.202.49.119, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 37, server: 183.236.51.23, port: 52112, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 德国(https://www.fuye.fun/免费节点) 4, server: 45.87.175.178, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 38, server: 16.724064.xyz, port: 443, type: vmess, uuid: b7cf4466-956a-4639-b861-0cf78cbb6f8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zlppvws, ws-headers: {Host: 16.724064.xyz}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 39, server: 183.236.48.163, port: 58831, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 40, server: 38.110.1.203, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 德国(https://www.fuye.fun/免费节点) 5, server: 45.87.175.178, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
-  - {name: 加拿大(https://www.fuye.fun/免费节点), server: 64.74.163.130, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 41, server: 38.110.1.203, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 42, server: 183.236.51.23, port: 52112, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 43, server: 45.87.175.178, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 44, server: 205.134.180.150, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 5cp9Z3iWnJZ2, udp: true}
-  - {name: 德国(https://www.fuye.fun/免费节点) 6, server: 45.87.175.181, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 45, server: visa.cn, port: 443, type: trojan, password: bpb-trojan, sni: visa.cn, skip-cert-verify: true, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 46, server: 183.236.51.23, port: 53002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 47, server: 63.176.123.44, port: 22222, type: trojan, password: telegram-id-privatevpns, skip-cert-verify: true, udp: true}
-  - {name: 德国(https://www.fuye.fun/免费节点) 7, server: beesyar.org, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 48, server: 142.202.49.119, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 49, server: 142.202.49.119, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 50, server: icook.tw, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /github.com/Alvin9999, ws-headers: {Host: ip15.6016725.xyz}, udp: true}
-  - {name: 德国(https://www.fuye.fun/免费节点) 8, server: 45.87.175.157, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 51, server: fbi.gov, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /github.com/Alvin9999, ws-headers: {Host: ip18.6929198.xyz}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 52, server: icook.tw, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /github.com/Alvin9999, ws-headers: {Host: ip16.6929198.xyz}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 53, server: icook.tw, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip2.6016725.xyz}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 54, server: fbi.gov, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /github.com/Alvin9999, ws-headers: {Host: ip20.6016725.xyz}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 55, server: japan.com, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip3.6929198.xyz}, udp: true}
-  - {name: 德国(https://www.fuye.fun/免费节点) 9, server: 45.87.175.181, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 56, server: russia.com, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /github.com/Alvin9999, ws-headers: {Host: ip18.6929198.xyz}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 57, server: singapore.com, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip12.6929198.xyz}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 58, server: japan.com, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip3.6929198.xyz}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 59, server: japan.com, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /github.com/Alvin9999, ws-headers: {Host: ip16.6929198.xyz}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 60, server: icook.tw, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip2.6016725.xyz}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 61, server: ip.sb, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip8.6016725.xyz}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 62, server: singapore.com, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip26.6929198.xyz}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 63, server: singapore.com, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip26.6929198.xyz}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 64, server: singapore.com, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip2.6016725.xyz}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 65, server: icook.tw, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip3.6929198.xyz}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 66, server: malaysia.com, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip2.6016725.xyz}, udp: true}
-  - {name: 加拿大(https://www.fuye.fun/免费节点) 2, server: malaysia.com, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip3.6929198.xyz}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 67, server: ip.sb, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip3.6929198.xyz}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 68, server: singapore.com, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip3.6929198.xyz}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 69, server: japan.com, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /github.com/Alvin9999, ws-headers: {Host: ip16.6929198.xyz}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 70, server: russia.com, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip3.6929198.xyz}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 71, server: ip.sb, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip3.6929198.xyz}, udp: true}
-  - {name: 德国(https://www.fuye.fun/免费节点) 10, server: 45.87.175.157, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 72, server: ip.sb, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /github.com/Alvin9999, ws-headers: {Host: ip16.6929198.xyz}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 73, server: singapore.com, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip2.6016725.xyz}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 74, server: malaysia.com, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip2.6016725.xyz}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 75, server: ip.sb, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip2.6016725.xyz}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 76, server: ip.sb, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /github.com/Alvin9999, ws-headers: {Host: ip16.6929198.xyz}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 77, server: ip.sb, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /github.com/Alvin9999, ws-headers: {Host: ip20.6016725.xyz}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 78, server: russia.com, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /github.com/Alvin9999, ws-headers: {Host: ip11.6016725.xyz}, udp: true}
-  - {name: 加拿大(https://www.fuye.fun/免费节点) 3, server: ip.sb, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /github.com/Alvin9999, ws-headers: {Host: ip20.6016725.xyz}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 79, server: singapore.com, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /github.com/Alvin9999, ws-headers: {Host: ip11.6016725.xyz}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 80, server: singapore.com, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /github.com/Alvin9999, ws-headers: {Host: ip20.6016725.xyz}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 81, server: series-a2-mec.varzesh360.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: u17T3BvpYaaiuW2c, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 82, server: russia.com, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /github.com/Alvin9999, ws-headers: {Host: ip11.6016725.xyz}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 83, server: japan.com, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip2.6016725.xyz}, udp: true}
-  - {name: 香港(https://www.fuye.fun/免费节点), server: yd2.ainivp.com, port: 33416, type: vmess, uuid: 9204afcd-023e-781f-1abc-c12efccd1344, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: yd2.ainivp.com}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 84, server: russia.com, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip6.6929198.xyz}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 85, server: 45.87.175.181, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 86, server: 23.227.38.3, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /github.com/Alvin9999, ws-headers: {Host: c2.6016725.xyz}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 87, server: 120.232.153.27, port: 58831, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 88, server: ip.sb, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip8.6016725.xyz}, udp: true}
-  - {name: 加拿大(https://www.fuye.fun/免费节点) 4, server: russia.com, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /github.com/Alvin9999, ws-headers: {Host: ip18.6929198.xyz}, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 89, server: 183.236.51.23, port: 56601, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(https://www.fuye.fun/免费节点) 90, server: 154.90.63.193, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 德国 IEPL专线NO1-1B, server: qd.needss.top, port: 54787, type: vmess, uuid: 30bad1c0-950e-40d0-9748-d685886cabcf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: -0152-CN【nodeshare.xyz〗 永久免费节点机场, server: gy.58n.net, port: 20298, type: trojan, password: 8aadeac8-9df1-303f-9ccd-4dd70c4522d1, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: 香港01-1B, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: b892c436-a6ab-47c0-9f94-c25bb42a0758, udp: true}
+  - {name: 德国-法兰克福-001-1A, server: 5.39.252.182, port: 3323, type: vmess, uuid: 22c929a6-9690-4626-b74a-363c5f241fb0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 5.39.252.182}, udp: true}
+  - {name: -0130-CN【nodeshare.xyz〗 永久免费节点机场, server: gy.58n.net, port: 43337, type: trojan, password: 8aadeac8-9df1-303f-9ccd-4dd70c4522d1, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: 德国-法兰克福-001-2P, server: 5.39.252.182, port: 3323, type: vmess, uuid: cafb991a-9033-4168-83b9-160735310100, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 5.39.252.182}, udp: true}
+  - {name: 巴西NEW03-1G, server: us-new03.daluquan.top, port: 8880, type: vmess, uuid: fddd33a8-a58a-4122-a65b-e096dfffdfd5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/itdog?ed=2560", ws-headers: {Host: us-new03.daluquan.top}, udp: true}
+  - {name: 中转•香港301•高速 - 飞翔吧, server: gy.58n.net, port: 20301, type: trojan, password: a556e670-b867-3dab-92df-522adc6ca9d7, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: 巴西NEW03-1B, server: us-new03.daluquan.top, port: 8880, type: vmess, uuid: 0e54744e-575b-4eca-a9c6-4b4c50561df1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/itdog?ed=2560", ws-headers: {Host: us-new03.daluquan.top}, udp: true}
+  - {name: 广港•香港269•高速 - 飞翔吧, server: gy.58n.net, port: 22741, type: trojan, password: a556e670-b867-3dab-92df-522adc6ca9d7, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: -0375-CN【nodeshare.xyz〗 永久免费节点机场, server: gy.58n.net, port: 28678, type: trojan, password: 7935fd09-9583-36c4-8fae-10ec7bc33063, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: -0396-CN【nodeshare.xyz〗 永久免费节点机场, server: gy.58n.net, port: 20300, type: trojan, password: 7935fd09-9583-36c4-8fae-10ec7bc33063, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: 德国-法兰克福-001-1M, server: 5.39.252.182, port: 3323, type: vmess, uuid: 37f1fb58-f57c-490a-b17f-9f7db5d6c486, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 5.39.252.182}, udp: true}
+  - {name: -0408-CN【nodeshare.xyz〗 永久免费节点机场, server: gy.58n.net, port: 30712, type: trojan, password: 7935fd09-9583-36c4-8fae-10ec7bc33063, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: -0134-CN【nodeshare.xyz〗 永久免费节点机场, server: gy.58n.net, port: 22741, type: trojan, password: 8aadeac8-9df1-303f-9ccd-4dd70c4522d1, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯-喀山-001-1D, server: 176.32.33.158, port: 3910, type: vmess, uuid: fe771ef2-8ab7-4491-9af9-ca641f623aab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 176.32.33.158}, udp: true}
+  - {name: 香港01-1D, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: bbdf3f39-4ded-49e2-a740-5ceff97c0390, udp: true}
+  - {name: -0372-CN【nodeshare.xyz〗 永久免费节点机场, server: gy.58n.net, port: 20301, type: trojan, password: 7935fd09-9583-36c4-8fae-10ec7bc33063, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: 日本•高速139•铂金 - 飞翔吧, server: gy.58n.net, port: 20139, type: trojan, password: a556e670-b867-3dab-92df-522adc6ca9d7, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: -0379-CN【nodeshare.xyz〗 永久免费节点机场, server: gy.58n.net, port: 20279, type: trojan, password: 7935fd09-9583-36c4-8fae-10ec7bc33063, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: 新加坡•高速129•高速 - 飞翔吧, server: gy.58n.net, port: 20129, type: trojan, password: a556e670-b867-3dab-92df-522adc6ca9d7, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: -0131-CN【nodeshare.xyz〗 永久免费节点机场, server: gy.58n.net, port: 20307, type: trojan, password: 8aadeac8-9df1-303f-9ccd-4dd70c4522d1, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: -0401-CN【nodeshare.xyz〗 永久免费节点机场, server: gy.58n.net, port: 20141, type: trojan, password: 7935fd09-9583-36c4-8fae-10ec7bc33063, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯-喀山-001-2D, server: 176.32.33.158, port: 3910, type: vmess, uuid: a6a7c721-488f-4549-93ca-11de744a8f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 176.32.33.158}, udp: true}
+  - {name: 德国-法兰克福-001-1E, server: 5.39.252.182, port: 3323, type: vmess, uuid: eda64f38-ed00-4e28-a5fa-c142572ee581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 5.39.252.182}, udp: true}
+  - {name: 荷兰 CM 隧道NO1-1B, server: qd.needss.top, port: 20025, type: vmess, uuid: 30bad1c0-950e-40d0-9748-d685886cabcf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯-喀山-001-2M, server: 176.32.33.158, port: 3910, type: vmess, uuid: 7956a43d-43d8-4db6-9e00-39d4ff573e65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 176.32.33.158}, udp: true}
+  - {name: -0156-CN【nodeshare.xyz〗 永久免费节点机场, server: gy.58n.net, port: 20139, type: trojan, password: 8aadeac8-9df1-303f-9ccd-4dd70c4522d1, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: -0153-CN【nodeshare.xyz〗 永久免费节点机场, server: gy.58n.net, port: 20300, type: trojan, password: 8aadeac8-9df1-303f-9ccd-4dd70c4522d1, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: -0144-CN【nodeshare.xyz〗 永久免费节点机场, server: gy.58n.net, port: 20295, type: trojan, password: 8aadeac8-9df1-303f-9ccd-4dd70c4522d1, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: 新加坡•高速130•铂金 - 飞翔吧, server: gy.58n.net, port: 20130, type: trojan, password: a556e670-b867-3dab-92df-522adc6ca9d7, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯-喀山-001-2B, server: 176.32.33.158, port: 3910, type: vmess, uuid: c0c6a03b-8a0f-4753-ae7d-57650c98097f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 176.32.33.158}, udp: true}
+  - {name: 香港01-1C, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: 563eb9db-27e2-44e8-b41b-15c88138a58d, udp: true}
+  - {name: -0377-CN【nodeshare.xyz〗 永久免费节点机场, server: gy.58n.net, port: 22741, type: trojan, password: 7935fd09-9583-36c4-8fae-10ec7bc33063, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: 广港•香港278•高速 - 飞翔吧, server: gy.58n.net, port: 20278, type: trojan, password: a556e670-b867-3dab-92df-522adc6ca9d7, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: -0392-CN【nodeshare.xyz〗 永久免费节点机场, server: gy.58n.net, port: 30767, type: trojan, password: 7935fd09-9583-36c4-8fae-10ec7bc33063, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: -0135-CN【nodeshare.xyz〗 永久免费节点机场, server: gy.58n.net, port: 20278, type: trojan, password: 8aadeac8-9df1-303f-9ccd-4dd70c4522d1, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: 中转•香港307•高速 - 飞翔吧, server: gy.58n.net, port: 20307, type: trojan, password: a556e670-b867-3dab-92df-522adc6ca9d7, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: -0402-CN【nodeshare.xyz〗 永久免费节点机场, server: gy.58n.net, port: 20142, type: trojan, password: 7935fd09-9583-36c4-8fae-10ec7bc33063, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: 中转•美国41•原生 - 飞翔吧, server: gy.58n.net, port: 21970, type: trojan, password: a556e670-b867-3dab-92df-522adc6ca9d7, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: -0387-CN【nodeshare.xyz〗 永久免费节点机场, server: gy.58n.net, port: 20295, type: trojan, password: 7935fd09-9583-36c4-8fae-10ec7bc33063, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: 德国-法兰克福-001-2G, server: 5.39.252.182, port: 3323, type: vmess, uuid: 6239acbe-d2f9-4fba-ac50-38ca60302486, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 5.39.252.182}, udp: true}
+  - {name: 德国-法兰克福-001-1H, server: 5.39.252.182, port: 3323, type: vmess, uuid: 768b0198-9629-4251-a3fe-2a40dfeb54f8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 5.39.252.182}, udp: true}
+  - {name: 德国-法兰克福-001-2L, server: 5.39.252.182, port: 3323, type: vmess, uuid: 3a4bccb3-8fd8-48e9-8307-a098c6c11587, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 5.39.252.182}, udp: true}
+  - {name: -0407-CN【nodeshare.xyz〗 永久免费节点机场, server: gy.58n.net, port: 17806, type: trojan, password: 7935fd09-9583-36c4-8fae-10ec7bc33063, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: 德国-法兰克福-001-2F, server: 5.39.252.182, port: 3323, type: vmess, uuid: 02af1a2f-abd0-45d8-81a2-0a7575d599e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 5.39.252.182}, udp: true}
+  - {name: 中转•英国268•高速 - 飞翔吧, server: gy.58n.net, port: 11215, type: trojan, password: a556e670-b867-3dab-92df-522adc6ca9d7, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: 中转•香港102•高速 - 飞翔吧, server: gy.58n.net, port: 43337, type: trojan, password: a556e670-b867-3dab-92df-522adc6ca9d7, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯-喀山-001-1G, server: 176.32.33.158, port: 3910, type: vmess, uuid: edd565b0-7cbd-47bb-8937-ea6c84aa5bdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 176.32.33.158}, udp: true}
+  - {name: 德国-法兰克福-001-1W, server: 5.39.252.182, port: 3323, type: vmess, uuid: 45eb27bc-f4dc-48b2-9f28-03742d886d96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 5.39.252.182}, udp: true}
+  - {name: 德国-法兰克福-001-2R, server: 5.39.252.182, port: 3323, type: vmess, uuid: f170213b-821a-46c0-8960-5d56c4dc2696, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 5.39.252.182}, udp: true}
+  - {name: -0394-CN【nodeshare.xyz〗 永久免费节点机场, server: gy.58n.net, port: 20288, type: trojan, password: 7935fd09-9583-36c4-8fae-10ec7bc33063, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: -0137-CN【nodeshare.xyz〗 永久免费节点机场, server: gy.58n.net, port: 20294, type: trojan, password: 8aadeac8-9df1-303f-9ccd-4dd70c4522d1, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: -0149-CN【nodeshare.xyz〗 永久免费节点机场, server: gy.58n.net, port: 30767, type: trojan, password: 8aadeac8-9df1-303f-9ccd-4dd70c4522d1, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: 德国-法兰克福-001-2M, server: 5.39.252.182, port: 3323, type: vmess, uuid: 7956a43d-43d8-4db6-9e00-39d4ff573e65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 5.39.252.182}, udp: true}
+  - {name: 美国 CloudFlare节点（nodeshare.xyz）免费机场节点, server: 104.18.114.191, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: m1.106778.xyz}, udp: true}
+  - {name: 中转•美国295•高速 - 飞翔吧, server: gy.58n.net, port: 20295, type: trojan, password: a556e670-b867-3dab-92df-522adc6ca9d7, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: 美国 CloudFlare节点 112（nodeshare.xyz）免费机场节点, server: 162.159.45.208, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: m1.106778.xyz}, udp: true}
+  - {name: 德国-法兰克福-001-1Y, server: 5.39.252.182, port: 3323, type: vmess, uuid: f939052e-8738-4009-937c-7074adea0971, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 5.39.252.182}, udp: true}
+  - {name: -0411-CN【nodeshare.xyz〗 永久免费节点机场, server: gy.58n.net, port: 25238, type: trojan, password: 7935fd09-9583-36c4-8fae-10ec7bc33063, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: 德国-法兰克福-001-2N, server: 5.39.252.182, port: 3323, type: vmess, uuid: 0e34c0f2-1136-40cf-90a8-95b3f8e36dff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 5.39.252.182}, udp: true}
+  - {name: 美国 - 沃尔纳特 - Psychz Networks - 10, server: 104.18.114.204, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: m1.106778.xyz}, udp: true}
+  - {name: 德国-法兰克福-001-2J, server: 5.39.252.182, port: 3323, type: vmess, uuid: 6a41003f-7322-4430-aab1-bb17462856f7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 5.39.252.182}, udp: true}
+  - {name: -0236-US【nodeshare.xyz〗 永久免费节点机场, server: 35.164.152.219, port: 443, type: trojan, password: abf49f0e-987a-37ba-bf73-f636c0dc3378, skip-cert-verify: true, udp: true}
+  - {name: -0412-CN【nodeshare.xyz〗 永久免费节点机场, server: gy.58n.net, port: 11215, type: trojan, password: 7935fd09-9583-36c4-8fae-10ec7bc33063, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: -0132-CN【nodeshare.xyz〗 永久免费节点机场, server: gy.58n.net, port: 28678, type: trojan, password: 8aadeac8-9df1-303f-9ccd-4dd70c4522d1, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: 日本•高速142•原生 - 飞翔吧, server: gy.58n.net, port: 20142, type: trojan, password: a556e670-b867-3dab-92df-522adc6ca9d7, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯-喀山-001-2F, server: 176.32.33.158, port: 3910, type: vmess, uuid: 02af1a2f-abd0-45d8-81a2-0a7575d599e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 176.32.33.158}, udp: true}
+  - {name: -0235-JP【nodeshare.xyz〗 永久免费节点机场, server: 43.206.140.241, port: 443, type: trojan, password: abf49f0e-987a-37ba-bf73-f636c0dc3378, skip-cert-verify: true, udp: true}
+  - {name: -0146-CN【nodeshare.xyz〗 永久免费节点机场, server: gy.58n.net, port: 20308, type: trojan, password: 8aadeac8-9df1-303f-9ccd-4dd70c4522d1, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: -0148-CN【nodeshare.xyz〗 永久免费节点机场, server: gy.58n.net, port: 21970, type: trojan, password: 8aadeac8-9df1-303f-9ccd-4dd70c4522d1, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: -0389-CN【nodeshare.xyz〗 永久免费节点机场, server: gy.58n.net, port: 20308, type: trojan, password: 7935fd09-9583-36c4-8fae-10ec7bc33063, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: 德国-法兰克福-001-1J, server: 5.39.252.182, port: 3323, type: vmess, uuid: 700b8568-7ffd-421f-9ad2-d8f4f979297a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 5.39.252.182}, udp: true}
+  - {name: 德国-法兰克福-001-1B, server: 5.39.252.182, port: 3323, type: vmess, uuid: b0b78a4a-1565-41bb-aa09-b216f2964816, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 5.39.252.182}, udp: true}
+  - {name: 广港•香港143•高速 - 飞翔吧, server: gy.58n.net, port: 28678, type: trojan, password: a556e670-b867-3dab-92df-522adc6ca9d7, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: 中转•英国267•高速 - 飞翔吧, server: gy.58n.net, port: 25238, type: trojan, password: a556e670-b867-3dab-92df-522adc6ca9d7, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: -0371-CN【nodeshare.xyz〗 永久免费节点机场, server: gyl.58n.net, port: 20309, type: trojan, password: 7935fd09-9583-36c4-8fae-10ec7bc33063, sni: gyl.58n.net, skip-cert-verify: true, udp: true}
+  - {name: 广港•香港309•专线 - 飞翔吧, server: gyl.58n.net, port: 20309, type: trojan, password: a556e670-b867-3dab-92df-522adc6ca9d7, sni: gyl.58n.net, skip-cert-verify: true, udp: true}
+  - {name: 美国 CloudFlare节点 49（nodeshare.xyz）免费机场节点, server: 104.18.114.222, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: m1.106778.xyz}, udp: true}
+  - {name: 俄罗斯-喀山-001-1E, server: 176.32.33.158, port: 3910, type: vmess, uuid: eda64f38-ed00-4e28-a5fa-c142572ee581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 176.32.33.158}, udp: true}
+  - {name: 新加坡NEW01-1D, server: de-new01.daluquan.top, port: 8080, type: vmess, uuid: 144b25af-18c8-4b43-9bf5-e88306396e96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: de-new01.daluquan.top}, udp: true}
+  - {name: -0133-CN【nodeshare.xyz〗 永久免费节点机场, server: gy.58n.net, port: 24603, type: trojan, password: 8aadeac8-9df1-303f-9ccd-4dd70c4522d1, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: 美国 CloudFlare节点 27（nodeshare.xyz）免费机场节点, server: 104.26.0.91, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: m1.106778.xyz}, udp: true}
+  - {name: 新加坡NEW01优选-1D, server: go.daluquan.top, port: 8080, type: vmess, uuid: c01478da-2565-41f6-ab73-858498cf9034, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: de-new01.daluquan.top}, udp: true}
+  - {name: "|US|美国|@wxgqlfx|101", server: 104.18.114.203, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: m1.106778.xyz}, udp: true}
+  - {name: 俄罗斯-喀山-001-2C, server: 176.32.33.158, port: 3910, type: vmess, uuid: 91128b89-2a5e-40ee-af0c-09937c3a3007, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 176.32.33.158}, udp: true}
+  - {name: guobaotegong.me, server: gdgs.tarioblink.me, port: 30001, type: ss, cipher: chacha20-ietf-poly1305, password: 79841d85-0f81-4c75-8bd6-5c52db6be5fa, udp: true}
+  - {name: 香港〖电报：@ccbaohe】免费节点定时更新, server: 36.151.192.201, port: 34185, type: trojan, password: QwwHvrnN, skip-cert-verify: true, udp: true}
+  - {name: 德国-法兰克福-001-1x, server: 5.39.252.182, port: 3323, type: vmess, uuid: 8819cbe7-7552-4290-86f2-a1dd676ee7d1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 5.39.252.182}, udp: true}
+  - {name: 德国-法兰克福-001-2D, server: 5.39.252.182, port: 3323, type: vmess, uuid: a6a7c721-488f-4549-93ca-11de744a8f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 5.39.252.182}, udp: true}
+  - {name: -0378-CN【nodeshare.xyz〗 永久免费节点机场, server: gy.58n.net, port: 20278, type: trojan, password: 7935fd09-9583-36c4-8fae-10ec7bc33063, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: 美国 CloudFlare节点 95（nodeshare.xyz）免费机场节点, server: 104.17.213.241, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: chunchuan.kejixiaoqi666.store}, udp: true}
+  - {name: 德国-法兰克福-001-1G, server: 5.39.252.182, port: 3323, type: vmess, uuid: edd565b0-7cbd-47bb-8937-ea6c84aa5bdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 5.39.252.182}, udp: true}
+  - {name: -0471-JP【nodeshare.xyz〗 永久免费节点机场, server: 43.206.140.241, port: 443, type: trojan, password: 17cdf23f-7549-3e64-b3f1-4517cdc95c24, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯-喀山-001-2E, server: 176.32.33.158, port: 3910, type: vmess, uuid: 9f367bf8-b9bf-499b-8286-89be3cbfdc7a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 176.32.33.158}, udp: true}
+  - {name: 德国-法兰克福-001-1C, server: 5.39.252.182, port: 3323, type: vmess, uuid: 4d306303-ee68-4e2c-b5ce-c21803691e1c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 5.39.252.182}, udp: true}
+  - {name: "|US|美国|@wxgqlfx|184", server: 104.18.114.121, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: m1.106778.xyz}, udp: true}
+  - {name: -0406-CN【nodeshare.xyz〗 永久免费节点机场, server: gy.58n.net, port: 20299, type: trojan, password: 7935fd09-9583-36c4-8fae-10ec7bc33063, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯-喀山-001-1O, server: 176.32.33.158, port: 3910, type: vmess, uuid: ccb3da11-e925-4eae-b666-ed6a78078c6e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 176.32.33.158}, udp: true}
+  - {name: 德国-法兰克福-001-2O, server: 5.39.252.182, port: 3323, type: vmess, uuid: 966c2edb-2f99-46f9-92d2-09628864a804, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 5.39.252.182}, udp: true}
+  - {name: 英国 IEPL专线NO1-1B, server: qd.needss.top, port: 54774, type: vmess, uuid: 30bad1c0-950e-40d0-9748-d685886cabcf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: -0383-CN【nodeshare.xyz〗 永久免费节点机场, server: gy.58n.net, port: 33323, type: trojan, password: 7935fd09-9583-36c4-8fae-10ec7bc33063, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: -0374-CN【nodeshare.xyz〗 永久免费节点机场, server: gy.58n.net, port: 20307, type: trojan, password: 7935fd09-9583-36c4-8fae-10ec7bc33063, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: 香港01-1A, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: 70fda0de-1d4c-47c0-bfdc-2e814227fc6e, udp: true}
+  - {name: -0470-JP【nodeshare.xyz〗 永久免费节点机场, server: 18.179.44.127, port: 443, type: trojan, password: 17cdf23f-7549-3e64-b3f1-4517cdc95c24, skip-cert-verify: true, udp: true}
+  - {name: 中转•新加坡299•高速 - 飞翔吧, server: gy.58n.net, port: 20299, type: trojan, password: a556e670-b867-3dab-92df-522adc6ca9d7, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: 日本〖电报：@ccbaohe】免费节点定时更新, server: 36.151.192.242, port: 27381, type: trojan, password: QwwHvrnN, skip-cert-verify: true, udp: true}
+  - {name: -0395-CN【nodeshare.xyz〗 永久免费节点机场, server: gy.58n.net, port: 20298, type: trojan, password: 7935fd09-9583-36c4-8fae-10ec7bc33063, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: -0399-CN【nodeshare.xyz〗 永久免费节点机场, server: gy.58n.net, port: 20139, type: trojan, password: 7935fd09-9583-36c4-8fae-10ec7bc33063, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: 香港01-1A 2, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: 0b1a1845-ca31-4419-baac-353493f724cb, udp: true}
+  - {name: 广港•香港279•高速 - 飞翔吧, server: gy.58n.net, port: 20279, type: trojan, password: a556e670-b867-3dab-92df-522adc6ca9d7, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: 法国 CM 隧道NO1-1B, server: qd.needss.top, port: 52108, type: vmess, uuid: 30bad1c0-950e-40d0-9748-d685886cabcf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: -0376-CN【nodeshare.xyz〗 永久免费节点机场, server: gy.58n.net, port: 24603, type: trojan, password: 7935fd09-9583-36c4-8fae-10ec7bc33063, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: -0400-CN【nodeshare.xyz〗 永久免费节点机场, server: gy.58n.net, port: 20140, type: trojan, password: 7935fd09-9583-36c4-8fae-10ec7bc33063, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: -0140-CN【nodeshare.xyz〗 永久免费节点机场, server: gy.58n.net, port: 33323, type: trojan, password: 8aadeac8-9df1-303f-9ccd-4dd70c4522d1, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: -0410-CN【nodeshare.xyz〗 永久免费节点机场, server: gy.58n.net, port: 20130, type: trojan, password: 7935fd09-9583-36c4-8fae-10ec7bc33063, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: 巴西NEW03-1E, server: us-new03.daluquan.top, port: 8880, type: vmess, uuid: c01478da-2565-41f6-ab73-858498cf9034, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/itdog?ed=2560", ws-headers: {Host: us-new03.daluquan.top}, udp: true}
+  - {name: "|US|美国|@wxgqlfx|272", server: 104.18.114.63, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: m1.106778.xyz}, udp: true}
+  - {name: -0234-JP【nodeshare.xyz〗 永久免费节点机场, server: 18.179.44.127, port: 443, type: trojan, password: abf49f0e-987a-37ba-bf73-f636c0dc3378, skip-cert-verify: true, udp: true}
+  - {name: 美国 CloudFlare节点 116（nodeshare.xyz）免费机场节点, server: 104.26.0.241, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: m1.106778.xyz}, udp: true}
+  - {name: 俄罗斯-喀山-001-1L, server: 176.32.33.158, port: 3910, type: vmess, uuid: 7540d894-b074-4ef2-b03d-23978d3e75a6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 176.32.33.158}, udp: true}
+  - {name: -0151-CN【nodeshare.xyz〗 永久免费节点机场, server: gy.58n.net, port: 20288, type: trojan, password: 8aadeac8-9df1-303f-9ccd-4dd70c4522d1, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯-圣彼得堡-002-1Q, server: 195.58.49.12, port: 3323, type: vmess, uuid: 3fc1bf08-47c1-47a3-9c36-81c7f5437f1a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 195.58.49.12}, udp: true}
+  - {name: 俄罗斯-喀山-001-1F, server: 176.32.33.158, port: 3910, type: vmess, uuid: d4eaef32-4c00-4c2c-a1fa-c27d63e41b6d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 176.32.33.158}, udp: true}
+  - {name: -0147-CN【nodeshare.xyz〗 永久免费节点机场, server: gy.58n.net, port: 16895, type: trojan, password: 8aadeac8-9df1-303f-9ccd-4dd70c4522d1, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: 德国-法兰克福-001-2Q, server: 5.39.252.182, port: 3323, type: vmess, uuid: 443ea0dd-463a-4795-aa3a-f9bcdf7e554a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 5.39.252.182}, udp: true}
+  - {name: 美国 - 洛杉矶 - Psychz Networks - 94, server: 104.18.114.9, port: 2086, type: vmess, uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: p1.613055.xyz}, udp: true}
+  - {name: 美国 CloudFlare节点 11（nodeshare.xyz）免费机场节点, server: 104.26.0.96, port: 2086, type: vmess, uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: p1.613055.xyz}, udp: true}
+  - {name: 美国 - 洛杉矶 - Psychz Networks - 11, server: 104.18.114.74, port: 2086, type: vmess, uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /github.com/Alvin9999, ws-headers: {Host: p1.613055.xyz}, udp: true}
+  - {name: -0816-CN【nodeshare.xyz〗 永久免费节点机场, server: 36.151.192.239, port: 42395, type: trojan, password: QwwHvrnN, skip-cert-verify: true, udp: true}
+  - {name: 美国 CloudFlare节点 169（nodeshare.xyz）免费机场节点, server: 104.18.114.38, port: 2086, type: vmess, uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: p1.613055.xyz}, udp: true}
+  - {name: 美国 CloudFlare节点 3（nodeshare.xyz）免费机场节点, server: 104.18.114.104, port: 2086, type: vmess, uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: p1.613055.xyz}, udp: true}
+  - {name: 俄罗斯-喀山-001-2S, server: 176.32.33.158, port: 3910, type: vmess, uuid: a377ab84-248b-4571-8bd4-1c5f7361d2ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 176.32.33.158}, udp: true}
+  - {name: 美国 CloudFlare节点 10（nodeshare.xyz）免费机场节点, server: 104.26.0.246, port: 2086, type: vmess, uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: p1.613055.xyz}, udp: true}
+  - {name: 中转•美国308•高速 - 飞翔吧, server: gy.58n.net, port: 20308, type: trojan, password: a556e670-b867-3dab-92df-522adc6ca9d7, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: -0150-CN【nodeshare.xyz〗 永久免费节点机场, server: gy.58n.net, port: 56783, type: trojan, password: 8aadeac8-9df1-303f-9ccd-4dd70c4522d1, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯-喀山-001-2A, server: 176.32.33.158, port: 3910, type: vmess, uuid: 4c24adfa-13a0-42e8-ac4a-da3f1f712fc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 176.32.33.158}, udp: true}
+  - {name: 美国 CloudFlare节点 126（nodeshare.xyz）免费机场节点, server: 104.26.0.3, port: 2086, type: vmess, uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: p1.613055.xyz}, udp: true}
+  - {name: "|US|美国|@wxgqlfx|705", server: 104.18.114.197, port: 2086, type: vmess, uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: p1.613055.xyz}, udp: true}
+  - {name: 中转•新加坡65•青铜 - 飞翔吧, server: gy.58n.net, port: 17806, type: trojan, password: a556e670-b867-3dab-92df-522adc6ca9d7, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: -0393-CN【nodeshare.xyz〗 永久免费节点机场, server: gy.58n.net, port: 56783, type: trojan, password: 7935fd09-9583-36c4-8fae-10ec7bc33063, sni: gy.58n.net, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯-圣彼得堡-003-2H, server: 195.58.48.220, port: 3910, type: vmess, uuid: dfa0d857-ae7e-4450-b80f-8aff006c9ee9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 195.58.48.220}, udp: true}
+  - {name: _US_美国, server: 104.18.114.91, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: m1.106778.xyz}, udp: true}
+  - {name: 美国 CloudFlare节点 136（nodeshare.xyz）免费机场节点, server: 104.18.114.42, port: 2086, type: vmess, uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: p1.613055.xyz}, udp: true}
+  - {name: 美国 CloudFlare节点 18（nodeshare.xyz）免费机场节点, server: 104.18.114.180, port: 2086, type: vmess, uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: p1.613055.xyz}, udp: true}
+  - {name: 俄罗斯-喀山-001-2O, server: 176.32.33.158, port: 3910, type: vmess, uuid: 966c2edb-2f99-46f9-92d2-09628864a804, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 176.32.33.158}, udp: true}
+  - {name: 俄罗斯-喀山-001-1J, server: 176.32.33.158, port: 3910, type: vmess, uuid: 700b8568-7ffd-421f-9ad2-d8f4f979297a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 176.32.33.158}, udp: true}
+  - {name: -0815-CN【nodeshare.xyz〗 永久免费节点机场, server: 36.151.192.201, port: 51377, type: trojan, password: DNUMdmnJ, skip-cert-verify: true, udp: true}
+  - {name: 美国 CloudFlare节点 62（nodeshare.xyz）免费机场节点, server: 104.21.238.167, port: 2086, type: vmess, uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: p1.613055.xyz}, udp: true}
+  - {name: 俄罗斯-圣彼得堡-002-1I, server: 195.58.49.12, port: 3323, type: vmess, uuid: bdb7e3a4-0f8c-4b92-b783-2304288043c7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 195.58.49.12}, udp: true}
+  - {name: 美国 CloudFlare节点 212（nodeshare.xyz）免费机场节点, server: 104.26.0.179, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: m1.106778.xyz}, udp: true}
+  - {name: 中转•美国40•高速 - 飞翔吧, server: gy.58n.net, port: 16895, type: trojan, password: a556e670-b867-3dab-92df-522adc6ca9d7, sni: gy.58n.net, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国(https://www.fuye.fun/免费节点)
-      - 美国(https://www.fuye.fun/免费节点) 2
-      - 美国(https://www.fuye.fun/免费节点) 3
-      - 美国(https://www.fuye.fun/免费节点) 4
-      - 美国(https://www.fuye.fun/免费节点) 5
-      - 美国(https://www.fuye.fun/免费节点) 6
-      - 美国(https://www.fuye.fun/免费节点) 7
-      - 美国(https://www.fuye.fun/免费节点) 8
-      - 美国(https://www.fuye.fun/免费节点) 9
-      - 美国(https://www.fuye.fun/免费节点) 10
-      - 美国(https://www.fuye.fun/免费节点) 11
-      - 美国(https://www.fuye.fun/免费节点) 12
-      - 美国(https://www.fuye.fun/免费节点) 13
-      - 美国(https://www.fuye.fun/免费节点) 14
-      - 美国(https://www.fuye.fun/免费节点) 15
-      - 美国(https://www.fuye.fun/免费节点) 16
-      - 美国(https://www.fuye.fun/免费节点) 17
-      - 美国(https://www.fuye.fun/免费节点) 18
-      - 俄罗斯(https://www.fuye.fun/免费节点)
-      - 美国(https://www.fuye.fun/免费节点) 19
-      - 美国(https://www.fuye.fun/免费节点) 20
-      - 美国(https://www.fuye.fun/免费节点) 21
-      - 美国(https://www.fuye.fun/免费节点) 22
-      - 美国(https://www.fuye.fun/免费节点) 23
-      - 美国(https://www.fuye.fun/免费节点) 24
-      - 美国(https://www.fuye.fun/免费节点) 25
-      - 德国(https://www.fuye.fun/免费节点)
-      - 美国(https://www.fuye.fun/免费节点) 26
-      - 俄罗斯(https://www.fuye.fun/免费节点) 2
-      - 美国(https://www.fuye.fun/免费节点) 27
-      - 俄罗斯(https://www.fuye.fun/免费节点) 3
-      - 美国(https://www.fuye.fun/免费节点) 28
-      - 美国(https://www.fuye.fun/免费节点) 29
-      - 美国(https://www.fuye.fun/免费节点) 30
-      - 德国(https://www.fuye.fun/免费节点) 2
-      - 美国(https://www.fuye.fun/免费节点) 31
-      - 德国(https://www.fuye.fun/免费节点) 3
-      - 美国(https://www.fuye.fun/免费节点) 32
-      - 美国(https://www.fuye.fun/免费节点) 33
-      - 英国(https://www.fuye.fun/免费节点)
-      - 美国(https://www.fuye.fun/免费节点) 34
-      - 英国(https://www.fuye.fun/免费节点) 2
-      - 俄罗斯(https://www.fuye.fun/免费节点) 4
-      - 俄罗斯(https://www.fuye.fun/免费节点) 5
-      - 美国(https://www.fuye.fun/免费节点) 35
-      - 俄罗斯(https://www.fuye.fun/免费节点) 6
-      - 美国(https://www.fuye.fun/免费节点) 36
-      - 美国(https://www.fuye.fun/免费节点) 37
-      - 德国(https://www.fuye.fun/免费节点) 4
-      - 美国(https://www.fuye.fun/免费节点) 38
-      - 美国(https://www.fuye.fun/免费节点) 39
-      - 美国(https://www.fuye.fun/免费节点) 40
-      - 德国(https://www.fuye.fun/免费节点) 5
-      - 加拿大(https://www.fuye.fun/免费节点)
-      - 美国(https://www.fuye.fun/免费节点) 41
-      - 美国(https://www.fuye.fun/免费节点) 42
-      - 美国(https://www.fuye.fun/免费节点) 43
-      - 美国(https://www.fuye.fun/免费节点) 44
-      - 德国(https://www.fuye.fun/免费节点) 6
-      - 美国(https://www.fuye.fun/免费节点) 45
-      - 美国(https://www.fuye.fun/免费节点) 46
-      - 美国(https://www.fuye.fun/免费节点) 47
-      - 德国(https://www.fuye.fun/免费节点) 7
-      - 美国(https://www.fuye.fun/免费节点) 48
-      - 美国(https://www.fuye.fun/免费节点) 49
-      - 美国(https://www.fuye.fun/免费节点) 50
-      - 德国(https://www.fuye.fun/免费节点) 8
-      - 美国(https://www.fuye.fun/免费节点) 51
-      - 美国(https://www.fuye.fun/免费节点) 52
-      - 美国(https://www.fuye.fun/免费节点) 53
-      - 美国(https://www.fuye.fun/免费节点) 54
-      - 美国(https://www.fuye.fun/免费节点) 55
-      - 德国(https://www.fuye.fun/免费节点) 9
-      - 美国(https://www.fuye.fun/免费节点) 56
-      - 美国(https://www.fuye.fun/免费节点) 57
-      - 美国(https://www.fuye.fun/免费节点) 58
-      - 美国(https://www.fuye.fun/免费节点) 59
-      - 美国(https://www.fuye.fun/免费节点) 60
-      - 美国(https://www.fuye.fun/免费节点) 61
-      - 美国(https://www.fuye.fun/免费节点) 62
-      - 美国(https://www.fuye.fun/免费节点) 63
-      - 美国(https://www.fuye.fun/免费节点) 64
-      - 美国(https://www.fuye.fun/免费节点) 65
-      - 美国(https://www.fuye.fun/免费节点) 66
-      - 加拿大(https://www.fuye.fun/免费节点) 2
-      - 美国(https://www.fuye.fun/免费节点) 67
-      - 美国(https://www.fuye.fun/免费节点) 68
-      - 美国(https://www.fuye.fun/免费节点) 69
-      - 美国(https://www.fuye.fun/免费节点) 70
-      - 美国(https://www.fuye.fun/免费节点) 71
-      - 德国(https://www.fuye.fun/免费节点) 10
-      - 美国(https://www.fuye.fun/免费节点) 72
-      - 美国(https://www.fuye.fun/免费节点) 73
-      - 美国(https://www.fuye.fun/免费节点) 74
-      - 美国(https://www.fuye.fun/免费节点) 75
-      - 美国(https://www.fuye.fun/免费节点) 76
-      - 美国(https://www.fuye.fun/免费节点) 77
-      - 美国(https://www.fuye.fun/免费节点) 78
-      - 加拿大(https://www.fuye.fun/免费节点) 3
-      - 美国(https://www.fuye.fun/免费节点) 79
-      - 美国(https://www.fuye.fun/免费节点) 80
-      - 美国(https://www.fuye.fun/免费节点) 81
-      - 美国(https://www.fuye.fun/免费节点) 82
-      - 美国(https://www.fuye.fun/免费节点) 83
-      - 香港(https://www.fuye.fun/免费节点)
-      - 美国(https://www.fuye.fun/免费节点) 84
-      - 美国(https://www.fuye.fun/免费节点) 85
-      - 美国(https://www.fuye.fun/免费节点) 86
-      - 美国(https://www.fuye.fun/免费节点) 87
-      - 美国(https://www.fuye.fun/免费节点) 88
-      - 加拿大(https://www.fuye.fun/免费节点) 4
-      - 美国(https://www.fuye.fun/免费节点) 89
-      - 美国(https://www.fuye.fun/免费节点) 90
+      - 德国 IEPL专线NO1-1B
+      - -0152-CN【nodeshare.xyz〗 永久免费节点机场
+      - 香港01-1B
+      - 德国-法兰克福-001-1A
+      - -0130-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-2P
+      - 巴西NEW03-1G
+      - 中转•香港301•高速 - 飞翔吧
+      - 巴西NEW03-1B
+      - 广港•香港269•高速 - 飞翔吧
+      - -0375-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0396-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-1M
+      - -0408-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0134-CN【nodeshare.xyz〗 永久免费节点机场
+      - 俄罗斯-喀山-001-1D
+      - 香港01-1D
+      - -0372-CN【nodeshare.xyz〗 永久免费节点机场
+      - 日本•高速139•铂金 - 飞翔吧
+      - -0379-CN【nodeshare.xyz〗 永久免费节点机场
+      - 新加坡•高速129•高速 - 飞翔吧
+      - -0131-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0401-CN【nodeshare.xyz〗 永久免费节点机场
+      - 俄罗斯-喀山-001-2D
+      - 德国-法兰克福-001-1E
+      - 荷兰 CM 隧道NO1-1B
+      - 俄罗斯-喀山-001-2M
+      - -0156-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0153-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0144-CN【nodeshare.xyz〗 永久免费节点机场
+      - 新加坡•高速130•铂金 - 飞翔吧
+      - 俄罗斯-喀山-001-2B
+      - 香港01-1C
+      - -0377-CN【nodeshare.xyz〗 永久免费节点机场
+      - 广港•香港278•高速 - 飞翔吧
+      - -0392-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0135-CN【nodeshare.xyz〗 永久免费节点机场
+      - 中转•香港307•高速 - 飞翔吧
+      - -0402-CN【nodeshare.xyz〗 永久免费节点机场
+      - 中转•美国41•原生 - 飞翔吧
+      - -0387-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-2G
+      - 德国-法兰克福-001-1H
+      - 德国-法兰克福-001-2L
+      - -0407-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-2F
+      - 中转•英国268•高速 - 飞翔吧
+      - 中转•香港102•高速 - 飞翔吧
+      - 俄罗斯-喀山-001-1G
+      - 德国-法兰克福-001-1W
+      - 德国-法兰克福-001-2R
+      - -0394-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0137-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0149-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-2M
+      - 美国 CloudFlare节点（nodeshare.xyz）免费机场节点
+      - 中转•美国295•高速 - 飞翔吧
+      - 美国 CloudFlare节点 112（nodeshare.xyz）免费机场节点
+      - 德国-法兰克福-001-1Y
+      - -0411-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-2N
+      - 美国 - 沃尔纳特 - Psychz Networks - 10
+      - 德国-法兰克福-001-2J
+      - -0236-US【nodeshare.xyz〗 永久免费节点机场
+      - -0412-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0132-CN【nodeshare.xyz〗 永久免费节点机场
+      - 日本•高速142•原生 - 飞翔吧
+      - 俄罗斯-喀山-001-2F
+      - -0235-JP【nodeshare.xyz〗 永久免费节点机场
+      - -0146-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0148-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0389-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-1J
+      - 德国-法兰克福-001-1B
+      - 广港•香港143•高速 - 飞翔吧
+      - 中转•英国267•高速 - 飞翔吧
+      - -0371-CN【nodeshare.xyz〗 永久免费节点机场
+      - 广港•香港309•专线 - 飞翔吧
+      - 美国 CloudFlare节点 49（nodeshare.xyz）免费机场节点
+      - 俄罗斯-喀山-001-1E
+      - 新加坡NEW01-1D
+      - -0133-CN【nodeshare.xyz〗 永久免费节点机场
+      - 美国 CloudFlare节点 27（nodeshare.xyz）免费机场节点
+      - 新加坡NEW01优选-1D
+      - "|US|美国|@wxgqlfx|101"
+      - 俄罗斯-喀山-001-2C
+      - guobaotegong.me
+      - 香港〖电报：@ccbaohe】免费节点定时更新
+      - 德国-法兰克福-001-1x
+      - 德国-法兰克福-001-2D
+      - -0378-CN【nodeshare.xyz〗 永久免费节点机场
+      - 美国 CloudFlare节点 95（nodeshare.xyz）免费机场节点
+      - 德国-法兰克福-001-1G
+      - -0471-JP【nodeshare.xyz〗 永久免费节点机场
+      - 俄罗斯-喀山-001-2E
+      - 德国-法兰克福-001-1C
+      - "|US|美国|@wxgqlfx|184"
+      - -0406-CN【nodeshare.xyz〗 永久免费节点机场
+      - 俄罗斯-喀山-001-1O
+      - 德国-法兰克福-001-2O
+      - 英国 IEPL专线NO1-1B
+      - -0383-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0374-CN【nodeshare.xyz〗 永久免费节点机场
+      - 香港01-1A
+      - -0470-JP【nodeshare.xyz〗 永久免费节点机场
+      - 中转•新加坡299•高速 - 飞翔吧
+      - 日本〖电报：@ccbaohe】免费节点定时更新
+      - -0395-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0399-CN【nodeshare.xyz〗 永久免费节点机场
+      - 香港01-1A 2
+      - 广港•香港279•高速 - 飞翔吧
+      - 法国 CM 隧道NO1-1B
+      - -0376-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0400-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0140-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0410-CN【nodeshare.xyz〗 永久免费节点机场
+      - 巴西NEW03-1E
+      - "|US|美国|@wxgqlfx|272"
+      - -0234-JP【nodeshare.xyz〗 永久免费节点机场
+      - 美国 CloudFlare节点 116（nodeshare.xyz）免费机场节点
+      - 俄罗斯-喀山-001-1L
+      - -0151-CN【nodeshare.xyz〗 永久免费节点机场
+      - 俄罗斯-圣彼得堡-002-1Q
+      - 俄罗斯-喀山-001-1F
+      - -0147-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-2Q
+      - 美国 - 洛杉矶 - Psychz Networks - 94
+      - 美国 CloudFlare节点 11（nodeshare.xyz）免费机场节点
+      - 美国 - 洛杉矶 - Psychz Networks - 11
+      - -0816-CN【nodeshare.xyz〗 永久免费节点机场
+      - 美国 CloudFlare节点 169（nodeshare.xyz）免费机场节点
+      - 美国 CloudFlare节点 3（nodeshare.xyz）免费机场节点
+      - 俄罗斯-喀山-001-2S
+      - 美国 CloudFlare节点 10（nodeshare.xyz）免费机场节点
+      - 中转•美国308•高速 - 飞翔吧
+      - -0150-CN【nodeshare.xyz〗 永久免费节点机场
+      - 俄罗斯-喀山-001-2A
+      - 美国 CloudFlare节点 126（nodeshare.xyz）免费机场节点
+      - "|US|美国|@wxgqlfx|705"
+      - 中转•新加坡65•青铜 - 飞翔吧
+      - -0393-CN【nodeshare.xyz〗 永久免费节点机场
+      - 俄罗斯-圣彼得堡-003-2H
+      - _US_美国
+      - 美国 CloudFlare节点 136（nodeshare.xyz）免费机场节点
+      - 美国 CloudFlare节点 18（nodeshare.xyz）免费机场节点
+      - 俄罗斯-喀山-001-2O
+      - 俄罗斯-喀山-001-1J
+      - -0815-CN【nodeshare.xyz〗 永久免费节点机场
+      - 美国 CloudFlare节点 62（nodeshare.xyz）免费机场节点
+      - 俄罗斯-圣彼得堡-002-1I
+      - 美国 CloudFlare节点 212（nodeshare.xyz）免费机场节点
+      - 中转•美国40•高速 - 飞翔吧
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 美国(https://www.fuye.fun/免费节点)
-      - 美国(https://www.fuye.fun/免费节点) 2
-      - 美国(https://www.fuye.fun/免费节点) 3
-      - 美国(https://www.fuye.fun/免费节点) 4
-      - 美国(https://www.fuye.fun/免费节点) 5
-      - 美国(https://www.fuye.fun/免费节点) 6
-      - 美国(https://www.fuye.fun/免费节点) 7
-      - 美国(https://www.fuye.fun/免费节点) 8
-      - 美国(https://www.fuye.fun/免费节点) 9
-      - 美国(https://www.fuye.fun/免费节点) 10
-      - 美国(https://www.fuye.fun/免费节点) 11
-      - 美国(https://www.fuye.fun/免费节点) 12
-      - 美国(https://www.fuye.fun/免费节点) 13
-      - 美国(https://www.fuye.fun/免费节点) 14
-      - 美国(https://www.fuye.fun/免费节点) 15
-      - 美国(https://www.fuye.fun/免费节点) 16
-      - 美国(https://www.fuye.fun/免费节点) 17
-      - 美国(https://www.fuye.fun/免费节点) 18
-      - 俄罗斯(https://www.fuye.fun/免费节点)
-      - 美国(https://www.fuye.fun/免费节点) 19
-      - 美国(https://www.fuye.fun/免费节点) 20
-      - 美国(https://www.fuye.fun/免费节点) 21
-      - 美国(https://www.fuye.fun/免费节点) 22
-      - 美国(https://www.fuye.fun/免费节点) 23
-      - 美国(https://www.fuye.fun/免费节点) 24
-      - 美国(https://www.fuye.fun/免费节点) 25
-      - 德国(https://www.fuye.fun/免费节点)
-      - 美国(https://www.fuye.fun/免费节点) 26
-      - 俄罗斯(https://www.fuye.fun/免费节点) 2
-      - 美国(https://www.fuye.fun/免费节点) 27
-      - 俄罗斯(https://www.fuye.fun/免费节点) 3
-      - 美国(https://www.fuye.fun/免费节点) 28
-      - 美国(https://www.fuye.fun/免费节点) 29
-      - 美国(https://www.fuye.fun/免费节点) 30
-      - 德国(https://www.fuye.fun/免费节点) 2
-      - 美国(https://www.fuye.fun/免费节点) 31
-      - 德国(https://www.fuye.fun/免费节点) 3
-      - 美国(https://www.fuye.fun/免费节点) 32
-      - 美国(https://www.fuye.fun/免费节点) 33
-      - 英国(https://www.fuye.fun/免费节点)
-      - 美国(https://www.fuye.fun/免费节点) 34
-      - 英国(https://www.fuye.fun/免费节点) 2
-      - 俄罗斯(https://www.fuye.fun/免费节点) 4
-      - 俄罗斯(https://www.fuye.fun/免费节点) 5
-      - 美国(https://www.fuye.fun/免费节点) 35
-      - 俄罗斯(https://www.fuye.fun/免费节点) 6
-      - 美国(https://www.fuye.fun/免费节点) 36
-      - 美国(https://www.fuye.fun/免费节点) 37
-      - 德国(https://www.fuye.fun/免费节点) 4
-      - 美国(https://www.fuye.fun/免费节点) 38
-      - 美国(https://www.fuye.fun/免费节点) 39
-      - 美国(https://www.fuye.fun/免费节点) 40
-      - 德国(https://www.fuye.fun/免费节点) 5
-      - 加拿大(https://www.fuye.fun/免费节点)
-      - 美国(https://www.fuye.fun/免费节点) 41
-      - 美国(https://www.fuye.fun/免费节点) 42
-      - 美国(https://www.fuye.fun/免费节点) 43
-      - 美国(https://www.fuye.fun/免费节点) 44
-      - 德国(https://www.fuye.fun/免费节点) 6
-      - 美国(https://www.fuye.fun/免费节点) 45
-      - 美国(https://www.fuye.fun/免费节点) 46
-      - 美国(https://www.fuye.fun/免费节点) 47
-      - 德国(https://www.fuye.fun/免费节点) 7
-      - 美国(https://www.fuye.fun/免费节点) 48
-      - 美国(https://www.fuye.fun/免费节点) 49
-      - 美国(https://www.fuye.fun/免费节点) 50
-      - 德国(https://www.fuye.fun/免费节点) 8
-      - 美国(https://www.fuye.fun/免费节点) 51
-      - 美国(https://www.fuye.fun/免费节点) 52
-      - 美国(https://www.fuye.fun/免费节点) 53
-      - 美国(https://www.fuye.fun/免费节点) 54
-      - 美国(https://www.fuye.fun/免费节点) 55
-      - 德国(https://www.fuye.fun/免费节点) 9
-      - 美国(https://www.fuye.fun/免费节点) 56
-      - 美国(https://www.fuye.fun/免费节点) 57
-      - 美国(https://www.fuye.fun/免费节点) 58
-      - 美国(https://www.fuye.fun/免费节点) 59
-      - 美国(https://www.fuye.fun/免费节点) 60
-      - 美国(https://www.fuye.fun/免费节点) 61
-      - 美国(https://www.fuye.fun/免费节点) 62
-      - 美国(https://www.fuye.fun/免费节点) 63
-      - 美国(https://www.fuye.fun/免费节点) 64
-      - 美国(https://www.fuye.fun/免费节点) 65
-      - 美国(https://www.fuye.fun/免费节点) 66
-      - 加拿大(https://www.fuye.fun/免费节点) 2
-      - 美国(https://www.fuye.fun/免费节点) 67
-      - 美国(https://www.fuye.fun/免费节点) 68
-      - 美国(https://www.fuye.fun/免费节点) 69
-      - 美国(https://www.fuye.fun/免费节点) 70
-      - 美国(https://www.fuye.fun/免费节点) 71
-      - 德国(https://www.fuye.fun/免费节点) 10
-      - 美国(https://www.fuye.fun/免费节点) 72
-      - 美国(https://www.fuye.fun/免费节点) 73
-      - 美国(https://www.fuye.fun/免费节点) 74
-      - 美国(https://www.fuye.fun/免费节点) 75
-      - 美国(https://www.fuye.fun/免费节点) 76
-      - 美国(https://www.fuye.fun/免费节点) 77
-      - 美国(https://www.fuye.fun/免费节点) 78
-      - 加拿大(https://www.fuye.fun/免费节点) 3
-      - 美国(https://www.fuye.fun/免费节点) 79
-      - 美国(https://www.fuye.fun/免费节点) 80
-      - 美国(https://www.fuye.fun/免费节点) 81
-      - 美国(https://www.fuye.fun/免费节点) 82
-      - 美国(https://www.fuye.fun/免费节点) 83
-      - 香港(https://www.fuye.fun/免费节点)
-      - 美国(https://www.fuye.fun/免费节点) 84
-      - 美国(https://www.fuye.fun/免费节点) 85
-      - 美国(https://www.fuye.fun/免费节点) 86
-      - 美国(https://www.fuye.fun/免费节点) 87
-      - 美国(https://www.fuye.fun/免费节点) 88
-      - 加拿大(https://www.fuye.fun/免费节点) 4
-      - 美国(https://www.fuye.fun/免费节点) 89
-      - 美国(https://www.fuye.fun/免费节点) 90
+      - 德国 IEPL专线NO1-1B
+      - -0152-CN【nodeshare.xyz〗 永久免费节点机场
+      - 香港01-1B
+      - 德国-法兰克福-001-1A
+      - -0130-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-2P
+      - 巴西NEW03-1G
+      - 中转•香港301•高速 - 飞翔吧
+      - 巴西NEW03-1B
+      - 广港•香港269•高速 - 飞翔吧
+      - -0375-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0396-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-1M
+      - -0408-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0134-CN【nodeshare.xyz〗 永久免费节点机场
+      - 俄罗斯-喀山-001-1D
+      - 香港01-1D
+      - -0372-CN【nodeshare.xyz〗 永久免费节点机场
+      - 日本•高速139•铂金 - 飞翔吧
+      - -0379-CN【nodeshare.xyz〗 永久免费节点机场
+      - 新加坡•高速129•高速 - 飞翔吧
+      - -0131-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0401-CN【nodeshare.xyz〗 永久免费节点机场
+      - 俄罗斯-喀山-001-2D
+      - 德国-法兰克福-001-1E
+      - 荷兰 CM 隧道NO1-1B
+      - 俄罗斯-喀山-001-2M
+      - -0156-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0153-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0144-CN【nodeshare.xyz〗 永久免费节点机场
+      - 新加坡•高速130•铂金 - 飞翔吧
+      - 俄罗斯-喀山-001-2B
+      - 香港01-1C
+      - -0377-CN【nodeshare.xyz〗 永久免费节点机场
+      - 广港•香港278•高速 - 飞翔吧
+      - -0392-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0135-CN【nodeshare.xyz〗 永久免费节点机场
+      - 中转•香港307•高速 - 飞翔吧
+      - -0402-CN【nodeshare.xyz〗 永久免费节点机场
+      - 中转•美国41•原生 - 飞翔吧
+      - -0387-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-2G
+      - 德国-法兰克福-001-1H
+      - 德国-法兰克福-001-2L
+      - -0407-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-2F
+      - 中转•英国268•高速 - 飞翔吧
+      - 中转•香港102•高速 - 飞翔吧
+      - 俄罗斯-喀山-001-1G
+      - 德国-法兰克福-001-1W
+      - 德国-法兰克福-001-2R
+      - -0394-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0137-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0149-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-2M
+      - 美国 CloudFlare节点（nodeshare.xyz）免费机场节点
+      - 中转•美国295•高速 - 飞翔吧
+      - 美国 CloudFlare节点 112（nodeshare.xyz）免费机场节点
+      - 德国-法兰克福-001-1Y
+      - -0411-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-2N
+      - 美国 - 沃尔纳特 - Psychz Networks - 10
+      - 德国-法兰克福-001-2J
+      - -0236-US【nodeshare.xyz〗 永久免费节点机场
+      - -0412-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0132-CN【nodeshare.xyz〗 永久免费节点机场
+      - 日本•高速142•原生 - 飞翔吧
+      - 俄罗斯-喀山-001-2F
+      - -0235-JP【nodeshare.xyz〗 永久免费节点机场
+      - -0146-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0148-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0389-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-1J
+      - 德国-法兰克福-001-1B
+      - 广港•香港143•高速 - 飞翔吧
+      - 中转•英国267•高速 - 飞翔吧
+      - -0371-CN【nodeshare.xyz〗 永久免费节点机场
+      - 广港•香港309•专线 - 飞翔吧
+      - 美国 CloudFlare节点 49（nodeshare.xyz）免费机场节点
+      - 俄罗斯-喀山-001-1E
+      - 新加坡NEW01-1D
+      - -0133-CN【nodeshare.xyz〗 永久免费节点机场
+      - 美国 CloudFlare节点 27（nodeshare.xyz）免费机场节点
+      - 新加坡NEW01优选-1D
+      - "|US|美国|@wxgqlfx|101"
+      - 俄罗斯-喀山-001-2C
+      - guobaotegong.me
+      - 香港〖电报：@ccbaohe】免费节点定时更新
+      - 德国-法兰克福-001-1x
+      - 德国-法兰克福-001-2D
+      - -0378-CN【nodeshare.xyz〗 永久免费节点机场
+      - 美国 CloudFlare节点 95（nodeshare.xyz）免费机场节点
+      - 德国-法兰克福-001-1G
+      - -0471-JP【nodeshare.xyz〗 永久免费节点机场
+      - 俄罗斯-喀山-001-2E
+      - 德国-法兰克福-001-1C
+      - "|US|美国|@wxgqlfx|184"
+      - -0406-CN【nodeshare.xyz〗 永久免费节点机场
+      - 俄罗斯-喀山-001-1O
+      - 德国-法兰克福-001-2O
+      - 英国 IEPL专线NO1-1B
+      - -0383-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0374-CN【nodeshare.xyz〗 永久免费节点机场
+      - 香港01-1A
+      - -0470-JP【nodeshare.xyz〗 永久免费节点机场
+      - 中转•新加坡299•高速 - 飞翔吧
+      - 日本〖电报：@ccbaohe】免费节点定时更新
+      - -0395-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0399-CN【nodeshare.xyz〗 永久免费节点机场
+      - 香港01-1A 2
+      - 广港•香港279•高速 - 飞翔吧
+      - 法国 CM 隧道NO1-1B
+      - -0376-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0400-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0140-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0410-CN【nodeshare.xyz〗 永久免费节点机场
+      - 巴西NEW03-1E
+      - "|US|美国|@wxgqlfx|272"
+      - -0234-JP【nodeshare.xyz〗 永久免费节点机场
+      - 美国 CloudFlare节点 116（nodeshare.xyz）免费机场节点
+      - 俄罗斯-喀山-001-1L
+      - -0151-CN【nodeshare.xyz〗 永久免费节点机场
+      - 俄罗斯-圣彼得堡-002-1Q
+      - 俄罗斯-喀山-001-1F
+      - -0147-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-2Q
+      - 美国 - 洛杉矶 - Psychz Networks - 94
+      - 美国 CloudFlare节点 11（nodeshare.xyz）免费机场节点
+      - 美国 - 洛杉矶 - Psychz Networks - 11
+      - -0816-CN【nodeshare.xyz〗 永久免费节点机场
+      - 美国 CloudFlare节点 169（nodeshare.xyz）免费机场节点
+      - 美国 CloudFlare节点 3（nodeshare.xyz）免费机场节点
+      - 俄罗斯-喀山-001-2S
+      - 美国 CloudFlare节点 10（nodeshare.xyz）免费机场节点
+      - 中转•美国308•高速 - 飞翔吧
+      - -0150-CN【nodeshare.xyz〗 永久免费节点机场
+      - 俄罗斯-喀山-001-2A
+      - 美国 CloudFlare节点 126（nodeshare.xyz）免费机场节点
+      - "|US|美国|@wxgqlfx|705"
+      - 中转•新加坡65•青铜 - 飞翔吧
+      - -0393-CN【nodeshare.xyz〗 永久免费节点机场
+      - 俄罗斯-圣彼得堡-003-2H
+      - _US_美国
+      - 美国 CloudFlare节点 136（nodeshare.xyz）免费机场节点
+      - 美国 CloudFlare节点 18（nodeshare.xyz）免费机场节点
+      - 俄罗斯-喀山-001-2O
+      - 俄罗斯-喀山-001-1J
+      - -0815-CN【nodeshare.xyz〗 永久免费节点机场
+      - 美国 CloudFlare节点 62（nodeshare.xyz）免费机场节点
+      - 俄罗斯-圣彼得堡-002-1I
+      - 美国 CloudFlare节点 212（nodeshare.xyz）免费机场节点
+      - 中转•美国40•高速 - 飞翔吧
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国(https://www.fuye.fun/免费节点)
-      - 美国(https://www.fuye.fun/免费节点) 2
-      - 美国(https://www.fuye.fun/免费节点) 3
-      - 美国(https://www.fuye.fun/免费节点) 4
-      - 美国(https://www.fuye.fun/免费节点) 5
-      - 美国(https://www.fuye.fun/免费节点) 6
-      - 美国(https://www.fuye.fun/免费节点) 7
-      - 美国(https://www.fuye.fun/免费节点) 8
-      - 美国(https://www.fuye.fun/免费节点) 9
-      - 美国(https://www.fuye.fun/免费节点) 10
-      - 美国(https://www.fuye.fun/免费节点) 11
-      - 美国(https://www.fuye.fun/免费节点) 12
-      - 美国(https://www.fuye.fun/免费节点) 13
-      - 美国(https://www.fuye.fun/免费节点) 14
-      - 美国(https://www.fuye.fun/免费节点) 15
-      - 美国(https://www.fuye.fun/免费节点) 16
-      - 美国(https://www.fuye.fun/免费节点) 17
-      - 美国(https://www.fuye.fun/免费节点) 18
-      - 俄罗斯(https://www.fuye.fun/免费节点)
-      - 美国(https://www.fuye.fun/免费节点) 19
-      - 美国(https://www.fuye.fun/免费节点) 20
-      - 美国(https://www.fuye.fun/免费节点) 21
-      - 美国(https://www.fuye.fun/免费节点) 22
-      - 美国(https://www.fuye.fun/免费节点) 23
-      - 美国(https://www.fuye.fun/免费节点) 24
-      - 美国(https://www.fuye.fun/免费节点) 25
-      - 德国(https://www.fuye.fun/免费节点)
-      - 美国(https://www.fuye.fun/免费节点) 26
-      - 俄罗斯(https://www.fuye.fun/免费节点) 2
-      - 美国(https://www.fuye.fun/免费节点) 27
-      - 俄罗斯(https://www.fuye.fun/免费节点) 3
-      - 美国(https://www.fuye.fun/免费节点) 28
-      - 美国(https://www.fuye.fun/免费节点) 29
-      - 美国(https://www.fuye.fun/免费节点) 30
-      - 德国(https://www.fuye.fun/免费节点) 2
-      - 美国(https://www.fuye.fun/免费节点) 31
-      - 德国(https://www.fuye.fun/免费节点) 3
-      - 美国(https://www.fuye.fun/免费节点) 32
-      - 美国(https://www.fuye.fun/免费节点) 33
-      - 英国(https://www.fuye.fun/免费节点)
-      - 美国(https://www.fuye.fun/免费节点) 34
-      - 英国(https://www.fuye.fun/免费节点) 2
-      - 俄罗斯(https://www.fuye.fun/免费节点) 4
-      - 俄罗斯(https://www.fuye.fun/免费节点) 5
-      - 美国(https://www.fuye.fun/免费节点) 35
-      - 俄罗斯(https://www.fuye.fun/免费节点) 6
-      - 美国(https://www.fuye.fun/免费节点) 36
-      - 美国(https://www.fuye.fun/免费节点) 37
-      - 德国(https://www.fuye.fun/免费节点) 4
-      - 美国(https://www.fuye.fun/免费节点) 38
-      - 美国(https://www.fuye.fun/免费节点) 39
-      - 美国(https://www.fuye.fun/免费节点) 40
-      - 德国(https://www.fuye.fun/免费节点) 5
-      - 加拿大(https://www.fuye.fun/免费节点)
-      - 美国(https://www.fuye.fun/免费节点) 41
-      - 美国(https://www.fuye.fun/免费节点) 42
-      - 美国(https://www.fuye.fun/免费节点) 43
-      - 美国(https://www.fuye.fun/免费节点) 44
-      - 德国(https://www.fuye.fun/免费节点) 6
-      - 美国(https://www.fuye.fun/免费节点) 45
-      - 美国(https://www.fuye.fun/免费节点) 46
-      - 美国(https://www.fuye.fun/免费节点) 47
-      - 德国(https://www.fuye.fun/免费节点) 7
-      - 美国(https://www.fuye.fun/免费节点) 48
-      - 美国(https://www.fuye.fun/免费节点) 49
-      - 美国(https://www.fuye.fun/免费节点) 50
-      - 德国(https://www.fuye.fun/免费节点) 8
-      - 美国(https://www.fuye.fun/免费节点) 51
-      - 美国(https://www.fuye.fun/免费节点) 52
-      - 美国(https://www.fuye.fun/免费节点) 53
-      - 美国(https://www.fuye.fun/免费节点) 54
-      - 美国(https://www.fuye.fun/免费节点) 55
-      - 德国(https://www.fuye.fun/免费节点) 9
-      - 美国(https://www.fuye.fun/免费节点) 56
-      - 美国(https://www.fuye.fun/免费节点) 57
-      - 美国(https://www.fuye.fun/免费节点) 58
-      - 美国(https://www.fuye.fun/免费节点) 59
-      - 美国(https://www.fuye.fun/免费节点) 60
-      - 美国(https://www.fuye.fun/免费节点) 61
-      - 美国(https://www.fuye.fun/免费节点) 62
-      - 美国(https://www.fuye.fun/免费节点) 63
-      - 美国(https://www.fuye.fun/免费节点) 64
-      - 美国(https://www.fuye.fun/免费节点) 65
-      - 美国(https://www.fuye.fun/免费节点) 66
-      - 加拿大(https://www.fuye.fun/免费节点) 2
-      - 美国(https://www.fuye.fun/免费节点) 67
-      - 美国(https://www.fuye.fun/免费节点) 68
-      - 美国(https://www.fuye.fun/免费节点) 69
-      - 美国(https://www.fuye.fun/免费节点) 70
-      - 美国(https://www.fuye.fun/免费节点) 71
-      - 德国(https://www.fuye.fun/免费节点) 10
-      - 美国(https://www.fuye.fun/免费节点) 72
-      - 美国(https://www.fuye.fun/免费节点) 73
-      - 美国(https://www.fuye.fun/免费节点) 74
-      - 美国(https://www.fuye.fun/免费节点) 75
-      - 美国(https://www.fuye.fun/免费节点) 76
-      - 美国(https://www.fuye.fun/免费节点) 77
-      - 美国(https://www.fuye.fun/免费节点) 78
-      - 加拿大(https://www.fuye.fun/免费节点) 3
-      - 美国(https://www.fuye.fun/免费节点) 79
-      - 美国(https://www.fuye.fun/免费节点) 80
-      - 美国(https://www.fuye.fun/免费节点) 81
-      - 美国(https://www.fuye.fun/免费节点) 82
-      - 美国(https://www.fuye.fun/免费节点) 83
-      - 香港(https://www.fuye.fun/免费节点)
-      - 美国(https://www.fuye.fun/免费节点) 84
-      - 美国(https://www.fuye.fun/免费节点) 85
-      - 美国(https://www.fuye.fun/免费节点) 86
-      - 美国(https://www.fuye.fun/免费节点) 87
-      - 美国(https://www.fuye.fun/免费节点) 88
-      - 加拿大(https://www.fuye.fun/免费节点) 4
-      - 美国(https://www.fuye.fun/免费节点) 89
-      - 美国(https://www.fuye.fun/免费节点) 90
+      - 德国 IEPL专线NO1-1B
+      - -0152-CN【nodeshare.xyz〗 永久免费节点机场
+      - 香港01-1B
+      - 德国-法兰克福-001-1A
+      - -0130-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-2P
+      - 巴西NEW03-1G
+      - 中转•香港301•高速 - 飞翔吧
+      - 巴西NEW03-1B
+      - 广港•香港269•高速 - 飞翔吧
+      - -0375-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0396-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-1M
+      - -0408-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0134-CN【nodeshare.xyz〗 永久免费节点机场
+      - 俄罗斯-喀山-001-1D
+      - 香港01-1D
+      - -0372-CN【nodeshare.xyz〗 永久免费节点机场
+      - 日本•高速139•铂金 - 飞翔吧
+      - -0379-CN【nodeshare.xyz〗 永久免费节点机场
+      - 新加坡•高速129•高速 - 飞翔吧
+      - -0131-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0401-CN【nodeshare.xyz〗 永久免费节点机场
+      - 俄罗斯-喀山-001-2D
+      - 德国-法兰克福-001-1E
+      - 荷兰 CM 隧道NO1-1B
+      - 俄罗斯-喀山-001-2M
+      - -0156-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0153-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0144-CN【nodeshare.xyz〗 永久免费节点机场
+      - 新加坡•高速130•铂金 - 飞翔吧
+      - 俄罗斯-喀山-001-2B
+      - 香港01-1C
+      - -0377-CN【nodeshare.xyz〗 永久免费节点机场
+      - 广港•香港278•高速 - 飞翔吧
+      - -0392-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0135-CN【nodeshare.xyz〗 永久免费节点机场
+      - 中转•香港307•高速 - 飞翔吧
+      - -0402-CN【nodeshare.xyz〗 永久免费节点机场
+      - 中转•美国41•原生 - 飞翔吧
+      - -0387-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-2G
+      - 德国-法兰克福-001-1H
+      - 德国-法兰克福-001-2L
+      - -0407-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-2F
+      - 中转•英国268•高速 - 飞翔吧
+      - 中转•香港102•高速 - 飞翔吧
+      - 俄罗斯-喀山-001-1G
+      - 德国-法兰克福-001-1W
+      - 德国-法兰克福-001-2R
+      - -0394-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0137-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0149-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-2M
+      - 美国 CloudFlare节点（nodeshare.xyz）免费机场节点
+      - 中转•美国295•高速 - 飞翔吧
+      - 美国 CloudFlare节点 112（nodeshare.xyz）免费机场节点
+      - 德国-法兰克福-001-1Y
+      - -0411-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-2N
+      - 美国 - 沃尔纳特 - Psychz Networks - 10
+      - 德国-法兰克福-001-2J
+      - -0236-US【nodeshare.xyz〗 永久免费节点机场
+      - -0412-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0132-CN【nodeshare.xyz〗 永久免费节点机场
+      - 日本•高速142•原生 - 飞翔吧
+      - 俄罗斯-喀山-001-2F
+      - -0235-JP【nodeshare.xyz〗 永久免费节点机场
+      - -0146-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0148-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0389-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-1J
+      - 德国-法兰克福-001-1B
+      - 广港•香港143•高速 - 飞翔吧
+      - 中转•英国267•高速 - 飞翔吧
+      - -0371-CN【nodeshare.xyz〗 永久免费节点机场
+      - 广港•香港309•专线 - 飞翔吧
+      - 美国 CloudFlare节点 49（nodeshare.xyz）免费机场节点
+      - 俄罗斯-喀山-001-1E
+      - 新加坡NEW01-1D
+      - -0133-CN【nodeshare.xyz〗 永久免费节点机场
+      - 美国 CloudFlare节点 27（nodeshare.xyz）免费机场节点
+      - 新加坡NEW01优选-1D
+      - "|US|美国|@wxgqlfx|101"
+      - 俄罗斯-喀山-001-2C
+      - guobaotegong.me
+      - 香港〖电报：@ccbaohe】免费节点定时更新
+      - 德国-法兰克福-001-1x
+      - 德国-法兰克福-001-2D
+      - -0378-CN【nodeshare.xyz〗 永久免费节点机场
+      - 美国 CloudFlare节点 95（nodeshare.xyz）免费机场节点
+      - 德国-法兰克福-001-1G
+      - -0471-JP【nodeshare.xyz〗 永久免费节点机场
+      - 俄罗斯-喀山-001-2E
+      - 德国-法兰克福-001-1C
+      - "|US|美国|@wxgqlfx|184"
+      - -0406-CN【nodeshare.xyz〗 永久免费节点机场
+      - 俄罗斯-喀山-001-1O
+      - 德国-法兰克福-001-2O
+      - 英国 IEPL专线NO1-1B
+      - -0383-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0374-CN【nodeshare.xyz〗 永久免费节点机场
+      - 香港01-1A
+      - -0470-JP【nodeshare.xyz〗 永久免费节点机场
+      - 中转•新加坡299•高速 - 飞翔吧
+      - 日本〖电报：@ccbaohe】免费节点定时更新
+      - -0395-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0399-CN【nodeshare.xyz〗 永久免费节点机场
+      - 香港01-1A 2
+      - 广港•香港279•高速 - 飞翔吧
+      - 法国 CM 隧道NO1-1B
+      - -0376-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0400-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0140-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0410-CN【nodeshare.xyz〗 永久免费节点机场
+      - 巴西NEW03-1E
+      - "|US|美国|@wxgqlfx|272"
+      - -0234-JP【nodeshare.xyz〗 永久免费节点机场
+      - 美国 CloudFlare节点 116（nodeshare.xyz）免费机场节点
+      - 俄罗斯-喀山-001-1L
+      - -0151-CN【nodeshare.xyz〗 永久免费节点机场
+      - 俄罗斯-圣彼得堡-002-1Q
+      - 俄罗斯-喀山-001-1F
+      - -0147-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-2Q
+      - 美国 - 洛杉矶 - Psychz Networks - 94
+      - 美国 CloudFlare节点 11（nodeshare.xyz）免费机场节点
+      - 美国 - 洛杉矶 - Psychz Networks - 11
+      - -0816-CN【nodeshare.xyz〗 永久免费节点机场
+      - 美国 CloudFlare节点 169（nodeshare.xyz）免费机场节点
+      - 美国 CloudFlare节点 3（nodeshare.xyz）免费机场节点
+      - 俄罗斯-喀山-001-2S
+      - 美国 CloudFlare节点 10（nodeshare.xyz）免费机场节点
+      - 中转•美国308•高速 - 飞翔吧
+      - -0150-CN【nodeshare.xyz〗 永久免费节点机场
+      - 俄罗斯-喀山-001-2A
+      - 美国 CloudFlare节点 126（nodeshare.xyz）免费机场节点
+      - "|US|美国|@wxgqlfx|705"
+      - 中转•新加坡65•青铜 - 飞翔吧
+      - -0393-CN【nodeshare.xyz〗 永久免费节点机场
+      - 俄罗斯-圣彼得堡-003-2H
+      - _US_美国
+      - 美国 CloudFlare节点 136（nodeshare.xyz）免费机场节点
+      - 美国 CloudFlare节点 18（nodeshare.xyz）免费机场节点
+      - 俄罗斯-喀山-001-2O
+      - 俄罗斯-喀山-001-1J
+      - -0815-CN【nodeshare.xyz〗 永久免费节点机场
+      - 美国 CloudFlare节点 62（nodeshare.xyz）免费机场节点
+      - 俄罗斯-圣彼得堡-002-1I
+      - 美国 CloudFlare节点 212（nodeshare.xyz）免费机场节点
+      - 中转•美国40•高速 - 飞翔吧
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -492,480 +648,652 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国(https://www.fuye.fun/免费节点)
-      - 美国(https://www.fuye.fun/免费节点) 2
-      - 美国(https://www.fuye.fun/免费节点) 3
-      - 美国(https://www.fuye.fun/免费节点) 4
-      - 美国(https://www.fuye.fun/免费节点) 5
-      - 美国(https://www.fuye.fun/免费节点) 6
-      - 美国(https://www.fuye.fun/免费节点) 7
-      - 美国(https://www.fuye.fun/免费节点) 8
-      - 美国(https://www.fuye.fun/免费节点) 9
-      - 美国(https://www.fuye.fun/免费节点) 10
-      - 美国(https://www.fuye.fun/免费节点) 11
-      - 美国(https://www.fuye.fun/免费节点) 12
-      - 美国(https://www.fuye.fun/免费节点) 13
-      - 美国(https://www.fuye.fun/免费节点) 14
-      - 美国(https://www.fuye.fun/免费节点) 15
-      - 美国(https://www.fuye.fun/免费节点) 16
-      - 美国(https://www.fuye.fun/免费节点) 17
-      - 美国(https://www.fuye.fun/免费节点) 18
-      - 俄罗斯(https://www.fuye.fun/免费节点)
-      - 美国(https://www.fuye.fun/免费节点) 19
-      - 美国(https://www.fuye.fun/免费节点) 20
-      - 美国(https://www.fuye.fun/免费节点) 21
-      - 美国(https://www.fuye.fun/免费节点) 22
-      - 美国(https://www.fuye.fun/免费节点) 23
-      - 美国(https://www.fuye.fun/免费节点) 24
-      - 美国(https://www.fuye.fun/免费节点) 25
-      - 德国(https://www.fuye.fun/免费节点)
-      - 美国(https://www.fuye.fun/免费节点) 26
-      - 俄罗斯(https://www.fuye.fun/免费节点) 2
-      - 美国(https://www.fuye.fun/免费节点) 27
-      - 俄罗斯(https://www.fuye.fun/免费节点) 3
-      - 美国(https://www.fuye.fun/免费节点) 28
-      - 美国(https://www.fuye.fun/免费节点) 29
-      - 美国(https://www.fuye.fun/免费节点) 30
-      - 德国(https://www.fuye.fun/免费节点) 2
-      - 美国(https://www.fuye.fun/免费节点) 31
-      - 德国(https://www.fuye.fun/免费节点) 3
-      - 美国(https://www.fuye.fun/免费节点) 32
-      - 美国(https://www.fuye.fun/免费节点) 33
-      - 英国(https://www.fuye.fun/免费节点)
-      - 美国(https://www.fuye.fun/免费节点) 34
-      - 英国(https://www.fuye.fun/免费节点) 2
-      - 俄罗斯(https://www.fuye.fun/免费节点) 4
-      - 俄罗斯(https://www.fuye.fun/免费节点) 5
-      - 美国(https://www.fuye.fun/免费节点) 35
-      - 俄罗斯(https://www.fuye.fun/免费节点) 6
-      - 美国(https://www.fuye.fun/免费节点) 36
-      - 美国(https://www.fuye.fun/免费节点) 37
-      - 德国(https://www.fuye.fun/免费节点) 4
-      - 美国(https://www.fuye.fun/免费节点) 38
-      - 美国(https://www.fuye.fun/免费节点) 39
-      - 美国(https://www.fuye.fun/免费节点) 40
-      - 德国(https://www.fuye.fun/免费节点) 5
-      - 加拿大(https://www.fuye.fun/免费节点)
-      - 美国(https://www.fuye.fun/免费节点) 41
-      - 美国(https://www.fuye.fun/免费节点) 42
-      - 美国(https://www.fuye.fun/免费节点) 43
-      - 美国(https://www.fuye.fun/免费节点) 44
-      - 德国(https://www.fuye.fun/免费节点) 6
-      - 美国(https://www.fuye.fun/免费节点) 45
-      - 美国(https://www.fuye.fun/免费节点) 46
-      - 美国(https://www.fuye.fun/免费节点) 47
-      - 德国(https://www.fuye.fun/免费节点) 7
-      - 美国(https://www.fuye.fun/免费节点) 48
-      - 美国(https://www.fuye.fun/免费节点) 49
-      - 美国(https://www.fuye.fun/免费节点) 50
-      - 德国(https://www.fuye.fun/免费节点) 8
-      - 美国(https://www.fuye.fun/免费节点) 51
-      - 美国(https://www.fuye.fun/免费节点) 52
-      - 美国(https://www.fuye.fun/免费节点) 53
-      - 美国(https://www.fuye.fun/免费节点) 54
-      - 美国(https://www.fuye.fun/免费节点) 55
-      - 德国(https://www.fuye.fun/免费节点) 9
-      - 美国(https://www.fuye.fun/免费节点) 56
-      - 美国(https://www.fuye.fun/免费节点) 57
-      - 美国(https://www.fuye.fun/免费节点) 58
-      - 美国(https://www.fuye.fun/免费节点) 59
-      - 美国(https://www.fuye.fun/免费节点) 60
-      - 美国(https://www.fuye.fun/免费节点) 61
-      - 美国(https://www.fuye.fun/免费节点) 62
-      - 美国(https://www.fuye.fun/免费节点) 63
-      - 美国(https://www.fuye.fun/免费节点) 64
-      - 美国(https://www.fuye.fun/免费节点) 65
-      - 美国(https://www.fuye.fun/免费节点) 66
-      - 加拿大(https://www.fuye.fun/免费节点) 2
-      - 美国(https://www.fuye.fun/免费节点) 67
-      - 美国(https://www.fuye.fun/免费节点) 68
-      - 美国(https://www.fuye.fun/免费节点) 69
-      - 美国(https://www.fuye.fun/免费节点) 70
-      - 美国(https://www.fuye.fun/免费节点) 71
-      - 德国(https://www.fuye.fun/免费节点) 10
-      - 美国(https://www.fuye.fun/免费节点) 72
-      - 美国(https://www.fuye.fun/免费节点) 73
-      - 美国(https://www.fuye.fun/免费节点) 74
-      - 美国(https://www.fuye.fun/免费节点) 75
-      - 美国(https://www.fuye.fun/免费节点) 76
-      - 美国(https://www.fuye.fun/免费节点) 77
-      - 美国(https://www.fuye.fun/免费节点) 78
-      - 加拿大(https://www.fuye.fun/免费节点) 3
-      - 美国(https://www.fuye.fun/免费节点) 79
-      - 美国(https://www.fuye.fun/免费节点) 80
-      - 美国(https://www.fuye.fun/免费节点) 81
-      - 美国(https://www.fuye.fun/免费节点) 82
-      - 美国(https://www.fuye.fun/免费节点) 83
-      - 香港(https://www.fuye.fun/免费节点)
-      - 美国(https://www.fuye.fun/免费节点) 84
-      - 美国(https://www.fuye.fun/免费节点) 85
-      - 美国(https://www.fuye.fun/免费节点) 86
-      - 美国(https://www.fuye.fun/免费节点) 87
-      - 美国(https://www.fuye.fun/免费节点) 88
-      - 加拿大(https://www.fuye.fun/免费节点) 4
-      - 美国(https://www.fuye.fun/免费节点) 89
-      - 美国(https://www.fuye.fun/免费节点) 90
+      - 德国 IEPL专线NO1-1B
+      - -0152-CN【nodeshare.xyz〗 永久免费节点机场
+      - 香港01-1B
+      - 德国-法兰克福-001-1A
+      - -0130-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-2P
+      - 巴西NEW03-1G
+      - 中转•香港301•高速 - 飞翔吧
+      - 巴西NEW03-1B
+      - 广港•香港269•高速 - 飞翔吧
+      - -0375-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0396-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-1M
+      - -0408-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0134-CN【nodeshare.xyz〗 永久免费节点机场
+      - 俄罗斯-喀山-001-1D
+      - 香港01-1D
+      - -0372-CN【nodeshare.xyz〗 永久免费节点机场
+      - 日本•高速139•铂金 - 飞翔吧
+      - -0379-CN【nodeshare.xyz〗 永久免费节点机场
+      - 新加坡•高速129•高速 - 飞翔吧
+      - -0131-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0401-CN【nodeshare.xyz〗 永久免费节点机场
+      - 俄罗斯-喀山-001-2D
+      - 德国-法兰克福-001-1E
+      - 荷兰 CM 隧道NO1-1B
+      - 俄罗斯-喀山-001-2M
+      - -0156-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0153-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0144-CN【nodeshare.xyz〗 永久免费节点机场
+      - 新加坡•高速130•铂金 - 飞翔吧
+      - 俄罗斯-喀山-001-2B
+      - 香港01-1C
+      - -0377-CN【nodeshare.xyz〗 永久免费节点机场
+      - 广港•香港278•高速 - 飞翔吧
+      - -0392-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0135-CN【nodeshare.xyz〗 永久免费节点机场
+      - 中转•香港307•高速 - 飞翔吧
+      - -0402-CN【nodeshare.xyz〗 永久免费节点机场
+      - 中转•美国41•原生 - 飞翔吧
+      - -0387-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-2G
+      - 德国-法兰克福-001-1H
+      - 德国-法兰克福-001-2L
+      - -0407-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-2F
+      - 中转•英国268•高速 - 飞翔吧
+      - 中转•香港102•高速 - 飞翔吧
+      - 俄罗斯-喀山-001-1G
+      - 德国-法兰克福-001-1W
+      - 德国-法兰克福-001-2R
+      - -0394-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0137-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0149-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-2M
+      - 美国 CloudFlare节点（nodeshare.xyz）免费机场节点
+      - 中转•美国295•高速 - 飞翔吧
+      - 美国 CloudFlare节点 112（nodeshare.xyz）免费机场节点
+      - 德国-法兰克福-001-1Y
+      - -0411-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-2N
+      - 美国 - 沃尔纳特 - Psychz Networks - 10
+      - 德国-法兰克福-001-2J
+      - -0236-US【nodeshare.xyz〗 永久免费节点机场
+      - -0412-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0132-CN【nodeshare.xyz〗 永久免费节点机场
+      - 日本•高速142•原生 - 飞翔吧
+      - 俄罗斯-喀山-001-2F
+      - -0235-JP【nodeshare.xyz〗 永久免费节点机场
+      - -0146-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0148-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0389-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-1J
+      - 德国-法兰克福-001-1B
+      - 广港•香港143•高速 - 飞翔吧
+      - 中转•英国267•高速 - 飞翔吧
+      - -0371-CN【nodeshare.xyz〗 永久免费节点机场
+      - 广港•香港309•专线 - 飞翔吧
+      - 美国 CloudFlare节点 49（nodeshare.xyz）免费机场节点
+      - 俄罗斯-喀山-001-1E
+      - 新加坡NEW01-1D
+      - -0133-CN【nodeshare.xyz〗 永久免费节点机场
+      - 美国 CloudFlare节点 27（nodeshare.xyz）免费机场节点
+      - 新加坡NEW01优选-1D
+      - "|US|美国|@wxgqlfx|101"
+      - 俄罗斯-喀山-001-2C
+      - guobaotegong.me
+      - 香港〖电报：@ccbaohe】免费节点定时更新
+      - 德国-法兰克福-001-1x
+      - 德国-法兰克福-001-2D
+      - -0378-CN【nodeshare.xyz〗 永久免费节点机场
+      - 美国 CloudFlare节点 95（nodeshare.xyz）免费机场节点
+      - 德国-法兰克福-001-1G
+      - -0471-JP【nodeshare.xyz〗 永久免费节点机场
+      - 俄罗斯-喀山-001-2E
+      - 德国-法兰克福-001-1C
+      - "|US|美国|@wxgqlfx|184"
+      - -0406-CN【nodeshare.xyz〗 永久免费节点机场
+      - 俄罗斯-喀山-001-1O
+      - 德国-法兰克福-001-2O
+      - 英国 IEPL专线NO1-1B
+      - -0383-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0374-CN【nodeshare.xyz〗 永久免费节点机场
+      - 香港01-1A
+      - -0470-JP【nodeshare.xyz〗 永久免费节点机场
+      - 中转•新加坡299•高速 - 飞翔吧
+      - 日本〖电报：@ccbaohe】免费节点定时更新
+      - -0395-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0399-CN【nodeshare.xyz〗 永久免费节点机场
+      - 香港01-1A 2
+      - 广港•香港279•高速 - 飞翔吧
+      - 法国 CM 隧道NO1-1B
+      - -0376-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0400-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0140-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0410-CN【nodeshare.xyz〗 永久免费节点机场
+      - 巴西NEW03-1E
+      - "|US|美国|@wxgqlfx|272"
+      - -0234-JP【nodeshare.xyz〗 永久免费节点机场
+      - 美国 CloudFlare节点 116（nodeshare.xyz）免费机场节点
+      - 俄罗斯-喀山-001-1L
+      - -0151-CN【nodeshare.xyz〗 永久免费节点机场
+      - 俄罗斯-圣彼得堡-002-1Q
+      - 俄罗斯-喀山-001-1F
+      - -0147-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-2Q
+      - 美国 - 洛杉矶 - Psychz Networks - 94
+      - 美国 CloudFlare节点 11（nodeshare.xyz）免费机场节点
+      - 美国 - 洛杉矶 - Psychz Networks - 11
+      - -0816-CN【nodeshare.xyz〗 永久免费节点机场
+      - 美国 CloudFlare节点 169（nodeshare.xyz）免费机场节点
+      - 美国 CloudFlare节点 3（nodeshare.xyz）免费机场节点
+      - 俄罗斯-喀山-001-2S
+      - 美国 CloudFlare节点 10（nodeshare.xyz）免费机场节点
+      - 中转•美国308•高速 - 飞翔吧
+      - -0150-CN【nodeshare.xyz〗 永久免费节点机场
+      - 俄罗斯-喀山-001-2A
+      - 美国 CloudFlare节点 126（nodeshare.xyz）免费机场节点
+      - "|US|美国|@wxgqlfx|705"
+      - 中转•新加坡65•青铜 - 飞翔吧
+      - -0393-CN【nodeshare.xyz〗 永久免费节点机场
+      - 俄罗斯-圣彼得堡-003-2H
+      - _US_美国
+      - 美国 CloudFlare节点 136（nodeshare.xyz）免费机场节点
+      - 美国 CloudFlare节点 18（nodeshare.xyz）免费机场节点
+      - 俄罗斯-喀山-001-2O
+      - 俄罗斯-喀山-001-1J
+      - -0815-CN【nodeshare.xyz〗 永久免费节点机场
+      - 美国 CloudFlare节点 62（nodeshare.xyz）免费机场节点
+      - 俄罗斯-圣彼得堡-002-1I
+      - 美国 CloudFlare节点 212（nodeshare.xyz）免费机场节点
+      - 中转•美国40•高速 - 飞翔吧
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港(https://www.fuye.fun/免费节点)
+      - 香港01-1B
+      - 中转•香港301•高速 - 飞翔吧
+      - 广港•香港269•高速 - 飞翔吧
+      - 香港01-1D
+      - 香港01-1C
+      - 广港•香港278•高速 - 飞翔吧
+      - 中转•香港307•高速 - 飞翔吧
+      - 中转•香港102•高速 - 飞翔吧
+      - 美国 - 沃尔纳特 - Psychz Networks - 10
+      - 广港•香港143•高速 - 飞翔吧
+      - 广港•香港309•专线 - 飞翔吧
+      - 香港〖电报：@ccbaohe】免费节点定时更新
+      - 香港01-1A
+      - 香港01-1A 2
+      - 广港•香港279•高速 - 飞翔吧
+      - 美国 - 洛杉矶 - Psychz Networks - 94
+      - 美国 - 洛杉矶 - Psychz Networks - 11
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 美国(https://www.fuye.fun/免费节点)
-      - 美国(https://www.fuye.fun/免费节点) 2
-      - 美国(https://www.fuye.fun/免费节点) 3
-      - 美国(https://www.fuye.fun/免费节点) 4
-      - 美国(https://www.fuye.fun/免费节点) 5
-      - 美国(https://www.fuye.fun/免费节点) 6
-      - 美国(https://www.fuye.fun/免费节点) 7
-      - 美国(https://www.fuye.fun/免费节点) 8
-      - 美国(https://www.fuye.fun/免费节点) 9
-      - 美国(https://www.fuye.fun/免费节点) 10
-      - 美国(https://www.fuye.fun/免费节点) 11
-      - 美国(https://www.fuye.fun/免费节点) 12
-      - 美国(https://www.fuye.fun/免费节点) 13
-      - 美国(https://www.fuye.fun/免费节点) 14
-      - 美国(https://www.fuye.fun/免费节点) 15
-      - 美国(https://www.fuye.fun/免费节点) 16
-      - 美国(https://www.fuye.fun/免费节点) 17
-      - 美国(https://www.fuye.fun/免费节点) 18
-      - 俄罗斯(https://www.fuye.fun/免费节点)
-      - 美国(https://www.fuye.fun/免费节点) 19
-      - 美国(https://www.fuye.fun/免费节点) 20
-      - 美国(https://www.fuye.fun/免费节点) 21
-      - 美国(https://www.fuye.fun/免费节点) 22
-      - 美国(https://www.fuye.fun/免费节点) 23
-      - 美国(https://www.fuye.fun/免费节点) 24
-      - 美国(https://www.fuye.fun/免费节点) 25
-      - 德国(https://www.fuye.fun/免费节点)
-      - 美国(https://www.fuye.fun/免费节点) 26
-      - 俄罗斯(https://www.fuye.fun/免费节点) 2
-      - 美国(https://www.fuye.fun/免费节点) 27
-      - 俄罗斯(https://www.fuye.fun/免费节点) 3
-      - 美国(https://www.fuye.fun/免费节点) 28
-      - 美国(https://www.fuye.fun/免费节点) 29
-      - 美国(https://www.fuye.fun/免费节点) 30
-      - 德国(https://www.fuye.fun/免费节点) 2
-      - 美国(https://www.fuye.fun/免费节点) 31
-      - 德国(https://www.fuye.fun/免费节点) 3
-      - 美国(https://www.fuye.fun/免费节点) 32
-      - 美国(https://www.fuye.fun/免费节点) 33
-      - 英国(https://www.fuye.fun/免费节点)
-      - 美国(https://www.fuye.fun/免费节点) 34
-      - 英国(https://www.fuye.fun/免费节点) 2
-      - 俄罗斯(https://www.fuye.fun/免费节点) 4
-      - 俄罗斯(https://www.fuye.fun/免费节点) 5
-      - 美国(https://www.fuye.fun/免费节点) 35
-      - 俄罗斯(https://www.fuye.fun/免费节点) 6
-      - 美国(https://www.fuye.fun/免费节点) 36
-      - 美国(https://www.fuye.fun/免费节点) 37
-      - 德国(https://www.fuye.fun/免费节点) 4
-      - 美国(https://www.fuye.fun/免费节点) 38
-      - 美国(https://www.fuye.fun/免费节点) 39
-      - 美国(https://www.fuye.fun/免费节点) 40
-      - 德国(https://www.fuye.fun/免费节点) 5
-      - 加拿大(https://www.fuye.fun/免费节点)
-      - 美国(https://www.fuye.fun/免费节点) 41
-      - 美国(https://www.fuye.fun/免费节点) 42
-      - 美国(https://www.fuye.fun/免费节点) 43
-      - 美国(https://www.fuye.fun/免费节点) 44
-      - 德国(https://www.fuye.fun/免费节点) 6
-      - 美国(https://www.fuye.fun/免费节点) 45
-      - 美国(https://www.fuye.fun/免费节点) 46
-      - 美国(https://www.fuye.fun/免费节点) 47
-      - 德国(https://www.fuye.fun/免费节点) 7
-      - 美国(https://www.fuye.fun/免费节点) 48
-      - 美国(https://www.fuye.fun/免费节点) 49
-      - 美国(https://www.fuye.fun/免费节点) 50
-      - 德国(https://www.fuye.fun/免费节点) 8
-      - 美国(https://www.fuye.fun/免费节点) 51
-      - 美国(https://www.fuye.fun/免费节点) 52
-      - 美国(https://www.fuye.fun/免费节点) 53
-      - 美国(https://www.fuye.fun/免费节点) 54
-      - 美国(https://www.fuye.fun/免费节点) 55
-      - 德国(https://www.fuye.fun/免费节点) 9
-      - 美国(https://www.fuye.fun/免费节点) 56
-      - 美国(https://www.fuye.fun/免费节点) 57
-      - 美国(https://www.fuye.fun/免费节点) 58
-      - 美国(https://www.fuye.fun/免费节点) 59
-      - 美国(https://www.fuye.fun/免费节点) 60
-      - 美国(https://www.fuye.fun/免费节点) 61
-      - 美国(https://www.fuye.fun/免费节点) 62
-      - 美国(https://www.fuye.fun/免费节点) 63
-      - 美国(https://www.fuye.fun/免费节点) 64
-      - 美国(https://www.fuye.fun/免费节点) 65
-      - 美国(https://www.fuye.fun/免费节点) 66
-      - 加拿大(https://www.fuye.fun/免费节点) 2
-      - 美国(https://www.fuye.fun/免费节点) 67
-      - 美国(https://www.fuye.fun/免费节点) 68
-      - 美国(https://www.fuye.fun/免费节点) 69
-      - 美国(https://www.fuye.fun/免费节点) 70
-      - 美国(https://www.fuye.fun/免费节点) 71
-      - 德国(https://www.fuye.fun/免费节点) 10
-      - 美国(https://www.fuye.fun/免费节点) 72
-      - 美国(https://www.fuye.fun/免费节点) 73
-      - 美国(https://www.fuye.fun/免费节点) 74
-      - 美国(https://www.fuye.fun/免费节点) 75
-      - 美国(https://www.fuye.fun/免费节点) 76
-      - 美国(https://www.fuye.fun/免费节点) 77
-      - 美国(https://www.fuye.fun/免费节点) 78
-      - 加拿大(https://www.fuye.fun/免费节点) 3
-      - 美国(https://www.fuye.fun/免费节点) 79
-      - 美国(https://www.fuye.fun/免费节点) 80
-      - 美国(https://www.fuye.fun/免费节点) 81
-      - 美国(https://www.fuye.fun/免费节点) 82
-      - 美国(https://www.fuye.fun/免费节点) 83
-      - 香港(https://www.fuye.fun/免费节点)
-      - 美国(https://www.fuye.fun/免费节点) 84
-      - 美国(https://www.fuye.fun/免费节点) 85
-      - 美国(https://www.fuye.fun/免费节点) 86
-      - 美国(https://www.fuye.fun/免费节点) 87
-      - 美国(https://www.fuye.fun/免费节点) 88
-      - 加拿大(https://www.fuye.fun/免费节点) 4
-      - 美国(https://www.fuye.fun/免费节点) 89
-      - 美国(https://www.fuye.fun/免费节点) 90
+      - 德国 IEPL专线NO1-1B
+      - -0152-CN【nodeshare.xyz〗 永久免费节点机场
+      - 香港01-1B
+      - 德国-法兰克福-001-1A
+      - -0130-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-2P
+      - 巴西NEW03-1G
+      - 中转•香港301•高速 - 飞翔吧
+      - 巴西NEW03-1B
+      - 广港•香港269•高速 - 飞翔吧
+      - -0375-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0396-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-1M
+      - -0408-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0134-CN【nodeshare.xyz〗 永久免费节点机场
+      - 俄罗斯-喀山-001-1D
+      - 香港01-1D
+      - -0372-CN【nodeshare.xyz〗 永久免费节点机场
+      - 日本•高速139•铂金 - 飞翔吧
+      - -0379-CN【nodeshare.xyz〗 永久免费节点机场
+      - 新加坡•高速129•高速 - 飞翔吧
+      - -0131-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0401-CN【nodeshare.xyz〗 永久免费节点机场
+      - 俄罗斯-喀山-001-2D
+      - 德国-法兰克福-001-1E
+      - 荷兰 CM 隧道NO1-1B
+      - 俄罗斯-喀山-001-2M
+      - -0156-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0153-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0144-CN【nodeshare.xyz〗 永久免费节点机场
+      - 新加坡•高速130•铂金 - 飞翔吧
+      - 俄罗斯-喀山-001-2B
+      - 香港01-1C
+      - -0377-CN【nodeshare.xyz〗 永久免费节点机场
+      - 广港•香港278•高速 - 飞翔吧
+      - -0392-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0135-CN【nodeshare.xyz〗 永久免费节点机场
+      - 中转•香港307•高速 - 飞翔吧
+      - -0402-CN【nodeshare.xyz〗 永久免费节点机场
+      - 中转•美国41•原生 - 飞翔吧
+      - -0387-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-2G
+      - 德国-法兰克福-001-1H
+      - 德国-法兰克福-001-2L
+      - -0407-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-2F
+      - 中转•英国268•高速 - 飞翔吧
+      - 中转•香港102•高速 - 飞翔吧
+      - 俄罗斯-喀山-001-1G
+      - 德国-法兰克福-001-1W
+      - 德国-法兰克福-001-2R
+      - -0394-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0137-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0149-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-2M
+      - 美国 CloudFlare节点（nodeshare.xyz）免费机场节点
+      - 中转•美国295•高速 - 飞翔吧
+      - 美国 CloudFlare节点 112（nodeshare.xyz）免费机场节点
+      - 德国-法兰克福-001-1Y
+      - -0411-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-2N
+      - 美国 - 沃尔纳特 - Psychz Networks - 10
+      - 德国-法兰克福-001-2J
+      - -0236-US【nodeshare.xyz〗 永久免费节点机场
+      - -0412-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0132-CN【nodeshare.xyz〗 永久免费节点机场
+      - 日本•高速142•原生 - 飞翔吧
+      - 俄罗斯-喀山-001-2F
+      - -0235-JP【nodeshare.xyz〗 永久免费节点机场
+      - -0146-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0148-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0389-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-1J
+      - 德国-法兰克福-001-1B
+      - 广港•香港143•高速 - 飞翔吧
+      - 中转•英国267•高速 - 飞翔吧
+      - -0371-CN【nodeshare.xyz〗 永久免费节点机场
+      - 广港•香港309•专线 - 飞翔吧
+      - 美国 CloudFlare节点 49（nodeshare.xyz）免费机场节点
+      - 俄罗斯-喀山-001-1E
+      - 新加坡NEW01-1D
+      - -0133-CN【nodeshare.xyz〗 永久免费节点机场
+      - 美国 CloudFlare节点 27（nodeshare.xyz）免费机场节点
+      - 新加坡NEW01优选-1D
+      - "|US|美国|@wxgqlfx|101"
+      - 俄罗斯-喀山-001-2C
+      - guobaotegong.me
+      - 香港〖电报：@ccbaohe】免费节点定时更新
+      - 德国-法兰克福-001-1x
+      - 德国-法兰克福-001-2D
+      - -0378-CN【nodeshare.xyz〗 永久免费节点机场
+      - 美国 CloudFlare节点 95（nodeshare.xyz）免费机场节点
+      - 德国-法兰克福-001-1G
+      - -0471-JP【nodeshare.xyz〗 永久免费节点机场
+      - 俄罗斯-喀山-001-2E
+      - 德国-法兰克福-001-1C
+      - "|US|美国|@wxgqlfx|184"
+      - -0406-CN【nodeshare.xyz〗 永久免费节点机场
+      - 俄罗斯-喀山-001-1O
+      - 德国-法兰克福-001-2O
+      - 英国 IEPL专线NO1-1B
+      - -0383-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0374-CN【nodeshare.xyz〗 永久免费节点机场
+      - 香港01-1A
+      - -0470-JP【nodeshare.xyz〗 永久免费节点机场
+      - 中转•新加坡299•高速 - 飞翔吧
+      - 日本〖电报：@ccbaohe】免费节点定时更新
+      - -0395-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0399-CN【nodeshare.xyz〗 永久免费节点机场
+      - 香港01-1A 2
+      - 广港•香港279•高速 - 飞翔吧
+      - 法国 CM 隧道NO1-1B
+      - -0376-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0400-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0140-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0410-CN【nodeshare.xyz〗 永久免费节点机场
+      - 巴西NEW03-1E
+      - "|US|美国|@wxgqlfx|272"
+      - -0234-JP【nodeshare.xyz〗 永久免费节点机场
+      - 美国 CloudFlare节点 116（nodeshare.xyz）免费机场节点
+      - 俄罗斯-喀山-001-1L
+      - -0151-CN【nodeshare.xyz〗 永久免费节点机场
+      - 俄罗斯-圣彼得堡-002-1Q
+      - 俄罗斯-喀山-001-1F
+      - -0147-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-2Q
+      - 美国 - 洛杉矶 - Psychz Networks - 94
+      - 美国 CloudFlare节点 11（nodeshare.xyz）免费机场节点
+      - 美国 - 洛杉矶 - Psychz Networks - 11
+      - -0816-CN【nodeshare.xyz〗 永久免费节点机场
+      - 美国 CloudFlare节点 169（nodeshare.xyz）免费机场节点
+      - 美国 CloudFlare节点 3（nodeshare.xyz）免费机场节点
+      - 俄罗斯-喀山-001-2S
+      - 美国 CloudFlare节点 10（nodeshare.xyz）免费机场节点
+      - 中转•美国308•高速 - 飞翔吧
+      - -0150-CN【nodeshare.xyz〗 永久免费节点机场
+      - 俄罗斯-喀山-001-2A
+      - 美国 CloudFlare节点 126（nodeshare.xyz）免费机场节点
+      - "|US|美国|@wxgqlfx|705"
+      - 中转•新加坡65•青铜 - 飞翔吧
+      - -0393-CN【nodeshare.xyz〗 永久免费节点机场
+      - 俄罗斯-圣彼得堡-003-2H
+      - _US_美国
+      - 美国 CloudFlare节点 136（nodeshare.xyz）免费机场节点
+      - 美国 CloudFlare节点 18（nodeshare.xyz）免费机场节点
+      - 俄罗斯-喀山-001-2O
+      - 俄罗斯-喀山-001-1J
+      - -0815-CN【nodeshare.xyz〗 永久免费节点机场
+      - 美国 CloudFlare节点 62（nodeshare.xyz）免费机场节点
+      - 俄罗斯-圣彼得堡-002-1I
+      - 美国 CloudFlare节点 212（nodeshare.xyz）免费机场节点
+      - 中转•美国40•高速 - 飞翔吧
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 美国(https://www.fuye.fun/免费节点)
-      - 美国(https://www.fuye.fun/免费节点) 2
-      - 美国(https://www.fuye.fun/免费节点) 3
-      - 美国(https://www.fuye.fun/免费节点) 4
-      - 美国(https://www.fuye.fun/免费节点) 5
-      - 美国(https://www.fuye.fun/免费节点) 6
-      - 美国(https://www.fuye.fun/免费节点) 7
-      - 美国(https://www.fuye.fun/免费节点) 8
-      - 美国(https://www.fuye.fun/免费节点) 9
-      - 美国(https://www.fuye.fun/免费节点) 10
-      - 美国(https://www.fuye.fun/免费节点) 11
-      - 美国(https://www.fuye.fun/免费节点) 12
-      - 美国(https://www.fuye.fun/免费节点) 13
-      - 美国(https://www.fuye.fun/免费节点) 14
-      - 美国(https://www.fuye.fun/免费节点) 15
-      - 美国(https://www.fuye.fun/免费节点) 16
-      - 美国(https://www.fuye.fun/免费节点) 17
-      - 美国(https://www.fuye.fun/免费节点) 18
-      - 俄罗斯(https://www.fuye.fun/免费节点)
-      - 美国(https://www.fuye.fun/免费节点) 19
-      - 美国(https://www.fuye.fun/免费节点) 20
-      - 美国(https://www.fuye.fun/免费节点) 21
-      - 美国(https://www.fuye.fun/免费节点) 22
-      - 美国(https://www.fuye.fun/免费节点) 23
-      - 美国(https://www.fuye.fun/免费节点) 24
-      - 美国(https://www.fuye.fun/免费节点) 25
-      - 德国(https://www.fuye.fun/免费节点)
-      - 美国(https://www.fuye.fun/免费节点) 26
-      - 俄罗斯(https://www.fuye.fun/免费节点) 2
-      - 美国(https://www.fuye.fun/免费节点) 27
-      - 俄罗斯(https://www.fuye.fun/免费节点) 3
-      - 美国(https://www.fuye.fun/免费节点) 28
-      - 美国(https://www.fuye.fun/免费节点) 29
-      - 美国(https://www.fuye.fun/免费节点) 30
-      - 德国(https://www.fuye.fun/免费节点) 2
-      - 美国(https://www.fuye.fun/免费节点) 31
-      - 德国(https://www.fuye.fun/免费节点) 3
-      - 美国(https://www.fuye.fun/免费节点) 32
-      - 美国(https://www.fuye.fun/免费节点) 33
-      - 英国(https://www.fuye.fun/免费节点)
-      - 美国(https://www.fuye.fun/免费节点) 34
-      - 英国(https://www.fuye.fun/免费节点) 2
-      - 俄罗斯(https://www.fuye.fun/免费节点) 4
-      - 俄罗斯(https://www.fuye.fun/免费节点) 5
-      - 美国(https://www.fuye.fun/免费节点) 35
-      - 俄罗斯(https://www.fuye.fun/免费节点) 6
-      - 美国(https://www.fuye.fun/免费节点) 36
-      - 美国(https://www.fuye.fun/免费节点) 37
-      - 德国(https://www.fuye.fun/免费节点) 4
-      - 美国(https://www.fuye.fun/免费节点) 38
-      - 美国(https://www.fuye.fun/免费节点) 39
-      - 美国(https://www.fuye.fun/免费节点) 40
-      - 德国(https://www.fuye.fun/免费节点) 5
-      - 加拿大(https://www.fuye.fun/免费节点)
-      - 美国(https://www.fuye.fun/免费节点) 41
-      - 美国(https://www.fuye.fun/免费节点) 42
-      - 美国(https://www.fuye.fun/免费节点) 43
-      - 美国(https://www.fuye.fun/免费节点) 44
-      - 德国(https://www.fuye.fun/免费节点) 6
-      - 美国(https://www.fuye.fun/免费节点) 45
-      - 美国(https://www.fuye.fun/免费节点) 46
-      - 美国(https://www.fuye.fun/免费节点) 47
-      - 德国(https://www.fuye.fun/免费节点) 7
-      - 美国(https://www.fuye.fun/免费节点) 48
-      - 美国(https://www.fuye.fun/免费节点) 49
-      - 美国(https://www.fuye.fun/免费节点) 50
-      - 德国(https://www.fuye.fun/免费节点) 8
-      - 美国(https://www.fuye.fun/免费节点) 51
-      - 美国(https://www.fuye.fun/免费节点) 52
-      - 美国(https://www.fuye.fun/免费节点) 53
-      - 美国(https://www.fuye.fun/免费节点) 54
-      - 美国(https://www.fuye.fun/免费节点) 55
-      - 德国(https://www.fuye.fun/免费节点) 9
-      - 美国(https://www.fuye.fun/免费节点) 56
-      - 美国(https://www.fuye.fun/免费节点) 57
-      - 美国(https://www.fuye.fun/免费节点) 58
-      - 美国(https://www.fuye.fun/免费节点) 59
-      - 美国(https://www.fuye.fun/免费节点) 60
-      - 美国(https://www.fuye.fun/免费节点) 61
-      - 美国(https://www.fuye.fun/免费节点) 62
-      - 美国(https://www.fuye.fun/免费节点) 63
-      - 美国(https://www.fuye.fun/免费节点) 64
-      - 美国(https://www.fuye.fun/免费节点) 65
-      - 美国(https://www.fuye.fun/免费节点) 66
-      - 加拿大(https://www.fuye.fun/免费节点) 2
-      - 美国(https://www.fuye.fun/免费节点) 67
-      - 美国(https://www.fuye.fun/免费节点) 68
-      - 美国(https://www.fuye.fun/免费节点) 69
-      - 美国(https://www.fuye.fun/免费节点) 70
-      - 美国(https://www.fuye.fun/免费节点) 71
-      - 德国(https://www.fuye.fun/免费节点) 10
-      - 美国(https://www.fuye.fun/免费节点) 72
-      - 美国(https://www.fuye.fun/免费节点) 73
-      - 美国(https://www.fuye.fun/免费节点) 74
-      - 美国(https://www.fuye.fun/免费节点) 75
-      - 美国(https://www.fuye.fun/免费节点) 76
-      - 美国(https://www.fuye.fun/免费节点) 77
-      - 美国(https://www.fuye.fun/免费节点) 78
-      - 加拿大(https://www.fuye.fun/免费节点) 3
-      - 美国(https://www.fuye.fun/免费节点) 79
-      - 美国(https://www.fuye.fun/免费节点) 80
-      - 美国(https://www.fuye.fun/免费节点) 81
-      - 美国(https://www.fuye.fun/免费节点) 82
-      - 美国(https://www.fuye.fun/免费节点) 83
-      - 香港(https://www.fuye.fun/免费节点)
-      - 美国(https://www.fuye.fun/免费节点) 84
-      - 美国(https://www.fuye.fun/免费节点) 85
-      - 美国(https://www.fuye.fun/免费节点) 86
-      - 美国(https://www.fuye.fun/免费节点) 87
-      - 美国(https://www.fuye.fun/免费节点) 88
-      - 加拿大(https://www.fuye.fun/免费节点) 4
-      - 美国(https://www.fuye.fun/免费节点) 89
-      - 美国(https://www.fuye.fun/免费节点) 90
+      - 德国 IEPL专线NO1-1B
+      - -0152-CN【nodeshare.xyz〗 永久免费节点机场
+      - 香港01-1B
+      - 德国-法兰克福-001-1A
+      - -0130-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-2P
+      - 巴西NEW03-1G
+      - 中转•香港301•高速 - 飞翔吧
+      - 巴西NEW03-1B
+      - 广港•香港269•高速 - 飞翔吧
+      - -0375-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0396-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-1M
+      - -0408-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0134-CN【nodeshare.xyz〗 永久免费节点机场
+      - 俄罗斯-喀山-001-1D
+      - 香港01-1D
+      - -0372-CN【nodeshare.xyz〗 永久免费节点机场
+      - 日本•高速139•铂金 - 飞翔吧
+      - -0379-CN【nodeshare.xyz〗 永久免费节点机场
+      - 新加坡•高速129•高速 - 飞翔吧
+      - -0131-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0401-CN【nodeshare.xyz〗 永久免费节点机场
+      - 俄罗斯-喀山-001-2D
+      - 德国-法兰克福-001-1E
+      - 荷兰 CM 隧道NO1-1B
+      - 俄罗斯-喀山-001-2M
+      - -0156-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0153-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0144-CN【nodeshare.xyz〗 永久免费节点机场
+      - 新加坡•高速130•铂金 - 飞翔吧
+      - 俄罗斯-喀山-001-2B
+      - 香港01-1C
+      - -0377-CN【nodeshare.xyz〗 永久免费节点机场
+      - 广港•香港278•高速 - 飞翔吧
+      - -0392-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0135-CN【nodeshare.xyz〗 永久免费节点机场
+      - 中转•香港307•高速 - 飞翔吧
+      - -0402-CN【nodeshare.xyz〗 永久免费节点机场
+      - 中转•美国41•原生 - 飞翔吧
+      - -0387-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-2G
+      - 德国-法兰克福-001-1H
+      - 德国-法兰克福-001-2L
+      - -0407-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-2F
+      - 中转•英国268•高速 - 飞翔吧
+      - 中转•香港102•高速 - 飞翔吧
+      - 俄罗斯-喀山-001-1G
+      - 德国-法兰克福-001-1W
+      - 德国-法兰克福-001-2R
+      - -0394-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0137-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0149-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-2M
+      - 美国 CloudFlare节点（nodeshare.xyz）免费机场节点
+      - 中转•美国295•高速 - 飞翔吧
+      - 美国 CloudFlare节点 112（nodeshare.xyz）免费机场节点
+      - 德国-法兰克福-001-1Y
+      - -0411-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-2N
+      - 美国 - 沃尔纳特 - Psychz Networks - 10
+      - 德国-法兰克福-001-2J
+      - -0236-US【nodeshare.xyz〗 永久免费节点机场
+      - -0412-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0132-CN【nodeshare.xyz〗 永久免费节点机场
+      - 日本•高速142•原生 - 飞翔吧
+      - 俄罗斯-喀山-001-2F
+      - -0235-JP【nodeshare.xyz〗 永久免费节点机场
+      - -0146-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0148-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0389-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-1J
+      - 德国-法兰克福-001-1B
+      - 广港•香港143•高速 - 飞翔吧
+      - 中转•英国267•高速 - 飞翔吧
+      - -0371-CN【nodeshare.xyz〗 永久免费节点机场
+      - 广港•香港309•专线 - 飞翔吧
+      - 美国 CloudFlare节点 49（nodeshare.xyz）免费机场节点
+      - 俄罗斯-喀山-001-1E
+      - 新加坡NEW01-1D
+      - -0133-CN【nodeshare.xyz〗 永久免费节点机场
+      - 美国 CloudFlare节点 27（nodeshare.xyz）免费机场节点
+      - 新加坡NEW01优选-1D
+      - "|US|美国|@wxgqlfx|101"
+      - 俄罗斯-喀山-001-2C
+      - guobaotegong.me
+      - 香港〖电报：@ccbaohe】免费节点定时更新
+      - 德国-法兰克福-001-1x
+      - 德国-法兰克福-001-2D
+      - -0378-CN【nodeshare.xyz〗 永久免费节点机场
+      - 美国 CloudFlare节点 95（nodeshare.xyz）免费机场节点
+      - 德国-法兰克福-001-1G
+      - -0471-JP【nodeshare.xyz〗 永久免费节点机场
+      - 俄罗斯-喀山-001-2E
+      - 德国-法兰克福-001-1C
+      - "|US|美国|@wxgqlfx|184"
+      - -0406-CN【nodeshare.xyz〗 永久免费节点机场
+      - 俄罗斯-喀山-001-1O
+      - 德国-法兰克福-001-2O
+      - 英国 IEPL专线NO1-1B
+      - -0383-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0374-CN【nodeshare.xyz〗 永久免费节点机场
+      - 香港01-1A
+      - -0470-JP【nodeshare.xyz〗 永久免费节点机场
+      - 中转•新加坡299•高速 - 飞翔吧
+      - 日本〖电报：@ccbaohe】免费节点定时更新
+      - -0395-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0399-CN【nodeshare.xyz〗 永久免费节点机场
+      - 香港01-1A 2
+      - 广港•香港279•高速 - 飞翔吧
+      - 法国 CM 隧道NO1-1B
+      - -0376-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0400-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0140-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0410-CN【nodeshare.xyz〗 永久免费节点机场
+      - 巴西NEW03-1E
+      - "|US|美国|@wxgqlfx|272"
+      - -0234-JP【nodeshare.xyz〗 永久免费节点机场
+      - 美国 CloudFlare节点 116（nodeshare.xyz）免费机场节点
+      - 俄罗斯-喀山-001-1L
+      - -0151-CN【nodeshare.xyz〗 永久免费节点机场
+      - 俄罗斯-圣彼得堡-002-1Q
+      - 俄罗斯-喀山-001-1F
+      - -0147-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-2Q
+      - 美国 - 洛杉矶 - Psychz Networks - 94
+      - 美国 CloudFlare节点 11（nodeshare.xyz）免费机场节点
+      - 美国 - 洛杉矶 - Psychz Networks - 11
+      - -0816-CN【nodeshare.xyz〗 永久免费节点机场
+      - 美国 CloudFlare节点 169（nodeshare.xyz）免费机场节点
+      - 美国 CloudFlare节点 3（nodeshare.xyz）免费机场节点
+      - 俄罗斯-喀山-001-2S
+      - 美国 CloudFlare节点 10（nodeshare.xyz）免费机场节点
+      - 中转•美国308•高速 - 飞翔吧
+      - -0150-CN【nodeshare.xyz〗 永久免费节点机场
+      - 俄罗斯-喀山-001-2A
+      - 美国 CloudFlare节点 126（nodeshare.xyz）免费机场节点
+      - "|US|美国|@wxgqlfx|705"
+      - 中转•新加坡65•青铜 - 飞翔吧
+      - -0393-CN【nodeshare.xyz〗 永久免费节点机场
+      - 俄罗斯-圣彼得堡-003-2H
+      - _US_美国
+      - 美国 CloudFlare节点 136（nodeshare.xyz）免费机场节点
+      - 美国 CloudFlare节点 18（nodeshare.xyz）免费机场节点
+      - 俄罗斯-喀山-001-2O
+      - 俄罗斯-喀山-001-1J
+      - -0815-CN【nodeshare.xyz〗 永久免费节点机场
+      - 美国 CloudFlare节点 62（nodeshare.xyz）免费机场节点
+      - 俄罗斯-圣彼得堡-002-1I
+      - 美国 CloudFlare节点 212（nodeshare.xyz）免费机场节点
+      - 中转•美国40•高速 - 飞翔吧
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国(https://www.fuye.fun/免费节点)
-      - 美国(https://www.fuye.fun/免费节点) 2
-      - 美国(https://www.fuye.fun/免费节点) 3
-      - 美国(https://www.fuye.fun/免费节点) 4
-      - 美国(https://www.fuye.fun/免费节点) 5
-      - 美国(https://www.fuye.fun/免费节点) 6
-      - 美国(https://www.fuye.fun/免费节点) 7
-      - 美国(https://www.fuye.fun/免费节点) 8
-      - 美国(https://www.fuye.fun/免费节点) 9
-      - 美国(https://www.fuye.fun/免费节点) 10
-      - 美国(https://www.fuye.fun/免费节点) 11
-      - 美国(https://www.fuye.fun/免费节点) 12
-      - 美国(https://www.fuye.fun/免费节点) 13
-      - 美国(https://www.fuye.fun/免费节点) 14
-      - 美国(https://www.fuye.fun/免费节点) 15
-      - 美国(https://www.fuye.fun/免费节点) 16
-      - 美国(https://www.fuye.fun/免费节点) 17
-      - 美国(https://www.fuye.fun/免费节点) 18
-      - 俄罗斯(https://www.fuye.fun/免费节点)
-      - 美国(https://www.fuye.fun/免费节点) 19
-      - 美国(https://www.fuye.fun/免费节点) 20
-      - 美国(https://www.fuye.fun/免费节点) 21
-      - 美国(https://www.fuye.fun/免费节点) 22
-      - 美国(https://www.fuye.fun/免费节点) 23
-      - 美国(https://www.fuye.fun/免费节点) 24
-      - 美国(https://www.fuye.fun/免费节点) 25
-      - 德国(https://www.fuye.fun/免费节点)
-      - 美国(https://www.fuye.fun/免费节点) 26
-      - 俄罗斯(https://www.fuye.fun/免费节点) 2
-      - 美国(https://www.fuye.fun/免费节点) 27
-      - 俄罗斯(https://www.fuye.fun/免费节点) 3
-      - 美国(https://www.fuye.fun/免费节点) 28
-      - 美国(https://www.fuye.fun/免费节点) 29
-      - 美国(https://www.fuye.fun/免费节点) 30
-      - 德国(https://www.fuye.fun/免费节点) 2
-      - 美国(https://www.fuye.fun/免费节点) 31
-      - 德国(https://www.fuye.fun/免费节点) 3
-      - 美国(https://www.fuye.fun/免费节点) 32
-      - 美国(https://www.fuye.fun/免费节点) 33
-      - 英国(https://www.fuye.fun/免费节点)
-      - 美国(https://www.fuye.fun/免费节点) 34
-      - 英国(https://www.fuye.fun/免费节点) 2
-      - 俄罗斯(https://www.fuye.fun/免费节点) 4
-      - 俄罗斯(https://www.fuye.fun/免费节点) 5
-      - 美国(https://www.fuye.fun/免费节点) 35
-      - 俄罗斯(https://www.fuye.fun/免费节点) 6
-      - 美国(https://www.fuye.fun/免费节点) 36
-      - 美国(https://www.fuye.fun/免费节点) 37
-      - 德国(https://www.fuye.fun/免费节点) 4
-      - 美国(https://www.fuye.fun/免费节点) 38
-      - 美国(https://www.fuye.fun/免费节点) 39
-      - 美国(https://www.fuye.fun/免费节点) 40
-      - 德国(https://www.fuye.fun/免费节点) 5
-      - 加拿大(https://www.fuye.fun/免费节点)
-      - 美国(https://www.fuye.fun/免费节点) 41
-      - 美国(https://www.fuye.fun/免费节点) 42
-      - 美国(https://www.fuye.fun/免费节点) 43
-      - 美国(https://www.fuye.fun/免费节点) 44
-      - 德国(https://www.fuye.fun/免费节点) 6
-      - 美国(https://www.fuye.fun/免费节点) 45
-      - 美国(https://www.fuye.fun/免费节点) 46
-      - 美国(https://www.fuye.fun/免费节点) 47
-      - 德国(https://www.fuye.fun/免费节点) 7
-      - 美国(https://www.fuye.fun/免费节点) 48
-      - 美国(https://www.fuye.fun/免费节点) 49
-      - 美国(https://www.fuye.fun/免费节点) 50
-      - 德国(https://www.fuye.fun/免费节点) 8
-      - 美国(https://www.fuye.fun/免费节点) 51
-      - 美国(https://www.fuye.fun/免费节点) 52
-      - 美国(https://www.fuye.fun/免费节点) 53
-      - 美国(https://www.fuye.fun/免费节点) 54
-      - 美国(https://www.fuye.fun/免费节点) 55
-      - 德国(https://www.fuye.fun/免费节点) 9
-      - 美国(https://www.fuye.fun/免费节点) 56
-      - 美国(https://www.fuye.fun/免费节点) 57
-      - 美国(https://www.fuye.fun/免费节点) 58
-      - 美国(https://www.fuye.fun/免费节点) 59
-      - 美国(https://www.fuye.fun/免费节点) 60
-      - 美国(https://www.fuye.fun/免费节点) 61
-      - 美国(https://www.fuye.fun/免费节点) 62
-      - 美国(https://www.fuye.fun/免费节点) 63
-      - 美国(https://www.fuye.fun/免费节点) 64
-      - 美国(https://www.fuye.fun/免费节点) 65
-      - 美国(https://www.fuye.fun/免费节点) 66
-      - 加拿大(https://www.fuye.fun/免费节点) 2
-      - 美国(https://www.fuye.fun/免费节点) 67
-      - 美国(https://www.fuye.fun/免费节点) 68
-      - 美国(https://www.fuye.fun/免费节点) 69
-      - 美国(https://www.fuye.fun/免费节点) 70
-      - 美国(https://www.fuye.fun/免费节点) 71
-      - 德国(https://www.fuye.fun/免费节点) 10
-      - 美国(https://www.fuye.fun/免费节点) 72
-      - 美国(https://www.fuye.fun/免费节点) 73
-      - 美国(https://www.fuye.fun/免费节点) 74
-      - 美国(https://www.fuye.fun/免费节点) 75
-      - 美国(https://www.fuye.fun/免费节点) 76
-      - 美国(https://www.fuye.fun/免费节点) 77
-      - 美国(https://www.fuye.fun/免费节点) 78
-      - 加拿大(https://www.fuye.fun/免费节点) 3
-      - 美国(https://www.fuye.fun/免费节点) 79
-      - 美国(https://www.fuye.fun/免费节点) 80
-      - 美国(https://www.fuye.fun/免费节点) 81
-      - 美国(https://www.fuye.fun/免费节点) 82
-      - 美国(https://www.fuye.fun/免费节点) 83
-      - 香港(https://www.fuye.fun/免费节点)
-      - 美国(https://www.fuye.fun/免费节点) 84
-      - 美国(https://www.fuye.fun/免费节点) 85
-      - 美国(https://www.fuye.fun/免费节点) 86
-      - 美国(https://www.fuye.fun/免费节点) 87
-      - 美国(https://www.fuye.fun/免费节点) 88
-      - 加拿大(https://www.fuye.fun/免费节点) 4
-      - 美国(https://www.fuye.fun/免费节点) 89
-      - 美国(https://www.fuye.fun/免费节点) 90
+      - 德国 IEPL专线NO1-1B
+      - -0152-CN【nodeshare.xyz〗 永久免费节点机场
+      - 香港01-1B
+      - 德国-法兰克福-001-1A
+      - -0130-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-2P
+      - 巴西NEW03-1G
+      - 中转•香港301•高速 - 飞翔吧
+      - 巴西NEW03-1B
+      - 广港•香港269•高速 - 飞翔吧
+      - -0375-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0396-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-1M
+      - -0408-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0134-CN【nodeshare.xyz〗 永久免费节点机场
+      - 俄罗斯-喀山-001-1D
+      - 香港01-1D
+      - -0372-CN【nodeshare.xyz〗 永久免费节点机场
+      - 日本•高速139•铂金 - 飞翔吧
+      - -0379-CN【nodeshare.xyz〗 永久免费节点机场
+      - 新加坡•高速129•高速 - 飞翔吧
+      - -0131-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0401-CN【nodeshare.xyz〗 永久免费节点机场
+      - 俄罗斯-喀山-001-2D
+      - 德国-法兰克福-001-1E
+      - 荷兰 CM 隧道NO1-1B
+      - 俄罗斯-喀山-001-2M
+      - -0156-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0153-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0144-CN【nodeshare.xyz〗 永久免费节点机场
+      - 新加坡•高速130•铂金 - 飞翔吧
+      - 俄罗斯-喀山-001-2B
+      - 香港01-1C
+      - -0377-CN【nodeshare.xyz〗 永久免费节点机场
+      - 广港•香港278•高速 - 飞翔吧
+      - -0392-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0135-CN【nodeshare.xyz〗 永久免费节点机场
+      - 中转•香港307•高速 - 飞翔吧
+      - -0402-CN【nodeshare.xyz〗 永久免费节点机场
+      - 中转•美国41•原生 - 飞翔吧
+      - -0387-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-2G
+      - 德国-法兰克福-001-1H
+      - 德国-法兰克福-001-2L
+      - -0407-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-2F
+      - 中转•英国268•高速 - 飞翔吧
+      - 中转•香港102•高速 - 飞翔吧
+      - 俄罗斯-喀山-001-1G
+      - 德国-法兰克福-001-1W
+      - 德国-法兰克福-001-2R
+      - -0394-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0137-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0149-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-2M
+      - 美国 CloudFlare节点（nodeshare.xyz）免费机场节点
+      - 中转•美国295•高速 - 飞翔吧
+      - 美国 CloudFlare节点 112（nodeshare.xyz）免费机场节点
+      - 德国-法兰克福-001-1Y
+      - -0411-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-2N
+      - 美国 - 沃尔纳特 - Psychz Networks - 10
+      - 德国-法兰克福-001-2J
+      - -0236-US【nodeshare.xyz〗 永久免费节点机场
+      - -0412-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0132-CN【nodeshare.xyz〗 永久免费节点机场
+      - 日本•高速142•原生 - 飞翔吧
+      - 俄罗斯-喀山-001-2F
+      - -0235-JP【nodeshare.xyz〗 永久免费节点机场
+      - -0146-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0148-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0389-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-1J
+      - 德国-法兰克福-001-1B
+      - 广港•香港143•高速 - 飞翔吧
+      - 中转•英国267•高速 - 飞翔吧
+      - -0371-CN【nodeshare.xyz〗 永久免费节点机场
+      - 广港•香港309•专线 - 飞翔吧
+      - 美国 CloudFlare节点 49（nodeshare.xyz）免费机场节点
+      - 俄罗斯-喀山-001-1E
+      - 新加坡NEW01-1D
+      - -0133-CN【nodeshare.xyz〗 永久免费节点机场
+      - 美国 CloudFlare节点 27（nodeshare.xyz）免费机场节点
+      - 新加坡NEW01优选-1D
+      - "|US|美国|@wxgqlfx|101"
+      - 俄罗斯-喀山-001-2C
+      - guobaotegong.me
+      - 香港〖电报：@ccbaohe】免费节点定时更新
+      - 德国-法兰克福-001-1x
+      - 德国-法兰克福-001-2D
+      - -0378-CN【nodeshare.xyz〗 永久免费节点机场
+      - 美国 CloudFlare节点 95（nodeshare.xyz）免费机场节点
+      - 德国-法兰克福-001-1G
+      - -0471-JP【nodeshare.xyz〗 永久免费节点机场
+      - 俄罗斯-喀山-001-2E
+      - 德国-法兰克福-001-1C
+      - "|US|美国|@wxgqlfx|184"
+      - -0406-CN【nodeshare.xyz〗 永久免费节点机场
+      - 俄罗斯-喀山-001-1O
+      - 德国-法兰克福-001-2O
+      - 英国 IEPL专线NO1-1B
+      - -0383-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0374-CN【nodeshare.xyz〗 永久免费节点机场
+      - 香港01-1A
+      - -0470-JP【nodeshare.xyz〗 永久免费节点机场
+      - 中转•新加坡299•高速 - 飞翔吧
+      - 日本〖电报：@ccbaohe】免费节点定时更新
+      - -0395-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0399-CN【nodeshare.xyz〗 永久免费节点机场
+      - 香港01-1A 2
+      - 广港•香港279•高速 - 飞翔吧
+      - 法国 CM 隧道NO1-1B
+      - -0376-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0400-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0140-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0410-CN【nodeshare.xyz〗 永久免费节点机场
+      - 巴西NEW03-1E
+      - "|US|美国|@wxgqlfx|272"
+      - -0234-JP【nodeshare.xyz〗 永久免费节点机场
+      - 美国 CloudFlare节点 116（nodeshare.xyz）免费机场节点
+      - 俄罗斯-喀山-001-1L
+      - -0151-CN【nodeshare.xyz〗 永久免费节点机场
+      - 俄罗斯-圣彼得堡-002-1Q
+      - 俄罗斯-喀山-001-1F
+      - -0147-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-2Q
+      - 美国 - 洛杉矶 - Psychz Networks - 94
+      - 美国 CloudFlare节点 11（nodeshare.xyz）免费机场节点
+      - 美国 - 洛杉矶 - Psychz Networks - 11
+      - -0816-CN【nodeshare.xyz〗 永久免费节点机场
+      - 美国 CloudFlare节点 169（nodeshare.xyz）免费机场节点
+      - 美国 CloudFlare节点 3（nodeshare.xyz）免费机场节点
+      - 俄罗斯-喀山-001-2S
+      - 美国 CloudFlare节点 10（nodeshare.xyz）免费机场节点
+      - 中转•美国308•高速 - 飞翔吧
+      - -0150-CN【nodeshare.xyz〗 永久免费节点机场
+      - 俄罗斯-喀山-001-2A
+      - 美国 CloudFlare节点 126（nodeshare.xyz）免费机场节点
+      - "|US|美国|@wxgqlfx|705"
+      - 中转•新加坡65•青铜 - 飞翔吧
+      - -0393-CN【nodeshare.xyz〗 永久免费节点机场
+      - 俄罗斯-圣彼得堡-003-2H
+      - _US_美国
+      - 美国 CloudFlare节点 136（nodeshare.xyz）免费机场节点
+      - 美国 CloudFlare节点 18（nodeshare.xyz）免费机场节点
+      - 俄罗斯-喀山-001-2O
+      - 俄罗斯-喀山-001-1J
+      - -0815-CN【nodeshare.xyz〗 永久免费节点机场
+      - 美国 CloudFlare节点 62（nodeshare.xyz）免费机场节点
+      - 俄罗斯-圣彼得堡-002-1I
+      - 美国 CloudFlare节点 212（nodeshare.xyz）免费机场节点
+      - 中转•美国40•高速 - 飞翔吧
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -981,119 +1309,158 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国(https://www.fuye.fun/免费节点)
-      - 美国(https://www.fuye.fun/免费节点) 2
-      - 美国(https://www.fuye.fun/免费节点) 3
-      - 美国(https://www.fuye.fun/免费节点) 4
-      - 美国(https://www.fuye.fun/免费节点) 5
-      - 美国(https://www.fuye.fun/免费节点) 6
-      - 美国(https://www.fuye.fun/免费节点) 7
-      - 美国(https://www.fuye.fun/免费节点) 8
-      - 美国(https://www.fuye.fun/免费节点) 9
-      - 美国(https://www.fuye.fun/免费节点) 10
-      - 美国(https://www.fuye.fun/免费节点) 11
-      - 美国(https://www.fuye.fun/免费节点) 12
-      - 美国(https://www.fuye.fun/免费节点) 13
-      - 美国(https://www.fuye.fun/免费节点) 14
-      - 美国(https://www.fuye.fun/免费节点) 15
-      - 美国(https://www.fuye.fun/免费节点) 16
-      - 美国(https://www.fuye.fun/免费节点) 17
-      - 美国(https://www.fuye.fun/免费节点) 18
-      - 俄罗斯(https://www.fuye.fun/免费节点)
-      - 美国(https://www.fuye.fun/免费节点) 19
-      - 美国(https://www.fuye.fun/免费节点) 20
-      - 美国(https://www.fuye.fun/免费节点) 21
-      - 美国(https://www.fuye.fun/免费节点) 22
-      - 美国(https://www.fuye.fun/免费节点) 23
-      - 美国(https://www.fuye.fun/免费节点) 24
-      - 美国(https://www.fuye.fun/免费节点) 25
-      - 德国(https://www.fuye.fun/免费节点)
-      - 美国(https://www.fuye.fun/免费节点) 26
-      - 俄罗斯(https://www.fuye.fun/免费节点) 2
-      - 美国(https://www.fuye.fun/免费节点) 27
-      - 俄罗斯(https://www.fuye.fun/免费节点) 3
-      - 美国(https://www.fuye.fun/免费节点) 28
-      - 美国(https://www.fuye.fun/免费节点) 29
-      - 美国(https://www.fuye.fun/免费节点) 30
-      - 德国(https://www.fuye.fun/免费节点) 2
-      - 美国(https://www.fuye.fun/免费节点) 31
-      - 德国(https://www.fuye.fun/免费节点) 3
-      - 美国(https://www.fuye.fun/免费节点) 32
-      - 美国(https://www.fuye.fun/免费节点) 33
-      - 英国(https://www.fuye.fun/免费节点)
-      - 美国(https://www.fuye.fun/免费节点) 34
-      - 英国(https://www.fuye.fun/免费节点) 2
-      - 俄罗斯(https://www.fuye.fun/免费节点) 4
-      - 俄罗斯(https://www.fuye.fun/免费节点) 5
-      - 美国(https://www.fuye.fun/免费节点) 35
-      - 俄罗斯(https://www.fuye.fun/免费节点) 6
-      - 美国(https://www.fuye.fun/免费节点) 36
-      - 美国(https://www.fuye.fun/免费节点) 37
-      - 德国(https://www.fuye.fun/免费节点) 4
-      - 美国(https://www.fuye.fun/免费节点) 38
-      - 美国(https://www.fuye.fun/免费节点) 39
-      - 美国(https://www.fuye.fun/免费节点) 40
-      - 德国(https://www.fuye.fun/免费节点) 5
-      - 加拿大(https://www.fuye.fun/免费节点)
-      - 美国(https://www.fuye.fun/免费节点) 41
-      - 美国(https://www.fuye.fun/免费节点) 42
-      - 美国(https://www.fuye.fun/免费节点) 43
-      - 美国(https://www.fuye.fun/免费节点) 44
-      - 德国(https://www.fuye.fun/免费节点) 6
-      - 美国(https://www.fuye.fun/免费节点) 45
-      - 美国(https://www.fuye.fun/免费节点) 46
-      - 美国(https://www.fuye.fun/免费节点) 47
-      - 德国(https://www.fuye.fun/免费节点) 7
-      - 美国(https://www.fuye.fun/免费节点) 48
-      - 美国(https://www.fuye.fun/免费节点) 49
-      - 美国(https://www.fuye.fun/免费节点) 50
-      - 德国(https://www.fuye.fun/免费节点) 8
-      - 美国(https://www.fuye.fun/免费节点) 51
-      - 美国(https://www.fuye.fun/免费节点) 52
-      - 美国(https://www.fuye.fun/免费节点) 53
-      - 美国(https://www.fuye.fun/免费节点) 54
-      - 美国(https://www.fuye.fun/免费节点) 55
-      - 德国(https://www.fuye.fun/免费节点) 9
-      - 美国(https://www.fuye.fun/免费节点) 56
-      - 美国(https://www.fuye.fun/免费节点) 57
-      - 美国(https://www.fuye.fun/免费节点) 58
-      - 美国(https://www.fuye.fun/免费节点) 59
-      - 美国(https://www.fuye.fun/免费节点) 60
-      - 美国(https://www.fuye.fun/免费节点) 61
-      - 美国(https://www.fuye.fun/免费节点) 62
-      - 美国(https://www.fuye.fun/免费节点) 63
-      - 美国(https://www.fuye.fun/免费节点) 64
-      - 美国(https://www.fuye.fun/免费节点) 65
-      - 美国(https://www.fuye.fun/免费节点) 66
-      - 加拿大(https://www.fuye.fun/免费节点) 2
-      - 美国(https://www.fuye.fun/免费节点) 67
-      - 美国(https://www.fuye.fun/免费节点) 68
-      - 美国(https://www.fuye.fun/免费节点) 69
-      - 美国(https://www.fuye.fun/免费节点) 70
-      - 美国(https://www.fuye.fun/免费节点) 71
-      - 德国(https://www.fuye.fun/免费节点) 10
-      - 美国(https://www.fuye.fun/免费节点) 72
-      - 美国(https://www.fuye.fun/免费节点) 73
-      - 美国(https://www.fuye.fun/免费节点) 74
-      - 美国(https://www.fuye.fun/免费节点) 75
-      - 美国(https://www.fuye.fun/免费节点) 76
-      - 美国(https://www.fuye.fun/免费节点) 77
-      - 美国(https://www.fuye.fun/免费节点) 78
-      - 加拿大(https://www.fuye.fun/免费节点) 3
-      - 美国(https://www.fuye.fun/免费节点) 79
-      - 美国(https://www.fuye.fun/免费节点) 80
-      - 美国(https://www.fuye.fun/免费节点) 81
-      - 美国(https://www.fuye.fun/免费节点) 82
-      - 美国(https://www.fuye.fun/免费节点) 83
-      - 香港(https://www.fuye.fun/免费节点)
-      - 美国(https://www.fuye.fun/免费节点) 84
-      - 美国(https://www.fuye.fun/免费节点) 85
-      - 美国(https://www.fuye.fun/免费节点) 86
-      - 美国(https://www.fuye.fun/免费节点) 87
-      - 美国(https://www.fuye.fun/免费节点) 88
-      - 加拿大(https://www.fuye.fun/免费节点) 4
-      - 美国(https://www.fuye.fun/免费节点) 89
-      - 美国(https://www.fuye.fun/免费节点) 90
+      - 德国 IEPL专线NO1-1B
+      - -0152-CN【nodeshare.xyz〗 永久免费节点机场
+      - 香港01-1B
+      - 德国-法兰克福-001-1A
+      - -0130-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-2P
+      - 巴西NEW03-1G
+      - 中转•香港301•高速 - 飞翔吧
+      - 巴西NEW03-1B
+      - 广港•香港269•高速 - 飞翔吧
+      - -0375-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0396-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-1M
+      - -0408-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0134-CN【nodeshare.xyz〗 永久免费节点机场
+      - 俄罗斯-喀山-001-1D
+      - 香港01-1D
+      - -0372-CN【nodeshare.xyz〗 永久免费节点机场
+      - 日本•高速139•铂金 - 飞翔吧
+      - -0379-CN【nodeshare.xyz〗 永久免费节点机场
+      - 新加坡•高速129•高速 - 飞翔吧
+      - -0131-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0401-CN【nodeshare.xyz〗 永久免费节点机场
+      - 俄罗斯-喀山-001-2D
+      - 德国-法兰克福-001-1E
+      - 荷兰 CM 隧道NO1-1B
+      - 俄罗斯-喀山-001-2M
+      - -0156-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0153-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0144-CN【nodeshare.xyz〗 永久免费节点机场
+      - 新加坡•高速130•铂金 - 飞翔吧
+      - 俄罗斯-喀山-001-2B
+      - 香港01-1C
+      - -0377-CN【nodeshare.xyz〗 永久免费节点机场
+      - 广港•香港278•高速 - 飞翔吧
+      - -0392-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0135-CN【nodeshare.xyz〗 永久免费节点机场
+      - 中转•香港307•高速 - 飞翔吧
+      - -0402-CN【nodeshare.xyz〗 永久免费节点机场
+      - 中转•美国41•原生 - 飞翔吧
+      - -0387-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-2G
+      - 德国-法兰克福-001-1H
+      - 德国-法兰克福-001-2L
+      - -0407-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-2F
+      - 中转•英国268•高速 - 飞翔吧
+      - 中转•香港102•高速 - 飞翔吧
+      - 俄罗斯-喀山-001-1G
+      - 德国-法兰克福-001-1W
+      - 德国-法兰克福-001-2R
+      - -0394-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0137-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0149-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-2M
+      - 美国 CloudFlare节点（nodeshare.xyz）免费机场节点
+      - 中转•美国295•高速 - 飞翔吧
+      - 美国 CloudFlare节点 112（nodeshare.xyz）免费机场节点
+      - 德国-法兰克福-001-1Y
+      - -0411-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-2N
+      - 美国 - 沃尔纳特 - Psychz Networks - 10
+      - 德国-法兰克福-001-2J
+      - -0236-US【nodeshare.xyz〗 永久免费节点机场
+      - -0412-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0132-CN【nodeshare.xyz〗 永久免费节点机场
+      - 日本•高速142•原生 - 飞翔吧
+      - 俄罗斯-喀山-001-2F
+      - -0235-JP【nodeshare.xyz〗 永久免费节点机场
+      - -0146-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0148-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0389-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-1J
+      - 德国-法兰克福-001-1B
+      - 广港•香港143•高速 - 飞翔吧
+      - 中转•英国267•高速 - 飞翔吧
+      - -0371-CN【nodeshare.xyz〗 永久免费节点机场
+      - 广港•香港309•专线 - 飞翔吧
+      - 美国 CloudFlare节点 49（nodeshare.xyz）免费机场节点
+      - 俄罗斯-喀山-001-1E
+      - 新加坡NEW01-1D
+      - -0133-CN【nodeshare.xyz〗 永久免费节点机场
+      - 美国 CloudFlare节点 27（nodeshare.xyz）免费机场节点
+      - 新加坡NEW01优选-1D
+      - "|US|美国|@wxgqlfx|101"
+      - 俄罗斯-喀山-001-2C
+      - guobaotegong.me
+      - 香港〖电报：@ccbaohe】免费节点定时更新
+      - 德国-法兰克福-001-1x
+      - 德国-法兰克福-001-2D
+      - -0378-CN【nodeshare.xyz〗 永久免费节点机场
+      - 美国 CloudFlare节点 95（nodeshare.xyz）免费机场节点
+      - 德国-法兰克福-001-1G
+      - -0471-JP【nodeshare.xyz〗 永久免费节点机场
+      - 俄罗斯-喀山-001-2E
+      - 德国-法兰克福-001-1C
+      - "|US|美国|@wxgqlfx|184"
+      - -0406-CN【nodeshare.xyz〗 永久免费节点机场
+      - 俄罗斯-喀山-001-1O
+      - 德国-法兰克福-001-2O
+      - 英国 IEPL专线NO1-1B
+      - -0383-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0374-CN【nodeshare.xyz〗 永久免费节点机场
+      - 香港01-1A
+      - -0470-JP【nodeshare.xyz〗 永久免费节点机场
+      - 中转•新加坡299•高速 - 飞翔吧
+      - 日本〖电报：@ccbaohe】免费节点定时更新
+      - -0395-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0399-CN【nodeshare.xyz〗 永久免费节点机场
+      - 香港01-1A 2
+      - 广港•香港279•高速 - 飞翔吧
+      - 法国 CM 隧道NO1-1B
+      - -0376-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0400-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0140-CN【nodeshare.xyz〗 永久免费节点机场
+      - -0410-CN【nodeshare.xyz〗 永久免费节点机场
+      - 巴西NEW03-1E
+      - "|US|美国|@wxgqlfx|272"
+      - -0234-JP【nodeshare.xyz〗 永久免费节点机场
+      - 美国 CloudFlare节点 116（nodeshare.xyz）免费机场节点
+      - 俄罗斯-喀山-001-1L
+      - -0151-CN【nodeshare.xyz〗 永久免费节点机场
+      - 俄罗斯-圣彼得堡-002-1Q
+      - 俄罗斯-喀山-001-1F
+      - -0147-CN【nodeshare.xyz〗 永久免费节点机场
+      - 德国-法兰克福-001-2Q
+      - 美国 - 洛杉矶 - Psychz Networks - 94
+      - 美国 CloudFlare节点 11（nodeshare.xyz）免费机场节点
+      - 美国 - 洛杉矶 - Psychz Networks - 11
+      - -0816-CN【nodeshare.xyz〗 永久免费节点机场
+      - 美国 CloudFlare节点 169（nodeshare.xyz）免费机场节点
+      - 美国 CloudFlare节点 3（nodeshare.xyz）免费机场节点
+      - 俄罗斯-喀山-001-2S
+      - 美国 CloudFlare节点 10（nodeshare.xyz）免费机场节点
+      - 中转•美国308•高速 - 飞翔吧
+      - -0150-CN【nodeshare.xyz〗 永久免费节点机场
+      - 俄罗斯-喀山-001-2A
+      - 美国 CloudFlare节点 126（nodeshare.xyz）免费机场节点
+      - "|US|美国|@wxgqlfx|705"
+      - 中转•新加坡65•青铜 - 飞翔吧
+      - -0393-CN【nodeshare.xyz〗 永久免费节点机场
+      - 俄罗斯-圣彼得堡-003-2H
+      - _US_美国
+      - 美国 CloudFlare节点 136（nodeshare.xyz）免费机场节点
+      - 美国 CloudFlare节点 18（nodeshare.xyz）免费机场节点
+      - 俄罗斯-喀山-001-2O
+      - 俄罗斯-喀山-001-1J
+      - -0815-CN【nodeshare.xyz〗 永久免费节点机场
+      - 美国 CloudFlare节点 62（nodeshare.xyz）免费机场节点
+      - 俄罗斯-圣彼得堡-002-1I
+      - 美国 CloudFlare节点 212（nodeshare.xyz）免费机场节点
+      - 中转•美国40•高速 - 飞翔吧
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
