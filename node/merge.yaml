@@ -24,128 +24,89 @@ proxies:
   - {name: _RU_俄罗斯_6, server: 217.30.10.18, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
   - {name: _RU_俄罗斯_7, server: 185.22.155.228, port: 23456, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, udp: true}
   - {name: _RU_俄罗斯_8, server: 217.30.10.18, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
-  - {name: _IE_爱尔兰, server: 13.79.98.64, port: 55939, type: ss, cipher: chacha20-ietf-poly1305, password: 49JPbl6SMH1hDoskOR6irG, udp: true}
-  - {name: _US_美国_1, server: 23.251.121.242, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-  - {name: _RU_俄罗斯_1 2, server: 217.30.10.18, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
-  - {name: _RU_俄罗斯_2 2, server: 217.30.10.18, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: _CN_中国, server: 107.155.57.11, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-  - {name: _CH_瑞士, server: 138.124.119.47, port: 31801, type: ss, cipher: chacha20-ietf-poly1305, password: VMlmCg+MECr9UYNx6KlrGUOwfX0Z/YhqOq0DSumajLM=, udp: true}
-  - {name: _RU_俄罗斯_3 2, server: 217.30.10.18, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
-  - {name: _RU_俄罗斯_4 2, server: 217.30.10.18, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
-  - {name: _RU_俄罗斯_5 2, server: 217.30.10.18, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
-  - {name: _RU_俄罗斯_6 2, server: 217.30.10.18, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
-  - {name: _RU_俄罗斯_7 2, server: 217.30.10.18, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
-  - {name: _US_美国->🇬🇧_GB_英国, server: 54.244.200.142, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _US_美国->🇷🇺_RU_俄罗斯, server: 35.88.126.102, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _US_美国_2 2, server: 52.32.68.164, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _US_美国_3 2, server: 79.110.53.169, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-  - {name: _GB_英国_1, server: 193.38.136.149, port: 8353, type: ss, cipher: aes-256-gcm, password: 4180441OS33nY3f2WpxyU, udp: true}
-  - {name: _RU_俄罗斯_8 2, server: 217.30.10.18, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
-  - {name: _GB_英国_2, server: 212.102.53.193, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: _RU_俄罗斯_9, server: 217.30.10.18, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
-  - {name: _RU_俄罗斯_10, server: 217.30.10.18, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点), server: 104.17.2.84, port: 443, type: trojan, password: NISHIKUITAN111, skip-cert-verify: true, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 2, server: 104.17.13.218, port: 443, type: trojan, password: NISHIKUITAN111, skip-cert-verify: true, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 3, server: 104.17.70.161, port: 443, type: trojan, password: NISHIKUITAN111, skip-cert-verify: true, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 4, server: 104.19.179.218, port: 443, type: trojan, password: NISHIKUITAN111, skip-cert-verify: true, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 5, server: 103.21.244.6, port: 443, type: trojan, password: NISHIKUITAN111, skip-cert-verify: true, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 6, server: 104.16.120.91, port: 443, type: trojan, password: NISHIKUITAN111, skip-cert-verify: true, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 7, server: 104.18.198.40, port: 443, type: trojan, password: NISHIKUITAN111, skip-cert-verify: true, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 8, server: 5.10.244.100, port: 443, type: trojan, password: NISHIKUITAN111, skip-cert-verify: true, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 9, server: 190.93.245.80, port: 443, type: trojan, password: NISHIKUITAN111, skip-cert-verify: true, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 10, server: 190.93.245.109, port: 443, type: trojan, password: NISHIKUITAN111, skip-cert-verify: true, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 11, server: 104.18.144.43, port: 443, type: trojan, password: NISHIKUITAN111, skip-cert-verify: true, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 12, server: 104.18.215.15, port: 443, type: trojan, password: NISHIKUITAN111, skip-cert-verify: true, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 13, server: 141.101.122.171, port: 443, type: trojan, password: NISHIKUITAN111, skip-cert-verify: true, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 14, server: 188.114.96.86, port: 443, type: trojan, password: NISHIKUITAN111, skip-cert-verify: true, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 15, server: 104.25.37.16, port: 443, type: trojan, password: NISHIKUITAN111, skip-cert-verify: true, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 16, server: 185.193.29.193, port: 443, type: trojan, password: NISHIKUITAN111, skip-cert-verify: true, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 17, server: 190.93.245.75, port: 443, type: trojan, password: NISHIKUITAN111, skip-cert-verify: true, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 18, server: 104.19.95.55, port: 443, type: trojan, password: NISHIKUITAN111, skip-cert-verify: true, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 19, server: 172.67.229.209, port: 443, type: trojan, password: NISHIKUITAN111, skip-cert-verify: true, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 20, server: 104.18.19.56, port: 443, type: trojan, password: NISHIKUITAN111, skip-cert-verify: true, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 21, server: 104.21.18.51, port: 443, type: trojan, password: NISHIKUITAN111, skip-cert-verify: true, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 22, server: 104.26.9.255, port: 443, type: trojan, password: NISHIKUITAN111, skip-cert-verify: true, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 23, server: 104.16.180.84, port: 443, type: trojan, password: NISHIKUITAN111, skip-cert-verify: true, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 24, server: 104.19.247.200, port: 443, type: trojan, password: NISHIKUITAN111, skip-cert-verify: true, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 25, server: 172.67.64.57, port: 443, type: vmess, uuid: af6eedf5-f2b4-447f-8b93-5fca33af06f8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: f.ylks.xyz}}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 26, server: 172.67.23.69, port: 443, type: trojan, password: NISHIKUITAN111, skip-cert-verify: true, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 27, server: 155.46.213.156, port: 443, type: trojan, password: NISHIKUITAN111, skip-cert-verify: true, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 28, server: 198.41.203.228, port: 443, type: trojan, password: NISHIKUITAN111, skip-cert-verify: true, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 29, server: 104.20.216.58, port: 443, type: trojan, password: NISHIKUITAN111, skip-cert-verify: true, udp: true}
-  - {name: 乌克兰(nodeshare.xyz免费节点), server: 31.43.179.32, port: 443, type: trojan, password: NISHIKUITAN111, skip-cert-verify: true, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 30, server: 103.21.244.240, port: 443, type: trojan, password: NISHIKUITAN111, skip-cert-verify: true, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 31, server: 38.110.1.3, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 32, server: speed.cloudflare.com, port: 80, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /glweidf.sbs/linkws, headers: {Host: 7ehhjdelicate-unit-e634.bowik41429.workers.dev}}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 33, server: shs.xiaoqi666.xyz, port: 2086, type: vmess, uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shs.xiaoqi666.xyz}}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 34, server: 190.93.244.228, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 35, server: singapore.com, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip26.6929198.xyz}}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 36, server: 104.24.223.201, port: 443, type: vmess, uuid: af6eedf5-f2b4-447f-8b93-5fca33af06f8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: f.ylks.xyz}}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 37, server: yd2.ainivp.com, port: 33416, type: vmess, uuid: 9204afcd-023e-781f-1abc-c12efccd1344, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: yd2.ainivp.com}}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 38, server: 172.67.77.135, port: 443, type: vmess, uuid: af6eedf5-f2b4-447f-8b93-5fca33af06f8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: f.ylks.xyz}}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 39, server: 104.25.69.174, port: 443, type: vmess, uuid: af6eedf5-f2b4-447f-8b93-5fca33af06f8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: f.ylks.xyz}}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 40, server: 162.159.136.60, port: 443, type: vmess, uuid: af6eedf5-f2b4-447f-8b93-5fca33af06f8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: f.ylks.xyz}}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 41, server: gdgs.tarioblink.me, port: 30002, type: ss, cipher: chacha20-ietf-poly1305, password: 718fda7d-e961-4129-ad1a-0019441749ed, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 42, server: 104.22.15.82, port: 443, type: vmess, uuid: af6eedf5-f2b4-447f-8b93-5fca33af06f8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: f.ylks.xyz}}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 43, server: 162.159.137.222, port: 443, type: vmess, uuid: af6eedf5-f2b4-447f-8b93-5fca33af06f8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: f.ylks.xyz}}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 44, server: 162.159.142.42, port: 443, type: vmess, uuid: af6eedf5-f2b4-447f-8b93-5fca33af06f8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: f.ylks.xyz}}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 45, server: 172.67.86.81, port: 443, type: vmess, uuid: af6eedf5-f2b4-447f-8b93-5fca33af06f8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: f.ylks.xyz}}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 46, server: 190.93.246.178, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 47, server: 104.21.120.235, port: 443, type: vmess, uuid: af6eedf5-f2b4-447f-8b93-5fca33af06f8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: f.ylks.xyz}}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 48, server: 104.25.220.166, port: 443, type: vmess, uuid: af6eedf5-f2b4-447f-8b93-5fca33af06f8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: f.ylks.xyz}}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 49, server: 172.67.88.20, port: 443, type: vmess, uuid: af6eedf5-f2b4-447f-8b93-5fca33af06f8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: f.ylks.xyz}}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 50, server: 172.67.65.1, port: 443, type: vmess, uuid: af6eedf5-f2b4-447f-8b93-5fca33af06f8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: f.ylks.xyz}}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 51, server: 104.24.53.200, port: 443, type: vmess, uuid: af6eedf5-f2b4-447f-8b93-5fca33af06f8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: f.ylks.xyz}}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 52, server: 104.24.193.150, port: 443, type: vmess, uuid: af6eedf5-f2b4-447f-8b93-5fca33af06f8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: f.ylks.xyz}}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 53, server: 104.22.60.103, port: 443, type: vmess, uuid: af6eedf5-f2b4-447f-8b93-5fca33af06f8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: f.ylks.xyz}}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 54, server: 104.20.143.224, port: 443, type: vmess, uuid: af6eedf5-f2b4-447f-8b93-5fca33af06f8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: f.ylks.xyz}}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 55, server: 172.64.159.103, port: 443, type: vmess, uuid: af6eedf5-f2b4-447f-8b93-5fca33af06f8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: f.ylks.xyz}}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 56, server: 185.193.31.108, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 57, server: 104.20.241.146, port: 443, type: vmess, uuid: af6eedf5-f2b4-447f-8b93-5fca33af06f8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: f.ylks.xyz}}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 58, server: 104.20.173.91, port: 443, type: vmess, uuid: af6eedf5-f2b4-447f-8b93-5fca33af06f8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: f.ylks.xyz}}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 59, server: 172.64.153.76, port: 443, type: vmess, uuid: af6eedf5-f2b4-447f-8b93-5fca33af06f8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: f.ylks.xyz}}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 60, server: 104.25.146.16, port: 443, type: vmess, uuid: af6eedf5-f2b4-447f-8b93-5fca33af06f8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: f.ylks.xyz}}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 61, server: 162.159.152.49, port: 443, type: vmess, uuid: af6eedf5-f2b4-447f-8b93-5fca33af06f8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: f.ylks.xyz}}, udp: true}
-  - {name: 法国(nodeshare.xyz免费节点), server: 45.80.111.9, port: 443, type: vmess, uuid: af6eedf5-f2b4-447f-8b93-5fca33af06f8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: f.ylks.xyz}}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 62, server: singapore.com, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip26.6929198.xyz}}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 63, server: 104.20.29.211, port: 443, type: vmess, uuid: af6eedf5-f2b4-447f-8b93-5fca33af06f8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: f.ylks.xyz}}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 64, server: 172.67.226.5, port: 443, type: vmess, uuid: af6eedf5-f2b4-447f-8b93-5fca33af06f8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: f.ylks.xyz}}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 65, server: 183.236.48.163, port: 58831, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 66, server: 162.159.129.108, port: 443, type: vmess, uuid: af6eedf5-f2b4-447f-8b93-5fca33af06f8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: f.ylks.xyz}}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 67, server: gdgs.tarioblink.me, port: 30001, type: ss, cipher: chacha20-ietf-poly1305, password: 718fda7d-e961-4129-ad1a-0019441749ed, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 68, server: 104.25.200.44, port: 443, type: vmess, uuid: af6eedf5-f2b4-447f-8b93-5fca33af06f8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: f.ylks.xyz}}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 69, server: 172.64.142.229, port: 443, type: vmess, uuid: af6eedf5-f2b4-447f-8b93-5fca33af06f8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: f.ylks.xyz}}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 70, server: 190.93.244.64, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, udp: true}
-  - {name: 俄罗斯(nodeshare.xyz免费节点), server: 185.22.152.125, port: 32233, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 71, server: 104.20.111.73, port: 443, type: vmess, uuid: af6eedf5-f2b4-447f-8b93-5fca33af06f8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: f.ylks.xyz}}, udp: true}
-  - {name: 俄罗斯(nodeshare.xyz免费节点) 2, server: 193.124.22.253, port: 33068, type: ss, cipher: chacha20-ietf-poly1305, password: 3MgIhqwp4pjM8SKwixNkYZ, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 72, server: 162.159.140.3, port: 443, type: vmess, uuid: af6eedf5-f2b4-447f-8b93-5fca33af06f8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: f.ylks.xyz}}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 73, server: 185.148.107.11, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 74, server: 190.93.245.174, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 75, server: japan.com, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip16.6929198.xyz}}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 76, server: 104.24.174.44, port: 443, type: vmess, uuid: af6eedf5-f2b4-447f-8b93-5fca33af06f8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: f.ylks.xyz}}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 77, server: gdgs.tarioblink.me, port: 30003, type: ss, cipher: chacha20-ietf-poly1305, password: 15dad387-4ce8-4f9e-9dc1-cd1cc760e37c, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 78, server: 104.27.11.247, port: 443, type: vmess, uuid: af6eedf5-f2b4-447f-8b93-5fca33af06f8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: f.ylks.xyz}}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 79, server: 190.93.244.33, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 80, server: singapore.com, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip12.6929198.xyz}}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 81, server: 104.20.43.152, port: 443, type: vmess, uuid: af6eedf5-f2b4-447f-8b93-5fca33af06f8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: f.ylks.xyz}}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 82, server: 120.232.153.27, port: 58002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 83, server: 69.48.218.58, port: 443, type: vmess, uuid: af6eedf5-f2b4-447f-8b93-5fca33af06f8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: f.ylks.xyz}}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 84, server: 156.238.18.33, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 85, server: 104.254.140.141, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, udp: true}
-  - {name: 俄罗斯(nodeshare.xyz免费节点) 3, server: 213.108.22.109, port: 38753, type: ss, cipher: chacha20-ietf-poly1305, password: 6OAGLD+DOA6UcFp5Udf0r/UzyjwHV+yheNkoFDk6uL8=, udp: true}
-  - {name: 加拿大(nodeshare.xyz免费节点), server: 190.93.246.178, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 86, server: 172.67.47.82, port: 443, type: vmess, uuid: af6eedf5-f2b4-447f-8b93-5fca33af06f8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: f.ylks.xyz}}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 87, server: 104.27.27.49, port: 443, type: vmess, uuid: af6eedf5-f2b4-447f-8b93-5fca33af06f8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: f.ylks.xyz}}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 88, server: 120.232.153.27, port: 58831, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 89, server: 190.93.245.168, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 90, server: 190.93.247.127, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 91, server: 104.25.143.12, port: 443, type: vmess, uuid: af6eedf5-f2b4-447f-8b93-5fca33af06f8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: f.ylks.xyz}}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 92, server: 141.11.202.133, port: 443, type: trojan, password: NISHIKUITAN111, skip-cert-verify: true, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 93, server: 188.164.158.111, port: 443, type: trojan, password: NISHIKUITAN111, skip-cert-verify: true, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 94, server: 104.22.57.38, port: 443, type: vmess, uuid: af6eedf5-f2b4-447f-8b93-5fca33af06f8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: f.ylks.xyz}}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 95, server: 104.18.223.98, port: 443, type: trojan, password: NISHIKUITAN111, skip-cert-verify: true, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点) 96, server: 104.17.85.90, port: 443, type: trojan, password: NISHIKUITAN111, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_1, server: 139.64.165.230, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国_3 2, server: 142.202.49.122, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _US_美国_4, server: 142.202.49.122, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_美国_5, server: 142.202.49.84, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国_7, server: 69.50.92.72, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _US_美国_8, server: 38.110.1.12, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国_10, server: 142.202.49.119, port: 5499, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV, udp: true}
+  - {name: _US_美国_11, server: 167.88.61.235, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _US_美国_13, server: 69.50.92.99, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _US_美国_14, server: 142.202.49.119, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _US_美国_15, server: 69.50.95.53, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _US_美国_16, server: 142.202.49.119, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _CA_加拿大, server: 23.154.136.247, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国_17, server: 142.202.49.84, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _US_美国_18, server: 142.202.49.84, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _CN_中国->🇮🇪_IE_爱尔兰, server: 122.195.189.15, port: 10720, type: ss, cipher: chacha20-ietf-poly1305, password: dd29d7ad-5fda-4f64-a57e-716ca6010e65, udp: true}
+  - {name: _US_美国_19, server: 38.110.1.12, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _IR_伊朗->🇫🇷_FR_法国_2, server: 193.151.144.26, port: 2083, type: vmess, uuid: 7b33bc8f-7014-4814-afb1-1c4d7f25314c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国_1, server: yidong1.liulangdiqiu.life, port: 10712, type: ss, cipher: chacha20-ietf-poly1305, password: dd29d7ad-5fda-4f64-a57e-716ca6010e65, udp: true}
+  - {name: _US_美国_20, server: 142.202.49.84, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国_21, server: 69.50.95.53, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _US_美国_22, server: 169.197.142.216, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _US_美国_23, server: 142.202.49.119, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _US_美国->🇷🇺_RU_俄罗斯_1, server: 13.37.24.49, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_24, server: 69.50.92.55, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国_25, server: 69.50.95.179, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _US_美国_26, server: 69.50.92.110, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_美国_27, server: 169.197.142.120, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _US_美国_28, server: 69.50.95.53, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _US_美国_29, server: 69.50.95.53, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国_2, server: yidong1.liulangdiqiu.life, port: 10709, type: ss, cipher: chacha20-ietf-poly1305, password: dd29d7ad-5fda-4f64-a57e-716ca6010e65, udp: true}
+  - {name: _US_美国_30, server: 142.202.49.122, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _US_美国_31, server: speedtestneternanewsggffnetemailcloudflarecomexpresstvsoft98ir.expresstv.ggff.net, port: 2052, type: vmess, uuid: 4b1168e7-82b0-43a7-8dbc-b22b61547ef4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: speedtestneternanewsggffnetemailcloudflarecomexpresstvsoft98ir.expresstv.ggff.net}}, udp: true}
+  - {name: _US_美国_32, server: 167.88.61.235, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _US_美国_33, server: 167.88.61.235, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _US_美国_34, server: 104.17.215.18, port: 443, type: trojan, password: 4732adfa16c6450bbef87264e41332db, sni: jobscareerforstudent.com, skip-cert-verify: true, network: ws, ws-opts: {path: /6b777a91, headers: {Host: jobscareerforstudent.com}}, udp: true}
+  - {name: _US_美国_35, server: 169.197.142.120, port: 5498, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV, udp: true}
+  - {name: _US_美国_36, server: 162.159.136.98, port: 80, type: vmess, uuid: 5820093a-bb7d-4e15-8575-1a529f2d8282, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 香港(nodeshare.xyz免费节点)_1, server: jehw72eh.iwbh.cn, port: 49709, type: ss, cipher: aes-256-gcm, password: c5b81ddf-242f-4f60-b6cd-3b6d336e1e64, udp: true}
+  - {name: 美国(nodeshare.xyz免费节点)_6, server: h.522226.xyz, port: 45800, type: trojan, password: xjN4xcuPGg55, sni: h.522226.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国(nodeshare.xyz免费节点)_7, server: jobsfortheworldtoday.com, port: 443, type: trojan, password: 71409d3e488548e8bb076d229778f008, skip-cert-verify: true, udp: true}
+  - {name: 美国(nodeshare.xyz免费节点)_8, server: 212.102.53.193, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 美国(nodeshare.xyz免费节点)_11, server: 149.34.244.82, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 美国(nodeshare.xyz免费节点)_12, server: 208.67.105.87, port: 42501, type: ss, cipher: chacha20-ietf-poly1305, password: nq96KftrZAj3LuFQESqmn44Mo5oCuo2cipoEsae25mrmHG2oJ4VT37scBfVBpN5DWtUELZutVhhXs8Le5B8fZ9hLn9ytwvbf, udp: true}
+  - {name: 美国(nodeshare.xyz免费节点)_13, server: 183.236.51.23, port: 53002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港(nodeshare.xyz免费节点)_2, server: jehw72eh.iwbh.cn, port: 49709, type: ss, cipher: aes-256-gcm, password: 82ecb99a-9a08-40d4-87ba-624533378144, udp: true}
+  - {name: 香港(nodeshare.xyz免费节点)_3, server: jehw72eh.iwbh.cn, port: 49709, type: ss, cipher: aes-256-gcm, password: 5279dd4b-b346-4cc6-aee1-3381f45481f9, udp: true}
+  - {name: 法国(nodeshare.xyz免费节点)_1, server: 163.5.159.231, port: 443, type: vmess, uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
+  - {name: 香港(nodeshare.xyz免费节点)_4, server: jehw72eh.iwbh.cn, port: 49709, type: ss, cipher: aes-256-gcm, password: 67dbb678-6568-4744-8342-7a67e80335dd, udp: true}
+  - {name: 香港(nodeshare.xyz免费节点)_5, server: jehw72eh.iwbh.cn, port: 49709, type: ss, cipher: aes-256-gcm, password: ceb059a4-e927-40a8-b774-31e70174bf0d, udp: true}
+  - {name: 美国(nodeshare.xyz免费节点)_16, server: ccs.kozow.com, port: 443, type: vmess, uuid: 87ae2ebc-3e45-33d9-8ed3-61a337d88888, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ccs.kozow.com}}, udp: true}
+  - {name: 香港(nodeshare.xyz免费节点)_7, server: jehw72eh.iwbh.cn, port: 49709, type: ss, cipher: aes-256-gcm, password: 55dcf904-57c1-418c-afae-994312b7582a, udp: true}
+  - {name: 美国(nodeshare.xyz免费节点)_17, server: 183.236.51.23, port: 56601, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港(nodeshare.xyz免费节点)_8, server: jehw72eh.iwbh.cn, port: 49709, type: ss, cipher: aes-256-gcm, password: acbaa4e8-9070-4f2f-baf7-e0a30a527c3b, udp: true}
+  - {name: 法国(nodeshare.xyz免费节点)_2, server: irvideo.cfd, port: 443, type: vmess, uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: irvideo.cfd}}, udp: true}
+  - {name: 香港(nodeshare.xyz免费节点)_9, server: jehw72eh.iwbh.cn, port: 49709, type: ss, cipher: aes-256-gcm, password: deb2d61b-0a08-4de3-9fcd-2752289adbe5, udp: true}
+  - {name: 香港(nodeshare.xyz免费节点)_10, server: jehw72eh.iwbh.cn, port: 49709, type: ss, cipher: aes-256-gcm, password: 529917cd-381f-4f63-addc-17fc9e373d09, udp: true}
+  - {name: 美国(nodeshare.xyz免费节点)_22, server: www.speedtest.net, port: 8080, type: vmess, uuid: cc9be09e-c05e-4f54-831b-969ecb185692, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /njbvhfgxdgthj, headers: {Host: www.speedtest.net}}, udp: true}
+  - {name: 美国(nodeshare.xyz免费节点)_24, server: 104.17.147.22, port: 8080, type: vmess, uuid: cc9be09e-c05e-4f54-831b-969ecb185692, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /njbvhfgxdgthj}, udp: true}
+  - {name: 英国(nodeshare.xyz免费节点)_1, server: 193.38.136.149, port: 8353, type: ss, cipher: aes-256-gcm, password: 4180441OS33nY3f2WpxyU, udp: true}
+  - {name: 美国(nodeshare.xyz免费节点)_29, server: 183.236.51.23, port: 46602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港(nodeshare.xyz免费节点)_11, server: jehw72eh.iwbh.cn, port: 49709, type: ss, cipher: aes-256-gcm, password: 69109068-601e-4a70-91da-d0857e4c569d, udp: true}
+  - {name: 香港(nodeshare.xyz免费节点)_12, server: jehw72eh.iwbh.cn, port: 49709, type: ss, cipher: aes-256-gcm, password: bc4f897c-8397-4e71-a77b-ff1631107e32, udp: true}
+  - {name: 新加坡(nodeshare.xyz免费节点), server: connectwithemployers.online, port: 443, type: trojan, password: 0ab6c98dae3b48e8b9c4a776b6c9c19a, skip-cert-verify: true, udp: true}
+  - {name: 美国(nodeshare.xyz免费节点)_39, server: 198.2.218.100, port: 41400, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(nodeshare.xyz免费节点)_40, server: 120.198.71.214, port: 34493, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本(nodeshare.xyz免费节点), server: 149.22.87.204, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 俄罗斯(nodeshare.xyz免费节点)_2, server: 185.22.155.228, port: 23456, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, udp: true}
+  - {name: 英国(nodeshare.xyz免费节点)_2, server: 158.180.228.226, port: 443, type: vmess, uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
+  - {name: 美国(nodeshare.xyz免费节点)_45, server: 46.183.217.232, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 美国(nodeshare.xyz免费节点)_46, server: h.522226.xyz, port: 45800, type: trojan, password: xjN4xcuPGg55, skip-cert-verify: true, udp: true}
+  - {name: 美国(nodeshare.xyz免费节点)_48, server: 183.236.51.23, port: 51704, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港(nodeshare.xyz免费节点)_13, server: jehw72eh.iwbh.cn, port: 49709, type: ss, cipher: aes-256-gcm, password: d95ac3f9-4238-4ced-9009-31f925ab02bf, udp: true}
+  - {name: 美国(nodeshare.xyz免费节点)_68, server: 45.87.175.166, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
+  - {name: 美国(nodeshare.xyz免费节点)_82, server: 120.232.153.63, port: 40972, type: vmess, uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 德国(nodeshare.xyz免费节点)_4, server: 45.87.175.181, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
+  - {name: 美国(nodeshare.xyz免费节点)_161, server: 45.87.175.166, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
+  - {name: 美国(nodeshare.xyz免费节点)_164, server: 45.87.175.171, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
+  - {name: 美国(nodeshare.xyz免费节点)_179, server: s2.db-link02.top, port: 8880, type: vmess, uuid: 671c51c8-c6f3-3bf6-8ba4-60ccc56e46cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.25.119.247, headers: {Host: s2.db-link02.top}}, udp: true}
+  - {name: 美国(nodeshare.xyz免费节点)_182, server: s2.db-link02.top, port: 8880, type: vmess, uuid: 671c51c8-c6f3-3bf6-8ba4-60ccc56e46cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.25.119.247, headers: {Host: s2.db-link02.top}}, udp: true}
+  - {name: 香港(nodeshare.xyz免费节点)_14, server: jehw72eh.iwbh.cn, port: 49709, type: ss, cipher: aes-256-gcm, password: 740bf3bf-2305-45a2-bc17-7196b01b3ecf, udp: true}
+  - {name: 美国(nodeshare.xyz免费节点)_234, server: jobsfortheworldtoday.com, port: 443, type: trojan, password: 71409d3e488548e8bb076d229778f008, sni: jobsfortheworldtoday.com, skip-cert-verify: true, udp: true}
+  - {name: 印度(nodeshare.xyz免费节点)_4, server: 158.180.228.226, port: 443, type: vmess, uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -171,128 +132,89 @@ proxy-groups:
       - _RU_俄罗斯_6
       - _RU_俄罗斯_7
       - _RU_俄罗斯_8
-      - _IE_爱尔兰
       - _US_美国_1
-      - _RU_俄罗斯_1 2
-      - _RU_俄罗斯_2 2
-      - _CN_中国
-      - _CH_瑞士
-      - _RU_俄罗斯_3 2
-      - _RU_俄罗斯_4 2
-      - _RU_俄罗斯_5 2
-      - _RU_俄罗斯_6 2
-      - _RU_俄罗斯_7 2
-      - _US_美国->🇬🇧_GB_英国
-      - _US_美国->🇷🇺_RU_俄罗斯
-      - _US_美国_2 2
       - _US_美国_3 2
-      - _GB_英国_1
-      - _RU_俄罗斯_8 2
-      - _GB_英国_2
-      - _RU_俄罗斯_9
-      - _RU_俄罗斯_10
-      - 美国(nodeshare.xyz免费节点)
-      - 美国(nodeshare.xyz免费节点) 2
-      - 美国(nodeshare.xyz免费节点) 3
-      - 美国(nodeshare.xyz免费节点) 4
-      - 美国(nodeshare.xyz免费节点) 5
-      - 美国(nodeshare.xyz免费节点) 6
-      - 美国(nodeshare.xyz免费节点) 7
-      - 美国(nodeshare.xyz免费节点) 8
-      - 美国(nodeshare.xyz免费节点) 9
-      - 美国(nodeshare.xyz免费节点) 10
-      - 美国(nodeshare.xyz免费节点) 11
-      - 美国(nodeshare.xyz免费节点) 12
-      - 美国(nodeshare.xyz免费节点) 13
-      - 美国(nodeshare.xyz免费节点) 14
-      - 美国(nodeshare.xyz免费节点) 15
-      - 美国(nodeshare.xyz免费节点) 16
-      - 美国(nodeshare.xyz免费节点) 17
-      - 美国(nodeshare.xyz免费节点) 18
-      - 美国(nodeshare.xyz免费节点) 19
-      - 美国(nodeshare.xyz免费节点) 20
-      - 美国(nodeshare.xyz免费节点) 21
-      - 美国(nodeshare.xyz免费节点) 22
-      - 美国(nodeshare.xyz免费节点) 23
-      - 美国(nodeshare.xyz免费节点) 24
-      - 美国(nodeshare.xyz免费节点) 25
-      - 美国(nodeshare.xyz免费节点) 26
-      - 美国(nodeshare.xyz免费节点) 27
-      - 美国(nodeshare.xyz免费节点) 28
-      - 美国(nodeshare.xyz免费节点) 29
-      - 乌克兰(nodeshare.xyz免费节点)
-      - 美国(nodeshare.xyz免费节点) 30
-      - 美国(nodeshare.xyz免费节点) 31
-      - 美国(nodeshare.xyz免费节点) 32
-      - 美国(nodeshare.xyz免费节点) 33
-      - 美国(nodeshare.xyz免费节点) 34
-      - 美国(nodeshare.xyz免费节点) 35
-      - 美国(nodeshare.xyz免费节点) 36
-      - 美国(nodeshare.xyz免费节点) 37
-      - 美国(nodeshare.xyz免费节点) 38
-      - 美国(nodeshare.xyz免费节点) 39
-      - 美国(nodeshare.xyz免费节点) 40
-      - 美国(nodeshare.xyz免费节点) 41
-      - 美国(nodeshare.xyz免费节点) 42
-      - 美国(nodeshare.xyz免费节点) 43
-      - 美国(nodeshare.xyz免费节点) 44
-      - 美国(nodeshare.xyz免费节点) 45
-      - 美国(nodeshare.xyz免费节点) 46
-      - 美国(nodeshare.xyz免费节点) 47
-      - 美国(nodeshare.xyz免费节点) 48
-      - 美国(nodeshare.xyz免费节点) 49
-      - 美国(nodeshare.xyz免费节点) 50
-      - 美国(nodeshare.xyz免费节点) 51
-      - 美国(nodeshare.xyz免费节点) 52
-      - 美国(nodeshare.xyz免费节点) 53
-      - 美国(nodeshare.xyz免费节点) 54
-      - 美国(nodeshare.xyz免费节点) 55
-      - 美国(nodeshare.xyz免费节点) 56
-      - 美国(nodeshare.xyz免费节点) 57
-      - 美国(nodeshare.xyz免费节点) 58
-      - 美国(nodeshare.xyz免费节点) 59
-      - 美国(nodeshare.xyz免费节点) 60
-      - 美国(nodeshare.xyz免费节点) 61
-      - 法国(nodeshare.xyz免费节点)
-      - 美国(nodeshare.xyz免费节点) 62
-      - 美国(nodeshare.xyz免费节点) 63
-      - 美国(nodeshare.xyz免费节点) 64
-      - 美国(nodeshare.xyz免费节点) 65
-      - 美国(nodeshare.xyz免费节点) 66
-      - 美国(nodeshare.xyz免费节点) 67
-      - 美国(nodeshare.xyz免费节点) 68
-      - 美国(nodeshare.xyz免费节点) 69
-      - 美国(nodeshare.xyz免费节点) 70
-      - 俄罗斯(nodeshare.xyz免费节点)
-      - 美国(nodeshare.xyz免费节点) 71
-      - 俄罗斯(nodeshare.xyz免费节点) 2
-      - 美国(nodeshare.xyz免费节点) 72
-      - 美国(nodeshare.xyz免费节点) 73
-      - 美国(nodeshare.xyz免费节点) 74
-      - 美国(nodeshare.xyz免费节点) 75
-      - 美国(nodeshare.xyz免费节点) 76
-      - 美国(nodeshare.xyz免费节点) 77
-      - 美国(nodeshare.xyz免费节点) 78
-      - 美国(nodeshare.xyz免费节点) 79
-      - 美国(nodeshare.xyz免费节点) 80
-      - 美国(nodeshare.xyz免费节点) 81
-      - 美国(nodeshare.xyz免费节点) 82
-      - 美国(nodeshare.xyz免费节点) 83
-      - 美国(nodeshare.xyz免费节点) 84
-      - 美国(nodeshare.xyz免费节点) 85
-      - 俄罗斯(nodeshare.xyz免费节点) 3
-      - 加拿大(nodeshare.xyz免费节点)
-      - 美国(nodeshare.xyz免费节点) 86
-      - 美国(nodeshare.xyz免费节点) 87
-      - 美国(nodeshare.xyz免费节点) 88
-      - 美国(nodeshare.xyz免费节点) 89
-      - 美国(nodeshare.xyz免费节点) 90
-      - 美国(nodeshare.xyz免费节点) 91
-      - 美国(nodeshare.xyz免费节点) 92
-      - 美国(nodeshare.xyz免费节点) 93
-      - 美国(nodeshare.xyz免费节点) 94
-      - 美国(nodeshare.xyz免费节点) 95
-      - 美国(nodeshare.xyz免费节点) 96
+      - _US_美国_4
+      - _US_美国_5
+      - _US_美国_7
+      - _US_美国_8
+      - _US_美国_10
+      - _US_美国_11
+      - _US_美国_13
+      - _US_美国_14
+      - _US_美国_15
+      - _US_美国_16
+      - _CA_加拿大
+      - _US_美国_17
+      - _US_美国_18
+      - _CN_中国->🇮🇪_IE_爱尔兰
+      - _US_美国_19
+      - _IR_伊朗->🇫🇷_FR_法国_2
+      - _CN_中国->🇺🇸_US_美国_1
+      - _US_美国_20
+      - _US_美国_21
+      - _US_美国_22
+      - _US_美国_23
+      - _US_美国->🇷🇺_RU_俄罗斯_1
+      - _US_美国_24
+      - _US_美国_25
+      - _US_美国_26
+      - _US_美国_27
+      - _US_美国_28
+      - _US_美国_29
+      - _CN_中国->🇺🇸_US_美国_2
+      - _US_美国_30
+      - _US_美国_31
+      - _US_美国_32
+      - _US_美国_33
+      - _US_美国_34
+      - _US_美国_35
+      - _US_美国_36
+      - 香港(nodeshare.xyz免费节点)_1
+      - 美国(nodeshare.xyz免费节点)_6
+      - 美国(nodeshare.xyz免费节点)_7
+      - 美国(nodeshare.xyz免费节点)_8
+      - 美国(nodeshare.xyz免费节点)_11
+      - 美国(nodeshare.xyz免费节点)_12
+      - 美国(nodeshare.xyz免费节点)_13
+      - 香港(nodeshare.xyz免费节点)_2
+      - 香港(nodeshare.xyz免费节点)_3
+      - 法国(nodeshare.xyz免费节点)_1
+      - 香港(nodeshare.xyz免费节点)_4
+      - 香港(nodeshare.xyz免费节点)_5
+      - 美国(nodeshare.xyz免费节点)_16
+      - 香港(nodeshare.xyz免费节点)_7
+      - 美国(nodeshare.xyz免费节点)_17
+      - 香港(nodeshare.xyz免费节点)_8
+      - 法国(nodeshare.xyz免费节点)_2
+      - 香港(nodeshare.xyz免费节点)_9
+      - 香港(nodeshare.xyz免费节点)_10
+      - 美国(nodeshare.xyz免费节点)_22
+      - 美国(nodeshare.xyz免费节点)_24
+      - 英国(nodeshare.xyz免费节点)_1
+      - 美国(nodeshare.xyz免费节点)_29
+      - 香港(nodeshare.xyz免费节点)_11
+      - 香港(nodeshare.xyz免费节点)_12
+      - 新加坡(nodeshare.xyz免费节点)
+      - 美国(nodeshare.xyz免费节点)_39
+      - 美国(nodeshare.xyz免费节点)_40
+      - 日本(nodeshare.xyz免费节点)
+      - 俄罗斯(nodeshare.xyz免费节点)_2
+      - 英国(nodeshare.xyz免费节点)_2
+      - 美国(nodeshare.xyz免费节点)_45
+      - 美国(nodeshare.xyz免费节点)_46
+      - 美国(nodeshare.xyz免费节点)_48
+      - 香港(nodeshare.xyz免费节点)_13
+      - 美国(nodeshare.xyz免费节点)_68
+      - 美国(nodeshare.xyz免费节点)_82
+      - 德国(nodeshare.xyz免费节点)_4
+      - 美国(nodeshare.xyz免费节点)_161
+      - 美国(nodeshare.xyz免费节点)_164
+      - 美国(nodeshare.xyz免费节点)_179
+      - 美国(nodeshare.xyz免费节点)_182
+      - 香港(nodeshare.xyz免费节点)_14
+      - 美国(nodeshare.xyz免费节点)_234
+      - 印度(nodeshare.xyz免费节点)_4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -317,128 +239,89 @@ proxy-groups:
       - _RU_俄罗斯_6
       - _RU_俄罗斯_7
       - _RU_俄罗斯_8
-      - _IE_爱尔兰
       - _US_美国_1
-      - _RU_俄罗斯_1 2
-      - _RU_俄罗斯_2 2
-      - _CN_中国
-      - _CH_瑞士
-      - _RU_俄罗斯_3 2
-      - _RU_俄罗斯_4 2
-      - _RU_俄罗斯_5 2
-      - _RU_俄罗斯_6 2
-      - _RU_俄罗斯_7 2
-      - _US_美国->🇬🇧_GB_英国
-      - _US_美国->🇷🇺_RU_俄罗斯
-      - _US_美国_2 2
       - _US_美国_3 2
-      - _GB_英国_1
-      - _RU_俄罗斯_8 2
-      - _GB_英国_2
-      - _RU_俄罗斯_9
-      - _RU_俄罗斯_10
-      - 美国(nodeshare.xyz免费节点)
-      - 美国(nodeshare.xyz免费节点) 2
-      - 美国(nodeshare.xyz免费节点) 3
-      - 美国(nodeshare.xyz免费节点) 4
-      - 美国(nodeshare.xyz免费节点) 5
-      - 美国(nodeshare.xyz免费节点) 6
-      - 美国(nodeshare.xyz免费节点) 7
-      - 美国(nodeshare.xyz免费节点) 8
-      - 美国(nodeshare.xyz免费节点) 9
-      - 美国(nodeshare.xyz免费节点) 10
-      - 美国(nodeshare.xyz免费节点) 11
-      - 美国(nodeshare.xyz免费节点) 12
-      - 美国(nodeshare.xyz免费节点) 13
-      - 美国(nodeshare.xyz免费节点) 14
-      - 美国(nodeshare.xyz免费节点) 15
-      - 美国(nodeshare.xyz免费节点) 16
-      - 美国(nodeshare.xyz免费节点) 17
-      - 美国(nodeshare.xyz免费节点) 18
-      - 美国(nodeshare.xyz免费节点) 19
-      - 美国(nodeshare.xyz免费节点) 20
-      - 美国(nodeshare.xyz免费节点) 21
-      - 美国(nodeshare.xyz免费节点) 22
-      - 美国(nodeshare.xyz免费节点) 23
-      - 美国(nodeshare.xyz免费节点) 24
-      - 美国(nodeshare.xyz免费节点) 25
-      - 美国(nodeshare.xyz免费节点) 26
-      - 美国(nodeshare.xyz免费节点) 27
-      - 美国(nodeshare.xyz免费节点) 28
-      - 美国(nodeshare.xyz免费节点) 29
-      - 乌克兰(nodeshare.xyz免费节点)
-      - 美国(nodeshare.xyz免费节点) 30
-      - 美国(nodeshare.xyz免费节点) 31
-      - 美国(nodeshare.xyz免费节点) 32
-      - 美国(nodeshare.xyz免费节点) 33
-      - 美国(nodeshare.xyz免费节点) 34
-      - 美国(nodeshare.xyz免费节点) 35
-      - 美国(nodeshare.xyz免费节点) 36
-      - 美国(nodeshare.xyz免费节点) 37
-      - 美国(nodeshare.xyz免费节点) 38
-      - 美国(nodeshare.xyz免费节点) 39
-      - 美国(nodeshare.xyz免费节点) 40
-      - 美国(nodeshare.xyz免费节点) 41
-      - 美国(nodeshare.xyz免费节点) 42
-      - 美国(nodeshare.xyz免费节点) 43
-      - 美国(nodeshare.xyz免费节点) 44
-      - 美国(nodeshare.xyz免费节点) 45
-      - 美国(nodeshare.xyz免费节点) 46
-      - 美国(nodeshare.xyz免费节点) 47
-      - 美国(nodeshare.xyz免费节点) 48
-      - 美国(nodeshare.xyz免费节点) 49
-      - 美国(nodeshare.xyz免费节点) 50
-      - 美国(nodeshare.xyz免费节点) 51
-      - 美国(nodeshare.xyz免费节点) 52
-      - 美国(nodeshare.xyz免费节点) 53
-      - 美国(nodeshare.xyz免费节点) 54
-      - 美国(nodeshare.xyz免费节点) 55
-      - 美国(nodeshare.xyz免费节点) 56
-      - 美国(nodeshare.xyz免费节点) 57
-      - 美国(nodeshare.xyz免费节点) 58
-      - 美国(nodeshare.xyz免费节点) 59
-      - 美国(nodeshare.xyz免费节点) 60
-      - 美国(nodeshare.xyz免费节点) 61
-      - 法国(nodeshare.xyz免费节点)
-      - 美国(nodeshare.xyz免费节点) 62
-      - 美国(nodeshare.xyz免费节点) 63
-      - 美国(nodeshare.xyz免费节点) 64
-      - 美国(nodeshare.xyz免费节点) 65
-      - 美国(nodeshare.xyz免费节点) 66
-      - 美国(nodeshare.xyz免费节点) 67
-      - 美国(nodeshare.xyz免费节点) 68
-      - 美国(nodeshare.xyz免费节点) 69
-      - 美国(nodeshare.xyz免费节点) 70
-      - 俄罗斯(nodeshare.xyz免费节点)
-      - 美国(nodeshare.xyz免费节点) 71
-      - 俄罗斯(nodeshare.xyz免费节点) 2
-      - 美国(nodeshare.xyz免费节点) 72
-      - 美国(nodeshare.xyz免费节点) 73
-      - 美国(nodeshare.xyz免费节点) 74
-      - 美国(nodeshare.xyz免费节点) 75
-      - 美国(nodeshare.xyz免费节点) 76
-      - 美国(nodeshare.xyz免费节点) 77
-      - 美国(nodeshare.xyz免费节点) 78
-      - 美国(nodeshare.xyz免费节点) 79
-      - 美国(nodeshare.xyz免费节点) 80
-      - 美国(nodeshare.xyz免费节点) 81
-      - 美国(nodeshare.xyz免费节点) 82
-      - 美国(nodeshare.xyz免费节点) 83
-      - 美国(nodeshare.xyz免费节点) 84
-      - 美国(nodeshare.xyz免费节点) 85
-      - 俄罗斯(nodeshare.xyz免费节点) 3
-      - 加拿大(nodeshare.xyz免费节点)
-      - 美国(nodeshare.xyz免费节点) 86
-      - 美国(nodeshare.xyz免费节点) 87
-      - 美国(nodeshare.xyz免费节点) 88
-      - 美国(nodeshare.xyz免费节点) 89
-      - 美国(nodeshare.xyz免费节点) 90
-      - 美国(nodeshare.xyz免费节点) 91
-      - 美国(nodeshare.xyz免费节点) 92
-      - 美国(nodeshare.xyz免费节点) 93
-      - 美国(nodeshare.xyz免费节点) 94
-      - 美国(nodeshare.xyz免费节点) 95
-      - 美国(nodeshare.xyz免费节点) 96
+      - _US_美国_4
+      - _US_美国_5
+      - _US_美国_7
+      - _US_美国_8
+      - _US_美国_10
+      - _US_美国_11
+      - _US_美国_13
+      - _US_美国_14
+      - _US_美国_15
+      - _US_美国_16
+      - _CA_加拿大
+      - _US_美国_17
+      - _US_美国_18
+      - _CN_中国->🇮🇪_IE_爱尔兰
+      - _US_美国_19
+      - _IR_伊朗->🇫🇷_FR_法国_2
+      - _CN_中国->🇺🇸_US_美国_1
+      - _US_美国_20
+      - _US_美国_21
+      - _US_美国_22
+      - _US_美国_23
+      - _US_美国->🇷🇺_RU_俄罗斯_1
+      - _US_美国_24
+      - _US_美国_25
+      - _US_美国_26
+      - _US_美国_27
+      - _US_美国_28
+      - _US_美国_29
+      - _CN_中国->🇺🇸_US_美国_2
+      - _US_美国_30
+      - _US_美国_31
+      - _US_美国_32
+      - _US_美国_33
+      - _US_美国_34
+      - _US_美国_35
+      - _US_美国_36
+      - 香港(nodeshare.xyz免费节点)_1
+      - 美国(nodeshare.xyz免费节点)_6
+      - 美国(nodeshare.xyz免费节点)_7
+      - 美国(nodeshare.xyz免费节点)_8
+      - 美国(nodeshare.xyz免费节点)_11
+      - 美国(nodeshare.xyz免费节点)_12
+      - 美国(nodeshare.xyz免费节点)_13
+      - 香港(nodeshare.xyz免费节点)_2
+      - 香港(nodeshare.xyz免费节点)_3
+      - 法国(nodeshare.xyz免费节点)_1
+      - 香港(nodeshare.xyz免费节点)_4
+      - 香港(nodeshare.xyz免费节点)_5
+      - 美国(nodeshare.xyz免费节点)_16
+      - 香港(nodeshare.xyz免费节点)_7
+      - 美国(nodeshare.xyz免费节点)_17
+      - 香港(nodeshare.xyz免费节点)_8
+      - 法国(nodeshare.xyz免费节点)_2
+      - 香港(nodeshare.xyz免费节点)_9
+      - 香港(nodeshare.xyz免费节点)_10
+      - 美国(nodeshare.xyz免费节点)_22
+      - 美国(nodeshare.xyz免费节点)_24
+      - 英国(nodeshare.xyz免费节点)_1
+      - 美国(nodeshare.xyz免费节点)_29
+      - 香港(nodeshare.xyz免费节点)_11
+      - 香港(nodeshare.xyz免费节点)_12
+      - 新加坡(nodeshare.xyz免费节点)
+      - 美国(nodeshare.xyz免费节点)_39
+      - 美国(nodeshare.xyz免费节点)_40
+      - 日本(nodeshare.xyz免费节点)
+      - 俄罗斯(nodeshare.xyz免费节点)_2
+      - 英国(nodeshare.xyz免费节点)_2
+      - 美国(nodeshare.xyz免费节点)_45
+      - 美国(nodeshare.xyz免费节点)_46
+      - 美国(nodeshare.xyz免费节点)_48
+      - 香港(nodeshare.xyz免费节点)_13
+      - 美国(nodeshare.xyz免费节点)_68
+      - 美国(nodeshare.xyz免费节点)_82
+      - 德国(nodeshare.xyz免费节点)_4
+      - 美国(nodeshare.xyz免费节点)_161
+      - 美国(nodeshare.xyz免费节点)_164
+      - 美国(nodeshare.xyz免费节点)_179
+      - 美国(nodeshare.xyz免费节点)_182
+      - 香港(nodeshare.xyz免费节点)_14
+      - 美国(nodeshare.xyz免费节点)_234
+      - 印度(nodeshare.xyz免费节点)_4
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -464,128 +347,89 @@ proxy-groups:
       - _RU_俄罗斯_6
       - _RU_俄罗斯_7
       - _RU_俄罗斯_8
-      - _IE_爱尔兰
       - _US_美国_1
-      - _RU_俄罗斯_1 2
-      - _RU_俄罗斯_2 2
-      - _CN_中国
-      - _CH_瑞士
-      - _RU_俄罗斯_3 2
-      - _RU_俄罗斯_4 2
-      - _RU_俄罗斯_5 2
-      - _RU_俄罗斯_6 2
-      - _RU_俄罗斯_7 2
-      - _US_美国->🇬🇧_GB_英国
-      - _US_美国->🇷🇺_RU_俄罗斯
-      - _US_美国_2 2
       - _US_美国_3 2
-      - _GB_英国_1
-      - _RU_俄罗斯_8 2
-      - _GB_英国_2
-      - _RU_俄罗斯_9
-      - _RU_俄罗斯_10
-      - 美国(nodeshare.xyz免费节点)
-      - 美国(nodeshare.xyz免费节点) 2
-      - 美国(nodeshare.xyz免费节点) 3
-      - 美国(nodeshare.xyz免费节点) 4
-      - 美国(nodeshare.xyz免费节点) 5
-      - 美国(nodeshare.xyz免费节点) 6
-      - 美国(nodeshare.xyz免费节点) 7
-      - 美国(nodeshare.xyz免费节点) 8
-      - 美国(nodeshare.xyz免费节点) 9
-      - 美国(nodeshare.xyz免费节点) 10
-      - 美国(nodeshare.xyz免费节点) 11
-      - 美国(nodeshare.xyz免费节点) 12
-      - 美国(nodeshare.xyz免费节点) 13
-      - 美国(nodeshare.xyz免费节点) 14
-      - 美国(nodeshare.xyz免费节点) 15
-      - 美国(nodeshare.xyz免费节点) 16
-      - 美国(nodeshare.xyz免费节点) 17
-      - 美国(nodeshare.xyz免费节点) 18
-      - 美国(nodeshare.xyz免费节点) 19
-      - 美国(nodeshare.xyz免费节点) 20
-      - 美国(nodeshare.xyz免费节点) 21
-      - 美国(nodeshare.xyz免费节点) 22
-      - 美国(nodeshare.xyz免费节点) 23
-      - 美国(nodeshare.xyz免费节点) 24
-      - 美国(nodeshare.xyz免费节点) 25
-      - 美国(nodeshare.xyz免费节点) 26
-      - 美国(nodeshare.xyz免费节点) 27
-      - 美国(nodeshare.xyz免费节点) 28
-      - 美国(nodeshare.xyz免费节点) 29
-      - 乌克兰(nodeshare.xyz免费节点)
-      - 美国(nodeshare.xyz免费节点) 30
-      - 美国(nodeshare.xyz免费节点) 31
-      - 美国(nodeshare.xyz免费节点) 32
-      - 美国(nodeshare.xyz免费节点) 33
-      - 美国(nodeshare.xyz免费节点) 34
-      - 美国(nodeshare.xyz免费节点) 35
-      - 美国(nodeshare.xyz免费节点) 36
-      - 美国(nodeshare.xyz免费节点) 37
-      - 美国(nodeshare.xyz免费节点) 38
-      - 美国(nodeshare.xyz免费节点) 39
-      - 美国(nodeshare.xyz免费节点) 40
-      - 美国(nodeshare.xyz免费节点) 41
-      - 美国(nodeshare.xyz免费节点) 42
-      - 美国(nodeshare.xyz免费节点) 43
-      - 美国(nodeshare.xyz免费节点) 44
-      - 美国(nodeshare.xyz免费节点) 45
-      - 美国(nodeshare.xyz免费节点) 46
-      - 美国(nodeshare.xyz免费节点) 47
-      - 美国(nodeshare.xyz免费节点) 48
-      - 美国(nodeshare.xyz免费节点) 49
-      - 美国(nodeshare.xyz免费节点) 50
-      - 美国(nodeshare.xyz免费节点) 51
-      - 美国(nodeshare.xyz免费节点) 52
-      - 美国(nodeshare.xyz免费节点) 53
-      - 美国(nodeshare.xyz免费节点) 54
-      - 美国(nodeshare.xyz免费节点) 55
-      - 美国(nodeshare.xyz免费节点) 56
-      - 美国(nodeshare.xyz免费节点) 57
-      - 美国(nodeshare.xyz免费节点) 58
-      - 美国(nodeshare.xyz免费节点) 59
-      - 美国(nodeshare.xyz免费节点) 60
-      - 美国(nodeshare.xyz免费节点) 61
-      - 法国(nodeshare.xyz免费节点)
-      - 美国(nodeshare.xyz免费节点) 62
-      - 美国(nodeshare.xyz免费节点) 63
-      - 美国(nodeshare.xyz免费节点) 64
-      - 美国(nodeshare.xyz免费节点) 65
-      - 美国(nodeshare.xyz免费节点) 66
-      - 美国(nodeshare.xyz免费节点) 67
-      - 美国(nodeshare.xyz免费节点) 68
-      - 美国(nodeshare.xyz免费节点) 69
-      - 美国(nodeshare.xyz免费节点) 70
-      - 俄罗斯(nodeshare.xyz免费节点)
-      - 美国(nodeshare.xyz免费节点) 71
-      - 俄罗斯(nodeshare.xyz免费节点) 2
-      - 美国(nodeshare.xyz免费节点) 72
-      - 美国(nodeshare.xyz免费节点) 73
-      - 美国(nodeshare.xyz免费节点) 74
-      - 美国(nodeshare.xyz免费节点) 75
-      - 美国(nodeshare.xyz免费节点) 76
-      - 美国(nodeshare.xyz免费节点) 77
-      - 美国(nodeshare.xyz免费节点) 78
-      - 美国(nodeshare.xyz免费节点) 79
-      - 美国(nodeshare.xyz免费节点) 80
-      - 美国(nodeshare.xyz免费节点) 81
-      - 美国(nodeshare.xyz免费节点) 82
-      - 美国(nodeshare.xyz免费节点) 83
-      - 美国(nodeshare.xyz免费节点) 84
-      - 美国(nodeshare.xyz免费节点) 85
-      - 俄罗斯(nodeshare.xyz免费节点) 3
-      - 加拿大(nodeshare.xyz免费节点)
-      - 美国(nodeshare.xyz免费节点) 86
-      - 美国(nodeshare.xyz免费节点) 87
-      - 美国(nodeshare.xyz免费节点) 88
-      - 美国(nodeshare.xyz免费节点) 89
-      - 美国(nodeshare.xyz免费节点) 90
-      - 美国(nodeshare.xyz免费节点) 91
-      - 美国(nodeshare.xyz免费节点) 92
-      - 美国(nodeshare.xyz免费节点) 93
-      - 美国(nodeshare.xyz免费节点) 94
-      - 美国(nodeshare.xyz免费节点) 95
-      - 美国(nodeshare.xyz免费节点) 96
+      - _US_美国_4
+      - _US_美国_5
+      - _US_美国_7
+      - _US_美国_8
+      - _US_美国_10
+      - _US_美国_11
+      - _US_美国_13
+      - _US_美国_14
+      - _US_美国_15
+      - _US_美国_16
+      - _CA_加拿大
+      - _US_美国_17
+      - _US_美国_18
+      - _CN_中国->🇮🇪_IE_爱尔兰
+      - _US_美国_19
+      - _IR_伊朗->🇫🇷_FR_法国_2
+      - _CN_中国->🇺🇸_US_美国_1
+      - _US_美国_20
+      - _US_美国_21
+      - _US_美国_22
+      - _US_美国_23
+      - _US_美国->🇷🇺_RU_俄罗斯_1
+      - _US_美国_24
+      - _US_美国_25
+      - _US_美国_26
+      - _US_美国_27
+      - _US_美国_28
+      - _US_美国_29
+      - _CN_中国->🇺🇸_US_美国_2
+      - _US_美国_30
+      - _US_美国_31
+      - _US_美国_32
+      - _US_美国_33
+      - _US_美国_34
+      - _US_美国_35
+      - _US_美国_36
+      - 香港(nodeshare.xyz免费节点)_1
+      - 美国(nodeshare.xyz免费节点)_6
+      - 美国(nodeshare.xyz免费节点)_7
+      - 美国(nodeshare.xyz免费节点)_8
+      - 美国(nodeshare.xyz免费节点)_11
+      - 美国(nodeshare.xyz免费节点)_12
+      - 美国(nodeshare.xyz免费节点)_13
+      - 香港(nodeshare.xyz免费节点)_2
+      - 香港(nodeshare.xyz免费节点)_3
+      - 法国(nodeshare.xyz免费节点)_1
+      - 香港(nodeshare.xyz免费节点)_4
+      - 香港(nodeshare.xyz免费节点)_5
+      - 美国(nodeshare.xyz免费节点)_16
+      - 香港(nodeshare.xyz免费节点)_7
+      - 美国(nodeshare.xyz免费节点)_17
+      - 香港(nodeshare.xyz免费节点)_8
+      - 法国(nodeshare.xyz免费节点)_2
+      - 香港(nodeshare.xyz免费节点)_9
+      - 香港(nodeshare.xyz免费节点)_10
+      - 美国(nodeshare.xyz免费节点)_22
+      - 美国(nodeshare.xyz免费节点)_24
+      - 英国(nodeshare.xyz免费节点)_1
+      - 美国(nodeshare.xyz免费节点)_29
+      - 香港(nodeshare.xyz免费节点)_11
+      - 香港(nodeshare.xyz免费节点)_12
+      - 新加坡(nodeshare.xyz免费节点)
+      - 美国(nodeshare.xyz免费节点)_39
+      - 美国(nodeshare.xyz免费节点)_40
+      - 日本(nodeshare.xyz免费节点)
+      - 俄罗斯(nodeshare.xyz免费节点)_2
+      - 英国(nodeshare.xyz免费节点)_2
+      - 美国(nodeshare.xyz免费节点)_45
+      - 美国(nodeshare.xyz免费节点)_46
+      - 美国(nodeshare.xyz免费节点)_48
+      - 香港(nodeshare.xyz免费节点)_13
+      - 美国(nodeshare.xyz免费节点)_68
+      - 美国(nodeshare.xyz免费节点)_82
+      - 德国(nodeshare.xyz免费节点)_4
+      - 美国(nodeshare.xyz免费节点)_161
+      - 美国(nodeshare.xyz免费节点)_164
+      - 美国(nodeshare.xyz免费节点)_179
+      - 美国(nodeshare.xyz免费节点)_182
+      - 香港(nodeshare.xyz免费节点)_14
+      - 美国(nodeshare.xyz免费节点)_234
+      - 印度(nodeshare.xyz免费节点)_4
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -623,132 +467,106 @@ proxy-groups:
       - _RU_俄罗斯_6
       - _RU_俄罗斯_7
       - _RU_俄罗斯_8
-      - _IE_爱尔兰
       - _US_美国_1
-      - _RU_俄罗斯_1 2
-      - _RU_俄罗斯_2 2
-      - _CN_中国
-      - _CH_瑞士
-      - _RU_俄罗斯_3 2
-      - _RU_俄罗斯_4 2
-      - _RU_俄罗斯_5 2
-      - _RU_俄罗斯_6 2
-      - _RU_俄罗斯_7 2
-      - _US_美国->🇬🇧_GB_英国
-      - _US_美国->🇷🇺_RU_俄罗斯
-      - _US_美国_2 2
       - _US_美国_3 2
-      - _GB_英国_1
-      - _RU_俄罗斯_8 2
-      - _GB_英国_2
-      - _RU_俄罗斯_9
-      - _RU_俄罗斯_10
-      - 美国(nodeshare.xyz免费节点)
-      - 美国(nodeshare.xyz免费节点) 2
-      - 美国(nodeshare.xyz免费节点) 3
-      - 美国(nodeshare.xyz免费节点) 4
-      - 美国(nodeshare.xyz免费节点) 5
-      - 美国(nodeshare.xyz免费节点) 6
-      - 美国(nodeshare.xyz免费节点) 7
-      - 美国(nodeshare.xyz免费节点) 8
-      - 美国(nodeshare.xyz免费节点) 9
-      - 美国(nodeshare.xyz免费节点) 10
-      - 美国(nodeshare.xyz免费节点) 11
-      - 美国(nodeshare.xyz免费节点) 12
-      - 美国(nodeshare.xyz免费节点) 13
-      - 美国(nodeshare.xyz免费节点) 14
-      - 美国(nodeshare.xyz免费节点) 15
-      - 美国(nodeshare.xyz免费节点) 16
-      - 美国(nodeshare.xyz免费节点) 17
-      - 美国(nodeshare.xyz免费节点) 18
-      - 美国(nodeshare.xyz免费节点) 19
-      - 美国(nodeshare.xyz免费节点) 20
-      - 美国(nodeshare.xyz免费节点) 21
-      - 美国(nodeshare.xyz免费节点) 22
-      - 美国(nodeshare.xyz免费节点) 23
-      - 美国(nodeshare.xyz免费节点) 24
-      - 美国(nodeshare.xyz免费节点) 25
-      - 美国(nodeshare.xyz免费节点) 26
-      - 美国(nodeshare.xyz免费节点) 27
-      - 美国(nodeshare.xyz免费节点) 28
-      - 美国(nodeshare.xyz免费节点) 29
-      - 乌克兰(nodeshare.xyz免费节点)
-      - 美国(nodeshare.xyz免费节点) 30
-      - 美国(nodeshare.xyz免费节点) 31
-      - 美国(nodeshare.xyz免费节点) 32
-      - 美国(nodeshare.xyz免费节点) 33
-      - 美国(nodeshare.xyz免费节点) 34
-      - 美国(nodeshare.xyz免费节点) 35
-      - 美国(nodeshare.xyz免费节点) 36
-      - 美国(nodeshare.xyz免费节点) 37
-      - 美国(nodeshare.xyz免费节点) 38
-      - 美国(nodeshare.xyz免费节点) 39
-      - 美国(nodeshare.xyz免费节点) 40
-      - 美国(nodeshare.xyz免费节点) 41
-      - 美国(nodeshare.xyz免费节点) 42
-      - 美国(nodeshare.xyz免费节点) 43
-      - 美国(nodeshare.xyz免费节点) 44
-      - 美国(nodeshare.xyz免费节点) 45
-      - 美国(nodeshare.xyz免费节点) 46
-      - 美国(nodeshare.xyz免费节点) 47
-      - 美国(nodeshare.xyz免费节点) 48
-      - 美国(nodeshare.xyz免费节点) 49
-      - 美国(nodeshare.xyz免费节点) 50
-      - 美国(nodeshare.xyz免费节点) 51
-      - 美国(nodeshare.xyz免费节点) 52
-      - 美国(nodeshare.xyz免费节点) 53
-      - 美国(nodeshare.xyz免费节点) 54
-      - 美国(nodeshare.xyz免费节点) 55
-      - 美国(nodeshare.xyz免费节点) 56
-      - 美国(nodeshare.xyz免费节点) 57
-      - 美国(nodeshare.xyz免费节点) 58
-      - 美国(nodeshare.xyz免费节点) 59
-      - 美国(nodeshare.xyz免费节点) 60
-      - 美国(nodeshare.xyz免费节点) 61
-      - 法国(nodeshare.xyz免费节点)
-      - 美国(nodeshare.xyz免费节点) 62
-      - 美国(nodeshare.xyz免费节点) 63
-      - 美国(nodeshare.xyz免费节点) 64
-      - 美国(nodeshare.xyz免费节点) 65
-      - 美国(nodeshare.xyz免费节点) 66
-      - 美国(nodeshare.xyz免费节点) 67
-      - 美国(nodeshare.xyz免费节点) 68
-      - 美国(nodeshare.xyz免费节点) 69
-      - 美国(nodeshare.xyz免费节点) 70
-      - 俄罗斯(nodeshare.xyz免费节点)
-      - 美国(nodeshare.xyz免费节点) 71
-      - 俄罗斯(nodeshare.xyz免费节点) 2
-      - 美国(nodeshare.xyz免费节点) 72
-      - 美国(nodeshare.xyz免费节点) 73
-      - 美国(nodeshare.xyz免费节点) 74
-      - 美国(nodeshare.xyz免费节点) 75
-      - 美国(nodeshare.xyz免费节点) 76
-      - 美国(nodeshare.xyz免费节点) 77
-      - 美国(nodeshare.xyz免费节点) 78
-      - 美国(nodeshare.xyz免费节点) 79
-      - 美国(nodeshare.xyz免费节点) 80
-      - 美国(nodeshare.xyz免费节点) 81
-      - 美国(nodeshare.xyz免费节点) 82
-      - 美国(nodeshare.xyz免费节点) 83
-      - 美国(nodeshare.xyz免费节点) 84
-      - 美国(nodeshare.xyz免费节点) 85
-      - 俄罗斯(nodeshare.xyz免费节点) 3
-      - 加拿大(nodeshare.xyz免费节点)
-      - 美国(nodeshare.xyz免费节点) 86
-      - 美国(nodeshare.xyz免费节点) 87
-      - 美国(nodeshare.xyz免费节点) 88
-      - 美国(nodeshare.xyz免费节点) 89
-      - 美国(nodeshare.xyz免费节点) 90
-      - 美国(nodeshare.xyz免费节点) 91
-      - 美国(nodeshare.xyz免费节点) 92
-      - 美国(nodeshare.xyz免费节点) 93
-      - 美国(nodeshare.xyz免费节点) 94
-      - 美国(nodeshare.xyz免费节点) 95
-      - 美国(nodeshare.xyz免费节点) 96
+      - _US_美国_4
+      - _US_美国_5
+      - _US_美国_7
+      - _US_美国_8
+      - _US_美国_10
+      - _US_美国_11
+      - _US_美国_13
+      - _US_美国_14
+      - _US_美国_15
+      - _US_美国_16
+      - _CA_加拿大
+      - _US_美国_17
+      - _US_美国_18
+      - _CN_中国->🇮🇪_IE_爱尔兰
+      - _US_美国_19
+      - _IR_伊朗->🇫🇷_FR_法国_2
+      - _CN_中国->🇺🇸_US_美国_1
+      - _US_美国_20
+      - _US_美国_21
+      - _US_美国_22
+      - _US_美国_23
+      - _US_美国->🇷🇺_RU_俄罗斯_1
+      - _US_美国_24
+      - _US_美国_25
+      - _US_美国_26
+      - _US_美国_27
+      - _US_美国_28
+      - _US_美国_29
+      - _CN_中国->🇺🇸_US_美国_2
+      - _US_美国_30
+      - _US_美国_31
+      - _US_美国_32
+      - _US_美国_33
+      - _US_美国_34
+      - _US_美国_35
+      - _US_美国_36
+      - 香港(nodeshare.xyz免费节点)_1
+      - 美国(nodeshare.xyz免费节点)_6
+      - 美国(nodeshare.xyz免费节点)_7
+      - 美国(nodeshare.xyz免费节点)_8
+      - 美国(nodeshare.xyz免费节点)_11
+      - 美国(nodeshare.xyz免费节点)_12
+      - 美国(nodeshare.xyz免费节点)_13
+      - 香港(nodeshare.xyz免费节点)_2
+      - 香港(nodeshare.xyz免费节点)_3
+      - 法国(nodeshare.xyz免费节点)_1
+      - 香港(nodeshare.xyz免费节点)_4
+      - 香港(nodeshare.xyz免费节点)_5
+      - 美国(nodeshare.xyz免费节点)_16
+      - 香港(nodeshare.xyz免费节点)_7
+      - 美国(nodeshare.xyz免费节点)_17
+      - 香港(nodeshare.xyz免费节点)_8
+      - 法国(nodeshare.xyz免费节点)_2
+      - 香港(nodeshare.xyz免费节点)_9
+      - 香港(nodeshare.xyz免费节点)_10
+      - 美国(nodeshare.xyz免费节点)_22
+      - 美国(nodeshare.xyz免费节点)_24
+      - 英国(nodeshare.xyz免费节点)_1
+      - 美国(nodeshare.xyz免费节点)_29
+      - 香港(nodeshare.xyz免费节点)_11
+      - 香港(nodeshare.xyz免费节点)_12
+      - 新加坡(nodeshare.xyz免费节点)
+      - 美国(nodeshare.xyz免费节点)_39
+      - 美国(nodeshare.xyz免费节点)_40
+      - 日本(nodeshare.xyz免费节点)
+      - 俄罗斯(nodeshare.xyz免费节点)_2
+      - 英国(nodeshare.xyz免费节点)_2
+      - 美国(nodeshare.xyz免费节点)_45
+      - 美国(nodeshare.xyz免费节点)_46
+      - 美国(nodeshare.xyz免费节点)_48
+      - 香港(nodeshare.xyz免费节点)_13
+      - 美国(nodeshare.xyz免费节点)_68
+      - 美国(nodeshare.xyz免费节点)_82
+      - 德国(nodeshare.xyz免费节点)_4
+      - 美国(nodeshare.xyz免费节点)_161
+      - 美国(nodeshare.xyz免费节点)_164
+      - 美国(nodeshare.xyz免费节点)_179
+      - 美国(nodeshare.xyz免费节点)_182
+      - 香港(nodeshare.xyz免费节点)_14
+      - 美国(nodeshare.xyz免费节点)_234
+      - 印度(nodeshare.xyz免费节点)_4
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 香港(nodeshare.xyz免费节点)_1
+      - 香港(nodeshare.xyz免费节点)_2
+      - 香港(nodeshare.xyz免费节点)_3
+      - 香港(nodeshare.xyz免费节点)_4
+      - 香港(nodeshare.xyz免费节点)_5
+      - 香港(nodeshare.xyz免费节点)_7
+      - 香港(nodeshare.xyz免费节点)_8
+      - 香港(nodeshare.xyz免费节点)_9
+      - 香港(nodeshare.xyz免费节点)_10
+      - 香港(nodeshare.xyz免费节点)_11
+      - 香港(nodeshare.xyz免费节点)_12
+      - 香港(nodeshare.xyz免费节点)_13
+      - 香港(nodeshare.xyz免费节点)_14
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -774,128 +592,89 @@ proxy-groups:
       - _RU_俄罗斯_6
       - _RU_俄罗斯_7
       - _RU_俄罗斯_8
-      - _IE_爱尔兰
       - _US_美国_1
-      - _RU_俄罗斯_1 2
-      - _RU_俄罗斯_2 2
-      - _CN_中国
-      - _CH_瑞士
-      - _RU_俄罗斯_3 2
-      - _RU_俄罗斯_4 2
-      - _RU_俄罗斯_5 2
-      - _RU_俄罗斯_6 2
-      - _RU_俄罗斯_7 2
-      - _US_美国->🇬🇧_GB_英国
-      - _US_美国->🇷🇺_RU_俄罗斯
-      - _US_美国_2 2
       - _US_美国_3 2
-      - _GB_英国_1
-      - _RU_俄罗斯_8 2
-      - _GB_英国_2
-      - _RU_俄罗斯_9
-      - _RU_俄罗斯_10
-      - 美国(nodeshare.xyz免费节点)
-      - 美国(nodeshare.xyz免费节点) 2
-      - 美国(nodeshare.xyz免费节点) 3
-      - 美国(nodeshare.xyz免费节点) 4
-      - 美国(nodeshare.xyz免费节点) 5
-      - 美国(nodeshare.xyz免费节点) 6
-      - 美国(nodeshare.xyz免费节点) 7
-      - 美国(nodeshare.xyz免费节点) 8
-      - 美国(nodeshare.xyz免费节点) 9
-      - 美国(nodeshare.xyz免费节点) 10
-      - 美国(nodeshare.xyz免费节点) 11
-      - 美国(nodeshare.xyz免费节点) 12
-      - 美国(nodeshare.xyz免费节点) 13
-      - 美国(nodeshare.xyz免费节点) 14
-      - 美国(nodeshare.xyz免费节点) 15
-      - 美国(nodeshare.xyz免费节点) 16
-      - 美国(nodeshare.xyz免费节点) 17
-      - 美国(nodeshare.xyz免费节点) 18
-      - 美国(nodeshare.xyz免费节点) 19
-      - 美国(nodeshare.xyz免费节点) 20
-      - 美国(nodeshare.xyz免费节点) 21
-      - 美国(nodeshare.xyz免费节点) 22
-      - 美国(nodeshare.xyz免费节点) 23
-      - 美国(nodeshare.xyz免费节点) 24
-      - 美国(nodeshare.xyz免费节点) 25
-      - 美国(nodeshare.xyz免费节点) 26
-      - 美国(nodeshare.xyz免费节点) 27
-      - 美国(nodeshare.xyz免费节点) 28
-      - 美国(nodeshare.xyz免费节点) 29
-      - 乌克兰(nodeshare.xyz免费节点)
-      - 美国(nodeshare.xyz免费节点) 30
-      - 美国(nodeshare.xyz免费节点) 31
-      - 美国(nodeshare.xyz免费节点) 32
-      - 美国(nodeshare.xyz免费节点) 33
-      - 美国(nodeshare.xyz免费节点) 34
-      - 美国(nodeshare.xyz免费节点) 35
-      - 美国(nodeshare.xyz免费节点) 36
-      - 美国(nodeshare.xyz免费节点) 37
-      - 美国(nodeshare.xyz免费节点) 38
-      - 美国(nodeshare.xyz免费节点) 39
-      - 美国(nodeshare.xyz免费节点) 40
-      - 美国(nodeshare.xyz免费节点) 41
-      - 美国(nodeshare.xyz免费节点) 42
-      - 美国(nodeshare.xyz免费节点) 43
-      - 美国(nodeshare.xyz免费节点) 44
-      - 美国(nodeshare.xyz免费节点) 45
-      - 美国(nodeshare.xyz免费节点) 46
-      - 美国(nodeshare.xyz免费节点) 47
-      - 美国(nodeshare.xyz免费节点) 48
-      - 美国(nodeshare.xyz免费节点) 49
-      - 美国(nodeshare.xyz免费节点) 50
-      - 美国(nodeshare.xyz免费节点) 51
-      - 美国(nodeshare.xyz免费节点) 52
-      - 美国(nodeshare.xyz免费节点) 53
-      - 美国(nodeshare.xyz免费节点) 54
-      - 美国(nodeshare.xyz免费节点) 55
-      - 美国(nodeshare.xyz免费节点) 56
-      - 美国(nodeshare.xyz免费节点) 57
-      - 美国(nodeshare.xyz免费节点) 58
-      - 美国(nodeshare.xyz免费节点) 59
-      - 美国(nodeshare.xyz免费节点) 60
-      - 美国(nodeshare.xyz免费节点) 61
-      - 法国(nodeshare.xyz免费节点)
-      - 美国(nodeshare.xyz免费节点) 62
-      - 美国(nodeshare.xyz免费节点) 63
-      - 美国(nodeshare.xyz免费节点) 64
-      - 美国(nodeshare.xyz免费节点) 65
-      - 美国(nodeshare.xyz免费节点) 66
-      - 美国(nodeshare.xyz免费节点) 67
-      - 美国(nodeshare.xyz免费节点) 68
-      - 美国(nodeshare.xyz免费节点) 69
-      - 美国(nodeshare.xyz免费节点) 70
-      - 俄罗斯(nodeshare.xyz免费节点)
-      - 美国(nodeshare.xyz免费节点) 71
-      - 俄罗斯(nodeshare.xyz免费节点) 2
-      - 美国(nodeshare.xyz免费节点) 72
-      - 美国(nodeshare.xyz免费节点) 73
-      - 美国(nodeshare.xyz免费节点) 74
-      - 美国(nodeshare.xyz免费节点) 75
-      - 美国(nodeshare.xyz免费节点) 76
-      - 美国(nodeshare.xyz免费节点) 77
-      - 美国(nodeshare.xyz免费节点) 78
-      - 美国(nodeshare.xyz免费节点) 79
-      - 美国(nodeshare.xyz免费节点) 80
-      - 美国(nodeshare.xyz免费节点) 81
-      - 美国(nodeshare.xyz免费节点) 82
-      - 美国(nodeshare.xyz免费节点) 83
-      - 美国(nodeshare.xyz免费节点) 84
-      - 美国(nodeshare.xyz免费节点) 85
-      - 俄罗斯(nodeshare.xyz免费节点) 3
-      - 加拿大(nodeshare.xyz免费节点)
-      - 美国(nodeshare.xyz免费节点) 86
-      - 美国(nodeshare.xyz免费节点) 87
-      - 美国(nodeshare.xyz免费节点) 88
-      - 美国(nodeshare.xyz免费节点) 89
-      - 美国(nodeshare.xyz免费节点) 90
-      - 美国(nodeshare.xyz免费节点) 91
-      - 美国(nodeshare.xyz免费节点) 92
-      - 美国(nodeshare.xyz免费节点) 93
-      - 美国(nodeshare.xyz免费节点) 94
-      - 美国(nodeshare.xyz免费节点) 95
-      - 美国(nodeshare.xyz免费节点) 96
+      - _US_美国_4
+      - _US_美国_5
+      - _US_美国_7
+      - _US_美国_8
+      - _US_美国_10
+      - _US_美国_11
+      - _US_美国_13
+      - _US_美国_14
+      - _US_美国_15
+      - _US_美国_16
+      - _CA_加拿大
+      - _US_美国_17
+      - _US_美国_18
+      - _CN_中国->🇮🇪_IE_爱尔兰
+      - _US_美国_19
+      - _IR_伊朗->🇫🇷_FR_法国_2
+      - _CN_中国->🇺🇸_US_美国_1
+      - _US_美国_20
+      - _US_美国_21
+      - _US_美国_22
+      - _US_美国_23
+      - _US_美国->🇷🇺_RU_俄罗斯_1
+      - _US_美国_24
+      - _US_美国_25
+      - _US_美国_26
+      - _US_美国_27
+      - _US_美国_28
+      - _US_美国_29
+      - _CN_中国->🇺🇸_US_美国_2
+      - _US_美国_30
+      - _US_美国_31
+      - _US_美国_32
+      - _US_美国_33
+      - _US_美国_34
+      - _US_美国_35
+      - _US_美国_36
+      - 香港(nodeshare.xyz免费节点)_1
+      - 美国(nodeshare.xyz免费节点)_6
+      - 美国(nodeshare.xyz免费节点)_7
+      - 美国(nodeshare.xyz免费节点)_8
+      - 美国(nodeshare.xyz免费节点)_11
+      - 美国(nodeshare.xyz免费节点)_12
+      - 美国(nodeshare.xyz免费节点)_13
+      - 香港(nodeshare.xyz免费节点)_2
+      - 香港(nodeshare.xyz免费节点)_3
+      - 法国(nodeshare.xyz免费节点)_1
+      - 香港(nodeshare.xyz免费节点)_4
+      - 香港(nodeshare.xyz免费节点)_5
+      - 美国(nodeshare.xyz免费节点)_16
+      - 香港(nodeshare.xyz免费节点)_7
+      - 美国(nodeshare.xyz免费节点)_17
+      - 香港(nodeshare.xyz免费节点)_8
+      - 法国(nodeshare.xyz免费节点)_2
+      - 香港(nodeshare.xyz免费节点)_9
+      - 香港(nodeshare.xyz免费节点)_10
+      - 美国(nodeshare.xyz免费节点)_22
+      - 美国(nodeshare.xyz免费节点)_24
+      - 英国(nodeshare.xyz免费节点)_1
+      - 美国(nodeshare.xyz免费节点)_29
+      - 香港(nodeshare.xyz免费节点)_11
+      - 香港(nodeshare.xyz免费节点)_12
+      - 新加坡(nodeshare.xyz免费节点)
+      - 美国(nodeshare.xyz免费节点)_39
+      - 美国(nodeshare.xyz免费节点)_40
+      - 日本(nodeshare.xyz免费节点)
+      - 俄罗斯(nodeshare.xyz免费节点)_2
+      - 英国(nodeshare.xyz免费节点)_2
+      - 美国(nodeshare.xyz免费节点)_45
+      - 美国(nodeshare.xyz免费节点)_46
+      - 美国(nodeshare.xyz免费节点)_48
+      - 香港(nodeshare.xyz免费节点)_13
+      - 美国(nodeshare.xyz免费节点)_68
+      - 美国(nodeshare.xyz免费节点)_82
+      - 德国(nodeshare.xyz免费节点)_4
+      - 美国(nodeshare.xyz免费节点)_161
+      - 美国(nodeshare.xyz免费节点)_164
+      - 美国(nodeshare.xyz免费节点)_179
+      - 美国(nodeshare.xyz免费节点)_182
+      - 香港(nodeshare.xyz免费节点)_14
+      - 美国(nodeshare.xyz免费节点)_234
+      - 印度(nodeshare.xyz免费节点)_4
   - name: 📲 电报信息
     type: select
     proxies:
@@ -920,128 +699,89 @@ proxy-groups:
       - _RU_俄罗斯_6
       - _RU_俄罗斯_7
       - _RU_俄罗斯_8
-      - _IE_爱尔兰
       - _US_美国_1
-      - _RU_俄罗斯_1 2
-      - _RU_俄罗斯_2 2
-      - _CN_中国
-      - _CH_瑞士
-      - _RU_俄罗斯_3 2
-      - _RU_俄罗斯_4 2
-      - _RU_俄罗斯_5 2
-      - _RU_俄罗斯_6 2
-      - _RU_俄罗斯_7 2
-      - _US_美国->🇬🇧_GB_英国
-      - _US_美国->🇷🇺_RU_俄罗斯
-      - _US_美国_2 2
       - _US_美国_3 2
-      - _GB_英国_1
-      - _RU_俄罗斯_8 2
-      - _GB_英国_2
-      - _RU_俄罗斯_9
-      - _RU_俄罗斯_10
-      - 美国(nodeshare.xyz免费节点)
-      - 美国(nodeshare.xyz免费节点) 2
-      - 美国(nodeshare.xyz免费节点) 3
-      - 美国(nodeshare.xyz免费节点) 4
-      - 美国(nodeshare.xyz免费节点) 5
-      - 美国(nodeshare.xyz免费节点) 6
-      - 美国(nodeshare.xyz免费节点) 7
-      - 美国(nodeshare.xyz免费节点) 8
-      - 美国(nodeshare.xyz免费节点) 9
-      - 美国(nodeshare.xyz免费节点) 10
-      - 美国(nodeshare.xyz免费节点) 11
-      - 美国(nodeshare.xyz免费节点) 12
-      - 美国(nodeshare.xyz免费节点) 13
-      - 美国(nodeshare.xyz免费节点) 14
-      - 美国(nodeshare.xyz免费节点) 15
-      - 美国(nodeshare.xyz免费节点) 16
-      - 美国(nodeshare.xyz免费节点) 17
-      - 美国(nodeshare.xyz免费节点) 18
-      - 美国(nodeshare.xyz免费节点) 19
-      - 美国(nodeshare.xyz免费节点) 20
-      - 美国(nodeshare.xyz免费节点) 21
-      - 美国(nodeshare.xyz免费节点) 22
-      - 美国(nodeshare.xyz免费节点) 23
-      - 美国(nodeshare.xyz免费节点) 24
-      - 美国(nodeshare.xyz免费节点) 25
-      - 美国(nodeshare.xyz免费节点) 26
-      - 美国(nodeshare.xyz免费节点) 27
-      - 美国(nodeshare.xyz免费节点) 28
-      - 美国(nodeshare.xyz免费节点) 29
-      - 乌克兰(nodeshare.xyz免费节点)
-      - 美国(nodeshare.xyz免费节点) 30
-      - 美国(nodeshare.xyz免费节点) 31
-      - 美国(nodeshare.xyz免费节点) 32
-      - 美国(nodeshare.xyz免费节点) 33
-      - 美国(nodeshare.xyz免费节点) 34
-      - 美国(nodeshare.xyz免费节点) 35
-      - 美国(nodeshare.xyz免费节点) 36
-      - 美国(nodeshare.xyz免费节点) 37
-      - 美国(nodeshare.xyz免费节点) 38
-      - 美国(nodeshare.xyz免费节点) 39
-      - 美国(nodeshare.xyz免费节点) 40
-      - 美国(nodeshare.xyz免费节点) 41
-      - 美国(nodeshare.xyz免费节点) 42
-      - 美国(nodeshare.xyz免费节点) 43
-      - 美国(nodeshare.xyz免费节点) 44
-      - 美国(nodeshare.xyz免费节点) 45
-      - 美国(nodeshare.xyz免费节点) 46
-      - 美国(nodeshare.xyz免费节点) 47
-      - 美国(nodeshare.xyz免费节点) 48
-      - 美国(nodeshare.xyz免费节点) 49
-      - 美国(nodeshare.xyz免费节点) 50
-      - 美国(nodeshare.xyz免费节点) 51
-      - 美国(nodeshare.xyz免费节点) 52
-      - 美国(nodeshare.xyz免费节点) 53
-      - 美国(nodeshare.xyz免费节点) 54
-      - 美国(nodeshare.xyz免费节点) 55
-      - 美国(nodeshare.xyz免费节点) 56
-      - 美国(nodeshare.xyz免费节点) 57
-      - 美国(nodeshare.xyz免费节点) 58
-      - 美国(nodeshare.xyz免费节点) 59
-      - 美国(nodeshare.xyz免费节点) 60
-      - 美国(nodeshare.xyz免费节点) 61
-      - 法国(nodeshare.xyz免费节点)
-      - 美国(nodeshare.xyz免费节点) 62
-      - 美国(nodeshare.xyz免费节点) 63
-      - 美国(nodeshare.xyz免费节点) 64
-      - 美国(nodeshare.xyz免费节点) 65
-      - 美国(nodeshare.xyz免费节点) 66
-      - 美国(nodeshare.xyz免费节点) 67
-      - 美国(nodeshare.xyz免费节点) 68
-      - 美国(nodeshare.xyz免费节点) 69
-      - 美国(nodeshare.xyz免费节点) 70
-      - 俄罗斯(nodeshare.xyz免费节点)
-      - 美国(nodeshare.xyz免费节点) 71
-      - 俄罗斯(nodeshare.xyz免费节点) 2
-      - 美国(nodeshare.xyz免费节点) 72
-      - 美国(nodeshare.xyz免费节点) 73
-      - 美国(nodeshare.xyz免费节点) 74
-      - 美国(nodeshare.xyz免费节点) 75
-      - 美国(nodeshare.xyz免费节点) 76
-      - 美国(nodeshare.xyz免费节点) 77
-      - 美国(nodeshare.xyz免费节点) 78
-      - 美国(nodeshare.xyz免费节点) 79
-      - 美国(nodeshare.xyz免费节点) 80
-      - 美国(nodeshare.xyz免费节点) 81
-      - 美国(nodeshare.xyz免费节点) 82
-      - 美国(nodeshare.xyz免费节点) 83
-      - 美国(nodeshare.xyz免费节点) 84
-      - 美国(nodeshare.xyz免费节点) 85
-      - 俄罗斯(nodeshare.xyz免费节点) 3
-      - 加拿大(nodeshare.xyz免费节点)
-      - 美国(nodeshare.xyz免费节点) 86
-      - 美国(nodeshare.xyz免费节点) 87
-      - 美国(nodeshare.xyz免费节点) 88
-      - 美国(nodeshare.xyz免费节点) 89
-      - 美国(nodeshare.xyz免费节点) 90
-      - 美国(nodeshare.xyz免费节点) 91
-      - 美国(nodeshare.xyz免费节点) 92
-      - 美国(nodeshare.xyz免费节点) 93
-      - 美国(nodeshare.xyz免费节点) 94
-      - 美国(nodeshare.xyz免费节点) 95
-      - 美国(nodeshare.xyz免费节点) 96
+      - _US_美国_4
+      - _US_美国_5
+      - _US_美国_7
+      - _US_美国_8
+      - _US_美国_10
+      - _US_美国_11
+      - _US_美国_13
+      - _US_美国_14
+      - _US_美国_15
+      - _US_美国_16
+      - _CA_加拿大
+      - _US_美国_17
+      - _US_美国_18
+      - _CN_中国->🇮🇪_IE_爱尔兰
+      - _US_美国_19
+      - _IR_伊朗->🇫🇷_FR_法国_2
+      - _CN_中国->🇺🇸_US_美国_1
+      - _US_美国_20
+      - _US_美国_21
+      - _US_美国_22
+      - _US_美国_23
+      - _US_美国->🇷🇺_RU_俄罗斯_1
+      - _US_美国_24
+      - _US_美国_25
+      - _US_美国_26
+      - _US_美国_27
+      - _US_美国_28
+      - _US_美国_29
+      - _CN_中国->🇺🇸_US_美国_2
+      - _US_美国_30
+      - _US_美国_31
+      - _US_美国_32
+      - _US_美国_33
+      - _US_美国_34
+      - _US_美国_35
+      - _US_美国_36
+      - 香港(nodeshare.xyz免费节点)_1
+      - 美国(nodeshare.xyz免费节点)_6
+      - 美国(nodeshare.xyz免费节点)_7
+      - 美国(nodeshare.xyz免费节点)_8
+      - 美国(nodeshare.xyz免费节点)_11
+      - 美国(nodeshare.xyz免费节点)_12
+      - 美国(nodeshare.xyz免费节点)_13
+      - 香港(nodeshare.xyz免费节点)_2
+      - 香港(nodeshare.xyz免费节点)_3
+      - 法国(nodeshare.xyz免费节点)_1
+      - 香港(nodeshare.xyz免费节点)_4
+      - 香港(nodeshare.xyz免费节点)_5
+      - 美国(nodeshare.xyz免费节点)_16
+      - 香港(nodeshare.xyz免费节点)_7
+      - 美国(nodeshare.xyz免费节点)_17
+      - 香港(nodeshare.xyz免费节点)_8
+      - 法国(nodeshare.xyz免费节点)_2
+      - 香港(nodeshare.xyz免费节点)_9
+      - 香港(nodeshare.xyz免费节点)_10
+      - 美国(nodeshare.xyz免费节点)_22
+      - 美国(nodeshare.xyz免费节点)_24
+      - 英国(nodeshare.xyz免费节点)_1
+      - 美国(nodeshare.xyz免费节点)_29
+      - 香港(nodeshare.xyz免费节点)_11
+      - 香港(nodeshare.xyz免费节点)_12
+      - 新加坡(nodeshare.xyz免费节点)
+      - 美国(nodeshare.xyz免费节点)_39
+      - 美国(nodeshare.xyz免费节点)_40
+      - 日本(nodeshare.xyz免费节点)
+      - 俄罗斯(nodeshare.xyz免费节点)_2
+      - 英国(nodeshare.xyz免费节点)_2
+      - 美国(nodeshare.xyz免费节点)_45
+      - 美国(nodeshare.xyz免费节点)_46
+      - 美国(nodeshare.xyz免费节点)_48
+      - 香港(nodeshare.xyz免费节点)_13
+      - 美国(nodeshare.xyz免费节点)_68
+      - 美国(nodeshare.xyz免费节点)_82
+      - 德国(nodeshare.xyz免费节点)_4
+      - 美国(nodeshare.xyz免费节点)_161
+      - 美国(nodeshare.xyz免费节点)_164
+      - 美国(nodeshare.xyz免费节点)_179
+      - 美国(nodeshare.xyz免费节点)_182
+      - 香港(nodeshare.xyz免费节点)_14
+      - 美国(nodeshare.xyz免费节点)_234
+      - 印度(nodeshare.xyz免费节点)_4
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -1067,128 +807,89 @@ proxy-groups:
       - _RU_俄罗斯_6
       - _RU_俄罗斯_7
       - _RU_俄罗斯_8
-      - _IE_爱尔兰
       - _US_美国_1
-      - _RU_俄罗斯_1 2
-      - _RU_俄罗斯_2 2
-      - _CN_中国
-      - _CH_瑞士
-      - _RU_俄罗斯_3 2
-      - _RU_俄罗斯_4 2
-      - _RU_俄罗斯_5 2
-      - _RU_俄罗斯_6 2
-      - _RU_俄罗斯_7 2
-      - _US_美国->🇬🇧_GB_英国
-      - _US_美国->🇷🇺_RU_俄罗斯
-      - _US_美国_2 2
       - _US_美国_3 2
-      - _GB_英国_1
-      - _RU_俄罗斯_8 2
-      - _GB_英国_2
-      - _RU_俄罗斯_9
-      - _RU_俄罗斯_10
-      - 美国(nodeshare.xyz免费节点)
-      - 美国(nodeshare.xyz免费节点) 2
-      - 美国(nodeshare.xyz免费节点) 3
-      - 美国(nodeshare.xyz免费节点) 4
-      - 美国(nodeshare.xyz免费节点) 5
-      - 美国(nodeshare.xyz免费节点) 6
-      - 美国(nodeshare.xyz免费节点) 7
-      - 美国(nodeshare.xyz免费节点) 8
-      - 美国(nodeshare.xyz免费节点) 9
-      - 美国(nodeshare.xyz免费节点) 10
-      - 美国(nodeshare.xyz免费节点) 11
-      - 美国(nodeshare.xyz免费节点) 12
-      - 美国(nodeshare.xyz免费节点) 13
-      - 美国(nodeshare.xyz免费节点) 14
-      - 美国(nodeshare.xyz免费节点) 15
-      - 美国(nodeshare.xyz免费节点) 16
-      - 美国(nodeshare.xyz免费节点) 17
-      - 美国(nodeshare.xyz免费节点) 18
-      - 美国(nodeshare.xyz免费节点) 19
-      - 美国(nodeshare.xyz免费节点) 20
-      - 美国(nodeshare.xyz免费节点) 21
-      - 美国(nodeshare.xyz免费节点) 22
-      - 美国(nodeshare.xyz免费节点) 23
-      - 美国(nodeshare.xyz免费节点) 24
-      - 美国(nodeshare.xyz免费节点) 25
-      - 美国(nodeshare.xyz免费节点) 26
-      - 美国(nodeshare.xyz免费节点) 27
-      - 美国(nodeshare.xyz免费节点) 28
-      - 美国(nodeshare.xyz免费节点) 29
-      - 乌克兰(nodeshare.xyz免费节点)
-      - 美国(nodeshare.xyz免费节点) 30
-      - 美国(nodeshare.xyz免费节点) 31
-      - 美国(nodeshare.xyz免费节点) 32
-      - 美国(nodeshare.xyz免费节点) 33
-      - 美国(nodeshare.xyz免费节点) 34
-      - 美国(nodeshare.xyz免费节点) 35
-      - 美国(nodeshare.xyz免费节点) 36
-      - 美国(nodeshare.xyz免费节点) 37
-      - 美国(nodeshare.xyz免费节点) 38
-      - 美国(nodeshare.xyz免费节点) 39
-      - 美国(nodeshare.xyz免费节点) 40
-      - 美国(nodeshare.xyz免费节点) 41
-      - 美国(nodeshare.xyz免费节点) 42
-      - 美国(nodeshare.xyz免费节点) 43
-      - 美国(nodeshare.xyz免费节点) 44
-      - 美国(nodeshare.xyz免费节点) 45
-      - 美国(nodeshare.xyz免费节点) 46
-      - 美国(nodeshare.xyz免费节点) 47
-      - 美国(nodeshare.xyz免费节点) 48
-      - 美国(nodeshare.xyz免费节点) 49
-      - 美国(nodeshare.xyz免费节点) 50
-      - 美国(nodeshare.xyz免费节点) 51
-      - 美国(nodeshare.xyz免费节点) 52
-      - 美国(nodeshare.xyz免费节点) 53
-      - 美国(nodeshare.xyz免费节点) 54
-      - 美国(nodeshare.xyz免费节点) 55
-      - 美国(nodeshare.xyz免费节点) 56
-      - 美国(nodeshare.xyz免费节点) 57
-      - 美国(nodeshare.xyz免费节点) 58
-      - 美国(nodeshare.xyz免费节点) 59
-      - 美国(nodeshare.xyz免费节点) 60
-      - 美国(nodeshare.xyz免费节点) 61
-      - 法国(nodeshare.xyz免费节点)
-      - 美国(nodeshare.xyz免费节点) 62
-      - 美国(nodeshare.xyz免费节点) 63
-      - 美国(nodeshare.xyz免费节点) 64
-      - 美国(nodeshare.xyz免费节点) 65
-      - 美国(nodeshare.xyz免费节点) 66
-      - 美国(nodeshare.xyz免费节点) 67
-      - 美国(nodeshare.xyz免费节点) 68
-      - 美国(nodeshare.xyz免费节点) 69
-      - 美国(nodeshare.xyz免费节点) 70
-      - 俄罗斯(nodeshare.xyz免费节点)
-      - 美国(nodeshare.xyz免费节点) 71
-      - 俄罗斯(nodeshare.xyz免费节点) 2
-      - 美国(nodeshare.xyz免费节点) 72
-      - 美国(nodeshare.xyz免费节点) 73
-      - 美国(nodeshare.xyz免费节点) 74
-      - 美国(nodeshare.xyz免费节点) 75
-      - 美国(nodeshare.xyz免费节点) 76
-      - 美国(nodeshare.xyz免费节点) 77
-      - 美国(nodeshare.xyz免费节点) 78
-      - 美国(nodeshare.xyz免费节点) 79
-      - 美国(nodeshare.xyz免费节点) 80
-      - 美国(nodeshare.xyz免费节点) 81
-      - 美国(nodeshare.xyz免费节点) 82
-      - 美国(nodeshare.xyz免费节点) 83
-      - 美国(nodeshare.xyz免费节点) 84
-      - 美国(nodeshare.xyz免费节点) 85
-      - 俄罗斯(nodeshare.xyz免费节点) 3
-      - 加拿大(nodeshare.xyz免费节点)
-      - 美国(nodeshare.xyz免费节点) 86
-      - 美国(nodeshare.xyz免费节点) 87
-      - 美国(nodeshare.xyz免费节点) 88
-      - 美国(nodeshare.xyz免费节点) 89
-      - 美国(nodeshare.xyz免费节点) 90
-      - 美国(nodeshare.xyz免费节点) 91
-      - 美国(nodeshare.xyz免费节点) 92
-      - 美国(nodeshare.xyz免费节点) 93
-      - 美国(nodeshare.xyz免费节点) 94
-      - 美国(nodeshare.xyz免费节点) 95
-      - 美国(nodeshare.xyz免费节点) 96
+      - _US_美国_4
+      - _US_美国_5
+      - _US_美国_7
+      - _US_美国_8
+      - _US_美国_10
+      - _US_美国_11
+      - _US_美国_13
+      - _US_美国_14
+      - _US_美国_15
+      - _US_美国_16
+      - _CA_加拿大
+      - _US_美国_17
+      - _US_美国_18
+      - _CN_中国->🇮🇪_IE_爱尔兰
+      - _US_美国_19
+      - _IR_伊朗->🇫🇷_FR_法国_2
+      - _CN_中国->🇺🇸_US_美国_1
+      - _US_美国_20
+      - _US_美国_21
+      - _US_美国_22
+      - _US_美国_23
+      - _US_美国->🇷🇺_RU_俄罗斯_1
+      - _US_美国_24
+      - _US_美国_25
+      - _US_美国_26
+      - _US_美国_27
+      - _US_美国_28
+      - _US_美国_29
+      - _CN_中国->🇺🇸_US_美国_2
+      - _US_美国_30
+      - _US_美国_31
+      - _US_美国_32
+      - _US_美国_33
+      - _US_美国_34
+      - _US_美国_35
+      - _US_美国_36
+      - 香港(nodeshare.xyz免费节点)_1
+      - 美国(nodeshare.xyz免费节点)_6
+      - 美国(nodeshare.xyz免费节点)_7
+      - 美国(nodeshare.xyz免费节点)_8
+      - 美国(nodeshare.xyz免费节点)_11
+      - 美国(nodeshare.xyz免费节点)_12
+      - 美国(nodeshare.xyz免费节点)_13
+      - 香港(nodeshare.xyz免费节点)_2
+      - 香港(nodeshare.xyz免费节点)_3
+      - 法国(nodeshare.xyz免费节点)_1
+      - 香港(nodeshare.xyz免费节点)_4
+      - 香港(nodeshare.xyz免费节点)_5
+      - 美国(nodeshare.xyz免费节点)_16
+      - 香港(nodeshare.xyz免费节点)_7
+      - 美国(nodeshare.xyz免费节点)_17
+      - 香港(nodeshare.xyz免费节点)_8
+      - 法国(nodeshare.xyz免费节点)_2
+      - 香港(nodeshare.xyz免费节点)_9
+      - 香港(nodeshare.xyz免费节点)_10
+      - 美国(nodeshare.xyz免费节点)_22
+      - 美国(nodeshare.xyz免费节点)_24
+      - 英国(nodeshare.xyz免费节点)_1
+      - 美国(nodeshare.xyz免费节点)_29
+      - 香港(nodeshare.xyz免费节点)_11
+      - 香港(nodeshare.xyz免费节点)_12
+      - 新加坡(nodeshare.xyz免费节点)
+      - 美国(nodeshare.xyz免费节点)_39
+      - 美国(nodeshare.xyz免费节点)_40
+      - 日本(nodeshare.xyz免费节点)
+      - 俄罗斯(nodeshare.xyz免费节点)_2
+      - 英国(nodeshare.xyz免费节点)_2
+      - 美国(nodeshare.xyz免费节点)_45
+      - 美国(nodeshare.xyz免费节点)_46
+      - 美国(nodeshare.xyz免费节点)_48
+      - 香港(nodeshare.xyz免费节点)_13
+      - 美国(nodeshare.xyz免费节点)_68
+      - 美国(nodeshare.xyz免费节点)_82
+      - 德国(nodeshare.xyz免费节点)_4
+      - 美国(nodeshare.xyz免费节点)_161
+      - 美国(nodeshare.xyz免费节点)_164
+      - 美国(nodeshare.xyz免费节点)_179
+      - 美国(nodeshare.xyz免费节点)_182
+      - 香港(nodeshare.xyz免费节点)_14
+      - 美国(nodeshare.xyz免费节点)_234
+      - 印度(nodeshare.xyz免费节点)_4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1223,128 +924,89 @@ proxy-groups:
       - _RU_俄罗斯_6
       - _RU_俄罗斯_7
       - _RU_俄罗斯_8
-      - _IE_爱尔兰
       - _US_美国_1
-      - _RU_俄罗斯_1 2
-      - _RU_俄罗斯_2 2
-      - _CN_中国
-      - _CH_瑞士
-      - _RU_俄罗斯_3 2
-      - _RU_俄罗斯_4 2
-      - _RU_俄罗斯_5 2
-      - _RU_俄罗斯_6 2
-      - _RU_俄罗斯_7 2
-      - _US_美国->🇬🇧_GB_英国
-      - _US_美国->🇷🇺_RU_俄罗斯
-      - _US_美国_2 2
       - _US_美国_3 2
-      - _GB_英国_1
-      - _RU_俄罗斯_8 2
-      - _GB_英国_2
-      - _RU_俄罗斯_9
-      - _RU_俄罗斯_10
-      - 美国(nodeshare.xyz免费节点)
-      - 美国(nodeshare.xyz免费节点) 2
-      - 美国(nodeshare.xyz免费节点) 3
-      - 美国(nodeshare.xyz免费节点) 4
-      - 美国(nodeshare.xyz免费节点) 5
-      - 美国(nodeshare.xyz免费节点) 6
-      - 美国(nodeshare.xyz免费节点) 7
-      - 美国(nodeshare.xyz免费节点) 8
-      - 美国(nodeshare.xyz免费节点) 9
-      - 美国(nodeshare.xyz免费节点) 10
-      - 美国(nodeshare.xyz免费节点) 11
-      - 美国(nodeshare.xyz免费节点) 12
-      - 美国(nodeshare.xyz免费节点) 13
-      - 美国(nodeshare.xyz免费节点) 14
-      - 美国(nodeshare.xyz免费节点) 15
-      - 美国(nodeshare.xyz免费节点) 16
-      - 美国(nodeshare.xyz免费节点) 17
-      - 美国(nodeshare.xyz免费节点) 18
-      - 美国(nodeshare.xyz免费节点) 19
-      - 美国(nodeshare.xyz免费节点) 20
-      - 美国(nodeshare.xyz免费节点) 21
-      - 美国(nodeshare.xyz免费节点) 22
-      - 美国(nodeshare.xyz免费节点) 23
-      - 美国(nodeshare.xyz免费节点) 24
-      - 美国(nodeshare.xyz免费节点) 25
-      - 美国(nodeshare.xyz免费节点) 26
-      - 美国(nodeshare.xyz免费节点) 27
-      - 美国(nodeshare.xyz免费节点) 28
-      - 美国(nodeshare.xyz免费节点) 29
-      - 乌克兰(nodeshare.xyz免费节点)
-      - 美国(nodeshare.xyz免费节点) 30
-      - 美国(nodeshare.xyz免费节点) 31
-      - 美国(nodeshare.xyz免费节点) 32
-      - 美国(nodeshare.xyz免费节点) 33
-      - 美国(nodeshare.xyz免费节点) 34
-      - 美国(nodeshare.xyz免费节点) 35
-      - 美国(nodeshare.xyz免费节点) 36
-      - 美国(nodeshare.xyz免费节点) 37
-      - 美国(nodeshare.xyz免费节点) 38
-      - 美国(nodeshare.xyz免费节点) 39
-      - 美国(nodeshare.xyz免费节点) 40
-      - 美国(nodeshare.xyz免费节点) 41
-      - 美国(nodeshare.xyz免费节点) 42
-      - 美国(nodeshare.xyz免费节点) 43
-      - 美国(nodeshare.xyz免费节点) 44
-      - 美国(nodeshare.xyz免费节点) 45
-      - 美国(nodeshare.xyz免费节点) 46
-      - 美国(nodeshare.xyz免费节点) 47
-      - 美国(nodeshare.xyz免费节点) 48
-      - 美国(nodeshare.xyz免费节点) 49
-      - 美国(nodeshare.xyz免费节点) 50
-      - 美国(nodeshare.xyz免费节点) 51
-      - 美国(nodeshare.xyz免费节点) 52
-      - 美国(nodeshare.xyz免费节点) 53
-      - 美国(nodeshare.xyz免费节点) 54
-      - 美国(nodeshare.xyz免费节点) 55
-      - 美国(nodeshare.xyz免费节点) 56
-      - 美国(nodeshare.xyz免费节点) 57
-      - 美国(nodeshare.xyz免费节点) 58
-      - 美国(nodeshare.xyz免费节点) 59
-      - 美国(nodeshare.xyz免费节点) 60
-      - 美国(nodeshare.xyz免费节点) 61
-      - 法国(nodeshare.xyz免费节点)
-      - 美国(nodeshare.xyz免费节点) 62
-      - 美国(nodeshare.xyz免费节点) 63
-      - 美国(nodeshare.xyz免费节点) 64
-      - 美国(nodeshare.xyz免费节点) 65
-      - 美国(nodeshare.xyz免费节点) 66
-      - 美国(nodeshare.xyz免费节点) 67
-      - 美国(nodeshare.xyz免费节点) 68
-      - 美国(nodeshare.xyz免费节点) 69
-      - 美国(nodeshare.xyz免费节点) 70
-      - 俄罗斯(nodeshare.xyz免费节点)
-      - 美国(nodeshare.xyz免费节点) 71
-      - 俄罗斯(nodeshare.xyz免费节点) 2
-      - 美国(nodeshare.xyz免费节点) 72
-      - 美国(nodeshare.xyz免费节点) 73
-      - 美国(nodeshare.xyz免费节点) 74
-      - 美国(nodeshare.xyz免费节点) 75
-      - 美国(nodeshare.xyz免费节点) 76
-      - 美国(nodeshare.xyz免费节点) 77
-      - 美国(nodeshare.xyz免费节点) 78
-      - 美国(nodeshare.xyz免费节点) 79
-      - 美国(nodeshare.xyz免费节点) 80
-      - 美国(nodeshare.xyz免费节点) 81
-      - 美国(nodeshare.xyz免费节点) 82
-      - 美国(nodeshare.xyz免费节点) 83
-      - 美国(nodeshare.xyz免费节点) 84
-      - 美国(nodeshare.xyz免费节点) 85
-      - 俄罗斯(nodeshare.xyz免费节点) 3
-      - 加拿大(nodeshare.xyz免费节点)
-      - 美国(nodeshare.xyz免费节点) 86
-      - 美国(nodeshare.xyz免费节点) 87
-      - 美国(nodeshare.xyz免费节点) 88
-      - 美国(nodeshare.xyz免费节点) 89
-      - 美国(nodeshare.xyz免费节点) 90
-      - 美国(nodeshare.xyz免费节点) 91
-      - 美国(nodeshare.xyz免费节点) 92
-      - 美国(nodeshare.xyz免费节点) 93
-      - 美国(nodeshare.xyz免费节点) 94
-      - 美国(nodeshare.xyz免费节点) 95
-      - 美国(nodeshare.xyz免费节点) 96
+      - _US_美国_4
+      - _US_美国_5
+      - _US_美国_7
+      - _US_美国_8
+      - _US_美国_10
+      - _US_美国_11
+      - _US_美国_13
+      - _US_美国_14
+      - _US_美国_15
+      - _US_美国_16
+      - _CA_加拿大
+      - _US_美国_17
+      - _US_美国_18
+      - _CN_中国->🇮🇪_IE_爱尔兰
+      - _US_美国_19
+      - _IR_伊朗->🇫🇷_FR_法国_2
+      - _CN_中国->🇺🇸_US_美国_1
+      - _US_美国_20
+      - _US_美国_21
+      - _US_美国_22
+      - _US_美国_23
+      - _US_美国->🇷🇺_RU_俄罗斯_1
+      - _US_美国_24
+      - _US_美国_25
+      - _US_美国_26
+      - _US_美国_27
+      - _US_美国_28
+      - _US_美国_29
+      - _CN_中国->🇺🇸_US_美国_2
+      - _US_美国_30
+      - _US_美国_31
+      - _US_美国_32
+      - _US_美国_33
+      - _US_美国_34
+      - _US_美国_35
+      - _US_美国_36
+      - 香港(nodeshare.xyz免费节点)_1
+      - 美国(nodeshare.xyz免费节点)_6
+      - 美国(nodeshare.xyz免费节点)_7
+      - 美国(nodeshare.xyz免费节点)_8
+      - 美国(nodeshare.xyz免费节点)_11
+      - 美国(nodeshare.xyz免费节点)_12
+      - 美国(nodeshare.xyz免费节点)_13
+      - 香港(nodeshare.xyz免费节点)_2
+      - 香港(nodeshare.xyz免费节点)_3
+      - 法国(nodeshare.xyz免费节点)_1
+      - 香港(nodeshare.xyz免费节点)_4
+      - 香港(nodeshare.xyz免费节点)_5
+      - 美国(nodeshare.xyz免费节点)_16
+      - 香港(nodeshare.xyz免费节点)_7
+      - 美国(nodeshare.xyz免费节点)_17
+      - 香港(nodeshare.xyz免费节点)_8
+      - 法国(nodeshare.xyz免费节点)_2
+      - 香港(nodeshare.xyz免费节点)_9
+      - 香港(nodeshare.xyz免费节点)_10
+      - 美国(nodeshare.xyz免费节点)_22
+      - 美国(nodeshare.xyz免费节点)_24
+      - 英国(nodeshare.xyz免费节点)_1
+      - 美国(nodeshare.xyz免费节点)_29
+      - 香港(nodeshare.xyz免费节点)_11
+      - 香港(nodeshare.xyz免费节点)_12
+      - 新加坡(nodeshare.xyz免费节点)
+      - 美国(nodeshare.xyz免费节点)_39
+      - 美国(nodeshare.xyz免费节点)_40
+      - 日本(nodeshare.xyz免费节点)
+      - 俄罗斯(nodeshare.xyz免费节点)_2
+      - 英国(nodeshare.xyz免费节点)_2
+      - 美国(nodeshare.xyz免费节点)_45
+      - 美国(nodeshare.xyz免费节点)_46
+      - 美国(nodeshare.xyz免费节点)_48
+      - 香港(nodeshare.xyz免费节点)_13
+      - 美国(nodeshare.xyz免费节点)_68
+      - 美国(nodeshare.xyz免费节点)_82
+      - 德国(nodeshare.xyz免费节点)_4
+      - 美国(nodeshare.xyz免费节点)_161
+      - 美国(nodeshare.xyz免费节点)_164
+      - 美国(nodeshare.xyz免费节点)_179
+      - 美国(nodeshare.xyz免费节点)_182
+      - 香港(nodeshare.xyz免费节点)_14
+      - 美国(nodeshare.xyz免费节点)_234
+      - 印度(nodeshare.xyz免费节点)_4
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
