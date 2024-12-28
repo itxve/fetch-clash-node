@@ -69,51 +69,150 @@ proxies:
   - {name: _US_美国_34, server: 104.17.215.18, port: 443, type: trojan, password: 4732adfa16c6450bbef87264e41332db, sni: jobscareerforstudent.com, skip-cert-verify: true, network: ws, ws-opts: {path: /6b777a91, headers: {Host: jobscareerforstudent.com}}, udp: true}
   - {name: _US_美国_35, server: 169.197.142.120, port: 5498, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV, udp: true}
   - {name: _US_美国_36, server: 162.159.136.98, port: 80, type: vmess, uuid: 5820093a-bb7d-4e15-8575-1a529f2d8282, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 香港(nodeshare.xyz免费节点)_1, server: jehw72eh.iwbh.cn, port: 49709, type: ss, cipher: aes-256-gcm, password: c5b81ddf-242f-4f60-b6cd-3b6d336e1e64, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点)_6, server: h.522226.xyz, port: 45800, type: trojan, password: xjN4xcuPGg55, sni: h.522226.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点)_7, server: jobsfortheworldtoday.com, port: 443, type: trojan, password: 71409d3e488548e8bb076d229778f008, skip-cert-verify: true, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点)_8, server: 212.102.53.193, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点)_11, server: 149.34.244.82, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点)_12, server: 208.67.105.87, port: 42501, type: ss, cipher: chacha20-ietf-poly1305, password: nq96KftrZAj3LuFQESqmn44Mo5oCuo2cipoEsae25mrmHG2oJ4VT37scBfVBpN5DWtUELZutVhhXs8Le5B8fZ9hLn9ytwvbf, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点)_13, server: 183.236.51.23, port: 53002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港(nodeshare.xyz免费节点)_2, server: jehw72eh.iwbh.cn, port: 49709, type: ss, cipher: aes-256-gcm, password: 82ecb99a-9a08-40d4-87ba-624533378144, udp: true}
-  - {name: 香港(nodeshare.xyz免费节点)_3, server: jehw72eh.iwbh.cn, port: 49709, type: ss, cipher: aes-256-gcm, password: 5279dd4b-b346-4cc6-aee1-3381f45481f9, udp: true}
-  - {name: 法国(nodeshare.xyz免费节点)_1, server: 163.5.159.231, port: 443, type: vmess, uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
-  - {name: 香港(nodeshare.xyz免费节点)_4, server: jehw72eh.iwbh.cn, port: 49709, type: ss, cipher: aes-256-gcm, password: 67dbb678-6568-4744-8342-7a67e80335dd, udp: true}
-  - {name: 香港(nodeshare.xyz免费节点)_5, server: jehw72eh.iwbh.cn, port: 49709, type: ss, cipher: aes-256-gcm, password: ceb059a4-e927-40a8-b774-31e70174bf0d, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点)_16, server: ccs.kozow.com, port: 443, type: vmess, uuid: 87ae2ebc-3e45-33d9-8ed3-61a337d88888, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ccs.kozow.com}}, udp: true}
-  - {name: 香港(nodeshare.xyz免费节点)_7, server: jehw72eh.iwbh.cn, port: 49709, type: ss, cipher: aes-256-gcm, password: 55dcf904-57c1-418c-afae-994312b7582a, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点)_17, server: 183.236.51.23, port: 56601, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港(nodeshare.xyz免费节点)_8, server: jehw72eh.iwbh.cn, port: 49709, type: ss, cipher: aes-256-gcm, password: acbaa4e8-9070-4f2f-baf7-e0a30a527c3b, udp: true}
-  - {name: 法国(nodeshare.xyz免费节点)_2, server: irvideo.cfd, port: 443, type: vmess, uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: irvideo.cfd}}, udp: true}
-  - {name: 香港(nodeshare.xyz免费节点)_9, server: jehw72eh.iwbh.cn, port: 49709, type: ss, cipher: aes-256-gcm, password: deb2d61b-0a08-4de3-9fcd-2752289adbe5, udp: true}
-  - {name: 香港(nodeshare.xyz免费节点)_10, server: jehw72eh.iwbh.cn, port: 49709, type: ss, cipher: aes-256-gcm, password: 529917cd-381f-4f63-addc-17fc9e373d09, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点)_22, server: www.speedtest.net, port: 8080, type: vmess, uuid: cc9be09e-c05e-4f54-831b-969ecb185692, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /njbvhfgxdgthj, headers: {Host: www.speedtest.net}}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点)_24, server: 104.17.147.22, port: 8080, type: vmess, uuid: cc9be09e-c05e-4f54-831b-969ecb185692, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /njbvhfgxdgthj}, udp: true}
-  - {name: 英国(nodeshare.xyz免费节点)_1, server: 193.38.136.149, port: 8353, type: ss, cipher: aes-256-gcm, password: 4180441OS33nY3f2WpxyU, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点)_29, server: 183.236.51.23, port: 46602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港(nodeshare.xyz免费节点)_11, server: jehw72eh.iwbh.cn, port: 49709, type: ss, cipher: aes-256-gcm, password: 69109068-601e-4a70-91da-d0857e4c569d, udp: true}
-  - {name: 香港(nodeshare.xyz免费节点)_12, server: jehw72eh.iwbh.cn, port: 49709, type: ss, cipher: aes-256-gcm, password: bc4f897c-8397-4e71-a77b-ff1631107e32, udp: true}
-  - {name: 新加坡(nodeshare.xyz免费节点), server: connectwithemployers.online, port: 443, type: trojan, password: 0ab6c98dae3b48e8b9c4a776b6c9c19a, skip-cert-verify: true, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点)_39, server: 198.2.218.100, port: 41400, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点)_40, server: 120.198.71.214, port: 34493, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本(nodeshare.xyz免费节点), server: 149.22.87.204, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 俄罗斯(nodeshare.xyz免费节点)_2, server: 185.22.155.228, port: 23456, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, udp: true}
-  - {name: 英国(nodeshare.xyz免费节点)_2, server: 158.180.228.226, port: 443, type: vmess, uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点)_45, server: 46.183.217.232, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点)_46, server: h.522226.xyz, port: 45800, type: trojan, password: xjN4xcuPGg55, skip-cert-verify: true, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点)_48, server: 183.236.51.23, port: 51704, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港(nodeshare.xyz免费节点)_13, server: jehw72eh.iwbh.cn, port: 49709, type: ss, cipher: aes-256-gcm, password: d95ac3f9-4238-4ced-9009-31f925ab02bf, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点)_68, server: 45.87.175.166, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点)_82, server: 120.232.153.63, port: 40972, type: vmess, uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 德国(nodeshare.xyz免费节点)_4, server: 45.87.175.181, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点)_161, server: 45.87.175.166, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点)_164, server: 45.87.175.171, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点)_179, server: s2.db-link02.top, port: 8880, type: vmess, uuid: 671c51c8-c6f3-3bf6-8ba4-60ccc56e46cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.25.119.247, headers: {Host: s2.db-link02.top}}, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点)_182, server: s2.db-link02.top, port: 8880, type: vmess, uuid: 671c51c8-c6f3-3bf6-8ba4-60ccc56e46cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.25.119.247, headers: {Host: s2.db-link02.top}}, udp: true}
-  - {name: 香港(nodeshare.xyz免费节点)_14, server: jehw72eh.iwbh.cn, port: 49709, type: ss, cipher: aes-256-gcm, password: 740bf3bf-2305-45a2-bc17-7196b01b3ecf, udp: true}
-  - {name: 美国(nodeshare.xyz免费节点)_234, server: jobsfortheworldtoday.com, port: 443, type: trojan, password: 71409d3e488548e8bb076d229778f008, sni: jobsfortheworldtoday.com, skip-cert-verify: true, udp: true}
-  - {name: 印度(nodeshare.xyz免费节点)_4, server: 158.180.228.226, port: 443, type: vmess, uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
+  - {name: 马来西亚|MAS1|x9, server: a1wzguka5uiztkpl0ikzo4l5wkmdti5z.02.01.mas.k7h.lol, port: 31877, type: ss, cipher: chacha20-ietf-poly1305, password: 352ec04c-fad2-49b7-b206-4b5d68e47ce6, udp: true}
+  - {name: -0323-JP【nodeshare.xyz〗+永久免费节点机场, server: 35.78.173.41, port: 443, type: trojan, password: ce568d35-5c53-3c48-9fa6-aa8317d5f2e1, sni: cloudsync-prod.s3.amazonaws.com, skip-cert-verify: true, udp: true}
+  - {name: -0683-CN【nodeshare.xyz〗+永久免费节点机场, server: gy.58n.net, port: 20076, type: trojan, password: 01db7718-09d7-3aa3-885f-da6cf66af210, sni: x76.flybar.work, skip-cert-verify: true, udp: true}
+  - {name: "[openproxylist.com]vmess-DE", server: 151.101.194.133, port: 443, type: vmess, uuid: 545485da-9ff4-48c5-ae94-45e6e4ee7d26, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /racevpn}, udp: true}
+  - {name: -0688-CN【nodeshare.xyz〗+永久免费节点机场, server: gy.58n.net, port: 20130, type: trojan, password: 01db7718-09d7-3aa3-885f-da6cf66af210, sni: x130.flybar.work, skip-cert-verify: true, udp: true}
+  - {name: 美国|SEA1, server: mbhe6nslbiq4qovnyx5603ltgylg2suy.02.07.us.k7h.lol, port: 38322, type: ss, cipher: chacha20-ietf-poly1305, password: 352ec04c-fad2-49b7-b206-4b5d68e47ce6, udp: true}
+  - {name: -0667-CN【nodeshare.xyz〗+永久免费节点机场, server: gy.58n.net, port: 20308, type: trojan, password: 01db7718-09d7-3aa3-885f-da6cf66af210, sni: z308.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: -0685-CN【nodeshare.xyz〗+永久免费节点机场, server: gy.58n.net, port: 17806, type: trojan, password: 01db7718-09d7-3aa3-885f-da6cf66af210, sni: x65.flybar.work, skip-cert-verify: true, udp: true}
+  - {name: -0602-CN【nodeshare.xyz〗+永久免费节点机场, server: jsyd.yeahfast.com, port: 31640, type: ss, cipher: chacha20-ietf-poly1305, password: 650a2f26-7e87-4746-842f-2a9fd2d7c332, udp: true}
+  - {name: -0662-CN【nodeshare.xyz〗+永久免费节点机场, server: gy.58n.net, port: 36821, type: trojan, password: 01db7718-09d7-3aa3-885f-da6cf66af210, sni: z262.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 香港〖电报：@clashjd】免费节点定时更新, server: 223.113.54.149, port: 2524, type: trojan, password: lidnBTGb, skip-cert-verify: true, udp: true}
+  - {name: 香港|HK09, server: mkxxwy9gyvusdc38tiv5uwctxglotm2z.02.09.hk.k7h.lol, port: 24616, type: ss, cipher: chacha20-ietf-poly1305, password: 352ec04c-fad2-49b7-b206-4b5d68e47ce6, udp: true}
+  - {name: -0677-CN【nodeshare.xyz〗+永久免费节点机场, server: gy.58n.net, port: 20139, type: trojan, password: 01db7718-09d7-3aa3-885f-da6cf66af210, sni: z139.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 日本|T06, server: d5a2r3t41eiqpo9zg4efjhq9gnkea50q.02.06.jp.k7h.lol, port: 13465, type: ss, cipher: chacha20-ietf-poly1305, password: 352ec04c-fad2-49b7-b206-4b5d68e47ce6, udp: true}
+  - {name: -0668-CN【nodeshare.xyz〗+永久免费节点机场, server: gy.58n.net, port: 16895, type: trojan, password: 01db7718-09d7-3aa3-885f-da6cf66af210, sni: x40.flybar.work, skip-cert-verify: true, udp: true}
+  - {name: -0670-CN【nodeshare.xyz〗+永久免费节点机场, server: gy.58n.net, port: 30767, type: trojan, password: 01db7718-09d7-3aa3-885f-da6cf66af210, sni: z61.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: -0657-CN【nodeshare.xyz〗+永久免费节点机场, server: gy.58n.net, port: 20279, type: trojan, password: 01db7718-09d7-3aa3-885f-da6cf66af210, sni: z279.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: -0684-CN【nodeshare.xyz〗+永久免费节点机场, server: gy.58n.net, port: 20299, type: trojan, password: 01db7718-09d7-3aa3-885f-da6cf66af210, sni: x299.flybar.work, skip-cert-verify: true, udp: true}
+  - {name: -0666-CN【nodeshare.xyz〗+永久免费节点机场, server: gy.58n.net, port: 20296, type: trojan, password: 01db7718-09d7-3aa3-885f-da6cf66af210, sni: z296.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: -0607-CN【nodeshare.xyz〗+永久免费节点机场, server: jsyd.yeahfast.com, port: 31632, type: ss, cipher: chacha20-ietf-poly1305, password: 650a2f26-7e87-4746-842f-2a9fd2d7c332, udp: true}
+  - {name: -0681-CN【nodeshare.xyz〗+永久免费节点机场, server: gy.58n.net, port: 20059, type: trojan, password: 01db7718-09d7-3aa3-885f-da6cf66af210, sni: x59.flybar.work, skip-cert-verify: true, udp: true}
+  - {name: -0606-CN【nodeshare.xyz〗+永久免费节点机场, server: jsyd.yeahfast.com, port: 31642, type: ss, cipher: chacha20-ietf-poly1305, password: 650a2f26-7e87-4746-842f-2a9fd2d7c332, udp: true}
+  - {name: 韩国|SEL2, server: 6p4ekafubrl53g3xu56psxtlq75zwu5p.02.02.kr.k7h.lol, port: 23464, type: ss, cipher: chacha20-ietf-poly1305, password: 352ec04c-fad2-49b7-b206-4b5d68e47ce6, udp: true}
+  - {name: -0676-CN【nodeshare.xyz〗+永久免费节点机场, server: gy.58n.net, port: 54178, type: trojan, password: 01db7718-09d7-3aa3-885f-da6cf66af210, sni: x115.flybar.work, skip-cert-verify: true, udp: true}
+  - {name: 日本|T02, server: 63cle0b2dsbtg3didloy7x9j8w45s9bo.02.02.jp.k7h.lol, port: 10954, type: ss, cipher: chacha20-ietf-poly1305, password: 352ec04c-fad2-49b7-b206-4b5d68e47ce6, udp: true}
+  - {name: -0686-CN【nodeshare.xyz〗+永久免费节点机场, server: gy.58n.net, port: 30712, type: trojan, password: 01db7718-09d7-3aa3-885f-da6cf66af210, sni: x83.flybar.work, skip-cert-verify: true, udp: true}
+  - {name: -0673-CN【nodeshare.xyz〗+永久免费节点机场, server: gy.58n.net, port: 20298, type: trojan, password: 01db7718-09d7-3aa3-885f-da6cf66af210, sni: z298.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 中国阿里云3（nodeshare.xyz）免费机场节点, server: 8.219.118.54, port: 443, type: vmess, uuid: 8d90c129-4156-4d6c-9115-24df25f26a02, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
+  - {name: -0680-CN【nodeshare.xyz〗+永久免费节点机场, server: gy.58n.net, port: 20142, type: trojan, password: 01db7718-09d7-3aa3-885f-da6cf66af210, sni: z142.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 新加坡|SG07, server: tqskgw4tzjp5vw6qcj7wpxwvuynne8mj.02.07.sg.k7h.lol, port: 19310, type: ss, cipher: chacha20-ietf-poly1305, password: 352ec04c-fad2-49b7-b206-4b5d68e47ce6, udp: true}
+  - {name: "|GB|英国|@clashjd|94", server: 144.21.62.32, port: 443, type: vmess, uuid: 8d90c129-4156-4d6c-9115-24df25f26a02, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
+  - {name: 日本|T08, server: h78o5cttpqq69psfnca0s7n1568qsazx.02.08.jp.k7h.lol, port: 25109, type: ss, cipher: chacha20-ietf-poly1305, password: 352ec04c-fad2-49b7-b206-4b5d68e47ce6, udp: true}
+  - {name: -0679-CN【nodeshare.xyz〗+永久免费节点机场, server: gy.58n.net, port: 20141, type: trojan, password: 01db7718-09d7-3aa3-885f-da6cf66af210, sni: z141.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: -0678-CN【nodeshare.xyz〗+永久免费节点机场, server: gy.58n.net, port: 20140, type: trojan, password: 01db7718-09d7-3aa3-885f-da6cf66af210, sni: z140.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: -0687-CN【nodeshare.xyz〗+永久免费节点机场, server: gy.58n.net, port: 20129, type: trojan, password: 01db7718-09d7-3aa3-885f-da6cf66af210, sni: x129.flybar.work, skip-cert-verify: true, udp: true}
+  - {name: -0671-CN【nodeshare.xyz〗+永久免费节点机场, server: gy.58n.net, port: 56783, type: trojan, password: 01db7718-09d7-3aa3-885f-da6cf66af210, sni: z266.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 香港+2, server: 36.151.192.239, port: 42395, type: trojan, password: QwwHvrnN, skip-cert-verify: true, udp: true}
+  - {name: -0691-CN【nodeshare.xyz〗+永久免费节点机场, server: gy.58n.net, port: 20302, type: trojan, password: 01db7718-09d7-3aa3-885f-da6cf66af210, sni: z302.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: -0692-CN【nodeshare.xyz〗+永久免费节点机场, server: gy.58n.net, port: 20303, type: trojan, password: 01db7718-09d7-3aa3-885f-da6cf66af210, sni: z303.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: -0664-CN【nodeshare.xyz〗+永久免费节点机场, server: gy.58n.net, port: 50355, type: trojan, password: 01db7718-09d7-3aa3-885f-da6cf66af210, sni: z264.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: -0682-CN【nodeshare.xyz〗+永久免费节点机场, server: gy.58n.net, port: 20071, type: trojan, password: 01db7718-09d7-3aa3-885f-da6cf66af210, sni: x71.flybar.work, skip-cert-verify: true, udp: true}
+  - {name: 新加坡|SG08, server: lw4ixtrilaeb1lnhr5fyx3j6ed7qkbeu.02.08.sg.k7h.lol, port: 35197, type: ss, cipher: chacha20-ietf-poly1305, password: 352ec04c-fad2-49b7-b206-4b5d68e47ce6, udp: true}
+  - {name: 新加坡|SG05, server: qj5n1xmcqzeiedv76tj9sj1eo5z4qule.02.05.sg.k7h.lol, port: 48641, type: ss, cipher: chacha20-ietf-poly1305, password: 352ec04c-fad2-49b7-b206-4b5d68e47ce6, udp: true}
+  - {name: "[openproxylist.com]vmess-US", server: 104.21.82.17, port: 443, type: vmess, uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
+  - {name: -0689-CN【nodeshare.xyz〗+永久免费节点机场, server: gy.58n.net, port: 25238, type: trojan, password: 01db7718-09d7-3aa3-885f-da6cf66af210, sni: z267.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: "|CH|瑞士|@clashjd|109", server: 141.148.237.208, port: 443, type: vmess, uuid: 8d90c129-4156-4d6c-9115-24df25f26a02, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
+  - {name: 俄罗斯-圣彼得堡-012-1L, server: 195.58.49.86, port: 29025, type: vmess, uuid: 956a094c-71d1-4110-bec9-722a4cdbf4c3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: -0584-JP【nodeshare.xyz〗+永久免费节点机场, server: 43.206.140.0, port: 443, type: trojan, password: 8429f62e-5eda-3c69-bbbf-7ed5655eeeea, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
+  - {name: "|CN|中国|@clashjd|108", server: 8.222.192.81, port: 443, type: vmess, uuid: 8d90c129-4156-4d6c-9115-24df25f26a02, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
+  - {name: "[openproxylist.com]vmess-RU_1", server: 194.87.69.50, port: 29025, type: vmess, uuid: d886fc45-1ba4-41f9-932a-cb6424a13d90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: -0675-CN【nodeshare.xyz〗+永久免费节点机场, server: gy.58n.net, port: 41767, type: trojan, password: 01db7718-09d7-3aa3-885f-da6cf66af210, sni: x114.flybar.work, skip-cert-verify: true, udp: true}
+  - {name: -0325-US【nodeshare.xyz〗+永久免费节点机场, server: 52.34.94.52, port: 443, type: trojan, password: ce568d35-5c53-3c48-9fa6-aa8317d5f2e1, sni: origin-a.akamaihd.net, skip-cert-verify: true, udp: true}
+  - {name: 新加坡|SG06, server: whdxownhpgrny0ehzcd6ebx1yag2dvqt.02.06.sg.k7h.lol, port: 26515, type: ss, cipher: chacha20-ietf-poly1305, password: 352ec04c-fad2-49b7-b206-4b5d68e47ce6, udp: true}
+  - {name: 土耳其|IST1, server: 7e8ug9usl8npxl6rh793lglzzgue0itf.02.01.tr.k7h.lol, port: 41109, type: ss, cipher: chacha20-ietf-poly1305, password: 352ec04c-fad2-49b7-b206-4b5d68e47ce6, udp: true}
+  - {name: 美国|PHX1, server: 8vj8m0jrc1zhixoefv2ad25z4gpc20ip.02.06.us.k7h.lol, port: 34467, type: ss, cipher: chacha20-ietf-poly1305, password: 352ec04c-fad2-49b7-b206-4b5d68e47ce6, udp: true}
+  - {name: 日本|T04, server: t2kd3ohzlq0g7yxnhb1lr4m6hla1jgn0.02.04.jp.k7h.lol, port: 36708, type: ss, cipher: chacha20-ietf-poly1305, password: 352ec04c-fad2-49b7-b206-4b5d68e47ce6, udp: true}
+  - {name: 澳大利亚|SYD1, server: zuuh3pbt6244icucpzvmlset2zqnj8j9.02.01.au.k7h.lol, port: 34583, type: ss, cipher: chacha20-ietf-poly1305, password: 352ec04c-fad2-49b7-b206-4b5d68e47ce6, udp: true}
+  - {name: -0663-CN【nodeshare.xyz〗+永久免费节点机场, server: gy.58n.net, port: 45168, type: trojan, password: 01db7718-09d7-3aa3-885f-da6cf66af210, sni: z263.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 新加坡|SG04, server: 5efxs73gm7iagunylwfxa0v8yeu2r09h.02.04.sg.k7h.lol, port: 43885, type: ss, cipher: chacha20-ietf-poly1305, password: 352ec04c-fad2-49b7-b206-4b5d68e47ce6, udp: true}
+  - {name: 俄罗斯-圣彼得堡-013-2K, server: 194.87.69.52, port: 29025, type: vmess, uuid: 57217d4d-8ac4-492f-b27a-9d1c777f32be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: -0656-CN【nodeshare.xyz〗+永久免费节点机场, server: gy.58n.net, port: 20278, type: trojan, password: 01db7718-09d7-3aa3-885f-da6cf66af210, sni: z278.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 日本|T01, server: 5nokkdltjvw1kkwdlisf11li6usi55rx.02.01.jp.k7h.lol, port: 20038, type: ss, cipher: chacha20-ietf-poly1305, password: 352ec04c-fad2-49b7-b206-4b5d68e47ce6, udp: true}
+  - {name: 香港|HK03, server: omdvbv6o0fmntv24pguemm1e1c9xoitt.02.03.hk.k7h.lol, port: 22299, type: ss, cipher: chacha20-ietf-poly1305, password: 352ec04c-fad2-49b7-b206-4b5d68e47ce6, udp: true}
+  - {name: 日本|T09, server: 303mvgjl20b08r4udccvobdcp5oylubc.02.09.jp.k7h.lol, port: 27334, type: ss, cipher: chacha20-ietf-poly1305, password: 352ec04c-fad2-49b7-b206-4b5d68e47ce6, udp: true}
+  - {name: 菲律宾|MNL2, server: 4i3fp76pu8b2mumxe70rci28n9iws11z.02.02.ph.k7h.lol, port: 31865, type: ss, cipher: chacha20-ietf-poly1305, password: 352ec04c-fad2-49b7-b206-4b5d68e47ce6, udp: true}
+  - {name: 德国|FRA1, server: jef20t3hhgi49hqubitpy4ytrt5qnzv1.02.01.de.k7h.lol, port: 46247, type: ss, cipher: chacha20-ietf-poly1305, password: 352ec04c-fad2-49b7-b206-4b5d68e47ce6, udp: true}
+  - {name: 香港|HK01, server: 5rseoqesqi9kkti0ix3vscsfjisihumc.02.01.hk.k7h.lol, port: 40803, type: ss, cipher: chacha20-ietf-poly1305, password: 352ec04c-fad2-49b7-b206-4b5d68e47ce6, udp: true}
+  - {name: "|US|美国|@clashjd|182", server: 172.67.164.232, port: 443, type: vmess, uuid: 33f6d8b0-81f8-4fce-b3df-79dc8fd6d8c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/rongseven?ed=2048"}, udp: true}
+  - {name: "|CN|中国|@clashjd|93", server: 8.222.214.191, port: 443, type: vmess, uuid: 8d90c129-4156-4d6c-9115-24df25f26a02, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
+  - {name: -0610-CN【nodeshare.xyz〗+永久免费节点机场, server: jsyd.yeahfast.com, port: 31636, type: ss, cipher: chacha20-ietf-poly1305, password: 650a2f26-7e87-4746-842f-2a9fd2d7c332, udp: true}
+  - {name: 美国|KS1, server: ylsh38hoz1fc4q9u34ouwyd01sai3pdq.02.02.us.k7h.lol, port: 14506, type: ss, cipher: chacha20-ietf-poly1305, password: 352ec04c-fad2-49b7-b206-4b5d68e47ce6, udp: true}
+  - {name: "|GB|英国|@clashjd|103", server: 193.123.184.41, port: 443, type: vmess, uuid: 8d90c129-4156-4d6c-9115-24df25f26a02, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
+  - {name: -0587-US【nodeshare.xyz〗+永久免费节点机场, server: 103.136.185.28, port: 3516, type: trojan, password: 8429f62e-5eda-3c69-bbbf-7ed5655eeeea, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
+  - {name: -0585-US【nodeshare.xyz〗+永久免费节点机场, server: 52.34.94.52, port: 443, type: trojan, password: 8429f62e-5eda-3c69-bbbf-7ed5655eeeea, sni: origin-a.akamaihd.net, skip-cert-verify: true, udp: true}
+  - {name: 英国|COV2, server: gpfqf9d1poysctbgfh9lm8y7lf7wuuml.02.02.uk.k7h.lol, port: 18127, type: ss, cipher: chacha20-ietf-poly1305, password: 352ec04c-fad2-49b7-b206-4b5d68e47ce6, udp: true}
+  - {name: "|CN|中国|@clashjd|53", server: 223.113.54.145, port: 36442, type: trojan, password: QwwHvrnN, skip-cert-verify: true, udp: true}
+  - {name: "|CN|中国|@clashjd|100", server: 8.222.148.174, port: 443, type: vmess, uuid: 8d90c129-4156-4d6c-9115-24df25f26a02, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
+  - {name: -0583-JP【nodeshare.xyz〗+永久免费节点机场, server: 35.78.173.41, port: 443, type: trojan, password: 8429f62e-5eda-3c69-bbbf-7ed5655eeeea, sni: cloudsync-prod.s3.amazonaws.com, skip-cert-verify: true, udp: true}
+  - {name: 新加坡〖电报：@clashjd】免费节点定时更新, server: www.aetv.com, port: 80, type: vmess, uuid: beb7d098-48ba-4be8-a47a-758bf3c470b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.aetv.com}}, udp: true}
+  - {name: -0604-CN【nodeshare.xyz〗+永久免费节点机场, server: jsyd.yeahfast.com, port: 31672, type: ss, cipher: chacha20-ietf-poly1305, password: 650a2f26-7e87-4746-842f-2a9fd2d7c332, udp: true}
+  - {name: -0870-SG【nodeshare.xyz〗永久免费节点机场, server: sg25.jnstore.biz.id, port: 443, type: vmess, uuid: 1d1c1d94-6987-4658-a4dc-8821a30fe7e0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: sg25.jnstore.biz.id}}, udp: true}
+  - {name: -0649-CN【nodeshare.xyz〗+永久免费节点机场, server: gyl.58n.net, port: 20309, type: trojan, password: 01db7718-09d7-3aa3-885f-da6cf66af210, sni: z309.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: -0652-CN【nodeshare.xyz〗+永久免费节点机场, server: gy.58n.net, port: 20307, type: trojan, password: 01db7718-09d7-3aa3-885f-da6cf66af210, sni: z307.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: -0654-CN【nodeshare.xyz〗+永久免费节点机场, server: gy.58n.net, port: 24603, type: trojan, password: 01db7718-09d7-3aa3-885f-da6cf66af210, sni: z259.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: -0659-CN【nodeshare.xyz〗+永久免费节点机场, server: gy.58n.net, port: 59021, type: trojan, password: 01db7718-09d7-3aa3-885f-da6cf66af210, sni: x100.flybar.work, skip-cert-verify: true, udp: true}
+  - {name: -0661-CN【nodeshare.xyz〗+永久免费节点机场, server: gy.58n.net, port: 33323, type: trojan, password: 01db7718-09d7-3aa3-885f-da6cf66af210, sni: z261.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: -0653-CN【nodeshare.xyz〗+永久免费节点机场, server: gy.58n.net, port: 28678, type: trojan, password: 01db7718-09d7-3aa3-885f-da6cf66af210, sni: z143.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: -0658-CN【nodeshare.xyz〗+永久免费节点机场, server: gy.58n.net, port: 20294, type: trojan, password: 01db7718-09d7-3aa3-885f-da6cf66af210, sni: z294.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 加拿大|CA1, server: cz9ztk0ocse9adoig5sqqgqrkbl0msn6.02.01.ca.k7h.lol, port: 19915, type: ss, cipher: chacha20-ietf-poly1305, password: 352ec04c-fad2-49b7-b206-4b5d68e47ce6, udp: true}
+  - {name: 香港|HK08, server: 682l4fbqz003i3jtbgyvga5kcr74y70n.02.08.hk.k7h.lol, port: 44071, type: ss, cipher: chacha20-ietf-poly1305, password: 352ec04c-fad2-49b7-b206-4b5d68e47ce6, udp: true}
+  - {name: 香港|02-1B, server: 156.226.173.218, port: 8009, type: vmess, uuid: ea5b6802-af27-4e7c-909f-1d62934b0cdf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wada12222}, udp: true}
+  - {name: 香港|HK05, server: 5w2cfszgu9jlese7doiirqutvkyjyh8t.02.05.hk.k7h.lol, port: 48464, type: ss, cipher: chacha20-ietf-poly1305, password: 352ec04c-fad2-49b7-b206-4b5d68e47ce6, udp: true}
+  - {name: -0655-CN【nodeshare.xyz〗+永久免费节点机场, server: gy.58n.net, port: 22741, type: trojan, password: 01db7718-09d7-3aa3-885f-da6cf66af210, sni: dufu.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: -0327-US【nodeshare.xyz〗+永久免费节点机场, server: 103.136.185.28, port: 3516, type: trojan, password: ce568d35-5c53-3c48-9fa6-aa8317d5f2e1, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
+  - {name: -0324-JP【nodeshare.xyz〗+永久免费节点机场, server: 43.206.140.0, port: 443, type: trojan, password: ce568d35-5c53-3c48-9fa6-aa8317d5f2e1, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
+  - {name: 美国【TG：@clashjd】定时更新节点订阅, server: 151.101.194.168, port: 80, type: vmess, uuid: beb7d098-48ba-4be8-a47a-758bf3c470b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048"}, udp: true}
+  - {name: 【TG：@clashjd】定时更新节点订阅, server: naiu-hk.05vr9nyqg5.download, port: 13005, type: trojan, password: 9ad5228f-3e01-4353-b717-935272e5f2d6, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: -0674-CN【nodeshare.xyz〗+永久免费节点机场, server: gy.58n.net, port: 20300, type: trojan, password: 01db7718-09d7-3aa3-885f-da6cf66af210, sni: z300.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 意大利|MIL1, server: llwsbpu765uu86ihz88yqy4hu3rbehpd.02.01.it.k7h.lol, port: 44191, type: ss, cipher: chacha20-ietf-poly1305, password: 352ec04c-fad2-49b7-b206-4b5d68e47ce6, udp: true}
+  - {name: -0690-CN【nodeshare.xyz〗+永久免费节点机场, server: gy.58n.net, port: 11215, type: trojan, password: 01db7718-09d7-3aa3-885f-da6cf66af210, sni: z268.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: "|US|美国|@clashjd|124", server: 152.70.185.189, port: 443, type: vmess, uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
+  - {name: "[openproxylist.com]+trojan-US", server: sj.5216818.xyz, port: 443, type: trojan, password: 15c33952, sni: sj.5216818.xyz, skip-cert-verify: true, udp: true}
+  - {name: "|CN|中国|@clashjd|116", server: 8.222.144.99, port: 443, type: vmess, uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
+  - {name: "[openproxylist.com]vmess-RU_2", server: 195.58.49.42, port: 29025, type: vmess, uuid: d886fc45-1ba4-41f9-932a-cb6424a13d90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 爱尔兰（nodeshare.xyz）免费机场节点, server: 143.47.247.111, port: 443, type: vmess, uuid: 8d90c129-4156-4d6c-9115-24df25f26a02, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
+  - {name: 日本|T03, server: n474xiflrzj87y3ffcw17yysy8o90uho.02.03.jp.k7h.lol, port: 40546, type: ss, cipher: chacha20-ietf-poly1305, password: 352ec04c-fad2-49b7-b206-4b5d68e47ce6, udp: true}
+  - {name: -1015-CN【nodeshare.xyz〗+永久免费节点机场, server: hzhz1.sssyun.xyz, port: 39206, type: ss, cipher: chacha20-ietf-poly1305, password: d4eeaa7b-43c6-49dc-8020-7389bba4d033, udp: true}
+  - {name: "|US|美国|@clashjd|98", server: 140.238.122.237, port: 443, type: vmess, uuid: 8d90c129-4156-4d6c-9115-24df25f26a02, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
+  - {name: "|CN|中国|@clashjd|120", server: 8.222.133.161, port: 443, type: vmess, uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
+  - {name: 美国（nodeshare.xyz）免费机场节点, server: 129.159.8.130, port: 443, type: vmess, uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
+  - {name: 新加坡|SG01, server: guzvqtqrqcieoacbz5vtz3f5skvgchm8.02.01.sg.k7h.lol, port: 34781, type: ss, cipher: chacha20-ietf-poly1305, password: 352ec04c-fad2-49b7-b206-4b5d68e47ce6, udp: true}
+  - {name: "[openproxylist.com]vmess-RU_3", server: 195.58.49.50, port: 29025, type: vmess, uuid: 8b661f5c-b10f-40fe-a09f-92b5dc1732f7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: "|NL|荷兰|@clashjd|118", server: 130.162.221.159, port: 443, type: vmess, uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
+  - {name: "|DE|德国|@clashjd|95", server: 132.145.235.194, port: 443, type: vmess, uuid: 8d90c129-4156-4d6c-9115-24df25f26a02, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
+  - {name: -0935-US【nodeshare.xyz〗+永久免费节点机场, server: 18.188.156.48, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+  - {name: 美国2（nodeshare.xyz）免费机场节点, server: 130.162.208.247, port: 443, type: vmess, uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
+  - {name: _定制专线：@QS00008, server: 46.29.161.224, port: 29025, type: vmess, uuid: 9c883f99-7105-4e39-876d-167c1a90fbe0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 俄罗斯-圣彼得堡-012-1K, server: 195.58.49.86, port: 29025, type: vmess, uuid: caddad15-f6cf-4046-9b4e-5d26a50580a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 德国【TG：@clashjd】定时更新节点订阅, server: beesyar.org, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
+  - {name: 俄罗斯-喀山-002-1E, server: 46.29.161.159, port: 5743, type: vmess, uuid: 2860c3a3-b105-41c7-9cda-db81bd94c686, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 瑞典OracleCorporation2（nodeshare.xyz）免费机场节点, server: 141.147.62.4, port: 443, type: vmess, uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
+  - {name: "|GB|英国|@clashjd|101", server: 152.67.143.196, port: 443, type: vmess, uuid: 8d90c129-4156-4d6c-9115-24df25f26a02, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
+  - {name: "|RU|俄罗斯|@clashjd|172", server: 176.32.33.124, port: 29025, type: vmess, uuid: d82cf9dc-4695-4fb8-83ae-56e4a76a0e76, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 爱尔兰2（nodeshare.xyz）免费机场节点, server: 143.47.226.5, port: 443, type: vmess, uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
+  - {name: -0884-CN【nodeshare.xyz〗+永久免费节点机场, server: ru0195.alibabaokz.com, port: 60194, type: trojan, password: 38571ca6-6692-4559-b901-0bc5826b7661, sni: ru0195.alibabaokz.com, skip-cert-verify: true, udp: true}
+  - {name: 美国|NY1, server: 6tva728ubipghax8htexft9y23yxv0p0.02.03.us.k7h.lol, port: 49465, type: ss, cipher: chacha20-ietf-poly1305, password: 352ec04c-fad2-49b7-b206-4b5d68e47ce6, udp: true}
+  - {name: 中国阿里云4（nodeshare.xyz）免费机场节点, server: 8.222.249.108, port: 443, type: vmess, uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
+  - {name: 俄罗斯-圣彼得堡-012-2Z, server: 195.58.49.86, port: 29025, type: vmess, uuid: bdd7e04c-56d8-4359-ba96-238d5f4ae17e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: "|RU|俄罗斯|@clashjd|156", server: 195.58.49.86, port: 29025, type: vmess, uuid: 9c883f99-7105-4e39-876d-167c1a90fbe0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 俄罗斯-喀山-002-2T, server: 46.29.161.159, port: 5743, type: vmess, uuid: 12f358cc-f27b-4127-b63c-7771f2e617be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 荷兰-Meppel-StarkIndustriesSolutionsLTD-1, server: 185.29.223.164, port: 32718, type: vmess, uuid: c398fa1f-fac5-4d76-9452-f0aee44cbc66, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡|SG02, server: 906ns1ge9szdpmb4icw95tpobkdrqtnd.02.02.sg.k7h.lol, port: 14556, type: ss, cipher: chacha20-ietf-poly1305, password: 352ec04c-fad2-49b7-b206-4b5d68e47ce6, udp: true}
+  - {name: 俄罗斯3（nodeshare.xyz）免费机场节点, server: 176.32.33.100, port: 29025, type: vmess, uuid: 9c883f99-7105-4e39-876d-167c1a90fbe0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: -0611-CN【nodeshare.xyz〗+永久免费节点机场, server: jsyd.yeahfast.com, port: 31738, type: ss, cipher: chacha20-ietf-poly1305, password: 650a2f26-7e87-4746-842f-2a9fd2d7c332, udp: true}
+  - {name: "|US|美国|@clashjd|81", server: 160.30.160.134, port: 443, type: trojan, password: 25a0ffa0-725c-4d6f-b0d5-c74579753075, skip-cert-verify: true, udp: true}
+  - {name: 新加坡|SG03, server: g99zbeh1hw3tivh4wauqp7hu2vivi9ul.02.03.sg.k7h.lol, port: 24219, type: ss, cipher: chacha20-ietf-poly1305, password: 352ec04c-fad2-49b7-b206-4b5d68e47ce6, udp: true}
+  - {name: 俄罗斯-圣彼得堡-012-1x, server: 195.58.49.86, port: 29025, type: vmess, uuid: 8ad07d9d-b421-47ff-993d-80dca593bd2a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 俄罗斯-喀山-002-1U, server: 46.29.161.159, port: 5743, type: vmess, uuid: 78b26445-b6e6-4c06-bbdc-e39b0131a4d3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 瑞典OracleCorporation（nodeshare.xyz）免费机场节点, server: 141.147.95.94, port: 443, type: vmess, uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
+  - {name: 拉脱维亚【TG：@clashjd】定时更新节点订阅, server: 46.183.217.232, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 美国|SJ0, server: ykq18yj581mo50sksgxc452v7pampj6w.02.08.us.k7h.lol, port: 29126, type: ss, cipher: chacha20-ietf-poly1305, password: 352ec04c-fad2-49b7-b206-4b5d68e47ce6, udp: true}
+  - {name: 俄罗斯-喀山-002-2L, server: 46.29.161.159, port: 5743, type: vmess, uuid: 362c23da-6ac3-442d-bcd6-2d789399a696, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 俄罗斯-圣彼得堡-014-1O, server: 195.58.49.50, port: 29025, type: vmess, uuid: 280a1697-6f23-41e1-914d-8da382f4efef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 俄罗斯-圣彼得堡-012-2D, server: 195.58.49.86, port: 29025, type: vmess, uuid: 96938c62-d68f-4f3e-ba39-509ef82194a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -184,51 +283,150 @@ proxy-groups:
       - _US_美国_34
       - _US_美国_35
       - _US_美国_36
-      - 香港(nodeshare.xyz免费节点)_1
-      - 美国(nodeshare.xyz免费节点)_6
-      - 美国(nodeshare.xyz免费节点)_7
-      - 美国(nodeshare.xyz免费节点)_8
-      - 美国(nodeshare.xyz免费节点)_11
-      - 美国(nodeshare.xyz免费节点)_12
-      - 美国(nodeshare.xyz免费节点)_13
-      - 香港(nodeshare.xyz免费节点)_2
-      - 香港(nodeshare.xyz免费节点)_3
-      - 法国(nodeshare.xyz免费节点)_1
-      - 香港(nodeshare.xyz免费节点)_4
-      - 香港(nodeshare.xyz免费节点)_5
-      - 美国(nodeshare.xyz免费节点)_16
-      - 香港(nodeshare.xyz免费节点)_7
-      - 美国(nodeshare.xyz免费节点)_17
-      - 香港(nodeshare.xyz免费节点)_8
-      - 法国(nodeshare.xyz免费节点)_2
-      - 香港(nodeshare.xyz免费节点)_9
-      - 香港(nodeshare.xyz免费节点)_10
-      - 美国(nodeshare.xyz免费节点)_22
-      - 美国(nodeshare.xyz免费节点)_24
-      - 英国(nodeshare.xyz免费节点)_1
-      - 美国(nodeshare.xyz免费节点)_29
-      - 香港(nodeshare.xyz免费节点)_11
-      - 香港(nodeshare.xyz免费节点)_12
-      - 新加坡(nodeshare.xyz免费节点)
-      - 美国(nodeshare.xyz免费节点)_39
-      - 美国(nodeshare.xyz免费节点)_40
-      - 日本(nodeshare.xyz免费节点)
-      - 俄罗斯(nodeshare.xyz免费节点)_2
-      - 英国(nodeshare.xyz免费节点)_2
-      - 美国(nodeshare.xyz免费节点)_45
-      - 美国(nodeshare.xyz免费节点)_46
-      - 美国(nodeshare.xyz免费节点)_48
-      - 香港(nodeshare.xyz免费节点)_13
-      - 美国(nodeshare.xyz免费节点)_68
-      - 美国(nodeshare.xyz免费节点)_82
-      - 德国(nodeshare.xyz免费节点)_4
-      - 美国(nodeshare.xyz免费节点)_161
-      - 美国(nodeshare.xyz免费节点)_164
-      - 美国(nodeshare.xyz免费节点)_179
-      - 美国(nodeshare.xyz免费节点)_182
-      - 香港(nodeshare.xyz免费节点)_14
-      - 美国(nodeshare.xyz免费节点)_234
-      - 印度(nodeshare.xyz免费节点)_4
+      - 马来西亚|MAS1|x9
+      - -0323-JP【nodeshare.xyz〗+永久免费节点机场
+      - -0683-CN【nodeshare.xyz〗+永久免费节点机场
+      - "[openproxylist.com]vmess-DE"
+      - -0688-CN【nodeshare.xyz〗+永久免费节点机场
+      - 美国|SEA1
+      - -0667-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0685-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0602-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0662-CN【nodeshare.xyz〗+永久免费节点机场
+      - 香港〖电报：@clashjd】免费节点定时更新
+      - 香港|HK09
+      - -0677-CN【nodeshare.xyz〗+永久免费节点机场
+      - 日本|T06
+      - -0668-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0670-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0657-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0684-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0666-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0607-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0681-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0606-CN【nodeshare.xyz〗+永久免费节点机场
+      - 韩国|SEL2
+      - -0676-CN【nodeshare.xyz〗+永久免费节点机场
+      - 日本|T02
+      - -0686-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0673-CN【nodeshare.xyz〗+永久免费节点机场
+      - 中国阿里云3（nodeshare.xyz）免费机场节点
+      - -0680-CN【nodeshare.xyz〗+永久免费节点机场
+      - 新加坡|SG07
+      - "|GB|英国|@clashjd|94"
+      - 日本|T08
+      - -0679-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0678-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0687-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0671-CN【nodeshare.xyz〗+永久免费节点机场
+      - 香港+2
+      - -0691-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0692-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0664-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0682-CN【nodeshare.xyz〗+永久免费节点机场
+      - 新加坡|SG08
+      - 新加坡|SG05
+      - "[openproxylist.com]vmess-US"
+      - -0689-CN【nodeshare.xyz〗+永久免费节点机场
+      - "|CH|瑞士|@clashjd|109"
+      - 俄罗斯-圣彼得堡-012-1L
+      - -0584-JP【nodeshare.xyz〗+永久免费节点机场
+      - "|CN|中国|@clashjd|108"
+      - "[openproxylist.com]vmess-RU_1"
+      - -0675-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0325-US【nodeshare.xyz〗+永久免费节点机场
+      - 新加坡|SG06
+      - 土耳其|IST1
+      - 美国|PHX1
+      - 日本|T04
+      - 澳大利亚|SYD1
+      - -0663-CN【nodeshare.xyz〗+永久免费节点机场
+      - 新加坡|SG04
+      - 俄罗斯-圣彼得堡-013-2K
+      - -0656-CN【nodeshare.xyz〗+永久免费节点机场
+      - 日本|T01
+      - 香港|HK03
+      - 日本|T09
+      - 菲律宾|MNL2
+      - 德国|FRA1
+      - 香港|HK01
+      - "|US|美国|@clashjd|182"
+      - "|CN|中国|@clashjd|93"
+      - -0610-CN【nodeshare.xyz〗+永久免费节点机场
+      - 美国|KS1
+      - "|GB|英国|@clashjd|103"
+      - -0587-US【nodeshare.xyz〗+永久免费节点机场
+      - -0585-US【nodeshare.xyz〗+永久免费节点机场
+      - 英国|COV2
+      - "|CN|中国|@clashjd|53"
+      - "|CN|中国|@clashjd|100"
+      - -0583-JP【nodeshare.xyz〗+永久免费节点机场
+      - 新加坡〖电报：@clashjd】免费节点定时更新
+      - -0604-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0870-SG【nodeshare.xyz〗永久免费节点机场
+      - -0649-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0652-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0654-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0659-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0661-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0653-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0658-CN【nodeshare.xyz〗+永久免费节点机场
+      - 加拿大|CA1
+      - 香港|HK08
+      - 香港|02-1B
+      - 香港|HK05
+      - -0655-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0327-US【nodeshare.xyz〗+永久免费节点机场
+      - -0324-JP【nodeshare.xyz〗+永久免费节点机场
+      - 美国【TG：@clashjd】定时更新节点订阅
+      - 【TG：@clashjd】定时更新节点订阅
+      - -0674-CN【nodeshare.xyz〗+永久免费节点机场
+      - 意大利|MIL1
+      - -0690-CN【nodeshare.xyz〗+永久免费节点机场
+      - "|US|美国|@clashjd|124"
+      - "[openproxylist.com]+trojan-US"
+      - "|CN|中国|@clashjd|116"
+      - "[openproxylist.com]vmess-RU_2"
+      - 爱尔兰（nodeshare.xyz）免费机场节点
+      - 日本|T03
+      - -1015-CN【nodeshare.xyz〗+永久免费节点机场
+      - "|US|美国|@clashjd|98"
+      - "|CN|中国|@clashjd|120"
+      - 美国（nodeshare.xyz）免费机场节点
+      - 新加坡|SG01
+      - "[openproxylist.com]vmess-RU_3"
+      - "|NL|荷兰|@clashjd|118"
+      - "|DE|德国|@clashjd|95"
+      - -0935-US【nodeshare.xyz〗+永久免费节点机场
+      - 美国2（nodeshare.xyz）免费机场节点
+      - _定制专线：@QS00008
+      - 俄罗斯-圣彼得堡-012-1K
+      - 德国【TG：@clashjd】定时更新节点订阅
+      - 俄罗斯-喀山-002-1E
+      - 瑞典OracleCorporation2（nodeshare.xyz）免费机场节点
+      - "|GB|英国|@clashjd|101"
+      - "|RU|俄罗斯|@clashjd|172"
+      - 爱尔兰2（nodeshare.xyz）免费机场节点
+      - -0884-CN【nodeshare.xyz〗+永久免费节点机场
+      - 美国|NY1
+      - 中国阿里云4（nodeshare.xyz）免费机场节点
+      - 俄罗斯-圣彼得堡-012-2Z
+      - "|RU|俄罗斯|@clashjd|156"
+      - 俄罗斯-喀山-002-2T
+      - 荷兰-Meppel-StarkIndustriesSolutionsLTD-1
+      - 新加坡|SG02
+      - 俄罗斯3（nodeshare.xyz）免费机场节点
+      - -0611-CN【nodeshare.xyz〗+永久免费节点机场
+      - "|US|美国|@clashjd|81"
+      - 新加坡|SG03
+      - 俄罗斯-圣彼得堡-012-1x
+      - 俄罗斯-喀山-002-1U
+      - 瑞典OracleCorporation（nodeshare.xyz）免费机场节点
+      - 拉脱维亚【TG：@clashjd】定时更新节点订阅
+      - 美国|SJ0
+      - 俄罗斯-喀山-002-2L
+      - 俄罗斯-圣彼得堡-014-1O
+      - 俄罗斯-圣彼得堡-012-2D
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -298,51 +496,150 @@ proxy-groups:
       - _US_美国_34
       - _US_美国_35
       - _US_美国_36
-      - 香港(nodeshare.xyz免费节点)_1
-      - 美国(nodeshare.xyz免费节点)_6
-      - 美国(nodeshare.xyz免费节点)_7
-      - 美国(nodeshare.xyz免费节点)_8
-      - 美国(nodeshare.xyz免费节点)_11
-      - 美国(nodeshare.xyz免费节点)_12
-      - 美国(nodeshare.xyz免费节点)_13
-      - 香港(nodeshare.xyz免费节点)_2
-      - 香港(nodeshare.xyz免费节点)_3
-      - 法国(nodeshare.xyz免费节点)_1
-      - 香港(nodeshare.xyz免费节点)_4
-      - 香港(nodeshare.xyz免费节点)_5
-      - 美国(nodeshare.xyz免费节点)_16
-      - 香港(nodeshare.xyz免费节点)_7
-      - 美国(nodeshare.xyz免费节点)_17
-      - 香港(nodeshare.xyz免费节点)_8
-      - 法国(nodeshare.xyz免费节点)_2
-      - 香港(nodeshare.xyz免费节点)_9
-      - 香港(nodeshare.xyz免费节点)_10
-      - 美国(nodeshare.xyz免费节点)_22
-      - 美国(nodeshare.xyz免费节点)_24
-      - 英国(nodeshare.xyz免费节点)_1
-      - 美国(nodeshare.xyz免费节点)_29
-      - 香港(nodeshare.xyz免费节点)_11
-      - 香港(nodeshare.xyz免费节点)_12
-      - 新加坡(nodeshare.xyz免费节点)
-      - 美国(nodeshare.xyz免费节点)_39
-      - 美国(nodeshare.xyz免费节点)_40
-      - 日本(nodeshare.xyz免费节点)
-      - 俄罗斯(nodeshare.xyz免费节点)_2
-      - 英国(nodeshare.xyz免费节点)_2
-      - 美国(nodeshare.xyz免费节点)_45
-      - 美国(nodeshare.xyz免费节点)_46
-      - 美国(nodeshare.xyz免费节点)_48
-      - 香港(nodeshare.xyz免费节点)_13
-      - 美国(nodeshare.xyz免费节点)_68
-      - 美国(nodeshare.xyz免费节点)_82
-      - 德国(nodeshare.xyz免费节点)_4
-      - 美国(nodeshare.xyz免费节点)_161
-      - 美国(nodeshare.xyz免费节点)_164
-      - 美国(nodeshare.xyz免费节点)_179
-      - 美国(nodeshare.xyz免费节点)_182
-      - 香港(nodeshare.xyz免费节点)_14
-      - 美国(nodeshare.xyz免费节点)_234
-      - 印度(nodeshare.xyz免费节点)_4
+      - 马来西亚|MAS1|x9
+      - -0323-JP【nodeshare.xyz〗+永久免费节点机场
+      - -0683-CN【nodeshare.xyz〗+永久免费节点机场
+      - "[openproxylist.com]vmess-DE"
+      - -0688-CN【nodeshare.xyz〗+永久免费节点机场
+      - 美国|SEA1
+      - -0667-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0685-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0602-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0662-CN【nodeshare.xyz〗+永久免费节点机场
+      - 香港〖电报：@clashjd】免费节点定时更新
+      - 香港|HK09
+      - -0677-CN【nodeshare.xyz〗+永久免费节点机场
+      - 日本|T06
+      - -0668-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0670-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0657-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0684-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0666-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0607-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0681-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0606-CN【nodeshare.xyz〗+永久免费节点机场
+      - 韩国|SEL2
+      - -0676-CN【nodeshare.xyz〗+永久免费节点机场
+      - 日本|T02
+      - -0686-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0673-CN【nodeshare.xyz〗+永久免费节点机场
+      - 中国阿里云3（nodeshare.xyz）免费机场节点
+      - -0680-CN【nodeshare.xyz〗+永久免费节点机场
+      - 新加坡|SG07
+      - "|GB|英国|@clashjd|94"
+      - 日本|T08
+      - -0679-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0678-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0687-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0671-CN【nodeshare.xyz〗+永久免费节点机场
+      - 香港+2
+      - -0691-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0692-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0664-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0682-CN【nodeshare.xyz〗+永久免费节点机场
+      - 新加坡|SG08
+      - 新加坡|SG05
+      - "[openproxylist.com]vmess-US"
+      - -0689-CN【nodeshare.xyz〗+永久免费节点机场
+      - "|CH|瑞士|@clashjd|109"
+      - 俄罗斯-圣彼得堡-012-1L
+      - -0584-JP【nodeshare.xyz〗+永久免费节点机场
+      - "|CN|中国|@clashjd|108"
+      - "[openproxylist.com]vmess-RU_1"
+      - -0675-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0325-US【nodeshare.xyz〗+永久免费节点机场
+      - 新加坡|SG06
+      - 土耳其|IST1
+      - 美国|PHX1
+      - 日本|T04
+      - 澳大利亚|SYD1
+      - -0663-CN【nodeshare.xyz〗+永久免费节点机场
+      - 新加坡|SG04
+      - 俄罗斯-圣彼得堡-013-2K
+      - -0656-CN【nodeshare.xyz〗+永久免费节点机场
+      - 日本|T01
+      - 香港|HK03
+      - 日本|T09
+      - 菲律宾|MNL2
+      - 德国|FRA1
+      - 香港|HK01
+      - "|US|美国|@clashjd|182"
+      - "|CN|中国|@clashjd|93"
+      - -0610-CN【nodeshare.xyz〗+永久免费节点机场
+      - 美国|KS1
+      - "|GB|英国|@clashjd|103"
+      - -0587-US【nodeshare.xyz〗+永久免费节点机场
+      - -0585-US【nodeshare.xyz〗+永久免费节点机场
+      - 英国|COV2
+      - "|CN|中国|@clashjd|53"
+      - "|CN|中国|@clashjd|100"
+      - -0583-JP【nodeshare.xyz〗+永久免费节点机场
+      - 新加坡〖电报：@clashjd】免费节点定时更新
+      - -0604-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0870-SG【nodeshare.xyz〗永久免费节点机场
+      - -0649-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0652-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0654-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0659-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0661-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0653-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0658-CN【nodeshare.xyz〗+永久免费节点机场
+      - 加拿大|CA1
+      - 香港|HK08
+      - 香港|02-1B
+      - 香港|HK05
+      - -0655-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0327-US【nodeshare.xyz〗+永久免费节点机场
+      - -0324-JP【nodeshare.xyz〗+永久免费节点机场
+      - 美国【TG：@clashjd】定时更新节点订阅
+      - 【TG：@clashjd】定时更新节点订阅
+      - -0674-CN【nodeshare.xyz〗+永久免费节点机场
+      - 意大利|MIL1
+      - -0690-CN【nodeshare.xyz〗+永久免费节点机场
+      - "|US|美国|@clashjd|124"
+      - "[openproxylist.com]+trojan-US"
+      - "|CN|中国|@clashjd|116"
+      - "[openproxylist.com]vmess-RU_2"
+      - 爱尔兰（nodeshare.xyz）免费机场节点
+      - 日本|T03
+      - -1015-CN【nodeshare.xyz〗+永久免费节点机场
+      - "|US|美国|@clashjd|98"
+      - "|CN|中国|@clashjd|120"
+      - 美国（nodeshare.xyz）免费机场节点
+      - 新加坡|SG01
+      - "[openproxylist.com]vmess-RU_3"
+      - "|NL|荷兰|@clashjd|118"
+      - "|DE|德国|@clashjd|95"
+      - -0935-US【nodeshare.xyz〗+永久免费节点机场
+      - 美国2（nodeshare.xyz）免费机场节点
+      - _定制专线：@QS00008
+      - 俄罗斯-圣彼得堡-012-1K
+      - 德国【TG：@clashjd】定时更新节点订阅
+      - 俄罗斯-喀山-002-1E
+      - 瑞典OracleCorporation2（nodeshare.xyz）免费机场节点
+      - "|GB|英国|@clashjd|101"
+      - "|RU|俄罗斯|@clashjd|172"
+      - 爱尔兰2（nodeshare.xyz）免费机场节点
+      - -0884-CN【nodeshare.xyz〗+永久免费节点机场
+      - 美国|NY1
+      - 中国阿里云4（nodeshare.xyz）免费机场节点
+      - 俄罗斯-圣彼得堡-012-2Z
+      - "|RU|俄罗斯|@clashjd|156"
+      - 俄罗斯-喀山-002-2T
+      - 荷兰-Meppel-StarkIndustriesSolutionsLTD-1
+      - 新加坡|SG02
+      - 俄罗斯3（nodeshare.xyz）免费机场节点
+      - -0611-CN【nodeshare.xyz〗+永久免费节点机场
+      - "|US|美国|@clashjd|81"
+      - 新加坡|SG03
+      - 俄罗斯-圣彼得堡-012-1x
+      - 俄罗斯-喀山-002-1U
+      - 瑞典OracleCorporation（nodeshare.xyz）免费机场节点
+      - 拉脱维亚【TG：@clashjd】定时更新节点订阅
+      - 美国|SJ0
+      - 俄罗斯-喀山-002-2L
+      - 俄罗斯-圣彼得堡-014-1O
+      - 俄罗斯-圣彼得堡-012-2D
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -413,51 +710,150 @@ proxy-groups:
       - _US_美国_34
       - _US_美国_35
       - _US_美国_36
-      - 香港(nodeshare.xyz免费节点)_1
-      - 美国(nodeshare.xyz免费节点)_6
-      - 美国(nodeshare.xyz免费节点)_7
-      - 美国(nodeshare.xyz免费节点)_8
-      - 美国(nodeshare.xyz免费节点)_11
-      - 美国(nodeshare.xyz免费节点)_12
-      - 美国(nodeshare.xyz免费节点)_13
-      - 香港(nodeshare.xyz免费节点)_2
-      - 香港(nodeshare.xyz免费节点)_3
-      - 法国(nodeshare.xyz免费节点)_1
-      - 香港(nodeshare.xyz免费节点)_4
-      - 香港(nodeshare.xyz免费节点)_5
-      - 美国(nodeshare.xyz免费节点)_16
-      - 香港(nodeshare.xyz免费节点)_7
-      - 美国(nodeshare.xyz免费节点)_17
-      - 香港(nodeshare.xyz免费节点)_8
-      - 法国(nodeshare.xyz免费节点)_2
-      - 香港(nodeshare.xyz免费节点)_9
-      - 香港(nodeshare.xyz免费节点)_10
-      - 美国(nodeshare.xyz免费节点)_22
-      - 美国(nodeshare.xyz免费节点)_24
-      - 英国(nodeshare.xyz免费节点)_1
-      - 美国(nodeshare.xyz免费节点)_29
-      - 香港(nodeshare.xyz免费节点)_11
-      - 香港(nodeshare.xyz免费节点)_12
-      - 新加坡(nodeshare.xyz免费节点)
-      - 美国(nodeshare.xyz免费节点)_39
-      - 美国(nodeshare.xyz免费节点)_40
-      - 日本(nodeshare.xyz免费节点)
-      - 俄罗斯(nodeshare.xyz免费节点)_2
-      - 英国(nodeshare.xyz免费节点)_2
-      - 美国(nodeshare.xyz免费节点)_45
-      - 美国(nodeshare.xyz免费节点)_46
-      - 美国(nodeshare.xyz免费节点)_48
-      - 香港(nodeshare.xyz免费节点)_13
-      - 美国(nodeshare.xyz免费节点)_68
-      - 美国(nodeshare.xyz免费节点)_82
-      - 德国(nodeshare.xyz免费节点)_4
-      - 美国(nodeshare.xyz免费节点)_161
-      - 美国(nodeshare.xyz免费节点)_164
-      - 美国(nodeshare.xyz免费节点)_179
-      - 美国(nodeshare.xyz免费节点)_182
-      - 香港(nodeshare.xyz免费节点)_14
-      - 美国(nodeshare.xyz免费节点)_234
-      - 印度(nodeshare.xyz免费节点)_4
+      - 马来西亚|MAS1|x9
+      - -0323-JP【nodeshare.xyz〗+永久免费节点机场
+      - -0683-CN【nodeshare.xyz〗+永久免费节点机场
+      - "[openproxylist.com]vmess-DE"
+      - -0688-CN【nodeshare.xyz〗+永久免费节点机场
+      - 美国|SEA1
+      - -0667-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0685-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0602-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0662-CN【nodeshare.xyz〗+永久免费节点机场
+      - 香港〖电报：@clashjd】免费节点定时更新
+      - 香港|HK09
+      - -0677-CN【nodeshare.xyz〗+永久免费节点机场
+      - 日本|T06
+      - -0668-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0670-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0657-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0684-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0666-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0607-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0681-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0606-CN【nodeshare.xyz〗+永久免费节点机场
+      - 韩国|SEL2
+      - -0676-CN【nodeshare.xyz〗+永久免费节点机场
+      - 日本|T02
+      - -0686-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0673-CN【nodeshare.xyz〗+永久免费节点机场
+      - 中国阿里云3（nodeshare.xyz）免费机场节点
+      - -0680-CN【nodeshare.xyz〗+永久免费节点机场
+      - 新加坡|SG07
+      - "|GB|英国|@clashjd|94"
+      - 日本|T08
+      - -0679-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0678-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0687-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0671-CN【nodeshare.xyz〗+永久免费节点机场
+      - 香港+2
+      - -0691-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0692-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0664-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0682-CN【nodeshare.xyz〗+永久免费节点机场
+      - 新加坡|SG08
+      - 新加坡|SG05
+      - "[openproxylist.com]vmess-US"
+      - -0689-CN【nodeshare.xyz〗+永久免费节点机场
+      - "|CH|瑞士|@clashjd|109"
+      - 俄罗斯-圣彼得堡-012-1L
+      - -0584-JP【nodeshare.xyz〗+永久免费节点机场
+      - "|CN|中国|@clashjd|108"
+      - "[openproxylist.com]vmess-RU_1"
+      - -0675-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0325-US【nodeshare.xyz〗+永久免费节点机场
+      - 新加坡|SG06
+      - 土耳其|IST1
+      - 美国|PHX1
+      - 日本|T04
+      - 澳大利亚|SYD1
+      - -0663-CN【nodeshare.xyz〗+永久免费节点机场
+      - 新加坡|SG04
+      - 俄罗斯-圣彼得堡-013-2K
+      - -0656-CN【nodeshare.xyz〗+永久免费节点机场
+      - 日本|T01
+      - 香港|HK03
+      - 日本|T09
+      - 菲律宾|MNL2
+      - 德国|FRA1
+      - 香港|HK01
+      - "|US|美国|@clashjd|182"
+      - "|CN|中国|@clashjd|93"
+      - -0610-CN【nodeshare.xyz〗+永久免费节点机场
+      - 美国|KS1
+      - "|GB|英国|@clashjd|103"
+      - -0587-US【nodeshare.xyz〗+永久免费节点机场
+      - -0585-US【nodeshare.xyz〗+永久免费节点机场
+      - 英国|COV2
+      - "|CN|中国|@clashjd|53"
+      - "|CN|中国|@clashjd|100"
+      - -0583-JP【nodeshare.xyz〗+永久免费节点机场
+      - 新加坡〖电报：@clashjd】免费节点定时更新
+      - -0604-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0870-SG【nodeshare.xyz〗永久免费节点机场
+      - -0649-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0652-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0654-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0659-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0661-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0653-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0658-CN【nodeshare.xyz〗+永久免费节点机场
+      - 加拿大|CA1
+      - 香港|HK08
+      - 香港|02-1B
+      - 香港|HK05
+      - -0655-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0327-US【nodeshare.xyz〗+永久免费节点机场
+      - -0324-JP【nodeshare.xyz〗+永久免费节点机场
+      - 美国【TG：@clashjd】定时更新节点订阅
+      - 【TG：@clashjd】定时更新节点订阅
+      - -0674-CN【nodeshare.xyz〗+永久免费节点机场
+      - 意大利|MIL1
+      - -0690-CN【nodeshare.xyz〗+永久免费节点机场
+      - "|US|美国|@clashjd|124"
+      - "[openproxylist.com]+trojan-US"
+      - "|CN|中国|@clashjd|116"
+      - "[openproxylist.com]vmess-RU_2"
+      - 爱尔兰（nodeshare.xyz）免费机场节点
+      - 日本|T03
+      - -1015-CN【nodeshare.xyz〗+永久免费节点机场
+      - "|US|美国|@clashjd|98"
+      - "|CN|中国|@clashjd|120"
+      - 美国（nodeshare.xyz）免费机场节点
+      - 新加坡|SG01
+      - "[openproxylist.com]vmess-RU_3"
+      - "|NL|荷兰|@clashjd|118"
+      - "|DE|德国|@clashjd|95"
+      - -0935-US【nodeshare.xyz〗+永久免费节点机场
+      - 美国2（nodeshare.xyz）免费机场节点
+      - _定制专线：@QS00008
+      - 俄罗斯-圣彼得堡-012-1K
+      - 德国【TG：@clashjd】定时更新节点订阅
+      - 俄罗斯-喀山-002-1E
+      - 瑞典OracleCorporation2（nodeshare.xyz）免费机场节点
+      - "|GB|英国|@clashjd|101"
+      - "|RU|俄罗斯|@clashjd|172"
+      - 爱尔兰2（nodeshare.xyz）免费机场节点
+      - -0884-CN【nodeshare.xyz〗+永久免费节点机场
+      - 美国|NY1
+      - 中国阿里云4（nodeshare.xyz）免费机场节点
+      - 俄罗斯-圣彼得堡-012-2Z
+      - "|RU|俄罗斯|@clashjd|156"
+      - 俄罗斯-喀山-002-2T
+      - 荷兰-Meppel-StarkIndustriesSolutionsLTD-1
+      - 新加坡|SG02
+      - 俄罗斯3（nodeshare.xyz）免费机场节点
+      - -0611-CN【nodeshare.xyz〗+永久免费节点机场
+      - "|US|美国|@clashjd|81"
+      - 新加坡|SG03
+      - 俄罗斯-圣彼得堡-012-1x
+      - 俄罗斯-喀山-002-1U
+      - 瑞典OracleCorporation（nodeshare.xyz）免费机场节点
+      - 拉脱维亚【TG：@clashjd】定时更新节点订阅
+      - 美国|SJ0
+      - 俄罗斯-喀山-002-2L
+      - 俄罗斯-圣彼得堡-014-1O
+      - 俄罗斯-圣彼得堡-012-2D
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -540,68 +936,162 @@ proxy-groups:
       - _US_美国_34
       - _US_美国_35
       - _US_美国_36
-      - 香港(nodeshare.xyz免费节点)_1
-      - 美国(nodeshare.xyz免费节点)_6
-      - 美国(nodeshare.xyz免费节点)_7
-      - 美国(nodeshare.xyz免费节点)_8
-      - 美国(nodeshare.xyz免费节点)_11
-      - 美国(nodeshare.xyz免费节点)_12
-      - 美国(nodeshare.xyz免费节点)_13
-      - 香港(nodeshare.xyz免费节点)_2
-      - 香港(nodeshare.xyz免费节点)_3
-      - 法国(nodeshare.xyz免费节点)_1
-      - 香港(nodeshare.xyz免费节点)_4
-      - 香港(nodeshare.xyz免费节点)_5
-      - 美国(nodeshare.xyz免费节点)_16
-      - 香港(nodeshare.xyz免费节点)_7
-      - 美国(nodeshare.xyz免费节点)_17
-      - 香港(nodeshare.xyz免费节点)_8
-      - 法国(nodeshare.xyz免费节点)_2
-      - 香港(nodeshare.xyz免费节点)_9
-      - 香港(nodeshare.xyz免费节点)_10
-      - 美国(nodeshare.xyz免费节点)_22
-      - 美国(nodeshare.xyz免费节点)_24
-      - 英国(nodeshare.xyz免费节点)_1
-      - 美国(nodeshare.xyz免费节点)_29
-      - 香港(nodeshare.xyz免费节点)_11
-      - 香港(nodeshare.xyz免费节点)_12
-      - 新加坡(nodeshare.xyz免费节点)
-      - 美国(nodeshare.xyz免费节点)_39
-      - 美国(nodeshare.xyz免费节点)_40
-      - 日本(nodeshare.xyz免费节点)
-      - 俄罗斯(nodeshare.xyz免费节点)_2
-      - 英国(nodeshare.xyz免费节点)_2
-      - 美国(nodeshare.xyz免费节点)_45
-      - 美国(nodeshare.xyz免费节点)_46
-      - 美国(nodeshare.xyz免费节点)_48
-      - 香港(nodeshare.xyz免费节点)_13
-      - 美国(nodeshare.xyz免费节点)_68
-      - 美国(nodeshare.xyz免费节点)_82
-      - 德国(nodeshare.xyz免费节点)_4
-      - 美国(nodeshare.xyz免费节点)_161
-      - 美国(nodeshare.xyz免费节点)_164
-      - 美国(nodeshare.xyz免费节点)_179
-      - 美国(nodeshare.xyz免费节点)_182
-      - 香港(nodeshare.xyz免费节点)_14
-      - 美国(nodeshare.xyz免费节点)_234
-      - 印度(nodeshare.xyz免费节点)_4
+      - 马来西亚|MAS1|x9
+      - -0323-JP【nodeshare.xyz〗+永久免费节点机场
+      - -0683-CN【nodeshare.xyz〗+永久免费节点机场
+      - "[openproxylist.com]vmess-DE"
+      - -0688-CN【nodeshare.xyz〗+永久免费节点机场
+      - 美国|SEA1
+      - -0667-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0685-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0602-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0662-CN【nodeshare.xyz〗+永久免费节点机场
+      - 香港〖电报：@clashjd】免费节点定时更新
+      - 香港|HK09
+      - -0677-CN【nodeshare.xyz〗+永久免费节点机场
+      - 日本|T06
+      - -0668-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0670-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0657-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0684-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0666-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0607-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0681-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0606-CN【nodeshare.xyz〗+永久免费节点机场
+      - 韩国|SEL2
+      - -0676-CN【nodeshare.xyz〗+永久免费节点机场
+      - 日本|T02
+      - -0686-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0673-CN【nodeshare.xyz〗+永久免费节点机场
+      - 中国阿里云3（nodeshare.xyz）免费机场节点
+      - -0680-CN【nodeshare.xyz〗+永久免费节点机场
+      - 新加坡|SG07
+      - "|GB|英国|@clashjd|94"
+      - 日本|T08
+      - -0679-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0678-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0687-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0671-CN【nodeshare.xyz〗+永久免费节点机场
+      - 香港+2
+      - -0691-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0692-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0664-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0682-CN【nodeshare.xyz〗+永久免费节点机场
+      - 新加坡|SG08
+      - 新加坡|SG05
+      - "[openproxylist.com]vmess-US"
+      - -0689-CN【nodeshare.xyz〗+永久免费节点机场
+      - "|CH|瑞士|@clashjd|109"
+      - 俄罗斯-圣彼得堡-012-1L
+      - -0584-JP【nodeshare.xyz〗+永久免费节点机场
+      - "|CN|中国|@clashjd|108"
+      - "[openproxylist.com]vmess-RU_1"
+      - -0675-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0325-US【nodeshare.xyz〗+永久免费节点机场
+      - 新加坡|SG06
+      - 土耳其|IST1
+      - 美国|PHX1
+      - 日本|T04
+      - 澳大利亚|SYD1
+      - -0663-CN【nodeshare.xyz〗+永久免费节点机场
+      - 新加坡|SG04
+      - 俄罗斯-圣彼得堡-013-2K
+      - -0656-CN【nodeshare.xyz〗+永久免费节点机场
+      - 日本|T01
+      - 香港|HK03
+      - 日本|T09
+      - 菲律宾|MNL2
+      - 德国|FRA1
+      - 香港|HK01
+      - "|US|美国|@clashjd|182"
+      - "|CN|中国|@clashjd|93"
+      - -0610-CN【nodeshare.xyz〗+永久免费节点机场
+      - 美国|KS1
+      - "|GB|英国|@clashjd|103"
+      - -0587-US【nodeshare.xyz〗+永久免费节点机场
+      - -0585-US【nodeshare.xyz〗+永久免费节点机场
+      - 英国|COV2
+      - "|CN|中国|@clashjd|53"
+      - "|CN|中国|@clashjd|100"
+      - -0583-JP【nodeshare.xyz〗+永久免费节点机场
+      - 新加坡〖电报：@clashjd】免费节点定时更新
+      - -0604-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0870-SG【nodeshare.xyz〗永久免费节点机场
+      - -0649-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0652-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0654-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0659-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0661-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0653-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0658-CN【nodeshare.xyz〗+永久免费节点机场
+      - 加拿大|CA1
+      - 香港|HK08
+      - 香港|02-1B
+      - 香港|HK05
+      - -0655-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0327-US【nodeshare.xyz〗+永久免费节点机场
+      - -0324-JP【nodeshare.xyz〗+永久免费节点机场
+      - 美国【TG：@clashjd】定时更新节点订阅
+      - 【TG：@clashjd】定时更新节点订阅
+      - -0674-CN【nodeshare.xyz〗+永久免费节点机场
+      - 意大利|MIL1
+      - -0690-CN【nodeshare.xyz〗+永久免费节点机场
+      - "|US|美国|@clashjd|124"
+      - "[openproxylist.com]+trojan-US"
+      - "|CN|中国|@clashjd|116"
+      - "[openproxylist.com]vmess-RU_2"
+      - 爱尔兰（nodeshare.xyz）免费机场节点
+      - 日本|T03
+      - -1015-CN【nodeshare.xyz〗+永久免费节点机场
+      - "|US|美国|@clashjd|98"
+      - "|CN|中国|@clashjd|120"
+      - 美国（nodeshare.xyz）免费机场节点
+      - 新加坡|SG01
+      - "[openproxylist.com]vmess-RU_3"
+      - "|NL|荷兰|@clashjd|118"
+      - "|DE|德国|@clashjd|95"
+      - -0935-US【nodeshare.xyz〗+永久免费节点机场
+      - 美国2（nodeshare.xyz）免费机场节点
+      - _定制专线：@QS00008
+      - 俄罗斯-圣彼得堡-012-1K
+      - 德国【TG：@clashjd】定时更新节点订阅
+      - 俄罗斯-喀山-002-1E
+      - 瑞典OracleCorporation2（nodeshare.xyz）免费机场节点
+      - "|GB|英国|@clashjd|101"
+      - "|RU|俄罗斯|@clashjd|172"
+      - 爱尔兰2（nodeshare.xyz）免费机场节点
+      - -0884-CN【nodeshare.xyz〗+永久免费节点机场
+      - 美国|NY1
+      - 中国阿里云4（nodeshare.xyz）免费机场节点
+      - 俄罗斯-圣彼得堡-012-2Z
+      - "|RU|俄罗斯|@clashjd|156"
+      - 俄罗斯-喀山-002-2T
+      - 荷兰-Meppel-StarkIndustriesSolutionsLTD-1
+      - 新加坡|SG02
+      - 俄罗斯3（nodeshare.xyz）免费机场节点
+      - -0611-CN【nodeshare.xyz〗+永久免费节点机场
+      - "|US|美国|@clashjd|81"
+      - 新加坡|SG03
+      - 俄罗斯-圣彼得堡-012-1x
+      - 俄罗斯-喀山-002-1U
+      - 瑞典OracleCorporation（nodeshare.xyz）免费机场节点
+      - 拉脱维亚【TG：@clashjd】定时更新节点订阅
+      - 美国|SJ0
+      - 俄罗斯-喀山-002-2L
+      - 俄罗斯-圣彼得堡-014-1O
+      - 俄罗斯-圣彼得堡-012-2D
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港(nodeshare.xyz免费节点)_1
-      - 香港(nodeshare.xyz免费节点)_2
-      - 香港(nodeshare.xyz免费节点)_3
-      - 香港(nodeshare.xyz免费节点)_4
-      - 香港(nodeshare.xyz免费节点)_5
-      - 香港(nodeshare.xyz免费节点)_7
-      - 香港(nodeshare.xyz免费节点)_8
-      - 香港(nodeshare.xyz免费节点)_9
-      - 香港(nodeshare.xyz免费节点)_10
-      - 香港(nodeshare.xyz免费节点)_11
-      - 香港(nodeshare.xyz免费节点)_12
-      - 香港(nodeshare.xyz免费节点)_13
-      - 香港(nodeshare.xyz免费节点)_14
+      - 香港〖电报：@clashjd】免费节点定时更新
+      - 香港|HK09
+      - 香港+2
+      - 香港|HK03
+      - 香港|HK01
+      - 香港|HK08
+      - 香港|02-1B
+      - 香港|HK05
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -672,51 +1162,150 @@ proxy-groups:
       - _US_美国_34
       - _US_美国_35
       - _US_美国_36
-      - 香港(nodeshare.xyz免费节点)_1
-      - 美国(nodeshare.xyz免费节点)_6
-      - 美国(nodeshare.xyz免费节点)_7
-      - 美国(nodeshare.xyz免费节点)_8
-      - 美国(nodeshare.xyz免费节点)_11
-      - 美国(nodeshare.xyz免费节点)_12
-      - 美国(nodeshare.xyz免费节点)_13
-      - 香港(nodeshare.xyz免费节点)_2
-      - 香港(nodeshare.xyz免费节点)_3
-      - 法国(nodeshare.xyz免费节点)_1
-      - 香港(nodeshare.xyz免费节点)_4
-      - 香港(nodeshare.xyz免费节点)_5
-      - 美国(nodeshare.xyz免费节点)_16
-      - 香港(nodeshare.xyz免费节点)_7
-      - 美国(nodeshare.xyz免费节点)_17
-      - 香港(nodeshare.xyz免费节点)_8
-      - 法国(nodeshare.xyz免费节点)_2
-      - 香港(nodeshare.xyz免费节点)_9
-      - 香港(nodeshare.xyz免费节点)_10
-      - 美国(nodeshare.xyz免费节点)_22
-      - 美国(nodeshare.xyz免费节点)_24
-      - 英国(nodeshare.xyz免费节点)_1
-      - 美国(nodeshare.xyz免费节点)_29
-      - 香港(nodeshare.xyz免费节点)_11
-      - 香港(nodeshare.xyz免费节点)_12
-      - 新加坡(nodeshare.xyz免费节点)
-      - 美国(nodeshare.xyz免费节点)_39
-      - 美国(nodeshare.xyz免费节点)_40
-      - 日本(nodeshare.xyz免费节点)
-      - 俄罗斯(nodeshare.xyz免费节点)_2
-      - 英国(nodeshare.xyz免费节点)_2
-      - 美国(nodeshare.xyz免费节点)_45
-      - 美国(nodeshare.xyz免费节点)_46
-      - 美国(nodeshare.xyz免费节点)_48
-      - 香港(nodeshare.xyz免费节点)_13
-      - 美国(nodeshare.xyz免费节点)_68
-      - 美国(nodeshare.xyz免费节点)_82
-      - 德国(nodeshare.xyz免费节点)_4
-      - 美国(nodeshare.xyz免费节点)_161
-      - 美国(nodeshare.xyz免费节点)_164
-      - 美国(nodeshare.xyz免费节点)_179
-      - 美国(nodeshare.xyz免费节点)_182
-      - 香港(nodeshare.xyz免费节点)_14
-      - 美国(nodeshare.xyz免费节点)_234
-      - 印度(nodeshare.xyz免费节点)_4
+      - 马来西亚|MAS1|x9
+      - -0323-JP【nodeshare.xyz〗+永久免费节点机场
+      - -0683-CN【nodeshare.xyz〗+永久免费节点机场
+      - "[openproxylist.com]vmess-DE"
+      - -0688-CN【nodeshare.xyz〗+永久免费节点机场
+      - 美国|SEA1
+      - -0667-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0685-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0602-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0662-CN【nodeshare.xyz〗+永久免费节点机场
+      - 香港〖电报：@clashjd】免费节点定时更新
+      - 香港|HK09
+      - -0677-CN【nodeshare.xyz〗+永久免费节点机场
+      - 日本|T06
+      - -0668-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0670-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0657-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0684-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0666-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0607-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0681-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0606-CN【nodeshare.xyz〗+永久免费节点机场
+      - 韩国|SEL2
+      - -0676-CN【nodeshare.xyz〗+永久免费节点机场
+      - 日本|T02
+      - -0686-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0673-CN【nodeshare.xyz〗+永久免费节点机场
+      - 中国阿里云3（nodeshare.xyz）免费机场节点
+      - -0680-CN【nodeshare.xyz〗+永久免费节点机场
+      - 新加坡|SG07
+      - "|GB|英国|@clashjd|94"
+      - 日本|T08
+      - -0679-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0678-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0687-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0671-CN【nodeshare.xyz〗+永久免费节点机场
+      - 香港+2
+      - -0691-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0692-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0664-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0682-CN【nodeshare.xyz〗+永久免费节点机场
+      - 新加坡|SG08
+      - 新加坡|SG05
+      - "[openproxylist.com]vmess-US"
+      - -0689-CN【nodeshare.xyz〗+永久免费节点机场
+      - "|CH|瑞士|@clashjd|109"
+      - 俄罗斯-圣彼得堡-012-1L
+      - -0584-JP【nodeshare.xyz〗+永久免费节点机场
+      - "|CN|中国|@clashjd|108"
+      - "[openproxylist.com]vmess-RU_1"
+      - -0675-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0325-US【nodeshare.xyz〗+永久免费节点机场
+      - 新加坡|SG06
+      - 土耳其|IST1
+      - 美国|PHX1
+      - 日本|T04
+      - 澳大利亚|SYD1
+      - -0663-CN【nodeshare.xyz〗+永久免费节点机场
+      - 新加坡|SG04
+      - 俄罗斯-圣彼得堡-013-2K
+      - -0656-CN【nodeshare.xyz〗+永久免费节点机场
+      - 日本|T01
+      - 香港|HK03
+      - 日本|T09
+      - 菲律宾|MNL2
+      - 德国|FRA1
+      - 香港|HK01
+      - "|US|美国|@clashjd|182"
+      - "|CN|中国|@clashjd|93"
+      - -0610-CN【nodeshare.xyz〗+永久免费节点机场
+      - 美国|KS1
+      - "|GB|英国|@clashjd|103"
+      - -0587-US【nodeshare.xyz〗+永久免费节点机场
+      - -0585-US【nodeshare.xyz〗+永久免费节点机场
+      - 英国|COV2
+      - "|CN|中国|@clashjd|53"
+      - "|CN|中国|@clashjd|100"
+      - -0583-JP【nodeshare.xyz〗+永久免费节点机场
+      - 新加坡〖电报：@clashjd】免费节点定时更新
+      - -0604-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0870-SG【nodeshare.xyz〗永久免费节点机场
+      - -0649-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0652-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0654-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0659-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0661-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0653-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0658-CN【nodeshare.xyz〗+永久免费节点机场
+      - 加拿大|CA1
+      - 香港|HK08
+      - 香港|02-1B
+      - 香港|HK05
+      - -0655-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0327-US【nodeshare.xyz〗+永久免费节点机场
+      - -0324-JP【nodeshare.xyz〗+永久免费节点机场
+      - 美国【TG：@clashjd】定时更新节点订阅
+      - 【TG：@clashjd】定时更新节点订阅
+      - -0674-CN【nodeshare.xyz〗+永久免费节点机场
+      - 意大利|MIL1
+      - -0690-CN【nodeshare.xyz〗+永久免费节点机场
+      - "|US|美国|@clashjd|124"
+      - "[openproxylist.com]+trojan-US"
+      - "|CN|中国|@clashjd|116"
+      - "[openproxylist.com]vmess-RU_2"
+      - 爱尔兰（nodeshare.xyz）免费机场节点
+      - 日本|T03
+      - -1015-CN【nodeshare.xyz〗+永久免费节点机场
+      - "|US|美国|@clashjd|98"
+      - "|CN|中国|@clashjd|120"
+      - 美国（nodeshare.xyz）免费机场节点
+      - 新加坡|SG01
+      - "[openproxylist.com]vmess-RU_3"
+      - "|NL|荷兰|@clashjd|118"
+      - "|DE|德国|@clashjd|95"
+      - -0935-US【nodeshare.xyz〗+永久免费节点机场
+      - 美国2（nodeshare.xyz）免费机场节点
+      - _定制专线：@QS00008
+      - 俄罗斯-圣彼得堡-012-1K
+      - 德国【TG：@clashjd】定时更新节点订阅
+      - 俄罗斯-喀山-002-1E
+      - 瑞典OracleCorporation2（nodeshare.xyz）免费机场节点
+      - "|GB|英国|@clashjd|101"
+      - "|RU|俄罗斯|@clashjd|172"
+      - 爱尔兰2（nodeshare.xyz）免费机场节点
+      - -0884-CN【nodeshare.xyz〗+永久免费节点机场
+      - 美国|NY1
+      - 中国阿里云4（nodeshare.xyz）免费机场节点
+      - 俄罗斯-圣彼得堡-012-2Z
+      - "|RU|俄罗斯|@clashjd|156"
+      - 俄罗斯-喀山-002-2T
+      - 荷兰-Meppel-StarkIndustriesSolutionsLTD-1
+      - 新加坡|SG02
+      - 俄罗斯3（nodeshare.xyz）免费机场节点
+      - -0611-CN【nodeshare.xyz〗+永久免费节点机场
+      - "|US|美国|@clashjd|81"
+      - 新加坡|SG03
+      - 俄罗斯-圣彼得堡-012-1x
+      - 俄罗斯-喀山-002-1U
+      - 瑞典OracleCorporation（nodeshare.xyz）免费机场节点
+      - 拉脱维亚【TG：@clashjd】定时更新节点订阅
+      - 美国|SJ0
+      - 俄罗斯-喀山-002-2L
+      - 俄罗斯-圣彼得堡-014-1O
+      - 俄罗斯-圣彼得堡-012-2D
   - name: 📲 电报信息
     type: select
     proxies:
@@ -786,51 +1375,150 @@ proxy-groups:
       - _US_美国_34
       - _US_美国_35
       - _US_美国_36
-      - 香港(nodeshare.xyz免费节点)_1
-      - 美国(nodeshare.xyz免费节点)_6
-      - 美国(nodeshare.xyz免费节点)_7
-      - 美国(nodeshare.xyz免费节点)_8
-      - 美国(nodeshare.xyz免费节点)_11
-      - 美国(nodeshare.xyz免费节点)_12
-      - 美国(nodeshare.xyz免费节点)_13
-      - 香港(nodeshare.xyz免费节点)_2
-      - 香港(nodeshare.xyz免费节点)_3
-      - 法国(nodeshare.xyz免费节点)_1
-      - 香港(nodeshare.xyz免费节点)_4
-      - 香港(nodeshare.xyz免费节点)_5
-      - 美国(nodeshare.xyz免费节点)_16
-      - 香港(nodeshare.xyz免费节点)_7
-      - 美国(nodeshare.xyz免费节点)_17
-      - 香港(nodeshare.xyz免费节点)_8
-      - 法国(nodeshare.xyz免费节点)_2
-      - 香港(nodeshare.xyz免费节点)_9
-      - 香港(nodeshare.xyz免费节点)_10
-      - 美国(nodeshare.xyz免费节点)_22
-      - 美国(nodeshare.xyz免费节点)_24
-      - 英国(nodeshare.xyz免费节点)_1
-      - 美国(nodeshare.xyz免费节点)_29
-      - 香港(nodeshare.xyz免费节点)_11
-      - 香港(nodeshare.xyz免费节点)_12
-      - 新加坡(nodeshare.xyz免费节点)
-      - 美国(nodeshare.xyz免费节点)_39
-      - 美国(nodeshare.xyz免费节点)_40
-      - 日本(nodeshare.xyz免费节点)
-      - 俄罗斯(nodeshare.xyz免费节点)_2
-      - 英国(nodeshare.xyz免费节点)_2
-      - 美国(nodeshare.xyz免费节点)_45
-      - 美国(nodeshare.xyz免费节点)_46
-      - 美国(nodeshare.xyz免费节点)_48
-      - 香港(nodeshare.xyz免费节点)_13
-      - 美国(nodeshare.xyz免费节点)_68
-      - 美国(nodeshare.xyz免费节点)_82
-      - 德国(nodeshare.xyz免费节点)_4
-      - 美国(nodeshare.xyz免费节点)_161
-      - 美国(nodeshare.xyz免费节点)_164
-      - 美国(nodeshare.xyz免费节点)_179
-      - 美国(nodeshare.xyz免费节点)_182
-      - 香港(nodeshare.xyz免费节点)_14
-      - 美国(nodeshare.xyz免费节点)_234
-      - 印度(nodeshare.xyz免费节点)_4
+      - 马来西亚|MAS1|x9
+      - -0323-JP【nodeshare.xyz〗+永久免费节点机场
+      - -0683-CN【nodeshare.xyz〗+永久免费节点机场
+      - "[openproxylist.com]vmess-DE"
+      - -0688-CN【nodeshare.xyz〗+永久免费节点机场
+      - 美国|SEA1
+      - -0667-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0685-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0602-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0662-CN【nodeshare.xyz〗+永久免费节点机场
+      - 香港〖电报：@clashjd】免费节点定时更新
+      - 香港|HK09
+      - -0677-CN【nodeshare.xyz〗+永久免费节点机场
+      - 日本|T06
+      - -0668-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0670-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0657-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0684-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0666-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0607-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0681-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0606-CN【nodeshare.xyz〗+永久免费节点机场
+      - 韩国|SEL2
+      - -0676-CN【nodeshare.xyz〗+永久免费节点机场
+      - 日本|T02
+      - -0686-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0673-CN【nodeshare.xyz〗+永久免费节点机场
+      - 中国阿里云3（nodeshare.xyz）免费机场节点
+      - -0680-CN【nodeshare.xyz〗+永久免费节点机场
+      - 新加坡|SG07
+      - "|GB|英国|@clashjd|94"
+      - 日本|T08
+      - -0679-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0678-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0687-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0671-CN【nodeshare.xyz〗+永久免费节点机场
+      - 香港+2
+      - -0691-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0692-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0664-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0682-CN【nodeshare.xyz〗+永久免费节点机场
+      - 新加坡|SG08
+      - 新加坡|SG05
+      - "[openproxylist.com]vmess-US"
+      - -0689-CN【nodeshare.xyz〗+永久免费节点机场
+      - "|CH|瑞士|@clashjd|109"
+      - 俄罗斯-圣彼得堡-012-1L
+      - -0584-JP【nodeshare.xyz〗+永久免费节点机场
+      - "|CN|中国|@clashjd|108"
+      - "[openproxylist.com]vmess-RU_1"
+      - -0675-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0325-US【nodeshare.xyz〗+永久免费节点机场
+      - 新加坡|SG06
+      - 土耳其|IST1
+      - 美国|PHX1
+      - 日本|T04
+      - 澳大利亚|SYD1
+      - -0663-CN【nodeshare.xyz〗+永久免费节点机场
+      - 新加坡|SG04
+      - 俄罗斯-圣彼得堡-013-2K
+      - -0656-CN【nodeshare.xyz〗+永久免费节点机场
+      - 日本|T01
+      - 香港|HK03
+      - 日本|T09
+      - 菲律宾|MNL2
+      - 德国|FRA1
+      - 香港|HK01
+      - "|US|美国|@clashjd|182"
+      - "|CN|中国|@clashjd|93"
+      - -0610-CN【nodeshare.xyz〗+永久免费节点机场
+      - 美国|KS1
+      - "|GB|英国|@clashjd|103"
+      - -0587-US【nodeshare.xyz〗+永久免费节点机场
+      - -0585-US【nodeshare.xyz〗+永久免费节点机场
+      - 英国|COV2
+      - "|CN|中国|@clashjd|53"
+      - "|CN|中国|@clashjd|100"
+      - -0583-JP【nodeshare.xyz〗+永久免费节点机场
+      - 新加坡〖电报：@clashjd】免费节点定时更新
+      - -0604-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0870-SG【nodeshare.xyz〗永久免费节点机场
+      - -0649-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0652-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0654-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0659-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0661-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0653-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0658-CN【nodeshare.xyz〗+永久免费节点机场
+      - 加拿大|CA1
+      - 香港|HK08
+      - 香港|02-1B
+      - 香港|HK05
+      - -0655-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0327-US【nodeshare.xyz〗+永久免费节点机场
+      - -0324-JP【nodeshare.xyz〗+永久免费节点机场
+      - 美国【TG：@clashjd】定时更新节点订阅
+      - 【TG：@clashjd】定时更新节点订阅
+      - -0674-CN【nodeshare.xyz〗+永久免费节点机场
+      - 意大利|MIL1
+      - -0690-CN【nodeshare.xyz〗+永久免费节点机场
+      - "|US|美国|@clashjd|124"
+      - "[openproxylist.com]+trojan-US"
+      - "|CN|中国|@clashjd|116"
+      - "[openproxylist.com]vmess-RU_2"
+      - 爱尔兰（nodeshare.xyz）免费机场节点
+      - 日本|T03
+      - -1015-CN【nodeshare.xyz〗+永久免费节点机场
+      - "|US|美国|@clashjd|98"
+      - "|CN|中国|@clashjd|120"
+      - 美国（nodeshare.xyz）免费机场节点
+      - 新加坡|SG01
+      - "[openproxylist.com]vmess-RU_3"
+      - "|NL|荷兰|@clashjd|118"
+      - "|DE|德国|@clashjd|95"
+      - -0935-US【nodeshare.xyz〗+永久免费节点机场
+      - 美国2（nodeshare.xyz）免费机场节点
+      - _定制专线：@QS00008
+      - 俄罗斯-圣彼得堡-012-1K
+      - 德国【TG：@clashjd】定时更新节点订阅
+      - 俄罗斯-喀山-002-1E
+      - 瑞典OracleCorporation2（nodeshare.xyz）免费机场节点
+      - "|GB|英国|@clashjd|101"
+      - "|RU|俄罗斯|@clashjd|172"
+      - 爱尔兰2（nodeshare.xyz）免费机场节点
+      - -0884-CN【nodeshare.xyz〗+永久免费节点机场
+      - 美国|NY1
+      - 中国阿里云4（nodeshare.xyz）免费机场节点
+      - 俄罗斯-圣彼得堡-012-2Z
+      - "|RU|俄罗斯|@clashjd|156"
+      - 俄罗斯-喀山-002-2T
+      - 荷兰-Meppel-StarkIndustriesSolutionsLTD-1
+      - 新加坡|SG02
+      - 俄罗斯3（nodeshare.xyz）免费机场节点
+      - -0611-CN【nodeshare.xyz〗+永久免费节点机场
+      - "|US|美国|@clashjd|81"
+      - 新加坡|SG03
+      - 俄罗斯-圣彼得堡-012-1x
+      - 俄罗斯-喀山-002-1U
+      - 瑞典OracleCorporation（nodeshare.xyz）免费机场节点
+      - 拉脱维亚【TG：@clashjd】定时更新节点订阅
+      - 美国|SJ0
+      - 俄罗斯-喀山-002-2L
+      - 俄罗斯-圣彼得堡-014-1O
+      - 俄罗斯-圣彼得堡-012-2D
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -901,51 +1589,150 @@ proxy-groups:
       - _US_美国_34
       - _US_美国_35
       - _US_美国_36
-      - 香港(nodeshare.xyz免费节点)_1
-      - 美国(nodeshare.xyz免费节点)_6
-      - 美国(nodeshare.xyz免费节点)_7
-      - 美国(nodeshare.xyz免费节点)_8
-      - 美国(nodeshare.xyz免费节点)_11
-      - 美国(nodeshare.xyz免费节点)_12
-      - 美国(nodeshare.xyz免费节点)_13
-      - 香港(nodeshare.xyz免费节点)_2
-      - 香港(nodeshare.xyz免费节点)_3
-      - 法国(nodeshare.xyz免费节点)_1
-      - 香港(nodeshare.xyz免费节点)_4
-      - 香港(nodeshare.xyz免费节点)_5
-      - 美国(nodeshare.xyz免费节点)_16
-      - 香港(nodeshare.xyz免费节点)_7
-      - 美国(nodeshare.xyz免费节点)_17
-      - 香港(nodeshare.xyz免费节点)_8
-      - 法国(nodeshare.xyz免费节点)_2
-      - 香港(nodeshare.xyz免费节点)_9
-      - 香港(nodeshare.xyz免费节点)_10
-      - 美国(nodeshare.xyz免费节点)_22
-      - 美国(nodeshare.xyz免费节点)_24
-      - 英国(nodeshare.xyz免费节点)_1
-      - 美国(nodeshare.xyz免费节点)_29
-      - 香港(nodeshare.xyz免费节点)_11
-      - 香港(nodeshare.xyz免费节点)_12
-      - 新加坡(nodeshare.xyz免费节点)
-      - 美国(nodeshare.xyz免费节点)_39
-      - 美国(nodeshare.xyz免费节点)_40
-      - 日本(nodeshare.xyz免费节点)
-      - 俄罗斯(nodeshare.xyz免费节点)_2
-      - 英国(nodeshare.xyz免费节点)_2
-      - 美国(nodeshare.xyz免费节点)_45
-      - 美国(nodeshare.xyz免费节点)_46
-      - 美国(nodeshare.xyz免费节点)_48
-      - 香港(nodeshare.xyz免费节点)_13
-      - 美国(nodeshare.xyz免费节点)_68
-      - 美国(nodeshare.xyz免费节点)_82
-      - 德国(nodeshare.xyz免费节点)_4
-      - 美国(nodeshare.xyz免费节点)_161
-      - 美国(nodeshare.xyz免费节点)_164
-      - 美国(nodeshare.xyz免费节点)_179
-      - 美国(nodeshare.xyz免费节点)_182
-      - 香港(nodeshare.xyz免费节点)_14
-      - 美国(nodeshare.xyz免费节点)_234
-      - 印度(nodeshare.xyz免费节点)_4
+      - 马来西亚|MAS1|x9
+      - -0323-JP【nodeshare.xyz〗+永久免费节点机场
+      - -0683-CN【nodeshare.xyz〗+永久免费节点机场
+      - "[openproxylist.com]vmess-DE"
+      - -0688-CN【nodeshare.xyz〗+永久免费节点机场
+      - 美国|SEA1
+      - -0667-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0685-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0602-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0662-CN【nodeshare.xyz〗+永久免费节点机场
+      - 香港〖电报：@clashjd】免费节点定时更新
+      - 香港|HK09
+      - -0677-CN【nodeshare.xyz〗+永久免费节点机场
+      - 日本|T06
+      - -0668-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0670-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0657-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0684-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0666-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0607-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0681-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0606-CN【nodeshare.xyz〗+永久免费节点机场
+      - 韩国|SEL2
+      - -0676-CN【nodeshare.xyz〗+永久免费节点机场
+      - 日本|T02
+      - -0686-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0673-CN【nodeshare.xyz〗+永久免费节点机场
+      - 中国阿里云3（nodeshare.xyz）免费机场节点
+      - -0680-CN【nodeshare.xyz〗+永久免费节点机场
+      - 新加坡|SG07
+      - "|GB|英国|@clashjd|94"
+      - 日本|T08
+      - -0679-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0678-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0687-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0671-CN【nodeshare.xyz〗+永久免费节点机场
+      - 香港+2
+      - -0691-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0692-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0664-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0682-CN【nodeshare.xyz〗+永久免费节点机场
+      - 新加坡|SG08
+      - 新加坡|SG05
+      - "[openproxylist.com]vmess-US"
+      - -0689-CN【nodeshare.xyz〗+永久免费节点机场
+      - "|CH|瑞士|@clashjd|109"
+      - 俄罗斯-圣彼得堡-012-1L
+      - -0584-JP【nodeshare.xyz〗+永久免费节点机场
+      - "|CN|中国|@clashjd|108"
+      - "[openproxylist.com]vmess-RU_1"
+      - -0675-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0325-US【nodeshare.xyz〗+永久免费节点机场
+      - 新加坡|SG06
+      - 土耳其|IST1
+      - 美国|PHX1
+      - 日本|T04
+      - 澳大利亚|SYD1
+      - -0663-CN【nodeshare.xyz〗+永久免费节点机场
+      - 新加坡|SG04
+      - 俄罗斯-圣彼得堡-013-2K
+      - -0656-CN【nodeshare.xyz〗+永久免费节点机场
+      - 日本|T01
+      - 香港|HK03
+      - 日本|T09
+      - 菲律宾|MNL2
+      - 德国|FRA1
+      - 香港|HK01
+      - "|US|美国|@clashjd|182"
+      - "|CN|中国|@clashjd|93"
+      - -0610-CN【nodeshare.xyz〗+永久免费节点机场
+      - 美国|KS1
+      - "|GB|英国|@clashjd|103"
+      - -0587-US【nodeshare.xyz〗+永久免费节点机场
+      - -0585-US【nodeshare.xyz〗+永久免费节点机场
+      - 英国|COV2
+      - "|CN|中国|@clashjd|53"
+      - "|CN|中国|@clashjd|100"
+      - -0583-JP【nodeshare.xyz〗+永久免费节点机场
+      - 新加坡〖电报：@clashjd】免费节点定时更新
+      - -0604-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0870-SG【nodeshare.xyz〗永久免费节点机场
+      - -0649-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0652-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0654-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0659-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0661-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0653-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0658-CN【nodeshare.xyz〗+永久免费节点机场
+      - 加拿大|CA1
+      - 香港|HK08
+      - 香港|02-1B
+      - 香港|HK05
+      - -0655-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0327-US【nodeshare.xyz〗+永久免费节点机场
+      - -0324-JP【nodeshare.xyz〗+永久免费节点机场
+      - 美国【TG：@clashjd】定时更新节点订阅
+      - 【TG：@clashjd】定时更新节点订阅
+      - -0674-CN【nodeshare.xyz〗+永久免费节点机场
+      - 意大利|MIL1
+      - -0690-CN【nodeshare.xyz〗+永久免费节点机场
+      - "|US|美国|@clashjd|124"
+      - "[openproxylist.com]+trojan-US"
+      - "|CN|中国|@clashjd|116"
+      - "[openproxylist.com]vmess-RU_2"
+      - 爱尔兰（nodeshare.xyz）免费机场节点
+      - 日本|T03
+      - -1015-CN【nodeshare.xyz〗+永久免费节点机场
+      - "|US|美国|@clashjd|98"
+      - "|CN|中国|@clashjd|120"
+      - 美国（nodeshare.xyz）免费机场节点
+      - 新加坡|SG01
+      - "[openproxylist.com]vmess-RU_3"
+      - "|NL|荷兰|@clashjd|118"
+      - "|DE|德国|@clashjd|95"
+      - -0935-US【nodeshare.xyz〗+永久免费节点机场
+      - 美国2（nodeshare.xyz）免费机场节点
+      - _定制专线：@QS00008
+      - 俄罗斯-圣彼得堡-012-1K
+      - 德国【TG：@clashjd】定时更新节点订阅
+      - 俄罗斯-喀山-002-1E
+      - 瑞典OracleCorporation2（nodeshare.xyz）免费机场节点
+      - "|GB|英国|@clashjd|101"
+      - "|RU|俄罗斯|@clashjd|172"
+      - 爱尔兰2（nodeshare.xyz）免费机场节点
+      - -0884-CN【nodeshare.xyz〗+永久免费节点机场
+      - 美国|NY1
+      - 中国阿里云4（nodeshare.xyz）免费机场节点
+      - 俄罗斯-圣彼得堡-012-2Z
+      - "|RU|俄罗斯|@clashjd|156"
+      - 俄罗斯-喀山-002-2T
+      - 荷兰-Meppel-StarkIndustriesSolutionsLTD-1
+      - 新加坡|SG02
+      - 俄罗斯3（nodeshare.xyz）免费机场节点
+      - -0611-CN【nodeshare.xyz〗+永久免费节点机场
+      - "|US|美国|@clashjd|81"
+      - 新加坡|SG03
+      - 俄罗斯-圣彼得堡-012-1x
+      - 俄罗斯-喀山-002-1U
+      - 瑞典OracleCorporation（nodeshare.xyz）免费机场节点
+      - 拉脱维亚【TG：@clashjd】定时更新节点订阅
+      - 美国|SJ0
+      - 俄罗斯-喀山-002-2L
+      - 俄罗斯-圣彼得堡-014-1O
+      - 俄罗斯-圣彼得堡-012-2D
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1025,51 +1812,150 @@ proxy-groups:
       - _US_美国_34
       - _US_美国_35
       - _US_美国_36
-      - 香港(nodeshare.xyz免费节点)_1
-      - 美国(nodeshare.xyz免费节点)_6
-      - 美国(nodeshare.xyz免费节点)_7
-      - 美国(nodeshare.xyz免费节点)_8
-      - 美国(nodeshare.xyz免费节点)_11
-      - 美国(nodeshare.xyz免费节点)_12
-      - 美国(nodeshare.xyz免费节点)_13
-      - 香港(nodeshare.xyz免费节点)_2
-      - 香港(nodeshare.xyz免费节点)_3
-      - 法国(nodeshare.xyz免费节点)_1
-      - 香港(nodeshare.xyz免费节点)_4
-      - 香港(nodeshare.xyz免费节点)_5
-      - 美国(nodeshare.xyz免费节点)_16
-      - 香港(nodeshare.xyz免费节点)_7
-      - 美国(nodeshare.xyz免费节点)_17
-      - 香港(nodeshare.xyz免费节点)_8
-      - 法国(nodeshare.xyz免费节点)_2
-      - 香港(nodeshare.xyz免费节点)_9
-      - 香港(nodeshare.xyz免费节点)_10
-      - 美国(nodeshare.xyz免费节点)_22
-      - 美国(nodeshare.xyz免费节点)_24
-      - 英国(nodeshare.xyz免费节点)_1
-      - 美国(nodeshare.xyz免费节点)_29
-      - 香港(nodeshare.xyz免费节点)_11
-      - 香港(nodeshare.xyz免费节点)_12
-      - 新加坡(nodeshare.xyz免费节点)
-      - 美国(nodeshare.xyz免费节点)_39
-      - 美国(nodeshare.xyz免费节点)_40
-      - 日本(nodeshare.xyz免费节点)
-      - 俄罗斯(nodeshare.xyz免费节点)_2
-      - 英国(nodeshare.xyz免费节点)_2
-      - 美国(nodeshare.xyz免费节点)_45
-      - 美国(nodeshare.xyz免费节点)_46
-      - 美国(nodeshare.xyz免费节点)_48
-      - 香港(nodeshare.xyz免费节点)_13
-      - 美国(nodeshare.xyz免费节点)_68
-      - 美国(nodeshare.xyz免费节点)_82
-      - 德国(nodeshare.xyz免费节点)_4
-      - 美国(nodeshare.xyz免费节点)_161
-      - 美国(nodeshare.xyz免费节点)_164
-      - 美国(nodeshare.xyz免费节点)_179
-      - 美国(nodeshare.xyz免费节点)_182
-      - 香港(nodeshare.xyz免费节点)_14
-      - 美国(nodeshare.xyz免费节点)_234
-      - 印度(nodeshare.xyz免费节点)_4
+      - 马来西亚|MAS1|x9
+      - -0323-JP【nodeshare.xyz〗+永久免费节点机场
+      - -0683-CN【nodeshare.xyz〗+永久免费节点机场
+      - "[openproxylist.com]vmess-DE"
+      - -0688-CN【nodeshare.xyz〗+永久免费节点机场
+      - 美国|SEA1
+      - -0667-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0685-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0602-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0662-CN【nodeshare.xyz〗+永久免费节点机场
+      - 香港〖电报：@clashjd】免费节点定时更新
+      - 香港|HK09
+      - -0677-CN【nodeshare.xyz〗+永久免费节点机场
+      - 日本|T06
+      - -0668-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0670-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0657-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0684-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0666-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0607-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0681-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0606-CN【nodeshare.xyz〗+永久免费节点机场
+      - 韩国|SEL2
+      - -0676-CN【nodeshare.xyz〗+永久免费节点机场
+      - 日本|T02
+      - -0686-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0673-CN【nodeshare.xyz〗+永久免费节点机场
+      - 中国阿里云3（nodeshare.xyz）免费机场节点
+      - -0680-CN【nodeshare.xyz〗+永久免费节点机场
+      - 新加坡|SG07
+      - "|GB|英国|@clashjd|94"
+      - 日本|T08
+      - -0679-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0678-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0687-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0671-CN【nodeshare.xyz〗+永久免费节点机场
+      - 香港+2
+      - -0691-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0692-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0664-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0682-CN【nodeshare.xyz〗+永久免费节点机场
+      - 新加坡|SG08
+      - 新加坡|SG05
+      - "[openproxylist.com]vmess-US"
+      - -0689-CN【nodeshare.xyz〗+永久免费节点机场
+      - "|CH|瑞士|@clashjd|109"
+      - 俄罗斯-圣彼得堡-012-1L
+      - -0584-JP【nodeshare.xyz〗+永久免费节点机场
+      - "|CN|中国|@clashjd|108"
+      - "[openproxylist.com]vmess-RU_1"
+      - -0675-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0325-US【nodeshare.xyz〗+永久免费节点机场
+      - 新加坡|SG06
+      - 土耳其|IST1
+      - 美国|PHX1
+      - 日本|T04
+      - 澳大利亚|SYD1
+      - -0663-CN【nodeshare.xyz〗+永久免费节点机场
+      - 新加坡|SG04
+      - 俄罗斯-圣彼得堡-013-2K
+      - -0656-CN【nodeshare.xyz〗+永久免费节点机场
+      - 日本|T01
+      - 香港|HK03
+      - 日本|T09
+      - 菲律宾|MNL2
+      - 德国|FRA1
+      - 香港|HK01
+      - "|US|美国|@clashjd|182"
+      - "|CN|中国|@clashjd|93"
+      - -0610-CN【nodeshare.xyz〗+永久免费节点机场
+      - 美国|KS1
+      - "|GB|英国|@clashjd|103"
+      - -0587-US【nodeshare.xyz〗+永久免费节点机场
+      - -0585-US【nodeshare.xyz〗+永久免费节点机场
+      - 英国|COV2
+      - "|CN|中国|@clashjd|53"
+      - "|CN|中国|@clashjd|100"
+      - -0583-JP【nodeshare.xyz〗+永久免费节点机场
+      - 新加坡〖电报：@clashjd】免费节点定时更新
+      - -0604-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0870-SG【nodeshare.xyz〗永久免费节点机场
+      - -0649-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0652-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0654-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0659-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0661-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0653-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0658-CN【nodeshare.xyz〗+永久免费节点机场
+      - 加拿大|CA1
+      - 香港|HK08
+      - 香港|02-1B
+      - 香港|HK05
+      - -0655-CN【nodeshare.xyz〗+永久免费节点机场
+      - -0327-US【nodeshare.xyz〗+永久免费节点机场
+      - -0324-JP【nodeshare.xyz〗+永久免费节点机场
+      - 美国【TG：@clashjd】定时更新节点订阅
+      - 【TG：@clashjd】定时更新节点订阅
+      - -0674-CN【nodeshare.xyz〗+永久免费节点机场
+      - 意大利|MIL1
+      - -0690-CN【nodeshare.xyz〗+永久免费节点机场
+      - "|US|美国|@clashjd|124"
+      - "[openproxylist.com]+trojan-US"
+      - "|CN|中国|@clashjd|116"
+      - "[openproxylist.com]vmess-RU_2"
+      - 爱尔兰（nodeshare.xyz）免费机场节点
+      - 日本|T03
+      - -1015-CN【nodeshare.xyz〗+永久免费节点机场
+      - "|US|美国|@clashjd|98"
+      - "|CN|中国|@clashjd|120"
+      - 美国（nodeshare.xyz）免费机场节点
+      - 新加坡|SG01
+      - "[openproxylist.com]vmess-RU_3"
+      - "|NL|荷兰|@clashjd|118"
+      - "|DE|德国|@clashjd|95"
+      - -0935-US【nodeshare.xyz〗+永久免费节点机场
+      - 美国2（nodeshare.xyz）免费机场节点
+      - _定制专线：@QS00008
+      - 俄罗斯-圣彼得堡-012-1K
+      - 德国【TG：@clashjd】定时更新节点订阅
+      - 俄罗斯-喀山-002-1E
+      - 瑞典OracleCorporation2（nodeshare.xyz）免费机场节点
+      - "|GB|英国|@clashjd|101"
+      - "|RU|俄罗斯|@clashjd|172"
+      - 爱尔兰2（nodeshare.xyz）免费机场节点
+      - -0884-CN【nodeshare.xyz〗+永久免费节点机场
+      - 美国|NY1
+      - 中国阿里云4（nodeshare.xyz）免费机场节点
+      - 俄罗斯-圣彼得堡-012-2Z
+      - "|RU|俄罗斯|@clashjd|156"
+      - 俄罗斯-喀山-002-2T
+      - 荷兰-Meppel-StarkIndustriesSolutionsLTD-1
+      - 新加坡|SG02
+      - 俄罗斯3（nodeshare.xyz）免费机场节点
+      - -0611-CN【nodeshare.xyz〗+永久免费节点机场
+      - "|US|美国|@clashjd|81"
+      - 新加坡|SG03
+      - 俄罗斯-圣彼得堡-012-1x
+      - 俄罗斯-喀山-002-1U
+      - 瑞典OracleCorporation（nodeshare.xyz）免费机场节点
+      - 拉脱维亚【TG：@clashjd】定时更新节点订阅
+      - 美国|SJ0
+      - 俄罗斯-喀山-002-2L
+      - 俄罗斯-圣彼得堡-014-1O
+      - 俄罗斯-圣彼得堡-012-2D
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
