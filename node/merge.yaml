@@ -5,21 +5,16 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _US_美国, server: 18.159.91.234, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
-  - {name: _DE_德国, server: 52.59.96.213, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_1, server: 34.222.44.5, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _GB_英国->🇺🇸_US_美国, server: 51.21.158.110, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
-  - {name: _US_美国->🇨🇳_CN_中国_1, server: 54.201.149.176, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _DK_丹麦, server: 185.186.79.53, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: _GB_英国, server: 212.102.53.196, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: _US_美国_4, server: 34.214.175.186, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _MD_摩尔多瓦, server: 91.132.94.200, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: _US_美国_6, server: 34.219.71.252, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _US_美国_8, server: 35.95.37.205, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _US_美国->🇨🇳_CN_中国_1 2, server: 35.92.145.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _IN_印度, server: 103.104.247.49, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
+  - {name: _BE_比利时, server: 57.128.190.245, port: 20568, type: ss, cipher: chacha20-ietf-poly1305, password: e014f8ab71735926, udp: true}
+  - {name: _US_美国_1, server: 207.90.237.96, port: 23008, type: vmess, uuid: 5f3c5e30-7b83-403e-9a3d-8adacd160d21, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: _DE_德国, server: 45.87.175.188, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
   - {name: _CH_瑞士, server: 84.17.53.160, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: _GB_英国 2, server: 51.15.27.48, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: _US_美国_3, server: 34.219.71.252, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _NL_荷兰, server: 45.158.171.110, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
+  - {name: _US_美国->🇨🇳_CN_中国_1, server: 35.92.145.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _IN_印度, server: 103.104.247.49, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
+  - {name: _CH_瑞士 2, server: 84.17.53.160, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: _GB_英国, server: 51.15.27.48, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: _US_美国_1 2, server: 69.50.95.86, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
   - {name: _US_美国->🇨🇳_CN_中国_2, server: 18.237.73.216, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: _DE_德国 2, server: 45.87.175.166, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
@@ -84,21 +79,16 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _US_美国
-      - _DE_德国
+      - _BE_比利时
       - _US_美国_1
-      - _GB_英国->🇺🇸_US_美国
-      - _US_美国->🇨🇳_CN_中国_1
-      - _DK_丹麦
-      - _GB_英国
-      - _US_美国_4
-      - _MD_摩尔多瓦
-      - _US_美国_6
-      - _US_美国_8
-      - _US_美国->🇨🇳_CN_中国_1 2
-      - _IN_印度
+      - _DE_德国
       - _CH_瑞士
-      - _GB_英国 2
+      - _US_美国_3
+      - _NL_荷兰
+      - _US_美国->🇨🇳_CN_中国_1
+      - _IN_印度
+      - _CH_瑞士 2
+      - _GB_英国
       - _US_美国_1 2
       - _US_美国->🇨🇳_CN_中国_2
       - _DE_德国 2
@@ -162,21 +152,16 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _US_美国
-      - _DE_德国
+      - _BE_比利时
       - _US_美国_1
-      - _GB_英国->🇺🇸_US_美国
-      - _US_美国->🇨🇳_CN_中国_1
-      - _DK_丹麦
-      - _GB_英国
-      - _US_美国_4
-      - _MD_摩尔多瓦
-      - _US_美国_6
-      - _US_美国_8
-      - _US_美国->🇨🇳_CN_中国_1 2
-      - _IN_印度
+      - _DE_德国
       - _CH_瑞士
-      - _GB_英国 2
+      - _US_美国_3
+      - _NL_荷兰
+      - _US_美国->🇨🇳_CN_中国_1
+      - _IN_印度
+      - _CH_瑞士 2
+      - _GB_英国
       - _US_美国_1 2
       - _US_美国->🇨🇳_CN_中国_2
       - _DE_德国 2
@@ -241,21 +226,16 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _US_美国
-      - _DE_德国
+      - _BE_比利时
       - _US_美国_1
-      - _GB_英国->🇺🇸_US_美国
-      - _US_美国->🇨🇳_CN_中国_1
-      - _DK_丹麦
-      - _GB_英国
-      - _US_美国_4
-      - _MD_摩尔多瓦
-      - _US_美国_6
-      - _US_美国_8
-      - _US_美国->🇨🇳_CN_中国_1 2
-      - _IN_印度
+      - _DE_德国
       - _CH_瑞士
-      - _GB_英国 2
+      - _US_美国_3
+      - _NL_荷兰
+      - _US_美国->🇨🇳_CN_中国_1
+      - _IN_印度
+      - _CH_瑞士 2
+      - _GB_英国
       - _US_美国_1 2
       - _US_美国->🇨🇳_CN_中国_2
       - _DE_德国 2
@@ -332,21 +312,16 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _US_美国
-      - _DE_德国
+      - _BE_比利时
       - _US_美国_1
-      - _GB_英国->🇺🇸_US_美国
-      - _US_美国->🇨🇳_CN_中国_1
-      - _DK_丹麦
-      - _GB_英国
-      - _US_美国_4
-      - _MD_摩尔多瓦
-      - _US_美国_6
-      - _US_美国_8
-      - _US_美国->🇨🇳_CN_中国_1 2
-      - _IN_印度
+      - _DE_德国
       - _CH_瑞士
-      - _GB_英国 2
+      - _US_美国_3
+      - _NL_荷兰
+      - _US_美国->🇨🇳_CN_中国_1
+      - _IN_印度
+      - _CH_瑞士 2
+      - _GB_英国
       - _US_美国_1 2
       - _US_美国->🇨🇳_CN_中国_2
       - _DE_德国 2
@@ -415,21 +390,16 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - _US_美国
-      - _DE_德国
+      - _BE_比利时
       - _US_美国_1
-      - _GB_英国->🇺🇸_US_美国
-      - _US_美国->🇨🇳_CN_中国_1
-      - _DK_丹麦
-      - _GB_英国
-      - _US_美国_4
-      - _MD_摩尔多瓦
-      - _US_美国_6
-      - _US_美国_8
-      - _US_美国->🇨🇳_CN_中国_1 2
-      - _IN_印度
+      - _DE_德国
       - _CH_瑞士
-      - _GB_英国 2
+      - _US_美国_3
+      - _NL_荷兰
+      - _US_美国->🇨🇳_CN_中国_1
+      - _IN_印度
+      - _CH_瑞士 2
+      - _GB_英国
       - _US_美国_1 2
       - _US_美国->🇨🇳_CN_中国_2
       - _DE_德国 2
@@ -493,21 +463,16 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - _US_美国
-      - _DE_德国
+      - _BE_比利时
       - _US_美国_1
-      - _GB_英国->🇺🇸_US_美国
-      - _US_美国->🇨🇳_CN_中国_1
-      - _DK_丹麦
-      - _GB_英国
-      - _US_美国_4
-      - _MD_摩尔多瓦
-      - _US_美国_6
-      - _US_美国_8
-      - _US_美国->🇨🇳_CN_中国_1 2
-      - _IN_印度
+      - _DE_德国
       - _CH_瑞士
-      - _GB_英国 2
+      - _US_美国_3
+      - _NL_荷兰
+      - _US_美国->🇨🇳_CN_中国_1
+      - _IN_印度
+      - _CH_瑞士 2
+      - _GB_英国
       - _US_美国_1 2
       - _US_美国->🇨🇳_CN_中国_2
       - _DE_德国 2
@@ -572,21 +537,16 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _US_美国
-      - _DE_德国
+      - _BE_比利时
       - _US_美国_1
-      - _GB_英国->🇺🇸_US_美国
-      - _US_美国->🇨🇳_CN_中国_1
-      - _DK_丹麦
-      - _GB_英国
-      - _US_美国_4
-      - _MD_摩尔多瓦
-      - _US_美国_6
-      - _US_美国_8
-      - _US_美国->🇨🇳_CN_中国_1 2
-      - _IN_印度
+      - _DE_德国
       - _CH_瑞士
-      - _GB_英国 2
+      - _US_美国_3
+      - _NL_荷兰
+      - _US_美国->🇨🇳_CN_中国_1
+      - _IN_印度
+      - _CH_瑞士 2
+      - _GB_英国
       - _US_美国_1 2
       - _US_美国->🇨🇳_CN_中国_2
       - _DE_德国 2
@@ -660,21 +620,16 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _US_美国
-      - _DE_德国
+      - _BE_比利时
       - _US_美国_1
-      - _GB_英国->🇺🇸_US_美国
-      - _US_美国->🇨🇳_CN_中国_1
-      - _DK_丹麦
-      - _GB_英国
-      - _US_美国_4
-      - _MD_摩尔多瓦
-      - _US_美国_6
-      - _US_美国_8
-      - _US_美国->🇨🇳_CN_中国_1 2
-      - _IN_印度
+      - _DE_德国
       - _CH_瑞士
-      - _GB_英国 2
+      - _US_美国_3
+      - _NL_荷兰
+      - _US_美国->🇨🇳_CN_中国_1
+      - _IN_印度
+      - _CH_瑞士 2
+      - _GB_英国
       - _US_美国_1 2
       - _US_美国->🇨🇳_CN_中国_2
       - _DE_德国 2
