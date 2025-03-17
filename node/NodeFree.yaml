@@ -46,21 +46,69 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: 🇺🇸_US_美国_1
-    type: trojan
-    server: 192.3.130.103
-    port: 443
-    network: grpc
-    password: 576c81b6-4976-4fe3-b1a9-05a9c302e98e
-    sni: us10-01.iran2030.ggff.net
-    alpn:
-      - h2
-    client-fingerprint: chrome
-    grpc-opts:
-      grpc-service-name: i8oL7PsxV002zYFTmiIeg
+  - name: 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
+    type: vmess
+    server: 185.174.138.209
+    port: 2095
+    uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+    network: ws
+    sni: ''
+    skip-cert-verify: true
+    ws-opts:
+      path: /az05.beyondy.cfd/link?/TM
+      headers:
+        host: yellow-paper-029c.yvonna.workers.dev
     ip-version: dual
     udp: true
-  - name: 🇺🇸_US_美国->🇩🇰_DK_丹麦
+    alterId: 0
+    cipher: auto
+  - name: 🇺🇸_US_美国_1
+    type: vmess
+    server: 207.90.238.136
+    port: 20010
+    uuid: 34a7d0cd-b0ba-440d-ab78-804775303a11
+    network: ws
+    ws-opts:
+      path: /
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国
+    type: vmess
+    server: 183.236.51.38
+    port: 30302
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    network: tcp
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: 🇳🇱_NL_荷兰->🇺🇸_US_美国
+    type: vmess
+    server: 45.142.120.190
+    port: 2082
+    uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+    network: ws
+    sni: ''
+    skip-cert-verify: true
+    ws-opts:
+      path: /az05.beyondy.cfd/link#
+      headers:
+        host: yellow-paper-029c.yvonna.workers.dev
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: 🇺🇸_US_美国->🇨🇳_CN_中国
+    type: ss
+    server: 54.202.63.169
+    port: 443
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国_2
     type: ss
     server: 34.211.230.161
     port: 443
@@ -68,27 +116,51 @@ proxies:
     ip-version: dual
     udp: true
     cipher: aes-256-cfb
-  - name: 🇩🇪_DE_德国
+  - name: 🇨🇭_CH_瑞士->🇨🇳_CN_中国
     type: ss
-    server: 193.108.119.230
-    port: 8080
-    password: 14fFPrbezE3HDZzsMOr6
+    server: 84.17.53.160
+    port: 989
+    password: f8f7aCzcPKbsF8p3
     ip-version: dual
     udp: true
-    cipher: rc4-md5
-  - name: 🇺🇸_US_美国_2
+    cipher: aes-256-cfb
+  - name: 🇬🇧_GB_英国->🇦🇹_AT_奥地利
     type: ss
-    server: 18.236.137.219
+    server: 51.15.23.63
+    port: 989
+    password: f8f7aCzcPKbsF8p3
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: 🇰🇼_KW_科威特
+    type: ss
+    server: 163.171.181.49
+    port: 12317
+    password: 877c3b069c335ffc
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: 🇺🇸_US_美国_3
+    type: ss
+    server: 34.221.169.63
     port: 443
     password: amazonskr05
     ip-version: dual
     udp: true
     cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_3
+  - name: 🇺🇸_US_美国_4
     type: ss
-    server: 34.210.253.95
-    port: 443
-    password: amazonskr05
+    server: 100.42.182.73
+    port: 11738
+    password: 7cbfe78195fbf19c
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: 🇸🇰_SK_斯洛伐克
+    type: ss
+    server: 156.146.40.194
+    port: 989
+    password: f8f7aCzcPKbsF8p3
     ip-version: dual
     udp: true
     cipher: aes-256-cfb
@@ -98,63 +170,105 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
       - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇩🇰_DK_丹麦
-      - 🇩🇪_DE_德国
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇳🇱_NL_荷兰->🇺🇸_US_美国
+      - 🇺🇸_US_美国->🇨🇳_CN_中国
       - 🇺🇸_US_美国_2
+      - 🇨🇭_CH_瑞士->🇨🇳_CN_中国
+      - 🇬🇧_GB_英国->🇦🇹_AT_奥地利
+      - 🇰🇼_KW_科威特
       - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇸🇰_SK_斯洛伐克
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 5000
     proxies:
+      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
       - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇩🇰_DK_丹麦
-      - 🇩🇪_DE_德国
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇳🇱_NL_荷兰->🇺🇸_US_美国
+      - 🇺🇸_US_美国->🇨🇳_CN_中国
       - 🇺🇸_US_美国_2
+      - 🇨🇭_CH_瑞士->🇨🇳_CN_中国
+      - 🇬🇧_GB_英国->🇦🇹_AT_奥地利
+      - 🇰🇼_KW_科威特
       - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇸🇰_SK_斯洛伐克
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
       - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇩🇰_DK_丹麦
-      - 🇩🇪_DE_德国
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇳🇱_NL_荷兰->🇺🇸_US_美国
+      - 🇺🇸_US_美国->🇨🇳_CN_中国
       - 🇺🇸_US_美国_2
+      - 🇨🇭_CH_瑞士->🇨🇳_CN_中国
+      - 🇬🇧_GB_英国->🇦🇹_AT_奥地利
+      - 🇰🇼_KW_科威特
       - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇸🇰_SK_斯洛伐克
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
       - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇩🇰_DK_丹麦
-      - 🇩🇪_DE_德国
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇳🇱_NL_荷兰->🇺🇸_US_美国
+      - 🇺🇸_US_美国->🇨🇳_CN_中国
       - 🇺🇸_US_美国_2
+      - 🇨🇭_CH_瑞士->🇨🇳_CN_中国
+      - 🇬🇧_GB_英国->🇦🇹_AT_奥地利
+      - 🇰🇼_KW_科威特
       - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇸🇰_SK_斯洛伐克
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
       - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇩🇰_DK_丹麦
-      - 🇩🇪_DE_德国
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇳🇱_NL_荷兰->🇺🇸_US_美国
+      - 🇺🇸_US_美国->🇨🇳_CN_中国
       - 🇺🇸_US_美国_2
+      - 🇨🇭_CH_瑞士->🇨🇳_CN_中国
+      - 🇬🇧_GB_英国->🇦🇹_AT_奥地利
+      - 🇰🇼_KW_科威特
       - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇸🇰_SK_斯洛伐克
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
       - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇩🇰_DK_丹麦
-      - 🇩🇪_DE_德国
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇳🇱_NL_荷兰->🇺🇸_US_美国
+      - 🇺🇸_US_美国->🇨🇳_CN_中国
       - 🇺🇸_US_美国_2
+      - 🇨🇭_CH_瑞士->🇨🇳_CN_中国
+      - 🇬🇧_GB_英国->🇦🇹_AT_奥地利
+      - 🇰🇼_KW_科威特
       - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇸🇰_SK_斯洛伐克
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -177,11 +291,18 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
       - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇩🇰_DK_丹麦
-      - 🇩🇪_DE_德国
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇳🇱_NL_荷兰->🇺🇸_US_美国
+      - 🇺🇸_US_美国->🇨🇳_CN_中国
       - 🇺🇸_US_美国_2
+      - 🇨🇭_CH_瑞士->🇨🇳_CN_中国
+      - 🇬🇧_GB_英国->🇦🇹_AT_奥地利
+      - 🇰🇼_KW_科威特
       - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇸🇰_SK_斯洛伐克
 rules:
 # 本地/局域网地址
 # 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
