@@ -46,33 +46,9 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: 🇬🇧_GB_英国_1
-    type: vmess
-    server: 185.184.70.90
-    port: 2082
-    uuid: 7e84b5b9-e9fe-4dbe-906d-4abd67c09376
-    network: ws
-    sni: ''
-    fingerprint: ''
-    ws-opts:
-      path: 7e84b5b9-e9fe-4dbe-906d-4abd67c09376-vm
-      headers:
-        host: www.bing.com
-    ip-version: dual
-    udp: true
-    alterId: 0
-    cipher: auto
-  - name: 🇺🇸_US_美国->🇸🇬_SG_新加坡_1
+  - name: 🇸🇰_SK_斯洛伐克->🇺🇸_US_美国
     type: ss
-    server: 34.213.241.48
-    port: 443
-    password: amazonskr05
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: 🇰🇷_KR_韩国
-    type: ss
-    server: 154.223.16.212
+    server: 156.146.40.194
     port: 989
     password: f8f7aCzcPKbsF8p3
     ip-version: dual
@@ -80,128 +56,7 @@ proxies:
     cipher: aes-256-cfb
   - name: 🇺🇸_US_美国_1
     type: ss
-    server: 35.87.37.159
-    port: 443
-    password: amazonskr05
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国->🇸🇬_SG_新加坡_2
-    type: ss
-    server: 52.33.164.139
-    port: 443
-    password: amazonskr05
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国->🇨🇳_CN_中国_1
-    type: ss
-    server: 52.40.170.193
-    port: 443
-    password: amazonskr05
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国->🇨🇳_CN_中国_2
-    type: ss
-    server: 34.219.111.188
-    port: 443
-    password: amazonskr05
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国->🇸🇬_SG_新加坡_3
-    type: ss
-    server: 34.216.142.212
-    port: 443
-    password: amazonskr05
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_2
-    type: trojan
-    server: 52.28.197.210
-    port: 22222
-    network: tcp
-    password: telegram-id-privatevpns
-    sni: trojan.burgerip.co.uk
-    ip-version: dual
-    udp: true
-  - name: 🇺🇸_US_美国->🇨🇳_CN_中国_3
-    type: ss
     server: 35.87.29.54
-    port: 443
-    password: amazonskr05
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国->🇸🇬_SG_新加坡_4
-    type: ss
-    server: 34.209.89.4
-    port: 443
-    password: amazonskr05
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国->🇨🇳_CN_中国_4
-    type: trojan
-    server: dignity.taiwanesefood.link
-    port: 443
-    password: XeaIS3ZCZlSuxuaXAxzqSwpjyOTzDpj6ERDZppYO8CCq7NSa38YEAFy9a4OcyKD3c3C80
-    ip-version: dual
-    udp: true
-  - name: 🇷🇺_RU_俄罗斯->🇸🇬_SG_新加坡
-    type: vmess
-    server: 195.58.49.42
-    port: 20022
-    uuid: e65416c4-6cda-422f-8184-6e1b84f5189e
-    network: ws
-    sni: ''
-    ws-opts:
-      path: /
-    ip-version: dual
-    udp: true
-    alterId: 0
-    cipher: auto
-  - name: 🇬🇧_GB_英国_2
-    type: ss
-    server: 62.100.205.48
-    port: 989
-    password: f8f7aCzcPKbsF8p3
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_3
-    type: vmess
-    server: 104.16.229.229
-    port: 80
-    uuid: 27c85fdb-5e8f-43ea-bf43-4ed4d0a3b306
-    network: ws
-    sni: ''
-    skip-cert-verify: true
-    ws-opts:
-      path: /lxc.html?ed=2048
-      headers:
-        host: 438560124119032025032010340680085.mglxc.chibaba.filegear-sg.me
-    ip-version: dual
-    udp: true
-    alterId: 0
-    cipher: auto
-  - name: 🇺🇸_US_美国->🇸🇬_SG_新加坡_5
-    type: vmess
-    server: 141.195.112.53
-    port: 20022
-    uuid: cfb611bf-c93e-413b-b04c-3090f4f7cbbb
-    network: ws
-    ws-opts:
-      path: /
-    ip-version: dual
-    udp: true
-    alterId: 0
-    cipher: auto
-  - name: 🇺🇸_US_美国->🇨🇳_CN_中国_5
-    type: ss
-    server: 54.187.221.114
     port: 443
     password: amazonskr05
     ip-version: dual
@@ -215,56 +70,65 @@ proxies:
     ip-version: dual
     udp: true
     cipher: chacha20-ietf-poly1305
-  - name: 🇺🇸_US_美国_4
-    type: trojan
-    server: 107.172.132.248
-    port: 443
-    network: ws
-    password: 85950277-f447-48f0-9ead-aaf6d5ff3cad
-    sni: huangshang9.zone.id
-    ws-opts:
-      path: /I4L1BP2DQVYmx5NYQ76MGGq
-    ip-version: dual
-    udp: true
-  - name: 🇺🇸_US_美国->🇸🇬_SG_新加坡_6
+  - name: 🇺🇸_US_美国_2
     type: ss
-    server: 34.217.59.177
+    server: 34.219.71.252
     port: 443
     password: amazonskr05
     ip-version: dual
     udp: true
     cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国_3
+    type: vmess
+    server: biiia-vpn-whal.fast.hosting-ip.com
+    port: 80
+    uuid: id9---@vpn-whal
+    network: ws
+    sni: ''
+    ws-opts:
+      path: /?ed=2056/#id-telegram:--->@vpn_whal<---
+      headers:
+        host: cat.IR.
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: 🇨🇭_CH_瑞士
+    type: ss
+    server: 84.17.53.160
+    port: 989
+    password: f8f7aCzcPKbsF8p3
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国_4
+    type: trojan
+    server: 192.3.130.103
+    port: 443
+    network: grpc
+    password: 576c81b6-4976-4fe3-b1a9-05a9c302e98e
+    sni: us10-01zl.huangshang.filegear-sg.me
+    grpc-opts:
+      grpc-service-name: i8oL7PsxV002zYFTmiIeg
+    ip-version: dual
+    udp: true
   - name: 🇩🇪_DE_德国
     type: vmess
-    server: 185.85.241.196
-    port: 8080
-    uuid: a9b84c67-6143-4db3-abc0-d9fa332205cc
+    server: 91.107.148.11
+    port: 80
+    uuid: e64fa11e-efec-44bf-a2e1-4854fdb33c16
     network: ws
-    sni: www.bing.com
-    skip-cert-verify: false
+    sni: ''
+    fingerprint: ''
     ws-opts:
-      path: a9b84c67-6143-4db3-abc0-d9fa332205cc-vm
+      path: /
     ip-version: dual
     udp: true
     alterId: 0
     cipher: auto
   - name: 🇺🇸_US_美国_5
-    type: vmess
-    server: 172.65.90.53
-    port: 80
-    uuid: 27c85fdb-5e8f-43ea-bf43-4ed4d0a3b306
-    network: ws
-    ws-opts:
-      path: /lxc.html?ed=2048
-      headers:
-        host: 423760495001962025032010340583771.mglxc.chibaba.filegear-sg.me
-    ip-version: dual
-    udp: true
-    alterId: 0
-    cipher: auto
-  - name: 🇺🇸_US_美国->🇸🇬_SG_新加坡_7
     type: ss
-    server: 44.246.28.217
+    server: 52.40.170.193
     port: 443
     password: amazonskr05
     ip-version: dual
@@ -272,7 +136,7 @@ proxies:
     cipher: aes-256-cfb
   - name: 🇺🇸_US_美国_6
     type: ss
-    server: 35.91.216.191
+    server: 44.242.208.211
     port: 443
     password: amazonskr05
     ip-version: dual
@@ -280,217 +144,152 @@ proxies:
     cipher: aes-256-cfb
   - name: 🇺🇸_US_美国_7
     type: ss
-    server: 54.202.63.169
+    server: 52.33.164.139
     port: 443
     password: amazonskr05
     ip-version: dual
     udp: true
     cipher: aes-256-cfb
   - name: 🇺🇸_US_美国_8
-    type: vmess
-    server: 35.212.201.133
-    port: 2082
-    uuid: 4ab93d97-c088-4ea3-89ad-f816f514a2cb
-    network: ws
-    sni: ''
-    fingerprint: ''
-    ws-opts:
-      path: 4ab93d97-c088-4ea3-89ad-f816f514a2cb-vm
-      headers:
-        host: www.bing.com
+    type: ss
+    server: 18.236.187.71
+    port: 443
+    password: amazonskr05
     ip-version: dual
     udp: true
-    alterId: 0
-    cipher: auto
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国_9
+    type: trojan
+    server: stodewrn.homeofbrave.net
+    port: 443
+    password: ZCR3pplzBEDwYy3w3e8X685aCxFCgaIeYSxSROa97KxDxaC328lD0T4z7SynagqSXA6cR
+    ip-version: dual
+    udp: true
+  - name: 🇺🇸_US_美国_10
+    type: ss
+    server: 35.87.37.159
+    port: 443
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇬🇧_GB_英国_1
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_1
-      - 🇰🇷_KR_韩国
+      - 🇸🇰_SK_斯洛伐克->🇺🇸_US_美国
       - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_2
-      - 🇺🇸_US_美国->🇨🇳_CN_中国_1
-      - 🇺🇸_US_美国->🇨🇳_CN_中国_2
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_3
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇨🇳_CN_中国_3
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_4
-      - 🇺🇸_US_美国->🇨🇳_CN_中国_4
-      - 🇷🇺_RU_俄罗斯->🇸🇬_SG_新加坡
-      - 🇬🇧_GB_英国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_5
-      - 🇺🇸_US_美国->🇨🇳_CN_中国_5
       - 🇮🇳_IN_印度
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇨🇭_CH_瑞士
       - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_6
       - 🇩🇪_DE_德国
       - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_7
       - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
       - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 5000
     proxies:
-      - 🇬🇧_GB_英国_1
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_1
-      - 🇰🇷_KR_韩国
+      - 🇸🇰_SK_斯洛伐克->🇺🇸_US_美国
       - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_2
-      - 🇺🇸_US_美国->🇨🇳_CN_中国_1
-      - 🇺🇸_US_美国->🇨🇳_CN_中国_2
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_3
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇨🇳_CN_中国_3
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_4
-      - 🇺🇸_US_美国->🇨🇳_CN_中国_4
-      - 🇷🇺_RU_俄罗斯->🇸🇬_SG_新加坡
-      - 🇬🇧_GB_英国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_5
-      - 🇺🇸_US_美国->🇨🇳_CN_中国_5
       - 🇮🇳_IN_印度
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇨🇭_CH_瑞士
       - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_6
       - 🇩🇪_DE_德国
       - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_7
       - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
       - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇬🇧_GB_英国_1
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_1
-      - 🇰🇷_KR_韩国
+      - 🇸🇰_SK_斯洛伐克->🇺🇸_US_美国
       - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_2
-      - 🇺🇸_US_美国->🇨🇳_CN_中国_1
-      - 🇺🇸_US_美国->🇨🇳_CN_中国_2
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_3
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇨🇳_CN_中国_3
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_4
-      - 🇺🇸_US_美国->🇨🇳_CN_中国_4
-      - 🇷🇺_RU_俄罗斯->🇸🇬_SG_新加坡
-      - 🇬🇧_GB_英国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_5
-      - 🇺🇸_US_美国->🇨🇳_CN_中国_5
       - 🇮🇳_IN_印度
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇨🇭_CH_瑞士
       - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_6
       - 🇩🇪_DE_德国
       - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_7
       - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
       - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇬🇧_GB_英国_1
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_1
-      - 🇰🇷_KR_韩国
+      - 🇸🇰_SK_斯洛伐克->🇺🇸_US_美国
       - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_2
-      - 🇺🇸_US_美国->🇨🇳_CN_中国_1
-      - 🇺🇸_US_美国->🇨🇳_CN_中国_2
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_3
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇨🇳_CN_中国_3
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_4
-      - 🇺🇸_US_美国->🇨🇳_CN_中国_4
-      - 🇷🇺_RU_俄罗斯->🇸🇬_SG_新加坡
-      - 🇬🇧_GB_英国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_5
-      - 🇺🇸_US_美国->🇨🇳_CN_中国_5
       - 🇮🇳_IN_印度
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇨🇭_CH_瑞士
       - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_6
       - 🇩🇪_DE_德国
       - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_7
       - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
       - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇬🇧_GB_英国_1
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_1
-      - 🇰🇷_KR_韩国
+      - 🇸🇰_SK_斯洛伐克->🇺🇸_US_美国
       - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_2
-      - 🇺🇸_US_美国->🇨🇳_CN_中国_1
-      - 🇺🇸_US_美国->🇨🇳_CN_中国_2
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_3
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇨🇳_CN_中国_3
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_4
-      - 🇺🇸_US_美国->🇨🇳_CN_中国_4
-      - 🇷🇺_RU_俄罗斯->🇸🇬_SG_新加坡
-      - 🇬🇧_GB_英国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_5
-      - 🇺🇸_US_美国->🇨🇳_CN_中国_5
       - 🇮🇳_IN_印度
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇨🇭_CH_瑞士
       - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_6
       - 🇩🇪_DE_德国
       - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_7
       - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
       - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇬🇧_GB_英国_1
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_1
-      - 🇰🇷_KR_韩国
+      - 🇸🇰_SK_斯洛伐克->🇺🇸_US_美国
       - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_2
-      - 🇺🇸_US_美国->🇨🇳_CN_中国_1
-      - 🇺🇸_US_美国->🇨🇳_CN_中国_2
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_3
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇨🇳_CN_中国_3
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_4
-      - 🇺🇸_US_美国->🇨🇳_CN_中国_4
-      - 🇷🇺_RU_俄罗斯->🇸🇬_SG_新加坡
-      - 🇬🇧_GB_英国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_5
-      - 🇺🇸_US_美国->🇨🇳_CN_中国_5
       - 🇮🇳_IN_印度
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇨🇭_CH_瑞士
       - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_6
       - 🇩🇪_DE_德国
       - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_7
       - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
       - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -513,32 +312,20 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇬🇧_GB_英国_1
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_1
-      - 🇰🇷_KR_韩国
+      - 🇸🇰_SK_斯洛伐克->🇺🇸_US_美国
       - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_2
-      - 🇺🇸_US_美国->🇨🇳_CN_中国_1
-      - 🇺🇸_US_美国->🇨🇳_CN_中国_2
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_3
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇨🇳_CN_中国_3
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_4
-      - 🇺🇸_US_美国->🇨🇳_CN_中国_4
-      - 🇷🇺_RU_俄罗斯->🇸🇬_SG_新加坡
-      - 🇬🇧_GB_英国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_5
-      - 🇺🇸_US_美国->🇨🇳_CN_中国_5
       - 🇮🇳_IN_印度
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇨🇭_CH_瑞士
       - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_6
       - 🇩🇪_DE_德国
       - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_7
       - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
       - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
 rules:
 # 本地/局域网地址
 # 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
