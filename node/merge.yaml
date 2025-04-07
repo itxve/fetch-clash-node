@@ -27,16 +27,26 @@ proxies:
   - {name: _IT_意大利->🇷🇺_RU_俄罗斯, server: 37.143.129.230, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: _RU_俄罗斯_9, server: 217.30.10.18, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
   - {name: _RU_俄罗斯_10, server: 217.30.10.18, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
-  - {name: _US_美国_1 2, server: 172.67.200.238, port: 443, type: trojan, password: 2fec7227-9abe-46f2-af18-78302b836c45, sni: 3s.890689.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: /XjTi1NYwi9A2bckpqdDoAgkondVWl, headers: {Host: 3s.890689.xyz}}, udp: true}
-  - {name: _US_美国_2, server: 104.21.69.41, port: 443, type: trojan, password: 6040a753-e35b-4384-8713-96f3c639b621, sni: kju84.890602.XYZ, skip-cert-verify: true, network: ws, ws-opts: {path: /WxWOWO1YA9bs2HOmaeWimvT3, headers: {Host: kju84.890602.XYZ}}, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国 2, server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v29.heduian.link}}, udp: true}
-  - {name: _CA_加拿大, server: 142.171.162.85, port: 52492, type: trojan, password: ef23ddd0-14c5-39c2-9880-af55ce892363, sni: t28.qifei.app, skip-cert-verify: true, udp: true}
-  - {name: _US_美国->🇨🇳_CN_中国, server: 2.58.87.221, port: 12269, type: vmess, uuid: db85ff0e-c33f-401d-c415-4c7cce135704, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: _GB_英国, server: 51.68.13.106, port: 1935, type: trojan, password: FiSo7J6vfS, sni: x1fr-ovh.devefun.net, skip-cert-verify: true, udp: true}
-  - {name: _FR_法国, server: 15.188.160.153, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
-  - {name: _IE_爱尔兰->🇮🇳_IN_印度, server: 52.16.255.13, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_3, server: 77.83.246.74, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: XsDDBBSiY18qHD9CcomK5T, udp: true}
-  - {name: _CN_中国->🇨🇦_CA_加拿大, server: v25.heduian.link, port: 30825, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v25.heduian.link}}, udp: true}
+  - {name: _RU_俄罗斯_1 2, server: 80.92.204.106, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
+  - {name: _CN_中国_1, server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v29.heduian.link}}, udp: true}
+  - {name: _RU_俄罗斯_2 2, server: 80.92.204.106, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
+  - {name: _RU_俄罗斯_3 2, server: 80.92.204.106, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
+  - {name: _RU_俄罗斯_4 2, server: 80.92.204.106, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
+  - {name: _US_美国_1 2, server: 104.21.16.1, port: 443, type: trojan, password: a8fce442-ae9a-4cc1-a0cc-20308ff0a0db, sni: 1g.890699.xyZ, skip-cert-verify: true, network: ws, ws-opts: {path: /lXENb74xF4ylXngZ, headers: {Host: 1g.890699.xyZ}}, udp: true}
+  - {name: _RU_俄罗斯_5 2, server: 80.92.204.106, port: 9061, type: ss, cipher: aes-256-cfb, password: 4R3hUfZ2FHhDmNcP, udp: true}
+  - {name: _RU_俄罗斯_6 2, server: 80.92.204.106, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
+  - {name: _RU_俄罗斯_7 2, server: 80.92.204.106, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
+  - {name: _CR_哥斯达黎加, server: 144.22.250.122, port: 443, type: trojan, password: 02926f9e-153a-42c8-8ecd-8fade7009ad1, sni: golinkwuxian.top, skip-cert-verify: true, network: ws, ws-opts: {path: /apple, headers: {Host: golinkwuxian.top}}, udp: true}
+  - {name: _RU_俄罗斯_8 2, server: 80.92.204.106, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
+  - {name: _CN_中国->🇷🇺_RU_俄罗斯, server: cm1.awslcn.info, port: 25230, type: vmess, uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.info}}, udp: true}
+  - {name: _RU_俄罗斯_9 2, server: 80.92.204.106, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
+  - {name: _RU_俄罗斯_10 2, server: 80.92.204.106, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
+  - {name: _RU_俄罗斯_11, server: 80.92.204.106, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: _RU_俄罗斯_12, server: 80.92.204.106, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
+  - {name: _US_美国_2, server: 104.21.58.135, port: 443, type: trojan, password: cd0e795a-4f26-4f8c-9981-ed8b7dcb6126, sni: cdE.818185.Xyz, skip-cert-verify: true, network: ws, ws-opts: {path: /93fAx7DxPbqU8RhisheV, headers: {Host: cdE.818185.Xyz}}, udp: true}
+  - {name: _CN_中国_2, server: 65aa431e-sucv40-tcop2n-tl32.cu.plebai.net, port: 5228, type: vmess, uuid: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _RU_俄罗斯_13, server: 80.92.204.106, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: _RU_俄罗斯_14, server: 80.92.204.106, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
   - {name: 日本(nodeshare.xyz免费节点)_1, server: arxfw2b78fi2q9hzylhn.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Nk9asglDzHzjktVzTkvhaA, udp: true}
   - {name: 美国(nodeshare.xyz免费节点)_1, server: s5.db-link02.top, port: 2095, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.20.143.141, headers: {Host: s5.db-link02.top}}, udp: true}
   - {name: 美国(nodeshare.xyz免费节点)_4, server: 183.236.51.23, port: 51704, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -117,16 +127,26 @@ proxy-groups:
       - _IT_意大利->🇷🇺_RU_俄罗斯
       - _RU_俄罗斯_9
       - _RU_俄罗斯_10
+      - _RU_俄罗斯_1 2
+      - _CN_中国_1
+      - _RU_俄罗斯_2 2
+      - _RU_俄罗斯_3 2
+      - _RU_俄罗斯_4 2
       - _US_美国_1 2
+      - _RU_俄罗斯_5 2
+      - _RU_俄罗斯_6 2
+      - _RU_俄罗斯_7 2
+      - _CR_哥斯达黎加
+      - _RU_俄罗斯_8 2
+      - _CN_中国->🇷🇺_RU_俄罗斯
+      - _RU_俄罗斯_9 2
+      - _RU_俄罗斯_10 2
+      - _RU_俄罗斯_11
+      - _RU_俄罗斯_12
       - _US_美国_2
-      - _CN_中国->🇺🇸_US_美国 2
-      - _CA_加拿大
-      - _US_美国->🇨🇳_CN_中国
-      - _GB_英国
-      - _FR_法国
-      - _IE_爱尔兰->🇮🇳_IN_印度
-      - _US_美国_3
-      - _CN_中国->🇨🇦_CA_加拿大
+      - _CN_中国_2
+      - _RU_俄罗斯_13
+      - _RU_俄罗斯_14
       - 日本(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_4
@@ -206,16 +226,26 @@ proxy-groups:
       - _IT_意大利->🇷🇺_RU_俄罗斯
       - _RU_俄罗斯_9
       - _RU_俄罗斯_10
+      - _RU_俄罗斯_1 2
+      - _CN_中国_1
+      - _RU_俄罗斯_2 2
+      - _RU_俄罗斯_3 2
+      - _RU_俄罗斯_4 2
       - _US_美国_1 2
+      - _RU_俄罗斯_5 2
+      - _RU_俄罗斯_6 2
+      - _RU_俄罗斯_7 2
+      - _CR_哥斯达黎加
+      - _RU_俄罗斯_8 2
+      - _CN_中国->🇷🇺_RU_俄罗斯
+      - _RU_俄罗斯_9 2
+      - _RU_俄罗斯_10 2
+      - _RU_俄罗斯_11
+      - _RU_俄罗斯_12
       - _US_美国_2
-      - _CN_中国->🇺🇸_US_美国 2
-      - _CA_加拿大
-      - _US_美国->🇨🇳_CN_中国
-      - _GB_英国
-      - _FR_法国
-      - _IE_爱尔兰->🇮🇳_IN_印度
-      - _US_美国_3
-      - _CN_中国->🇨🇦_CA_加拿大
+      - _CN_中国_2
+      - _RU_俄罗斯_13
+      - _RU_俄罗斯_14
       - 日本(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_4
@@ -296,16 +326,26 @@ proxy-groups:
       - _IT_意大利->🇷🇺_RU_俄罗斯
       - _RU_俄罗斯_9
       - _RU_俄罗斯_10
+      - _RU_俄罗斯_1 2
+      - _CN_中国_1
+      - _RU_俄罗斯_2 2
+      - _RU_俄罗斯_3 2
+      - _RU_俄罗斯_4 2
       - _US_美国_1 2
+      - _RU_俄罗斯_5 2
+      - _RU_俄罗斯_6 2
+      - _RU_俄罗斯_7 2
+      - _CR_哥斯达黎加
+      - _RU_俄罗斯_8 2
+      - _CN_中国->🇷🇺_RU_俄罗斯
+      - _RU_俄罗斯_9 2
+      - _RU_俄罗斯_10 2
+      - _RU_俄罗斯_11
+      - _RU_俄罗斯_12
       - _US_美国_2
-      - _CN_中国->🇺🇸_US_美国 2
-      - _CA_加拿大
-      - _US_美国->🇨🇳_CN_中国
-      - _GB_英国
-      - _FR_法国
-      - _IE_爱尔兰->🇮🇳_IN_印度
-      - _US_美国_3
-      - _CN_中国->🇨🇦_CA_加拿大
+      - _CN_中国_2
+      - _RU_俄罗斯_13
+      - _RU_俄罗斯_14
       - 日本(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_4
@@ -398,16 +438,26 @@ proxy-groups:
       - _IT_意大利->🇷🇺_RU_俄罗斯
       - _RU_俄罗斯_9
       - _RU_俄罗斯_10
+      - _RU_俄罗斯_1 2
+      - _CN_中国_1
+      - _RU_俄罗斯_2 2
+      - _RU_俄罗斯_3 2
+      - _RU_俄罗斯_4 2
       - _US_美国_1 2
+      - _RU_俄罗斯_5 2
+      - _RU_俄罗斯_6 2
+      - _RU_俄罗斯_7 2
+      - _CR_哥斯达黎加
+      - _RU_俄罗斯_8 2
+      - _CN_中国->🇷🇺_RU_俄罗斯
+      - _RU_俄罗斯_9 2
+      - _RU_俄罗斯_10 2
+      - _RU_俄罗斯_11
+      - _RU_俄罗斯_12
       - _US_美国_2
-      - _CN_中国->🇺🇸_US_美国 2
-      - _CA_加拿大
-      - _US_美国->🇨🇳_CN_中国
-      - _GB_英国
-      - _FR_法国
-      - _IE_爱尔兰->🇮🇳_IN_印度
-      - _US_美国_3
-      - _CN_中国->🇨🇦_CA_加拿大
+      - _CN_中国_2
+      - _RU_俄罗斯_13
+      - _RU_俄罗斯_14
       - 日本(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_4
@@ -492,16 +542,26 @@ proxy-groups:
       - _IT_意大利->🇷🇺_RU_俄罗斯
       - _RU_俄罗斯_9
       - _RU_俄罗斯_10
+      - _RU_俄罗斯_1 2
+      - _CN_中国_1
+      - _RU_俄罗斯_2 2
+      - _RU_俄罗斯_3 2
+      - _RU_俄罗斯_4 2
       - _US_美国_1 2
+      - _RU_俄罗斯_5 2
+      - _RU_俄罗斯_6 2
+      - _RU_俄罗斯_7 2
+      - _CR_哥斯达黎加
+      - _RU_俄罗斯_8 2
+      - _CN_中国->🇷🇺_RU_俄罗斯
+      - _RU_俄罗斯_9 2
+      - _RU_俄罗斯_10 2
+      - _RU_俄罗斯_11
+      - _RU_俄罗斯_12
       - _US_美国_2
-      - _CN_中国->🇺🇸_US_美国 2
-      - _CA_加拿大
-      - _US_美国->🇨🇳_CN_中国
-      - _GB_英国
-      - _FR_法国
-      - _IE_爱尔兰->🇮🇳_IN_印度
-      - _US_美国_3
-      - _CN_中国->🇨🇦_CA_加拿大
+      - _CN_中国_2
+      - _RU_俄罗斯_13
+      - _RU_俄罗斯_14
       - 日本(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_4
@@ -581,16 +641,26 @@ proxy-groups:
       - _IT_意大利->🇷🇺_RU_俄罗斯
       - _RU_俄罗斯_9
       - _RU_俄罗斯_10
+      - _RU_俄罗斯_1 2
+      - _CN_中国_1
+      - _RU_俄罗斯_2 2
+      - _RU_俄罗斯_3 2
+      - _RU_俄罗斯_4 2
       - _US_美国_1 2
+      - _RU_俄罗斯_5 2
+      - _RU_俄罗斯_6 2
+      - _RU_俄罗斯_7 2
+      - _CR_哥斯达黎加
+      - _RU_俄罗斯_8 2
+      - _CN_中国->🇷🇺_RU_俄罗斯
+      - _RU_俄罗斯_9 2
+      - _RU_俄罗斯_10 2
+      - _RU_俄罗斯_11
+      - _RU_俄罗斯_12
       - _US_美国_2
-      - _CN_中国->🇺🇸_US_美国 2
-      - _CA_加拿大
-      - _US_美国->🇨🇳_CN_中国
-      - _GB_英国
-      - _FR_法国
-      - _IE_爱尔兰->🇮🇳_IN_印度
-      - _US_美国_3
-      - _CN_中国->🇨🇦_CA_加拿大
+      - _CN_中国_2
+      - _RU_俄罗斯_13
+      - _RU_俄罗斯_14
       - 日本(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_4
@@ -671,16 +741,26 @@ proxy-groups:
       - _IT_意大利->🇷🇺_RU_俄罗斯
       - _RU_俄罗斯_9
       - _RU_俄罗斯_10
+      - _RU_俄罗斯_1 2
+      - _CN_中国_1
+      - _RU_俄罗斯_2 2
+      - _RU_俄罗斯_3 2
+      - _RU_俄罗斯_4 2
       - _US_美国_1 2
+      - _RU_俄罗斯_5 2
+      - _RU_俄罗斯_6 2
+      - _RU_俄罗斯_7 2
+      - _CR_哥斯达黎加
+      - _RU_俄罗斯_8 2
+      - _CN_中国->🇷🇺_RU_俄罗斯
+      - _RU_俄罗斯_9 2
+      - _RU_俄罗斯_10 2
+      - _RU_俄罗斯_11
+      - _RU_俄罗斯_12
       - _US_美国_2
-      - _CN_中国->🇺🇸_US_美国 2
-      - _CA_加拿大
-      - _US_美国->🇨🇳_CN_中国
-      - _GB_英国
-      - _FR_法国
-      - _IE_爱尔兰->🇮🇳_IN_印度
-      - _US_美国_3
-      - _CN_中国->🇨🇦_CA_加拿大
+      - _CN_中国_2
+      - _RU_俄罗斯_13
+      - _RU_俄罗斯_14
       - 日本(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_4
@@ -770,16 +850,26 @@ proxy-groups:
       - _IT_意大利->🇷🇺_RU_俄罗斯
       - _RU_俄罗斯_9
       - _RU_俄罗斯_10
+      - _RU_俄罗斯_1 2
+      - _CN_中国_1
+      - _RU_俄罗斯_2 2
+      - _RU_俄罗斯_3 2
+      - _RU_俄罗斯_4 2
       - _US_美国_1 2
+      - _RU_俄罗斯_5 2
+      - _RU_俄罗斯_6 2
+      - _RU_俄罗斯_7 2
+      - _CR_哥斯达黎加
+      - _RU_俄罗斯_8 2
+      - _CN_中国->🇷🇺_RU_俄罗斯
+      - _RU_俄罗斯_9 2
+      - _RU_俄罗斯_10 2
+      - _RU_俄罗斯_11
+      - _RU_俄罗斯_12
       - _US_美国_2
-      - _CN_中国->🇺🇸_US_美国 2
-      - _CA_加拿大
-      - _US_美国->🇨🇳_CN_中国
-      - _GB_英国
-      - _FR_法国
-      - _IE_爱尔兰->🇮🇳_IN_印度
-      - _US_美国_3
-      - _CN_中国->🇨🇦_CA_加拿大
+      - _CN_中国_2
+      - _RU_俄罗斯_13
+      - _RU_俄罗斯_14
       - 日本(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_4
