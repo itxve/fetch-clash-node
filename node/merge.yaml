@@ -28,29 +28,24 @@ proxies:
   - {name: _US_美国_7, server: 172.67.135.37, port: 443, type: trojan, password: 4f435a3a-dfb8-4c90-b637-8df8c5d44550, sni: m9rrrfgh.459.pp.ua, skip-cert-verify: true, network: ws, ws-opts: {path: /l6lvY4hFZriQDBimbKYmPIggy, headers: {Host: m9rrrfgh.459.pp.ua}}, udp: true}
   - {name: _US_美国_8, server: 172.67.170.51, port: 80, type: vmess, uuid: ced307a2-af2c-4113-bebc-fb888c702b7d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /PEQ7CoA1VrBwsbnEcmJLxC}, udp: true}
   - {name: _RU_俄罗斯, server: 185.231.233.112, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国_1 2, server: eccd74b4-sw7j40-t1bnjq-1krtb.cu.plebai.net, port: 15229, type: trojan, password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_1 2, server: cloudgetservice.mcloudservice.site, port: 443, type: trojan, password: aTArbZ2F0E, sni: uSa-vp-27.bLAzECLOUD.SITE, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvkws, headers: {Host: uSa-vp-27.bLAzECLOUD.SITE}}, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国_2 2, server: cdn-p1-us.youku-dns.com, port: 11511, type: ss, cipher: aes-256-gcm, password: 77a12a3d-6df0-48c8-a189-b071fcda1456, udp: true}
-  - {name: _US_美国_2 2, server: 172.67.152.170, port: 443, type: trojan, password: fefba36d-5142-42f1-b14d-db5249511d93, sni: 5ttt.191288.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: /BFBuPh4SuxTxCwkqKrjE, headers: {Host: 5ttt.191288.xyz}}, udp: true}
-  - {name: _US_美国_3 2, server: 172.67.214.21, port: 443, type: trojan, password: 4be20cf1-6af1-4e87-ae5a-80d6ec30fecd, sni: 8io09.191268.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: /tvowuLtlha3zxRV9PS, headers: {Host: 8io09.191268.xyz}}, udp: true}
-  - {name: _US_美国_4, server: 172.66.168.209, port: 443, type: trojan, password: aTArbZ2F0E, sni: uSa-vp-27.bLAzECLOUD.SITE, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvkws, headers: {Host: uSa-vp-27.bLAzECLOUD.SITE}}, udp: true}
-  - {name: _US_美国_5 2, server: 104.21.26.17, port: 443, type: trojan, password: 4f435a3a-dfb8-4c90-b637-8df8c5d44550, sni: m9rrrfgh.459.pp.ua, skip-cert-verify: true, network: ws, ws-opts: {path: /l6lvY4hFZriQDBimbKYmPIggy, headers: {Host: m9rrrfgh.459.pp.ua}}, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国_3 2, server: 36.151.251.59, port: 7815, type: trojan, password: RlzoEILU, skip-cert-verify: true, udp: true}
   - {name: _IS_冰岛 2, server: 37.235.49.152, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: _US_美国_6, server: 104.21.78.243, port: 443, type: trojan, password: 3d4ad187-b554-4300-bf71-d26c71962504, sni: FFfgtyy.7282728.XYZ, skip-cert-verify: true, network: ws, ws-opts: {path: /WaHA3RC540rQ8PWqRcOEICAwmfH7, headers: {Host: FFfgtyy.7282728.XYZ}}, udp: true}
-  - {name: _CN_中国->🇨🇦_CA_加拿大, server: 36.151.251.61, port: 3744, type: trojan, password: RlzoEILU, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_7 2, server: 104.21.42.250, port: 443, type: trojan, password: 4be20cf1-6af1-4e87-ae5a-80d6ec30fecd, sni: 8io09.191268.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: /tvowuLtlha3zxRV9PS, headers: {Host: 8io09.191268.xyz}}, udp: true}
-  - {name: _US_美国_8 2, server: 172.67.138.187, port: 443, type: trojan, password: 3d4ad187-b554-4300-bf71-d26c71962504, sni: FFfgtyy.7282728.XYZ, skip-cert-verify: true, network: ws, ws-opts: {path: /WaHA3RC540rQ8PWqRcOEICAwmfH7, headers: {Host: FFfgtyy.7282728.XYZ}}, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国_4 2, server: ad7dc62e-sw9ds0-swy6li-tni2.cu.plebai.net, port: 15229, type: trojan, password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国_5 2, server: v5.heduian.link, port: 30805, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v5.heduian.link}}, udp: true}
+  - {name: _CN_中国->🇬🇧_GB_英国, server: v36.heduian.link, port: 30836, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v36.heduian.link}}, udp: true}
   - {name: _RU_俄罗斯 2, server: 185.231.233.112, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: _US_美国->🇪🇸_ES_西班牙, server: 172.67.142.21, port: 2053, type: trojan, password: aeituqOkfYhy, sni: tasnim.andishehnegariran.ir, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tasnim.andishehnegariran.ir}}, udp: true}
-  - {name: _US_美国_9, server: 104.21.57.88, port: 443, type: trojan, password: 072f4db4-d89d-420d-9d9e-045ed8d5c9cc, sni: 10tyu.iran.pp.ua, skip-cert-verify: true, network: ws, ws-opts: {path: /VEP415T5mby2DulPWRIwOavJd, headers: {Host: 10tyu.iran.pp.ua}}, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国_6 2, server: 4cd97367-sw7j40-swy6li-tni2.cu.plebai.net, port: 15229, type: trojan, password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国_1, server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v29.heduian.link}}, udp: true}
-  - {name: _CN_中国->🇬🇧_GB_英国, server: 36.151.251.61, port: 8513, type: trojan, password: RlzoEILU, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国_2, server: 62.60.231.81, port: 39008, type: ss, cipher: chacha20-ietf-poly1305, password: W7fIo8Gp6TLb1YHZNH1fu5, udp: true}
-  - {name: _DE_德国, server: 45.87.175.166, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
+  - {name: _DE_德国, server: 52.58.144.133, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国_1 2, server: v8.heduian.link, port: 30808, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v8.heduian.link}}, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国_2 2, server: cdn-p1-us.youku-dns.com, port: 11511, type: ss, cipher: aes-256-gcm, password: 77a12a3d-6df0-48c8-a189-b071fcda1456, udp: true}
+  - {name: _FR_法国->🇨🇳_CN_中国, server: 141.11.122.27, port: 47006, type: vmess, uuid: 364a033d-99bf-4610-d552-8516e63aaac5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: _US_美国_1 2, server: 104.21.61.154, port: 443, type: trojan, password: fefba36d-5142-42f1-b14d-db5249511d93, sni: 5dfg.191266.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: /BFBuPh4SuxTxCwkqKrjE, headers: {Host: 5dfg.191266.xyz}}, udp: true}
+  - {name: _US_美国_2 2, server: 172.66.168.209, port: 443, type: trojan, password: aTArbZ2F0E, sni: uSa-vp-27.bLAzECLOUD.SITE, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvkws, headers: {Host: uSa-vp-27.bLAzECLOUD.SITE}}, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国_3 2, server: ad7dc62e-sw9ds0-swy6li-tni2.cu.plebai.net, port: 15229, type: trojan, password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d, sni: ad7dc62e-sw9ds0-swy6li-tni2.cu.plebai.net, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国_4 2, server: v7.heduian.link, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v7.heduian.link}}, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国_5 2, server: v5.heduian.link, port: 30805, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v5.heduian.link}}, udp: true}
+  - {name: _CN_中国->🇺🇦_UA_乌克兰, server: dxv4.pai50288.uk, port: 14100, type: vmess, uuid: f6866b0b-f946-4a03-8df0-c7e0016b55ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国_6 2, server: b5d29914-swb8g0-swy6li-tni2.cu.plebai.net, port: 15229, type: trojan, password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d, sni: b5d29914-swb8g0-swy6li-tni2.cu.plebai.net, skip-cert-verify: true, udp: true}
+  - {name: _GB_英国, server: 51.15.23.63, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: _US_美国->🇩🇪_DE_德国_1, server: 3.77.67.70, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_3 2, server: 172.67.214.21, port: 443, type: trojan, password: 4be20cf1-6af1-4e87-ae5a-80d6ec30fecd, sni: 8io09.191268.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: /tvowuLtlha3zxRV9PS, headers: {Host: 8io09.191268.xyz}}, udp: true}
+  - {name: _US_美国->🇩🇪_DE_德国_2, server: 3.77.67.70, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
   - {name: 日本(nodeshare.xyz免费节点)_1, server: arxfw2b78fi2q9hzylhn.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Nk9asglDzHzjktVzTkvhaA, udp: true}
   - {name: 美国(nodeshare.xyz免费节点)_1, server: s5.db-link02.top, port: 2095, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.20.143.141, headers: {Host: s5.db-link02.top}}, udp: true}
   - {name: 美国(nodeshare.xyz免费节点)_4, server: 183.236.51.23, port: 51704, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -132,29 +127,24 @@ proxy-groups:
       - _US_美国_7
       - _US_美国_8
       - _RU_俄罗斯
-      - _CN_中国->🇺🇸_US_美国_1 2
-      - _US_美国_1 2
-      - _CN_中国->🇺🇸_US_美国_2 2
-      - _US_美国_2 2
-      - _US_美国_3 2
-      - _US_美国_4
-      - _US_美国_5 2
-      - _CN_中国->🇺🇸_US_美国_3 2
       - _IS_冰岛 2
-      - _US_美国_6
-      - _CN_中国->🇨🇦_CA_加拿大
-      - _US_美国_7 2
-      - _US_美国_8 2
+      - _CN_中国->🇬🇧_GB_英国
+      - _RU_俄罗斯 2
+      - _DE_德国
+      - _CN_中国->🇺🇸_US_美国_1 2
+      - _CN_中国->🇺🇸_US_美国_2 2
+      - _FR_法国->🇨🇳_CN_中国
+      - _US_美国_1 2
+      - _US_美国_2 2
+      - _CN_中国->🇺🇸_US_美国_3 2
       - _CN_中国->🇺🇸_US_美国_4 2
       - _CN_中国->🇺🇸_US_美国_5 2
-      - _RU_俄罗斯 2
-      - _US_美国->🇪🇸_ES_西班牙
-      - _US_美国_9
+      - _CN_中国->🇺🇦_UA_乌克兰
       - _CN_中国->🇺🇸_US_美国_6 2
-      - _CN_中国_1
-      - _CN_中国->🇬🇧_GB_英国
-      - _CN_中国_2
-      - _DE_德国
+      - _GB_英国
+      - _US_美国->🇩🇪_DE_德国_1
+      - _US_美国_3 2
+      - _US_美国->🇩🇪_DE_德国_2
       - 日本(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_4
@@ -235,29 +225,24 @@ proxy-groups:
       - _US_美国_7
       - _US_美国_8
       - _RU_俄罗斯
-      - _CN_中国->🇺🇸_US_美国_1 2
-      - _US_美国_1 2
-      - _CN_中国->🇺🇸_US_美国_2 2
-      - _US_美国_2 2
-      - _US_美国_3 2
-      - _US_美国_4
-      - _US_美国_5 2
-      - _CN_中国->🇺🇸_US_美国_3 2
       - _IS_冰岛 2
-      - _US_美国_6
-      - _CN_中国->🇨🇦_CA_加拿大
-      - _US_美国_7 2
-      - _US_美国_8 2
+      - _CN_中国->🇬🇧_GB_英国
+      - _RU_俄罗斯 2
+      - _DE_德国
+      - _CN_中国->🇺🇸_US_美国_1 2
+      - _CN_中国->🇺🇸_US_美国_2 2
+      - _FR_法国->🇨🇳_CN_中国
+      - _US_美国_1 2
+      - _US_美国_2 2
+      - _CN_中国->🇺🇸_US_美国_3 2
       - _CN_中国->🇺🇸_US_美国_4 2
       - _CN_中国->🇺🇸_US_美国_5 2
-      - _RU_俄罗斯 2
-      - _US_美国->🇪🇸_ES_西班牙
-      - _US_美国_9
+      - _CN_中国->🇺🇦_UA_乌克兰
       - _CN_中国->🇺🇸_US_美国_6 2
-      - _CN_中国_1
-      - _CN_中国->🇬🇧_GB_英国
-      - _CN_中国_2
-      - _DE_德国
+      - _GB_英国
+      - _US_美国->🇩🇪_DE_德国_1
+      - _US_美国_3 2
+      - _US_美国->🇩🇪_DE_德国_2
       - 日本(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_4
@@ -339,29 +324,24 @@ proxy-groups:
       - _US_美国_7
       - _US_美国_8
       - _RU_俄罗斯
-      - _CN_中国->🇺🇸_US_美国_1 2
-      - _US_美国_1 2
-      - _CN_中国->🇺🇸_US_美国_2 2
-      - _US_美国_2 2
-      - _US_美国_3 2
-      - _US_美国_4
-      - _US_美国_5 2
-      - _CN_中国->🇺🇸_US_美国_3 2
       - _IS_冰岛 2
-      - _US_美国_6
-      - _CN_中国->🇨🇦_CA_加拿大
-      - _US_美国_7 2
-      - _US_美国_8 2
+      - _CN_中国->🇬🇧_GB_英国
+      - _RU_俄罗斯 2
+      - _DE_德国
+      - _CN_中国->🇺🇸_US_美国_1 2
+      - _CN_中国->🇺🇸_US_美国_2 2
+      - _FR_法国->🇨🇳_CN_中国
+      - _US_美国_1 2
+      - _US_美国_2 2
+      - _CN_中国->🇺🇸_US_美国_3 2
       - _CN_中国->🇺🇸_US_美国_4 2
       - _CN_中国->🇺🇸_US_美国_5 2
-      - _RU_俄罗斯 2
-      - _US_美国->🇪🇸_ES_西班牙
-      - _US_美国_9
+      - _CN_中国->🇺🇦_UA_乌克兰
       - _CN_中国->🇺🇸_US_美国_6 2
-      - _CN_中国_1
-      - _CN_中国->🇬🇧_GB_英国
-      - _CN_中国_2
-      - _DE_德国
+      - _GB_英国
+      - _US_美国->🇩🇪_DE_德国_1
+      - _US_美国_3 2
+      - _US_美国->🇩🇪_DE_德国_2
       - 日本(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_4
@@ -455,29 +435,24 @@ proxy-groups:
       - _US_美国_7
       - _US_美国_8
       - _RU_俄罗斯
-      - _CN_中国->🇺🇸_US_美国_1 2
-      - _US_美国_1 2
-      - _CN_中国->🇺🇸_US_美国_2 2
-      - _US_美国_2 2
-      - _US_美国_3 2
-      - _US_美国_4
-      - _US_美国_5 2
-      - _CN_中国->🇺🇸_US_美国_3 2
       - _IS_冰岛 2
-      - _US_美国_6
-      - _CN_中国->🇨🇦_CA_加拿大
-      - _US_美国_7 2
-      - _US_美国_8 2
+      - _CN_中国->🇬🇧_GB_英国
+      - _RU_俄罗斯 2
+      - _DE_德国
+      - _CN_中国->🇺🇸_US_美国_1 2
+      - _CN_中国->🇺🇸_US_美国_2 2
+      - _FR_法国->🇨🇳_CN_中国
+      - _US_美国_1 2
+      - _US_美国_2 2
+      - _CN_中国->🇺🇸_US_美国_3 2
       - _CN_中国->🇺🇸_US_美国_4 2
       - _CN_中国->🇺🇸_US_美国_5 2
-      - _RU_俄罗斯 2
-      - _US_美国->🇪🇸_ES_西班牙
-      - _US_美国_9
+      - _CN_中国->🇺🇦_UA_乌克兰
       - _CN_中国->🇺🇸_US_美国_6 2
-      - _CN_中国_1
-      - _CN_中国->🇬🇧_GB_英国
-      - _CN_中国_2
-      - _DE_德国
+      - _GB_英国
+      - _US_美国->🇩🇪_DE_德国_1
+      - _US_美国_3 2
+      - _US_美国->🇩🇪_DE_德国_2
       - 日本(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_4
@@ -563,29 +538,24 @@ proxy-groups:
       - _US_美国_7
       - _US_美国_8
       - _RU_俄罗斯
-      - _CN_中国->🇺🇸_US_美国_1 2
-      - _US_美国_1 2
-      - _CN_中国->🇺🇸_US_美国_2 2
-      - _US_美国_2 2
-      - _US_美国_3 2
-      - _US_美国_4
-      - _US_美国_5 2
-      - _CN_中国->🇺🇸_US_美国_3 2
       - _IS_冰岛 2
-      - _US_美国_6
-      - _CN_中国->🇨🇦_CA_加拿大
-      - _US_美国_7 2
-      - _US_美国_8 2
+      - _CN_中国->🇬🇧_GB_英国
+      - _RU_俄罗斯 2
+      - _DE_德国
+      - _CN_中国->🇺🇸_US_美国_1 2
+      - _CN_中国->🇺🇸_US_美国_2 2
+      - _FR_法国->🇨🇳_CN_中国
+      - _US_美国_1 2
+      - _US_美国_2 2
+      - _CN_中国->🇺🇸_US_美国_3 2
       - _CN_中国->🇺🇸_US_美国_4 2
       - _CN_中国->🇺🇸_US_美国_5 2
-      - _RU_俄罗斯 2
-      - _US_美国->🇪🇸_ES_西班牙
-      - _US_美国_9
+      - _CN_中国->🇺🇦_UA_乌克兰
       - _CN_中国->🇺🇸_US_美国_6 2
-      - _CN_中国_1
-      - _CN_中国->🇬🇧_GB_英国
-      - _CN_中国_2
-      - _DE_德国
+      - _GB_英国
+      - _US_美国->🇩🇪_DE_德国_1
+      - _US_美国_3 2
+      - _US_美国->🇩🇪_DE_德国_2
       - 日本(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_4
@@ -666,29 +636,24 @@ proxy-groups:
       - _US_美国_7
       - _US_美国_8
       - _RU_俄罗斯
-      - _CN_中国->🇺🇸_US_美国_1 2
-      - _US_美国_1 2
-      - _CN_中国->🇺🇸_US_美国_2 2
-      - _US_美国_2 2
-      - _US_美国_3 2
-      - _US_美国_4
-      - _US_美国_5 2
-      - _CN_中国->🇺🇸_US_美国_3 2
       - _IS_冰岛 2
-      - _US_美国_6
-      - _CN_中国->🇨🇦_CA_加拿大
-      - _US_美国_7 2
-      - _US_美国_8 2
+      - _CN_中国->🇬🇧_GB_英国
+      - _RU_俄罗斯 2
+      - _DE_德国
+      - _CN_中国->🇺🇸_US_美国_1 2
+      - _CN_中国->🇺🇸_US_美国_2 2
+      - _FR_法国->🇨🇳_CN_中国
+      - _US_美国_1 2
+      - _US_美国_2 2
+      - _CN_中国->🇺🇸_US_美国_3 2
       - _CN_中国->🇺🇸_US_美国_4 2
       - _CN_中国->🇺🇸_US_美国_5 2
-      - _RU_俄罗斯 2
-      - _US_美国->🇪🇸_ES_西班牙
-      - _US_美国_9
+      - _CN_中国->🇺🇦_UA_乌克兰
       - _CN_中国->🇺🇸_US_美国_6 2
-      - _CN_中国_1
-      - _CN_中国->🇬🇧_GB_英国
-      - _CN_中国_2
-      - _DE_德国
+      - _GB_英国
+      - _US_美国->🇩🇪_DE_德国_1
+      - _US_美国_3 2
+      - _US_美国->🇩🇪_DE_德国_2
       - 日本(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_4
@@ -770,29 +735,24 @@ proxy-groups:
       - _US_美国_7
       - _US_美国_8
       - _RU_俄罗斯
-      - _CN_中国->🇺🇸_US_美国_1 2
-      - _US_美国_1 2
-      - _CN_中国->🇺🇸_US_美国_2 2
-      - _US_美国_2 2
-      - _US_美国_3 2
-      - _US_美国_4
-      - _US_美国_5 2
-      - _CN_中国->🇺🇸_US_美国_3 2
       - _IS_冰岛 2
-      - _US_美国_6
-      - _CN_中国->🇨🇦_CA_加拿大
-      - _US_美国_7 2
-      - _US_美国_8 2
+      - _CN_中国->🇬🇧_GB_英国
+      - _RU_俄罗斯 2
+      - _DE_德国
+      - _CN_中国->🇺🇸_US_美国_1 2
+      - _CN_中国->🇺🇸_US_美国_2 2
+      - _FR_法国->🇨🇳_CN_中国
+      - _US_美国_1 2
+      - _US_美国_2 2
+      - _CN_中国->🇺🇸_US_美国_3 2
       - _CN_中国->🇺🇸_US_美国_4 2
       - _CN_中国->🇺🇸_US_美国_5 2
-      - _RU_俄罗斯 2
-      - _US_美国->🇪🇸_ES_西班牙
-      - _US_美国_9
+      - _CN_中国->🇺🇦_UA_乌克兰
       - _CN_中国->🇺🇸_US_美国_6 2
-      - _CN_中国_1
-      - _CN_中国->🇬🇧_GB_英国
-      - _CN_中国_2
-      - _DE_德国
+      - _GB_英国
+      - _US_美国->🇩🇪_DE_德国_1
+      - _US_美国_3 2
+      - _US_美国->🇩🇪_DE_德国_2
       - 日本(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_4
@@ -883,29 +843,24 @@ proxy-groups:
       - _US_美国_7
       - _US_美国_8
       - _RU_俄罗斯
-      - _CN_中国->🇺🇸_US_美国_1 2
-      - _US_美国_1 2
-      - _CN_中国->🇺🇸_US_美国_2 2
-      - _US_美国_2 2
-      - _US_美国_3 2
-      - _US_美国_4
-      - _US_美国_5 2
-      - _CN_中国->🇺🇸_US_美国_3 2
       - _IS_冰岛 2
-      - _US_美国_6
-      - _CN_中国->🇨🇦_CA_加拿大
-      - _US_美国_7 2
-      - _US_美国_8 2
+      - _CN_中国->🇬🇧_GB_英国
+      - _RU_俄罗斯 2
+      - _DE_德国
+      - _CN_中国->🇺🇸_US_美国_1 2
+      - _CN_中国->🇺🇸_US_美国_2 2
+      - _FR_法国->🇨🇳_CN_中国
+      - _US_美国_1 2
+      - _US_美国_2 2
+      - _CN_中国->🇺🇸_US_美国_3 2
       - _CN_中国->🇺🇸_US_美国_4 2
       - _CN_中国->🇺🇸_US_美国_5 2
-      - _RU_俄罗斯 2
-      - _US_美国->🇪🇸_ES_西班牙
-      - _US_美国_9
+      - _CN_中国->🇺🇦_UA_乌克兰
       - _CN_中国->🇺🇸_US_美国_6 2
-      - _CN_中国_1
-      - _CN_中国->🇬🇧_GB_英国
-      - _CN_中国_2
-      - _DE_德国
+      - _GB_英国
+      - _US_美国->🇩🇪_DE_德国_1
+      - _US_美国_3 2
+      - _US_美国->🇩🇪_DE_德国_2
       - 日本(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_4
