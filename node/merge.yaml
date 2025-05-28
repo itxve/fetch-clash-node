@@ -5,33 +5,18 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _CN_中国->🇺🇸_US_美国, server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v29.heduian.link}}, udp: true}
-  - {name: 未知, server: cache-giver-wife.stark-industries.solutions, port: 443, type: trojan, password: e6a2e741-0fce-440b-910c-b81325e2263a, sni: cache-giver-wife.stark-industries.solutions, skip-cert-verify: true, udp: true}
-  - {name: _US_美国, server: 34.215.48.231, port: 443, type: ss, cipher: aes-256-cfb, password: awsps0501, udp: true}
-  - {name: 未知_1, server: bring-glove-shine.stark-industries.solutions, port: 443, type: trojan, password: e6a2e741-0fce-440b-910c-b81325e2263a, sni: bring-glove-shine.stark-industries.solutions, skip-cert-verify: true, udp: true}
-  - {name: 未知_2, server: strut-brisk-scope.stark-industries.solutions, port: 443, type: trojan, password: e6a2e741-0fce-440b-910c-b81325e2263a, sni: strut-brisk-scope.stark-industries.solutions, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国_1, server: v5.heduian.link, port: 30805, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v5.heduian.link}}, udp: true}
-  - {name: 未知_3, server: chop-wrist-bud.stark-industries.solutions, port: 443, type: trojan, password: 3482c71a-d01c-4ae5-b454-fa8cb3785f66, sni: chop-wrist-bud.stark-industries.solutions, skip-cert-verify: true, udp: true}
-  - {name: 未知_4, server: guy-trace-lyric.stark-industries.solutions, port: 443, type: trojan, password: 3482c71a-d01c-4ae5-b454-fa8cb3785f66, skip-cert-verify: true, udp: true}
+  - {name: 未知_1, server: cache-giver-wife.stark-industries.solutions, port: 443, type: trojan, password: e6a2e741-0fce-440b-910c-b81325e2263a, sni: cache-giver-wife.stark-industries.solutions, skip-cert-verify: true, udp: true}
+  - {name: 未知_2, server: guy-trace-lyric.stark-industries.solutions, port: 443, type: trojan, password: 3482c71a-d01c-4ae5-b454-fa8cb3785f66, skip-cert-verify: true, udp: true}
   - {name: _KR_韩国, server: 154.223.16.212, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: _US_美国_1, server: 94.131.20.3, port: 443, type: trojan, password: 3482c71a-d01c-4ae5-b454-fa8cb3785f66, sni: chop-wrist-bud.stark-industries.solutions, skip-cert-verify: true, udp: true}
-  - {name: 未知_5, server: bats-paper-chump.stark-industries.solutions, port: 443, type: trojan, password: e6a2e741-0fce-440b-910c-b81325e2263a, sni: bats-paper-chump.stark-industries.solutions, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_2, server: 172.67.181.193, port: 443, type: trojan, password: c8eac4b7-95ba-4ce0-920d-c3279eb3b391, sni: EEeEee4.hUAngSHANG2030.dPdNS.org, skip-cert-verify: true, network: ws, ws-opts: {path: /ptGwaGzcA4KNAXX, headers: {Host: EEeEee4.hUAngSHANG2030.dPdNS.org}}, udp: true}
   - {name: _DK_丹麦->🇺🇸_US_美国, server: csgo.com, port: 2086, type: vmess, uuid: c21b972a-bc92-4f8c-8e6a-6868001f7f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: csgo.com}}, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国_2, server: d700ff89-swvls0-t5w83q-1slpx.cu.plebai.net, port: 15229, type: trojan, password: b55123f4-0ba2-11f0-a2ef-f23c91cfbbc9, sni: d700ff89-swvls0-t5w83q-1slpx.cu.plebai.net, skip-cert-verify: true, udp: true}
+  - {name: 未知_3, server: strut-brisk-scope.stark-industries.solutions, port: 443, type: trojan, password: e6a2e741-0fce-440b-910c-b81325e2263a, sni: strut-brisk-scope.stark-industries.solutions, skip-cert-verify: true, udp: true}
+  - {name: 未知_4, server: bats-paper-chump.stark-industries.solutions, port: 443, type: trojan, password: e6a2e741-0fce-440b-910c-b81325e2263a, sni: bats-paper-chump.stark-industries.solutions, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国_1, server: v5.heduian.link, port: 30805, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v5.heduian.link}}, udp: true}
+  - {name: 未知_5, server: chop-wrist-bud.stark-industries.solutions, port: 443, type: trojan, password: 3482c71a-d01c-4ae5-b454-fa8cb3785f66, sni: chop-wrist-bud.stark-industries.solutions, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_1, server: 34.215.48.231, port: 443, type: ss, cipher: aes-256-cfb, password: awsps0501, udp: true}
   - {name: _RU_俄罗斯, server: 185.231.233.112, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 未知_1 2, server: cache-giver-wife.stark-industries.solutions, port: 443, type: trojan, password: e6a2e741-0fce-440b-910c-b81325e2263a, sni: cache-giver-wife.stark-industries.solutions, skip-cert-verify: true, udp: true}
-  - {name: 未知_2 2, server: guy-trace-lyric.stark-industries.solutions, port: 443, type: trojan, password: 3482c71a-d01c-4ae5-b454-fa8cb3785f66, skip-cert-verify: true, udp: true}
-  - {name: _KR_韩国 2, server: 154.223.16.212, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: _DK_丹麦->🇺🇸_US_美国 2, server: csgo.com, port: 2086, type: vmess, uuid: c21b972a-bc92-4f8c-8e6a-6868001f7f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: csgo.com}}, udp: true}
-  - {name: 未知_3 2, server: strut-brisk-scope.stark-industries.solutions, port: 443, type: trojan, password: e6a2e741-0fce-440b-910c-b81325e2263a, sni: strut-brisk-scope.stark-industries.solutions, skip-cert-verify: true, udp: true}
-  - {name: 未知_4 2, server: bats-paper-chump.stark-industries.solutions, port: 443, type: trojan, password: e6a2e741-0fce-440b-910c-b81325e2263a, sni: bats-paper-chump.stark-industries.solutions, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国_1 2, server: v5.heduian.link, port: 30805, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v5.heduian.link}}, udp: true}
-  - {name: 未知_5 2, server: chop-wrist-bud.stark-industries.solutions, port: 443, type: trojan, password: 3482c71a-d01c-4ae5-b454-fa8cb3785f66, sni: chop-wrist-bud.stark-industries.solutions, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_1 2, server: 34.215.48.231, port: 443, type: ss, cipher: aes-256-cfb, password: awsps0501, udp: true}
-  - {name: _RU_俄罗斯 2, server: 185.231.233.112, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: _US_美国_2 2, server: 172.67.181.193, port: 443, type: trojan, password: c8eac4b7-95ba-4ce0-920d-c3279eb3b391, sni: EEeEee4.hUAngSHANG2030.dPdNS.org, skip-cert-verify: true, network: ws, ws-opts: {path: /ptGwaGzcA4KNAXX, headers: {Host: EEeEee4.hUAngSHANG2030.dPdNS.org}}, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国_2 2, server: d700ff89-swvls0-t5w83q-1slpx.cu.plebai.net, port: 15229, type: trojan, password: b55123f4-0ba2-11f0-a2ef-f23c91cfbbc9, sni: d700ff89-swvls0-t5w83q-1slpx.cu.plebai.net, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_2, server: 172.67.181.193, port: 443, type: trojan, password: c8eac4b7-95ba-4ce0-920d-c3279eb3b391, sni: EEeEee4.hUAngSHANG2030.dPdNS.org, skip-cert-verify: true, network: ws, ws-opts: {path: /ptGwaGzcA4KNAXX, headers: {Host: EEeEee4.hUAngSHANG2030.dPdNS.org}}, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国_2, server: d700ff89-swvls0-t5w83q-1slpx.cu.plebai.net, port: 15229, type: trojan, password: b55123f4-0ba2-11f0-a2ef-f23c91cfbbc9, sni: d700ff89-swvls0-t5w83q-1slpx.cu.plebai.net, skip-cert-verify: true, udp: true}
   - {name: 未知_6, server: bring-glove-shine.stark-industries.solutions, port: 443, type: trojan, password: e6a2e741-0fce-440b-910c-b81325e2263a, sni: bring-glove-shine.stark-industries.solutions, skip-cert-verify: true, udp: true}
   - {name: _CN_中国->🇺🇸_US_美国_3, server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v29.heduian.link}}, udp: true}
   - {name: _US_美国_3, server: 94.131.20.3, port: 443, type: trojan, password: 3482c71a-d01c-4ae5-b454-fa8cb3785f66, sni: chop-wrist-bud.stark-industries.solutions, skip-cert-verify: true, udp: true}
@@ -93,33 +78,18 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _CN_中国->🇺🇸_US_美国
-      - 未知
-      - _US_美国
       - 未知_1
       - 未知_2
-      - _CN_中国->🇺🇸_US_美国_1
+      - _KR_韩国
+      - _DK_丹麦->🇺🇸_US_美国
       - 未知_3
       - 未知_4
-      - _KR_韩国
-      - _US_美国_1
+      - _CN_中国->🇺🇸_US_美国_1
       - 未知_5
-      - _US_美国_2
-      - _DK_丹麦->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国_2
+      - _US_美国_1
       - _RU_俄罗斯
-      - 未知_1 2
-      - 未知_2 2
-      - _KR_韩国 2
-      - _DK_丹麦->🇺🇸_US_美国 2
-      - 未知_3 2
-      - 未知_4 2
-      - _CN_中国->🇺🇸_US_美国_1 2
-      - 未知_5 2
-      - _US_美国_1 2
-      - _RU_俄罗斯 2
-      - _US_美国_2 2
-      - _CN_中国->🇺🇸_US_美国_2 2
+      - _US_美国_2
+      - _CN_中国->🇺🇸_US_美国_2
       - 未知_6
       - _CN_中国->🇺🇸_US_美国_3
       - _US_美国_3
@@ -180,33 +150,18 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _CN_中国->🇺🇸_US_美国
-      - 未知
-      - _US_美国
       - 未知_1
       - 未知_2
-      - _CN_中国->🇺🇸_US_美国_1
+      - _KR_韩国
+      - _DK_丹麦->🇺🇸_US_美国
       - 未知_3
       - 未知_4
-      - _KR_韩国
-      - _US_美国_1
+      - _CN_中国->🇺🇸_US_美国_1
       - 未知_5
-      - _US_美国_2
-      - _DK_丹麦->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国_2
+      - _US_美国_1
       - _RU_俄罗斯
-      - 未知_1 2
-      - 未知_2 2
-      - _KR_韩国 2
-      - _DK_丹麦->🇺🇸_US_美国 2
-      - 未知_3 2
-      - 未知_4 2
-      - _CN_中国->🇺🇸_US_美国_1 2
-      - 未知_5 2
-      - _US_美国_1 2
-      - _RU_俄罗斯 2
-      - _US_美国_2 2
-      - _CN_中国->🇺🇸_US_美国_2 2
+      - _US_美国_2
+      - _CN_中国->🇺🇸_US_美国_2
       - 未知_6
       - _CN_中国->🇺🇸_US_美国_3
       - _US_美国_3
@@ -268,33 +223,18 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _CN_中国->🇺🇸_US_美国
-      - 未知
-      - _US_美国
       - 未知_1
       - 未知_2
-      - _CN_中国->🇺🇸_US_美国_1
+      - _KR_韩国
+      - _DK_丹麦->🇺🇸_US_美国
       - 未知_3
       - 未知_4
-      - _KR_韩国
-      - _US_美国_1
+      - _CN_中国->🇺🇸_US_美国_1
       - 未知_5
-      - _US_美国_2
-      - _DK_丹麦->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国_2
+      - _US_美国_1
       - _RU_俄罗斯
-      - 未知_1 2
-      - 未知_2 2
-      - _KR_韩国 2
-      - _DK_丹麦->🇺🇸_US_美国 2
-      - 未知_3 2
-      - 未知_4 2
-      - _CN_中国->🇺🇸_US_美国_1 2
-      - 未知_5 2
-      - _US_美国_1 2
-      - _RU_俄罗斯 2
-      - _US_美国_2 2
-      - _CN_中国->🇺🇸_US_美国_2 2
+      - _US_美国_2
+      - _CN_中国->🇺🇸_US_美国_2
       - 未知_6
       - _CN_中国->🇺🇸_US_美国_3
       - _US_美国_3
@@ -368,33 +308,18 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _CN_中国->🇺🇸_US_美国
-      - 未知
-      - _US_美国
       - 未知_1
       - 未知_2
-      - _CN_中国->🇺🇸_US_美国_1
+      - _KR_韩国
+      - _DK_丹麦->🇺🇸_US_美国
       - 未知_3
       - 未知_4
-      - _KR_韩国
-      - _US_美国_1
+      - _CN_中国->🇺🇸_US_美国_1
       - 未知_5
-      - _US_美国_2
-      - _DK_丹麦->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国_2
+      - _US_美国_1
       - _RU_俄罗斯
-      - 未知_1 2
-      - 未知_2 2
-      - _KR_韩国 2
-      - _DK_丹麦->🇺🇸_US_美国 2
-      - 未知_3 2
-      - 未知_4 2
-      - _CN_中国->🇺🇸_US_美国_1 2
-      - 未知_5 2
-      - _US_美国_1 2
-      - _RU_俄罗斯 2
-      - _US_美国_2 2
-      - _CN_中国->🇺🇸_US_美国_2 2
+      - _US_美国_2
+      - _CN_中国->🇺🇸_US_美国_2
       - 未知_6
       - _CN_中国->🇺🇸_US_美国_3
       - _US_美国_3
@@ -460,33 +385,18 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - _CN_中国->🇺🇸_US_美国
-      - 未知
-      - _US_美国
       - 未知_1
       - 未知_2
-      - _CN_中国->🇺🇸_US_美国_1
+      - _KR_韩国
+      - _DK_丹麦->🇺🇸_US_美国
       - 未知_3
       - 未知_4
-      - _KR_韩国
-      - _US_美国_1
+      - _CN_中国->🇺🇸_US_美国_1
       - 未知_5
-      - _US_美国_2
-      - _DK_丹麦->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国_2
+      - _US_美国_1
       - _RU_俄罗斯
-      - 未知_1 2
-      - 未知_2 2
-      - _KR_韩国 2
-      - _DK_丹麦->🇺🇸_US_美国 2
-      - 未知_3 2
-      - 未知_4 2
-      - _CN_中国->🇺🇸_US_美国_1 2
-      - 未知_5 2
-      - _US_美国_1 2
-      - _RU_俄罗斯 2
-      - _US_美国_2 2
-      - _CN_中国->🇺🇸_US_美国_2 2
+      - _US_美国_2
+      - _CN_中国->🇺🇸_US_美国_2
       - 未知_6
       - _CN_中国->🇺🇸_US_美国_3
       - _US_美国_3
@@ -547,33 +457,18 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - _CN_中国->🇺🇸_US_美国
-      - 未知
-      - _US_美国
       - 未知_1
       - 未知_2
-      - _CN_中国->🇺🇸_US_美国_1
+      - _KR_韩国
+      - _DK_丹麦->🇺🇸_US_美国
       - 未知_3
       - 未知_4
-      - _KR_韩国
-      - _US_美国_1
+      - _CN_中国->🇺🇸_US_美国_1
       - 未知_5
-      - _US_美国_2
-      - _DK_丹麦->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国_2
+      - _US_美国_1
       - _RU_俄罗斯
-      - 未知_1 2
-      - 未知_2 2
-      - _KR_韩国 2
-      - _DK_丹麦->🇺🇸_US_美国 2
-      - 未知_3 2
-      - 未知_4 2
-      - _CN_中国->🇺🇸_US_美国_1 2
-      - 未知_5 2
-      - _US_美国_1 2
-      - _RU_俄罗斯 2
-      - _US_美国_2 2
-      - _CN_中国->🇺🇸_US_美国_2 2
+      - _US_美国_2
+      - _CN_中国->🇺🇸_US_美国_2
       - 未知_6
       - _CN_中国->🇺🇸_US_美国_3
       - _US_美国_3
@@ -635,33 +530,18 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _CN_中国->🇺🇸_US_美国
-      - 未知
-      - _US_美国
       - 未知_1
       - 未知_2
-      - _CN_中国->🇺🇸_US_美国_1
+      - _KR_韩国
+      - _DK_丹麦->🇺🇸_US_美国
       - 未知_3
       - 未知_4
-      - _KR_韩国
-      - _US_美国_1
+      - _CN_中国->🇺🇸_US_美国_1
       - 未知_5
-      - _US_美国_2
-      - _DK_丹麦->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国_2
+      - _US_美国_1
       - _RU_俄罗斯
-      - 未知_1 2
-      - 未知_2 2
-      - _KR_韩国 2
-      - _DK_丹麦->🇺🇸_US_美国 2
-      - 未知_3 2
-      - 未知_4 2
-      - _CN_中国->🇺🇸_US_美国_1 2
-      - 未知_5 2
-      - _US_美国_1 2
-      - _RU_俄罗斯 2
-      - _US_美国_2 2
-      - _CN_中国->🇺🇸_US_美国_2 2
+      - _US_美国_2
+      - _CN_中国->🇺🇸_US_美国_2
       - 未知_6
       - _CN_中国->🇺🇸_US_美国_3
       - _US_美国_3
@@ -732,33 +612,18 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _CN_中国->🇺🇸_US_美国
-      - 未知
-      - _US_美国
       - 未知_1
       - 未知_2
-      - _CN_中国->🇺🇸_US_美国_1
+      - _KR_韩国
+      - _DK_丹麦->🇺🇸_US_美国
       - 未知_3
       - 未知_4
-      - _KR_韩国
-      - _US_美国_1
+      - _CN_中国->🇺🇸_US_美国_1
       - 未知_5
-      - _US_美国_2
-      - _DK_丹麦->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国_2
+      - _US_美国_1
       - _RU_俄罗斯
-      - 未知_1 2
-      - 未知_2 2
-      - _KR_韩国 2
-      - _DK_丹麦->🇺🇸_US_美国 2
-      - 未知_3 2
-      - 未知_4 2
-      - _CN_中国->🇺🇸_US_美国_1 2
-      - 未知_5 2
-      - _US_美国_1 2
-      - _RU_俄罗斯 2
-      - _US_美国_2 2
-      - _CN_中国->🇺🇸_US_美国_2 2
+      - _US_美国_2
+      - _CN_中国->🇺🇸_US_美国_2
       - 未知_6
       - _CN_中国->🇺🇸_US_美国_3
       - _US_美国_3
