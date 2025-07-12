@@ -5,9 +5,17 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _DE_德国, server: 45.87.175.58, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国, server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v29.heduian.link}}, udp: true}
+  - {name: _US_美国, server: 104.21.6.179, port: 443, type: trojan, password: 6757b7d6-fa32-4708-b5d1-30e3cf928b51, sni: ZZzzzZZ.890601.XYZ, skip-cert-verify: true, network: ws, ws-opts: {path: /l96MZ8se5Kl2p8BiMhP42l, headers: {Host: ZZzzzZZ.890601.XYZ}}, udp: true}
+  - {name: _KR_韩国->🇧🇪_BE_比利时, server: p222.panda001.net, port: 15098, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+  - {name: _US_美国_1, server: aAZXsdE.003330333.xYZ, port: 80, type: vmess, uuid: 10b1e371-d734-4306-b67f-0fc1f95c2485, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /SXjq8YlnGNBlbnEsM, headers: {Host: aAZXsdE.003330333.xYZ}}, udp: true}
+  - {name: _NL_荷兰, server: 45.153.124.90, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: _US_美国_2, server: 104.192.226.106, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: _GB_英国->🇰🇷_KR_韩国, server: 85.210.120.237, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, udp: true}
+  - {name: _MD_摩尔多瓦, server: 91.132.94.200, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: _JO_约旦, server: 109.107.159.246, port: 17228, type: ss, cipher: aes-256-gcm, password: psamSbJq, udp: true}
   - {name: _GB_英国->🇺🇸_US_美国, server: 85.210.120.237, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, udp: true}
-  - {name: _US_美国_1, server: 172.67.220.32, port: 443, type: trojan, password: ffcf7ec1-3e09-4821-b3d9-b426a107b73b, sni: eEEfGty6.999836.XYz, skip-cert-verify: true, network: ws, ws-opts: {path: /XmTzATQPJv9RO3xr1D40NK, headers: {Host: eEEfGty6.999836.XYz}}, udp: true}
+  - {name: _US_美国_1 2, server: 172.67.220.32, port: 443, type: trojan, password: ffcf7ec1-3e09-4821-b3d9-b426a107b73b, sni: eEEfGty6.999836.XYz, skip-cert-verify: true, network: ws, ws-opts: {path: /XmTzATQPJv9RO3xr1D40NK, headers: {Host: eEEfGty6.999836.XYz}}, udp: true}
   - {name: _CN_中国->🇺🇸_US_美国_1, server: 36.151.192.27, port: 4447, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true, udp: true}
   - {name: _CN_中国->🇺🇸_US_美国_2, server: v25.heduian.link, port: 30825, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v25.heduian.link}}, udp: true}
   - {name: _CN_中国->🇺🇸_US_美国_3, server: 36.156.102.123, port: 8657, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true, udp: true}
@@ -73,9 +81,17 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _DE_德国
-      - _GB_英国->🇺🇸_US_美国
+      - _CN_中国->🇺🇸_US_美国
+      - _US_美国
+      - _KR_韩国->🇧🇪_BE_比利时
       - _US_美国_1
+      - _NL_荷兰
+      - _US_美国_2
+      - _GB_英国->🇰🇷_KR_韩国
+      - _MD_摩尔多瓦
+      - _JO_约旦
+      - _GB_英国->🇺🇸_US_美国
+      - _US_美国_1 2
       - _CN_中国->🇺🇸_US_美国_1
       - _CN_中国->🇺🇸_US_美国_2
       - _CN_中国->🇺🇸_US_美国_3
@@ -140,9 +156,17 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _DE_德国
-      - _GB_英国->🇺🇸_US_美国
+      - _CN_中国->🇺🇸_US_美国
+      - _US_美国
+      - _KR_韩国->🇧🇪_BE_比利时
       - _US_美国_1
+      - _NL_荷兰
+      - _US_美国_2
+      - _GB_英国->🇰🇷_KR_韩国
+      - _MD_摩尔多瓦
+      - _JO_约旦
+      - _GB_英国->🇺🇸_US_美国
+      - _US_美国_1 2
       - _CN_中国->🇺🇸_US_美国_1
       - _CN_中国->🇺🇸_US_美国_2
       - _CN_中国->🇺🇸_US_美国_3
@@ -208,9 +232,17 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _DE_德国
-      - _GB_英国->🇺🇸_US_美国
+      - _CN_中国->🇺🇸_US_美国
+      - _US_美国
+      - _KR_韩国->🇧🇪_BE_比利时
       - _US_美国_1
+      - _NL_荷兰
+      - _US_美国_2
+      - _GB_英国->🇰🇷_KR_韩国
+      - _MD_摩尔多瓦
+      - _JO_约旦
+      - _GB_英国->🇺🇸_US_美国
+      - _US_美国_1 2
       - _CN_中国->🇺🇸_US_美国_1
       - _CN_中国->🇺🇸_US_美国_2
       - _CN_中国->🇺🇸_US_美国_3
@@ -288,9 +320,17 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _DE_德国
-      - _GB_英国->🇺🇸_US_美国
+      - _CN_中国->🇺🇸_US_美国
+      - _US_美国
+      - _KR_韩国->🇧🇪_BE_比利时
       - _US_美国_1
+      - _NL_荷兰
+      - _US_美国_2
+      - _GB_英国->🇰🇷_KR_韩国
+      - _MD_摩尔多瓦
+      - _JO_约旦
+      - _GB_英国->🇺🇸_US_美国
+      - _US_美国_1 2
       - _CN_中国->🇺🇸_US_美国_1
       - _CN_中国->🇺🇸_US_美国_2
       - _CN_中国->🇺🇸_US_美国_3
@@ -360,9 +400,17 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - _DE_德国
-      - _GB_英国->🇺🇸_US_美国
+      - _CN_中国->🇺🇸_US_美国
+      - _US_美国
+      - _KR_韩国->🇧🇪_BE_比利时
       - _US_美国_1
+      - _NL_荷兰
+      - _US_美国_2
+      - _GB_英国->🇰🇷_KR_韩国
+      - _MD_摩尔多瓦
+      - _JO_约旦
+      - _GB_英国->🇺🇸_US_美国
+      - _US_美国_1 2
       - _CN_中国->🇺🇸_US_美国_1
       - _CN_中国->🇺🇸_US_美国_2
       - _CN_中国->🇺🇸_US_美国_3
@@ -427,9 +475,17 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - _DE_德国
-      - _GB_英国->🇺🇸_US_美国
+      - _CN_中国->🇺🇸_US_美国
+      - _US_美国
+      - _KR_韩国->🇧🇪_BE_比利时
       - _US_美国_1
+      - _NL_荷兰
+      - _US_美国_2
+      - _GB_英国->🇰🇷_KR_韩国
+      - _MD_摩尔多瓦
+      - _JO_约旦
+      - _GB_英国->🇺🇸_US_美国
+      - _US_美国_1 2
       - _CN_中国->🇺🇸_US_美国_1
       - _CN_中国->🇺🇸_US_美国_2
       - _CN_中国->🇺🇸_US_美国_3
@@ -495,9 +551,17 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _DE_德国
-      - _GB_英国->🇺🇸_US_美国
+      - _CN_中国->🇺🇸_US_美国
+      - _US_美国
+      - _KR_韩国->🇧🇪_BE_比利时
       - _US_美国_1
+      - _NL_荷兰
+      - _US_美国_2
+      - _GB_英国->🇰🇷_KR_韩国
+      - _MD_摩尔多瓦
+      - _JO_约旦
+      - _GB_英国->🇺🇸_US_美国
+      - _US_美国_1 2
       - _CN_中国->🇺🇸_US_美国_1
       - _CN_中国->🇺🇸_US_美国_2
       - _CN_中国->🇺🇸_US_美国_3
@@ -572,9 +636,17 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _DE_德国
-      - _GB_英国->🇺🇸_US_美国
+      - _CN_中国->🇺🇸_US_美国
+      - _US_美国
+      - _KR_韩国->🇧🇪_BE_比利时
       - _US_美国_1
+      - _NL_荷兰
+      - _US_美国_2
+      - _GB_英国->🇰🇷_KR_韩国
+      - _MD_摩尔多瓦
+      - _JO_约旦
+      - _GB_英国->🇺🇸_US_美国
+      - _US_美国_1 2
       - _CN_中国->🇺🇸_US_美国_1
       - _CN_中国->🇺🇸_US_美国_2
       - _CN_中国->🇺🇸_US_美国_3
