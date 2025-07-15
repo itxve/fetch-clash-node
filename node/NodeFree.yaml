@@ -46,7 +46,7 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
+  - name: 🇨🇳_CN_中国_1
     type: vmess
     server: 120.26.55.225
     port: 50002
@@ -56,93 +56,23 @@ proxies:
     udp: true
     alterId: 0
     cipher: auto
-  - name: 🇺🇦_UA_乌克兰
-    type: ss
-    server: switcher-nick-croquet.freesocks.work
-    port: 443
-    password: 9tqhMdIrTkgQ46PvhyAtMH
-    ip-version: dual
-    udp: true
-    cipher: chacha20-ietf-poly1305
-  - name: 🇷🇺_RU_俄罗斯_1
-    type: ss
-    server: 185.22.152.92
-    port: 30190
-    password: d989ff3d46a63f63
-    ip-version: dual
-    udp: true
-    cipher: aes-256-gcm
-  - name: 🇨🇳_CN_中国
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
     type: vmess
     server: v7.heduian.link
     port: 30807
     uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     network: ws
+    sni: ''
+    skip-cert-verify: true
     ws-opts:
       path: /oooo
       headers:
-        host: ocbc.com
+        host: v7.heduian.link
     ip-version: dual
     udp: true
     alterId: 2
     cipher: auto
-  - name: 🇷🇺_RU_俄罗斯_2
-    type: ss
-    server: 176.32.35.68
-    port: 30101
-    password: 4194ce5b1f36f660
-    ip-version: dual
-    udp: true
-    cipher: aes-256-gcm
-  - name: 🇲🇩_MD_摩尔多瓦
-    type: ss
-    server: 185.153.197.5
-    port: 989
-    password: f8f7aCzcPKbsF8p3
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: 🇬🇧_GB_英国->🇺🇸_US_美国
-    type: trojan
-    server: it.mjt000.com
-    port: 443
-    password: 84587c21-9938-42fc-a4b0-4f72dd72b7aa
-    sni: it.mjt000.com
-    ip-version: dual
-    udp: true
-  - name: 🇰🇷_KR_韩国
-    type: ss
-    server: p222.panda001.net
-    port: 15098
-    password: qwerREWQ@@
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_2
-    type: ss
-    server: pr.fastsoonlink.com
-    port: 40030
-    password: 7905a32b-012c-4711-89e2-73b6713eca75
-    ip-version: dual
-    udp: true
-    cipher: chacha20-ietf-poly1305
-  - name: 🇷🇺_RU_俄罗斯_3
-    type: ss
-    server: 176.32.35.51
-    port: 10601
-    password: 40bdc52dcffa6942
-    ip-version: dual
-    udp: true
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
-    type: ss
-    server: 154.3.8.151
-    port: 30067
-    password: iUB0923RBA
-    ip-version: dual
-    udp: true
-    cipher: aes-256-gcm
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_3
+  - name: 🇨🇳_CN_中国->🇳🇱_NL_荷兰
     type: vmess
     server: v29.heduian.link
     port: 30829
@@ -156,139 +86,221 @@ proxies:
     udp: true
     alterId: 2
     cipher: auto
-  - name: 🇷🇺_RU_俄罗斯_4
-    type: ss
-    server: 185.22.153.235
-    port: 30191
-    password: 058798d9a3087e43
+  - name: 🇨🇳_CN_中国->🇩🇪_DE_德国
+    type: vmess
+    server: v33.heduian.link
+    port: 30833
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    network: ws
+    sni: v33.heduian.link
+    skip-cert-verify: false
+    ws-opts:
+      path: /oooo
+      headers:
+        host: v33.heduian.link
     ip-version: dual
     udp: true
-    cipher: aes-256-gcm
-  - name: 🇷🇺_RU_俄罗斯_5
-    type: ss
-    server: 46.17.40.169
-    port: 30198
-    password: f34579d0148b2581
+    alterId: 2
+    cipher: auto
+  - name: 🇨🇳_CN_中国_2
+    type: vmess
+    server: gcvbnjth.hjdfghfc.asia
+    port: 25395
+    uuid: 02d53bac-6799-4e74-b8b1-81860d83fc08
+    network: ws
+    ws-opts:
+      path: /market?ed=512
+      headers:
+        host: file.dingtalk.com
     ip-version: dual
     udp: true
-    cipher: aes-256-gcm
+    alterId: 0
+    cipher: auto
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_2
+    type: ss
+    server: pr.fastsoonlink.com
+    port: 40030
+    password: 7905a32b-012c-4711-89e2-73b6713eca75
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: 🇨🇳_CN_中国->🇨🇦_CA_加拿大
+    type: vmess
+    server: v8.heduian.link
+    port: 30808
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    network: ws
+    sni: baidu.com
+    skip-cert-verify: false
+    ws-opts:
+      path: /oooo
+      headers:
+        host: v8.heduian.link
+    ip-version: dual
+    udp: true
+    alterId: 2
+    cipher: auto
+  - name: 🇺🇸_US_美国->🇨🇳_CN_中国
+    type: vmess
+    server: 162.159.137.178
+    port: 80
+    uuid: 88a25bf3-18af-486f-b194-d87e976c230b
+    network: ws
+    sni: ''
+    skip-cert-verify: true
+    ws-opts:
+      path: /s15.html
+      headers:
+        host: 165067316419432025062817003642514.s15.chibaba.filegear-sg.me
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: 🇲🇩_MD_摩尔多瓦_1
+    type: ss
+    server: 185.153.197.5
+    port: 989
+    password: f8f7aCzcPKbsF8p3
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: 🇲🇩_MD_摩尔多瓦_2
+    type: ss
+    server: 91.132.94.200
+    port: 989
+    password: f8f7aCzcPKbsF8p3
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_3
+    type: vmess
+    server: v5.heduian.link
+    port: 30805
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    network: ws
+    sni: ocbc.com
+    skip-cert-verify: false
+    ws-opts:
+      path: /oooo
+      headers:
+        host: v5.heduian.link
+    ip-version: dual
+    udp: true
+    alterId: 2
+    cipher: auto
+  - name: 🇮🇪_IE_爱尔兰->🇵🇹_PT_葡萄牙
+    type: ss
+    server: 3.255.250.127
+    port: 23456
+    password: LXnnefYwEZM78mPUvl9wfz
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 🇨🇳_CN_中国_1
       - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇺🇦_UA_乌克兰
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇨🇳_CN_中国
-      - 🇷🇺_RU_俄罗斯_2
-      - 🇲🇩_MD_摩尔多瓦
-      - 🇬🇧_GB_英国->🇺🇸_US_美国
-      - 🇰🇷_KR_韩国
+      - 🇨🇳_CN_中国->🇳🇱_NL_荷兰
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国
+      - 🇨🇳_CN_中国_2
       - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇷🇺_RU_俄罗斯_3
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
+      - 🇨🇳_CN_中国->🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国->🇨🇳_CN_中国
+      - 🇲🇩_MD_摩尔多瓦_1
+      - 🇲🇩_MD_摩尔多瓦_2
       - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯_4
-      - 🇷🇺_RU_俄罗斯_5
+      - 🇮🇪_IE_爱尔兰->🇵🇹_PT_葡萄牙
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 5000
     proxies:
+      - 🇨🇳_CN_中国_1
       - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇺🇦_UA_乌克兰
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇨🇳_CN_中国
-      - 🇷🇺_RU_俄罗斯_2
-      - 🇲🇩_MD_摩尔多瓦
-      - 🇬🇧_GB_英国->🇺🇸_US_美国
-      - 🇰🇷_KR_韩国
+      - 🇨🇳_CN_中国->🇳🇱_NL_荷兰
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国
+      - 🇨🇳_CN_中国_2
       - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇷🇺_RU_俄罗斯_3
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
+      - 🇨🇳_CN_中国->🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国->🇨🇳_CN_中国
+      - 🇲🇩_MD_摩尔多瓦_1
+      - 🇲🇩_MD_摩尔多瓦_2
       - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯_4
-      - 🇷🇺_RU_俄罗斯_5
+      - 🇮🇪_IE_爱尔兰->🇵🇹_PT_葡萄牙
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇨🇳_CN_中国_1
       - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇺🇦_UA_乌克兰
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇨🇳_CN_中国
-      - 🇷🇺_RU_俄罗斯_2
-      - 🇲🇩_MD_摩尔多瓦
-      - 🇬🇧_GB_英国->🇺🇸_US_美国
-      - 🇰🇷_KR_韩国
+      - 🇨🇳_CN_中国->🇳🇱_NL_荷兰
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国
+      - 🇨🇳_CN_中国_2
       - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇷🇺_RU_俄罗斯_3
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
+      - 🇨🇳_CN_中国->🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国->🇨🇳_CN_中国
+      - 🇲🇩_MD_摩尔多瓦_1
+      - 🇲🇩_MD_摩尔多瓦_2
       - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯_4
-      - 🇷🇺_RU_俄罗斯_5
+      - 🇮🇪_IE_爱尔兰->🇵🇹_PT_葡萄牙
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇨🇳_CN_中国_1
       - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇺🇦_UA_乌克兰
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇨🇳_CN_中国
-      - 🇷🇺_RU_俄罗斯_2
-      - 🇲🇩_MD_摩尔多瓦
-      - 🇬🇧_GB_英国->🇺🇸_US_美国
-      - 🇰🇷_KR_韩国
+      - 🇨🇳_CN_中国->🇳🇱_NL_荷兰
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国
+      - 🇨🇳_CN_中国_2
       - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇷🇺_RU_俄罗斯_3
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
+      - 🇨🇳_CN_中国->🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国->🇨🇳_CN_中国
+      - 🇲🇩_MD_摩尔多瓦_1
+      - 🇲🇩_MD_摩尔多瓦_2
       - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯_4
-      - 🇷🇺_RU_俄罗斯_5
+      - 🇮🇪_IE_爱尔兰->🇵🇹_PT_葡萄牙
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - 🇨🇳_CN_中国_1
       - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇺🇦_UA_乌克兰
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇨🇳_CN_中国
-      - 🇷🇺_RU_俄罗斯_2
-      - 🇲🇩_MD_摩尔多瓦
-      - 🇬🇧_GB_英国->🇺🇸_US_美国
-      - 🇰🇷_KR_韩国
+      - 🇨🇳_CN_中国->🇳🇱_NL_荷兰
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国
+      - 🇨🇳_CN_中国_2
       - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇷🇺_RU_俄罗斯_3
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
+      - 🇨🇳_CN_中国->🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国->🇨🇳_CN_中国
+      - 🇲🇩_MD_摩尔多瓦_1
+      - 🇲🇩_MD_摩尔多瓦_2
       - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯_4
-      - 🇷🇺_RU_俄罗斯_5
+      - 🇮🇪_IE_爱尔兰->🇵🇹_PT_葡萄牙
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇨🇳_CN_中国_1
       - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇺🇦_UA_乌克兰
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇨🇳_CN_中国
-      - 🇷🇺_RU_俄罗斯_2
-      - 🇲🇩_MD_摩尔多瓦
-      - 🇬🇧_GB_英国->🇺🇸_US_美国
-      - 🇰🇷_KR_韩国
+      - 🇨🇳_CN_中国->🇳🇱_NL_荷兰
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国
+      - 🇨🇳_CN_中国_2
       - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇷🇺_RU_俄罗斯_3
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
+      - 🇨🇳_CN_中国->🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国->🇨🇳_CN_中国
+      - 🇲🇩_MD_摩尔多瓦_1
+      - 🇲🇩_MD_摩尔多瓦_2
       - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯_4
-      - 🇷🇺_RU_俄罗斯_5
+      - 🇮🇪_IE_爱尔兰->🇵🇹_PT_葡萄牙
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -311,20 +323,18 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇨🇳_CN_中国_1
       - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇺🇦_UA_乌克兰
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇨🇳_CN_中国
-      - 🇷🇺_RU_俄罗斯_2
-      - 🇲🇩_MD_摩尔多瓦
-      - 🇬🇧_GB_英国->🇺🇸_US_美国
-      - 🇰🇷_KR_韩国
+      - 🇨🇳_CN_中国->🇳🇱_NL_荷兰
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国
+      - 🇨🇳_CN_中国_2
       - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇷🇺_RU_俄罗斯_3
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
+      - 🇨🇳_CN_中国->🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国->🇨🇳_CN_中国
+      - 🇲🇩_MD_摩尔多瓦_1
+      - 🇲🇩_MD_摩尔多瓦_2
       - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯_4
-      - 🇷🇺_RU_俄罗斯_5
+      - 🇮🇪_IE_爱尔兰->🇵🇹_PT_葡萄牙
 rules:
 # 本地/局域网地址
 # 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
