@@ -47,28 +47,18 @@ tun:
     - 1.0.0.1
 
 proxies:
-  - name: 🇷🇺_RU_俄罗斯
-    type: vless
-    server: 195.58.58.88
-    port: 32391
-    uuid: c84ddb7c-7703-42a3-a22a-3ff9e5513f9a
-    servername: 45f4d22d.Mareza.pages.dev
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        host: 45f4d22d.Mareza.pages.dev
-  - name: 🇨🇳_CN_中国->🇩🇪_DE_德国_1
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
     type: vmess
-    server: v33.heduian.link
-    port: 30833
+    server: v5.heduian.link
+    port: 30805
+    sni: ""
     uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     cipher: auto
     network: ws
     ws-opts:
       path: /oooo
       headers:
-        host: v33.heduian.link
+        host: v5.heduian.link
     alterId: 2
   - name: 🇨🇳_CN_中国->🇨🇦_CA_加拿大
     type: vmess
@@ -78,13 +68,12 @@ proxies:
     uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     cipher: auto
     network: ws
-    skip-cert-verify: true
     ws-opts:
       path: /oooo
       headers:
         host: v8.heduian.link
     alterId: 2
-  - name: 🇨🇳_CN_中国
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_2
     type: vmess
     server: v37.heduian.link
     port: 30837
@@ -97,12 +86,43 @@ proxies:
       headers:
         host: v37.heduian.link
     alterId: 2
-  - name: 🇺🇸_US_美国->🇨🇳_CN_中国
-    type: ss
-    server: 154.3.8.151
-    port: 30067
-    cipher: aes-256-gcm
-    password: iUB0923RBA
+  - name: 🇨🇳_CN_中国->🇩🇪_DE_德国_1
+    type: trojan
+    server: 36.151.251.57
+    port: 40252
+    sni: www.baidu.com
+    password: SdCqFLcA
+    skip-cert-verify: true
+  - name: 未知
+    type: vmess
+    server: awetdfgn_cdn.hfhfb.homes
+    port: 2086
+    uuid: 1ae7b2ce-393d-4b22-ab55-a8d3e319f1a9
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /market?ed=1024
+      headers:
+        host: mgcdn10.hfhfb.homes
+    alterId: 0
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_3
+    type: trojan
+    server: 36.151.192.239
+    port: 32962
+    sni: www.baidu.com
+    password: d0d08cddacc3190ea81b1b792e1b5fde
+    skip-cert-verify: true
+  - name: 🇷🇺_RU_俄罗斯
+    type: vless
+    server: 195.58.58.88
+    port: 32391
+    uuid: c84ddb7c-7703-42a3-a22a-3ff9e5513f9a
+    servername: 45f4d22d.Mareza.pages.dev
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        host: 45f4d22d.Mareza.pages.dev
   - name: 🇺🇸_US_美国->🇫🇷_FR_法国
     type: vless
     server: 104.24.158.0
@@ -116,6 +136,71 @@ proxies:
         host: register.tunnelbreaking.shop
   - name: 🇺🇸_US_美国_1
     type: vless
+    server: 192.0.54.219
+    port: 8080
+    uuid: 17034eef-9472-45cc-bca5-a71f90e36244
+    servername: join-to-unlimiteddev.sabadyt.ir
+    network: ws
+    ws-opts:
+      path: /@unlimiteddev----@unlimiteddev-----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimitedev----@vmessorg----@unlimiteddev----@unlimiteddev?ed=2480
+      headers:
+        host: join-to-unlimiteddev.sabadyt.ir
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_4
+    type: trojan
+    server: 36.151.192.239
+    port: 3596
+    sni: www.baidu.com
+    password: d0d08cddacc3190ea81b1b792e1b5fde
+    skip-cert-verify: true
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_5
+    type: vmess
+    server: v4.heduian.link
+    port: 30804
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /oooo
+      headers:
+        host: v4.heduian.link
+    alterId: 2
+  - name: 🇺🇸_US_美国->🇬🇧_GB_英国
+    type: vless
+    server: light-presence.oneeat.co
+    port: 80
+    uuid: 7e74ff43-3a90-48b3-8372-7d92a045c2d4
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        host: light-presence.oneeat.co
+  - name: 🇨🇳_CN_中国->🇩🇪_DE_德国_2
+    type: vmess
+    server: v33.heduian.link
+    port: 30833
+    sni: ""
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /oooo
+      headers:
+        host: v33.heduian.link
+    alterId: 2
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_6
+    type: vmess
+    server: v35.heduian.link
+    port: 30835
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /oooo
+      headers:
+        host: v35.heduian.link
+    alterId: 2
+  - name: 🇺🇸_US_美国_2
+    type: vless
     server: 104.18.26.90
     port: 80
     uuid: 3ac2de34-47c5-4dd5-afc0-8fb4b05d4077
@@ -125,122 +210,60 @@ proxies:
       path: /?ed=2560
       headers:
         host: blaze-can-118.blazecanada.site
-  - name: 🇨🇳_CN_中国->🇩🇪_DE_德国_2
-    type: trojan
-    server: 36.151.251.57
-    port: 40252
-    sni: www.baidu.com
-    password: SdCqFLcA
-    skip-cert-verify: true
-  - name: 🇨🇳_CN_中国->🇬🇧_GB_英国
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_7
     type: vmess
-    server: hyttttesgvvxb2.jkhkgj.xyz
-    port: 80
-    sni: ""
-    uuid: e15ac3ce-6a1a-412a-aa07-4bc52daa5935
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /market/sg?ed=512
-      headers:
-        host: file.dingtalk.com
-    alterId: 0
-  - name: 🇺🇸_US_美国_2
-    type: vmess
-    server: 69.84.182.108
-    port: 8880
-    sni: ""
-    uuid: 922b45c8-1ec8-4a65-9b32-137716a0e55f
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /profile/telegram@ssrsub
-      headers:
-        host: cdn-node-oss-99.paofu.de
-    alterId: 0
-  - name: 🇦🇺_AU_澳大利亚
-    type: vmess
-    server: fhrcvbgffxd.hjdfghfc.asia
-    port: 50229
-    sni: ""
-    uuid: e15ac3ce-6a1a-412a-aa07-4bc52daa5935
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /market?ed=512
-      headers:
-        host: file.dingtalk.com
-    alterId: 0
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国
-    type: vmess
-    server: twjxlnnoljxc2.jkhkgj.xyz
-    port: 80
-    sni: ""
-    uuid: e15ac3ce-6a1a-412a-aa07-4bc52daa5935
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /market/us1?ed=512
-      headers:
-        host: file.dingtalk.com
-    alterId: 0
-  - name: 🇨🇳_CN_中国->🇲🇩_MD_摩尔多瓦
-    type: vmess
-    server: v5.heduian.link
-    port: 30805
+    server: v29.heduian.link
+    port: 30829
     uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     cipher: auto
     network: ws
     ws-opts:
       path: /oooo
       headers:
-        host: v5.heduian.link
+        host: ocbc.com
     alterId: 2
-  - name: 🇫🇷_FR_法国->🇺🇸_US_美国
-    type: vless
-    server: hf.tin9.ir
-    port: 2052
-    uuid: f3242907-f8e4-4166-8156-c773430bd8a4
-    network: ws
-    ws-opts: {}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇷🇺_RU_俄罗斯
-      - 🇨🇳_CN_中国->🇩🇪_DE_德国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
       - 🇨🇳_CN_中国->🇨🇦_CA_加拿大
-      - 🇨🇳_CN_中国
-      - 🇺🇸_US_美国->🇨🇳_CN_中国
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国_1
+      - 未知
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
+      - 🇷🇺_RU_俄罗斯
       - 🇺🇸_US_美国->🇫🇷_FR_法国
       - 🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_4
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_5
+      - 🇺🇸_US_美国->🇬🇧_GB_英国
       - 🇨🇳_CN_中国->🇩🇪_DE_德国_2
-      - 🇨🇳_CN_中国->🇬🇧_GB_英国
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_6
       - 🇺🇸_US_美国_2
-      - 🇦🇺_AU_澳大利亚
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇨🇳_CN_中国->🇲🇩_MD_摩尔多瓦
-      - 🇫🇷_FR_法国->🇺🇸_US_美国
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_7
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     proxies:
-      - 🇷🇺_RU_俄罗斯
-      - 🇨🇳_CN_中国->🇩🇪_DE_德国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
       - 🇨🇳_CN_中国->🇨🇦_CA_加拿大
-      - 🇨🇳_CN_中国
-      - 🇺🇸_US_美国->🇨🇳_CN_中国
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国_1
+      - 未知
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
+      - 🇷🇺_RU_俄罗斯
       - 🇺🇸_US_美国->🇫🇷_FR_法国
       - 🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_4
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_5
+      - 🇺🇸_US_美国->🇬🇧_GB_英国
       - 🇨🇳_CN_中国->🇩🇪_DE_德国_2
-      - 🇨🇳_CN_中国->🇬🇧_GB_英国
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_6
       - 🇺🇸_US_美国_2
-      - 🇦🇺_AU_澳大利亚
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇨🇳_CN_中国->🇲🇩_MD_摩尔多瓦
-      - 🇫🇷_FR_法国->🇺🇸_US_美国
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_7
     interval: 300
     tolerance: 5000
   - name: 🎯 全球直连
@@ -260,20 +283,22 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇷🇺_RU_俄罗斯
-      - 🇨🇳_CN_中国->🇩🇪_DE_德国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
       - 🇨🇳_CN_中国->🇨🇦_CA_加拿大
-      - 🇨🇳_CN_中国
-      - 🇺🇸_US_美国->🇨🇳_CN_中国
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国_1
+      - 未知
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
+      - 🇷🇺_RU_俄罗斯
       - 🇺🇸_US_美国->🇫🇷_FR_法国
       - 🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_4
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_5
+      - 🇺🇸_US_美国->🇬🇧_GB_英国
       - 🇨🇳_CN_中国->🇩🇪_DE_德国_2
-      - 🇨🇳_CN_中国->🇬🇧_GB_英国
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_6
       - 🇺🇸_US_美国_2
-      - 🇦🇺_AU_澳大利亚
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇨🇳_CN_中国->🇲🇩_MD_摩尔多瓦
-      - 🇫🇷_FR_法国->🇺🇸_US_美国
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_7
 rules:
 # 本地/局域网地址
 # 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
