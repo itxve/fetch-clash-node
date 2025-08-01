@@ -47,79 +47,19 @@ tun:
     - 1.0.0.1
 
 proxies:
-  - name: 未知_1
+  - name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
     type: vmess
-    server: 103.169.142.241
-    port: 8880
-    uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /dabai.in
-      headers:
-        host: TG.WangCai2.s2.db-link02.top
-    alterId: 0
-  - name: 🇺🇸_US_美国
-    type: vmess
-    server: 108.165.216.241
-    port: 8880
+    server: s3.db-link01.top
+    port: 8080
     sni: ""
     uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301
     cipher: auto
     network: ws
     ws-opts:
-      path: /dabai.in
+      path: /dabai.in104.25.241.15
       headers:
-        host: TG.WangCai2.s2.db-link02.top
+        host: 100-40-23-147.s3.db-link01.top
     alterId: 0
-  - name: 🇮🇸_IS_冰岛
-    type: ss
-    server: 37.235.49.168
-    port: 989
-    cipher: aes-256-cfb
-    password: f8f7aCzcPKbsF8p3
-  - name: 未知_2
-    type: vmess
-    server: 103.160.204.241
-    port: 8880
-    uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /dabai.in
-      headers:
-        host: TG.WangCai2.s2.db-link02.top
-    alterId: 0
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
-    type: vmess
-    server: v29.heduian.link
-    port: 30829
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /oooo
-      headers:
-        host: ocbc.com
-    alterId: 2
-  - name: 🇺🇸_US_美国->🇨🇳_CN_中国
-    type: ss
-    server: 154.3.8.151
-    port: 30067
-    cipher: aes-256-gcm
-    password: iUB0923RBA
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_2
-    type: vmess
-    server: v5.heduian.link
-    port: 30805
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /oooo
-      headers:
-        host: v5.heduian.link
-    alterId: 2
   - name: 🇯🇵_JP_日本->🇺🇸_US_美国
     type: vmess
     server: 103.116.7.241
@@ -133,40 +73,238 @@ proxies:
       headers:
         host: TG.WangCai2.s2.db-link02.top
     alterId: 0
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
+    type: ss
+    server: pr.fastsoonlink.com
+    port: 40030
+    cipher: chacha20-ietf-poly1305
+    password: 7905a32b-012c-4711-89e2-73b6713eca75
+  - name: 未知
+    type: vmess
+    server: 103.160.204.241
+    port: 8880
+    uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /dabai.in
+      headers:
+        host: TG.WangCai2.s2.db-link02.top
+    alterId: 0
+  - name: 🇺🇸_US_美国_1
+    type: ss
+    server: 154.3.8.151
+    port: 30067
+    cipher: aes-256-gcm
+    password: iUB0923RBA
+  - name: 🇺🇸_US_美国_2
+    type: vmess
+    server: s1.db-link02.top
+    port: 8880
+    sni: ""
+    uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /dabai.in104.25.253.202
+      headers:
+        host: 100-220-256-138.s1.db-link02.top
+    alterId: 0
+  - name: 🇰🇷_KR_韩国->🇺🇸_US_美国
+    type: ss
+    server: p222.panda001.net
+    port: 15098
+    cipher: aes-256-cfb
+    password: qwerREWQ@@
+  - name: 🇺🇸_US_美国_3
+    type: vmess
+    server: s1.db-link02.top
+    port: 8080
+    sni: ""
+    uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /dabai.in104.19.194.49
+      headers:
+        host: 100-80-176-138.s1.db-link02.top
+    alterId: 0
+  - name: 🇮🇳_IN_印度->🇺🇸_US_美国
+    type: vmess
+    server: 14.102.228.172
+    port: 8880
+    uuid: 70df7c1e-12c8-325f-a12a-34aa46949e60
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /dabai&Telegram🇨🇳 @WangCai2 /?ed=2560
+      headers:
+        host: TG.WangCai2.s4.cn-db.top
+    alterId: 0
+  - name: 🇺🇸_US_美国_4
+    type: vmess
+    server: s5.cn-db.top
+    port: 2086
+    sni: ""
+    uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /dabai.in104.20.16.211
+      headers:
+        host: 100-107-239-256.s5.cn-db.top
+    alterId: 0
+  - name: 🇨🇳_CN_中国->🇲🇩_MD_摩尔多瓦
+    type: vmess
+    server: v8.heduian.link
+    port: 30808
+    sni: ""
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /oooo
+      headers:
+        host: v8.heduian.link
+    alterId: 2
+  - name: 🇺🇸_US_美国_5
+    type: vmess
+    server: 108.165.216.241
+    port: 8880
+    sni: ""
+    uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /dabai.in
+      headers:
+        host: TG.WangCai2.s2.db-link02.top
+    alterId: 0
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_2
+    type: vmess
+    server: v33.heduian.link
+    port: 30833
+    sni: ""
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    cipher: auto
+    network: ws
+    skip-cert-verify: true
+    ws-opts:
+      path: /oooo
+      headers:
+        host: v33.heduian.link
+    alterId: 2
+  - name: 🇺🇸_US_美国_6
+    type: vmess
+    server: 66.235.200.25
+    port: 8880
+    uuid: 3e1e3e7f-2683-3f36-83b1-1850790295df
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /dabai&Telegram🇨🇳 @WangCai2 /?ed=2560
+      headers:
+        host: TG.WangCai2.s2.cn-db.top
+    alterId: 0
   - name: 🇲🇩_MD_摩尔多瓦
     type: ss
-    server: 185.153.197.5
+    server: 91.132.94.200
     port: 989
     cipher: aes-256-cfb
     password: f8f7aCzcPKbsF8p3
+  - name: 🇳🇱_NL_荷兰
+    type: ss
+    server: 45.158.171.70
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+  - name: 🇺🇸_US_美国_7
+    type: vmess
+    server: s3.db-link01.top
+    port: 2052
+    sni: ""
+    uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /dabai.in172.64.10.108
+      headers:
+        host: 100-10-228-216.s3.db-link01.top
+    alterId: 0
+  - name: 🇺🇸_US_美国_8
+    type: vmess
+    server: s3.db-link01.top
+    port: 2082
+    sni: ""
+    uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /dabai.in104.24.10.144
+      headers:
+        host: 100-136-78-97.s3.db-link01.top
+    alterId: 0
+  - name: 🇺🇸_US_美国_9
+    type: vmess
+    server: s1.cn-db.top
+    port: 8880
+    sni: ""
+    uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /dabai.in104.24.103.194
+      headers:
+        host: 100-13-4-230.s1.cn-db.top
+    alterId: 0
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 未知_1
-      - 🇺🇸_US_美国
-      - 🇮🇸_IS_冰岛
-      - 未知_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇨🇳_CN_中国
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
       - 🇯🇵_JP_日本->🇺🇸_US_美国
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 未知
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇰🇷_KR_韩国->🇺🇸_US_美国
+      - 🇺🇸_US_美国_3
+      - 🇮🇳_IN_印度->🇺🇸_US_美国
+      - 🇺🇸_US_美国_4
+      - 🇨🇳_CN_中国->🇲🇩_MD_摩尔多瓦
+      - 🇺🇸_US_美国_5
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_6
       - 🇲🇩_MD_摩尔多瓦
+      - 🇳🇱_NL_荷兰
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     proxies:
-      - 未知_1
-      - 🇺🇸_US_美国
-      - 🇮🇸_IS_冰岛
-      - 未知_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇨🇳_CN_中国
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
       - 🇯🇵_JP_日本->🇺🇸_US_美国
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 未知
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇰🇷_KR_韩国->🇺🇸_US_美国
+      - 🇺🇸_US_美国_3
+      - 🇮🇳_IN_印度->🇺🇸_US_美国
+      - 🇺🇸_US_美国_4
+      - 🇨🇳_CN_中国->🇲🇩_MD_摩尔多瓦
+      - 🇺🇸_US_美国_5
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_6
       - 🇲🇩_MD_摩尔多瓦
+      - 🇳🇱_NL_荷兰
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
     interval: 300
     tolerance: 5000
   - name: 🎯 全球直连
@@ -186,15 +324,25 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 未知_1
-      - 🇺🇸_US_美国
-      - 🇮🇸_IS_冰岛
-      - 未知_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇨🇳_CN_中国
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
       - 🇯🇵_JP_日本->🇺🇸_US_美国
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 未知
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇰🇷_KR_韩国->🇺🇸_US_美国
+      - 🇺🇸_US_美国_3
+      - 🇮🇳_IN_印度->🇺🇸_US_美国
+      - 🇺🇸_US_美国_4
+      - 🇨🇳_CN_中国->🇲🇩_MD_摩尔多瓦
+      - 🇺🇸_US_美国_5
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_6
       - 🇲🇩_MD_摩尔多瓦
+      - 🇳🇱_NL_荷兰
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
 rules:
 # 本地/局域网地址
 # 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
