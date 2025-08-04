@@ -5,39 +5,57 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _US_美国, server: 108.165.216.241, port: 8880, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in}, udp: true}
-  - {name: _MD_摩尔多瓦, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: _MD_摩尔多瓦_1, server: 91.132.94.200, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: _JP_日本->🇺🇸_US_美国, server: 103.116.7.241, port: 8880, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in}, udp: true}
-  - {name: _UA_乌克兰, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国_1, server: c8e8974d-t0fds0-t0l7ae-4mce.77.iwskwai.com, port: 3686, type: vmess, uuid: 06c625ea-5902-11ee-9e87-f23c9313b177, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _DK_丹麦->🇺🇸_US_美国, server: csgo.com, port: 80, type: vmess, uuid: 95c27cc4-82b5-45da-962e-ba675642fc3d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /profile/telegram@ssrsub, headers: {Host: csgo.com}}, udp: true}
   - {name: _CA_加拿大->🇺🇸_US_美国, server: 205.233.181.241, port: 8880, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in}, udp: true}
+  - {name: _RU_俄罗斯->🇺🇸_US_美国, server: 77.105.163.25, port: 8880, type: vmess, uuid: 3e1e3e7f-2683-3f36-83b1-1850790295df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/dabai&Telegram🇨🇳 @WangCai2 /?ed=2560"}, udp: true}
+  - {name: _US_美国, server: 108.165.216.241, port: 8880, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in}, udp: true}
+  - {name: _US_美国_1, server: 66.235.200.25, port: 8880, type: vmess, uuid: 3e1e3e7f-2683-3f36-83b1-1850790295df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/dabai&Telegram🇨🇳 @WangCai2 /?ed=2560"}, udp: true}
+  - {name: 未知, server: 103.160.204.241, port: 8880, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in}, udp: true}
+  - {name: _NL_荷兰->🇺🇸_US_美国, server: 45.149.12.25, port: 8880, type: vmess, uuid: 3e1e3e7f-2683-3f36-83b1-1850790295df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/dabai&Telegram🇨🇳 @WangCai2 /?ed=2560"}, udp: true}
+  - {name: _US_美国_2, server: 170.114.46.172, port: 8880, type: vmess, uuid: 70df7c1e-12c8-325f-a12a-34aa46949e60, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/dabai&Telegram🇨🇳 @WangCai2 /?ed=2560"}, udp: true}
+  - {name: _US_美国->🇨🇳_CN_中国, server: 54.189.166.94, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _JP_日本->🇺🇸_US_美国, server: 103.116.7.241, port: 8880, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in}, udp: true}
+  - {name: _IN_印度->🇺🇸_US_美国, server: 14.102.228.172, port: 8880, type: vmess, uuid: 70df7c1e-12c8-325f-a12a-34aa46949e60, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/dabai&Telegram🇨🇳 @WangCai2 /?ed=2560"}, udp: true}
+  - {name: _DK_丹麦->🇺🇸_US_美国, server: 195.85.59.241, port: 8880, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in}, udp: true}
+  - {name: _RU_俄罗斯, server: 91.219.23.165, port: 12445, type: ss, cipher: chacha20-ietf-poly1305, password: Wxnt17A2bShe9u2pI2o62K, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国, server: v33.heduian.link, port: 30833, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v33.heduian.link}}, udp: true}
+  - {name: _DK_丹麦->🇺🇸_US_美国_1, server: csgo.com, port: 80, type: vmess, uuid: 95c27cc4-82b5-45da-962e-ba675642fc3d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /profile/telegram@ssrsub, headers: {Host: csgo.com}}, udp: true}
+  - {name: _RU_俄罗斯->🇺🇸_US_美国_1, server: 77.232.140.25, port: 8880, type: vmess, uuid: 3e1e3e7f-2683-3f36-83b1-1850790295df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/dabai&Telegram🇨🇳 @WangCai2 /?ed=2560"}, udp: true}
+  - {name: 未知_1, server: 103.169.142.241, port: 8880, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in}, udp: true}
+  - {name: _US_美国_3, server: 38.54.57.90, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: _GB_英国->🇺🇸_US_美国, server: 80.93.202.25, port: 8880, type: vmess, uuid: 3e1e3e7f-2683-3f36-83b1-1850790295df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/dabai&Telegram🇨🇳 @WangCai2 /?ed=2560"}, udp: true}
-  - {name: _UA_乌克兰->🇺🇸_US_美国, server: 46.202.30.25, port: 8880, type: vmess, uuid: 3e1e3e7f-2683-3f36-83b1-1850790295df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/dabai&Telegram🇨🇳 @WangCai2 /?ed=2560"}, udp: true}
+  - {name: _IN_印度->🇺🇸_US_美国_1, server: 14.102.229.172, port: 8880, type: vmess, uuid: 70df7c1e-12c8-325f-a12a-34aa46949e60, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/dabai&Telegram🇨🇳 @WangCai2 /?ed=2560"}, udp: true}
+  - {name: _MD_摩尔多瓦, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: _RU_俄罗斯_1, server: 185.231.233.112, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: _NL_荷兰->🇺🇸_US_美国_1, server: 45.159.217.25, port: 8880, type: vmess, uuid: 3e1e3e7f-2683-3f36-83b1-1850790295df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/dabai&Telegram🇨🇳 @WangCai2 /?ed=2560"}, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国_1, server: pr.fastsoonlink.com, port: 40030, type: ss, cipher: chacha20-ietf-poly1305, password: ae6e933b-8874-4bf4-a384-0de216ef2bf4, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国_1 2, server: c8e8974d-t0fds0-t0l7ae-4mce.77.iwskwai.com, port: 3686, type: vmess, uuid: 06c625ea-5902-11ee-9e87-f23c9313b177, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _DK_丹麦->🇺🇸_US_美国 2, server: csgo.com, port: 80, type: vmess, uuid: 95c27cc4-82b5-45da-962e-ba675642fc3d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /profile/telegram@ssrsub, headers: {Host: csgo.com}}, udp: true}
+  - {name: _CA_加拿大->🇺🇸_US_美国 2, server: 205.233.181.241, port: 8880, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in}, udp: true}
+  - {name: _GB_英国->🇺🇸_US_美国 2, server: 80.93.202.25, port: 8880, type: vmess, uuid: 3e1e3e7f-2683-3f36-83b1-1850790295df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/dabai&Telegram🇨🇳 @WangCai2 /?ed=2560"}, udp: true}
+  - {name: _UA_乌克兰->🇺🇸_US_美国, server: 46.202.30.25, port: 8880, type: vmess, uuid: 3e1e3e7f-2683-3f36-83b1-1850790295df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/dabai&Telegram🇨🇳 @WangCai2 /?ed=2560"}, udp: true}
+  - {name: _NL_荷兰->🇺🇸_US_美国_1 2, server: 45.159.217.25, port: 8880, type: vmess, uuid: 3e1e3e7f-2683-3f36-83b1-1850790295df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/dabai&Telegram🇨🇳 @WangCai2 /?ed=2560"}, udp: true}
   - {name: _NL_荷兰->🇺🇸_US_美国_2, server: 45.149.12.25, port: 8880, type: vmess, uuid: 3e1e3e7f-2683-3f36-83b1-1850790295df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/dabai&Telegram🇨🇳 @WangCai2 /?ed=2560"}, udp: true}
   - {name: _CN_中国->🇺🇸_US_美国_2, server: 51e48c04-t0fds0-t3fjp7-cdfn.82.iwskwai.com, port: 3688, type: vmess, uuid: 94931862-1484-11f0-9ab7-f23c95b6f51d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _IN_印度->🇺🇸_US_美国_1, server: 14.102.228.172, port: 8880, type: vmess, uuid: 70df7c1e-12c8-325f-a12a-34aa46949e60, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/dabai&Telegram🇨🇳 @WangCai2 /?ed=2560"}, udp: true}
+  - {name: _IN_印度->🇺🇸_US_美国_1 2, server: 14.102.228.172, port: 8880, type: vmess, uuid: 70df7c1e-12c8-325f-a12a-34aa46949e60, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/dabai&Telegram🇨🇳 @WangCai2 /?ed=2560"}, udp: true}
   - {name: _CN_中国, server: v8.heduian.link, port: 30808, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v8.heduian.link}}, udp: true}
-  - {name: _US_美国_1, server: 108.165.216.241, port: 8880, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in}, udp: true}
+  - {name: _US_美国_1 2, server: 108.165.216.241, port: 8880, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in}, udp: true}
   - {name: _DE_德国->🇺🇸_US_美国, server: 5.10.215.172, port: 8880, type: vmess, uuid: 70df7c1e-12c8-325f-a12a-34aa46949e60, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/dabai&Telegram🇨🇳 @WangCai2 /?ed=2560"}, udp: true}
   - {name: _JP_日本->🇺🇸_US_美国 2, server: 103.116.7.241, port: 8880, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in}, udp: true}
   - {name: _CR_哥斯达黎加->🇺🇸_US_美国, server: 190.93.247.172, port: 8880, type: vmess, uuid: 70df7c1e-12c8-325f-a12a-34aa46949e60, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/dabai&Telegram🇨🇳 @WangCai2 /?ed=2560"}, udp: true}
   - {name: _NL_荷兰->🇺🇸_US_美国_3, server: 45.159.218.25, port: 8880, type: vmess, uuid: 3e1e3e7f-2683-3f36-83b1-1850790295df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/dabai&Telegram🇨🇳 @WangCai2 /?ed=2560"}, udp: true}
-  - {name: _RU_俄罗斯_1, server: 185.231.233.112, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: _RU_俄罗斯_1 2, server: 185.231.233.112, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: _MD_摩尔多瓦->🇨🇳_CN_中国, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: _RU_俄罗斯_2, server: 77.105.166.12, port: 8594, type: ss, cipher: chacha20-ietf-poly1305, password: 3DpxGqxiET9cqEGy99UYYE, udp: true}
-  - {name: _US_美国_2, server: 63.141.128.25, port: 8880, type: vmess, uuid: 3e1e3e7f-2683-3f36-83b1-1850790295df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/dabai&Telegram🇨🇳 @WangCai2 /?ed=2560"}, udp: true}
-  - {name: _RU_俄罗斯->🇺🇸_US_美国_1, server: 77.232.140.25, port: 8880, type: vmess, uuid: 3e1e3e7f-2683-3f36-83b1-1850790295df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/dabai&Telegram🇨🇳 @WangCai2 /?ed=2560"}, udp: true}
+  - {name: _US_美国_2 2, server: 63.141.128.25, port: 8880, type: vmess, uuid: 3e1e3e7f-2683-3f36-83b1-1850790295df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/dabai&Telegram🇨🇳 @WangCai2 /?ed=2560"}, udp: true}
+  - {name: _RU_俄罗斯->🇺🇸_US_美国_1 2, server: 77.232.140.25, port: 8880, type: vmess, uuid: 3e1e3e7f-2683-3f36-83b1-1850790295df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/dabai&Telegram🇨🇳 @WangCai2 /?ed=2560"}, udp: true}
   - {name: _RU_俄罗斯->🇺🇸_US_美国_2, server: 77.105.163.25, port: 8880, type: vmess, uuid: 3e1e3e7f-2683-3f36-83b1-1850790295df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/dabai&Telegram🇨🇳 @WangCai2 /?ed=2560"}, udp: true}
   - {name: _IN_印度->🇺🇸_US_美国_2, server: 14.102.229.172, port: 8880, type: vmess, uuid: 70df7c1e-12c8-325f-a12a-34aa46949e60, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/dabai&Telegram🇨🇳 @WangCai2 /?ed=2560"}, udp: true}
   - {name: _AT_奥地利, server: 46.29.34.205, port: 59956, type: vmess, uuid: ca0c9937-58a6-44ea-9111-a6abac267d0f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: _CN_中国->🇺🇸_US_美国_3, server: v33.heduian.link, port: 30833, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v33.heduian.link}}, udp: true}
   - {name: _NL_荷兰->🇺🇸_US_美国_4, server: 45.153.7.25, port: 8880, type: vmess, uuid: 3e1e3e7f-2683-3f36-83b1-1850790295df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/dabai&Telegram🇨🇳 @WangCai2 /?ed=2560"}, udp: true}
   - {name: _CN_中国->🇺🇸_US_美国_4, server: 037eeafe-t0msg0-t3l98h-2gok.77.iwskwai.com, port: 3686, type: vmess, uuid: 17cdeb6c-f046-11ee-bdac-f23c93141fad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_3, server: 66.235.200.25, port: 8880, type: vmess, uuid: 3e1e3e7f-2683-3f36-83b1-1850790295df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/dabai&Telegram🇨🇳 @WangCai2 /?ed=2560"}, udp: true}
-  - {name: 未知, server: 103.160.204.241, port: 8880, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in}, udp: true}
+  - {name: _US_美国_3 2, server: 66.235.200.25, port: 8880, type: vmess, uuid: 3e1e3e7f-2683-3f36-83b1-1850790295df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/dabai&Telegram🇨🇳 @WangCai2 /?ed=2560"}, udp: true}
+  - {name: 未知 2, server: 103.160.204.241, port: 8880, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in}, udp: true}
   - {name: 日本(nodeshare.xyz免费节点)_1, server: arxfw2b78fi2q9hzylhn.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Nk9asglDzHzjktVzTkvhaA, udp: true}
   - {name: 美国(nodeshare.xyz免费节点)_1, server: s5.db-link02.top, port: 2095, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.20.143.141, headers: {Host: s5.db-link02.top}}, udp: true}
   - {name: 美国(nodeshare.xyz免费节点)_4, server: 183.236.51.23, port: 51704, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -96,39 +114,57 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _US_美国
-      - _MD_摩尔多瓦
-      - _MD_摩尔多瓦_1
-      - _JP_日本->🇺🇸_US_美国
-      - _UA_乌克兰
-      - _CN_中国->🇺🇸_US_美国_1
-      - _DK_丹麦->🇺🇸_US_美国
       - _CA_加拿大->🇺🇸_US_美国
+      - _RU_俄罗斯->🇺🇸_US_美国
+      - _US_美国
+      - _US_美国_1
+      - 未知
+      - _NL_荷兰->🇺🇸_US_美国
+      - _US_美国_2
+      - _US_美国->🇨🇳_CN_中国
+      - _JP_日本->🇺🇸_US_美国
+      - _IN_印度->🇺🇸_US_美国
+      - _DK_丹麦->🇺🇸_US_美国
+      - _RU_俄罗斯
+      - _CN_中国->🇺🇸_US_美国
+      - _DK_丹麦->🇺🇸_US_美国_1
+      - _RU_俄罗斯->🇺🇸_US_美国_1
+      - 未知_1
+      - _US_美国_3
       - _GB_英国->🇺🇸_US_美国
-      - _UA_乌克兰->🇺🇸_US_美国
+      - _IN_印度->🇺🇸_US_美国_1
+      - _MD_摩尔多瓦
+      - _RU_俄罗斯_1
       - _NL_荷兰->🇺🇸_US_美国_1
+      - _CN_中国->🇺🇸_US_美国_1
+      - _CN_中国->🇺🇸_US_美国_1 2
+      - _DK_丹麦->🇺🇸_US_美国 2
+      - _CA_加拿大->🇺🇸_US_美国 2
+      - _GB_英国->🇺🇸_US_美国 2
+      - _UA_乌克兰->🇺🇸_US_美国
+      - _NL_荷兰->🇺🇸_US_美国_1 2
       - _NL_荷兰->🇺🇸_US_美国_2
       - _CN_中国->🇺🇸_US_美国_2
-      - _IN_印度->🇺🇸_US_美国_1
+      - _IN_印度->🇺🇸_US_美国_1 2
       - _CN_中国
-      - _US_美国_1
+      - _US_美国_1 2
       - _DE_德国->🇺🇸_US_美国
       - _JP_日本->🇺🇸_US_美国 2
       - _CR_哥斯达黎加->🇺🇸_US_美国
       - _NL_荷兰->🇺🇸_US_美国_3
-      - _RU_俄罗斯_1
+      - _RU_俄罗斯_1 2
       - _MD_摩尔多瓦->🇨🇳_CN_中国
       - _RU_俄罗斯_2
-      - _US_美国_2
-      - _RU_俄罗斯->🇺🇸_US_美国_1
+      - _US_美国_2 2
+      - _RU_俄罗斯->🇺🇸_US_美国_1 2
       - _RU_俄罗斯->🇺🇸_US_美国_2
       - _IN_印度->🇺🇸_US_美国_2
       - _AT_奥地利
       - _CN_中国->🇺🇸_US_美国_3
       - _NL_荷兰->🇺🇸_US_美国_4
       - _CN_中国->🇺🇸_US_美国_4
-      - _US_美国_3
-      - 未知
+      - _US_美国_3 2
+      - 未知 2
       - 日本(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_4
@@ -186,39 +222,57 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _US_美国
-      - _MD_摩尔多瓦
-      - _MD_摩尔多瓦_1
-      - _JP_日本->🇺🇸_US_美国
-      - _UA_乌克兰
-      - _CN_中国->🇺🇸_US_美国_1
-      - _DK_丹麦->🇺🇸_US_美国
       - _CA_加拿大->🇺🇸_US_美国
+      - _RU_俄罗斯->🇺🇸_US_美国
+      - _US_美国
+      - _US_美国_1
+      - 未知
+      - _NL_荷兰->🇺🇸_US_美国
+      - _US_美国_2
+      - _US_美国->🇨🇳_CN_中国
+      - _JP_日本->🇺🇸_US_美国
+      - _IN_印度->🇺🇸_US_美国
+      - _DK_丹麦->🇺🇸_US_美国
+      - _RU_俄罗斯
+      - _CN_中国->🇺🇸_US_美国
+      - _DK_丹麦->🇺🇸_US_美国_1
+      - _RU_俄罗斯->🇺🇸_US_美国_1
+      - 未知_1
+      - _US_美国_3
       - _GB_英国->🇺🇸_US_美国
-      - _UA_乌克兰->🇺🇸_US_美国
+      - _IN_印度->🇺🇸_US_美国_1
+      - _MD_摩尔多瓦
+      - _RU_俄罗斯_1
       - _NL_荷兰->🇺🇸_US_美国_1
+      - _CN_中国->🇺🇸_US_美国_1
+      - _CN_中国->🇺🇸_US_美国_1 2
+      - _DK_丹麦->🇺🇸_US_美国 2
+      - _CA_加拿大->🇺🇸_US_美国 2
+      - _GB_英国->🇺🇸_US_美国 2
+      - _UA_乌克兰->🇺🇸_US_美国
+      - _NL_荷兰->🇺🇸_US_美国_1 2
       - _NL_荷兰->🇺🇸_US_美国_2
       - _CN_中国->🇺🇸_US_美国_2
-      - _IN_印度->🇺🇸_US_美国_1
+      - _IN_印度->🇺🇸_US_美国_1 2
       - _CN_中国
-      - _US_美国_1
+      - _US_美国_1 2
       - _DE_德国->🇺🇸_US_美国
       - _JP_日本->🇺🇸_US_美国 2
       - _CR_哥斯达黎加->🇺🇸_US_美国
       - _NL_荷兰->🇺🇸_US_美国_3
-      - _RU_俄罗斯_1
+      - _RU_俄罗斯_1 2
       - _MD_摩尔多瓦->🇨🇳_CN_中国
       - _RU_俄罗斯_2
-      - _US_美国_2
-      - _RU_俄罗斯->🇺🇸_US_美国_1
+      - _US_美国_2 2
+      - _RU_俄罗斯->🇺🇸_US_美国_1 2
       - _RU_俄罗斯->🇺🇸_US_美国_2
       - _IN_印度->🇺🇸_US_美国_2
       - _AT_奥地利
       - _CN_中国->🇺🇸_US_美国_3
       - _NL_荷兰->🇺🇸_US_美国_4
       - _CN_中国->🇺🇸_US_美国_4
-      - _US_美国_3
-      - 未知
+      - _US_美国_3 2
+      - 未知 2
       - 日本(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_4
@@ -277,39 +331,57 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _US_美国
-      - _MD_摩尔多瓦
-      - _MD_摩尔多瓦_1
-      - _JP_日本->🇺🇸_US_美国
-      - _UA_乌克兰
-      - _CN_中国->🇺🇸_US_美国_1
-      - _DK_丹麦->🇺🇸_US_美国
       - _CA_加拿大->🇺🇸_US_美国
+      - _RU_俄罗斯->🇺🇸_US_美国
+      - _US_美国
+      - _US_美国_1
+      - 未知
+      - _NL_荷兰->🇺🇸_US_美国
+      - _US_美国_2
+      - _US_美国->🇨🇳_CN_中国
+      - _JP_日本->🇺🇸_US_美国
+      - _IN_印度->🇺🇸_US_美国
+      - _DK_丹麦->🇺🇸_US_美国
+      - _RU_俄罗斯
+      - _CN_中国->🇺🇸_US_美国
+      - _DK_丹麦->🇺🇸_US_美国_1
+      - _RU_俄罗斯->🇺🇸_US_美国_1
+      - 未知_1
+      - _US_美国_3
       - _GB_英国->🇺🇸_US_美国
-      - _UA_乌克兰->🇺🇸_US_美国
+      - _IN_印度->🇺🇸_US_美国_1
+      - _MD_摩尔多瓦
+      - _RU_俄罗斯_1
       - _NL_荷兰->🇺🇸_US_美国_1
+      - _CN_中国->🇺🇸_US_美国_1
+      - _CN_中国->🇺🇸_US_美国_1 2
+      - _DK_丹麦->🇺🇸_US_美国 2
+      - _CA_加拿大->🇺🇸_US_美国 2
+      - _GB_英国->🇺🇸_US_美国 2
+      - _UA_乌克兰->🇺🇸_US_美国
+      - _NL_荷兰->🇺🇸_US_美国_1 2
       - _NL_荷兰->🇺🇸_US_美国_2
       - _CN_中国->🇺🇸_US_美国_2
-      - _IN_印度->🇺🇸_US_美国_1
+      - _IN_印度->🇺🇸_US_美国_1 2
       - _CN_中国
-      - _US_美国_1
+      - _US_美国_1 2
       - _DE_德国->🇺🇸_US_美国
       - _JP_日本->🇺🇸_US_美国 2
       - _CR_哥斯达黎加->🇺🇸_US_美国
       - _NL_荷兰->🇺🇸_US_美国_3
-      - _RU_俄罗斯_1
+      - _RU_俄罗斯_1 2
       - _MD_摩尔多瓦->🇨🇳_CN_中国
       - _RU_俄罗斯_2
-      - _US_美国_2
-      - _RU_俄罗斯->🇺🇸_US_美国_1
+      - _US_美国_2 2
+      - _RU_俄罗斯->🇺🇸_US_美国_1 2
       - _RU_俄罗斯->🇺🇸_US_美国_2
       - _IN_印度->🇺🇸_US_美国_2
       - _AT_奥地利
       - _CN_中国->🇺🇸_US_美国_3
       - _NL_荷兰->🇺🇸_US_美国_4
       - _CN_中国->🇺🇸_US_美国_4
-      - _US_美国_3
-      - 未知
+      - _US_美国_3 2
+      - 未知 2
       - 日本(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_4
@@ -380,39 +452,57 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _US_美国
-      - _MD_摩尔多瓦
-      - _MD_摩尔多瓦_1
-      - _JP_日本->🇺🇸_US_美国
-      - _UA_乌克兰
-      - _CN_中国->🇺🇸_US_美国_1
-      - _DK_丹麦->🇺🇸_US_美国
       - _CA_加拿大->🇺🇸_US_美国
+      - _RU_俄罗斯->🇺🇸_US_美国
+      - _US_美国
+      - _US_美国_1
+      - 未知
+      - _NL_荷兰->🇺🇸_US_美国
+      - _US_美国_2
+      - _US_美国->🇨🇳_CN_中国
+      - _JP_日本->🇺🇸_US_美国
+      - _IN_印度->🇺🇸_US_美国
+      - _DK_丹麦->🇺🇸_US_美国
+      - _RU_俄罗斯
+      - _CN_中国->🇺🇸_US_美国
+      - _DK_丹麦->🇺🇸_US_美国_1
+      - _RU_俄罗斯->🇺🇸_US_美国_1
+      - 未知_1
+      - _US_美国_3
       - _GB_英国->🇺🇸_US_美国
-      - _UA_乌克兰->🇺🇸_US_美国
+      - _IN_印度->🇺🇸_US_美国_1
+      - _MD_摩尔多瓦
+      - _RU_俄罗斯_1
       - _NL_荷兰->🇺🇸_US_美国_1
+      - _CN_中国->🇺🇸_US_美国_1
+      - _CN_中国->🇺🇸_US_美国_1 2
+      - _DK_丹麦->🇺🇸_US_美国 2
+      - _CA_加拿大->🇺🇸_US_美国 2
+      - _GB_英国->🇺🇸_US_美国 2
+      - _UA_乌克兰->🇺🇸_US_美国
+      - _NL_荷兰->🇺🇸_US_美国_1 2
       - _NL_荷兰->🇺🇸_US_美国_2
       - _CN_中国->🇺🇸_US_美国_2
-      - _IN_印度->🇺🇸_US_美国_1
+      - _IN_印度->🇺🇸_US_美国_1 2
       - _CN_中国
-      - _US_美国_1
+      - _US_美国_1 2
       - _DE_德国->🇺🇸_US_美国
       - _JP_日本->🇺🇸_US_美国 2
       - _CR_哥斯达黎加->🇺🇸_US_美国
       - _NL_荷兰->🇺🇸_US_美国_3
-      - _RU_俄罗斯_1
+      - _RU_俄罗斯_1 2
       - _MD_摩尔多瓦->🇨🇳_CN_中国
       - _RU_俄罗斯_2
-      - _US_美国_2
-      - _RU_俄罗斯->🇺🇸_US_美国_1
+      - _US_美国_2 2
+      - _RU_俄罗斯->🇺🇸_US_美国_1 2
       - _RU_俄罗斯->🇺🇸_US_美国_2
       - _IN_印度->🇺🇸_US_美国_2
       - _AT_奥地利
       - _CN_中国->🇺🇸_US_美国_3
       - _NL_荷兰->🇺🇸_US_美国_4
       - _CN_中国->🇺🇸_US_美国_4
-      - _US_美国_3
-      - 未知
+      - _US_美国_3 2
+      - 未知 2
       - 日本(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_4
@@ -475,39 +565,57 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - _US_美国
-      - _MD_摩尔多瓦
-      - _MD_摩尔多瓦_1
-      - _JP_日本->🇺🇸_US_美国
-      - _UA_乌克兰
-      - _CN_中国->🇺🇸_US_美国_1
-      - _DK_丹麦->🇺🇸_US_美国
       - _CA_加拿大->🇺🇸_US_美国
+      - _RU_俄罗斯->🇺🇸_US_美国
+      - _US_美国
+      - _US_美国_1
+      - 未知
+      - _NL_荷兰->🇺🇸_US_美国
+      - _US_美国_2
+      - _US_美国->🇨🇳_CN_中国
+      - _JP_日本->🇺🇸_US_美国
+      - _IN_印度->🇺🇸_US_美国
+      - _DK_丹麦->🇺🇸_US_美国
+      - _RU_俄罗斯
+      - _CN_中国->🇺🇸_US_美国
+      - _DK_丹麦->🇺🇸_US_美国_1
+      - _RU_俄罗斯->🇺🇸_US_美国_1
+      - 未知_1
+      - _US_美国_3
       - _GB_英国->🇺🇸_US_美国
-      - _UA_乌克兰->🇺🇸_US_美国
+      - _IN_印度->🇺🇸_US_美国_1
+      - _MD_摩尔多瓦
+      - _RU_俄罗斯_1
       - _NL_荷兰->🇺🇸_US_美国_1
+      - _CN_中国->🇺🇸_US_美国_1
+      - _CN_中国->🇺🇸_US_美国_1 2
+      - _DK_丹麦->🇺🇸_US_美国 2
+      - _CA_加拿大->🇺🇸_US_美国 2
+      - _GB_英国->🇺🇸_US_美国 2
+      - _UA_乌克兰->🇺🇸_US_美国
+      - _NL_荷兰->🇺🇸_US_美国_1 2
       - _NL_荷兰->🇺🇸_US_美国_2
       - _CN_中国->🇺🇸_US_美国_2
-      - _IN_印度->🇺🇸_US_美国_1
+      - _IN_印度->🇺🇸_US_美国_1 2
       - _CN_中国
-      - _US_美国_1
+      - _US_美国_1 2
       - _DE_德国->🇺🇸_US_美国
       - _JP_日本->🇺🇸_US_美国 2
       - _CR_哥斯达黎加->🇺🇸_US_美国
       - _NL_荷兰->🇺🇸_US_美国_3
-      - _RU_俄罗斯_1
+      - _RU_俄罗斯_1 2
       - _MD_摩尔多瓦->🇨🇳_CN_中国
       - _RU_俄罗斯_2
-      - _US_美国_2
-      - _RU_俄罗斯->🇺🇸_US_美国_1
+      - _US_美国_2 2
+      - _RU_俄罗斯->🇺🇸_US_美国_1 2
       - _RU_俄罗斯->🇺🇸_US_美国_2
       - _IN_印度->🇺🇸_US_美国_2
       - _AT_奥地利
       - _CN_中国->🇺🇸_US_美国_3
       - _NL_荷兰->🇺🇸_US_美国_4
       - _CN_中国->🇺🇸_US_美国_4
-      - _US_美国_3
-      - 未知
+      - _US_美国_3 2
+      - 未知 2
       - 日本(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_4
@@ -565,39 +673,57 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - _US_美国
-      - _MD_摩尔多瓦
-      - _MD_摩尔多瓦_1
-      - _JP_日本->🇺🇸_US_美国
-      - _UA_乌克兰
-      - _CN_中国->🇺🇸_US_美国_1
-      - _DK_丹麦->🇺🇸_US_美国
       - _CA_加拿大->🇺🇸_US_美国
+      - _RU_俄罗斯->🇺🇸_US_美国
+      - _US_美国
+      - _US_美国_1
+      - 未知
+      - _NL_荷兰->🇺🇸_US_美国
+      - _US_美国_2
+      - _US_美国->🇨🇳_CN_中国
+      - _JP_日本->🇺🇸_US_美国
+      - _IN_印度->🇺🇸_US_美国
+      - _DK_丹麦->🇺🇸_US_美国
+      - _RU_俄罗斯
+      - _CN_中国->🇺🇸_US_美国
+      - _DK_丹麦->🇺🇸_US_美国_1
+      - _RU_俄罗斯->🇺🇸_US_美国_1
+      - 未知_1
+      - _US_美国_3
       - _GB_英国->🇺🇸_US_美国
-      - _UA_乌克兰->🇺🇸_US_美国
+      - _IN_印度->🇺🇸_US_美国_1
+      - _MD_摩尔多瓦
+      - _RU_俄罗斯_1
       - _NL_荷兰->🇺🇸_US_美国_1
+      - _CN_中国->🇺🇸_US_美国_1
+      - _CN_中国->🇺🇸_US_美国_1 2
+      - _DK_丹麦->🇺🇸_US_美国 2
+      - _CA_加拿大->🇺🇸_US_美国 2
+      - _GB_英国->🇺🇸_US_美国 2
+      - _UA_乌克兰->🇺🇸_US_美国
+      - _NL_荷兰->🇺🇸_US_美国_1 2
       - _NL_荷兰->🇺🇸_US_美国_2
       - _CN_中国->🇺🇸_US_美国_2
-      - _IN_印度->🇺🇸_US_美国_1
+      - _IN_印度->🇺🇸_US_美国_1 2
       - _CN_中国
-      - _US_美国_1
+      - _US_美国_1 2
       - _DE_德国->🇺🇸_US_美国
       - _JP_日本->🇺🇸_US_美国 2
       - _CR_哥斯达黎加->🇺🇸_US_美国
       - _NL_荷兰->🇺🇸_US_美国_3
-      - _RU_俄罗斯_1
+      - _RU_俄罗斯_1 2
       - _MD_摩尔多瓦->🇨🇳_CN_中国
       - _RU_俄罗斯_2
-      - _US_美国_2
-      - _RU_俄罗斯->🇺🇸_US_美国_1
+      - _US_美国_2 2
+      - _RU_俄罗斯->🇺🇸_US_美国_1 2
       - _RU_俄罗斯->🇺🇸_US_美国_2
       - _IN_印度->🇺🇸_US_美国_2
       - _AT_奥地利
       - _CN_中国->🇺🇸_US_美国_3
       - _NL_荷兰->🇺🇸_US_美国_4
       - _CN_中国->🇺🇸_US_美国_4
-      - _US_美国_3
-      - 未知
+      - _US_美国_3 2
+      - 未知 2
       - 日本(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_4
@@ -656,39 +782,57 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _US_美国
-      - _MD_摩尔多瓦
-      - _MD_摩尔多瓦_1
-      - _JP_日本->🇺🇸_US_美国
-      - _UA_乌克兰
-      - _CN_中国->🇺🇸_US_美国_1
-      - _DK_丹麦->🇺🇸_US_美国
       - _CA_加拿大->🇺🇸_US_美国
+      - _RU_俄罗斯->🇺🇸_US_美国
+      - _US_美国
+      - _US_美国_1
+      - 未知
+      - _NL_荷兰->🇺🇸_US_美国
+      - _US_美国_2
+      - _US_美国->🇨🇳_CN_中国
+      - _JP_日本->🇺🇸_US_美国
+      - _IN_印度->🇺🇸_US_美国
+      - _DK_丹麦->🇺🇸_US_美国
+      - _RU_俄罗斯
+      - _CN_中国->🇺🇸_US_美国
+      - _DK_丹麦->🇺🇸_US_美国_1
+      - _RU_俄罗斯->🇺🇸_US_美国_1
+      - 未知_1
+      - _US_美国_3
       - _GB_英国->🇺🇸_US_美国
-      - _UA_乌克兰->🇺🇸_US_美国
+      - _IN_印度->🇺🇸_US_美国_1
+      - _MD_摩尔多瓦
+      - _RU_俄罗斯_1
       - _NL_荷兰->🇺🇸_US_美国_1
+      - _CN_中国->🇺🇸_US_美国_1
+      - _CN_中国->🇺🇸_US_美国_1 2
+      - _DK_丹麦->🇺🇸_US_美国 2
+      - _CA_加拿大->🇺🇸_US_美国 2
+      - _GB_英国->🇺🇸_US_美国 2
+      - _UA_乌克兰->🇺🇸_US_美国
+      - _NL_荷兰->🇺🇸_US_美国_1 2
       - _NL_荷兰->🇺🇸_US_美国_2
       - _CN_中国->🇺🇸_US_美国_2
-      - _IN_印度->🇺🇸_US_美国_1
+      - _IN_印度->🇺🇸_US_美国_1 2
       - _CN_中国
-      - _US_美国_1
+      - _US_美国_1 2
       - _DE_德国->🇺🇸_US_美国
       - _JP_日本->🇺🇸_US_美国 2
       - _CR_哥斯达黎加->🇺🇸_US_美国
       - _NL_荷兰->🇺🇸_US_美国_3
-      - _RU_俄罗斯_1
+      - _RU_俄罗斯_1 2
       - _MD_摩尔多瓦->🇨🇳_CN_中国
       - _RU_俄罗斯_2
-      - _US_美国_2
-      - _RU_俄罗斯->🇺🇸_US_美国_1
+      - _US_美国_2 2
+      - _RU_俄罗斯->🇺🇸_US_美国_1 2
       - _RU_俄罗斯->🇺🇸_US_美国_2
       - _IN_印度->🇺🇸_US_美国_2
       - _AT_奥地利
       - _CN_中国->🇺🇸_US_美国_3
       - _NL_荷兰->🇺🇸_US_美国_4
       - _CN_中国->🇺🇸_US_美国_4
-      - _US_美国_3
-      - 未知
+      - _US_美国_3 2
+      - 未知 2
       - 日本(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_4
@@ -756,39 +900,57 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _US_美国
-      - _MD_摩尔多瓦
-      - _MD_摩尔多瓦_1
-      - _JP_日本->🇺🇸_US_美国
-      - _UA_乌克兰
-      - _CN_中国->🇺🇸_US_美国_1
-      - _DK_丹麦->🇺🇸_US_美国
       - _CA_加拿大->🇺🇸_US_美国
+      - _RU_俄罗斯->🇺🇸_US_美国
+      - _US_美国
+      - _US_美国_1
+      - 未知
+      - _NL_荷兰->🇺🇸_US_美国
+      - _US_美国_2
+      - _US_美国->🇨🇳_CN_中国
+      - _JP_日本->🇺🇸_US_美国
+      - _IN_印度->🇺🇸_US_美国
+      - _DK_丹麦->🇺🇸_US_美国
+      - _RU_俄罗斯
+      - _CN_中国->🇺🇸_US_美国
+      - _DK_丹麦->🇺🇸_US_美国_1
+      - _RU_俄罗斯->🇺🇸_US_美国_1
+      - 未知_1
+      - _US_美国_3
       - _GB_英国->🇺🇸_US_美国
-      - _UA_乌克兰->🇺🇸_US_美国
+      - _IN_印度->🇺🇸_US_美国_1
+      - _MD_摩尔多瓦
+      - _RU_俄罗斯_1
       - _NL_荷兰->🇺🇸_US_美国_1
+      - _CN_中国->🇺🇸_US_美国_1
+      - _CN_中国->🇺🇸_US_美国_1 2
+      - _DK_丹麦->🇺🇸_US_美国 2
+      - _CA_加拿大->🇺🇸_US_美国 2
+      - _GB_英国->🇺🇸_US_美国 2
+      - _UA_乌克兰->🇺🇸_US_美国
+      - _NL_荷兰->🇺🇸_US_美国_1 2
       - _NL_荷兰->🇺🇸_US_美国_2
       - _CN_中国->🇺🇸_US_美国_2
-      - _IN_印度->🇺🇸_US_美国_1
+      - _IN_印度->🇺🇸_US_美国_1 2
       - _CN_中国
-      - _US_美国_1
+      - _US_美国_1 2
       - _DE_德国->🇺🇸_US_美国
       - _JP_日本->🇺🇸_US_美国 2
       - _CR_哥斯达黎加->🇺🇸_US_美国
       - _NL_荷兰->🇺🇸_US_美国_3
-      - _RU_俄罗斯_1
+      - _RU_俄罗斯_1 2
       - _MD_摩尔多瓦->🇨🇳_CN_中国
       - _RU_俄罗斯_2
-      - _US_美国_2
-      - _RU_俄罗斯->🇺🇸_US_美国_1
+      - _US_美国_2 2
+      - _RU_俄罗斯->🇺🇸_US_美国_1 2
       - _RU_俄罗斯->🇺🇸_US_美国_2
       - _IN_印度->🇺🇸_US_美国_2
       - _AT_奥地利
       - _CN_中国->🇺🇸_US_美国_3
       - _NL_荷兰->🇺🇸_US_美国_4
       - _CN_中国->🇺🇸_US_美国_4
-      - _US_美国_3
-      - 未知
+      - _US_美国_3 2
+      - 未知 2
       - 日本(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_4
