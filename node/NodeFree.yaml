@@ -47,338 +47,158 @@ tun:
     - 1.0.0.1
 
 proxies:
-  - name: 🇳🇱_NL_荷兰->🇺🇸_US_美国
+  - name: 🇬🇧_GB_英国
+    type: ssr
+    server: 62.100.205.48
+    port: 989
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
+    obfs: plain
+    protocol: origin
+  - name: 🇺🇸_US_美国
+    type: ss
+    server: 154.3.8.151
+    port: 30067
+    cipher: aes-256-gcm
+    password: iUB0923RBA
+  - name: 🇨🇳_CN_中国->🇬🇧_GB_英国
     type: vmess
-    server: 185.193.29.88
-    port: 8880
-    uuid: cc0926df-54a8-3df7-934c-fd3ead64f6aa
+    server: v36.heduian.link
+    port: 30836
+    sni: ""
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     cipher: auto
     network: ws
+    skip-cert-verify: true
     ws-opts:
-      path: /dabai&Telegram🇨🇳 @WangCai2 /?ed=2560
+      path: /oooo
       headers:
-        host: TG.WangCai2.s2.cn-db.top
-    alterId: 0
+        host: v36.heduian.link
+    alterId: 2
   - name: 🇺🇸_US_美国->🇨🇳_CN_中国
     type: vmess
-    server: 38.12.83.217
-    port: 30002
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    cipher: auto
-    network: tcp
-    alterId: 64
-  - name: 🇩🇪_DE_德国_1
-    type: ss
-    server: 45.87.175.28
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: oZIoA69Q8yhcQV8ka3Pa3A
-  - name: 🇬🇧_GB_英国->🇺🇸_US_美国_1
-    type: vmess
-    server: 154.62.185.216
-    port: 20086
-    uuid: 20ed1673-8f9e-485b-9956-147768fce851
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-    alterId: 0
-  - name: 🇺🇸_US_美国_1
-    type: ss
-    server: 18.130.58.99
+    server: v2ray.codefyinc.com
     port: 443
-    cipher: aes-256-cfb
-    password: amazonskr05
-  - name: 🇺🇸_US_美国_2
-    type: vmess
-    server: 38.244.28.221
-    port: 20086
-    uuid: 37872214-0445-4cff-a1a8-670333c1d3c0
+    sni: v2ray.codefyinc.com
+    uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
     cipher: auto
     network: ws
-    ws-opts:
-      path: /
-    alterId: 0
-  - name: 未知_1
-    type: vmess
-    server: vall.codefyinc.com
-    port: 443
-    uuid: 606ece17-7279-4a43-b879-f8502103de8f
-    cipher: auto
-    network: ws
+    fingerprint: ""
     ws-opts:
       path: /vmessws
       headers:
-        host: vall.codefyinc.com
+        host: v2ray.codefyinc.com
     alterId: 0
-  - name: 🇺🇸_US_美国_3
-    type: vmess
-    server: 38.58.60.127
-    port: 20086
-    uuid: 66d508ed-1ee6-412d-97a8-eedf849bad57
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-    alterId: 0
-  - name: 🇺🇸_US_美国_4
-    type: vmess
-    server: 15.204.234.200
-    port: 41100
-    uuid: c7f169a3-2e9a-4894-ba53-7b2fa6fd08b4
-    cipher: auto
-    network: tcp
-    alterId: 0
-  - name: 🇨🇳_CN_中国
-    type: ss
-    server: 103.149.182.191
-    port: 8388
-    cipher: chacha20-ietf
-    password: asd123456
-  - name: 🇬🇧_GB_英国->🇺🇸_US_美国_2
-    type: vmess
-    server: 185.162.228.88
-    port: 8880
-    uuid: cc0926df-54a8-3df7-934c-fd3ead64f6aa
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /dabai&Telegram🇨🇳 @WangCai2 /?ed=2560
-      headers:
-        host: TG.WangCai2.s2.cn-db.top
-    alterId: 0
-  - name: 🇮🇸_IS_冰岛
-    type: ss
-    server: 37.235.49.168
-    port: 989
-    cipher: aes-256-cfb
-    password: f8f7aCzcPKbsF8p3
-  - name: 未知_2
-    type: vmess
-    server: 103.179.143.72
-    port: 20086
-    uuid: e4fb8324-6b6e-4c48-987c-04668271028d
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-    alterId: 0
-  - name: 🇺🇸_US_美国_5
-    type: vmess
-    server: 64.81.30.24
-    port: 20086
-    uuid: f53e0d42-afca-4b76-ae7f-806d6a1d36c2
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-    alterId: 0
-  - name: 🇺🇸_US_美国_6
-    type: vmess
-    server: 173.208.51.193
-    port: 20086
-    uuid: b1726eb2-271b-4cb6-bae8-37647e78b776
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-    alterId: 0
-  - name: 🇩🇰_DK_丹麦->🇺🇸_US_美国_1
-    type: vmess
-    server: pubg.ac
-    port: 80
-    sni: ""
-    uuid: 76414574-71e0-4706-89cc-c5b09c13445d
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /profile/telegram@ssrsub
-      headers:
-        host: cdn-node-oss-99.paofu.de
-    alterId: 0
-  - name: 🇷🇺_RU_俄罗斯->🏳️_unKnow_未知
-    type: vmess
-    server: 77.221.143.225
-    port: 20086
-    uuid: 149b4663-aece-486a-b92c-392c41727ac1
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-    alterId: 0
-  - name: 🇺🇸_US_美国_7
-    type: vmess
-    server: 137.175.124.167
-    port: 20086
-    uuid: b4bce500-11fe-4f8f-a344-01ac247af9bd
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-    alterId: 0
-  - name: 🇺🇸_US_美国_8
-    type: vmess
-    server: 64.81.30.225
-    port: 20086
-    uuid: 7f499074-3408-4840-b55b-91142735d2cc
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-    alterId: 0
-  - name: 🇺🇸_US_美国_9
-    type: vmess
-    server: 64.81.39.101
-    port: 20086
-    uuid: b29f7187-9707-47fe-85d2-65b1ba69df16
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-    alterId: 0
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
+  - name: 未知
     type: ss
     server: awes35lesl.blhao0o.dpdns.org
-    port: 12012
+    port: 12028
     cipher: aes-128-gcm
     password: 01721e43-5389-4f97-b21c-900abb2bda9e
-  - name: 🇮🇹_IT_意大利
+  - name: 🇰🇷_KR_韩国->🇷🇺_RU_俄罗斯
     type: ss
-    server: 185.213.23.226
-    port: 989
+    server: p222.panda001.net
+    port: 15098
     cipher: aes-256-cfb
-    password: f8f7aCzcPKbsF8p3
-  - name: 🇩🇪_DE_德国_2
-    type: ss
-    server: 46.183.184.60
-    port: 989
-    cipher: aes-256-cfb
-    password: f8f7aCzcPKbsF8p3
-  - name: 🇳🇱_NL_荷兰->🇩🇪_DE_德国
-    type: ss
-    server: 45.158.171.146
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: QCXDxuDlTTMD7jtgHUjIoj
-  - name: 🇩🇰_DK_丹麦->🇺🇸_US_美国_2
+    password: qwerREWQ@@
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
     type: vmess
-    server: fastcup.net
-    port: 80
+    server: v37.heduian.link
+    port: 30837
     sni: ""
-    uuid: 76414574-71e0-4706-89cc-c5b09c13445d
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     cipher: auto
     network: ws
+    skip-cert-verify: true
     ws-opts:
-      path: /profile/telegram@ssrsub
+      path: /oooo
       headers:
-        host: cdn-node-oss-99.paofu.de
-    alterId: 0
-  - name: 🇸🇦_SA_沙特阿拉伯
+        host: v37.heduian.link
+    alterId: 2
+  - name: 🇲🇩_MD_摩尔多瓦_1
     type: ss
-    server: 77.110.110.117
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: 9JeYy8SkViXuSHVs9GFeSe
-  - name: 🇺🇸_US_美国_10
-    type: vmess
-    server: 3.149.233.188
-    port: 20086
-    uuid: 158ee47c-c5f6-4892-8662-8fc113fb3d6b
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-    alterId: 0
-  - name: 🇺🇸_US_美国_11
-    type: vmess
-    server: 198.23.174.168
-    port: 20086
-    uuid: 2b36304b-4f88-4ff5-9033-f4d57dbb5490
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-    alterId: 0
+    server: 91.132.94.200
+    port: 989
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
+  - name: 🇲🇩_MD_摩尔多瓦_2
+    type: ss
+    server: 185.153.197.5
+    port: 989
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
   - name: 🇨🇳_CN_中国->🇺🇸_US_美国_2
     type: vmess
-    server: 154.197.108.88
-    port: 8880
-    uuid: cc0926df-54a8-3df7-934c-fd3ead64f6aa
+    server: v29.heduian.link
+    port: 30829
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     cipher: auto
     network: ws
     ws-opts:
-      path: /dabai&Telegram🇨🇳 @WangCai2 /?ed=2560
+      path: /oooo
       headers:
-        host: TG.WangCai2.s2.cn-db.top
-    alterId: 0
+        host: ocbc.com
+    alterId: 2
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_3
+    type: vmess
+    server: v24.heduian.link
+    port: 30824
+    sni: ""
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    cipher: auto
+    network: ws
+    skip-cert-verify: true
+    ws-opts:
+      path: /oooo
+      headers:
+        host: v24.heduian.link
+    alterId: 2
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_4
+    type: vmess
+    server: v33.heduian.link
+    port: 30833
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /oooo
+      headers:
+        host: v33.heduian.link
+    alterId: 2
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇳🇱_NL_荷兰->🇺🇸_US_美国
+      - 🇬🇧_GB_英国
+      - 🇺🇸_US_美国
+      - 🇨🇳_CN_中国->🇬🇧_GB_英国
       - 🇺🇸_US_美国->🇨🇳_CN_中国
-      - 🇩🇪_DE_德国_1
-      - 🇬🇧_GB_英国->🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 未知_1
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇨🇳_CN_中国
-      - 🇬🇧_GB_英国->🇺🇸_US_美国_2
-      - 🇮🇸_IS_冰岛
-      - 未知_2
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇩🇰_DK_丹麦->🇺🇸_US_美国_1
-      - 🇷🇺_RU_俄罗斯->🏳️_unKnow_未知
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
+      - 未知
+      - 🇰🇷_KR_韩国->🇷🇺_RU_俄罗斯
       - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇮🇹_IT_意大利
-      - 🇩🇪_DE_德国_2
-      - 🇳🇱_NL_荷兰->🇩🇪_DE_德国
-      - 🇩🇰_DK_丹麦->🇺🇸_US_美国_2
-      - 🇸🇦_SA_沙特阿拉伯
-      - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
+      - 🇲🇩_MD_摩尔多瓦_1
+      - 🇲🇩_MD_摩尔多瓦_2
       - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     proxies:
-      - 🇳🇱_NL_荷兰->🇺🇸_US_美国
+      - 🇬🇧_GB_英国
+      - 🇺🇸_US_美国
+      - 🇨🇳_CN_中国->🇬🇧_GB_英国
       - 🇺🇸_US_美国->🇨🇳_CN_中国
-      - 🇩🇪_DE_德国_1
-      - 🇬🇧_GB_英国->🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 未知_1
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇨🇳_CN_中国
-      - 🇬🇧_GB_英国->🇺🇸_US_美国_2
-      - 🇮🇸_IS_冰岛
-      - 未知_2
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇩🇰_DK_丹麦->🇺🇸_US_美国_1
-      - 🇷🇺_RU_俄罗斯->🏳️_unKnow_未知
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
+      - 未知
+      - 🇰🇷_KR_韩国->🇷🇺_RU_俄罗斯
       - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇮🇹_IT_意大利
-      - 🇩🇪_DE_德国_2
-      - 🇳🇱_NL_荷兰->🇩🇪_DE_德国
-      - 🇩🇰_DK_丹麦->🇺🇸_US_美国_2
-      - 🇸🇦_SA_沙特阿拉伯
-      - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
+      - 🇲🇩_MD_摩尔多瓦_1
+      - 🇲🇩_MD_摩尔多瓦_2
       - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_4
     interval: 300
     tolerance: 5000
   - name: 🎯 全球直连
@@ -398,35 +218,18 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇳🇱_NL_荷兰->🇺🇸_US_美国
+      - 🇬🇧_GB_英国
+      - 🇺🇸_US_美国
+      - 🇨🇳_CN_中国->🇬🇧_GB_英国
       - 🇺🇸_US_美国->🇨🇳_CN_中国
-      - 🇩🇪_DE_德国_1
-      - 🇬🇧_GB_英国->🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 未知_1
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇨🇳_CN_中国
-      - 🇬🇧_GB_英国->🇺🇸_US_美国_2
-      - 🇮🇸_IS_冰岛
-      - 未知_2
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇩🇰_DK_丹麦->🇺🇸_US_美国_1
-      - 🇷🇺_RU_俄罗斯->🏳️_unKnow_未知
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
+      - 未知
+      - 🇰🇷_KR_韩国->🇷🇺_RU_俄罗斯
       - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇮🇹_IT_意大利
-      - 🇩🇪_DE_德国_2
-      - 🇳🇱_NL_荷兰->🇩🇪_DE_德国
-      - 🇩🇰_DK_丹麦->🇺🇸_US_美国_2
-      - 🇸🇦_SA_沙特阿拉伯
-      - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
+      - 🇲🇩_MD_摩尔多瓦_1
+      - 🇲🇩_MD_摩尔多瓦_2
       - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_4
 rules:
 # 本地/局域网地址
 # 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
