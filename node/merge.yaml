@@ -5,14 +5,13 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _RU_俄罗斯, server: 185.231.233.112, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: _ES_西班牙->🇺🇸_US_美国, server: s3.ipyar.org, port: 32020, type: vmess, uuid: 78b4fb57-39d7-4e9d-dd38-c9a38322bcb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: _CN_中国->🇺🇸_US_美国, server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v29.heduian.link}}, udp: true}
-  - {name: _SE_瑞典, server: 192.71.166.100, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: _US_美国_1, server: www.speedtest.net, port: 80, type: vmess, uuid: 3d76ac40-80c4-11f0-b432-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /b87r3d9e, headers: {Host: www.speedtest.net}}, udp: true}
+  - {name: _DK_丹麦->🇺🇸_US_美国, server: fastcup.net, port: 80, type: vmess, uuid: 457f64d5-cc68-4911-82ee-636ebb568a46, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /profile/telegram@ssrsub, headers: {Host: fastcup.net}}, udp: true}
   - {name: _DK_丹麦->🇺🇸_US_美国_1, server: csgo.com, port: 80, type: vmess, uuid: 457f64d5-cc68-4911-82ee-636ebb568a46, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /profile/telegram@ssrsub, headers: {Host: csgo.com}}, udp: true}
+  - {name: _DK_丹麦->🇺🇸_US_美国_2, server: pubg.ac, port: 80, type: vmess, uuid: 457f64d5-cc68-4911-82ee-636ebb568a46, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /profile/telegram@ssrsub, headers: {Host: pubg.ac}}, udp: true}
+  - {name: _DK_丹麦->🇺🇸_US_美国_1 2, server: csgo.com, port: 80, type: vmess, uuid: 457f64d5-cc68-4911-82ee-636ebb568a46, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /profile/telegram@ssrsub, headers: {Host: csgo.com}}, udp: true}
   - {name: _RU_俄罗斯_1, server: 185.231.233.112, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: _DK_丹麦->🇺🇸_US_美国_2, server: fastcup.net, port: 80, type: vmess, uuid: 457f64d5-cc68-4911-82ee-636ebb568a46, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /profile/telegram@ssrsub, headers: {Host: fastcup.net}}, udp: true}
+  - {name: _DK_丹麦->🇺🇸_US_美国_2 2, server: fastcup.net, port: 80, type: vmess, uuid: 457f64d5-cc68-4911-82ee-636ebb568a46, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /profile/telegram@ssrsub, headers: {Host: fastcup.net}}, udp: true}
   - {name: _DK_丹麦->🇺🇸_US_美国_3, server: pubg.ac, port: 80, type: vmess, uuid: 457f64d5-cc68-4911-82ee-636ebb568a46, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /profile/telegram@ssrsub, headers: {Host: pubg.ac}}, udp: true}
   - {name: _CN_中国_1, server: 103.13.19.254, port: 50414, type: vmess, uuid: aacec49a-c6eb-43a0-b14a-e3b4302e5f1a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: _DK_丹麦->🇺🇸_US_美国_4, server: csgo.com, port: 8443, type: trojan, password: 457f64d5-cc68-4911-82ee-636ebb568a46, sni: cdn-node-oss-99.paofu.de, skip-cert-verify: true, network: ws, ws-opts: {path: /profile/telegram@ssrsub, headers: {Host: cdn-node-oss-99.paofu.de}}, udp: true}
@@ -80,14 +79,13 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _RU_俄罗斯
-      - _ES_西班牙->🇺🇸_US_美国
       - _CN_中国->🇺🇸_US_美国
-      - _SE_瑞典
-      - _US_美国_1
+      - _DK_丹麦->🇺🇸_US_美国
       - _DK_丹麦->🇺🇸_US_美国_1
-      - _RU_俄罗斯_1
       - _DK_丹麦->🇺🇸_US_美国_2
+      - _DK_丹麦->🇺🇸_US_美国_1 2
+      - _RU_俄罗斯_1
+      - _DK_丹麦->🇺🇸_US_美国_2 2
       - _DK_丹麦->🇺🇸_US_美国_3
       - _CN_中国_1
       - _DK_丹麦->🇺🇸_US_美国_4
@@ -154,14 +152,13 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _RU_俄罗斯
-      - _ES_西班牙->🇺🇸_US_美国
       - _CN_中国->🇺🇸_US_美国
-      - _SE_瑞典
-      - _US_美国_1
+      - _DK_丹麦->🇺🇸_US_美国
       - _DK_丹麦->🇺🇸_US_美国_1
-      - _RU_俄罗斯_1
       - _DK_丹麦->🇺🇸_US_美国_2
+      - _DK_丹麦->🇺🇸_US_美国_1 2
+      - _RU_俄罗斯_1
+      - _DK_丹麦->🇺🇸_US_美国_2 2
       - _DK_丹麦->🇺🇸_US_美国_3
       - _CN_中国_1
       - _DK_丹麦->🇺🇸_US_美国_4
@@ -229,14 +226,13 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _RU_俄罗斯
-      - _ES_西班牙->🇺🇸_US_美国
       - _CN_中国->🇺🇸_US_美国
-      - _SE_瑞典
-      - _US_美国_1
+      - _DK_丹麦->🇺🇸_US_美国
       - _DK_丹麦->🇺🇸_US_美国_1
-      - _RU_俄罗斯_1
       - _DK_丹麦->🇺🇸_US_美国_2
+      - _DK_丹麦->🇺🇸_US_美国_1 2
+      - _RU_俄罗斯_1
+      - _DK_丹麦->🇺🇸_US_美国_2 2
       - _DK_丹麦->🇺🇸_US_美国_3
       - _CN_中国_1
       - _DK_丹麦->🇺🇸_US_美国_4
@@ -316,14 +312,13 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _RU_俄罗斯
-      - _ES_西班牙->🇺🇸_US_美国
       - _CN_中国->🇺🇸_US_美国
-      - _SE_瑞典
-      - _US_美国_1
+      - _DK_丹麦->🇺🇸_US_美国
       - _DK_丹麦->🇺🇸_US_美国_1
-      - _RU_俄罗斯_1
       - _DK_丹麦->🇺🇸_US_美国_2
+      - _DK_丹麦->🇺🇸_US_美国_1 2
+      - _RU_俄罗斯_1
+      - _DK_丹麦->🇺🇸_US_美国_2 2
       - _DK_丹麦->🇺🇸_US_美国_3
       - _CN_中国_1
       - _DK_丹麦->🇺🇸_US_美国_4
@@ -395,14 +390,13 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - _RU_俄罗斯
-      - _ES_西班牙->🇺🇸_US_美国
       - _CN_中国->🇺🇸_US_美国
-      - _SE_瑞典
-      - _US_美国_1
+      - _DK_丹麦->🇺🇸_US_美国
       - _DK_丹麦->🇺🇸_US_美国_1
-      - _RU_俄罗斯_1
       - _DK_丹麦->🇺🇸_US_美国_2
+      - _DK_丹麦->🇺🇸_US_美国_1 2
+      - _RU_俄罗斯_1
+      - _DK_丹麦->🇺🇸_US_美国_2 2
       - _DK_丹麦->🇺🇸_US_美国_3
       - _CN_中国_1
       - _DK_丹麦->🇺🇸_US_美国_4
@@ -469,14 +463,13 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - _RU_俄罗斯
-      - _ES_西班牙->🇺🇸_US_美国
       - _CN_中国->🇺🇸_US_美国
-      - _SE_瑞典
-      - _US_美国_1
+      - _DK_丹麦->🇺🇸_US_美国
       - _DK_丹麦->🇺🇸_US_美国_1
-      - _RU_俄罗斯_1
       - _DK_丹麦->🇺🇸_US_美国_2
+      - _DK_丹麦->🇺🇸_US_美国_1 2
+      - _RU_俄罗斯_1
+      - _DK_丹麦->🇺🇸_US_美国_2 2
       - _DK_丹麦->🇺🇸_US_美国_3
       - _CN_中国_1
       - _DK_丹麦->🇺🇸_US_美国_4
@@ -544,14 +537,13 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _RU_俄罗斯
-      - _ES_西班牙->🇺🇸_US_美国
       - _CN_中国->🇺🇸_US_美国
-      - _SE_瑞典
-      - _US_美国_1
+      - _DK_丹麦->🇺🇸_US_美国
       - _DK_丹麦->🇺🇸_US_美国_1
-      - _RU_俄罗斯_1
       - _DK_丹麦->🇺🇸_US_美国_2
+      - _DK_丹麦->🇺🇸_US_美国_1 2
+      - _RU_俄罗斯_1
+      - _DK_丹麦->🇺🇸_US_美国_2 2
       - _DK_丹麦->🇺🇸_US_美国_3
       - _CN_中国_1
       - _DK_丹麦->🇺🇸_US_美国_4
@@ -628,14 +620,13 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _RU_俄罗斯
-      - _ES_西班牙->🇺🇸_US_美国
       - _CN_中国->🇺🇸_US_美国
-      - _SE_瑞典
-      - _US_美国_1
+      - _DK_丹麦->🇺🇸_US_美国
       - _DK_丹麦->🇺🇸_US_美国_1
-      - _RU_俄罗斯_1
       - _DK_丹麦->🇺🇸_US_美国_2
+      - _DK_丹麦->🇺🇸_US_美国_1 2
+      - _RU_俄罗斯_1
+      - _DK_丹麦->🇺🇸_US_美国_2 2
       - _DK_丹麦->🇺🇸_US_美国_3
       - _CN_中国_1
       - _DK_丹麦->🇺🇸_US_美国_4
