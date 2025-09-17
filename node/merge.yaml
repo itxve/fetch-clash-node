@@ -6,15 +6,17 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: _CN_中国->🇺🇸_US_美国, server: v35.heduian.link, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v35.heduian.link}}, udp: true}
-  - {name: 美国_6, server: qqqqqqqqqqqqaaaa.www890604.dpdns.org, port: 443, type: vmess, uuid: 4174b95d-115e-4d39-add6-1f8db95bb860, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: qqqqqqqqqqqqaaaa.www890604.dpdns.org, network: ws, ws-opts: {path: /6We3U9Df1WGxgFnoFPw1, headers: {Host: qqqqqqqqqqqqaaaa.www890604.dpdns.org}}, udp: true}
-  - {name: 美国_15, server: klo.986986.shop, port: 443, type: vmess, uuid: b75c9731-408d-4aa6-8ae9-3857205113a1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: klo.986986.shop, network: ws, ws-opts: {path: /nvjx6j7kbDQIQMZvbeVA9, headers: {Host: klo.986986.shop}}, udp: true}
-  - {name: 美国_32, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, udp: true}
-  - {name: 日本, server: arxfw2b78fi2q9hzylhn.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Nk9asglDzHzjktVzTkvhaA, udp: true}
-  - {name: 美国_36, server: 183.240.245.242, port: 33331, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国_37, server: 2606:4700:3030::6815:4001, port: 80, type: vmess, uuid: 681eda16-e94d-439c-9067-b55db0c0543f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: 4496a55e-a4bc-c238-2c1e-5e66f7b0829c.8900604.xyz, network: ws, ws-opts: {path: /2uRsM4Z4Y8O5OsbJkA, headers: {Host: 4496a55e-a4bc-c238-2c1e-5e66f7b0829c.8900604.xyz}}, udp: true}
-  - {name: 美国_38, server: 205.233.181.3, port: 443, type: vmess, uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: farid.1.berozha.ir, network: ws, ws-opts: {path: /us.kkp.me.eu.org/aa, headers: {Host: farid.1.berozha.ir}}, udp: true}
-  - {name: 美国_39, server: codepen.io, port: 443, type: vmess, uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: farid.1.berozha.ir, network: ws, ws-opts: {path: /us.kkp.me.eu.org/aa, headers: {Host: farid.1.berozha.ir}}, udp: true}
-  - {name: 美国_40, server: v8.heduian.link, port: 30808, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: v8.heduian.link, network: ws, ws-opts: {path: /oooo, headers: {Host: v8.heduian.link}}, udp: true}
+  - {name: 美国_1, server: arxfw2b78fi2q9hzylhn.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Nk9asglDzHzjktVzTkvhaA, udp: true}
+  - {name: 美国_6, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: RFK38Cg7APneSB5cWDcpbm, udp: true}
+  - {name: 美国_7, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, udp: true}
+  - {name: 英国, server: 45.144.235.103, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: aE5rFdxzG8GQf5TAQhZhRA, udp: true}
+  - {name: 美国_29, server: DdDDdddddDFrrrrrrRRy.IRan2035.dPDns.ORG, port: 443, type: vmess, uuid: a94fafdb-10d6-46c2-be8a-5c2e8358fbb0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: ddddddddddfrrrrrrrry.iran2035.dpdns.org, network: ws, ws-opts: {path: /CjJ9A46ZRHvgWvVcmjyiKVby2Lp, headers: {Host: ddddddddddfrrrrrrrry.iran2035.dpdns.org}}, udp: true}
+  - {name: 法国, server: kampong.org, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, servername: kampong.org, network: ws, ws-opts: {path: linkvws, headers: {Host: kampong.org}}, udp: true}
+  - {name: 美国_42, server: pupas-shirting-unsung.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: p78naCf2EfOlRSLTX0wFVx, udp: true}
+  - {name: 美国_43, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 美国_44, server: 183.240.180.3, port: 34141, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国_45, server: tunnel.gzcloud.shop, port: 47093, type: vmess, uuid: 89a62b16-a3c3-4ad7-be18-6f0266f7a2c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国_46, server: 183.240.245.251, port: 39595, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 日本(nodeshare.xyz免费节点)_1, server: arxfw2b78fi2q9hzylhn.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Nk9asglDzHzjktVzTkvhaA, udp: true}
   - {name: 美国(nodeshare.xyz免费节点)_1, server: s5.db-link02.top, port: 2095, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.20.143.141, headers: {Host: s5.db-link02.top}}, udp: true}
   - {name: 美国(nodeshare.xyz免费节点)_4, server: 183.236.51.23, port: 51704, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -74,15 +76,17 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - _CN_中国->🇺🇸_US_美国
+      - 美国_1
       - 美国_6
-      - 美国_15
-      - 美国_32
-      - 日本
-      - 美国_36
-      - 美国_37
-      - 美国_38
-      - 美国_39
-      - 美国_40
+      - 美国_7
+      - 英国
+      - 美国_29
+      - 法国
+      - 美国_42
+      - 美国_43
+      - 美国_44
+      - 美国_45
+      - 美国_46
       - 日本(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_4
@@ -141,15 +145,17 @@ proxy-groups:
     interval: 300
     proxies:
       - _CN_中国->🇺🇸_US_美国
+      - 美国_1
       - 美国_6
-      - 美国_15
-      - 美国_32
-      - 日本
-      - 美国_36
-      - 美国_37
-      - 美国_38
-      - 美国_39
-      - 美国_40
+      - 美国_7
+      - 英国
+      - 美国_29
+      - 法国
+      - 美国_42
+      - 美国_43
+      - 美国_44
+      - 美国_45
+      - 美国_46
       - 日本(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_4
@@ -209,15 +215,17 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - _CN_中国->🇺🇸_US_美国
+      - 美国_1
       - 美国_6
-      - 美国_15
-      - 美国_32
-      - 日本
-      - 美国_36
-      - 美国_37
-      - 美国_38
-      - 美国_39
-      - 美国_40
+      - 美国_7
+      - 英国
+      - 美国_29
+      - 法国
+      - 美国_42
+      - 美国_43
+      - 美国_44
+      - 美国_45
+      - 美国_46
       - 日本(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_4
@@ -289,15 +297,17 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - _CN_中国->🇺🇸_US_美国
+      - 美国_1
       - 美国_6
-      - 美国_15
-      - 美国_32
-      - 日本
-      - 美国_36
-      - 美国_37
-      - 美国_38
-      - 美国_39
-      - 美国_40
+      - 美国_7
+      - 英国
+      - 美国_29
+      - 法国
+      - 美国_42
+      - 美国_43
+      - 美国_44
+      - 美国_45
+      - 美国_46
       - 日本(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_4
@@ -361,15 +371,17 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - _CN_中国->🇺🇸_US_美国
+      - 美国_1
       - 美国_6
-      - 美国_15
-      - 美国_32
-      - 日本
-      - 美国_36
-      - 美国_37
-      - 美国_38
-      - 美国_39
-      - 美国_40
+      - 美国_7
+      - 英国
+      - 美国_29
+      - 法国
+      - 美国_42
+      - 美国_43
+      - 美国_44
+      - 美国_45
+      - 美国_46
       - 日本(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_4
@@ -428,15 +440,17 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - _CN_中国->🇺🇸_US_美国
+      - 美国_1
       - 美国_6
-      - 美国_15
-      - 美国_32
-      - 日本
-      - 美国_36
-      - 美国_37
-      - 美国_38
-      - 美国_39
-      - 美国_40
+      - 美国_7
+      - 英国
+      - 美国_29
+      - 法国
+      - 美国_42
+      - 美国_43
+      - 美国_44
+      - 美国_45
+      - 美国_46
       - 日本(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_4
@@ -496,15 +510,17 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - _CN_中国->🇺🇸_US_美国
+      - 美国_1
       - 美国_6
-      - 美国_15
-      - 美国_32
-      - 日本
-      - 美国_36
-      - 美国_37
-      - 美国_38
-      - 美国_39
-      - 美国_40
+      - 美国_7
+      - 英国
+      - 美国_29
+      - 法国
+      - 美国_42
+      - 美国_43
+      - 美国_44
+      - 美国_45
+      - 美国_46
       - 日本(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_4
@@ -573,15 +589,17 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - _CN_中国->🇺🇸_US_美国
+      - 美国_1
       - 美国_6
-      - 美国_15
-      - 美国_32
-      - 日本
-      - 美国_36
-      - 美国_37
-      - 美国_38
-      - 美国_39
-      - 美国_40
+      - 美国_7
+      - 英国
+      - 美国_29
+      - 法国
+      - 美国_42
+      - 美国_43
+      - 美国_44
+      - 美国_45
+      - 美国_46
       - 日本(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_1
       - 美国(nodeshare.xyz免费节点)_4
