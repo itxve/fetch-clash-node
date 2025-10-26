@@ -5,6 +5,17 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 英国(yudou678.top 玉豆免费节点), server: uk.vpnsparta.pro, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: c40641c1f89e7acb, udp: true}
+  - {name: 法国(yudou678.top 玉豆免费节点), server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 2001:bc8:32d7:302::10}}, udp: true}
+  - {name: 法国(yudou678.top 玉豆免费节点) 2, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 2001:bc8:32d7:302::10}}, udp: true}
+  - {name: 法国(yudou123.top 玉豆免费节点), server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN", headers: {Host: 2001:bc8:32d7:302::10}}, udp: true}
+  - {name: 美国(yudou678.top 玉豆免费节点), server: 47.245.106.193, port: 22433, type: vmess, uuid: bfcb103f-2133-4965-8684-6b4c8ef7a774, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou678.top 玉豆免费节点) 2, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: RFK38Cg7APneSB5cWDcpbm, udp: true}
+  - {name: 美国(yudou678.top 玉豆免费节点) 3, server: bestcdn1.868863.xyz, port: 443, type: vmess, uuid: 47257d05-216f-4719-b808-94f9d47112fe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /aejynik, headers: {Host: v-a3.796812.xyz}}, udp: true}
+  - {name: 美国(yudou678.top 玉豆免费节点) 4, server: bestcdn1.868863.xyz, port: 443, type: vmess, uuid: 47257d05-216f-4719-b808-94f9d47112fe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /aejynik, headers: {Host: v-a1.796812.xyz}}, udp: true}
+  - {name: 美国(yudou678.top 玉豆免费节点) 5, server: bestcdn1.868863.xyz, port: 443, type: vmess, uuid: 47257d05-216f-4719-b808-94f9d47112fe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /judbarh, headers: {Host: v-b3.796812.xyz}}, udp: true}
+  - {name: 美国(yudou678.top 玉豆免费节点) 6, server: bestcdn1.868863.xyz, port: 443, type: vmess, uuid: 47257d05-216f-4719-b808-94f9d47112fe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /aejynik, headers: {Host: v-a2.796812.xyz}}, udp: true}
+  - {name: 美国(yudou123.top 玉豆免费节点), server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, udp: true}
   - {name: 美国_29, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: RFK38Cg7APneSB5cWDcpbm, udp: true}
   - {name: 美国_30, server: arxfw2b78fi2q9hzylhn.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Nk9asglDzHzjktVzTkvhaA, udp: true}
   - {name: 美国_31, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, udp: true}
@@ -70,6 +81,17 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 英国(yudou678.top 玉豆免费节点)
+      - 法国(yudou678.top 玉豆免费节点)
+      - 法国(yudou678.top 玉豆免费节点) 2
+      - 法国(yudou123.top 玉豆免费节点)
+      - 美国(yudou678.top 玉豆免费节点)
+      - 美国(yudou678.top 玉豆免费节点) 2
+      - 美国(yudou678.top 玉豆免费节点) 3
+      - 美国(yudou678.top 玉豆免费节点) 4
+      - 美国(yudou678.top 玉豆免费节点) 5
+      - 美国(yudou678.top 玉豆免费节点) 6
+      - 美国(yudou123.top 玉豆免费节点)
       - 美国_29
       - 美国_30
       - 美国_31
@@ -134,6 +156,17 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 英国(yudou678.top 玉豆免费节点)
+      - 法国(yudou678.top 玉豆免费节点)
+      - 法国(yudou678.top 玉豆免费节点) 2
+      - 法国(yudou123.top 玉豆免费节点)
+      - 美国(yudou678.top 玉豆免费节点)
+      - 美国(yudou678.top 玉豆免费节点) 2
+      - 美国(yudou678.top 玉豆免费节点) 3
+      - 美国(yudou678.top 玉豆免费节点) 4
+      - 美国(yudou678.top 玉豆免费节点) 5
+      - 美国(yudou678.top 玉豆免费节点) 6
+      - 美国(yudou123.top 玉豆免费节点)
       - 美国_29
       - 美国_30
       - 美国_31
@@ -199,6 +232,17 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 英国(yudou678.top 玉豆免费节点)
+      - 法国(yudou678.top 玉豆免费节点)
+      - 法国(yudou678.top 玉豆免费节点) 2
+      - 法国(yudou123.top 玉豆免费节点)
+      - 美国(yudou678.top 玉豆免费节点)
+      - 美国(yudou678.top 玉豆免费节点) 2
+      - 美国(yudou678.top 玉豆免费节点) 3
+      - 美国(yudou678.top 玉豆免费节点) 4
+      - 美国(yudou678.top 玉豆免费节点) 5
+      - 美国(yudou678.top 玉豆免费节点) 6
+      - 美国(yudou123.top 玉豆免费节点)
       - 美国_29
       - 美国_30
       - 美国_31
@@ -276,6 +320,17 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 英国(yudou678.top 玉豆免费节点)
+      - 法国(yudou678.top 玉豆免费节点)
+      - 法国(yudou678.top 玉豆免费节点) 2
+      - 法国(yudou123.top 玉豆免费节点)
+      - 美国(yudou678.top 玉豆免费节点)
+      - 美国(yudou678.top 玉豆免费节点) 2
+      - 美国(yudou678.top 玉豆免费节点) 3
+      - 美国(yudou678.top 玉豆免费节点) 4
+      - 美国(yudou678.top 玉豆免费节点) 5
+      - 美国(yudou678.top 玉豆免费节点) 6
+      - 美国(yudou123.top 玉豆免费节点)
       - 美国_29
       - 美国_30
       - 美国_31
@@ -345,6 +400,17 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 英国(yudou678.top 玉豆免费节点)
+      - 法国(yudou678.top 玉豆免费节点)
+      - 法国(yudou678.top 玉豆免费节点) 2
+      - 法国(yudou123.top 玉豆免费节点)
+      - 美国(yudou678.top 玉豆免费节点)
+      - 美国(yudou678.top 玉豆免费节点) 2
+      - 美国(yudou678.top 玉豆免费节点) 3
+      - 美国(yudou678.top 玉豆免费节点) 4
+      - 美国(yudou678.top 玉豆免费节点) 5
+      - 美国(yudou678.top 玉豆免费节点) 6
+      - 美国(yudou123.top 玉豆免费节点)
       - 美国_29
       - 美国_30
       - 美国_31
@@ -409,6 +475,17 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 英国(yudou678.top 玉豆免费节点)
+      - 法国(yudou678.top 玉豆免费节点)
+      - 法国(yudou678.top 玉豆免费节点) 2
+      - 法国(yudou123.top 玉豆免费节点)
+      - 美国(yudou678.top 玉豆免费节点)
+      - 美国(yudou678.top 玉豆免费节点) 2
+      - 美国(yudou678.top 玉豆免费节点) 3
+      - 美国(yudou678.top 玉豆免费节点) 4
+      - 美国(yudou678.top 玉豆免费节点) 5
+      - 美国(yudou678.top 玉豆免费节点) 6
+      - 美国(yudou123.top 玉豆免费节点)
       - 美国_29
       - 美国_30
       - 美国_31
@@ -474,6 +551,17 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 英国(yudou678.top 玉豆免费节点)
+      - 法国(yudou678.top 玉豆免费节点)
+      - 法国(yudou678.top 玉豆免费节点) 2
+      - 法国(yudou123.top 玉豆免费节点)
+      - 美国(yudou678.top 玉豆免费节点)
+      - 美国(yudou678.top 玉豆免费节点) 2
+      - 美国(yudou678.top 玉豆免费节点) 3
+      - 美国(yudou678.top 玉豆免费节点) 4
+      - 美国(yudou678.top 玉豆免费节点) 5
+      - 美国(yudou678.top 玉豆免费节点) 6
+      - 美国(yudou123.top 玉豆免费节点)
       - 美国_29
       - 美国_30
       - 美国_31
@@ -548,6 +636,17 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 英国(yudou678.top 玉豆免费节点)
+      - 法国(yudou678.top 玉豆免费节点)
+      - 法国(yudou678.top 玉豆免费节点) 2
+      - 法国(yudou123.top 玉豆免费节点)
+      - 美国(yudou678.top 玉豆免费节点)
+      - 美国(yudou678.top 玉豆免费节点) 2
+      - 美国(yudou678.top 玉豆免费节点) 3
+      - 美国(yudou678.top 玉豆免费节点) 4
+      - 美国(yudou678.top 玉豆免费节点) 5
+      - 美国(yudou678.top 玉豆免费节点) 6
+      - 美国(yudou123.top 玉豆免费节点)
       - 美国_29
       - 美国_30
       - 美国_31
