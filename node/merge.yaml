@@ -5,26 +5,13 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: HK_89, server: 77e1818c-t13gg0-t5fh9u-1uni.hk3.p5pv.com, port: 80, type: vmess, uuid: adbd0a82-3336-11ed-bd7c-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: broadcastlv.chat.bilibili.com, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: _CN_中国, server: 36.151.192.242, port: 194, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
-  - {name: HK_324, server: 10cd2f16-sv2sg0-t7hu58-1q1la.hk3.p5pv.com, port: 80, type: vmess, uuid: 25b46954-9a33-11ee-8b86-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: broadcastlv.chat.bilibili.com, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: HK-219.77.235.50-1213, server: 2e617951-sv2sg0-taj9mo-1tco3.hk3.p5pv.com, port: 80, type: vmess, uuid: e29de954-ea01-11ef-a271-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: broadcastlv.chat.bilibili.com, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: HK_213, server: a731a8b3-sv2sg0-sy1a0y-1iyov.hk3.p5pv.com, port: 80, type: vmess, uuid: 33629870-e57e-11ec-bb74-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: broadcastlv.chat.bilibili.com, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: HK_210, server: 9d27188f-t00kg0-t9byd7-1jfvb.hk3.p5pv.com, port: 80, type: vmess, uuid: 06b2ac52-fcc6-11ec-bb74-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: broadcastlv.chat.bilibili.com, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: HK_231, server: 360de725-sv4n40-t2y63q-1jk6u.hk3.p5pv.com, port: 80, type: vmess, uuid: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: broadcastlv.chat.bilibili.com, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: HK-219.77.235.50-1223, server: 7f346235-sv4n40-t76x2i-wj6v.hk3.p5pv.com, port: 80, type: vmess, uuid: 847c03b2-0a9d-11eb-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: broadcastlv.chat.bilibili.com, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: HK-219.77.235.50-1226, server: 6dbaea45-sv0xs0-t9i7o2-1lt20.hk3.p5pv.com, port: 80, type: vmess, uuid: bf4ec108-f2b7-11ef-b654-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: broadcastlv.chat.bilibili.com, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: HK-219.77.235.50-1215, server: 00711758-sva740-tbrhck-1thqb.hk3.p5pv.com, port: 80, type: vmess, uuid: 4f4c6876-fcf6-11ef-94aa-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: broadcastlv.chat.bilibili.com, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: HK_72, server: d5dc60aa-t0kxs0-t1nwsn-1la2q.hk3.p5pv.com, port: 80, type: vmess, uuid: 431026c8-7397-11ed-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: broadcastlv.chat.bilibili.com, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: HK_86, server: f0364aea-t13gg0-t1rksu-1ssud.hk3.p5pv.com, port: 80, type: vmess, uuid: e6aa39b6-f0b5-11ef-bca1-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: broadcastlv.chat.bilibili.com, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: HK-219.77.235.50-1220, server: 4c2c02b9-sv2sg0-sv75lj-1swf9.hk3.p5pv.com, port: 80, type: vmess, uuid: 2bb1edc8-fa5d-11ef-9dd9-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: broadcastlv.chat.bilibili.com, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: HK-219.77.235.50-1224, server: 6bdf8f31-sv2sg0-tdh9w7-ahsb.hk3.p5pv.com, port: 80, type: vmess, uuid: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: broadcastlv.chat.bilibili.com, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: HK_83, server: 64309899-t15b40-t2c3sq-1spnr.hk3.p5pv.com, port: 80, type: vmess, uuid: 127e3f92-f714-11ef-bbb0-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: broadcastlv.chat.bilibili.com, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: _CN_中国_1, server: sl.fgmcx.top, port: 41047, type: ss, cipher: chacha20-ietf-poly1305, password: 014e90df-a3ee-4654-a9f6-d118e02dd02a, udp: true}
-  - {name: HK-219.77.235.50-1229, server: dfed4efb-t4n8g0-t636g9-luwe.hk3.p5pv.com, port: 80, type: vmess, uuid: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: broadcastlv.chat.bilibili.com, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: HK-219.77.235.50-1214, server: 1dd7778a-sv4n40-szxh9w-46gc.hk3.p5pv.com, port: 80, type: vmess, uuid: 225d1cca-d744-11ef-b790-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: broadcastlv.chat.bilibili.com, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: HK_108, server: 45c56923-sucv40-tcop2n-tl32.hk3.p5pv.com, port: 80, type: vmess, uuid: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: broadcastlv.chat.bilibili.com, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: HK_171, server: b8ffcda3-sv2sg0-sv37gm-81nv.hk3.p5pv.com, port: 80, type: vmess, uuid: 47e91fb6-25b8-df52-bc18-3cdc8548192f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: broadcastlv.chat.bilibili.com, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+  - {name: US²_14|GPT⁺|YT|NF|X, server: us2.nodea6a6.skynode.me, port: 80, type: vmess, uuid: c3f95b7e-0fc7-3311-9a3d-e34e675632d4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: us2.nodea6a6.skynode.me, network: ws, ws-opts: {path: "/download?ed=2560", headers: {Host: us2.nodea6a6.skynode.me}}, udp: true}
+  - {name: _CN_中国, server: 203.198.122.194, port: 443, type: trojan, password: 1b57001bd214304027025a740b6cf1ac, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+  - {name: 新加坡 亚马逊(Amazon)公司数据中心, server: hk3.nodea6a6.skynode.me, port: 8080, type: vmess, uuid: c3f95b7e-0fc7-3311-9a3d-e34e675632d4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: node-59-175-206-86.speedtest.cn, network: ws, ws-opts: {path: "/download?ed=2560", headers: {Host: node-59-175-206-86.speedtest.cn}}, udp: true}
+  - {name: _US_美国_8, server: 18.170.33.219, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _IR_伊朗, server: 151.242.251.133, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true}
+  - {name: _US_美国_10, server: 16.52.152.103, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _CN_中国_1, server: 58.152.46.98, port: 443, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
   - {name: _CN_中国 2, server: oss-cn-shanghai.letssepub.com, port: 20021, type: trojan, password: adbac894-90b9-4913-b77e-a715a8d4ebc8, sni: dingding-doc.com, skip-cert-verify: true, udp: true}
   - {name: _CN_中国_1 2, server: 36.151.192.242, port: 194, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
   - {name: _CN_中国_2, server: 36.151.192.242, port: 4556, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
@@ -96,26 +83,13 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK_89
+      - US²_14|GPT⁺|YT|NF|X
       - _CN_中国
-      - HK_324
-      - HK-219.77.235.50-1213
-      - HK_213
-      - HK_210
-      - HK_231
-      - HK-219.77.235.50-1223
-      - HK-219.77.235.50-1226
-      - HK-219.77.235.50-1215
-      - HK_72
-      - HK_86
-      - HK-219.77.235.50-1220
-      - HK-219.77.235.50-1224
-      - HK_83
+      - 新加坡 亚马逊(Amazon)公司数据中心
+      - _US_美国_8
+      - _IR_伊朗
+      - _US_美国_10
       - _CN_中国_1
-      - HK-219.77.235.50-1229
-      - HK-219.77.235.50-1214
-      - HK_108
-      - HK_171
       - _CN_中国 2
       - _CN_中国_1 2
       - _CN_中国_2
@@ -186,26 +160,13 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - HK_89
+      - US²_14|GPT⁺|YT|NF|X
       - _CN_中国
-      - HK_324
-      - HK-219.77.235.50-1213
-      - HK_213
-      - HK_210
-      - HK_231
-      - HK-219.77.235.50-1223
-      - HK-219.77.235.50-1226
-      - HK-219.77.235.50-1215
-      - HK_72
-      - HK_86
-      - HK-219.77.235.50-1220
-      - HK-219.77.235.50-1224
-      - HK_83
+      - 新加坡 亚马逊(Amazon)公司数据中心
+      - _US_美国_8
+      - _IR_伊朗
+      - _US_美国_10
       - _CN_中国_1
-      - HK-219.77.235.50-1229
-      - HK-219.77.235.50-1214
-      - HK_108
-      - HK_171
       - _CN_中国 2
       - _CN_中国_1 2
       - _CN_中国_2
@@ -277,26 +238,13 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK_89
+      - US²_14|GPT⁺|YT|NF|X
       - _CN_中国
-      - HK_324
-      - HK-219.77.235.50-1213
-      - HK_213
-      - HK_210
-      - HK_231
-      - HK-219.77.235.50-1223
-      - HK-219.77.235.50-1226
-      - HK-219.77.235.50-1215
-      - HK_72
-      - HK_86
-      - HK-219.77.235.50-1220
-      - HK-219.77.235.50-1224
-      - HK_83
+      - 新加坡 亚马逊(Amazon)公司数据中心
+      - _US_美国_8
+      - _IR_伊朗
+      - _US_美国_10
       - _CN_中国_1
-      - HK-219.77.235.50-1229
-      - HK-219.77.235.50-1214
-      - HK_108
-      - HK_171
       - _CN_中国 2
       - _CN_中国_1 2
       - _CN_中国_2
@@ -380,26 +328,13 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK_89
+      - US²_14|GPT⁺|YT|NF|X
       - _CN_中国
-      - HK_324
-      - HK-219.77.235.50-1213
-      - HK_213
-      - HK_210
-      - HK_231
-      - HK-219.77.235.50-1223
-      - HK-219.77.235.50-1226
-      - HK-219.77.235.50-1215
-      - HK_72
-      - HK_86
-      - HK-219.77.235.50-1220
-      - HK-219.77.235.50-1224
-      - HK_83
+      - 新加坡 亚马逊(Amazon)公司数据中心
+      - _US_美国_8
+      - _IR_伊朗
+      - _US_美国_10
       - _CN_中国_1
-      - HK-219.77.235.50-1229
-      - HK-219.77.235.50-1214
-      - HK_108
-      - HK_171
       - _CN_中国 2
       - _CN_中国_1 2
       - _CN_中国_2
@@ -475,26 +410,13 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - HK_89
+      - US²_14|GPT⁺|YT|NF|X
       - _CN_中国
-      - HK_324
-      - HK-219.77.235.50-1213
-      - HK_213
-      - HK_210
-      - HK_231
-      - HK-219.77.235.50-1223
-      - HK-219.77.235.50-1226
-      - HK-219.77.235.50-1215
-      - HK_72
-      - HK_86
-      - HK-219.77.235.50-1220
-      - HK-219.77.235.50-1224
-      - HK_83
+      - 新加坡 亚马逊(Amazon)公司数据中心
+      - _US_美国_8
+      - _IR_伊朗
+      - _US_美国_10
       - _CN_中国_1
-      - HK-219.77.235.50-1229
-      - HK-219.77.235.50-1214
-      - HK_108
-      - HK_171
       - _CN_中国 2
       - _CN_中国_1 2
       - _CN_中国_2
@@ -565,26 +487,13 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - HK_89
+      - US²_14|GPT⁺|YT|NF|X
       - _CN_中国
-      - HK_324
-      - HK-219.77.235.50-1213
-      - HK_213
-      - HK_210
-      - HK_231
-      - HK-219.77.235.50-1223
-      - HK-219.77.235.50-1226
-      - HK-219.77.235.50-1215
-      - HK_72
-      - HK_86
-      - HK-219.77.235.50-1220
-      - HK-219.77.235.50-1224
-      - HK_83
+      - 新加坡 亚马逊(Amazon)公司数据中心
+      - _US_美国_8
+      - _IR_伊朗
+      - _US_美国_10
       - _CN_中国_1
-      - HK-219.77.235.50-1229
-      - HK-219.77.235.50-1214
-      - HK_108
-      - HK_171
       - _CN_中国 2
       - _CN_中国_1 2
       - _CN_中国_2
@@ -656,26 +565,13 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HK_89
+      - US²_14|GPT⁺|YT|NF|X
       - _CN_中国
-      - HK_324
-      - HK-219.77.235.50-1213
-      - HK_213
-      - HK_210
-      - HK_231
-      - HK-219.77.235.50-1223
-      - HK-219.77.235.50-1226
-      - HK-219.77.235.50-1215
-      - HK_72
-      - HK_86
-      - HK-219.77.235.50-1220
-      - HK-219.77.235.50-1224
-      - HK_83
+      - 新加坡 亚马逊(Amazon)公司数据中心
+      - _US_美国_8
+      - _IR_伊朗
+      - _US_美国_10
       - _CN_中国_1
-      - HK-219.77.235.50-1229
-      - HK-219.77.235.50-1214
-      - HK_108
-      - HK_171
       - _CN_中国 2
       - _CN_中国_1 2
       - _CN_中国_2
@@ -756,26 +652,13 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HK_89
+      - US²_14|GPT⁺|YT|NF|X
       - _CN_中国
-      - HK_324
-      - HK-219.77.235.50-1213
-      - HK_213
-      - HK_210
-      - HK_231
-      - HK-219.77.235.50-1223
-      - HK-219.77.235.50-1226
-      - HK-219.77.235.50-1215
-      - HK_72
-      - HK_86
-      - HK-219.77.235.50-1220
-      - HK-219.77.235.50-1224
-      - HK_83
+      - 新加坡 亚马逊(Amazon)公司数据中心
+      - _US_美国_8
+      - _IR_伊朗
+      - _US_美国_10
       - _CN_中国_1
-      - HK-219.77.235.50-1229
-      - HK-219.77.235.50-1214
-      - HK_108
-      - HK_171
       - _CN_中国 2
       - _CN_中国_1 2
       - _CN_中国_2
