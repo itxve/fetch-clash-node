@@ -58,168 +58,129 @@ tun:
 
 
 proxies:
-  - type: hysteria
+  - type: vless
     name: 🇺🇸_US_美国
-    server: 51.159.226.1
-    port: 49003
-    auth-str: dongtaiwang.com
-    protocol: udp
-    sni: apple.com
-    up: "11"
-    down: "55"
-    skip-cert-verify: true
-    alpn:
-      - h3
-  - type: hysteria
-    name: 🇫🇷_FR_法国
-    server: 195.154.200.40
-    port: 15010
-    auth-str: dongtaiwang.com
-    protocol: udp
-    sni: apple.com
-    up: "100"
-    down: "100"
-    skip-cert-verify: true
-    alpn:
-      - h3
-  - type: vmess
-    name: 🇺🇸US²_14|GPT⁺|YT|NF|X
-    server: us2.nodea6a6.skynode.me
-    port: 80
-    uuid: c3f95b7e-0fc7-3311-9a3d-e34e675632d4
-    alterId: 0
+    server: ip.sb
+    port: 443
+    uuid: b15acbbd-a093-4269-a20d-d74dce4bff89
     network: ws
-    cipher: auto
-    servername: us2.nodea6a6.skynode.me
+    servername: 1079ca08.turk-71y.pages.dev
+    tls: true
+    encryption: none
     ws-opts:
-      path: /download?ed=2560
+      path: /rqi2wmvf7pii4hrp/njiumy4xmi4xodu=?ed=2560
       headers:
-        Host: us2.nodea6a6.skynode.me
+        Host: 1079ca08.turk-71y.pages.dev
+    client-fingerprint: randomized
+    alpn:
+      - h2
+      - http/1.1
+  - type: vmess
+    name: 🇳🇱NL²_1|0.7MB/s|28%|GPT|X|KeepHistory
+    server: v5.heduian.link
+    port: 30805
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    network: tcp
+    cipher: auto
   - type: hysteria2
+    name: 🇫🇷_FR_法国
+    server: 163.172.21.105
+    port: 5355
+    password: dongtaiwang.com
+    skip-cert-verify: true
+    sni: www.bing.com
+  - type: vless
     name: 🇺🇸_US_美国_1
-    server: dcc40639-t3cxs0-tcj7b6-d70y.la.shifen.uk
-    port: 1743
-    password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
-    sni: dcc40639-t3cxs0-tcj7b6-d70y.la.shifen.uk
+    server: 172.66.156.81
+    port: 80
+    uuid: 5adfc317-2483-45ad-bd84-d2779540ffa3
+    network: ws
+    servername: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
+    encryption: none
+    ws-opts:
+      path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
+      headers:
+        Host: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
   - type: hysteria2
     name: 🇺🇸_US_美国_2
-    server: 9edb1f6e-t56dc0-t9lxaa-1glq.la.shifen.uk
-    port: 1743
-    ports: 20000-50000
-    password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
-    sni: 9edb1f6e-t56dc0-t9lxaa-1glq.la.shifen.uk
+    server: mla6.maliaojc.top
+    port: 58330
+    password: e0450e7c-9d48-46fa-81d0-cf85c3fd7f8a
+    skip-cert-verify: true
+    sni: mla6.maliaojc.top
   - type: hysteria2
-    name: 🇺🇸_US_美国_3
-    server: c0a37350-t4x400-tdtx5w-au6.la.shifen.uk
-    port: 1743
-    ports: 20000-50000
-    password: 1b609740-eec2-11ef-8543-f23c93136cb3
-    sni: c0a37350-t4x400-tdtx5w-au6.la.shifen.uk
-  - type: hysteria2
-    name: 🇺🇸_US_美国_4
-    server: 5bedbab5-t3bpc0-t49cd4-4550.la.shifen.uk
-    port: 1743
-    password: 6286105c-fb6d-11ef-be96-f23c93136cb3
-  - type: trojan
-    name: 🇨🇳_CN_中国
-    server: 203.198.122.194
-    port: 443
-    password: 1b57001bd214304027025a740b6cf1ac
-    network: tcp
-    sni: www.nintendogames.net
-  - type: hysteria2
-    name: 🇺🇸_US_美国_5
-    server: c01db724-t3dk00-t3ss2y-4mce.la.shifen.uk
-    port: 1743
-    password: 06c625ea-5902-11ee-9e87-f23c9313b177
-    sni: c01db724-t3dk00-t3ss2y-4mce.la.shifen.uk
-  - type: hysteria2
-    name: 🇺🇸_US_美国_6
-    server: 98f4acfe-t4un40-tdini3-cdfn.la.shifen.uk
-    port: 1743
-    password: 94931862-1484-11f0-9ab7-f23c95b6f51d
+    name: 🇨🇦_CA_加拿大
+    server: 140.238.137.165
+    port: 30102
+    password: 338ce171-d764-4610-8fd5-6688b0d321f0
+    skip-cert-verify: true
+    sni: du.wish.ml
   - type: vmess
-    name: 新加坡 亚马逊(Amazon)公司数据中心
-    server: hk3.nodea6a6.skynode.me
-    port: 8080
-    uuid: c3f95b7e-0fc7-3311-9a3d-e34e675632d4
-    alterId: 0
+    name: 🇩🇪 德国 02
+    server: v33.heduian.link
+    port: 30833
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
     network: ws
     cipher: auto
-    servername: node-59-175-206-86.speedtest.cn
+    servername: baidu.com
     ws-opts:
-      path: /download?ed=2560
+      path: /oooo
       headers:
-        Host: node-59-175-206-86.speedtest.cn
-  - type: hysteria2
-    name: 🇺🇸_US_美国_7
-    server: 6e206c57-t3b340-tcj7b6-d70y.la.shifen.uk
-    port: 1743
-    password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
-  - type: ss
-    name: 🇺🇸_US_美国_8
-    server: 18.170.33.219
-    port: 443
-    cipher: aes-256-cfb
-    password: amazonskr05
-  - type: ss
-    name: 🇮🇷_IR_伊朗
-    server: 151.242.251.133
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: k1dBOmOB4oqi7Ump37a1bQ
-  - type: hysteria2
-    name: 🇺🇸_US_美国_9
-    server: 68407ef0-t3dk00-tcl9of-5fdt.la.shifen.uk
-    port: 1743
-    password: 712bdc36-24be-11ee-be53-f23c9313b177
-  - type: ss
-    name: 🇺🇸_US_美国_10
-    server: 16.52.152.103
-    port: 443
-    cipher: aes-256-cfb
-    password: amazonskr05
-  - type: hysteria2
-    name: 🇺🇸_US_美国_11
-    server: e10829f0-t4un40-t9lb2a-1glq.la.shifen.uk
-    port: 1743
-    password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
-    sni: e10829f0-t4un40-t9lb2a-1glq.la.shifen.uk
-  - type: trojan
-    name: 🇨🇳_CN_中国_1
-    server: 58.152.46.98
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    skip-cert-verify: true
+        Host: baidu.com
   - type: vless
-    name: 🇺🇸_US_美国_12
-    server: 198.186.131.216
-    port: 47387
-    uuid: cdc453bb-34c8-4405-a322-56f6878ccd40
+    name: 🇩🇪_DE_德国
+    server: vp10.myphotomoments.ir
+    port: 443
+    uuid: Warpi-Free-Vpn-In-GooglePlay
     network: tcp
     encryption: none
   - type: hysteria2
-    name: 🇮🇷_IR_伊朗_1
-    server: hk1.jueduibupao.top
-    port: 50001
-    password: 73746dab-cdf5-4ff5-9313-a1f4c55edd49
+    name: 🇺🇸_US_美国_3
+    server: 51.158.218.2
+    port: 50066
+    password: dongtaiwang.com
     skip-cert-verify: true
-    sni: hk1.jueduibupao.top
+    sni: www.bing.com
+  - type: ss
+    name: 🇺🇸_US_美国_4
+    server: 18.130.251.29
+    port: 443
+    cipher: aes-256-cfb
+    password: amazonskr05
   - type: hysteria2
-    name: 🇺🇸_US_美国_13
-    server: azcus1.jueduibupao.top
-    port: 20101
-    password: ef392d8a-3473-4812-8d9d-cc91992dd49c
+    name: 🇺🇸_US_美国_5
+    server: 51.81.223.22
+    port: 30102
+    password: 338ce171-d764-4610-8fd5-6688b0d321f0
     skip-cert-verify: true
-    sni: azcus1.jueduibupao.top
   - type: hysteria2
-    name: 🇷🇺_RU_俄罗斯
-    server: linjp1.jueduibupao.top
-    port: 48413
-    password: 7b56a495-39a9-421d-8bed-81fe33b0e365
+    name: 🇳🇱_NL_荷兰
+    server: 132.226.162.10
+    port: 30102
+    password: 338ce171-d764-4610-8fd5-6688b0d321f0
     skip-cert-verify: true
-    sni: linjp1.jueduibupao.top
+  - type: trojan
+    name: 🇳🇱_NL_荷兰_1
+    server: grdfg.zippydeal.xyz
+    port: 5755
+    password: fg20mtCFHy
+    network: tcp
+  - type: hysteria2
+    name: 🇳🇱_NL_荷兰_2
+    server: xg1.qucloud.top
+    port: 58430
+    password: a8e25fed-8247-4f7c-980b-01ecc6c5642b
+    skip-cert-verify: true
+    sni: xg1.qucloud.top
+  - type: trojan
+    name: 🇺🇸_US_美国_6
+    server: imcgr.zippydeal.xyz
+    port: 5571
+    password: fg20mtCFHy
+    network: tcp
+    tls: true
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -227,52 +188,38 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 🇺🇸_US_美国
+      - 🇳🇱NL²_1|0.7MB/s|28%|GPT|X|KeepHistory
       - 🇫🇷_FR_法国
-      - 🇺🇸US²_14|GPT⁺|YT|NF|X
       - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
+      - 🇨🇦_CA_加拿大
+      - 🇩🇪 德国 02
+      - 🇩🇪_DE_德国
       - 🇺🇸_US_美国_3
       - 🇺🇸_US_美国_4
-      - 🇨🇳_CN_中国
       - 🇺🇸_US_美国_5
+      - 🇳🇱_NL_荷兰
+      - 🇳🇱_NL_荷兰_1
+      - 🇳🇱_NL_荷兰_2
       - 🇺🇸_US_美国_6
-      - 新加坡 亚马逊(Amazon)公司数据中心
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇮🇷_IR_伊朗
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
-      - 🇨🇳_CN_中国_1
-      - 🇺🇸_US_美国_12
-      - 🇮🇷_IR_伊朗_1
-      - 🇺🇸_US_美国_13
-      - 🇷🇺_RU_俄罗斯
   - name: ♻️ 自动选择
     type: url-test
     proxies:
       - 🇺🇸_US_美国
+      - 🇳🇱NL²_1|0.7MB/s|28%|GPT|X|KeepHistory
       - 🇫🇷_FR_法国
-      - 🇺🇸US²_14|GPT⁺|YT|NF|X
       - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
+      - 🇨🇦_CA_加拿大
+      - 🇩🇪 德国 02
+      - 🇩🇪_DE_德国
       - 🇺🇸_US_美国_3
       - 🇺🇸_US_美国_4
-      - 🇨🇳_CN_中国
       - 🇺🇸_US_美国_5
+      - 🇳🇱_NL_荷兰
+      - 🇳🇱_NL_荷兰_1
+      - 🇳🇱_NL_荷兰_2
       - 🇺🇸_US_美国_6
-      - 新加坡 亚马逊(Amazon)公司数据中心
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇮🇷_IR_伊朗
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
-      - 🇨🇳_CN_中国_1
-      - 🇺🇸_US_美国_12
-      - 🇮🇷_IR_伊朗_1
-      - 🇺🇸_US_美国_13
-      - 🇷🇺_RU_俄罗斯
     url: http://www.gstatic.com/generate_204
     interval: 300
   - name: 🎯 全球直连
@@ -293,27 +240,20 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇺🇸_US_美国
+      - 🇳🇱NL²_1|0.7MB/s|28%|GPT|X|KeepHistory
       - 🇫🇷_FR_法国
-      - 🇺🇸US²_14|GPT⁺|YT|NF|X
       - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
+      - 🇨🇦_CA_加拿大
+      - 🇩🇪 德国 02
+      - 🇩🇪_DE_德国
       - 🇺🇸_US_美国_3
       - 🇺🇸_US_美国_4
-      - 🇨🇳_CN_中国
       - 🇺🇸_US_美国_5
+      - 🇳🇱_NL_荷兰
+      - 🇳🇱_NL_荷兰_1
+      - 🇳🇱_NL_荷兰_2
       - 🇺🇸_US_美国_6
-      - 新加坡 亚马逊(Amazon)公司数据中心
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇮🇷_IR_伊朗
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
-      - 🇨🇳_CN_中国_1
-      - 🇺🇸_US_美国_12
-      - 🇮🇷_IR_伊朗_1
-      - 🇺🇸_US_美国_13
-      - 🇷🇺_RU_俄罗斯
 rule-providers:
   LocalAreaNetwork:
     type: http
