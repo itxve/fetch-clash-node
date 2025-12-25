@@ -58,24 +58,10 @@ tun:
 
 
 proxies:
-  - type: vmess
-    name: 中国 阿里云
-    server: 8.218.116.26
-    port: 32228
-    uuid: e4767e9f-ed00-4f31-a984-a918bdd9b09c
-    alterId: 0
-    network: none
-    cipher: auto
-  - type: ss
-    name: 🇨🇳_CN_中国
-    server: 103.149.183.154
-    port: 8388
-    cipher: chacha20-ietf
-    password: asd123456
   - type: hysteria
     name: 🇫🇷_FR_法国
-    server: 62.210.10.186
-    port: 50011
+    server: 62.210.196.68
+    port: 26691
     auth-str: dongtaiwang.com
     protocol: udp
     sni: apple.com
@@ -96,257 +82,66 @@ proxies:
     skip-cert-verify: true
     alpn:
       - h3
+  - type: hysteria
+    name: 🇫🇷_FR_法国_2
+    server: 62.210.10.186
+    port: 50011
+    auth-str: dongtaiwang.com
+    protocol: udp
+    sni: apple.com
+    up: 11 Mbps
+    down: 55 Mbps
+    skip-cert-verify: true
+    alpn:
+      - h3
   - type: vless
-    name: 🇨🇳_CN_中国_1
-    server: 8.222.134.143
+    name: 🇬🇧_GB_英国
+    server: 51.250.10.228
     port: 443
-    uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+    uuid: fd4b0117-d752-46fd-9a94-21a21e360fdb
     network: tcp
-    servername: www.primevideo.com
+    servername: sun6-21.userapi.com
     tls: true
     encryption: none
     reality-opts:
-      public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
-    client-fingerprint: chrome
-  - type: vmess
-    name: 🇭🇰HK²_2|11.0MB/s|2%|GPT|YT|NF|D+|X
-    server: e66ecabe-t7h340-tq9o8d-1d3bw.hkt.gotochinatown.net
-    port: 80
-    uuid: 0fcf5a7a-e1b7-11ec-a352-f23c91cfbbc9
-    alterId: 2
-    network: ws
-    cipher: auto
-    servername: e66ecabe-t7h340-tq9o8d-1d3bw.hkt.gotochinatown.net
-    ws-opts:
-      path: /
-      headers:
-        Host: e66ecabe-t7h340-tq9o8d-1d3bw.hkt.gotochinatown.net
-  - type: vless
-    name: 🇺🇸_US_美国
-    server: notability.com
-    port: 2053
-    uuid: 69413f01-c5ae-edb7-66e7-0a9e11caf2c9
-    network: ws
-    servername: ss.saaas.de5.net
-    tls: true
-    ws-opts:
-      path: /proxyip=sjc.o00o.ooo
-      headers:
-        Host: ss.saaas.de5.net
-    client-fingerprint: chrome
-  - type: vless
-    name: 🇺🇸_US_美国_1
-    server: www.gov.se
-    port: 2053
-    uuid: 69413f01-c5ae-edb7-66e7-0a9e11caf2c9
-    network: ws
-    servername: ss.saaas.de5.net
-    tls: true
-    ws-opts:
-      path: /proxyip=sjc.o00o.ooo
-      headers:
-        Host: ss.saaas.de5.net
-    client-fingerprint: chrome
-  - type: vless
-    name: 🇺🇸_US_美国_2
-    server: quick-edit.devprod.cloudflare.dev
-    port: 2053
-    uuid: 69413f01-c5ae-edb7-66e7-0a9e11caf2c9
-    network: ws
-    servername: ss.saaas.de5.net
-    tls: true
-    ws-opts:
-      path: /proxyip=sjc.o00o.ooo
-      headers:
-        Host: ss.saaas.de5.net
-    client-fingerprint: chrome
-  - type: vless
-    name: 🇺🇸_US_美国_3
-    server: 162.159.254.137
-    port: 2053
-    uuid: 69413f01-c5ae-edb7-66e7-0a9e11caf2c9
-    network: ws
-    servername: ss.saaas.de5.net
-    tls: true
-    ws-opts:
-      path: /proxyip=sjc.o00o.ooo
-      headers:
-        Host: ss.saaas.de5.net
-    client-fingerprint: chrome
-  - type: vless
-    name: 🇺🇸_US_美国_4
-    server: delivr.com
-    port: 2053
-    uuid: 69413f01-c5ae-edb7-66e7-0a9e11caf2c9
-    network: ws
-    servername: ss.saaas.de5.net
-    tls: true
-    ws-opts:
-      path: /proxyip=sjc.o00o.ooo
-      headers:
-        Host: ss.saaas.de5.net
-    client-fingerprint: chrome
-  - type: vless
-    name: 🇺🇸_US_美国_5
-    server: www.speedtest.net
-    port: 443
-    uuid: 73856b73-19d2-47e6-b991-5eaa421161ea
-    network: ws
-    servername: DigiOCmaMooSHawSFOrVisitINGmAMaVlwS.MMogAmES.iR.
-    tls: true
-    ws-opts:
-      path: /admin?ed=1024
-      headers:
-        Host: DigiOCmaMooSHawSFOrVisitINGmAMaVlwS.MMogAmES.iR.
-    client-fingerprint: chrome
-    alpn:
-      - http/1.1
-  - type: vless
-    name: 🇺🇸_US_美国_6
-    server: cloudflare.tv
-    port: 2053
-    uuid: 69413f01-c5ae-edb7-66e7-0a9e11caf2c9
-    network: ws
-    servername: ss.saaas.de5.net
-    tls: true
-    ws-opts:
-      path: /proxyip=sjc.o00o.ooo
-      headers:
-        Host: ss.saaas.de5.net
-    client-fingerprint: chrome
-  - type: vless
-    name: 🇺🇸_US_美国_7
-    server: 104.19.73.126
-    port: 2053
-    uuid: 69413f01-c5ae-edb7-66e7-0a9e11caf2c9
-    network: ws
-    servername: ss.saaas.de5.net
-    tls: true
-    ws-opts:
-      path: /proxyip=sjc.o00o.ooo
-      headers:
-        Host: ss.saaas.de5.net
-    client-fingerprint: chrome
-  - type: vless
-    name: 🏳️_unKnow_未知
-    server: platform.wise.com
-    port: 2053
-    uuid: 69413f01-c5ae-edb7-66e7-0a9e11caf2c9
-    network: ws
-    servername: ss.saaas.de5.net
-    tls: true
-    ws-opts:
-      path: /proxyip=sjc.o00o.ooo
-      headers:
-        Host: ss.saaas.de5.net
-    client-fingerprint: chrome
-  - type: vless
-    name: 🇺🇸_US_美国_8
-    server: shops.myshopify.com
-    port: 443
-    uuid: 69413f01-c5ae-edb7-66e7-0a9e11caf2c9
-    network: ws
-    servername: ss.saaas.de5.net
-    tls: true
-    ws-opts:
-      path: /proxyip=sjc.o00o.ooo
-      headers:
-        Host: ss.saaas.de5.net
-    client-fingerprint: chrome
+      public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
+      short-id: 65c7748be8
+    client-fingerprint: qq
+    flow: xtls-rprx-vision
   - type: vless
     name: 🇷🇺_RU_俄罗斯
-    server: 83.166.255.72
+    server: 178.154.205.131
     port: 443
-    uuid: eb162ab1-a006-4931-b1b3-8fc88a22b10e
+    uuid: fd4b0117-d752-46fd-9a94-21a21e360fdb
     network: tcp
-    servername: 01.img.avito.st
+    servername: ads.x5.ru
     tls: true
     encryption: none
     reality-opts:
-      public-key: zkeQCEkz7LlrzwzeG26Ae_HEk3_QlgM9CbiWJx5iWh0
+      public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
+      short-id: 672ff0
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 🇺🇸_US_美国
+    server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
+    port: 443
+    uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
+    network: tcp
+    servername: i2pd.website
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: YVDo7U4O-AT2fa5H9E7hyYHKgfZd1vB6UdbAf2ggWQE
+      short-id: 55e6af1a35e64a98
     client-fingerprint: chrome
     flow: xtls-rprx-vision
   - type: ss
-    name: 🇨🇳_CN_中国_2
-    server: 103.149.183.113
-    port: 8388
-    cipher: chacha20-ietf
-    password: asd123456
-  - type: vless
-    name: 🇺🇸_US_美国_9
-    server: cfxr.eu.org
-    port: 2053
-    uuid: 69413f01-c5ae-edb7-66e7-0a9e11caf2c9
-    network: ws
-    servername: ss.saaas.de5.net
-    tls: true
-    ws-opts:
-      path: /proxyip=sjc.o00o.ooo
-      headers:
-        Host: ss.saaas.de5.net
-    client-fingerprint: chrome
-  - type: vless
-    name: 🇯🇵_JP_日本
-    server: 116.80.44.144
-    port: 27724
-    uuid: ebd8539d-e249-4a39-8f90-e8585e8cc35e
-    network: tcp
-    servername: www.yahoo.co.jp
-    tls: true
-    reality-opts:
-      public-key: rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w
-    client-fingerprint: firefox
-    flow: xtls-rprx-vision
-  - type: vless
-    name: 🇺🇸_US_美国_10
-    server: convera.com
-    port: 2053
-    uuid: 69413f01-c5ae-edb7-66e7-0a9e11caf2c9
-    network: ws
-    servername: ss.saaas.de5.net
-    tls: true
-    ws-opts:
-      path: /proxyip=sjc.o00o.ooo
-      headers:
-        Host: ss.saaas.de5.net
-    client-fingerprint: chrome
-  - type: vless
-    name: 🇺🇸_US_美国_11
-    server: staticdelivery.nexusmods.com
-    port: 2087
-    uuid: f7d0f5f5-a9ec-4095-9596-d948f43d5de2
-    network: ws
-    servername: vpsfr.00666600.xyz
-    tls: true
-    ws-opts:
-      path: /1aioh50
-      headers:
-        Host: vpsfr.00666600.xyz
-    client-fingerprint: chrome
-    alpn:
-      - h2
-      - http/1.1
-  - type: vmess
-    name: 🇺🇸US²_3|0.9MB/s|52%|GPT⁺|TK|NF|X|KeepHistory
-    server: v29.hdacd.com
-    port: 30829
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    network: tcp
-    cipher: auto
-  - type: vless
-    name: 🇸🇦_SA_沙特阿拉伯
-    server: us01-vlr01-gmn03.vpnvezdehod.net
-    port: 443
-    uuid: 2ca07504-c06a-41a4-b26b-99807a7d24cf
-    network: tcp
-    servername: hls-svod.itunes.apple.com
-    tls: true
-    reality-opts:
-      public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-      short-id: 48720c
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
+    name: 🇩🇪_DE_德国
+    server: 45.87.175.174
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: k1dBOmOB4oqi7Ump37a1bQ
   - type: vless
     name: 🇵🇱_PL_波兰
     server: 185.136.132.171
@@ -361,115 +156,164 @@ proxies:
       short-id: 2fb2106a629b
       spider-x: /
     client-fingerprint: chrome
-  - type: vless
-    name: 🇩🇰_DK_丹麦
-    server: hajimamadvpnjoinsho.fast199.hosting-ip.com
-    port: 80
-    uuid: b727aa5e-27bd-4fe5-bd95-7db682992637
-    network: ws
-    servername: downloadha.global.ssl.fastly.net
-    ws-opts:
-      path: /Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN
-      headers:
-        Host: downloadha.global.ssl.fastly.net
   - type: vmess
-    name: 🇭🇰HK²_3|9.9MB/s|2%|GPT⁺|YT|NF|D+|X
-    server: 6af671a9-t70f40-t7c05o-n09f.hkt.gotochinatown.net
-    port: 80
-    uuid: 89b0ea8c-806b-11ed-94ba-f23c913c8d2b
-    alterId: 2
-    network: ws
-    cipher: auto
-    servername: 6af671a9-t70f40-t7c05o-n09f.hkt.gotochinatown.net
-    ws-opts:
-      path: /
-      headers:
-        Host: 6af671a9-t70f40-t7c05o-n09f.hkt.gotochinatown.net
-  - type: vmess
-    name: 🇬🇧 英国 - Slough - DigitalOcean, LLC - 1
-    server: v36.hdacd.com
-    port: 30836
+    name: 🇫🇷 法国 09
+    server: v35.hdacd.com
+    port: 30835
     uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     alterId: 2
     network: tcp
     cipher: auto
-    servername: v36.hdacd.com
+    servername: v35.hdacd.com
   - type: vmess
-    name: 中国 V2CROSS.COM
-    server: v30.hdacd.com
-    port: 30830
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    name: 【机场推荐：https://a0a.xyz/】17
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     network: tcp
     cipher: auto
-    servername: v30.hdacd.com
+  - type: ss
+    name: 🇳🇱_NL_荷兰
+    server: 178.23.190.238
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: uo7EbtqIwgZXXHmMv5LbLcOxptyPlNkh
+  - type: ss
+    name: 🇺🇸_US_美国_1
+    server: 173.244.56.6
+    port: 443
+    cipher: aes-128-gcm
+    password: shadowsocks
+  - type: trojan
+    name: 🇨🇳_CN_中国
+    server: 219.79.214.159
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: t.me/ripaojiedian
+    skip-cert-verify: true
+  - type: vless
+    name: 🇨🇳_CN_中国_1
+    server: 62.60.148.21
+    port: 443
+    uuid: 39e5cc2f-1294-4a42-bb58-306a8be785e1
+    network: tcp
+    servername: st.ozone.ru
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: BkAG_uWeUj7BCHqYjrz1JyH0TMvO_KywubV7WJN17ho
+      short-id: ee6f3e8f44b1f0b6
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 🇨🇦_CA_加拿大
+    server: 167.17.70.16
+    port: 8443
+    uuid: 55975415-43c0-461c-8752-d5b8013364e3
+    network: tcp
+    servername: www.microsoft.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: 8W9r2aXGhKNtvPxnL6EiPpQuSm9OJT17x2xyxwxIo30
+      short-id: 84f70f1177981563
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 🇺🇸_US_美国_2
+    server: 208.69.78.5
+    port: 443
+    uuid: 0a21d713-6e6f-4274-8b84-464019325513
+    network: grpc
+    servername: www.microsoft.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: vMBfs89AZ02R1ggA45SqOFLfe6rJQ0_mLBpsV97k3zA
+      short-id: 9c8d68d581a08ea5
+    grpc-opts:
+      grpc-service-name: ecb7f0f50489f81cd1983a56
+    client-fingerprint: chrome
+  - type: vless
+    name: 🇧🇬_BG_保加利亚
+    server: 178.239.124.30
+    port: 56482
+    uuid: 2c487d9d-25a1-4b79-aed1-086b8c3082ca
+    network: tcp
+    servername: cloudcircus.jp
+    tls: true
+    reality-opts:
+      public-key: W9BjX6YmCIVsjhKMlz233Yoe0xcf0SVHfvPKqbf3vCg
+    client-fingerprint: firefox
+    flow: xtls-rprx-vision
+  - type: ss
+    name: 🇷🇺_RU_俄罗斯_1
+    server: 194.246.114.101
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: HaNqw9pIE4jcx98sg7UQgHeGNTM4R2pk
+  - type: vless
+    name: 🇬🇧_GB_英国_1
+    server: 157.173.127.224
+    port: 443
+    uuid: bec44ac3-a662-4179-a9dd-2aa881706dde
+    network: tcp
+    servername: analytics.google.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: Ajk0QudeMVQocN88OG14PpsxparFuRJlvqzXDlW-gyQ
+      short-id: aba7bc9a
+    client-fingerprint: chrome
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 中国 阿里云
-      - 🇨🇳_CN_中国
       - 🇫🇷_FR_法国
       - 🇫🇷_FR_法国_1
-      - 🇨🇳_CN_中国_1
-      - 🇭🇰HK²_2|11.0MB/s|2%|GPT|YT|NF|D+|X
-      - 🇺🇸_US_美国
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🏳️_unKnow_未知
-      - 🇺🇸_US_美国_8
+      - 🇫🇷_FR_法国_2
+      - 🇬🇧_GB_英国
       - 🇷🇺_RU_俄罗斯
-      - 🇨🇳_CN_中国_2
-      - 🇺🇸_US_美国_9
-      - 🇯🇵_JP_日本
-      - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸US²_3|0.9MB/s|52%|GPT⁺|TK|NF|X|KeepHistory
-      - 🇸🇦_SA_沙特阿拉伯
+      - 🇺🇸_US_美国
+      - 🇩🇪_DE_德国
       - 🇵🇱_PL_波兰
-      - 🇩🇰_DK_丹麦
-      - 🇭🇰HK²_3|9.9MB/s|2%|GPT⁺|YT|NF|D+|X
-      - 🇬🇧 英国 - Slough - DigitalOcean, LLC - 1
-      - 中国 V2CROSS.COM
+      - 🇫🇷 法国 09
+      - 【机场推荐：https://a0a.xyz/】17
+      - 🇳🇱_NL_荷兰
+      - 🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国
+      - 🇨🇳_CN_中国_1
+      - 🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_2
+      - 🇧🇬_BG_保加利亚
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇬🇧_GB_英国_1
   - name: ♻️ 自动选择
     type: url-test
     proxies:
-      - 中国 阿里云
-      - 🇨🇳_CN_中国
       - 🇫🇷_FR_法国
       - 🇫🇷_FR_法国_1
-      - 🇨🇳_CN_中国_1
-      - 🇭🇰HK²_2|11.0MB/s|2%|GPT|YT|NF|D+|X
-      - 🇺🇸_US_美国
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🏳️_unKnow_未知
-      - 🇺🇸_US_美国_8
+      - 🇫🇷_FR_法国_2
+      - 🇬🇧_GB_英国
       - 🇷🇺_RU_俄罗斯
-      - 🇨🇳_CN_中国_2
-      - 🇺🇸_US_美国_9
-      - 🇯🇵_JP_日本
-      - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸US²_3|0.9MB/s|52%|GPT⁺|TK|NF|X|KeepHistory
-      - 🇸🇦_SA_沙特阿拉伯
+      - 🇺🇸_US_美国
+      - 🇩🇪_DE_德国
       - 🇵🇱_PL_波兰
-      - 🇩🇰_DK_丹麦
-      - 🇭🇰HK²_3|9.9MB/s|2%|GPT⁺|YT|NF|D+|X
-      - 🇬🇧 英国 - Slough - DigitalOcean, LLC - 1
-      - 中国 V2CROSS.COM
+      - 🇫🇷 法国 09
+      - 【机场推荐：https://a0a.xyz/】17
+      - 🇳🇱_NL_荷兰
+      - 🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国
+      - 🇨🇳_CN_中国_1
+      - 🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_2
+      - 🇧🇬_BG_保加利亚
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇬🇧_GB_英国_1
     url: http://www.gstatic.com/generate_204
     interval: 300
   - name: 🎯 全球直连
@@ -489,35 +333,25 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 中国 阿里云
-      - 🇨🇳_CN_中国
       - 🇫🇷_FR_法国
       - 🇫🇷_FR_法国_1
-      - 🇨🇳_CN_中国_1
-      - 🇭🇰HK²_2|11.0MB/s|2%|GPT|YT|NF|D+|X
-      - 🇺🇸_US_美国
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🏳️_unKnow_未知
-      - 🇺🇸_US_美国_8
+      - 🇫🇷_FR_法国_2
+      - 🇬🇧_GB_英国
       - 🇷🇺_RU_俄罗斯
-      - 🇨🇳_CN_中国_2
-      - 🇺🇸_US_美国_9
-      - 🇯🇵_JP_日本
-      - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸US²_3|0.9MB/s|52%|GPT⁺|TK|NF|X|KeepHistory
-      - 🇸🇦_SA_沙特阿拉伯
+      - 🇺🇸_US_美国
+      - 🇩🇪_DE_德国
       - 🇵🇱_PL_波兰
-      - 🇩🇰_DK_丹麦
-      - 🇭🇰HK²_3|9.9MB/s|2%|GPT⁺|YT|NF|D+|X
-      - 🇬🇧 英国 - Slough - DigitalOcean, LLC - 1
-      - 中国 V2CROSS.COM
+      - 🇫🇷 法国 09
+      - 【机场推荐：https://a0a.xyz/】17
+      - 🇳🇱_NL_荷兰
+      - 🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国
+      - 🇨🇳_CN_中国_1
+      - 🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_2
+      - 🇧🇬_BG_保加利亚
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇬🇧_GB_英国_1
 rule-providers:
   LocalAreaNetwork:
     type: http
