@@ -1,8 +1,8 @@
 mixed-port: 7890
-allow-lan: false
+allow-lan: true
 mode: rule
-ipv6: false
 log-level: info
+ipv6: false
 external-controller: 0.0.0.0:9090
 dns:
   enable: true
@@ -45,168 +45,225 @@ tun:
     - 8.8.4.4
     - 1.1.1.1
     - 1.0.0.1
-
-
 proxies:
-  - type: hysteria
-    name: 🇫🇷_FR_法国
-    server: 62.210.196.68
-    port: 26691
-    auth-str: dongtaiwang.com
-    protocol: udp
-    sni: apple.com
-    up: 11 Mbps
-    down: 55 Mbps
-    skip-cert-verify: true
-    alpn:
-      - h3
-  - type: hysteria
-    name: 🇫🇷_FR_法国_1
-    server: 62.210.10.186
-    port: 35511
-    auth-str: dongtaiwang.com
-    protocol: udp
-    sni: apple.com
-    up: "11"
-    down: "55"
-    skip-cert-verify: true
-    alpn:
-      - h3
-  - type: hysteria
-    name: 🇫🇷_FR_法国_2
-    server: 62.210.10.186
-    port: 50011
-    auth-str: dongtaiwang.com
-    protocol: udp
-    sni: apple.com
-    up: 11 Mbps
-    down: 55 Mbps
-    skip-cert-verify: true
-    alpn:
-      - h3
-  - type: ss
-    name: 🇩🇪_DE_德国
-    server: 45.87.175.174
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: k1dBOmOB4oqi7Ump37a1bQ
-  - type: vmess
-    name: 🇫🇷 法国 09
-    server: v35.hdacd.com
-    port: 30835
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    network: tcp
-    cipher: auto
-    servername: v35.hdacd.com
-  - type: ss
-    name: 🇳🇱_NL_荷兰
-    server: 178.23.190.238
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: uo7EbtqIwgZXXHmMv5LbLcOxptyPlNkh
-  - type: ss
-    name: 🇺🇸_US_美国_1
-    server: 173.244.56.6
-    port: 443
-    cipher: aes-128-gcm
-    password: shadowsocks
-  - type: trojan
-    name: 🇨🇳_CN_中国
-    server: 219.79.214.159
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: t.me/ripaojiedian
-    skip-cert-verify: true
-  - type: ss
-    name: 🇷🇺_RU_俄罗斯_1
-    server: 194.246.114.101
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: HaNqw9pIE4jcx98sg7UQgHeGNTM4R2pk
-  - type: vmess
-    name: 🇬🇧 英国 - Slough - DigitalOcean, LLC - 1
-    server: v36.hdacd.com
-    port: 30836
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    network: tcp
-    cipher: auto
-    servername: v36.hdacd.com
-  - type: ss
-    name: 🇮🇷_IR_伊朗
-    server: 217.60.249.112
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: 0eC4ZBvStOgQEzTpCYjWN5
-  - type: ss
-    name: 🇲🇩_MD_摩尔多瓦
-    server: 185.153.197.5
-    port: 989
+  - name: 🇰🇷_KR_韩国
+    type: ss
+    server: 221.150.109.89
+    port: 43231
     cipher: aes-256-cfb
-    password: f8f7aCzcPKbsF8p3
-  - type: ss
-    name: 🇺🇸_US_美国_4
-    server: 185.47.255.22
-    port: 990
+    password: qwerREWQ@@
+  - name: 🇰🇷_KR_韩国_1
+    type: ss
+    server: 168.126.234.233
+    port: 28860
+    cipher: aes-256-cfb
+    password: qwerREWQ@@
+  - name: 🇺🇸_US_美国_2
+    type: trojan
+    server: kfjdi.pages.dev
+    port: 443
+    password: er668
+    skip-cert-verify: false
+    tls: false
+    ws-opts:
+      path: 🔒
+  - name: 🇰🇷_KR_韩国_2
+    type: ss
+    server: 218.38.103.150
+    port: 39502
+    cipher: aes-256-cfb
+    password: qwerREWQ@@
+  - name: 🇰🇷_KR_韩国_3
+    type: ss
+    server: 121.170.203.147
+    port: 61417
+    cipher: aes-256-cfb
+    password: qwerREWQ@@
+  - name: 🇰🇷_KR_韩国_4
+    type: ss
+    server: 211.201.169.70
+    port: 19307
+    cipher: aes-256-cfb
+    password: qwerREWQ@@
+  - name: 🇰🇷_KR_韩国_5
+    type: ss
+    server: 218.234.149.9
+    port: 4483
+    cipher: aes-256-cfb
+    password: qwerREWQ@@
+  - name: 🇨🇳_CN_中国
+    type: ss
+    server: 156.244.36.105
+    port: 11201
     cipher: chacha20-ietf-poly1305
-    password: f8f7aCzcPKbsF8p3
-  - type: vmess
-    name: 🇺🇸 US_188
-    server: 216.238.87.47
-    port: 27502
-    uuid: b8155ce4-7e08-4c40-800f-8671312b7124
-    alterId: 0
-    network: none
-    cipher: auto
-  - type: ss
-    name: 🇨🇳_CN_中国_2
-    server: 103.149.183.80
-    port: 8388
-    cipher: chacha20-ietf
-    password: asd123456
+    password: 34bafa5f59fc339f
+  - name: 🇳🇱_NL_荷兰_1
+    type: ss
+    server: fl3.cowjuice.me
+    port: 9443
+    cipher: chacha20-ietf-poly1305
+    password: X36TIi4C3NH6Oln3TdGyjg
+  - name: 🇭🇺_HU_匈牙利
+    type: ss
+    server: 109.61.39.150
+    port: 11201
+    cipher: chacha20-ietf-poly1305
+    password: 01dc0d7cbb650bc3
+  - name: 🇯🇴_JO_约旦
+    type: ss
+    server: 91.106.109.74
+    port: 11201
+    cipher: chacha20-ietf-poly1305
+    password: 11bf054dcc0342cd
+  - name: 🇨🇳_CN_中国_1
+    type: ss
+    server: 154.205.147.237
+    port: 11201
+    cipher: chacha20-ietf-poly1305
+    password: 2272de48c53e0a57
+  - name: 中国 - 香港 - PCCW IMS Limited - 45
+    type: vmess
+    server: 5804d996-t70f40-tonrmx-8n27.hkt.gotochinatown.net
+    port: 80
+    uuid: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc
+    alterId: 2
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 5804d996-t70f40-tonrmx-8n27.hkt.gotochinatown.net
+  - name: 🇭🇰 HK²_23|2.8MB/s|0%|GPT⁺|YT|X|History|[原生|住宅]
+    type: vmess
+    server: 010ece56-t6r5s0-thd0h1-1rz5s.hkt.gotochinatown.net
+    port: 80
+    uuid: 40e084d6-0316-11f0-90e2-f23c913c8d2b
+    alterId: 2
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 010ece56-t6r5s0-thd0h1-1rz5s.hkt.gotochinatown.net
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇫🇷_FR_法国
-      - 🇫🇷_FR_法国_1
-      - 🇫🇷_FR_法国_2
-      - 🇩🇪_DE_德国
-      - 🇫🇷 法国 09
-      - 🇳🇱_NL_荷兰
-      - 🇺🇸_US_美国_1
+      - 🇰🇷_KR_韩国
+      - 🇰🇷_KR_韩国_1
+      - 🇺🇸_US_美国_2
+      - 🇰🇷_KR_韩国_2
+      - 🇰🇷_KR_韩国_3
+      - 🇰🇷_KR_韩国_4
+      - 🇰🇷_KR_韩国_5
       - 🇨🇳_CN_中国
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇬🇧 英国 - Slough - DigitalOcean, LLC - 1
-      - 🇮🇷_IR_伊朗
-      - 🇲🇩_MD_摩尔多瓦
-      - 🇺🇸_US_美国_4
-      - 🇺🇸 US_188
-      - 🇨🇳_CN_中国_2
+      - 🇳🇱_NL_荷兰_1
+      - 🇭🇺_HU_匈牙利
+      - 🇯🇴_JO_约旦
+      - 🇨🇳_CN_中国_1
+      - 中国 - 香港 - PCCW IMS Limited - 45
+      - 🇭🇰 HK²_23|2.8MB/s|0%|GPT⁺|YT|X|History|[原生|住宅]
   - name: ♻️ 自动选择
     type: url-test
     proxies:
-      - 🇫🇷_FR_法国
-      - 🇫🇷_FR_法国_1
-      - 🇫🇷_FR_法国_2
-      - 🇩🇪_DE_德国
-      - 🇫🇷 法国 09
-      - 🇳🇱_NL_荷兰
-      - 🇺🇸_US_美国_1
+      - 🇰🇷_KR_韩国
+      - 🇰🇷_KR_韩国_1
+      - 🇺🇸_US_美国_2
+      - 🇰🇷_KR_韩国_2
+      - 🇰🇷_KR_韩国_3
+      - 🇰🇷_KR_韩国_4
+      - 🇰🇷_KR_韩国_5
       - 🇨🇳_CN_中国
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇬🇧 英国 - Slough - DigitalOcean, LLC - 1
-      - 🇮🇷_IR_伊朗
-      - 🇲🇩_MD_摩尔多瓦
-      - 🇺🇸_US_美国_4
-      - 🇺🇸 US_188
-      - 🇨🇳_CN_中国_2
+      - 🇳🇱_NL_荷兰_1
+      - 🇭🇺_HU_匈牙利
+      - 🇯🇴_JO_约旦
+      - 🇨🇳_CN_中国_1
+      - 中国 - 香港 - PCCW IMS Limited - 45
+      - 🇭🇰 HK²_23|2.8MB/s|0%|GPT⁺|YT|X|History|[原生|住宅]
     url: http://www.gstatic.com/generate_204
     interval: 300
+    tolerance: 50
+  - name: 🌍 国外媒体
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🎯 全球直连
+      - 🇰🇷_KR_韩国
+      - 🇰🇷_KR_韩国_1
+      - 🇺🇸_US_美国_2
+      - 🇰🇷_KR_韩国_2
+      - 🇰🇷_KR_韩国_3
+      - 🇰🇷_KR_韩国_4
+      - 🇰🇷_KR_韩国_5
+      - 🇨🇳_CN_中国
+      - 🇳🇱_NL_荷兰_1
+      - 🇭🇺_HU_匈牙利
+      - 🇯🇴_JO_约旦
+      - 🇨🇳_CN_中国_1
+      - 中国 - 香港 - PCCW IMS Limited - 45
+      - 🇭🇰 HK²_23|2.8MB/s|0%|GPT⁺|YT|X|History|[原生|住宅]
+  - name: 📲 电报信息
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - 🇰🇷_KR_韩国
+      - 🇰🇷_KR_韩国_1
+      - 🇺🇸_US_美国_2
+      - 🇰🇷_KR_韩国_2
+      - 🇰🇷_KR_韩国_3
+      - 🇰🇷_KR_韩国_4
+      - 🇰🇷_KR_韩国_5
+      - 🇨🇳_CN_中国
+      - 🇳🇱_NL_荷兰_1
+      - 🇭🇺_HU_匈牙利
+      - 🇯🇴_JO_约旦
+      - 🇨🇳_CN_中国_1
+      - 中国 - 香港 - PCCW IMS Limited - 45
+      - 🇭🇰 HK²_23|2.8MB/s|0%|GPT⁺|YT|X|History|[原生|住宅]
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 节点选择
+      - 🇰🇷_KR_韩国
+      - 🇰🇷_KR_韩国_1
+      - 🇺🇸_US_美国_2
+      - 🇰🇷_KR_韩国_2
+      - 🇰🇷_KR_韩国_3
+      - 🇰🇷_KR_韩国_4
+      - 🇰🇷_KR_韩国_5
+      - 🇨🇳_CN_中国
+      - 🇳🇱_NL_荷兰_1
+      - 🇭🇺_HU_匈牙利
+      - 🇯🇴_JO_约旦
+      - 🇨🇳_CN_中国_1
+      - 中国 - 香港 - PCCW IMS Limited - 45
+      - 🇭🇰 HK²_23|2.8MB/s|0%|GPT⁺|YT|X|History|[原生|住宅]
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - 🇰🇷_KR_韩国
+      - 🇰🇷_KR_韩国_1
+      - 🇺🇸_US_美国_2
+      - 🇰🇷_KR_韩国_2
+      - 🇰🇷_KR_韩国_3
+      - 🇰🇷_KR_韩国_4
+      - 🇰🇷_KR_韩国_5
+      - 🇨🇳_CN_中国
+      - 🇳🇱_NL_荷兰_1
+      - 🇭🇺_HU_匈牙利
+      - 🇯🇴_JO_约旦
+      - 🇨🇳_CN_中国_1
+      - 中国 - 香港 - PCCW IMS Limited - 45
+      - 🇭🇰 HK²_23|2.8MB/s|0%|GPT⁺|YT|X|History|[原生|住宅]
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -218,24 +275,28 @@ proxy-groups:
     proxies:
       - REJECT
       - DIRECT
+  - name: 🍃 应用净化
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇫🇷_FR_法国
-      - 🇫🇷_FR_法国_1
-      - 🇫🇷_FR_法国_2
-      - 🇩🇪_DE_德国
-      - 🇫🇷 法国 09
-      - 🇳🇱_NL_荷兰
-      - 🇺🇸_US_美国_1
+      - 🇰🇷_KR_韩国
+      - 🇰🇷_KR_韩国_1
+      - 🇺🇸_US_美国_2
+      - 🇰🇷_KR_韩国_2
+      - 🇰🇷_KR_韩国_3
+      - 🇰🇷_KR_韩国_4
+      - 🇰🇷_KR_韩国_5
       - 🇨🇳_CN_中国
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇬🇧 英国 - Slough - DigitalOcean, LLC - 1
-      - 🇮🇷_IR_伊朗
-      - 🇲🇩_MD_摩尔多瓦
-      - 🇺🇸_US_美国_4
-      - 🇺🇸 US_188
-      - 🇨🇳_CN_中国_2
+      - 🇳🇱_NL_荷兰_1
+      - 🇭🇺_HU_匈牙利
+      - 🇯🇴_JO_约旦
+      - 🇨🇳_CN_中国_1
+      - 中国 - 香港 - PCCW IMS Limited - 45
+      - 🇭🇰 HK²_23|2.8MB/s|0%|GPT⁺|YT|X|History|[原生|住宅]
