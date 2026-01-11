@@ -5,14 +5,14 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 节点加速器, server: 127.0.0.1, port: 1080, type: ss, cipher: aes-128-gcm, password: 61f8f830-58c0-4cf8-ae98-0e8f938bc7ec, udp: true}
-  - {name: 提醒您, server: 127.0.0.1, port: 1080, type: ss, cipher: aes-128-gcm, password: 61f8f830-58c0-4cf8-ae98-0e8f938bc7ec, udp: true}
-  - {name: 您的客户端, server: 127.0.0.1, port: 1080, type: ss, cipher: aes-128-gcm, password: 61f8f830-58c0-4cf8-ae98-0e8f938bc7ec, udp: true}
-  - {name: 已停止维护, server: 127.0.0.1, port: 1080, type: ss, cipher: aes-128-gcm, password: 61f8f830-58c0-4cf8-ae98-0e8f938bc7ec, udp: true}
-  - {name: 请访问我们的, server: 127.0.0.1, port: 1080, type: ss, cipher: aes-128-gcm, password: 61f8f830-58c0-4cf8-ae98-0e8f938bc7ec, udp: true}
-  - {name: 官方网站, server: 127.0.0.1, port: 1080, type: ss, cipher: aes-128-gcm, password: 61f8f830-58c0-4cf8-ae98-0e8f938bc7ec, udp: true}
-  - {name: 根据您的设备和系统, server: 127.0.0.1, port: 1080, type: ss, cipher: aes-128-gcm, password: 61f8f830-58c0-4cf8-ae98-0e8f938bc7ec, udp: true}
-  - {name: 更换下载新的客户端, server: 127.0.0.1, port: 1080, type: ss, cipher: aes-128-gcm, password: 61f8f830-58c0-4cf8-ae98-0e8f938bc7ec, udp: true}
+  - {name: 节点加速器, server: 127.0.0.1, port: 1080, type: ss, cipher: aes-128-gcm, password: 57607daf-ca91-411f-8125-8c646feee551, udp: true}
+  - {name: 提醒您, server: 127.0.0.1, port: 1080, type: ss, cipher: aes-128-gcm, password: 57607daf-ca91-411f-8125-8c646feee551, udp: true}
+  - {name: 您的客户端, server: 127.0.0.1, port: 1080, type: ss, cipher: aes-128-gcm, password: 57607daf-ca91-411f-8125-8c646feee551, udp: true}
+  - {name: 已停止维护, server: 127.0.0.1, port: 1080, type: ss, cipher: aes-128-gcm, password: 57607daf-ca91-411f-8125-8c646feee551, udp: true}
+  - {name: 请访问我们的, server: 127.0.0.1, port: 1080, type: ss, cipher: aes-128-gcm, password: 57607daf-ca91-411f-8125-8c646feee551, udp: true}
+  - {name: 官方网站, server: 127.0.0.1, port: 1080, type: ss, cipher: aes-128-gcm, password: 57607daf-ca91-411f-8125-8c646feee551, udp: true}
+  - {name: 根据您的设备和系统, server: 127.0.0.1, port: 1080, type: ss, cipher: aes-128-gcm, password: 57607daf-ca91-411f-8125-8c646feee551, udp: true}
+  - {name: 更换下载新的客户端, server: 127.0.0.1, port: 1080, type: ss, cipher: aes-128-gcm, password: 57607daf-ca91-411f-8125-8c646feee551, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
