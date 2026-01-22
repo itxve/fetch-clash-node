@@ -5,49 +5,24 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 香港_2, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: " [By EbraSha] trojan-HK ", skip-cert-verify: true, udp: true}
-  - {name: 香港_3, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "🔒 [By DukeMehdi] b2n.ir/v2ray-configs | 783 ", skip-cert-verify: true, udp: true}
-  - {name: 香港_4, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: " [By EbraSha] b2n.ir/v2ray-configs ", skip-cert-verify: true, udp: true}
-  - {name: 香港_5, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: 香港_6, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: " [By DukeMehdi] trojan-HK ", skip-cert-verify: true, udp: true}
-  - {name: 香港_7, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: " [By DukeMehdi] b2n.ir/v2ray-configs ", skip-cert-verify: true, udp: true}
-  - {name: 美國_17, server: 104.18.93.164, port: 2053, type: trojan, password: !<str> 123456, sni: bPBg.aNguSWEN.toP, skip-cert-verify: true, network: ws, ws-opts: {path: "/eyJqdW5rIjoidWxzMDR3dnh3a04iLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyJicGIueW91c2VmLmlzZWdhcm8uY29tIl19?ed=2560", headers: {Host: bPBg.aNguSWEN.toP}}, udp: true}
-  - {name: 美國_18, server: 104.18.93.164, port: 443, type: trojan, password: !<str> 123456, sni: bPBg.anGuSwEN.ToP, skip-cert-verify: true, network: ws, ws-opts: {path: "/eyJqdW5rIjoiVFgyZVNBTzB2U1VORzlobCIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbImJwYi55b3VzZWYuaXNlZ2Fyby5jb20iXX0=?ed=2560", headers: {Host: bPBg.anGuSwEN.ToP}}, udp: true}
-  - {name: 美國_19, server: 104.19.170.137, port: 2053, type: trojan, password: !<str> 123456, sni: BPBG.aNGUSwen.TOP, skip-cert-verify: true, network: ws, ws-opts: {path: "/eyJqdW5rIjoid21pM1RsR1N6YUczeGFmIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiYnBiLnlvdXNlZi5pc2VnYXJvLmNvbSJdfQ==?ed=2560", headers: {Host: BPBG.aNGUSwen.TOP}}, udp: true}
-  - {name: 美國_20, server: 104.19.191.204, port: 2053, type: trojan, password: !<str> 123456, sni: bpbG.AngUswEN.TOP, skip-cert-verify: true, network: ws, ws-opts: {path: "/eyJqdW5rIjoiV2R6bFpRVjlsIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiYnBiLnlvdXNlZi5pc2VnYXJvLmNvbSJdfQ==?ed=2560", headers: {Host: bpbG.AngUswEN.TOP}}, udp: true}
-  - {name: 美國_21, server: 104.19.191.204, port: 443, type: trojan, password: !<str> 123456, sni: bpBG.AnGuswEN.tOP, skip-cert-verify: true, network: ws, ws-opts: {path: "/eyJqdW5rIjoiaHpiZzU3QXU2IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiYnBiLnlvdXNlZi5pc2VnYXJvLmNvbSJdfQ==?ed=2560", headers: {Host: bpBG.AnGuswEN.tOP}}, udp: true}
-  - {name: 美國_22, server: 104.19.220.93, port: 8443, type: trojan, password: !<str> 123456, sni: bPbG.aNguSWeN.TOP, skip-cert-verify: true, network: ws, ws-opts: {path: "/eyJqdW5rIjoiaWJHVmxramhqNVRNdnoiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyJicGIueW91c2VmLmlzZWdhcm8uY29tIl19?ed=2560", headers: {Host: bPbG.aNguSWeN.TOP}}, udp: true}
-  - {name: 美國_23, server: 104.21.16.217, port: 2053, type: trojan, password: !<str> 123456, sni: bPbg.AnguswEn.Top, skip-cert-verify: true, network: ws, ws-opts: {path: "/eyJqdW5rIjoiMDdTb3VBMXREdWVPUEFUIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiYnBiLnlvdXNlZi5pc2VnYXJvLmNvbSJdfQ==?ed=2560", headers: {Host: bPbg.AnguswEn.Top}}, udp: true}
-  - {name: 美國_24, server: 104.21.16.217, port: 8443, type: trojan, password: !<str> 123456, sni: Bpbg.AngusweN.TOP, skip-cert-verify: true, network: ws, ws-opts: {path: "/eyJqdW5rIjoiV1VsY0IxQTRNIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiYnBiLnlvdXNlZi5pc2VnYXJvLmNvbSJdfQ==?ed=2560", headers: {Host: Bpbg.AngusweN.TOP}}, udp: true}
-  - {name: 俄羅斯_6, server: 109.234.211.66, port: 2087, type: trojan, password: trojan, sni: store.timimi.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)", headers: {Host: store.timimi.dpdns.org}}, udp: true}
-  - {name: 俄羅斯_7, server: 109.234.211.66, port: 2087, type: trojan, password: trojan, sni: store.timimi.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?BIA_TELEGRAM+(@AZARBAYJAB1)+TM+(@AZARBAYJAB1)+TM+(@AZARBAYJAB1)+TM+(@AZARBAYJAB1)+TM+(@AZARBAYJAB1)+TM+(@AZARBAYJAB1)", headers: {Host: store.timimi.dpdns.org}}, udp: true}
-  - {name: 美國_25, server: 172.67.216.61, port: 443, type: trojan, password: !<str> 123456, sni: BPbG.AngusWen.TOp, skip-cert-verify: true, network: ws, ws-opts: {path: "/eyJqdW5rIjoiejBIQnpPWm0iLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyJicGIueW91c2VmLmlzZWdhcm8uY29tIl19?ed=2560", headers: {Host: BPbG.AngusWen.TOp}}, udp: true}
-  - {name: 美國_26, server: 172.67.216.61, port: 2053, type: trojan, password: !<str> 123456, sni: bpBg.angUSwEn.toP, skip-cert-verify: true, network: ws, ws-opts: {path: "/eyJqdW5rIjoiNGdNN3JYZUhyd0NIIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiYnBiLnlvdXNlZi5pc2VnYXJvLmNvbSJdfQ==?ed=2560", headers: {Host: bpBg.angUSwEn.toP}}, udp: true}
-  - {name: 美國_27, server: 205.185.115.223, port: 19258, type: trojan, password: iWnFtzMiac, sni: cloudflare.com, skip-cert-verify: true, network: grpc, udp: true}
-  - {name: 台灣, server: 220.130.58.136, port: 31102, type: trojan, password: b7aa4e87-d990-4f2d-8880-73b206953efc, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 美國_28, server: "[2606", port: 4700, type: trojan, password: !<str> 123456, sni: bpBG.ANgUSwen.Top, skip-cert-verify: true, network: ws, ws-opts: {path: "/eyJqdW5rIjoiZUlWa2Q3NlR6SE9GaHQiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyJicGIueW91c2VmLmlzZWdhcm8uY29tIl19?ed=2560", headers: {Host: bpBG.ANgUSwen.Top}}, udp: true}
-  - {name: 美國_29, server: "[2606", port: 4700, type: trojan, password: !<str> 123456, sni: bPBG.angusWEN.top, skip-cert-verify: true, network: ws, ws-opts: {path: "/eyJqdW5rIjoiY1RsQ1BRRldwRnVRbyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbImJwYi55b3VzZWYuaXNlZ2Fyby5jb20iXX0=?ed=2560", headers: {Host: bPBG.angusWEN.top}}, udp: true}
-  - {name: 美國_30, server: "[2606", port: 4700, type: trojan, password: !<str> 123456, sni: BPBg.ANGuswEN.ToP, skip-cert-verify: true, network: ws, ws-opts: {path: "/eyJqdW5rIjoiWW5uSmNVb1ciLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyJicGIueW91c2VmLmlzZWdhcm8uY29tIl19?ed=2560", headers: {Host: BPBg.ANGuswEN.ToP}}, udp: true}
-  - {name: 美國_31, server: "[2606", port: 4700, type: trojan, password: !<str> 123456, sni: Bpbg.aNGUSwEn.toP, skip-cert-verify: true, network: ws, ws-opts: {path: "/eyJqdW5rIjoiZFRVZjk1NFRJOCIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbImJwYi55b3VzZWYuaXNlZ2Fyby5jb20iXX0=?ed=2560", headers: {Host: Bpbg.aNGUSwEn.toP}}, udp: true}
-  - {name: 美國_32, server: "[2606", port: 4700, type: trojan, password: !<str> 123456, sni: BPbG.anguSweN.top, skip-cert-verify: true, network: ws, ws-opts: {path: "/eyJqdW5rIjoicFNlVTlOc0hJQlFYejIiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyJicGIueW91c2VmLmlzZWdhcm8uY29tIl19?ed=2560", headers: {Host: BPbG.anguSweN.top}}, udp: true}
-  - {name: 美國_33, server: "[2606", port: 4700, type: trojan, password: !<str> 123456, sni: bpbG.anGUsWen.ToP, skip-cert-verify: true, network: ws, ws-opts: {path: "/eyJqdW5rIjoiWERMWUdCZTFnRmJEYmwiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyJicGIueW91c2VmLmlzZWdhcm8uY29tIl19?ed=2560", headers: {Host: bpbG.anGUsWen.ToP}}, udp: true}
-  - {name: 美國_34, server: "[2606", port: 4700, type: trojan, password: !<str> 123456, sni: bPBG.aNguSWen.ToP, skip-cert-verify: true, network: ws, ws-opts: {path: "/eyJqdW5rIjoiNmJBcnMwQW9nV1JybiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbImJwYi55b3VzZWYuaXNlZ2Fyby5jb20iXX0=?ed=2560", headers: {Host: bPBG.aNguSWen.ToP}}, udp: true}
-  - {name: 美國_35, server: "[2606", port: 4700, type: trojan, password: !<str> 123456, sni: BPBg.aNGUsWEN.tOP, skip-cert-verify: true, network: ws, ws-opts: {path: "/eyJqdW5rIjoiZkd6SnZkOFNZaVV5NUkiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyJicGIueW91c2VmLmlzZWdhcm8uY29tIl19?ed=2560", headers: {Host: BPBg.aNGUsWEN.tOP}}, udp: true}
-  - {name: 美國_36, server: "[2606", port: 4700, type: trojan, password: !<str> 123456, sni: BpBG.AnGUSWeN.toP, skip-cert-verify: true, network: ws, ws-opts: {path: "/eyJqdW5rIjoid011T2d1UHdyNEZ5bkpaNiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbImJwYi55b3VzZWYuaXNlZ2Fyby5jb20iXX0=?ed=2560", headers: {Host: BpBG.AnGUSWeN.toP}}, udp: true}
-  - {name: 美國_37, server: "[2606", port: 4700, type: trojan, password: !<str> 123456, sni: BPbG.ANGUsWEn.Top, skip-cert-verify: true, network: ws, ws-opts: {path: "/eyJqdW5rIjoiYm1uWDFRdzUiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyJicGIueW91c2VmLmlzZWdhcm8uY29tIl19?ed=2560", headers: {Host: BPbG.ANGUsWEn.Top}}, udp: true}
-  - {name: 美國_38, server: "[2606", port: 4700, type: trojan, password: !<str> 123456, sni: BpbG.anGuswen.Top, skip-cert-verify: true, network: ws, ws-opts: {path: "/eyJqdW5rIjoiREZSWWc5MWNIIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiYnBiLnlvdXNlZi5pc2VnYXJvLmNvbSJdfQ==?ed=2560", headers: {Host: BpbG.anGuswen.Top}}, udp: true}
-  - {name: 美國_39, server: "[2606", port: 4700, type: trojan, password: !<str> 123456, sni: BPbG.AnGUSwEN.Top, skip-cert-verify: true, network: ws, ws-opts: {path: "/eyJqdW5rIjoiS2poaTNldFRkMlF6IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiYnBiLnlvdXNlZi5pc2VnYXJvLmNvbSJdfQ==?ed=2560", headers: {Host: BPbG.AnGUSwEN.Top}}, udp: true}
-  - {name: 美國_40, server: "[2606", port: 4700, type: trojan, password: !<str> 123456, sni: bPbg.aNGUSWen.top, skip-cert-verify: true, network: ws, ws-opts: {path: "/eyJqdW5rIjoiU0pWbXBWY3Bkb1hGYSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbImJwYi55b3VzZWYuaXNlZ2Fyby5jb20iXX0=?ed=2560", headers: {Host: bPbg.aNGUSWen.top}}, udp: true}
-  - {name: 美國_41, server: "[2606", port: 4700, type: trojan, password: !<str> 123456, sni: bPBg.aNGUsWEN.toP, skip-cert-verify: true, network: ws, ws-opts: {path: "/eyJqdW5rIjoickpZNGVxRGdETjJsdHZJIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiYnBiLnlvdXNlZi5pc2VnYXJvLmNvbSJdfQ==?ed=2560", headers: {Host: bPBg.aNGUsWEN.toP}}, udp: true}
-  - {name: 美國_42, server: "[2606", port: 4700, type: trojan, password: !<str> 123456, sni: BPBG.aNGUswEn.Top, skip-cert-verify: true, network: ws, ws-opts: {path: "/eyJqdW5rIjoidkZuTnFJeEZrS2FESCIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbImJwYi55b3VzZWYuaXNlZ2Fyby5jb20iXX0=?ed=2560", headers: {Host: BPBG.aNGUswEn.Top}}, udp: true}
-  - {name: 美國_43, server: "[2606", port: 4700, type: trojan, password: !<str> 123456, sni: bPbG.angUSWEn.ToP, skip-cert-verify: true, network: ws, ws-opts: {path: "/eyJqdW5rIjoiMGl6MUhQcXBBIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiYnBiLnlvdXNlZi5pc2VnYXJvLmNvbSJdfQ==?ed=2560", headers: {Host: bPbG.angUSWEn.ToP}}, udp: true}
-  - {name: 美國_44, server: "[2606", port: 4700, type: trojan, password: !<str> 123456, sni: BPBG.ANgUsweN.Top, skip-cert-verify: true, network: ws, ws-opts: {path: "/eyJqdW5rIjoidEtwSjdIdWtHc0ciLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyJicGIueW91c2VmLmlzZWdhcm8uY29tIl19?ed=2560", headers: {Host: BPBG.ANgUsweN.Top}}, udp: true}
-  - {name: 美國_45, server: "[2606", port: 4700, type: trojan, password: !<str> 123456, sni: BPBG.aNgusWeN.Top, skip-cert-verify: true, network: ws, ws-opts: {path: "/eyJqdW5rIjoibFh3UjR1S3RYNWQ5ZyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbImJwYi55b3VzZWYuaXNlZ2Fyby5jb20iXX0=?ed=2560", headers: {Host: BPBG.aNgusWeN.Top}}, udp: true}
-  - {name: 香港_8, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "������ [By EbraSha] b2n.ir/v2ray-configs | 166 ", skip-cert-verify: true, udp: true}
-  - {name: 香港_9, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: " [By DukeMehdi] b2n.ir/v2ray-configs | 402 ", skip-cert-verify: true, udp: true}
-  - {name: 香港_10, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "������ [By DukeMehdi] b2n.io/v2ray-configs | 166 ", skip-cert-verify: true, udp: true}
-  - {name: 香港_11, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: " [By DukeMehdi] b2n.ir/v2ray-configs | 160 ", skip-cert-verify: true, udp: true}
-  - {name: HKTROJAN-05|free-nodes, server: 58.152.53.219, port: 443, type: trojan, password: BxceQaOe, sni: t.me/ripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 美国_5, server: ip.sb, port: 443, type: trojan, password: trojan, sni: nixian.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560/?Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-", headers: {Host: nixian.pages.dev}}, udp: true}
+  - {name: TWTROJAN-08|free-nodes, server: tuntro011.instconn.com, port: 40130, type: trojan, password: 30077070-596e-48ea-9400-14c8ed07bd97, sni: cntwbta.686911.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港_1, server: 58.152.18.124, port: 443, type: trojan, password: 4843e94d205f3893f588255a591abe94, sni: 58.152.18.124, skip-cert-verify: true, udp: true}
+  - {name: 香港_2, server: 58.152.18.124, port: 443, type: trojan, password: 4843e94d205f3893f588255a591abe94, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+  - {name: 香港_3, server: 58.152.18.124, port: 443, type: trojan, password: 4843e94d205f3893f588255a591abe94, skip-cert-verify: true, udp: true}
+  - {name: 西班牙, server: 109.234.211.66, port: 2087, type: trojan, password: trojan, sni: store.timimi.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)", headers: {Host: store.timimi.dpdns.org}}, udp: true}
+  - {name: 美國_25, server: 205.185.115.223, port: 19258, type: trojan, password: iWnFtzMiac, sni: cloudflare.com, skip-cert-verify: true, network: grpc, udp: true}
+  - {name: 香港_4, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 808b5ae2-7b94-43e7-8632-c639c3f72415, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 香港_5, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: b8a8025b-275a-4304-a789-b0881b281b81, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 香港_6, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 401a44f1-eab0-432b-95e7-32709b1a1942, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 香港_7, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 57d69288-b782-4798-81d6-64b13777549a, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 香港_8, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 9ab8fa39-7e45-43b1-8572-378fc62fe801, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 香港_9, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 0949b660-d349-4b5b-b3ce-3349058f7be8, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 香港_10, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: b3c721c4-3c1d-4a87-bdce-9d11f8c57b96, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 香港_11, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 27c8cb66-d0c0-4a87-8ef6-177e12f70c80, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 香港_12, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: efe9d5fc-823d-43d5-baef-9bc1fb0e651d, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 香港_13, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 01c7c307-2ae3-4c9e-bfa2-d64b8a2f5e44, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: CATROJAN-23|free-nodes, server: tuntro006.instconn.com, port: 443, type: trojan, password: 30077070-596e-48ea-9400-14c8ed07bd97, sni: torontorm1.686911.xyz, skip-cert-verify: true, udp: true}
   - {name: _KR_韩国, server: 221.150.109.89, port: 43231, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
   - {name: _KR_韩国_1, server: 168.126.234.233, port: 28860, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
   - {name: _US_美国_2, server: kfjdi.pages.dev, port: 443, type: trojan, password: er668, skip-cert-verify: true, udp: true}
@@ -120,49 +95,24 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 美国_5
+      - TWTROJAN-08|free-nodes
+      - 香港_1
       - 香港_2
       - 香港_3
+      - 西班牙
+      - 美國_25
       - 香港_4
       - 香港_5
       - 香港_6
       - 香港_7
-      - 美國_17
-      - 美國_18
-      - 美國_19
-      - 美國_20
-      - 美國_21
-      - 美國_22
-      - 美國_23
-      - 美國_24
-      - 俄羅斯_6
-      - 俄羅斯_7
-      - 美國_25
-      - 美國_26
-      - 美國_27
-      - 台灣
-      - 美國_28
-      - 美國_29
-      - 美國_30
-      - 美國_31
-      - 美國_32
-      - 美國_33
-      - 美國_34
-      - 美國_35
-      - 美國_36
-      - 美國_37
-      - 美國_38
-      - 美國_39
-      - 美國_40
-      - 美國_41
-      - 美國_42
-      - 美國_43
-      - 美國_44
-      - 美國_45
       - 香港_8
       - 香港_9
       - 香港_10
       - 香港_11
-      - HKTROJAN-05|free-nodes
+      - 香港_12
+      - 香港_13
+      - CATROJAN-23|free-nodes
       - _KR_韩国
       - _KR_韩国_1
       - _US_美国_2
@@ -234,49 +184,24 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 美国_5
+      - TWTROJAN-08|free-nodes
+      - 香港_1
       - 香港_2
       - 香港_3
+      - 西班牙
+      - 美國_25
       - 香港_4
       - 香港_5
       - 香港_6
       - 香港_7
-      - 美國_17
-      - 美國_18
-      - 美國_19
-      - 美國_20
-      - 美國_21
-      - 美國_22
-      - 美國_23
-      - 美國_24
-      - 俄羅斯_6
-      - 俄羅斯_7
-      - 美國_25
-      - 美國_26
-      - 美國_27
-      - 台灣
-      - 美國_28
-      - 美國_29
-      - 美國_30
-      - 美國_31
-      - 美國_32
-      - 美國_33
-      - 美國_34
-      - 美國_35
-      - 美國_36
-      - 美國_37
-      - 美國_38
-      - 美國_39
-      - 美國_40
-      - 美國_41
-      - 美國_42
-      - 美國_43
-      - 美國_44
-      - 美國_45
       - 香港_8
       - 香港_9
       - 香港_10
       - 香港_11
-      - HKTROJAN-05|free-nodes
+      - 香港_12
+      - 香港_13
+      - CATROJAN-23|free-nodes
       - _KR_韩国
       - _KR_韩国_1
       - _US_美国_2
@@ -349,49 +274,24 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 美国_5
+      - TWTROJAN-08|free-nodes
+      - 香港_1
       - 香港_2
       - 香港_3
+      - 西班牙
+      - 美國_25
       - 香港_4
       - 香港_5
       - 香港_6
       - 香港_7
-      - 美國_17
-      - 美國_18
-      - 美國_19
-      - 美國_20
-      - 美國_21
-      - 美國_22
-      - 美國_23
-      - 美國_24
-      - 俄羅斯_6
-      - 俄羅斯_7
-      - 美國_25
-      - 美國_26
-      - 美國_27
-      - 台灣
-      - 美國_28
-      - 美國_29
-      - 美國_30
-      - 美國_31
-      - 美國_32
-      - 美國_33
-      - 美國_34
-      - 美國_35
-      - 美國_36
-      - 美國_37
-      - 美國_38
-      - 美國_39
-      - 美國_40
-      - 美國_41
-      - 美國_42
-      - 美國_43
-      - 美國_44
-      - 美國_45
       - 香港_8
       - 香港_9
       - 香港_10
       - 香港_11
-      - HKTROJAN-05|free-nodes
+      - 香港_12
+      - 香港_13
+      - CATROJAN-23|free-nodes
       - _KR_韩国
       - _KR_韩国_1
       - _US_美国_2
@@ -476,49 +376,24 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 美国_5
+      - TWTROJAN-08|free-nodes
+      - 香港_1
       - 香港_2
       - 香港_3
+      - 西班牙
+      - 美國_25
       - 香港_4
       - 香港_5
       - 香港_6
       - 香港_7
-      - 美國_17
-      - 美國_18
-      - 美國_19
-      - 美國_20
-      - 美國_21
-      - 美國_22
-      - 美國_23
-      - 美國_24
-      - 俄羅斯_6
-      - 俄羅斯_7
-      - 美國_25
-      - 美國_26
-      - 美國_27
-      - 台灣
-      - 美國_28
-      - 美國_29
-      - 美國_30
-      - 美國_31
-      - 美國_32
-      - 美國_33
-      - 美國_34
-      - 美國_35
-      - 美國_36
-      - 美國_37
-      - 美國_38
-      - 美國_39
-      - 美國_40
-      - 美國_41
-      - 美國_42
-      - 美國_43
-      - 美國_44
-      - 美國_45
       - 香港_8
       - 香港_9
       - 香港_10
       - 香港_11
-      - HKTROJAN-05|free-nodes
+      - 香港_12
+      - 香港_13
+      - CATROJAN-23|free-nodes
       - _KR_韩国
       - _KR_韩国_1
       - _US_美国_2
@@ -589,18 +464,19 @@ proxy-groups:
     type: select
     proxies:
       - 🎯 全球直连
+      - 香港_1
       - 香港_2
       - 香港_3
       - 香港_4
       - 香港_5
       - 香港_6
       - 香港_7
-      - 台灣
       - 香港_8
       - 香港_9
       - 香港_10
       - 香港_11
-      - HKTROJAN-05|free-nodes
+      - 香港_12
+      - 香港_13
       - 中国 - 香港 - PCCW IMS Limited - 45
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
@@ -608,49 +484,24 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 美国_5
+      - TWTROJAN-08|free-nodes
+      - 香港_1
       - 香港_2
       - 香港_3
+      - 西班牙
+      - 美國_25
       - 香港_4
       - 香港_5
       - 香港_6
       - 香港_7
-      - 美國_17
-      - 美國_18
-      - 美國_19
-      - 美國_20
-      - 美國_21
-      - 美國_22
-      - 美國_23
-      - 美國_24
-      - 俄羅斯_6
-      - 俄羅斯_7
-      - 美國_25
-      - 美國_26
-      - 美國_27
-      - 台灣
-      - 美國_28
-      - 美國_29
-      - 美國_30
-      - 美國_31
-      - 美國_32
-      - 美國_33
-      - 美國_34
-      - 美國_35
-      - 美國_36
-      - 美國_37
-      - 美國_38
-      - 美國_39
-      - 美國_40
-      - 美國_41
-      - 美國_42
-      - 美國_43
-      - 美國_44
-      - 美國_45
       - 香港_8
       - 香港_9
       - 香港_10
       - 香港_11
-      - HKTROJAN-05|free-nodes
+      - 香港_12
+      - 香港_13
+      - CATROJAN-23|free-nodes
       - _KR_韩国
       - _KR_韩国_1
       - _US_美国_2
@@ -722,49 +573,24 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 美国_5
+      - TWTROJAN-08|free-nodes
+      - 香港_1
       - 香港_2
       - 香港_3
+      - 西班牙
+      - 美國_25
       - 香港_4
       - 香港_5
       - 香港_6
       - 香港_7
-      - 美國_17
-      - 美國_18
-      - 美國_19
-      - 美國_20
-      - 美國_21
-      - 美國_22
-      - 美國_23
-      - 美國_24
-      - 俄羅斯_6
-      - 俄羅斯_7
-      - 美國_25
-      - 美國_26
-      - 美國_27
-      - 台灣
-      - 美國_28
-      - 美國_29
-      - 美國_30
-      - 美國_31
-      - 美國_32
-      - 美國_33
-      - 美國_34
-      - 美國_35
-      - 美國_36
-      - 美國_37
-      - 美國_38
-      - 美國_39
-      - 美國_40
-      - 美國_41
-      - 美國_42
-      - 美國_43
-      - 美國_44
-      - 美國_45
       - 香港_8
       - 香港_9
       - 香港_10
       - 香港_11
-      - HKTROJAN-05|free-nodes
+      - 香港_12
+      - 香港_13
+      - CATROJAN-23|free-nodes
       - _KR_韩国
       - _KR_韩国_1
       - _US_美国_2
@@ -837,49 +663,24 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 美国_5
+      - TWTROJAN-08|free-nodes
+      - 香港_1
       - 香港_2
       - 香港_3
+      - 西班牙
+      - 美國_25
       - 香港_4
       - 香港_5
       - 香港_6
       - 香港_7
-      - 美國_17
-      - 美國_18
-      - 美國_19
-      - 美國_20
-      - 美國_21
-      - 美國_22
-      - 美國_23
-      - 美國_24
-      - 俄羅斯_6
-      - 俄羅斯_7
-      - 美國_25
-      - 美國_26
-      - 美國_27
-      - 台灣
-      - 美國_28
-      - 美國_29
-      - 美國_30
-      - 美國_31
-      - 美國_32
-      - 美國_33
-      - 美國_34
-      - 美國_35
-      - 美國_36
-      - 美國_37
-      - 美國_38
-      - 美國_39
-      - 美國_40
-      - 美國_41
-      - 美國_42
-      - 美國_43
-      - 美國_44
-      - 美國_45
       - 香港_8
       - 香港_9
       - 香港_10
       - 香港_11
-      - HKTROJAN-05|free-nodes
+      - 香港_12
+      - 香港_13
+      - CATROJAN-23|free-nodes
       - _KR_韩国
       - _KR_韩国_1
       - _US_美国_2
@@ -961,49 +762,24 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 美国_5
+      - TWTROJAN-08|free-nodes
+      - 香港_1
       - 香港_2
       - 香港_3
+      - 西班牙
+      - 美國_25
       - 香港_4
       - 香港_5
       - 香港_6
       - 香港_7
-      - 美國_17
-      - 美國_18
-      - 美國_19
-      - 美國_20
-      - 美國_21
-      - 美國_22
-      - 美國_23
-      - 美國_24
-      - 俄羅斯_6
-      - 俄羅斯_7
-      - 美國_25
-      - 美國_26
-      - 美國_27
-      - 台灣
-      - 美國_28
-      - 美國_29
-      - 美國_30
-      - 美國_31
-      - 美國_32
-      - 美國_33
-      - 美國_34
-      - 美國_35
-      - 美國_36
-      - 美國_37
-      - 美國_38
-      - 美國_39
-      - 美國_40
-      - 美國_41
-      - 美國_42
-      - 美國_43
-      - 美國_44
-      - 美國_45
       - 香港_8
       - 香港_9
       - 香港_10
       - 香港_11
-      - HKTROJAN-05|free-nodes
+      - 香港_12
+      - 香港_13
+      - CATROJAN-23|free-nodes
       - _KR_韩国
       - _KR_韩国_1
       - _US_美国_2
