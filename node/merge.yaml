@@ -5,6 +5,24 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 美国_5, server: ip.sb, port: 443, type: trojan, password: trojan, sni: nixian.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560/?Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-", headers: {Host: nixian.pages.dev}}, udp: true}
+  - {name: TWTROJAN-08|free-nodes, server: tuntro011.instconn.com, port: 40130, type: trojan, password: 30077070-596e-48ea-9400-14c8ed07bd97, sni: cntwbta.686911.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港_1, server: 58.152.18.124, port: 443, type: trojan, password: 4843e94d205f3893f588255a591abe94, sni: 58.152.18.124, skip-cert-verify: true, udp: true}
+  - {name: 香港_2, server: 58.152.18.124, port: 443, type: trojan, password: 4843e94d205f3893f588255a591abe94, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+  - {name: 香港_3, server: 58.152.18.124, port: 443, type: trojan, password: 4843e94d205f3893f588255a591abe94, skip-cert-verify: true, udp: true}
+  - {name: 西班牙, server: 109.234.211.66, port: 2087, type: trojan, password: trojan, sni: store.timimi.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)", headers: {Host: store.timimi.dpdns.org}}, udp: true}
+  - {name: 美國_25, server: 205.185.115.223, port: 19258, type: trojan, password: iWnFtzMiac, sni: cloudflare.com, skip-cert-verify: true, network: grpc, udp: true}
+  - {name: 香港_4, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 808b5ae2-7b94-43e7-8632-c639c3f72415, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 香港_5, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: b8a8025b-275a-4304-a789-b0881b281b81, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 香港_6, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 401a44f1-eab0-432b-95e7-32709b1a1942, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 香港_7, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 57d69288-b782-4798-81d6-64b13777549a, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 香港_8, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 9ab8fa39-7e45-43b1-8572-378fc62fe801, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 香港_9, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 0949b660-d349-4b5b-b3ce-3349058f7be8, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 香港_10, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: b3c721c4-3c1d-4a87-bdce-9d11f8c57b96, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 香港_11, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 27c8cb66-d0c0-4a87-8ef6-177e12f70c80, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 香港_12, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: efe9d5fc-823d-43d5-baef-9bc1fb0e651d, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 香港_13, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 01c7c307-2ae3-4c9e-bfa2-d64b8a2f5e44, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: CATROJAN-23|free-nodes, server: tuntro006.instconn.com, port: 443, type: trojan, password: 30077070-596e-48ea-9400-14c8ed07bd97, sni: torontorm1.686911.xyz, skip-cert-verify: true, udp: true}
   - {name: _KR_韩国, server: 221.150.109.89, port: 43231, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
   - {name: _KR_韩国_1, server: 168.126.234.233, port: 28860, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
   - {name: _US_美国_2, server: kfjdi.pages.dev, port: 443, type: trojan, password: er668, skip-cert-verify: true, udp: true}
@@ -77,6 +95,24 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 美国_5
+      - TWTROJAN-08|free-nodes
+      - 香港_1
+      - 香港_2
+      - 香港_3
+      - 西班牙
+      - 美國_25
+      - 香港_4
+      - 香港_5
+      - 香港_6
+      - 香港_7
+      - 香港_8
+      - 香港_9
+      - 香港_10
+      - 香港_11
+      - 香港_12
+      - 香港_13
+      - CATROJAN-23|free-nodes
       - _KR_韩国
       - _KR_韩国_1
       - _US_美国_2
@@ -148,6 +184,24 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 美国_5
+      - TWTROJAN-08|free-nodes
+      - 香港_1
+      - 香港_2
+      - 香港_3
+      - 西班牙
+      - 美國_25
+      - 香港_4
+      - 香港_5
+      - 香港_6
+      - 香港_7
+      - 香港_8
+      - 香港_9
+      - 香港_10
+      - 香港_11
+      - 香港_12
+      - 香港_13
+      - CATROJAN-23|free-nodes
       - _KR_韩国
       - _KR_韩国_1
       - _US_美国_2
@@ -220,6 +274,24 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 美国_5
+      - TWTROJAN-08|free-nodes
+      - 香港_1
+      - 香港_2
+      - 香港_3
+      - 西班牙
+      - 美國_25
+      - 香港_4
+      - 香港_5
+      - 香港_6
+      - 香港_7
+      - 香港_8
+      - 香港_9
+      - 香港_10
+      - 香港_11
+      - 香港_12
+      - 香港_13
+      - CATROJAN-23|free-nodes
       - _KR_韩国
       - _KR_韩国_1
       - _US_美国_2
@@ -304,6 +376,24 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 美国_5
+      - TWTROJAN-08|free-nodes
+      - 香港_1
+      - 香港_2
+      - 香港_3
+      - 西班牙
+      - 美國_25
+      - 香港_4
+      - 香港_5
+      - 香港_6
+      - 香港_7
+      - 香港_8
+      - 香港_9
+      - 香港_10
+      - 香港_11
+      - 香港_12
+      - 香港_13
+      - CATROJAN-23|free-nodes
       - _KR_韩国
       - _KR_韩国_1
       - _US_美国_2
@@ -374,6 +464,19 @@ proxy-groups:
     type: select
     proxies:
       - 🎯 全球直连
+      - 香港_1
+      - 香港_2
+      - 香港_3
+      - 香港_4
+      - 香港_5
+      - 香港_6
+      - 香港_7
+      - 香港_8
+      - 香港_9
+      - 香港_10
+      - 香港_11
+      - 香港_12
+      - 香港_13
       - 中国 - 香港 - PCCW IMS Limited - 45
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
@@ -381,6 +484,24 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 美国_5
+      - TWTROJAN-08|free-nodes
+      - 香港_1
+      - 香港_2
+      - 香港_3
+      - 西班牙
+      - 美國_25
+      - 香港_4
+      - 香港_5
+      - 香港_6
+      - 香港_7
+      - 香港_8
+      - 香港_9
+      - 香港_10
+      - 香港_11
+      - 香港_12
+      - 香港_13
+      - CATROJAN-23|free-nodes
       - _KR_韩国
       - _KR_韩国_1
       - _US_美国_2
@@ -452,6 +573,24 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 美国_5
+      - TWTROJAN-08|free-nodes
+      - 香港_1
+      - 香港_2
+      - 香港_3
+      - 西班牙
+      - 美國_25
+      - 香港_4
+      - 香港_5
+      - 香港_6
+      - 香港_7
+      - 香港_8
+      - 香港_9
+      - 香港_10
+      - 香港_11
+      - 香港_12
+      - 香港_13
+      - CATROJAN-23|free-nodes
       - _KR_韩国
       - _KR_韩国_1
       - _US_美国_2
@@ -524,6 +663,24 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 美国_5
+      - TWTROJAN-08|free-nodes
+      - 香港_1
+      - 香港_2
+      - 香港_3
+      - 西班牙
+      - 美國_25
+      - 香港_4
+      - 香港_5
+      - 香港_6
+      - 香港_7
+      - 香港_8
+      - 香港_9
+      - 香港_10
+      - 香港_11
+      - 香港_12
+      - 香港_13
+      - CATROJAN-23|free-nodes
       - _KR_韩国
       - _KR_韩国_1
       - _US_美国_2
@@ -605,6 +762,24 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 美国_5
+      - TWTROJAN-08|free-nodes
+      - 香港_1
+      - 香港_2
+      - 香港_3
+      - 西班牙
+      - 美國_25
+      - 香港_4
+      - 香港_5
+      - 香港_6
+      - 香港_7
+      - 香港_8
+      - 香港_9
+      - 香港_10
+      - 香港_11
+      - 香港_12
+      - 香港_13
+      - CATROJAN-23|free-nodes
       - _KR_韩国
       - _KR_韩国_1
       - _US_美国_2
